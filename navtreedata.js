@@ -26,13 +26,31 @@ var NAVTREE =
 [
   [ "3D Forest", "index.html", [
     [ "User Manual", "index.html", null ],
-    [ "Developer Guide", "developerguide.html", "developerguide" ]
+    [ "Developer Guide", "de/de9/developerguide.html", "de/de9/developerguide" ],
+    [ "Classes", "annotated.html", [
+      [ "Class List", "annotated.html", "annotated_dup" ],
+      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
+      [ "Class Members", "functions.html", [
+        [ "All", "functions.html", "functions_dup" ],
+        [ "Functions", "functions_func.html", "functions_func" ],
+        [ "Variables", "functions_vars.html", "functions_vars" ],
+        [ "Enumerations", "functions_enum.html", null ],
+        [ "Enumerator", "functions_eval.html", null ],
+        [ "Related Functions", "functions_rela.html", null ]
+      ] ]
+    ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"cheatsheet.html"
+"annotated.html",
+"d3/d58/classLasFile.html#a75ca97bb5ce5b57d52cfbfdec891987b",
+"d4/ddb/classIndexFile.html#a81646f81cec564c80360b46a13a67582",
+"d6/d8f/developerguide_git.html",
+"da/d03/classMatrix4.html#ab24760b5fdf4cac34df976d6820394c2",
+"dc/de6/classDatasetList.html#a2f58c697a4037dcb4def56f13974b342",
+"functions_vars_g.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

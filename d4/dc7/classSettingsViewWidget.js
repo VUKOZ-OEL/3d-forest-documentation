@@ -1,0 +1,37 @@
+var classSettingsViewWidget =
+[
+    [ "Column", "d4/dc7/classSettingsViewWidget.html#af055c6a6a20d9f6d075c458156d1c9da", [
+      [ "COLUMN_CHECKED", "d4/dc7/classSettingsViewWidget.html#af055c6a6a20d9f6d075c458156d1c9daa10da7636913344e9211c8672a2d6c9ba", null ],
+      [ "COLUMN_ID", "d4/dc7/classSettingsViewWidget.html#af055c6a6a20d9f6d075c458156d1c9daaccb1ca8b6fd5c55d78e01af819773daf", null ],
+      [ "COLUMN_LABEL", "d4/dc7/classSettingsViewWidget.html#af055c6a6a20d9f6d075c458156d1c9daa22efa8f18b933001e2ef760fe636a5e2", null ],
+      [ "COLUMN_OPACITY", "d4/dc7/classSettingsViewWidget.html#af055c6a6a20d9f6d075c458156d1c9daab2e94cc204ea36aacd388de420808db4", null ],
+      [ "COLUMN_LAST", "d4/dc7/classSettingsViewWidget.html#af055c6a6a20d9f6d075c458156d1c9daa1823abf5582e69faeb2b7c599fb2b4f6", null ]
+    ] ],
+    [ "SettingsViewWidget", "d4/dc7/classSettingsViewWidget.html#a68665c24478a2424e949c3f2859190a5", null ],
+    [ "addItem", "d4/dc7/classSettingsViewWidget.html#ac958adb9c8bcc077b8542246197c4166", null ],
+    [ "block", "d4/dc7/classSettingsViewWidget.html#af9219907788cf6a5abeccdd63064ee09", null ],
+    [ "colorDialog", "d4/dc7/classSettingsViewWidget.html#af415598074e30164f529aea8a7f75c7f", null ],
+    [ "index", "d4/dc7/classSettingsViewWidget.html#aaa970a743fd7e6c8641258da66598b84", null ],
+    [ "setColor", "d4/dc7/classSettingsViewWidget.html#adf5d95016bf99b59463ad2de7a3804d0", null ],
+    [ "setColorSource", "d4/dc7/classSettingsViewWidget.html#a93c5a5c39d678bb33fd80c75d589662f", null ],
+    [ "setSettings", "d4/dc7/classSettingsViewWidget.html#a2ec50e8a8064842b44080f258908aee3", null ],
+    [ "settingsChanged", "d4/dc7/classSettingsViewWidget.html#ab8dbe7a06e5c0bb346a5c08939dc7689", null ],
+    [ "settingsChangedApply", "d4/dc7/classSettingsViewWidget.html#a5cdea38686e15cd48da7435cfe4f5e06", null ],
+    [ "slotClearSelection", "d4/dc7/classSettingsViewWidget.html#af3094965ac121d5948529bc259f0a625", null ],
+    [ "slotItemChanged", "d4/dc7/classSettingsViewWidget.html#a0a7085cefb3f99cfe47a7d10a91656ae", null ],
+    [ "slotSetColorBg", "d4/dc7/classSettingsViewWidget.html#a50e7f0f068499688d89560b09639c393", null ],
+    [ "slotSetColorFg", "d4/dc7/classSettingsViewWidget.html#a1e4504035e9a296ae98a5ef6ab56627a", null ],
+    [ "slotSetFogEnabled", "d4/dc7/classSettingsViewWidget.html#a0704e9ce69e3a4269f1b345424143944", null ],
+    [ "slotSetPointSize", "d4/dc7/classSettingsViewWidget.html#a02d9c31411df39597e07e0ea7e35264b", null ],
+    [ "slotUpdate", "d4/dc7/classSettingsViewWidget.html#ada26dd0aa27b9b172ad6dc75498488d1", null ],
+    [ "unblock", "d4/dc7/classSettingsViewWidget.html#a18cb5d50304282bf6a93cb8186039d10", null ],
+    [ "updateTree", "d4/dc7/classSettingsViewWidget.html#a051a775243f109086a5edc85047972c8", null ],
+    [ "colorBgButton_", "d4/dc7/classSettingsViewWidget.html#a3d6310dcaca50de4763c9f9dfa16d647", null ],
+    [ "colorFgButton_", "d4/dc7/classSettingsViewWidget.html#afb74afcb3eadfeeeadc77689be63d8ca", null ],
+    [ "deselectButton_", "d4/dc7/classSettingsViewWidget.html#a20570caffac911899a79c5d36094c6b2", null ],
+    [ "fogCheckBox_", "d4/dc7/classSettingsViewWidget.html#a09ea968f39b6f6613f585f5e8ea3027a", null ],
+    [ "mainWindow_", "d4/dc7/classSettingsViewWidget.html#ac8eb4b5574a7d925182221d3f5ae60ec", null ],
+    [ "pointSizeSlider_", "d4/dc7/classSettingsViewWidget.html#ae60957ac30b968e3427b4928bfea05e7", null ],
+    [ "settings_", "d4/dc7/classSettingsViewWidget.html#aafa5c62139d36e1db97fb257ca52aa11", null ],
+    [ "tree_", "d4/dc7/classSettingsViewWidget.html#a83048409d34071a04fbccb1ab4fef924", null ]
+];
