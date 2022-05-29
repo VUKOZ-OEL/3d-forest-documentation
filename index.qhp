@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+<namespace>3dforest</namespace>
+<virtualFolder>doc</virtualFolder>
+<filterSection>
+<filterAttribute>doxygen</filterAttribute>
+<toc>
+<section title="3D Forest" ref="index.html">
+<section title="User Manual" ref="index.html"/>
+<section title="Developer Guide" ref="developerguide.html">
+<section title="Cheat Sheet" ref="cheatsheet.html">
+<section title="Git" ref="cheatsheet_git.html"/>
+<section title="Build" ref="cheatsheet_build.html">
+<section title="Prerequisites" ref="cheatsheet_build.html#Prerequisites"/>
+<section title="Variants" ref="cheatsheet_build.html#Variants"/>
+<section title="Build Using &quot;Unix Makefiles&quot; on Linux" ref="cheatsheet_build_linux_make.html"/>
+<section title="Build Using &quot;MinGW Makefiles&quot; on Windows" ref="cheatsheet_build_windows_make.html"/>
+</section>
+<section title="Development" ref="cheatsheet_development.html"/>
+<section title="File Names" ref="cheatsheet_filenames.html"/>
+<section title="Code Style" ref="cheatsheet_code.html"/>
+<section title="CMake Build Script" ref="cheatsheet_cmake.html"/>
+<section title="Doxygen" ref="cheatsheet_doxygen.html"/>
+<section title="Generate Help Manuals" ref="cheatsheet_documentation.html"/>
+<section title="Qt Designer" ref="cheatsheet_qtdesigner.html"/>
+<section title="Commands" ref="cheatsheet_commands.html"/>
+<section title="Edit Source Code with Visual Studio Code" ref="cheatsheet_vscode_edit.html"/>
+<section title="Build and Debug in Visual Studio Code" ref="cheatsheet_vscode_debug.html"/>
+<section title="Adding Third Party Libraries" ref="cheatsheet_3rd_party.html"/>
+</section>
+</section>
+</section>
+</toc>
+<keywords>
+<keyword name="Cheat Sheet" id="Cheat Sheet_" ref="cheatsheet.html"/>
+<keyword name="Git" id="Git_" ref="cheatsheet_git.html"/>
+<keyword name="Build" id="Build_" ref="cheatsheet_build.html"/>
+<keyword name="Build Using &quot;Unix Makefiles&quot; on Linux" id="Build Using &quot;Unix Makefiles&quot; on Linux_" ref="cheatsheet_build_linux_make.html"/>
+<keyword name="Build Using &quot;MinGW Makefiles&quot; on Windows" id="Build Using &quot;MinGW Makefiles&quot; on Windows_" ref="cheatsheet_build_windows_make.html"/>
+<keyword name="Development" id="Development_" ref="cheatsheet_development.html"/>
+<keyword name="File Names" id="File Names_" ref="cheatsheet_filenames.html"/>
+<keyword name="Code Style" id="Code Style_" ref="cheatsheet_code.html"/>
+<keyword name="CMake Build Script" id="CMake Build Script_" ref="cheatsheet_cmake.html"/>
+<keyword name="Doxygen" id="Doxygen_" ref="cheatsheet_doxygen.html"/>
+<keyword name="Generate Help Manuals" id="Generate Help Manuals_" ref="cheatsheet_documentation.html"/>
+<keyword name="Qt Designer" id="Qt Designer_" ref="cheatsheet_qtdesigner.html"/>
+<keyword name="Commands" id="Commands_" ref="cheatsheet_commands.html"/>
+<keyword name="Edit Source Code with Visual Studio Code" id="Edit Source Code with Visual Studio Code_" ref="cheatsheet_vscode_edit.html"/>
+<keyword name="Build and Debug in Visual Studio Code" id="Build and Debug in Visual Studio Code_" ref="cheatsheet_vscode_debug.html"/>
+<keyword name="Adding Third Party Libraries" id="Adding Third Party Libraries_" ref="cheatsheet_3rd_party.html"/>
+<keyword name="Developer Guide" id="Developer Guide_" ref="developerguide.html"/>
+</keywords>
+<files>
+<file>3dforest-48.png</file>
+<file>bc_s.png</file>
+<file>bdwn.png</file>
+<file>cheatsheet.html</file>
+<file>cheatsheet_3rd_party.html</file>
+<file>cheatsheet_build.html</file>
+<file>cheatsheet_build_linux_make.html</file>
+<file>cheatsheet_build_windows_make.html</file>
+<file>cheatsheet_cmake.html</file>
+<file>cheatsheet_code.html</file>
+<file>cheatsheet_commands.html</file>
+<file>cheatsheet_development.html</file>
+<file>cheatsheet_documentation.html</file>
+<file>cheatsheet_doxygen.html</file>
+<file>cheatsheet_filenames.html</file>
+<file>cheatsheet_git.html</file>
+<file>cheatsheet_qtdesigner.html</file>
+<file>cheatsheet_vscode_debug.html</file>
+<file>cheatsheet_vscode_edit.html</file>
+<file>closed.png</file>
+<file>developerguide.html</file>
+<file>dir_5fcb8f4d804e1e8b99363eafc305c7c4.html</file>
+<file>dir_89c8dc4f5d023b011dbd89111b88e07f.html</file>
+<file>dir_e68e8157741866f444e17edd764ebbae.html</file>
+<file>doc.png</file>
+<file>doxygen.css</file>
+<file>doxygen.svg</file>
+<file>dynsections.js</file>
+<file>folderclosed.png</file>
+<file>folderopen.png</file>
+<file>gui.png</file>
+<file>index.html</file>
+<file>jquery.js</file>
+<file>menu.js</file>
+<file>menudata.js</file>
+<file>nav_f.png</file>
+<file>nav_g.png</file>
+<file>nav_h.png</file>
+<file>open.png</file>
+<file>pages.html</file>
+<file>splitbar.png</file>
+<file>sync_off.png</file>
+<file>sync_on.png</file>
+<file>tab_a.png</file>
+<file>tab_b.png</file>
+<file>tab_h.png</file>
+<file>tab_s.png</file>
+<file>tabs.css</file>
+</files>
+</filterSection>
+</QtHelpProject>
