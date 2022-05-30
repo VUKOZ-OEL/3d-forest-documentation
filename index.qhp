@@ -98,22 +98,22 @@
 <section title="enabled" ref="classClassification.html#ad7a554b13846cb415ce15bac1f783f07"/>
 <section title="label" ref="classClassification.html#ad1937ce38b0acd0e6b8fc605d438cec0"/>
 </section>
-<section title="ClassificationList" ref="classClassificationList.html">
-<section title="ClassificationList" ref="classClassificationList.html#a20a17cd1f29cb3512d4cf5fe5aaade57"/>
-<section title="clear" ref="classClassificationList.html#a308eb06d7993629a2295e8657ba09a8e"/>
-<section title="enabledList" ref="classClassificationList.html#a0d529861f336d39fcb230306b0ff61f8"/>
-<section title="isEnabled" ref="classClassificationList.html#a2cf7a3b0084f794c60e623c3f1574180"/>
-<section title="isEnabled" ref="classClassificationList.html#a56beb7d736376ae7e94d54e3ebcaa715"/>
-<section title="label" ref="classClassificationList.html#a9f151e06cd837ac18a2d4ce4a85715bc"/>
-<section title="read" ref="classClassificationList.html#ad9da207a3be0d31c434455da63687362"/>
-<section title="setEnabled" ref="classClassificationList.html#af88ca7556eb3519bed3ab8a269f36fb5"/>
-<section title="setEnabled" ref="classClassificationList.html#a0ca5bc5df87c61f2729517322e25e96b"/>
-<section title="setEnabledAll" ref="classClassificationList.html#a5795f2088262f7fb8f78d54573c88e15"/>
-<section title="setInvertAll" ref="classClassificationList.html#a47460e3f739191e9f54f05759871ad06"/>
-<section title="size" ref="classClassificationList.html#a29a109627c6a6a1f0388ee2fbe1dbd92"/>
-<section title="write" ref="classClassificationList.html#a1fb52d7823e401f09ca97bb7719ac55a"/>
-<section title="classes_" ref="classClassificationList.html#a0eb13cc39bbd4e67cf802f78a2b6581b"/>
-<section title="enabled_" ref="classClassificationList.html#af83507a4296355f9d66721fdaf700876"/>
+<section title="Classifications" ref="classClassifications.html">
+<section title="Classifications" ref="classClassifications.html#a567c666740d6c0584930b9fad8ac53fb"/>
+<section title="clear" ref="classClassifications.html#ac46944dc061e93bee1b6910c56bfb7d9"/>
+<section title="enabledList" ref="classClassifications.html#afc074909123d2b0d6c6751d5158e348d"/>
+<section title="isEnabled" ref="classClassifications.html#a754dd9ca4af65b4a31e4333cf04a6dee"/>
+<section title="isEnabled" ref="classClassifications.html#a25c7d53895a2067bb0e1430f16f59f19"/>
+<section title="label" ref="classClassifications.html#a10cc4574c16e89327f6cd5685329b04a"/>
+<section title="read" ref="classClassifications.html#ae23f053637c829d2aaca68aa93d310ca"/>
+<section title="setEnabled" ref="classClassifications.html#aadcd881fba3aaf4fd3c3ba4b95de19a9"/>
+<section title="setEnabled" ref="classClassifications.html#ac99e67d98d954559a3f379d3b2965d93"/>
+<section title="setEnabledAll" ref="classClassifications.html#a019154d079a3bdddb0813fe82e1ea226"/>
+<section title="setInvertAll" ref="classClassifications.html#a8deaa9f3f20fcbc2151c52b1ff126b71"/>
+<section title="size" ref="classClassifications.html#a1e174f7811967adc88b11683c6f9a746"/>
+<section title="write" ref="classClassifications.html#ace1b3b2e4026ee45e1fb31d3bbb2ce40"/>
+<section title="classes_" ref="classClassifications.html#aa39e2d9bb989c41b01ae3914e5524e07"/>
+<section title="enabled_" ref="classClassifications.html#a78671e669038eb812de3ffb9cd9de856"/>
 </section>
 <section title="ClassifyGroundPlugin" ref="classClassifyGroundPlugin.html">
 <section title="ClassifyGroundPlugin" ref="classClassifyGroundPlugin.html#a58a790ac9b049b52cb4e7db5455eb08c"/>
@@ -209,53 +209,53 @@
 <section title="translation_" ref="classDataset.html#a5fa324079e5113012e46806b25540901"/>
 <section title="translationFile_" ref="classDataset.html#a70f375bdd8b7b9c026a65603be292b56"/>
 </section>
-<section title="DatasetList" ref="classDatasetList.html">
-<section title="DatasetList" ref="classDatasetList.html#a0608de5af3fc3f1e0acd27f00a795e2c"/>
-<section title="at" ref="classDatasetList.html#ad8ebd9e697c1de7a44d6a363eb4f5299"/>
-<section title="boundary" ref="classDatasetList.html#a1f9cc7dbb9fe7de7436f00027aaf6d70"/>
-<section title="clear" ref="classDatasetList.html#aadd94b28f2120293a33c7f0e2b49b6cc"/>
-<section title="color" ref="classDatasetList.html#ad1429fb171b68a6755ed195af989f188"/>
-<section title="dateCreated" ref="classDatasetList.html#adaa84158cdc9087bdc7989c42f80e9ac"/>
-<section title="erase" ref="classDatasetList.html#a5a934c3ecce39d3b0bb0f1cb0f11d8aa"/>
-<section title="fileName" ref="classDatasetList.html#a68876e01225212c596d34a587d9ac90b"/>
-<section title="id" ref="classDatasetList.html#aada9c72d88a59eca7d9f8f634ab3392d"/>
-<section title="index" ref="classDatasetList.html#a3adc3be2769630d26c125c72e6d1e843"/>
-<section title="isEnabled" ref="classDatasetList.html#adca65a21ff0894283d02a74f037018b5"/>
-<section title="key" ref="classDatasetList.html#a4b2a844af09872708ea678b7278f8062"/>
-<section title="label" ref="classDatasetList.html#a7169bc43d8807f5f01cbabecb5b0ed3d"/>
-<section title="nPoints" ref="classDatasetList.html#a955c8e174c668e62a255ec5d50fc48d9"/>
-<section title="read" ref="classDatasetList.html#a541c65ae29e9d112a9a98299638f2e7c"/>
-<section title="read" ref="classDatasetList.html#a5839f046c89118c6978e94977fe88c4b"/>
-<section title="scaling" ref="classDatasetList.html#af8bf51c48c0cf86e499d5a48aeb7c603"/>
-<section title="scalingFile" ref="classDatasetList.html#aca5cf30031383dd768f22ba195597444"/>
-<section title="select" ref="classDatasetList.html#a684f4ab1a57839435aa9e369fa272365"/>
-<section title="setColor" ref="classDatasetList.html#a22787506174431f7f7e285ad41b9d771"/>
-<section title="setEnabled" ref="classDatasetList.html#a00989284feae7255ece6e05e22f668be"/>
-<section title="setEnabledAll" ref="classDatasetList.html#a14ad12132928e0b3ff7285256754d510"/>
-<section title="setInvertAll" ref="classDatasetList.html#a83cae0ba7c1ebcee1b36f86476dfaa4f"/>
-<section title="setLabel" ref="classDatasetList.html#ad188cb5d0f1f997a3076b6b3ceae8b0b"/>
-<section title="setTranslation" ref="classDatasetList.html#a59a6e5f72fb60e469f39f910bddf7c61"/>
-<section title="size" ref="classDatasetList.html#a3e4d2ca8a1b73b0096830871cf68a350"/>
-<section title="translation" ref="classDatasetList.html#ac07a1168ffb36cc483ee6d3972133d52"/>
-<section title="unusedId" ref="classDatasetList.html#a4843f72ab57cae4e597f4f3761e8f6e3"/>
-<section title="updateBoundary" ref="classDatasetList.html#ad07c6dbeb1b5e1d0832b860bfda368d2"/>
-<section title="write" ref="classDatasetList.html#a2f58c697a4037dcb4def56f13974b342"/>
-<section title="boundary_" ref="classDatasetList.html#acaed33f22ffb0a1221b43890dd6a32be"/>
-<section title="datasets_" ref="classDatasetList.html#a91726f062a3fa9a95fdb6be925439bab"/>
-<section title="hashTable_" ref="classDatasetList.html#abe81a3aedd29b7e45d549c4e063afdf2"/>
+<section title="Datasets" ref="classDatasets.html">
+<section title="Datasets" ref="classDatasets.html#aa45649f89c17953ae780aaa288a4b6b5"/>
+<section title="at" ref="classDatasets.html#ab9fa1294d85738706221175476987421"/>
+<section title="boundary" ref="classDatasets.html#a9332eff6d4950b94dd65a286a5d3c74c"/>
+<section title="clear" ref="classDatasets.html#a9f92f242b2ff660c37487c30eb99eb1d"/>
+<section title="color" ref="classDatasets.html#a8107c4fb89594df939ecc133c916de0e"/>
+<section title="dateCreated" ref="classDatasets.html#ae342aa547ae284159bfb4f0edd1cc779"/>
+<section title="erase" ref="classDatasets.html#ac1ceab4b205b29c9e800b812c8564d43"/>
+<section title="fileName" ref="classDatasets.html#ae91754d9f50ee287377ade913a1a2010"/>
+<section title="id" ref="classDatasets.html#af67fee980a821fd6490108c959705930"/>
+<section title="index" ref="classDatasets.html#ab72d8e3186d6de2a2d2429db964da703"/>
+<section title="isEnabled" ref="classDatasets.html#aecc5113bbefc04d7534709d4027ebda6"/>
+<section title="key" ref="classDatasets.html#afcf22e1381a97ab1ab77b68486d93c31"/>
+<section title="label" ref="classDatasets.html#a1f84e74e9fce2ea5beaadead7b19b67c"/>
+<section title="nPoints" ref="classDatasets.html#a87d52b7fc9fc4691cff3235057806b6b"/>
+<section title="read" ref="classDatasets.html#a666d39780e5dcb5e7aa6ce8af01438e2"/>
+<section title="read" ref="classDatasets.html#a4f66c3bb0fa5750f2fa7dc9af565792f"/>
+<section title="scaling" ref="classDatasets.html#a4cca417cebae9c678f7c7dcc9c62f19b"/>
+<section title="scalingFile" ref="classDatasets.html#ae23deafc5630ac75f7395f7ce5e065f1"/>
+<section title="select" ref="classDatasets.html#a15fcb11c5c918366868f36a0cce7e8c5"/>
+<section title="setColor" ref="classDatasets.html#acae4451daa86ab361d69fb26d0259822"/>
+<section title="setEnabled" ref="classDatasets.html#a084bf9f255d140113150065101b2f3b9"/>
+<section title="setEnabledAll" ref="classDatasets.html#aec583a095e5045df416e9b12eec214eb"/>
+<section title="setInvertAll" ref="classDatasets.html#a89620625a86f6ed7629094e3a3f3de25"/>
+<section title="setLabel" ref="classDatasets.html#acf56611864e0001c2ce9a91413345e1e"/>
+<section title="setTranslation" ref="classDatasets.html#ac6584722a2d221dcdaf2d6d0badc93aa"/>
+<section title="size" ref="classDatasets.html#a168042bc91bc2a3b3c6950eb509d95fb"/>
+<section title="translation" ref="classDatasets.html#ac120763a29d7086ebd8e12da7b80a359"/>
+<section title="unusedId" ref="classDatasets.html#a82f1caac199a0887c97cb863525f25b2"/>
+<section title="updateBoundary" ref="classDatasets.html#a0e232b4f0037ffc05da3909109020908"/>
+<section title="write" ref="classDatasets.html#a3520b415eb73da371a29cff0229f1fca"/>
+<section title="boundary_" ref="classDatasets.html#a9a0dda7a56827b732a8c3298749c4c04"/>
+<section title="datasets_" ref="classDatasets.html#af3f1626de45607702dec4dd310d2f177"/>
+<section title="hashTable_" ref="classDatasets.html#a29d45e0c8d7fe6d3cf56838584e2b06c"/>
 </section>
 <section title="Editor" ref="classEditor.html">
 <section title="Editor" ref="classEditor.html#ae208b788b6212af03488814462ae40d6"/>
 <section title="~Editor" ref="classEditor.html#ad465abc9575af92b4fa61525085172d6"/>
 <section title="addModifier" ref="classEditor.html#a564ad0325cdad0feb18e6ed36e9e5c5c"/>
 <section title="boundary" ref="classEditor.html#a574d160b748f54fc2190363e4f17a7c1"/>
-<section title="classifications" ref="classEditor.html#aa631fa1927cb59dd9ca03ddbcbd17cc4"/>
+<section title="classifications" ref="classEditor.html#a1e80724a9fe61e693142cb521c841703"/>
 <section title="clipBoundary" ref="classEditor.html#a96fb7187c64c892167c1be7ad8ebe188"/>
 <section title="clipFilter" ref="classEditor.html#ae0018b3445d4c688201590c112aa1532"/>
 <section title="close" ref="classEditor.html#aa7dc8544e104c680c9d2515f442a136b"/>
-<section title="datasets" ref="classEditor.html#a53233e266fd9c35856e67fa334a80d92"/>
+<section title="datasets" ref="classEditor.html#a9ecda11933059d31ea06105810011dee"/>
 <section title="hasUnsavedChanges" ref="classEditor.html#aed131dcb595ff4dbffe4f0ce1d38d095"/>
-<section title="layers" ref="classEditor.html#a2e560fdad6773b63a779f103e5ae04dd"/>
+<section title="layers" ref="classEditor.html#ad5b24880347df3424ea0243b687c4bfa"/>
 <section title="lock" ref="classEditor.html#aa4d63d7e37383e9bc541a21925989e23"/>
 <section title="open" ref="classEditor.html#a5d184614bda00967905941e3f16d6c50"/>
 <section title="openDataset" ref="classEditor.html#a38163856229855b52efe3756c0597d09"/>
@@ -265,10 +265,10 @@
 <section title="resetClipFilter" ref="classEditor.html#aec933e937af394640534bc5b8ba285ee"/>
 <section title="runModifiers" ref="classEditor.html#a110354e5e64c2e88e3d739958ef5da84"/>
 <section title="save" ref="classEditor.html#a4f8c0b6fd9b845cc713b5e36ca2ad384"/>
-<section title="setClassifications" ref="classEditor.html#aeeaca0e176caf1399d5d929468b9e6b0"/>
+<section title="setClassifications" ref="classEditor.html#ab1649227496aec5969ef8a7e5132429c"/>
 <section title="setClipFilter" ref="classEditor.html#a4fdff42c4c102fba2dac842f5abbf7aa"/>
-<section title="setDatasets" ref="classEditor.html#ab911488855b47ce32c61417673408326"/>
-<section title="setLayers" ref="classEditor.html#a8883a7b03e7ddf8ef8919c7af79541b9"/>
+<section title="setDatasets" ref="classEditor.html#ad04484d56d18d9da2218a36038f87e69"/>
+<section title="setLayers" ref="classEditor.html#a0be692fcb710fb01f42195f212b12567"/>
 <section title="setSettingsView" ref="classEditor.html#a44d6145f2efe3944e316421d47b79d12"/>
 <section title="settings" ref="classEditor.html#aa1fa3644ca2b631ecba682207077cec1"/>
 <section title="unlock" ref="classEditor.html#ab86b61dc6b177e79fab2d1926ee1323c"/>
@@ -276,10 +276,10 @@
 <section title="viewports" ref="classEditor.html#ab92648c48738b6b969a542b16a9cdad4"/>
 <section title="viewports" ref="classEditor.html#a17ba09a4210d2ddf4af1ba72cd4c3fe7"/>
 <section title="viewportsResize" ref="classEditor.html#aeaff6e79fd0bf322635814ca1ce259da"/>
-<section title="classifications_" ref="classEditor.html#a1adf760989608511297fd095d718e299"/>
+<section title="classifications_" ref="classEditor.html#aef0b17344d0d7debff0fe64739952162"/>
 <section title="clipFilter_" ref="classEditor.html#a7199627b13b8eec9ce1c7ec2b7f5dcec"/>
-<section title="datasets_" ref="classEditor.html#a50d995350fe226b565530850ec1a349b"/>
-<section title="layers_" ref="classEditor.html#a260836d9af271bd94fb52dbf46a4db50"/>
+<section title="datasets_" ref="classEditor.html#a679212059d7693ad3d44c7227dd2a97c"/>
+<section title="layers_" ref="classEditor.html#a94da1fec94bdc13d4721d1b2907eab27"/>
 <section title="modifiers_" ref="classEditor.html#a9fe765fcb0f461bf1380290ca2df8dda"/>
 <section title="mutex_" ref="classEditor.html#a4d2b12d37cbfc557fefaf512be4ad9c1"/>
 <section title="path_" ref="classEditor.html#af9e294c617b2db0a74cbba0c8e7f75f1"/>
@@ -332,6 +332,12 @@
 <section title="offset_" ref="classFile.html#a9ff524244c429ce8718e8c22ac54d554"/>
 <section title="path_" ref="classFile.html#a1616e6611768dd93dde4f0834255839b"/>
 <section title="size_" ref="classFile.html#a98af0822e51d0c0a359a4f9731b41862"/>
+</section>
+<section title="HelpPlugin" ref="classHelpPlugin.html">
+<section title="HelpPlugin" ref="classHelpPlugin.html#a8e95ad7f0ed77f19f821067f36fcd190"/>
+<section title="slotAbout" ref="classHelpPlugin.html#ad8453a56526bcf6be764713bb94d0521"/>
+<section title="aboutAction_" ref="classHelpPlugin.html#ad84fa97db8a44eaacc069c458e04c15c"/>
+<section title="mainWindow_" ref="classHelpPlugin.html#a563d0d185a581edd2862a49a0e5339b0"/>
 </section>
 <section title="IconTheme" ref="classIconTheme.html">
 <section title="IconTheme" ref="classIconTheme.html#a9cc914b836ef3081799061360a22a18a"/>
@@ -737,35 +743,35 @@
 <section title="id_" ref="classLayer.html#aa7b9dd4e222039bf05b19b4a4b7aef29"/>
 <section title="label_" ref="classLayer.html#a246fc23a8b1858505f6b7feb3c8e9275"/>
 </section>
-<section title="LayerList" ref="classLayerList.html">
-<section title="LayerList" ref="classLayerList.html#a8f0a98793f1f2392cf4e267f65a3e529"/>
-<section title="at" ref="classLayerList.html#afd82a21da3cdafa34f6854c96dec6714"/>
-<section title="clear" ref="classLayerList.html#ae4b3535fab1b29c7d04d05e8183fe9ce"/>
-<section title="color" ref="classLayerList.html#a874cf56cc2a46a058c535e054e733e06"/>
-<section title="enabledList" ref="classLayerList.html#a79ea53e770c7d3203c2fa6e7521386df"/>
-<section title="erase" ref="classLayerList.html#a353a7e823487c220465b23ad206bc986"/>
-<section title="id" ref="classLayerList.html#a033ebac19374c96f91679792bcd41a09"/>
-<section title="index" ref="classLayerList.html#a05a35ff7cef32c646f752bb1784b005e"/>
-<section title="isEnabled" ref="classLayerList.html#af78feafaef040da88a69db2a95878ca7"/>
-<section title="isEnabled" ref="classLayerList.html#a275434a7e6968edb184f0185144854b1"/>
-<section title="isEnabledId" ref="classLayerList.html#a98c46f127bab0859715c4ed853dd87e1"/>
-<section title="label" ref="classLayerList.html#aad77b506ad4fab13f006a0e27f90fb6f"/>
-<section title="push_back" ref="classLayerList.html#a99462570b4cef2bac5ce69a308dcdbd5"/>
-<section title="read" ref="classLayerList.html#a139409f2c851366b148ea7f03174ad5a"/>
-<section title="setColor" ref="classLayerList.html#ac1dbd5a5c7ad08b902d4149e04775876"/>
-<section title="setDefault" ref="classLayerList.html#a5421c6709a4eff10c65251dab8435b6a"/>
-<section title="setEnabled" ref="classLayerList.html#ab207c028f449c98b0546194a3dede5d8"/>
-<section title="setEnabled" ref="classLayerList.html#aaaaa344a3b0f7c109675c5aa9837a369"/>
-<section title="setEnabledAll" ref="classLayerList.html#ab804231585e67a7a2f14c3487414b837"/>
-<section title="setInvertAll" ref="classLayerList.html#a2cd6e4e5292cb3e190ee59fd4fd85cc1"/>
-<section title="setLabel" ref="classLayerList.html#aaddef4e0fdc13f3fdb5ea6be8d7d8664"/>
-<section title="size" ref="classLayerList.html#af981f8845608495f38286da0af26b9af"/>
-<section title="unusedId" ref="classLayerList.html#a491d3a2527befa5cb12a3cd5f87f03b7"/>
-<section title="write" ref="classLayerList.html#a95e0e05975f95cab04afaf30fee14d90"/>
-<section title="enabled_" ref="classLayerList.html#a2d2d573911548613781c68d1f0b16f55"/>
-<section title="hashTableEnabledId_" ref="classLayerList.html#af2d6031a0600dd84b4c0039a29ca8e8f"/>
-<section title="hashTableId_" ref="classLayerList.html#a2d1f54e30afd128e5a98d715ec535e64"/>
-<section title="layers_" ref="classLayerList.html#accf125d5d77131df1c99bff0937d38c0"/>
+<section title="Layers" ref="classLayers.html">
+<section title="Layers" ref="classLayers.html#a05aa5fc771e104e0f514a247d590ea64"/>
+<section title="at" ref="classLayers.html#a128b60178807983a27cd025a182f8e2d"/>
+<section title="clear" ref="classLayers.html#ada568ef81fd3a1803ca5021db850f1de"/>
+<section title="color" ref="classLayers.html#a191353e11bbaed3118711bba20787f93"/>
+<section title="enabledList" ref="classLayers.html#adf352c03ca29ac666231ef8cfc34b40b"/>
+<section title="erase" ref="classLayers.html#a874e8d172e4dde5cf2208406473648a7"/>
+<section title="id" ref="classLayers.html#a0548887377810a1231402e429ba1ca16"/>
+<section title="index" ref="classLayers.html#a6ced81dc6f6c49c22f785917f8a84192"/>
+<section title="isEnabled" ref="classLayers.html#abaf612b5e3ec663efe0c5db4679441fc"/>
+<section title="isEnabled" ref="classLayers.html#ae5c0d01d1b211416f2794f86a8659b6a"/>
+<section title="isEnabledId" ref="classLayers.html#a22e7c4c8a1702fd7e449ba041db1bb82"/>
+<section title="label" ref="classLayers.html#a234dd923c84708c3163cb47b439c4beb"/>
+<section title="push_back" ref="classLayers.html#af8c9aa5fedd7dcecbf12c50e5b3f240f"/>
+<section title="read" ref="classLayers.html#a50d78ecf2fa57b0713a71b3d15844ea6"/>
+<section title="setColor" ref="classLayers.html#a5836b4c6b09413c9b47246706d6cc677"/>
+<section title="setDefault" ref="classLayers.html#a0ac6e08510926b647f093fe2ae37bf65"/>
+<section title="setEnabled" ref="classLayers.html#a9ec5c7dca998a1ecea57d6248a92db5d"/>
+<section title="setEnabled" ref="classLayers.html#ae443849c12a9e92ce8738e934f05fdc2"/>
+<section title="setEnabledAll" ref="classLayers.html#acf90b00925bfd98d876badaf8f05a65f"/>
+<section title="setInvertAll" ref="classLayers.html#ab7f0e9bf5082f892a861a892b44015c1"/>
+<section title="setLabel" ref="classLayers.html#a7e316eb6de0a24dedd9967e40ec92ae7"/>
+<section title="size" ref="classLayers.html#a6f5075043409c3dc9d328d2c997eed73"/>
+<section title="unusedId" ref="classLayers.html#a88215505c4857f542be72fb3eba88b43"/>
+<section title="write" ref="classLayers.html#a38fdb144489376a4d31d3db6e382737a"/>
+<section title="enabled_" ref="classLayers.html#a74d2ae30b1bb4faf7cb2dc0ac1086bd0"/>
+<section title="hashTableEnabledId_" ref="classLayers.html#a61d3ade82dc2ac3ceeb863cdfac12c60"/>
+<section title="hashTableId_" ref="classLayers.html#a091e458d3f3d39950cf0dba7a69d4d80"/>
+<section title="layers_" ref="classLayers.html#acf3b2293a4f2ad287ce84fb06e83ecd2"/>
 </section>
 <section title="MainWindow" ref="classMainWindow.html">
 <section title="MainWindow" ref="classMainWindow.html#a996c5a2b6f77944776856f08ec30858d"/>
@@ -799,6 +805,7 @@
 <section title="APPLICATION_NAME" ref="classMainWindow.html#aec780e3c9de52ce7d77cf87b12d6ae72"/>
 <section title="APPLICATION_VERSION" ref="classMainWindow.html#aae2f8e2f07f5248e11b3364fd2f6ef9a"/>
 <section title="editor_" ref="classMainWindow.html#ac06299c080a47670c5512d2d6df67c7b"/>
+<section title="helpPlugin_" ref="classMainWindow.html#ae9c8c57b833643fecf2064b349c4370d"/>
 <section title="ICON_SIZE" ref="classMainWindow.html#a150bdf9d9accf9a02234e8ee4e7ca05f"/>
 <section title="importPlugin_" ref="classMainWindow.html#a1c1182fffc1446376483b0f606a9450a"/>
 <section title="menu_" ref="classMainWindow.html#afebfc018bdbfa9a00e4043d17aec9c3e"/>
@@ -934,7 +941,7 @@
 <section title="dataChanged" ref="classProjectNavigatorFiles.html#accc152e48bec862be7fe61be26a9525e"/>
 <section title="filterChanged" ref="classProjectNavigatorFiles.html#aed81ace52fe3562d8c861873780a44d3"/>
 <section title="index" ref="classProjectNavigatorFiles.html#a3e0639c0720c42c3703a76290f8391ad"/>
-<section title="setDatasets" ref="classProjectNavigatorFiles.html#a05968495c3fb34cd0200f8acb72ed968"/>
+<section title="setDatasets" ref="classProjectNavigatorFiles.html#aeba7b664b191642968a653bc8ea5919b"/>
 <section title="slotAdd" ref="classProjectNavigatorFiles.html#ae1794e67b9fc81704744df6d0421ec9e"/>
 <section title="slotDelete" ref="classProjectNavigatorFiles.html#a0870b1618571f79dafc0bf634332e897"/>
 <section title="slotHide" ref="classProjectNavigatorFiles.html#a64a8b709f7632ce41f31c683f6cebac5"/>
@@ -948,7 +955,7 @@
 <section title="unblock" ref="classProjectNavigatorFiles.html#adfa5afa112c93bb1d820892578b969eb"/>
 <section title="updateTree" ref="classProjectNavigatorFiles.html#a08bc511e6f2dd88c45c9d4751654e8e3"/>
 <section title="addButton_" ref="classProjectNavigatorFiles.html#a04ad5b24aa513db5a2688ed7d709eb60"/>
-<section title="datasets_" ref="classProjectNavigatorFiles.html#a04aa6f168b44d58b074fcdcec837762d"/>
+<section title="datasets_" ref="classProjectNavigatorFiles.html#a7fa296d80be4985f83b40b1de4702b41"/>
 <section title="deleteButton_" ref="classProjectNavigatorFiles.html#a838652b553ed1656873f7c1c76b97b07"/>
 <section title="hideButton_" ref="classProjectNavigatorFiles.html#a67b2eefc11290a23e3e6cdc14fa0ffdb"/>
 <section title="mainWindow_" ref="classProjectNavigatorFiles.html#ab54307969f842e0a58fdbc627a863d66"/>
@@ -971,7 +978,7 @@
 <section title="dataChanged" ref="classProjectNavigatorLayers.html#a2bb8aaff158facad4783247e82d1f1d0"/>
 <section title="filterChanged" ref="classProjectNavigatorLayers.html#a7f2db56096e81f08b1b759b34a1344be"/>
 <section title="index" ref="classProjectNavigatorLayers.html#af72c7b71b50f9d4906416643770bdd80"/>
-<section title="setLayers" ref="classProjectNavigatorLayers.html#a940c9d3d9b3e034ea76fa8c0d9c28004"/>
+<section title="setLayers" ref="classProjectNavigatorLayers.html#ac9ddd1f1da703e7dddc6e7140ea81418"/>
 <section title="slotAdd" ref="classProjectNavigatorLayers.html#a5c9502a10de098c1ba5e398e874e7a5d"/>
 <section title="slotDelete" ref="classProjectNavigatorLayers.html#a65390dd090bfdb0bca3b354cef5f78a5"/>
 <section title="slotHide" ref="classProjectNavigatorLayers.html#ae454fdb05bb8fcbabd2b075a16a676a4"/>
@@ -987,7 +994,7 @@
 <section title="addButton_" ref="classProjectNavigatorLayers.html#af1540310b6bafa248881e1486a1fcd7d"/>
 <section title="deleteButton_" ref="classProjectNavigatorLayers.html#a4191fde225ef6aa18ce66a74bef7fd04"/>
 <section title="hideButton_" ref="classProjectNavigatorLayers.html#a776f587d1f340a1ee7e2aac29c9ce8b0"/>
-<section title="layers_" ref="classProjectNavigatorLayers.html#a286704b97cb616acdf62f6e60cd74b9d"/>
+<section title="layers_" ref="classProjectNavigatorLayers.html#a0177094c7907e795959135e66c61adb0"/>
 <section title="mainWindow_" ref="classProjectNavigatorLayers.html#a52c00a2909e17c0c8e80d64a2ab6b7f6"/>
 <section title="selectAllButton_" ref="classProjectNavigatorLayers.html#a9e20be9131dd233548274b96b321d93b"/>
 <section title="selectInvertButton_" ref="classProjectNavigatorLayers.html#abe17f07fcd5ecb3e752b7cc3889f46e9"/>
@@ -1032,9 +1039,9 @@
 <section title="intensity" ref="classQuery.html#ab95da3fd381184a8bf948bc1875ace3a"/>
 <section title="layer" ref="classQuery.html#a06ce11ada8f978ded161027318a9aec1"/>
 <section title="maximumResults" ref="classQuery.html#a7e11ffea099daae843ed4244ba14b14b"/>
+<section title="next" ref="classQuery.html#a51988eba61bad20f421e3bb7cc6178b7"/>
 <section title="nextGrid" ref="classQuery.html#a941ddb696a5a2f31f029535ebfcf8ef4"/>
 <section title="nextPage" ref="classQuery.html#ac11de23ddf582cbb6196cc4b84860be5"/>
-<section title="nextPoint" ref="classQuery.html#a7a1e2895a5ac1a94f73f9bfb4c5ba6ba"/>
 <section title="nextState" ref="classQuery.html#a6b9b03ef046ef9d12eeff0b8c3c1d727"/>
 <section title="numberOfReturns" ref="classQuery.html#a77b11c3e3ed9d3e6afe0a4e565a28605"/>
 <section title="page" ref="classQuery.html#aa0db33f35f4bb68ada5c356a57204424"/>
@@ -1539,13 +1546,13 @@
 <section title="ChunkFile::Chunk" ref="structChunkFile_1_1Chunk.html"/>
 <section title="ChunkFile" ref="classChunkFile.html"/>
 <section title="Classification" ref="classClassification.html"/>
-<section title="ClassificationList" ref="classClassificationList.html"/>
+<section title="Classifications" ref="classClassifications.html"/>
 <section title="ColorPalette" ref="classColorPalette.html"/>
 <section title="Cone&lt; T &gt;" ref="classCone.html"/>
 <section title="Cone&lt; double &gt;" ref="classCone.html"/>
 <section title="Json::Data" ref="classJson_1_1Data.html"/>
 <section title="Dataset" ref="classDataset.html"/>
-<section title="DatasetList" ref="classDatasetList.html"/>
+<section title="Datasets" ref="classDatasets.html"/>
 <section title="Editor" ref="classEditor.html"/>
 <section title="File" ref="classFile.html"/>
 <section title="LasFile::Header" ref="structLasFile_1_1Header.html"/>
@@ -1556,7 +1563,7 @@
 <section title="LasFile" ref="classLasFile.html"/>
 <section title="LasFile" ref="classLasFile_1_1cpp_1_1LasFile.html"/>
 <section title="Layer" ref="classLayer.html"/>
-<section title="LayerList" ref="classLayerList.html"/>
+<section title="Layers" ref="classLayers.html"/>
 <section title="Matrix4&lt; T &gt;" ref="classMatrix4.html"/>
 <section title="ModifierInterface" ref="classModifierInterface.html"/>
 <section title="IndexFile::Node" ref="structIndexFile_1_1Node.html"/>
@@ -1582,6 +1589,7 @@
 </section>
 <section title="QObject" ref="">
 <section title="ClassifyGroundPlugin" ref="classClassifyGroundPlugin.html"/>
+<section title="HelpPlugin" ref="classHelpPlugin.html"/>
 <section title="ImportPlugin" ref="classImportPlugin.html"/>
 <section title="ProjectFilePlugin" ref="classProjectFilePlugin.html"/>
 <section title="ProjectNavigatorPlugin" ref="classProjectNavigatorPlugin.html"/>
@@ -1723,7 +1731,7 @@
 <keyword name="ChunkFile::Chunk" id="ChunkFile::Chunk_" ref="structChunkFile_1_1Chunk.html"/>
 <keyword name="ChunkFile" id="ChunkFile_" ref="classChunkFile.html"/>
 <keyword name="Classification" id="Classification_" ref="classClassification.html"/>
-<keyword name="ClassificationList" id="ClassificationList_" ref="classClassificationList.html"/>
+<keyword name="Classifications" id="Classifications_" ref="classClassifications.html"/>
 <keyword name="ClassifyGroundPlugin" id="ClassifyGroundPlugin_" ref="classClassifyGroundPlugin.html"/>
 <keyword name="ClassifyGroundWindow" id="ClassifyGroundWindow_" ref="classClassifyGroundWindow.html"/>
 <keyword name="ColorPalette" id="ColorPalette_" ref="classColorPalette.html"/>
@@ -1731,10 +1739,11 @@
 <keyword name="Cone&lt; double &gt;" id="Cone&lt; double &gt;_" ref="classCone.html"/>
 <keyword name="Json::Data" id="Json::Data_" ref="classJson_1_1Data.html"/>
 <keyword name="Dataset" id="Dataset_" ref="classDataset.html"/>
-<keyword name="DatasetList" id="DatasetList_" ref="classDatasetList.html"/>
+<keyword name="Datasets" id="Datasets_" ref="classDatasets.html"/>
 <keyword name="Editor" id="Editor_" ref="classEditor.html"/>
 <keyword name="File" id="File_" ref="classFile.html"/>
 <keyword name="LasFile::Header" id="LasFile::Header_" ref="structLasFile_1_1Header.html"/>
+<keyword name="HelpPlugin" id="HelpPlugin_" ref="classHelpPlugin.html"/>
 <keyword name="IconTheme" id="IconTheme_" ref="classIconTheme.html"/>
 <keyword name="ImportDialog" id="ImportDialog_" ref="classImportDialog.html"/>
 <keyword name="ImportPlugin" id="ImportPlugin_" ref="classImportPlugin.html"/>
@@ -1745,7 +1754,7 @@
 <keyword name="LasFile" id="LasFile_" ref="classLasFile.html"/>
 <keyword name="LasFile::cpp::LasFile" id="LasFile::cpp::LasFile_" ref="classLasFile_1_1cpp_1_1LasFile.html"/>
 <keyword name="Layer" id="Layer_" ref="classLayer.html"/>
-<keyword name="LayerList" id="LayerList_" ref="classLayerList.html"/>
+<keyword name="Layers" id="Layers_" ref="classLayers.html"/>
 <keyword name="MainWindow" id="MainWindow_" ref="classMainWindow.html"/>
 <keyword name="Matrix4" id="Matrix4_" ref="classMatrix4.html"/>
 <keyword name="ModifierInterface" id="ModifierInterface_" ref="classModifierInterface.html"/>
@@ -1802,6 +1811,7 @@
 <keyword name="Generate Help Manuals" id="Generate Help Manuals_" ref="developerguide_documentation.html"/>
 <keyword name="Adding Third Party Libraries" id="Adding Third Party Libraries_" ref="developerguide_3rd_party.html"/>
 <keyword name="aabb_" id="ViewerOpenGLViewport::aabb__a9d122da83b74df68ef915b999c023276" ref="classViewerOpenGLViewport.html#a9d122da83b74df68ef915b999c023276"/>
+<keyword name="aboutAction_" id="HelpPlugin::aboutAction__ad84fa97db8a44eaacc069c458e04c15c" ref="classHelpPlugin.html#ad84fa97db8a44eaacc069c458e04c15c"/>
 <keyword name="acceptButton_" id="ImportDialog::acceptButton__ae1be903589ef5e1190879aa87aaa82b7" ref="classImportDialog.html#ae1be903589ef5e1190879aa87aaa82b7"/>
 <keyword name="actionExit_" id="MainWindow::actionExit__a0031324e0de276a8356ec8fd81851d73" ref="classMainWindow.html#a0031324e0de276a8356ec8fd81851d73"/>
 <keyword name="actionImport_" id="ImportPlugin::actionImport__a4263519274972bf8f8b84fda8b23a2f0" ref="classImportPlugin.html#a4263519274972bf8f8b84fda8b23a2f0"/>
@@ -1840,10 +1850,10 @@
 <keyword name="applyButton_" id="ClassifyGroundWindow::applyButton__a553a69dd76bee7172b15b6a393c9b8b3" ref="classClassifyGroundWindow.html#a553a69dd76bee7172b15b6a393c9b8b3"/>
 <keyword name="array" id="Json::Data::array_a5811002ff73eebae1fd61677a0993a4a" ref="classJson_1_1Data.html#a5811002ff73eebae1fd61677a0993a4a"/>
 <keyword name="array() const" id="Json::array_a2294b996718e1291220c72325e4a63c2" ref="classJson.html#a2294b996718e1291220c72325e4a63c2"/>
-<keyword name="at(size_t i) const" id="DatasetList::at_ad8ebd9e697c1de7a44d6a363eb4f5299" ref="classDatasetList.html#ad8ebd9e697c1de7a44d6a363eb4f5299"/>
+<keyword name="at(size_t i) const" id="Datasets::at_ab9fa1294d85738706221175476987421" ref="classDatasets.html#ab9fa1294d85738706221175476987421"/>
 <keyword name="at(size_t idx) const" id="IndexFile::at_a2b8df0c7a66004831e58a739d62311fb" ref="classIndexFile.html#a2b8df0c7a66004831e58a739d62311fb"/>
 <keyword name="at(size_t idx)" id="IndexFile::at_abf5c0ebbfc16362bee1e55c0d2d759ac" ref="classIndexFile.html#abf5c0ebbfc16362bee1e55c0d2d759ac"/>
-<keyword name="at(size_t i) const" id="LayerList::at_afd82a21da3cdafa34f6854c96dec6714" ref="classLayerList.html#afd82a21da3cdafa34f6854c96dec6714"/>
+<keyword name="at(size_t i) const" id="Layers::at_a128b60178807983a27cd025a182f8e2d" ref="classLayers.html#a128b60178807983a27cd025a182f8e2d"/>
 <keyword name="background_" id="SettingsView::background__a97b86bd182a8f52c774fb37cf99be2b9" ref="classSettingsView.html#a97b86bd182a8f52c774fb37cf99be2b9"/>
 <keyword name="backgroundColor() const" id="SettingsView::backgroundColor_a533d5411ec965c2dc1e7dadefe8df209" ref="classSettingsView.html#a533d5411ec965c2dc1e7dadefe8df209"/>
 <keyword name="BlackGreen16" id="ColorPalette::BlackGreen16_adfe3672a1f8c991b61c0c572fefdbec2" ref="classColorPalette.html#adfe3672a1f8c991b61c0c572fefdbec2"/>
@@ -1860,12 +1870,12 @@
 <keyword name="BlueCyanYellowRed256" id="ColorPalette::BlueCyanYellowRed256_acc5f025838a40ce269e834e222669677" ref="classColorPalette.html#acc5f025838a40ce269e834e222669677"/>
 <keyword name="BlueYellow16" id="ColorPalette::BlueYellow16_a5ae355dda5ed15146322cee4d533b4eb" ref="classColorPalette.html#a5ae355dda5ed15146322cee4d533b4eb"/>
 <keyword name="boundary() const" id="Dataset::boundary_a4a7988915474cc1c303d5fdd542d5e3b" ref="classDataset.html#a4a7988915474cc1c303d5fdd542d5e3b"/>
-<keyword name="boundary() const" id="DatasetList::boundary_a1f9cc7dbb9fe7de7436f00027aaf6d70" ref="classDatasetList.html#a1f9cc7dbb9fe7de7436f00027aaf6d70"/>
+<keyword name="boundary() const" id="Datasets::boundary_a9332eff6d4950b94dd65a286a5d3c74c" ref="classDatasets.html#a9332eff6d4950b94dd65a286a5d3c74c"/>
 <keyword name="boundary() const" id="Editor::boundary_a574d160b748f54fc2190363e4f17a7c1" ref="classEditor.html#a574d160b748f54fc2190363e4f17a7c1"/>
 <keyword name="boundary() const" id="IndexFile::boundary_a75e16dbe26a53425b1f3f336b9b2b812" ref="classIndexFile.html#a75e16dbe26a53425b1f3f336b9b2b812"/>
 <keyword name="boundary(const Node *node, const Box&lt; double &gt; &amp;box) const" id="IndexFile::boundary_a11bd1beb96fdf52ccfe55459bb665fca" ref="classIndexFile.html#a11bd1beb96fdf52ccfe55459bb665fca"/>
 <keyword name="boundary_" id="Dataset::boundary__a36e6f3885cafefba777e979225ae1770" ref="classDataset.html#a36e6f3885cafefba777e979225ae1770"/>
-<keyword name="boundary_" id="DatasetList::boundary__acaed33f22ffb0a1221b43890dd6a32be" ref="classDatasetList.html#acaed33f22ffb0a1221b43890dd6a32be"/>
+<keyword name="boundary_" id="Datasets::boundary__a9a0dda7a56827b732a8c3298749c4c04" ref="classDatasets.html#a9a0dda7a56827b732a8c3298749c4c04"/>
 <keyword name="boundary_" id="IndexFile::boundary__aa7a8e8997e3e0ace358aae190640b3b2" ref="classIndexFile.html#aa7a8e8997e3e0ace358aae190640b3b2"/>
 <keyword name="boundary_" id="IndexFileBuilder::boundary__aa95527a757f2bb33e9848e17547f99a6" ref="classIndexFileBuilder.html#aa95527a757f2bb33e9848e17547f99a6"/>
 <keyword name="boundaryFile_" id="Dataset::boundaryFile__ae32057eeb35cae50f8c42e2911737ab2" ref="classDataset.html#ae32057eeb35cae50f8c42e2911737ab2"/>
@@ -1901,9 +1911,9 @@
 <keyword name="cacheSize() const" id="Query::cacheSize_a5dbf40e29aa23c70709d90d0559edb76" ref="classQuery.html#a5dbf40e29aa23c70709d90d0559edb76"/>
 <keyword name="cacheSizeMax_" id="Query::cacheSizeMax__a78a89c437116645be190d3e1a2a1ad45" ref="classQuery.html#a78a89c437116645be190d3e1a2a1ad45"/>
 <keyword name="callback_" id="Thread::callback__a47bd120decee0b00e6dce50994cd5e0c" ref="classThread.html#a47bd120decee0b00e6dce50994cd5e0c"/>
+<keyword name="Camera()" id="Camera::Camera_a01f94c3543f56ede7af49dc778f19331" ref="classCamera.html#a01f94c3543f56ede7af49dc778f19331"/>
 <keyword name="camera() const" id="ViewerOpenGLViewport::camera_a1797ab3e2311064f3287e90327147aa3" ref="classViewerOpenGLViewport.html#a1797ab3e2311064f3287e90327147aa3"/>
 <keyword name="camera(size_t viewportId) const" id="ViewerViewports::camera_a071c47f25ca702f5ad58a62ae4b6b24d" ref="classViewerViewports.html#a071c47f25ca702f5ad58a62ae4b6b24d"/>
-<keyword name="Camera()" id="Camera::Camera_a01f94c3543f56ede7af49dc778f19331" ref="classCamera.html#a01f94c3543f56ede7af49dc778f19331"/>
 <keyword name="camera_" id="RenderThread::camera__af3d22371395b2cffa2bc438d8c6ae0f5" ref="classRenderThread.html#af3d22371395b2cffa2bc438d8c6ae0f5"/>
 <keyword name="camera_" id="ViewerOpenGLViewport::camera__a27d22f053f9024c6ba9507cfa96378a0" ref="classViewerOpenGLViewport.html#a27d22f053f9024c6ba9507cfa96378a0"/>
 <keyword name="cameraChanged()" id="ViewerOpenGLViewport::cameraChanged_adf6b4ee0fc6f8df2c3525e93ded8ab11" ref="classViewerOpenGLViewport.html#adf6b4ee0fc6f8df2c3525e93ded8ab11"/>
@@ -1924,7 +1934,7 @@
 <keyword name="CLASS_MEDIUM_VEGETATION" id="LasFile::CLASS_MEDIUM_VEGETATION_a23ca2c79a141774dc33b80f1b8c7127cafa65ad36954bb12d367461d4d25b22d0" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127cafa65ad36954bb12d367461d4d25b22d0"/>
 <keyword name="CLASS_NEVER_CLASSIFIED" id="LasFile::CLASS_NEVER_CLASSIFIED_a23ca2c79a141774dc33b80f1b8c7127cafe6a5504256abd4980819a85a5467508" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127cafe6a5504256abd4980819a85a5467508"/>
 <keyword name="CLASS_UNASSIGNED" id="LasFile::CLASS_UNASSIGNED_a23ca2c79a141774dc33b80f1b8c7127cac9e261db850bde2a104cabd4f70cd29e" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127cac9e261db850bde2a104cabd4f70cd29e"/>
-<keyword name="classes_" id="ClassificationList::classes__a0eb13cc39bbd4e67cf802f78a2b6581b" ref="classClassificationList.html#a0eb13cc39bbd4e67cf802f78a2b6581b"/>
+<keyword name="classes_" id="Classifications::classes__aa39e2d9bb989c41b01ae3914e5524e07" ref="classClassifications.html#aa39e2d9bb989c41b01ae3914e5524e07"/>
 <keyword name="Classification" id="LasFile::Classification_a23ca2c79a141774dc33b80f1b8c7127c" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127c"/>
 <keyword name="CLASS_NEVER_CLASSIFIED" id="LasFile::CLASS_NEVER_CLASSIFIED_a23ca2c79a141774dc33b80f1b8c7127cafe6a5504256abd4980819a85a5467508" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127cafe6a5504256abd4980819a85a5467508"/>
 <keyword name="CLASS_UNASSIGNED" id="LasFile::CLASS_UNASSIGNED_a23ca2c79a141774dc33b80f1b8c7127cac9e261db850bde2a104cabd4f70cd29e" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127cac9e261db850bde2a104cabd4f70cd29e"/>
@@ -1939,9 +1949,9 @@
 <keyword name="classification()" id="Query::classification_a019601f80fc296ef862d2f32f6b69f68" ref="classQuery.html#a019601f80fc296ef862d2f32f6b69f68"/>
 <keyword name="classification_" id="Query::classification__a876ab134e57df7cae49579c08e06c0a1" ref="classQuery.html#a876ab134e57df7cae49579c08e06c0a1"/>
 <keyword name="classification_flags" id="LasFile::Point::classification_flags_af293689ccbbc1a32d2449e70dc84e546" ref="structLasFile_1_1Point.html#af293689ccbbc1a32d2449e70dc84e546"/>
-<keyword name="ClassificationList()" id="ClassificationList::ClassificationList_a20a17cd1f29cb3512d4cf5fe5aaade57" ref="classClassificationList.html#a20a17cd1f29cb3512d4cf5fe5aaade57"/>
-<keyword name="classifications() const" id="Editor::classifications_aa631fa1927cb59dd9ca03ddbcbd17cc4" ref="classEditor.html#aa631fa1927cb59dd9ca03ddbcbd17cc4"/>
-<keyword name="classifications_" id="Editor::classifications__a1adf760989608511297fd095d718e299" ref="classEditor.html#a1adf760989608511297fd095d718e299"/>
+<keyword name="classifications() const" id="Editor::classifications_a1e80724a9fe61e693142cb521c841703" ref="classEditor.html#a1e80724a9fe61e693142cb521c841703"/>
+<keyword name="Classifications()" id="Classifications::Classifications_a567c666740d6c0584930b9fad8ac53fb" ref="classClassifications.html#a567c666740d6c0584930b9fad8ac53fb"/>
+<keyword name="classifications_" id="Editor::classifications__aef0b17344d0d7debff0fe64739952162" ref="classEditor.html#aef0b17344d0d7debff0fe64739952162"/>
 <keyword name="ClassifyGroundPlugin()" id="ClassifyGroundPlugin::ClassifyGroundPlugin_a58a790ac9b049b52cb4e7db5455eb08c" ref="classClassifyGroundPlugin.html#a58a790ac9b049b52cb4e7db5455eb08c"/>
 <keyword name="ClassifyGroundWindow(MainWindow *mainWindow)" id="ClassifyGroundWindow::ClassifyGroundWindow_a594cf7f29b068e7a57d95d8b30138eb5" ref="classClassifyGroundWindow.html#a594cf7f29b068e7a57d95d8b30138eb5"/>
 <keyword name="clear()" id="Box::clear_a4683fb5768bc496fc28617ba550946b8" ref="classBox.html#a4683fb5768bc496fc28617ba550946b8"/>
@@ -1949,10 +1959,10 @@
 <keyword name="clear()" id="Json::clear_a445eadc76cec47be46dbf9724826a798" ref="classJson.html#a445eadc76cec47be46dbf9724826a798"/>
 <keyword name="clear()" id="Sphere::clear_ad09286d79866a75e7740c31e764bf25d" ref="classSphere.html#ad09286d79866a75e7740c31e764bf25d"/>
 <keyword name="clear()" id="Vector3::clear_a8703ae1698fee715be6371077d951623" ref="classVector3.html#a8703ae1698fee715be6371077d951623"/>
-<keyword name="clear()" id="ClassificationList::clear_a308eb06d7993629a2295e8657ba09a8e" ref="classClassificationList.html#a308eb06d7993629a2295e8657ba09a8e"/>
-<keyword name="clear()" id="DatasetList::clear_aadd94b28f2120293a33c7f0e2b49b6cc" ref="classDatasetList.html#aadd94b28f2120293a33c7f0e2b49b6cc"/>
+<keyword name="clear()" id="Classifications::clear_ac46944dc061e93bee1b6910c56bfb7d9" ref="classClassifications.html#ac46944dc061e93bee1b6910c56bfb7d9"/>
+<keyword name="clear()" id="Datasets::clear_a9f92f242b2ff660c37487c30eb99eb1d" ref="classDatasets.html#a9f92f242b2ff660c37487c30eb99eb1d"/>
 <keyword name="clear()" id="IndexFile::clear_a5663a8e545ff6585d4198a89bb8901b6" ref="classIndexFile.html#a5663a8e545ff6585d4198a89bb8901b6"/>
-<keyword name="clear()" id="LayerList::clear_ae4b3535fab1b29c7d04d05e8183fe9ce" ref="classLayerList.html#ae4b3535fab1b29c7d04d05e8183fe9ce"/>
+<keyword name="clear()" id="Layers::clear_ada568ef81fd3a1803ca5021db850f1de" ref="classLayers.html#ada568ef81fd3a1803ca5021db850f1de"/>
 <keyword name="clear()" id="Page::clear_a454e84ebdfda18606e15d3a732d90802" ref="classPage.html#a454e84ebdfda18606e15d3a732d90802"/>
 <keyword name="clear()" id="Query::clear_a3827c2cd2f1d9efade5952db80e0fdfc" ref="classQuery.html#a3827c2cd2f1d9efade5952db80e0fdfc"/>
 <keyword name="clear()" id="Region::clear_a02f3d61eb9f9ca7980d2f915893a281b" ref="classRegion.html#a02f3d61eb9f9ca7980d2f915893a281b"/>
@@ -1974,9 +1984,9 @@
 <keyword name="code" id="IndexFile::BuildNode::code_a55a634fdea966b5620459df940a9e104" ref="structIndexFile_1_1BuildNode.html#a55a634fdea966b5620459df940a9e104"/>
 <keyword name="color" id="Page::color_a1d9f45e67227f3dd94c3e5296ee09e4d" ref="classPage.html#a1d9f45e67227f3dd94c3e5296ee09e4d"/>
 <keyword name="color() const" id="Dataset::color_aa1798f10a97f7642352744201f6fe5c7" ref="classDataset.html#aa1798f10a97f7642352744201f6fe5c7"/>
-<keyword name="color(size_t i) const" id="DatasetList::color_ad1429fb171b68a6755ed195af989f188" ref="classDatasetList.html#ad1429fb171b68a6755ed195af989f188"/>
+<keyword name="color(size_t i) const" id="Datasets::color_a8107c4fb89594df939ecc133c916de0e" ref="classDatasets.html#a8107c4fb89594df939ecc133c916de0e"/>
 <keyword name="color() const" id="Layer::color_a0ecc45eb2c1521f14aa13ffb69aeb26d" ref="classLayer.html#a0ecc45eb2c1521f14aa13ffb69aeb26d"/>
-<keyword name="color(size_t i) const" id="LayerList::color_a874cf56cc2a46a058c535e054e733e06" ref="classLayerList.html#a874cf56cc2a46a058c535e054e733e06"/>
+<keyword name="color(size_t i) const" id="Layers::color_a191353e11bbaed3118711bba20787f93" ref="classLayers.html#a191353e11bbaed3118711bba20787f93"/>
 <keyword name="color_" id="Dataset::color__af6d006c7c757b1ae8e0d677f54afaeae" ref="classDataset.html#af6d006c7c757b1ae8e0d677f54afaeae"/>
 <keyword name="color_" id="Layer::color__ad3e7a68f59df25f09c0e1dea5e653bb6" ref="classLayer.html#ad3e7a68f59df25f09c0e1dea5e653bb6"/>
 <keyword name="color_" id="Query::color__a775a073d392e75881600af6f3a20e31b" ref="classQuery.html#a775a073d392e75881600af6f3a20e31b"/>
@@ -2081,14 +2091,14 @@
 <keyword name="datasetId" id="Query::Key::datasetId_a7f126acd750ec94c6c6ffa417e73324e" ref="structQuery_1_1Key.html#a7f126acd750ec94c6c6ffa417e73324e"/>
 <keyword name="datasetId() const" id="Page::datasetId_a3a51c89548c61336991940707891bfa9" ref="classPage.html#a3a51c89548c61336991940707891bfa9"/>
 <keyword name="datasetId_" id="Page::datasetId__ae3c73c5fecb6b842af87bc6fcec4f5a5" ref="classPage.html#ae3c73c5fecb6b842af87bc6fcec4f5a5"/>
-<keyword name="DatasetList()" id="DatasetList::DatasetList_a0608de5af3fc3f1e0acd27f00a795e2c" ref="classDatasetList.html#a0608de5af3fc3f1e0acd27f00a795e2c"/>
-<keyword name="datasets() const" id="Editor::datasets_a53233e266fd9c35856e67fa334a80d92" ref="classEditor.html#a53233e266fd9c35856e67fa334a80d92"/>
-<keyword name="datasets_" id="DatasetList::datasets__a91726f062a3fa9a95fdb6be925439bab" ref="classDatasetList.html#a91726f062a3fa9a95fdb6be925439bab"/>
-<keyword name="datasets_" id="Editor::datasets__a50d995350fe226b565530850ec1a349b" ref="classEditor.html#a50d995350fe226b565530850ec1a349b"/>
-<keyword name="datasets_" id="ProjectNavigatorFiles::datasets__a04aa6f168b44d58b074fcdcec837762d" ref="classProjectNavigatorFiles.html#a04aa6f168b44d58b074fcdcec837762d"/>
+<keyword name="datasets() const" id="Editor::datasets_a9ecda11933059d31ea06105810011dee" ref="classEditor.html#a9ecda11933059d31ea06105810011dee"/>
+<keyword name="Datasets()" id="Datasets::Datasets_aa45649f89c17953ae780aaa288a4b6b5" ref="classDatasets.html#aa45649f89c17953ae780aaa288a4b6b5"/>
+<keyword name="datasets_" id="Datasets::datasets__af3f1626de45607702dec4dd310d2f177" ref="classDatasets.html#af3f1626de45607702dec4dd310d2f177"/>
+<keyword name="datasets_" id="Editor::datasets__a679212059d7693ad3d44c7227dd2a97c" ref="classEditor.html#a679212059d7693ad3d44c7227dd2a97c"/>
+<keyword name="datasets_" id="ProjectNavigatorFiles::datasets__a7fa296d80be4985f83b40b1de4702b41" ref="classProjectNavigatorFiles.html#a7fa296d80be4985f83b40b1de4702b41"/>
 <keyword name="datasets_" id="ProjectNavigatorWindow::datasets__a9dde8a541c96eebec2408c74d21e2196" ref="classProjectNavigatorWindow.html#a9dde8a541c96eebec2408c74d21e2196"/>
 <keyword name="dateCreated() const" id="Dataset::dateCreated_a34f2a6f1611a88415c96eb1f9b6214d1" ref="classDataset.html#a34f2a6f1611a88415c96eb1f9b6214d1"/>
-<keyword name="dateCreated(size_t i) const" id="DatasetList::dateCreated_adaa84158cdc9087bdc7989c42f80e9ac" ref="classDatasetList.html#adaa84158cdc9087bdc7989c42f80e9ac"/>
+<keyword name="dateCreated(size_t i) const" id="Datasets::dateCreated_ae342aa547ae284159bfb4f0edd1cc779" ref="classDatasets.html#ae342aa547ae284159bfb4f0edd1cc779"/>
 <keyword name="dateCreated() const" id="LasFile::Header::dateCreated_ab97ab7d3175f3a49114a088a5833d389" ref="structLasFile_1_1Header.html#ab97ab7d3175f3a49114a088a5833d389"/>
 <keyword name="dateCreated_" id="Dataset::dateCreated__a66b4bbd0af174d01149c1afe6378da70" ref="classDataset.html#a66b4bbd0af174d01149c1afe6378da70"/>
 <keyword name="DEFAULT_INDENT" id="Json::DEFAULT_INDENT_a48ac862031042e92051859730ab4592b" ref="classJson.html#a48ac862031042e92051859730ab4592b"/>
@@ -2124,17 +2134,17 @@
 <keyword name="empty_" id="Box&lt; double &gt;::empty__a15d207175cda455fc343a019891c7c0c" ref="classBox.html#a15d207175cda455fc343a019891c7c0c"/>
 <keyword name="enabled" id="Classification::enabled_ad7a554b13846cb415ce15bac1f783f07" ref="classClassification.html#ad7a554b13846cb415ce15bac1f783f07"/>
 <keyword name="enabled" id="Region::enabled_a64cfbbceb24960327163369973737693" ref="classRegion.html#a64cfbbceb24960327163369973737693"/>
-<keyword name="enabled_" id="ClassificationList::enabled__af83507a4296355f9d66721fdaf700876" ref="classClassificationList.html#af83507a4296355f9d66721fdaf700876"/>
+<keyword name="enabled_" id="Classifications::enabled__a78671e669038eb812de3ffb9cd9de856" ref="classClassifications.html#a78671e669038eb812de3ffb9cd9de856"/>
 <keyword name="enabled_" id="Dataset::enabled__af587d7ab534dea7fb08af56cfe5630f2" ref="classDataset.html#af587d7ab534dea7fb08af56cfe5630f2"/>
 <keyword name="enabled_" id="Layer::enabled__a779d17c27766c39fea7f6615303f1302" ref="classLayer.html#a779d17c27766c39fea7f6615303f1302"/>
-<keyword name="enabled_" id="LayerList::enabled__a2d2d573911548613781c68d1f0b16f55" ref="classLayerList.html#a2d2d573911548613781c68d1f0b16f55"/>
-<keyword name="enabledList() const" id="ClassificationList::enabledList_a0d529861f336d39fcb230306b0ff61f8" ref="classClassificationList.html#a0d529861f336d39fcb230306b0ff61f8"/>
-<keyword name="enabledList() const" id="LayerList::enabledList_a79ea53e770c7d3203c2fa6e7521386df" ref="classLayerList.html#a79ea53e770c7d3203c2fa6e7521386df"/>
+<keyword name="enabled_" id="Layers::enabled__a74d2ae30b1bb4faf7cb2dc0ac1086bd0" ref="classLayers.html#a74d2ae30b1bb4faf7cb2dc0ac1086bd0"/>
+<keyword name="enabledList() const" id="Classifications::enabledList_afc074909123d2b0d6c6751d5158e348d" ref="classClassifications.html#afc074909123d2b0d6c6751d5158e348d"/>
+<keyword name="enabledList() const" id="Layers::enabledList_adf352c03ca29ac666231ef8cfc34b40b" ref="classLayers.html#adf352c03ca29ac666231ef8cfc34b40b"/>
 <keyword name="end() const" id="IndexFileBuilder::end_adbb9f89d0b359327b5f6bc544ee03352" ref="classIndexFileBuilder.html#adbb9f89d0b359327b5f6bc544ee03352"/>
 <keyword name="eof() const" id="ChunkFile::eof_a2fb378195a073690a52256cf641d7f36" ref="classChunkFile.html#a2fb378195a073690a52256cf641d7f36"/>
 <keyword name="eof() const" id="File::eof_a6040ea231aec39d3d41218a9e928896e" ref="classFile.html#a6040ea231aec39d3d41218a9e928896e"/>
-<keyword name="erase(size_t i)" id="DatasetList::erase_a5a934c3ecce39d3b0bb0f1cb0f11d8aa" ref="classDatasetList.html#a5a934c3ecce39d3b0bb0f1cb0f11d8aa"/>
-<keyword name="erase(size_t i)" id="LayerList::erase_a353a7e823487c220465b23ad206bc986" ref="classLayerList.html#a353a7e823487c220465b23ad206bc986"/>
+<keyword name="erase(size_t i)" id="Datasets::erase_ac1ceab4b205b29c9e800b812c8564d43" ref="classDatasets.html#ac1ceab4b205b29c9e800b812c8564d43"/>
+<keyword name="erase(size_t i)" id="Layers::erase_a874e8d172e4dde5cf2208406473648a7" ref="classLayers.html#a874e8d172e4dde5cf2208406473648a7"/>
 <keyword name="exec()" id="Query::exec_ad3e930aabe2db38eec7abf489803f5b6" ref="classQuery.html#ad3e930aabe2db38eec7abf489803f5b6"/>
 <keyword name="exec(const std::vector&lt; IndexFile::Selection &gt; &amp;selectedPages)" id="Query::exec_a63ef05d672c1896c05bca0b2f62c80db" ref="classQuery.html#a63ef05d672c1896c05bca0b2f62c80db"/>
 <keyword name="exists(const std::string &amp;path)" id="File::exists_a998fdcdb01aaefe6b7c69520c8195245" ref="classFile.html#a998fdcdb01aaefe6b7c69520c8195245"/>
@@ -2145,9 +2155,9 @@
 <keyword name="eye" id="Camera::eye_ac889297b5e95ecf4142ed786077cd9c0" ref="classCamera.html#ac889297b5e95ecf4142ed786077cd9c0"/>
 <keyword name="eye_" id="ViewerCamera::eye__a3ea0e607a0fb3fcd2895bc11aaeb6e6f" ref="classViewerCamera.html#a3ea0e607a0fb3fcd2895bc11aaeb6e6f"/>
 <keyword name="fd_" id="File::fd__a7e0076037ae46f8f6e555cb790d26988" ref="classFile.html#a7e0076037ae46f8f6e555cb790d26988"/>
+<keyword name="file()" id="LasFile::file_a67466e3d529b0d0aa6116dc65044159c" ref="classLasFile.html#a67466e3d529b0d0aa6116dc65044159c"/>
 <keyword name="File()" id="File::File_ae039af5807fc385f41b60644725d15d0" ref="classFile.html#ae039af5807fc385f41b60644725d15d0"/>
 <keyword name="File(const File &amp;)=delete" id="File::File_a042f525d4beac394675727bcd5cce274" ref="classFile.html#a042f525d4beac394675727bcd5cce274"/>
-<keyword name="file()" id="LasFile::file_a67466e3d529b0d0aa6116dc65044159c" ref="classLasFile.html#a67466e3d529b0d0aa6116dc65044159c"/>
 <keyword name="file_" id="ChunkFile::file__aeb986e42b8f608d030a86d0a60e529c3" ref="classChunkFile.html#aeb986e42b8f608d030a86d0a60e529c3"/>
 <keyword name="file_" id="LasFile::file__a49e34f00c3f3551e21a631ab8f9f9cc6" ref="classLasFile.html#a49e34f00c3f3551e21a631ab8f9f9cc6"/>
 <keyword name="file_creation_day_of_year" id="LasFile::Header::file_creation_day_of_year_ace9546083a9405e9585ad29f6e2ab3e1" ref="structLasFile_1_1Header.html#ace9546083a9405e9585ad29f6e2ab3e1"/>
@@ -2157,7 +2167,7 @@
 <keyword name="fileExtension(const std::string &amp;path)" id="File::fileExtension_a6ccf4a78575b89e2b18bf43fdcc44ef3" ref="classFile.html#a6ccf4a78575b89e2b18bf43fdcc44ef3"/>
 <keyword name="fileName(const std::string &amp;path)" id="File::fileName_a960da56002a945636a3d5e157f15f72d" ref="classFile.html#a960da56002a945636a3d5e157f15f72d"/>
 <keyword name="fileName() const" id="Dataset::fileName_adb06894dc2d3c918f3cbbb1f116f8c79" ref="classDataset.html#adb06894dc2d3c918f3cbbb1f116f8c79"/>
-<keyword name="fileName(size_t i) const" id="DatasetList::fileName_a68876e01225212c596d34a587d9ac90b" ref="classDatasetList.html#a68876e01225212c596d34a587d9ac90b"/>
+<keyword name="fileName(size_t i) const" id="Datasets::fileName_ae91754d9f50ee287377ade913a1a2010" ref="classDatasets.html#ae91754d9f50ee287377ade913a1a2010"/>
 <keyword name="fileName_" id="Dataset::fileName__a38152300561aebc5852384d62751bda5" ref="classDataset.html#a38152300561aebc5852384d62751bda5"/>
 <keyword name="filterChanged()" id="ProjectNavigatorFiles::filterChanged_aed81ace52fe3562d8c861873780a44d3" ref="classProjectNavigatorFiles.html#aed81ace52fe3562d8c861873780a44d3"/>
 <keyword name="filterChanged()" id="ProjectNavigatorLayers::filterChanged_a7f2db56096e81f08b1b759b34a1344be" ref="classProjectNavigatorLayers.html#a7f2db56096e81f08b1b759b34a1344be"/>
@@ -2213,15 +2223,17 @@
 <keyword name="gridSize() const" id="Query::gridSize_af1913b1836b25d1c408ea6a3e84d55f8" ref="classQuery.html#af1913b1836b25d1c408ea6a3e84d55f8"/>
 <keyword name="gridXSize_" id="Query::gridXSize__a20887fefa47819f417363466c5f1a7dc" ref="classQuery.html#a20887fefa47819f417363466c5f1a7dc"/>
 <keyword name="gridYSize_" id="Query::gridYSize__a140371632165a3e3488584f639a20ac5" ref="classQuery.html#a140371632165a3e3488584f639a20ac5"/>
-<keyword name="hashTable_" id="DatasetList::hashTable__abe81a3aedd29b7e45d549c4e063afdf2" ref="classDatasetList.html#abe81a3aedd29b7e45d549c4e063afdf2"/>
-<keyword name="hashTableEnabledId_" id="LayerList::hashTableEnabledId__af2d6031a0600dd84b4c0039a29ca8e8f" ref="classLayerList.html#af2d6031a0600dd84b4c0039a29ca8e8f"/>
-<keyword name="hashTableId_" id="LayerList::hashTableId__a2d1f54e30afd128e5a98d715ec535e64" ref="classLayerList.html#a2d1f54e30afd128e5a98d715ec535e64"/>
+<keyword name="hashTable_" id="Datasets::hashTable__a29d45e0c8d7fe6d3cf56838584e2b06c" ref="classDatasets.html#a29d45e0c8d7fe6d3cf56838584e2b06c"/>
+<keyword name="hashTableEnabledId_" id="Layers::hashTableEnabledId__a61d3ade82dc2ac3ceeb863cdfac12c60" ref="classLayers.html#a61d3ade82dc2ac3ceeb863cdfac12c60"/>
+<keyword name="hashTableId_" id="Layers::hashTableId__a091e458d3f3d39950cf0dba7a69d4d80" ref="classLayers.html#a091e458d3f3d39950cf0dba7a69d4d80"/>
 <keyword name="hasRgb() const" id="LasFile::Header::hasRgb_a6d8e2c9feb6880115d30cd7f4cda5f05" ref="structLasFile_1_1Header.html#a6d8e2c9feb6880115d30cd7f4cda5f05"/>
 <keyword name="hasUnsavedChanges() const" id="Editor::hasUnsavedChanges_aed131dcb595ff4dbffe4f0ce1d38d095" ref="classEditor.html#aed131dcb595ff4dbffe4f0ce1d38d095"/>
 <keyword name="header" id="LasFile::header_ada0b5ebba5a082ae7aa9e9b77b439b74" ref="classLasFile.html#ada0b5ebba5a082ae7aa9e9b77b439b74"/>
 <keyword name="header_size" id="LasFile::Header::header_size_a5c322c6c1de08b2ae5a88c007205dbaa" ref="structLasFile_1_1Header.html#a5c322c6c1de08b2ae5a88c007205dbaa"/>
 <keyword name="headerLength" id="ChunkFile::Chunk::headerLength_a5ed29c6396ca5efa1eb7df1763186665" ref="structChunkFile_1_1Chunk.html#a5ed29c6396ca5efa1eb7df1763186665"/>
 <keyword name="height() const" id="ViewerCamera::height_abd8630170d1e6a197fd7efef44a4dbd0" ref="classViewerCamera.html#abd8630170d1e6a197fd7efef44a4dbd0"/>
+<keyword name="HelpPlugin(MainWindow *mainWindow)" id="HelpPlugin::HelpPlugin_a8e95ad7f0ed77f19f821067f36fcd190" ref="classHelpPlugin.html#a8e95ad7f0ed77f19f821067f36fcd190"/>
+<keyword name="helpPlugin_" id="MainWindow::helpPlugin__ae9c8c57b833643fecf2064b349c4370d" ref="classMainWindow.html#ae9c8c57b833643fecf2064b349c4370d"/>
 <keyword name="hideButton_" id="ProjectNavigatorFiles::hideButton__a67b2eefc11290a23e3e6cdc14fa0ffdb" ref="classProjectNavigatorFiles.html#a67b2eefc11290a23e3e6cdc14fa0ffdb"/>
 <keyword name="hideButton_" id="ProjectNavigatorLayers::hideButton__a776f587d1f340a1ee7e2aac29c9ce8b0" ref="classProjectNavigatorLayers.html#a776f587d1f340a1ee7e2aac29c9ce8b0"/>
 <keyword name="hideToolBar(const QString &amp;menu)" id="MainWindow::hideToolBar_a67e94016b002fb9d132e08c446c8e01b" ref="classMainWindow.html#a67e94016b002fb9d132e08c446c8e01b"/>
@@ -2229,9 +2241,9 @@
 <keyword name="IconTheme(const QString &amp;prefix, const QString &amp;name)" id="IconTheme::IconTheme_a9cc914b836ef3081799061360a22a18a" ref="classIconTheme.html#a9cc914b836ef3081799061360a22a18a"/>
 <keyword name="id" id="IndexFile::Selection::id_af3d1fdec36a1ffeed2e1de74367a17f0" ref="structIndexFile_1_1Selection.html#af3d1fdec36a1ffeed2e1de74367a17f0"/>
 <keyword name="id() const" id="Dataset::id_a1c9fda0e8c6343e8642aadd9813bcc74" ref="classDataset.html#a1c9fda0e8c6343e8642aadd9813bcc74"/>
-<keyword name="id(size_t i) const" id="DatasetList::id_aada9c72d88a59eca7d9f8f634ab3392d" ref="classDatasetList.html#aada9c72d88a59eca7d9f8f634ab3392d"/>
+<keyword name="id(size_t i) const" id="Datasets::id_af67fee980a821fd6490108c959705930" ref="classDatasets.html#af67fee980a821fd6490108c959705930"/>
 <keyword name="id() const" id="Layer::id_ad0e900de45356f27cdc5a290303e1967" ref="classLayer.html#ad0e900de45356f27cdc5a290303e1967"/>
-<keyword name="id(size_t i) const" id="LayerList::id_a033ebac19374c96f91679792bcd41a09" ref="classLayerList.html#a033ebac19374c96f91679792bcd41a09"/>
+<keyword name="id(size_t i) const" id="Layers::id_a0548887377810a1231402e429ba1ca16" ref="classLayers.html#a0548887377810a1231402e429ba1ca16"/>
 <keyword name="id_" id="Dataset::id__a92f70d8d311ded2f34f8c4de24d4806a" ref="classDataset.html#a92f70d8d311ded2f34f8c4de24d4806a"/>
 <keyword name="id_" id="Layer::id__aa7b9dd4e222039bf05b19b4a4b7aef29" ref="classLayer.html#aa7b9dd4e222039bf05b19b4a4b7aef29"/>
 <keyword name="idx" id="IndexFile::Selection::idx_adbeeba3bf1fd495102b9dc12434c7d3e" ref="structIndexFile_1_1Selection.html#adbeeba3bf1fd495102b9dc12434c7d3e"/>
@@ -2240,9 +2252,9 @@
 <keyword name="ImportPlugin(MainWindow *mainWindow)" id="ImportPlugin::ImportPlugin_af8d811aadae9c45d293f5a1385d5e205" ref="classImportPlugin.html#af8d811aadae9c45d293f5a1385d5e205"/>
 <keyword name="importPlugin_" id="MainWindow::importPlugin__a1c1182fffc1446376483b0f606a9450a" ref="classMainWindow.html#a1c1182fffc1446376483b0f606a9450a"/>
 <keyword name="index() const" id="Dataset::index_a3d907995b77a6ccd1d513184f90ea534" ref="classDataset.html#a3d907995b77a6ccd1d513184f90ea534"/>
-<keyword name="index(size_t id)" id="DatasetList::index_a3adc3be2769630d26c125c72e6d1e843" ref="classDatasetList.html#a3adc3be2769630d26c125c72e6d1e843"/>
+<keyword name="index(size_t id)" id="Datasets::index_ab72d8e3186d6de2a2d2429db964da703" ref="classDatasets.html#ab72d8e3186d6de2a2d2429db964da703"/>
 <keyword name="index(const std::string &amp;outputPath, const std::string &amp;inputPath, const IndexFileBuilder::Settings &amp;settings)" id="IndexFileBuilder::index_a1609554ba5b2073ceb3bf41d587ee6eb" ref="classIndexFileBuilder.html#a1609554ba5b2073ceb3bf41d587ee6eb"/>
-<keyword name="index(size_t id) const" id="LayerList::index_a05a35ff7cef32c646f752bb1784b005e" ref="classLayerList.html#a05a35ff7cef32c646f752bb1784b005e"/>
+<keyword name="index(size_t id) const" id="Layers::index_a6ced81dc6f6c49c22f785917f8a84192" ref="classLayers.html#a6ced81dc6f6c49c22f785917f8a84192"/>
 <keyword name="index(const QTreeWidgetItem *item)" id="ProjectNavigatorFiles::index_a3e0639c0720c42c3703a76290f8391ad" ref="classProjectNavigatorFiles.html#a3e0639c0720c42c3703a76290f8391ad"/>
 <keyword name="index(const QTreeWidgetItem *item)" id="ProjectNavigatorLayers::index_af72c7b71b50f9d4906416643770bdd80" ref="classProjectNavigatorLayers.html#af72c7b71b50f9d4906416643770bdd80"/>
 <keyword name="index(const QTreeWidgetItem *item)" id="SettingsViewWidget::index_aaa970a743fd7e6c8641258da66598b84" ref="classSettingsViewWidget.html#aaa970a743fd7e6c8641258da66598b84"/>
@@ -2283,14 +2295,14 @@
 <keyword name="isArray() const" id="Json::isArray_af8111b572eb56928cc5b075834dfa4fa" ref="classJson.html#af8111b572eb56928cc5b075834dfa4fa"/>
 <keyword name="isCenterEnabled() const" id="SettingsImport::isCenterEnabled_ad8095b7a9c29ec257201bbe882b89689" ref="classSettingsImport.html#ad8095b7a9c29ec257201bbe882b89689"/>
 <keyword name="isColorSourceEnabled(size_t id) const" id="SettingsView::isColorSourceEnabled_a9143b65d77f0fdec72ef938fa3d45c87" ref="classSettingsView.html#a9143b65d77f0fdec72ef938fa3d45c87"/>
-<keyword name="isEnabled() const" id="ClassificationList::isEnabled_a2cf7a3b0084f794c60e623c3f1574180" ref="classClassificationList.html#a2cf7a3b0084f794c60e623c3f1574180"/>
-<keyword name="isEnabled(size_t i) const" id="ClassificationList::isEnabled_a56beb7d736376ae7e94d54e3ebcaa715" ref="classClassificationList.html#a56beb7d736376ae7e94d54e3ebcaa715"/>
+<keyword name="isEnabled() const" id="Classifications::isEnabled_a754dd9ca4af65b4a31e4333cf04a6dee" ref="classClassifications.html#a754dd9ca4af65b4a31e4333cf04a6dee"/>
+<keyword name="isEnabled(size_t i) const" id="Classifications::isEnabled_a25c7d53895a2067bb0e1430f16f59f19" ref="classClassifications.html#a25c7d53895a2067bb0e1430f16f59f19"/>
 <keyword name="isEnabled() const" id="Dataset::isEnabled_a1ac55a2d578187dc15e80fc74462b13c" ref="classDataset.html#a1ac55a2d578187dc15e80fc74462b13c"/>
-<keyword name="isEnabled(size_t i) const" id="DatasetList::isEnabled_adca65a21ff0894283d02a74f037018b5" ref="classDatasetList.html#adca65a21ff0894283d02a74f037018b5"/>
+<keyword name="isEnabled(size_t i) const" id="Datasets::isEnabled_aecc5113bbefc04d7534709d4027ebda6" ref="classDatasets.html#aecc5113bbefc04d7534709d4027ebda6"/>
 <keyword name="isEnabled() const" id="Layer::isEnabled_a318e5f18db4bcd263c7ce82e78617187" ref="classLayer.html#a318e5f18db4bcd263c7ce82e78617187"/>
-<keyword name="isEnabled() const" id="LayerList::isEnabled_af78feafaef040da88a69db2a95878ca7" ref="classLayerList.html#af78feafaef040da88a69db2a95878ca7"/>
-<keyword name="isEnabled(size_t i) const" id="LayerList::isEnabled_a275434a7e6968edb184f0185144854b1" ref="classLayerList.html#a275434a7e6968edb184f0185144854b1"/>
-<keyword name="isEnabledId(size_t id) const" id="LayerList::isEnabledId_a98c46f127bab0859715c4ed853dd87e1" ref="classLayerList.html#a98c46f127bab0859715c4ed853dd87e1"/>
+<keyword name="isEnabled() const" id="Layers::isEnabled_abaf612b5e3ec663efe0c5db4679441fc" ref="classLayers.html#abaf612b5e3ec663efe0c5db4679441fc"/>
+<keyword name="isEnabled(size_t i) const" id="Layers::isEnabled_ae5c0d01d1b211416f2794f86a8659b6a" ref="classLayers.html#ae5c0d01d1b211416f2794f86a8659b6a"/>
+<keyword name="isEnabledId(size_t id) const" id="Layers::isEnabledId_a22e7c4c8a1702fd7e449ba041db1bb82" ref="classLayers.html#a22e7c4c8a1702fd7e449ba041db1bb82"/>
 <keyword name="isFalse() const" id="Json::isFalse_a2a6bf9e4a8ebfb9531588557b8abef9c" ref="classJson.html#a2a6bf9e4a8ebfb9531588557b8abef9c"/>
 <keyword name="isFogEnabled() const" id="SettingsView::isFogEnabled_ac97d1a5122e2c797b60742da7abb2cc2" ref="classSettingsView.html#ac97d1a5122e2c797b60742da7abb2cc2"/>
 <keyword name="isInside(const Box&lt; T &gt; &amp;box) const" id="Box::isInside_a1dc6fdf172ea57347b54b0637f642101" ref="classBox.html#a1dc6fdf172ea57347b54b0637f642101"/>
@@ -2322,13 +2334,13 @@
 <keyword name="Json(const char *in)" id="Json::Json_a1d25e02085733810e3758a648b220ba7" ref="classJson.html#a1d25e02085733810e3758a648b220ba7"/>
 <keyword name="Json(const std::string &amp;in)" id="Json::Json_ae7c3ed4c2a13bed2f464de8a56e8d1bc" ref="classJson.html#ae7c3ed4c2a13bed2f464de8a56e8d1bc"/>
 <keyword name="Json(const std::vector&lt; double &gt; &amp;in)" id="Json::Json_ab769040720ba527986a643525575c7fa" ref="classJson.html#ab769040720ba527986a643525575c7fa"/>
-<keyword name="key(size_t id) const" id="DatasetList::key_a4b2a844af09872708ea678b7278f8062" ref="classDatasetList.html#a4b2a844af09872708ea678b7278f8062"/>
+<keyword name="key(size_t id) const" id="Datasets::key_afcf22e1381a97ab1ab77b68486d93c31" ref="classDatasets.html#afcf22e1381a97ab1ab77b68486d93c31"/>
 <keyword name="label" id="Classification::label_ad1937ce38b0acd0e6b8fc605d438cec0" ref="classClassification.html#ad1937ce38b0acd0e6b8fc605d438cec0"/>
-<keyword name="label(size_t i) const" id="ClassificationList::label_a9f151e06cd837ac18a2d4ce4a85715bc" ref="classClassificationList.html#a9f151e06cd837ac18a2d4ce4a85715bc"/>
+<keyword name="label(size_t i) const" id="Classifications::label_a10cc4574c16e89327f6cd5685329b04a" ref="classClassifications.html#a10cc4574c16e89327f6cd5685329b04a"/>
 <keyword name="label() const" id="Dataset::label_af3b41b375c8cb5b26d1d9b9988cba1f8" ref="classDataset.html#af3b41b375c8cb5b26d1d9b9988cba1f8"/>
-<keyword name="label(size_t i) const" id="DatasetList::label_a7169bc43d8807f5f01cbabecb5b0ed3d" ref="classDatasetList.html#a7169bc43d8807f5f01cbabecb5b0ed3d"/>
+<keyword name="label(size_t i) const" id="Datasets::label_a1f84e74e9fce2ea5beaadead7b19b67c" ref="classDatasets.html#a1f84e74e9fce2ea5beaadead7b19b67c"/>
 <keyword name="label() const" id="Layer::label_aa9fd7724064b37cf302cb6968e32a9ef" ref="classLayer.html#aa9fd7724064b37cf302cb6968e32a9ef"/>
-<keyword name="label(size_t i) const" id="LayerList::label_aad77b506ad4fab13f006a0e27f90fb6f" ref="classLayerList.html#aad77b506ad4fab13f006a0e27f90fb6f"/>
+<keyword name="label(size_t i) const" id="Layers::label_a234dd923c84708c3163cb47b439c4beb" ref="classLayers.html#a234dd923c84708c3163cb47b439c4beb"/>
 <keyword name="label_" id="Dataset::label__a66fbbb97d86beda195b68f0422c71469" ref="classDataset.html#a66fbbb97d86beda195b68f0422c71469"/>
 <keyword name="label_" id="Layer::label__a246fc23a8b1858505f6b7feb3c8e9275" ref="classLayer.html#a246fc23a8b1858505f6b7feb3c8e9275"/>
 <keyword name="LasFile()" id="LasFile::LasFile_a79244e2e9df1dbb2e5c1ffe166317965" ref="classLasFile.html#a79244e2e9df1dbb2e5c1ffe166317965"/>
@@ -2336,11 +2348,11 @@
 <keyword name="layer" id="Page::layer_abe226aea16ab170dea7cbac717d70991" ref="classPage.html#abe226aea16ab170dea7cbac717d70991"/>
 <keyword name="layer()" id="Query::layer_a06ce11ada8f978ded161027318a9aec1" ref="classQuery.html#a06ce11ada8f978ded161027318a9aec1"/>
 <keyword name="layer_" id="Query::layer__a84dd59c59a20cf2361a2b4dbc35ee967" ref="classQuery.html#a84dd59c59a20cf2361a2b4dbc35ee967"/>
-<keyword name="LayerList()" id="LayerList::LayerList_a8f0a98793f1f2392cf4e267f65a3e529" ref="classLayerList.html#a8f0a98793f1f2392cf4e267f65a3e529"/>
-<keyword name="layers() const" id="Editor::layers_a2e560fdad6773b63a779f103e5ae04dd" ref="classEditor.html#a2e560fdad6773b63a779f103e5ae04dd"/>
-<keyword name="layers_" id="Editor::layers__a260836d9af271bd94fb52dbf46a4db50" ref="classEditor.html#a260836d9af271bd94fb52dbf46a4db50"/>
-<keyword name="layers_" id="LayerList::layers__accf125d5d77131df1c99bff0937d38c0" ref="classLayerList.html#accf125d5d77131df1c99bff0937d38c0"/>
-<keyword name="layers_" id="ProjectNavigatorLayers::layers__a286704b97cb616acdf62f6e60cd74b9d" ref="classProjectNavigatorLayers.html#a286704b97cb616acdf62f6e60cd74b9d"/>
+<keyword name="layers() const" id="Editor::layers_ad5b24880347df3424ea0243b687c4bfa" ref="classEditor.html#ad5b24880347df3424ea0243b687c4bfa"/>
+<keyword name="Layers()" id="Layers::Layers_a05aa5fc771e104e0f514a247d590ea64" ref="classLayers.html#a05aa5fc771e104e0f514a247d590ea64"/>
+<keyword name="layers_" id="Editor::layers__a94da1fec94bdc13d4721d1b2907eab27" ref="classEditor.html#a94da1fec94bdc13d4721d1b2907eab27"/>
+<keyword name="layers_" id="Layers::layers__acf3b2293a4f2ad287ce84fb06e83ecd2" ref="classLayers.html#acf3b2293a4f2ad287ce84fb06e83ecd2"/>
+<keyword name="layers_" id="ProjectNavigatorLayers::layers__a0177094c7907e795959135e66c61adb0" ref="classProjectNavigatorLayers.html#a0177094c7907e795959135e66c61adb0"/>
 <keyword name="layers_" id="ProjectNavigatorWindow::layers__ad7d7818c19f2cf9a86b7a6b91ae9568a" ref="classProjectNavigatorWindow.html#ad7d7818c19f2cf9a86b7a6b91ae9568a"/>
 <keyword name="legacy_number_of_point_records" id="LasFile::Header::legacy_number_of_point_records_a8420734f1f329db14d2e4d3ad8c9c419" ref="structLasFile_1_1Header.html#a8420734f1f329db14d2e4d3ad8c9c419"/>
 <keyword name="legacy_number_of_points_by_return[5]" id="LasFile::Header::legacy_number_of_points_by_return_aa2f10446e486a317e404474b8f7dc9ee" ref="structLasFile_1_1Header.html#aa2f10446e486a317e404474b8f7dc9ee"/>
@@ -2360,6 +2372,7 @@
 <keyword name="MainWindow(QWidget *parent=nullptr)" id="MainWindow::MainWindow_a996c5a2b6f77944776856f08ec30858d" ref="classMainWindow.html#a996c5a2b6f77944776856f08ec30858d"/>
 <keyword name="mainWindow_" id="ClassifyGroundWindow::mainWindow__aff48f09eae5a4f2f6ee3227c05b019a3" ref="classClassifyGroundWindow.html#aff48f09eae5a4f2f6ee3227c05b019a3"/>
 <keyword name="mainWindow_" id="ClassifyGroundPlugin::mainWindow__ae76364b2bc6fa2e15363c24b55a30647" ref="classClassifyGroundPlugin.html#ae76364b2bc6fa2e15363c24b55a30647"/>
+<keyword name="mainWindow_" id="HelpPlugin::mainWindow__a563d0d185a581edd2862a49a0e5339b0" ref="classHelpPlugin.html#a563d0d185a581edd2862a49a0e5339b0"/>
 <keyword name="mainWindow_" id="ImportPlugin::mainWindow__ac3106035080acb9b520a727c5960a4a4" ref="classImportPlugin.html#ac3106035080acb9b520a727c5960a4a4"/>
 <keyword name="mainWindow_" id="ProjectFilePlugin::mainWindow__a2e015db301c976d2f01ecaec617f90a1" ref="classProjectFilePlugin.html#a2e015db301c976d2f01ecaec617f90a1"/>
 <keyword name="mainWindow_" id="ProjectNavigatorFiles::mainWindow__ab54307969f842e0a58fdbc627a863d66" ref="classProjectNavigatorFiles.html#ab54307969f842e0a58fdbc627a863d66"/>
@@ -2442,9 +2455,9 @@
 <keyword name="next[8]" id="IndexFile::BuildNode::next_aafeae6dfee5034aece82702552caf3fe" ref="structIndexFile_1_1BuildNode.html#aafeae6dfee5034aece82702552caf3fe"/>
 <keyword name="next(const Node *node, size_t idx) const" id="IndexFile::next_ae4ee47b37e81c21bac897f806acd1c40" ref="classIndexFile.html#ae4ee47b37e81c21bac897f806acd1c40"/>
 <keyword name="next()" id="IndexFileBuilder::next_a15784b9d6267a2ac076c0a4a3d019d1d" ref="classIndexFileBuilder.html#a15784b9d6267a2ac076c0a4a3d019d1d"/>
+<keyword name="next()" id="Query::next_a51988eba61bad20f421e3bb7cc6178b7" ref="classQuery.html#a51988eba61bad20f421e3bb7cc6178b7"/>
 <keyword name="nextGrid()" id="Query::nextGrid_a941ddb696a5a2f31f029535ebfcf8ef4" ref="classQuery.html#a941ddb696a5a2f31f029535ebfcf8ef4"/>
 <keyword name="nextPage()" id="Query::nextPage_ac11de23ddf582cbb6196cc4b84860be5" ref="classQuery.html#ac11de23ddf582cbb6196cc4b84860be5"/>
-<keyword name="nextPoint()" id="Query::nextPoint_a7a1e2895a5ac1a94f73f9bfb4c5ba6ba" ref="classQuery.html#a7a1e2895a5ac1a94f73f9bfb4c5ba6ba"/>
 <keyword name="nextState()" id="IndexFileBuilder::nextState_a4e47dd0050965ab6df680b7f3a9de815" ref="classIndexFileBuilder.html#a4e47dd0050965ab6df680b7f3a9de815"/>
 <keyword name="nextState()" id="Page::nextState_ad546f6b2e656ff4efb94622e4bd6794e" ref="classPage.html#ad546f6b2e656ff4efb94622e4bd6794e"/>
 <keyword name="nextState()" id="Query::nextState_a6b9b03ef046ef9d12eeff0b8c3c1d727" ref="classQuery.html#a6b9b03ef046ef9d12eeff0b8c3c1d727"/>
@@ -2458,7 +2471,7 @@
 <keyword name="normalized() const" id="Vector3&lt; float &gt;::normalized_aaf369f4d5479483db7f55c0f561422af" ref="classVector3.html#aaf369f4d5479483db7f55c0f561422af"/>
 <keyword name="normalized() const" id="Vector3&lt; double &gt;::normalized_aaf369f4d5479483db7f55c0f561422af" ref="classVector3.html#aaf369f4d5479483db7f55c0f561422af"/>
 <keyword name="nPoints() const" id="Dataset::nPoints_a1a7b314d511d0b0eae52926ad0561061" ref="classDataset.html#a1a7b314d511d0b0eae52926ad0561061"/>
-<keyword name="nPoints() const" id="DatasetList::nPoints_a955c8e174c668e62a255ec5d50fc48d9" ref="classDatasetList.html#a955c8e174c668e62a255ec5d50fc48d9"/>
+<keyword name="nPoints() const" id="Datasets::nPoints_a87d52b7fc9fc4691cff3235057806b6b" ref="classDatasets.html#a87d52b7fc9fc4691cff3235057806b6b"/>
 <keyword name="nPoints_" id="Dataset::nPoints__ac80afb2f67835667da98c4bde33c5520" ref="classDataset.html#ac80afb2f67835667da98c4bde33c5520"/>
 <keyword name="nPointsSpinBox_" id="ClassifyGroundWindow::nPointsSpinBox__a88a7ddfed517cb80bfff335e023056e2" ref="classClassifyGroundWindow.html#a88a7ddfed517cb80bfff335e023056e2"/>
 <keyword name="nResults_" id="Query::nResults__a2d89f44600f534786c043b2cd43d7491" ref="classQuery.html#a2d89f44600f534786c043b2cd43d7491"/>
@@ -2602,7 +2615,7 @@
 <keyword name="projectPath() const" id="Editor::projectPath_a8da46d9e9258a8d8220543fcec0e6f28" ref="classEditor.html#a8da46d9e9258a8d8220543fcec0e6f28"/>
 <keyword name="projectSave(const QString &amp;path=&quot;&quot;)" id="ProjectFilePlugin::projectSave_a5c928a25c63c0a22f9a514a1d19fe337" ref="classProjectFilePlugin.html#a5c928a25c63c0a22f9a514a1d19fe337"/>
 <keyword name="projectWindow_" id="ProjectNavigatorPlugin::projectWindow__aef4970aa5df0ca9260f6b8a095ffe364" ref="classProjectNavigatorPlugin.html#aef4970aa5df0ca9260f6b8a095ffe364"/>
-<keyword name="push_back(const Layer &amp;layer)" id="LayerList::push_back_a99462570b4cef2bac5ce69a308dcdbd5" ref="classLayerList.html#a99462570b4cef2bac5ce69a308dcdbd5"/>
+<keyword name="push_back(const Layer &amp;layer)" id="Layers::push_back_af8c9aa5fedd7dcecbf12c50e5b3f240f" ref="classLayers.html#af8c9aa5fedd7dcecbf12c50e5b3f240f"/>
 <keyword name="QUADS" id="ViewerOpenGL::QUADS_a26c789d6cfce5d040bb1a7c91e3cfc11a9f1157a3208d3d6dcb0a1f3296d638bc" ref="classViewerOpenGL.html#a26c789d6cfce5d040bb1a7c91e3cfc11a9f1157a3208d3d6dcb0a1f3296d638bc"/>
 <keyword name="Query(Editor *editor)" id="Query::Query_a8b32769d7995d5b8479b17fb44feb2c8" ref="classQuery.html#a8b32769d7995d5b8479b17fb44feb2c8"/>
 <keyword name="query_" id="Page::query__add1bf06919dc765cc78afae94e32120e" ref="classPage.html#add1bf06919dc765cc78afae94e32120e"/>
@@ -2623,17 +2636,17 @@
 <keyword name="read(int fd, uint8_t *buffer, uint64_t nbyte)" id="File::read_a87de5e6051f146a178075b529b30e66d" ref="classFile.html#a87de5e6051f146a178075b529b30e66d"/>
 <keyword name="read(const std::string &amp;fileName)" id="Json::read_ab3c08045af4f1ad103ebfd6c1f38e1ed" ref="classJson.html#ab3c08045af4f1ad103ebfd6c1f38e1ed"/>
 <keyword name="read(const Json &amp;in)" id="Vector3::read_ac2038eab222c7acfa5ac5dbe675d071b" ref="classVector3.html#ac2038eab222c7acfa5ac5dbe675d071b"/>
-<keyword name="read(const Json &amp;in)" id="ClassificationList::read_ad9da207a3be0d31c434455da63687362" ref="classClassificationList.html#ad9da207a3be0d31c434455da63687362"/>
+<keyword name="read(const Json &amp;in)" id="Classifications::read_ae23f053637c829d2aaca68aa93d310ca" ref="classClassifications.html#ae23f053637c829d2aaca68aa93d310ca"/>
 <keyword name="read(size_t id, const std::string &amp;path, const std::string &amp;projectPath, const SettingsImport &amp;settings, const Box&lt; double &gt; &amp;projectBoundary)" id="Dataset::read_abba74f440c6e84e78538a551481b3c4c" ref="classDataset.html#abba74f440c6e84e78538a551481b3c4c"/>
 <keyword name="read(const Json &amp;in, const std::string &amp;projectPath)" id="Dataset::read_ab118c5ad844e18a97d274c69503327e1" ref="classDataset.html#ab118c5ad844e18a97d274c69503327e1"/>
 <keyword name="read()" id="Dataset::read_a73491ca173d47e43b0bdb29a4ee46f0b" ref="classDataset.html#a73491ca173d47e43b0bdb29a4ee46f0b"/>
-<keyword name="read(const std::string &amp;path, const std::string &amp;projectPath, const SettingsImport &amp;settings, const Box&lt; double &gt; &amp;projectBoundary)" id="DatasetList::read_a5839f046c89118c6978e94977fe88c4b" ref="classDatasetList.html#a5839f046c89118c6978e94977fe88c4b"/>
-<keyword name="read(const Json &amp;in, const std::string &amp;projectPath)" id="DatasetList::read_a541c65ae29e9d112a9a98299638f2e7c" ref="classDatasetList.html#a541c65ae29e9d112a9a98299638f2e7c"/>
+<keyword name="read(const std::string &amp;path, const std::string &amp;projectPath, const SettingsImport &amp;settings, const Box&lt; double &gt; &amp;projectBoundary)" id="Datasets::read_a4f66c3bb0fa5750f2fa7dc9af565792f" ref="classDatasets.html#a4f66c3bb0fa5750f2fa7dc9af565792f"/>
+<keyword name="read(const Json &amp;in, const std::string &amp;projectPath)" id="Datasets::read_a666d39780e5dcb5e7aa6ce8af01438e2" ref="classDatasets.html#a666d39780e5dcb5e7aa6ce8af01438e2"/>
 <keyword name="read(const std::string &amp;path)" id="IndexFile::read_aa69251e88e3921905213e883a394688e" ref="classIndexFile.html#aa69251e88e3921905213e883a394688e"/>
 <keyword name="read(const std::string &amp;path, uint64_t offset)" id="IndexFile::read_a847713c31e01d4e2b3ee3966ee0d174e" ref="classIndexFile.html#a847713c31e01d4e2b3ee3966ee0d174e"/>
 <keyword name="read(ChunkFile &amp;file)" id="IndexFile::read_a3e6179daa1d2604e3f20541baf07c83e" ref="classIndexFile.html#a3e6179daa1d2604e3f20541baf07c83e"/>
 <keyword name="read(const Json &amp;in)" id="Layer::read_aecc61080cb1ad96e1d61bd5d1ca1beef" ref="classLayer.html#aecc61080cb1ad96e1d61bd5d1ca1beef"/>
-<keyword name="read(const Json &amp;in)" id="LayerList::read_a139409f2c851366b148ea7f03174ad5a" ref="classLayerList.html#a139409f2c851366b148ea7f03174ad5a"/>
+<keyword name="read(const Json &amp;in)" id="Layers::read_a50d78ecf2fa57b0713a71b3d15844ea6" ref="classLayers.html#a50d78ecf2fa57b0713a71b3d15844ea6"/>
 <keyword name="read()" id="Page::read_a794b61a639d75b1b37731cf3809f0ae3" ref="classPage.html#a794b61a639d75b1b37731cf3809f0ae3"/>
 <keyword name="read(size_t dataset, size_t index)" id="Query::read_accd425263dd27d40e6c9a404fe7bd12f" ref="classQuery.html#accd425263dd27d40e6c9a404fe7bd12f"/>
 <keyword name="read(const Json &amp;in)" id="Region::read_afe16c8d00223909f3a708c5c49c605f0" ref="classRegion.html#afe16c8d00223909f3a708c5c49c605f0"/>
@@ -2707,10 +2720,10 @@
 <keyword name="runModifiers()" id="Page::runModifiers_a30a38467528b5e5fa71a62dcc7a8ea4d" ref="classPage.html#a30a38467528b5e5fa71a62dcc7a8ea4d"/>
 <keyword name="save(const std::string &amp;path)" id="Editor::save_a4f8c0b6fd9b845cc713b5e36ca2ad384" ref="classEditor.html#a4f8c0b6fd9b845cc713b5e36ca2ad384"/>
 <keyword name="scaling() const" id="Dataset::scaling_a2be8d59dcb103a5d717fea35db5004c0" ref="classDataset.html#a2be8d59dcb103a5d717fea35db5004c0"/>
-<keyword name="scaling(size_t i) const" id="DatasetList::scaling_af8bf51c48c0cf86e499d5a48aeb7c603" ref="classDatasetList.html#af8bf51c48c0cf86e499d5a48aeb7c603"/>
+<keyword name="scaling(size_t i) const" id="Datasets::scaling_a4cca417cebae9c678f7c7dcc9c62f19b" ref="classDatasets.html#a4cca417cebae9c678f7c7dcc9c62f19b"/>
 <keyword name="scaling_" id="Dataset::scaling__adf4ab12ec7fbda7960c15d0e9218e94a" ref="classDataset.html#adf4ab12ec7fbda7960c15d0e9218e94a"/>
 <keyword name="scalingFile() const" id="Dataset::scalingFile_a46740d702b66a346fe332c180e0971a3" ref="classDataset.html#a46740d702b66a346fe332c180e0971a3"/>
-<keyword name="scalingFile(size_t i) const" id="DatasetList::scalingFile_aca5cf30031383dd768f22ba195597444" ref="classDatasetList.html#aca5cf30031383dd768f22ba195597444"/>
+<keyword name="scalingFile(size_t i) const" id="Datasets::scalingFile_ae23deafc5630ac75f7395f7ce5e065f1" ref="classDatasets.html#ae23deafc5630ac75f7395f7ce5e065f1"/>
 <keyword name="scalingFile_" id="Dataset::scalingFile__a6fabe110e0334d3a1606aa13ac8b5036" ref="classDataset.html#a6fabe110e0334d3a1606aa13ac8b5036"/>
 <keyword name="scan_direction_flag" id="LasFile::Point::scan_direction_flag_a0b804f86b5af8c0568ed97b549925975" ref="structLasFile_1_1Point.html#a0b804f86b5af8c0568ed97b549925975"/>
 <keyword name="scanner_channel" id="LasFile::Point::scanner_channel_ac71ea7232503e15fd57352bfd3413dd7" ref="structLasFile_1_1Point.html#ac71ea7232503e15fd57352bfd3413dd7"/>
@@ -2724,7 +2737,7 @@
 <keyword name="seekVlr()" id="LasFile::seekVlr_a49be33bc84f61594ba728279abfdea7d" ref="classLasFile.html#a49be33bc84f61594ba728279abfdea7d"/>
 <keyword name="Segmentation()" id="Segmentation::Segmentation_a966891da37798baabb99bf0144d47675" ref="classSegmentation.html#a966891da37798baabb99bf0144d47675"/>
 <keyword name="SegmentationPlugin()" id="SegmentationPlugin::SegmentationPlugin_a082cb34c8e4961ae38b13e0a280f9529" ref="classSegmentationPlugin.html#a082cb34c8e4961ae38b13e0a280f9529"/>
-<keyword name="select(std::vector&lt; IndexFile::Selection &gt; &amp;selected, const Box&lt; double &gt; &amp;box) const" id="DatasetList::select_a684f4ab1a57839435aa9e369fa272365" ref="classDatasetList.html#a684f4ab1a57839435aa9e369fa272365"/>
+<keyword name="select(std::vector&lt; IndexFile::Selection &gt; &amp;selected, const Box&lt; double &gt; &amp;box) const" id="Datasets::select_a15fcb11c5c918366868f36a0cce7e8c5" ref="classDatasets.html#a15fcb11c5c918366868f36a0cce7e8c5"/>
 <keyword name="select()" id="Page::select_ae18eec0f67cca42f7a8835dad39b7d39" ref="classPage.html#ae18eec0f67cca42f7a8835dad39b7d39"/>
 <keyword name="selectAllButton_" id="ProjectNavigatorFiles::selectAllButton__ac95d5f037b2fda39b18f754274211408" ref="classProjectNavigatorFiles.html#ac95d5f037b2fda39b18f754274211408"/>
 <keyword name="selectAllButton_" id="ProjectNavigatorLayers::selectAllButton__a9e20be9131dd233548274b96b321d93b" ref="classProjectNavigatorLayers.html#a9e20be9131dd233548274b96b321d93b"/>
@@ -2809,44 +2822,44 @@
 <keyword name="setBackgroundColor(const Vector3&lt; float &gt; &amp;rgb)" id="SettingsView::setBackgroundColor_ad6042cbb5bcb37eeb6d165fd619daefa" ref="classSettingsView.html#ad6042cbb5bcb37eeb6d165fd619daefa"/>
 <keyword name="setCallback(ThreadCallbackInterface *callback)" id="Thread::setCallback_aca6a320fefe02bdae1ab9a2e079a7f8c" ref="classThread.html#aca6a320fefe02bdae1ab9a2e079a7f8c"/>
 <keyword name="setCenterEnabled(bool b)" id="SettingsImport::setCenterEnabled_ab5229f9f2efbb0b92ae84ec70a2c0eaa" ref="classSettingsImport.html#ab5229f9f2efbb0b92ae84ec70a2c0eaa"/>
-<keyword name="setClassifications(const ClassificationList &amp;classifications)" id="Editor::setClassifications_aeeaca0e176caf1399d5d929468b9e6b0" ref="classEditor.html#aeeaca0e176caf1399d5d929468b9e6b0"/>
+<keyword name="setClassifications(const Classifications &amp;classifications)" id="Editor::setClassifications_ab1649227496aec5969ef8a7e5132429c" ref="classEditor.html#ab1649227496aec5969ef8a7e5132429c"/>
 <keyword name="setClipFilter(const Region &amp;clipFilter)" id="Editor::setClipFilter_a4fdff42c4c102fba2dac842f5abbf7aa" ref="classEditor.html#a4fdff42c4c102fba2dac842f5abbf7aa"/>
 <keyword name="setColor(const Vector3&lt; float &gt; &amp;color)" id="Dataset::setColor_a78914411f85685877e0b583196df9dd4" ref="classDataset.html#a78914411f85685877e0b583196df9dd4"/>
-<keyword name="setColor(size_t i, const Vector3&lt; float &gt; &amp;color)" id="DatasetList::setColor_a22787506174431f7f7e285ad41b9d771" ref="classDatasetList.html#a22787506174431f7f7e285ad41b9d771"/>
+<keyword name="setColor(size_t i, const Vector3&lt; float &gt; &amp;color)" id="Datasets::setColor_acae4451daa86ab361d69fb26d0259822" ref="classDatasets.html#acae4451daa86ab361d69fb26d0259822"/>
 <keyword name="setColor(const Vector3&lt; float &gt; &amp;color)" id="Layer::setColor_a2b42d69bc3ba2ba4718f84678c3df643" ref="classLayer.html#a2b42d69bc3ba2ba4718f84678c3df643"/>
-<keyword name="setColor(size_t i, const Vector3&lt; float &gt; &amp;color)" id="LayerList::setColor_ac1dbd5a5c7ad08b902d4149e04775876" ref="classLayerList.html#ac1dbd5a5c7ad08b902d4149e04775876"/>
+<keyword name="setColor(size_t i, const Vector3&lt; float &gt; &amp;color)" id="Layers::setColor_a5836b4c6b09413c9b47246706d6cc677" ref="classLayers.html#a5836b4c6b09413c9b47246706d6cc677"/>
 <keyword name="setColor(size_t idx, size_t value, size_t max, const std::vector&lt; Vector3&lt; float &gt; &gt; &amp;pal)" id="Page::setColor_afe83f236e23c6b303a6b116407bc6d9f" ref="classPage.html#afe83f236e23c6b303a6b116407bc6d9f"/>
 <keyword name="setColor(QPushButton *button, const Vector3&lt; float &gt; &amp;rgb)" id="SettingsViewWidget::setColor_adf5d95016bf99b59463ad2de7a3804d0" ref="classSettingsViewWidget.html#adf5d95016bf99b59463ad2de7a3804d0"/>
 <keyword name="setColorSource(const SettingsView &amp;settings)" id="SettingsViewWidget::setColorSource_a93c5a5c39d678bb33fd80c75d589662f" ref="classSettingsViewWidget.html#a93c5a5c39d678bb33fd80c75d589662f"/>
 <keyword name="setColorSourceEnabled(size_t id, bool v)" id="SettingsView::setColorSourceEnabled_a3128b39762a4ac1dd086bd960e2dc702" ref="classSettingsView.html#a3128b39762a4ac1dd086bd960e2dc702"/>
 <keyword name="setColorSourceEnabledAll(bool v)" id="SettingsView::setColorSourceEnabledAll_ae37707b405df1f28a060023724b75269" ref="classSettingsView.html#ae37707b405df1f28a060023724b75269"/>
-<keyword name="setDatasets(const DatasetList &amp;datasets)" id="Editor::setDatasets_ab911488855b47ce32c61417673408326" ref="classEditor.html#ab911488855b47ce32c61417673408326"/>
-<keyword name="setDatasets(const DatasetList &amp;datasets)" id="ProjectNavigatorFiles::setDatasets_a05968495c3fb34cd0200f8acb72ed968" ref="classProjectNavigatorFiles.html#a05968495c3fb34cd0200f8acb72ed968"/>
-<keyword name="setDefault()" id="LayerList::setDefault_a5421c6709a4eff10c65251dab8435b6a" ref="classLayerList.html#a5421c6709a4eff10c65251dab8435b6a"/>
+<keyword name="setDatasets(const Datasets &amp;datasets)" id="Editor::setDatasets_ad04484d56d18d9da2218a36038f87e69" ref="classEditor.html#ad04484d56d18d9da2218a36038f87e69"/>
+<keyword name="setDatasets(const Datasets &amp;datasets)" id="ProjectNavigatorFiles::setDatasets_aeba7b664b191642968a653bc8ea5919b" ref="classProjectNavigatorFiles.html#aeba7b664b191642968a653bc8ea5919b"/>
+<keyword name="setDefault()" id="Layers::setDefault_a0ac6e08510926b647f093fe2ae37bf65" ref="classLayers.html#a0ac6e08510926b647f093fe2ae37bf65"/>
 <keyword name="setDistance(float distance)" id="ViewerCamera::setDistance_a974954b6036ef2069a508113c7927362" ref="classViewerCamera.html#a974954b6036ef2069a508113c7927362"/>
-<keyword name="setEnabled(bool b)" id="ClassificationList::setEnabled_af88ca7556eb3519bed3ab8a269f36fb5" ref="classClassificationList.html#af88ca7556eb3519bed3ab8a269f36fb5"/>
-<keyword name="setEnabled(size_t i, bool b)" id="ClassificationList::setEnabled_a0ca5bc5df87c61f2729517322e25e96b" ref="classClassificationList.html#a0ca5bc5df87c61f2729517322e25e96b"/>
+<keyword name="setEnabled(bool b)" id="Classifications::setEnabled_aadcd881fba3aaf4fd3c3ba4b95de19a9" ref="classClassifications.html#aadcd881fba3aaf4fd3c3ba4b95de19a9"/>
+<keyword name="setEnabled(size_t i, bool b)" id="Classifications::setEnabled_ac99e67d98d954559a3f379d3b2965d93" ref="classClassifications.html#ac99e67d98d954559a3f379d3b2965d93"/>
 <keyword name="setEnabled(bool b)" id="Dataset::setEnabled_aa0cf9b0cb1964f8f7d9fdd58b38e75a5" ref="classDataset.html#aa0cf9b0cb1964f8f7d9fdd58b38e75a5"/>
-<keyword name="setEnabled(size_t i, bool b)" id="DatasetList::setEnabled_a00989284feae7255ece6e05e22f668be" ref="classDatasetList.html#a00989284feae7255ece6e05e22f668be"/>
+<keyword name="setEnabled(size_t i, bool b)" id="Datasets::setEnabled_a084bf9f255d140113150065101b2f3b9" ref="classDatasets.html#a084bf9f255d140113150065101b2f3b9"/>
 <keyword name="setEnabled(bool b)" id="Layer::setEnabled_a68b9de1ac0f3eaa8274b8d0a901a825c" ref="classLayer.html#a68b9de1ac0f3eaa8274b8d0a901a825c"/>
-<keyword name="setEnabled(bool b)" id="LayerList::setEnabled_ab207c028f449c98b0546194a3dede5d8" ref="classLayerList.html#ab207c028f449c98b0546194a3dede5d8"/>
-<keyword name="setEnabled(size_t i, bool b)" id="LayerList::setEnabled_aaaaa344a3b0f7c109675c5aa9837a369" ref="classLayerList.html#aaaaa344a3b0f7c109675c5aa9837a369"/>
-<keyword name="setEnabledAll(bool b)" id="ClassificationList::setEnabledAll_a5795f2088262f7fb8f78d54573c88e15" ref="classClassificationList.html#a5795f2088262f7fb8f78d54573c88e15"/>
-<keyword name="setEnabledAll(bool b)" id="DatasetList::setEnabledAll_a14ad12132928e0b3ff7285256754d510" ref="classDatasetList.html#a14ad12132928e0b3ff7285256754d510"/>
-<keyword name="setEnabledAll(bool b)" id="LayerList::setEnabledAll_ab804231585e67a7a2f14c3487414b837" ref="classLayerList.html#ab804231585e67a7a2f14c3487414b837"/>
+<keyword name="setEnabled(bool b)" id="Layers::setEnabled_a9ec5c7dca998a1ecea57d6248a92db5d" ref="classLayers.html#a9ec5c7dca998a1ecea57d6248a92db5d"/>
+<keyword name="setEnabled(size_t i, bool b)" id="Layers::setEnabled_ae443849c12a9e92ce8738e934f05fdc2" ref="classLayers.html#ae443849c12a9e92ce8738e934f05fdc2"/>
+<keyword name="setEnabledAll(bool b)" id="Classifications::setEnabledAll_a019154d079a3bdddb0813fe82e1ea226" ref="classClassifications.html#a019154d079a3bdddb0813fe82e1ea226"/>
+<keyword name="setEnabledAll(bool b)" id="Datasets::setEnabledAll_aec583a095e5045df416e9b12eec214eb" ref="classDatasets.html#aec583a095e5045df416e9b12eec214eb"/>
+<keyword name="setEnabledAll(bool b)" id="Layers::setEnabledAll_acf90b00925bfd98d876badaf8f05a65f" ref="classLayers.html#acf90b00925bfd98d876badaf8f05a65f"/>
 <keyword name="setFocus()" id="ViewerOpenGLViewport::setFocus_adfe109c69d97af81d3f5d74ab26d3dba" ref="classViewerOpenGLViewport.html#adfe109c69d97af81d3f5d74ab26d3dba"/>
 <keyword name="setFogEnabled(bool b)" id="SettingsView::setFogEnabled_a7de2ad6e84a8305c94cb0cbbf6614e98" ref="classSettingsView.html#a7de2ad6e84a8305c94cb0cbbf6614e98"/>
 <keyword name="setGeneratingSoftware()" id="LasFile::Header::setGeneratingSoftware_aad0a47be63f7ba11c86580f264a2353b" ref="structLasFile_1_1Header.html#aad0a47be63f7ba11c86580f264a2353b"/>
 <keyword name="setGrid(size_t pointsPerCell=100000, double cellLengthMinPct=1.0)" id="Query::setGrid_a313ef7ff209b623e53ec4919f4253d9d" ref="classQuery.html#a313ef7ff209b623e53ec4919f4253d9d"/>
-<keyword name="setInvertAll()" id="ClassificationList::setInvertAll_a47460e3f739191e9f54f05759871ad06" ref="classClassificationList.html#a47460e3f739191e9f54f05759871ad06"/>
-<keyword name="setInvertAll()" id="DatasetList::setInvertAll_a83cae0ba7c1ebcee1b36f86476dfaa4f" ref="classDatasetList.html#a83cae0ba7c1ebcee1b36f86476dfaa4f"/>
-<keyword name="setInvertAll()" id="LayerList::setInvertAll_a2cd6e4e5292cb3e190ee59fd4fd85cc1" ref="classLayerList.html#a2cd6e4e5292cb3e190ee59fd4fd85cc1"/>
+<keyword name="setInvertAll()" id="Classifications::setInvertAll_a8deaa9f3f20fcbc2151c52b1ff126b71" ref="classClassifications.html#a8deaa9f3f20fcbc2151c52b1ff126b71"/>
+<keyword name="setInvertAll()" id="Datasets::setInvertAll_a89620625a86f6ed7629094e3a3f3de25" ref="classDatasets.html#a89620625a86f6ed7629094e3a3f3de25"/>
+<keyword name="setInvertAll()" id="Layers::setInvertAll_ab7f0e9bf5082f892a861a892b44015c1" ref="classLayers.html#ab7f0e9bf5082f892a861a892b44015c1"/>
 <keyword name="setLabel(const std::string &amp;label)" id="Dataset::setLabel_a3ccb37414f6b6a36a4b3789acd71f333" ref="classDataset.html#a3ccb37414f6b6a36a4b3789acd71f333"/>
-<keyword name="setLabel(size_t i, const std::string &amp;label)" id="DatasetList::setLabel_ad188cb5d0f1f997a3076b6b3ceae8b0b" ref="classDatasetList.html#ad188cb5d0f1f997a3076b6b3ceae8b0b"/>
+<keyword name="setLabel(size_t i, const std::string &amp;label)" id="Datasets::setLabel_acf56611864e0001c2ce9a91413345e1e" ref="classDatasets.html#acf56611864e0001c2ce9a91413345e1e"/>
 <keyword name="setLabel(const std::string &amp;label)" id="Layer::setLabel_a0f4e7340603b0eaa897703c99d808463" ref="classLayer.html#a0f4e7340603b0eaa897703c99d808463"/>
-<keyword name="setLabel(size_t i, const std::string &amp;label)" id="LayerList::setLabel_aaddef4e0fdc13f3fdb5ea6be8d7d8664" ref="classLayerList.html#aaddef4e0fdc13f3fdb5ea6be8d7d8664"/>
-<keyword name="setLayers(const LayerList &amp;layers)" id="Editor::setLayers_a8883a7b03e7ddf8ef8919c7af79541b9" ref="classEditor.html#a8883a7b03e7ddf8ef8919c7af79541b9"/>
-<keyword name="setLayers(const LayerList &amp;layers)" id="ProjectNavigatorLayers::setLayers_a940c9d3d9b3e034ea76fa8c0d9c28004" ref="classProjectNavigatorLayers.html#a940c9d3d9b3e034ea76fa8c0d9c28004"/>
+<keyword name="setLabel(size_t i, const std::string &amp;label)" id="Layers::setLabel_a7e316eb6de0a24dedd9967e40ec92ae7" ref="classLayers.html#a7e316eb6de0a24dedd9967e40ec92ae7"/>
+<keyword name="setLayers(const Layers &amp;layers)" id="Editor::setLayers_a0be692fcb710fb01f42195f212b12567" ref="classEditor.html#a0be692fcb710fb01f42195f212b12567"/>
+<keyword name="setLayers(const Layers &amp;layers)" id="ProjectNavigatorLayers::setLayers_ac9ddd1f1da703e7dddc6e7140ea81418" ref="classProjectNavigatorLayers.html#ac9ddd1f1da703e7dddc6e7140ea81418"/>
 <keyword name="setLayout(ViewLayout viewLayout)" id="ViewerViewports::setLayout_a3e54669d04c2aa76ad3cbabba03493af" ref="classViewerViewports.html#a3e54669d04c2aa76ad3cbabba03493af"/>
 <keyword name="setLookAt(const QVector3D &amp;center, float distance)" id="ViewerCamera::setLookAt_a4dc28ef54d1c29b2020c53f748ac1301" ref="classViewerCamera.html#a4dc28ef54d1c29b2020c53f748ac1301"/>
 <keyword name="setLookAt(const QVector3D &amp;eye, const QVector3D &amp;center, const QVector3D &amp;up)" id="ViewerCamera::setLookAt_a4d6cc0eb455d3cbd67bcc8ff85870de3" ref="classViewerCamera.html#a4d6cc0eb455d3cbd67bcc8ff85870de3"/>
@@ -2888,7 +2901,7 @@
 <keyword name="settingsWindow_" id="SettingsPlugin::settingsWindow__a20a3e6704691f69ac03b8f13f64b7a8f" ref="classSettingsPlugin.html#a20a3e6704691f69ac03b8f13f64b7a8f"/>
 <keyword name="setToIdentity()" id="Matrix4::setToIdentity_a67a1704a1da6b99b3798c77328157b29" ref="classMatrix4.html#a67a1704a1da6b99b3798c77328157b29"/>
 <keyword name="setTranslation(const Vector3&lt; double &gt; &amp;translation)" id="Dataset::setTranslation_a947cb4559f885fd98b3787c4547ff1df" ref="classDataset.html#a947cb4559f885fd98b3787c4547ff1df"/>
-<keyword name="setTranslation(size_t i, const Vector3&lt; double &gt; &amp;translation)" id="DatasetList::setTranslation_a59a6e5f72fb60e469f39f910bddf7c61" ref="classDatasetList.html#a59a6e5f72fb60e469f39f910bddf7c61"/>
+<keyword name="setTranslation(size_t i, const Vector3&lt; double &gt; &amp;translation)" id="Datasets::setTranslation_ac6584722a2d221dcdaf2d6d0badc93aa" ref="classDatasets.html#ac6584722a2d221dcdaf2d6d0badc93aa"/>
 <keyword name="setValid()" id="ViewerAabb::setValid_a354ebb6acee3c6a60137270ed821c36f" ref="classViewerAabb.html#a354ebb6acee3c6a60137270ed821c36f"/>
 <keyword name="setView(const SettingsView &amp;view)" id="Settings::setView_aca113856e801c8613c2292059846c0b2" ref="classSettings.html#aca113856e801c8613c2292059846c0b2"/>
 <keyword name="setView3d()" id="ViewerOpenGLViewport::setView3d_af6e649d7e7b74278e277c99822d7e1e9" ref="classViewerOpenGLViewport.html#af6e649d7e7b74278e277c99822d7e1e9"/>
@@ -2922,10 +2935,10 @@
 <keyword name="size() const" id="ChunkFile::size_ab6a4ea3bafc07302501a2f2fefcd56ba" ref="classChunkFile.html#ab6a4ea3bafc07302501a2f2fefcd56ba"/>
 <keyword name="size() const" id="File::size_adfde476dc7eb25dfc1f9b25f86fa4e7b" ref="classFile.html#adfde476dc7eb25dfc1f9b25f86fa4e7b"/>
 <keyword name="size() const" id="Json::size_ae6eba8b3f5db17b0f67d3b04fbcef25e" ref="classJson.html#ae6eba8b3f5db17b0f67d3b04fbcef25e"/>
-<keyword name="size() const" id="ClassificationList::size_a29a109627c6a6a1f0388ee2fbe1dbd92" ref="classClassificationList.html#a29a109627c6a6a1f0388ee2fbe1dbd92"/>
-<keyword name="size() const" id="DatasetList::size_a3e4d2ca8a1b73b0096830871cf68a350" ref="classDatasetList.html#a3e4d2ca8a1b73b0096830871cf68a350"/>
+<keyword name="size() const" id="Classifications::size_a1e174f7811967adc88b11683c6f9a746" ref="classClassifications.html#a1e174f7811967adc88b11683c6f9a746"/>
+<keyword name="size() const" id="Datasets::size_a168042bc91bc2a3b3c6950eb509d95fb" ref="classDatasets.html#a168042bc91bc2a3b3c6950eb509d95fb"/>
 <keyword name="size() const" id="IndexFile::size_a262b429ff3e52d0100631a64661ff524" ref="classIndexFile.html#a262b429ff3e52d0100631a64661ff524"/>
-<keyword name="size() const" id="LayerList::size_af981f8845608495f38286da0af26b9af" ref="classLayerList.html#af981f8845608495f38286da0af26b9af"/>
+<keyword name="size() const" id="Layers::size_a6f5075043409c3dc9d328d2c997eed73" ref="classLayers.html#a6f5075043409c3dc9d328d2c997eed73"/>
 <keyword name="size_" id="File::size__a98af0822e51d0c0a359a4f9731b41862" ref="classFile.html#a98af0822e51d0c0a359a4f9731b41862"/>
 <keyword name="sizeFile_" id="IndexFileBuilder::sizeFile__a3389ada89a33fe07fe647135a20ea609" ref="classIndexFileBuilder.html#a3389ada89a33fe07fe647135a20ea609"/>
 <keyword name="sizeFileOut_" id="IndexFileBuilder::sizeFileOut__a7873899ecf19c465c63eb4b11cae9ac4" ref="classIndexFileBuilder.html#a7873899ecf19c465c63eb4b11cae9ac4"/>
@@ -2937,6 +2950,7 @@
 <keyword name="sizePointsOut_" id="IndexFileBuilder::sizePointsOut__a024e78cc244c2b663d78e442448d4811" ref="classIndexFileBuilder.html#a024e78cc244c2b663d78e442448d4811"/>
 <keyword name="skip(uint64_t nbyte)" id="ChunkFile::skip_ac9c3bd08c61121710290ca967865e3a8" ref="classChunkFile.html#ac9c3bd08c61121710290ca967865e3a8"/>
 <keyword name="skip(uint64_t nbyte)" id="File::skip_ae49bd82756282ac6e93c0ca00401267a" ref="classFile.html#ae49bd82756282ac6e93c0ca00401267a"/>
+<keyword name="slotAbout()" id="HelpPlugin::slotAbout_ad8453a56526bcf6be764713bb94d0521" ref="classHelpPlugin.html#ad8453a56526bcf6be764713bb94d0521"/>
 <keyword name="slotAccept()" id="ImportDialog::slotAccept_ad86004d302fed89835d0dbebe9531ea1" ref="classImportDialog.html#ad86004d302fed89835d0dbebe9531ea1"/>
 <keyword name="slotAdd()" id="ProjectNavigatorFiles::slotAdd_ae1794e67b9fc81704744df6d0421ec9e" ref="classProjectNavigatorFiles.html#ae1794e67b9fc81704744df6d0421ec9e"/>
 <keyword name="slotAdd()" id="ProjectNavigatorLayers::slotAdd_a5c9502a10de098c1ba5e398e874e7a5d" ref="classProjectNavigatorLayers.html#a5c9502a10de098c1ba5e398e874e7a5d"/>
@@ -3001,7 +3015,6 @@
 <keyword name="start()" id="Thread::start_a1f53ee62bd30a7924186ef26150ce262" ref="classThread.html#a1f53ee62bd30a7924186ef26150ce262"/>
 <keyword name="start(const std::string &amp;outputPath, const std::string &amp;inputPath, const IndexFileBuilder::Settings &amp;settings)" id="IndexFileBuilder::start_a3280a636f3d5ba198828cf7051c62135" ref="classIndexFileBuilder.html#a3280a636f3d5ba198828cf7051c62135"/>
 <keyword name="start_" id="IndexFileBuilder::start__a81fc2fec806333a20ddc316fbd235feb" ref="classIndexFileBuilder.html#a81fc2fec806333a20ddc316fbd235feb"/>
-<keyword name="state() const" id="Page::state_a924a92d92d7d9c1eb650cf8983169826" ref="classPage.html#a924a92d92d7d9c1eb650cf8983169826"/>
 <keyword name="State" id="Thread::State_af7ce7e2ee31f34185c4c25a94731977e" ref="classThread.html#af7ce7e2ee31f34185c4c25a94731977e"/>
 <keyword name="STATE_RUN" id="Thread::STATE_RUN_af7ce7e2ee31f34185c4c25a94731977ea73d334fd1ae218c0f1d2dc2080cb6f25" ref="classThread.html#af7ce7e2ee31f34185c4c25a94731977ea73d334fd1ae218c0f1d2dc2080cb6f25"/>
 <keyword name="STATE_CANCEL" id="Thread::STATE_CANCEL_af7ce7e2ee31f34185c4c25a94731977ea404395b07999996e809d062f7de10a3f" ref="classThread.html#af7ce7e2ee31f34185c4c25a94731977ea404395b07999996e809d062f7de10a3f"/>
@@ -3029,6 +3042,7 @@
 <keyword name="STATE_RUN_MODIFIERS" id="Page::STATE_RUN_MODIFIERS_a0bdf6886be75ddfd1b4626a5ced85c7aa3f06635f317b04378d7fb621cd22c789" ref="classPage.html#a0bdf6886be75ddfd1b4626a5ced85c7aa3f06635f317b04378d7fb621cd22c789"/>
 <keyword name="STATE_RENDER" id="Page::STATE_RENDER_a0bdf6886be75ddfd1b4626a5ced85c7aa64b7c31814837db21f4ed398c5207e6a" ref="classPage.html#a0bdf6886be75ddfd1b4626a5ced85c7aa64b7c31814837db21f4ed398c5207e6a"/>
 <keyword name="STATE_RENDERED" id="Page::STATE_RENDERED_a0bdf6886be75ddfd1b4626a5ced85c7aa4d73db2c4cad114129f72e09a1960226" ref="classPage.html#a0bdf6886be75ddfd1b4626a5ced85c7aa4d73db2c4cad114129f72e09a1960226"/>
+<keyword name="state() const" id="Page::state_a924a92d92d7d9c1eb650cf8983169826" ref="classPage.html#a924a92d92d7d9c1eb650cf8983169826"/>
 <keyword name="state_" id="Thread::state__a3d4cc84fbd421732c4d148db43281b53" ref="classThread.html#a3d4cc84fbd421732c4d148db43281b53"/>
 <keyword name="state_" id="IndexFileBuilder::state__af059ebfc9d78f1511e3c90008e3556d7" ref="classIndexFileBuilder.html#af059ebfc9d78f1511e3c90008e3556d7"/>
 <keyword name="state_" id="Page::state__a24e637d52c3d3d95ed172647a66f2896" ref="classPage.html#a24e637d52c3d3d95ed172647a66f2896"/>
@@ -3098,12 +3112,13 @@
 <keyword name="translate(const Vector3&lt; double &gt; &amp;v)" id="IndexFile::translate_a3f7cd0151608a7989a862f7b36ec0c68" ref="classIndexFile.html#a3f7cd0151608a7989a862f7b36ec0c68"/>
 <keyword name="translate(const Vector3&lt; double &gt; &amp;v)" id="Box&lt; double &gt;::translate_a0092dd0bfe2995076ba32f5469a618e8" ref="classBox.html#a0092dd0bfe2995076ba32f5469a618e8"/>
 <keyword name="translation() const" id="Dataset::translation_ab19a5d3135c0294043b095bc79e10cdc" ref="classDataset.html#ab19a5d3135c0294043b095bc79e10cdc"/>
-<keyword name="translation(size_t i) const" id="DatasetList::translation_ac07a1168ffb36cc483ee6d3972133d52" ref="classDatasetList.html#ac07a1168ffb36cc483ee6d3972133d52"/>
+<keyword name="translation(size_t i) const" id="Datasets::translation_ac120763a29d7086ebd8e12da7b80a359" ref="classDatasets.html#ac120763a29d7086ebd8e12da7b80a359"/>
 <keyword name="translation_" id="Dataset::translation__a5fa324079e5113012e46806b25540901" ref="classDataset.html#a5fa324079e5113012e46806b25540901"/>
 <keyword name="translationFile_" id="Dataset::translationFile__a70f375bdd8b7b9c026a65603be292b56" ref="classDataset.html#a70f375bdd8b7b9c026a65603be292b56"/>
 <keyword name="tree_" id="ProjectNavigatorFiles::tree__a6eb6322dc0677ca62d2276be8d67a35e" ref="classProjectNavigatorFiles.html#a6eb6322dc0677ca62d2276be8d67a35e"/>
 <keyword name="tree_" id="ProjectNavigatorLayers::tree__aaeaa3cc5722d11a35dd756d085b5854a" ref="classProjectNavigatorLayers.html#aaeaa3cc5722d11a35dd756d085b5854a"/>
 <keyword name="tree_" id="SettingsViewWidget::tree__a83048409d34071a04fbccb1ab4fef924" ref="classSettingsViewWidget.html#a83048409d34071a04fbccb1ab4fef924"/>
+<keyword name="type" id="ChunkFile::Chunk::type_aaa22c9575d0f073c11527c866270560a" ref="structChunkFile_1_1Chunk.html#aaa22c9575d0f073c11527c866270560a"/>
 <keyword name="Type" id="Json::Type_a3665a31dbcc7a05d65f9f6b4c191c4a7" ref="classJson.html#a3665a31dbcc7a05d65f9f6b4c191c4a7"/>
 <keyword name="TYPE_OBJECT" id="Json::TYPE_OBJECT_a3665a31dbcc7a05d65f9f6b4c191c4a7aa7c683ca371a44025a96a8450d458cbe" ref="classJson.html#a3665a31dbcc7a05d65f9f6b4c191c4a7aa7c683ca371a44025a96a8450d458cbe"/>
 <keyword name="TYPE_ARRAY" id="Json::TYPE_ARRAY_a3665a31dbcc7a05d65f9f6b4c191c4a7a93ea194970fbe829b31e78a89e3271b8" ref="classJson.html#a3665a31dbcc7a05d65f9f6b4c191c4a7a93ea194970fbe829b31e78a89e3271b8"/>
@@ -3115,7 +3130,6 @@
 <keyword name="Type" id="Region::Type_ab5d4951b672efebd7f1a5354c1b05a6c" ref="classRegion.html#ab5d4951b672efebd7f1a5354c1b05a6c"/>
 <keyword name="TYPE_NONE" id="Region::TYPE_NONE_ab5d4951b672efebd7f1a5354c1b05a6cac38f422080449945e08950ffcd7e6c02" ref="classRegion.html#ab5d4951b672efebd7f1a5354c1b05a6cac38f422080449945e08950ffcd7e6c02"/>
 <keyword name="TYPE_BOX" id="Region::TYPE_BOX_ab5d4951b672efebd7f1a5354c1b05a6caa61b4e93f23356fe9c8d48f418483119" ref="classRegion.html#ab5d4951b672efebd7f1a5354c1b05a6caa61b4e93f23356fe9c8d48f418483119"/>
-<keyword name="type" id="ChunkFile::Chunk::type_aaa22c9575d0f073c11527c866270560a" ref="structChunkFile_1_1Chunk.html#aaa22c9575d0f073c11527c866270560a"/>
 <keyword name="type_" id="Json::type__a4ead692502b26f4e74df18aabe2f6ca8" ref="classJson.html#a4ead692502b26f4e74df18aabe2f6ca8"/>
 <keyword name="TYPE_ARRAY" id="Json::TYPE_ARRAY_a3665a31dbcc7a05d65f9f6b4c191c4a7a93ea194970fbe829b31e78a89e3271b8" ref="classJson.html#a3665a31dbcc7a05d65f9f6b4c191c4a7a93ea194970fbe829b31e78a89e3271b8"/>
 <keyword name="TYPE_BOX" id="Region::TYPE_BOX_ab5d4951b672efebd7f1a5354c1b05a6caa61b4e93f23356fe9c8d48f418483119" ref="classRegion.html#ab5d4951b672efebd7f1a5354c1b05a6caa61b4e93f23356fe9c8d48f418483119"/>
@@ -3135,13 +3149,13 @@
 <keyword name="unproject(const Vector3&lt; T &gt; &amp;v)" id="Matrix4::unproject_ad1d7cdc3422b5b788fd6ac387aafed7b" ref="classMatrix4.html#ad1d7cdc3422b5b788fd6ac387aafed7b"/>
 <keyword name="unproject(const QVector3D &amp;window) const" id="ViewerCamera::unproject_a4eff4b65cf5a4b8a35e204e60fd9b7fb" ref="classViewerCamera.html#a4eff4b65cf5a4b8a35e204e60fd9b7fb"/>
 <keyword name="unsavedChanges_" id="Editor::unsavedChanges__abee3cf937e01f9d876c69679c5ea4571" ref="classEditor.html#abee3cf937e01f9d876c69679c5ea4571"/>
-<keyword name="unusedId() const" id="DatasetList::unusedId_a4843f72ab57cae4e597f4f3761e8f6e3" ref="classDatasetList.html#a4843f72ab57cae4e597f4f3761e8f6e3"/>
-<keyword name="unusedId() const" id="LayerList::unusedId_a491d3a2527befa5cb12a3cd5f87f03b7" ref="classLayerList.html#a491d3a2527befa5cb12a3cd5f87f03b7"/>
+<keyword name="unusedId() const" id="Datasets::unusedId_a82f1caac199a0887c97cb863525f25b2" ref="classDatasets.html#a82f1caac199a0887c97cb863525f25b2"/>
+<keyword name="unusedId() const" id="Layers::unusedId_a88215505c4857f542be72fb3eba88b43" ref="classLayers.html#a88215505c4857f542be72fb3eba88b43"/>
 <keyword name="up" id="Camera::up_a907f9060065a88eba24c259d4ff76e67" ref="classCamera.html#a907f9060065a88eba24c259d4ff76e67"/>
 <keyword name="up_" id="ViewerCamera::up__a5b268254a465d830b596d4246e461659" ref="classViewerCamera.html#a5b268254a465d830b596d4246e461659"/>
 <keyword name="updateAfterRead()" id="Editor::updateAfterRead_ad207e51af81163ce768b57e4001fb896" ref="classEditor.html#ad207e51af81163ce768b57e4001fb896"/>
 <keyword name="updateBoundary()" id="Dataset::updateBoundary_a4861d5b29071b813e682ac165fac7ea2" ref="classDataset.html#a4861d5b29071b813e682ac165fac7ea2"/>
-<keyword name="updateBoundary()" id="DatasetList::updateBoundary_ad07c6dbeb1b5e1d0832b860bfda368d2" ref="classDatasetList.html#ad07c6dbeb1b5e1d0832b860bfda368d2"/>
+<keyword name="updateBoundary()" id="Datasets::updateBoundary_a0e232b4f0037ffc05da3909109020908" ref="classDatasets.html#a0e232b4f0037ffc05da3909109020908"/>
 <keyword name="updateData()" id="MainWindow::updateData_af0386597f60b60f599b306d9dfaa32fc" ref="classMainWindow.html#af0386597f60b60f599b306d9dfaa32fc"/>
 <keyword name="updateEverything()" id="MainWindow::updateEverything_a8cea92bdea9733772b65fc8d434ea762" ref="classMainWindow.html#a8cea92bdea9733772b65fc8d434ea762"/>
 <keyword name="updateFilter()" id="MainWindow::updateFilter_a8802f2eb453d7f80369c1bdb5c4b67ef" ref="classMainWindow.html#a8802f2eb453d7f80369c1bdb5c4b67ef"/>
@@ -3219,10 +3233,10 @@
 <keyword name="viewportId() const" id="ViewerOpenGLViewport::viewportId_a7afb9e787cdaab558648ae9ec7f4faf7" ref="classViewerOpenGLViewport.html#a7afb9e787cdaab558648ae9ec7f4faf7"/>
 <keyword name="viewportId_" id="RenderThread::viewportId__a0cbac4b60bf8be44316fd3ff25e533e5" ref="classRenderThread.html#a0cbac4b60bf8be44316fd3ff25e533e5"/>
 <keyword name="viewportId_" id="ViewerOpenGLViewport::viewportId__aebc393ce3e433f2aab54d4432cc2e1a6" ref="classViewerOpenGLViewport.html#aebc393ce3e433f2aab54d4432cc2e1a6"/>
+<keyword name="Viewports()" id="Viewports::Viewports_a6ad2ff587fccc7fd92f926098dd35e88" ref="classViewports.html#a6ad2ff587fccc7fd92f926098dd35e88"/>
 <keyword name="viewports()" id="Editor::viewports_ab92648c48738b6b969a542b16a9cdad4" ref="classEditor.html#ab92648c48738b6b969a542b16a9cdad4"/>
 <keyword name="viewports() const" id="Editor::viewports_a17ba09a4210d2ddf4af1ba72cd4c3fe7" ref="classEditor.html#a17ba09a4210d2ddf4af1ba72cd4c3fe7"/>
 <keyword name="viewports()" id="ViewerPlugin::viewports_a489085e9ed4e929b93b301605b72f2ce" ref="classViewerPlugin.html#a489085e9ed4e929b93b301605b72f2ce"/>
-<keyword name="Viewports()" id="Viewports::Viewports_a6ad2ff587fccc7fd92f926098dd35e88" ref="classViewports.html#a6ad2ff587fccc7fd92f926098dd35e88"/>
 <keyword name="viewports_" id="Editor::viewports__abc3de124c1b770afe56114111fee9a9e" ref="classEditor.html#abc3de124c1b770afe56114111fee9a9e"/>
 <keyword name="viewports_" id="Viewports::viewports__a3574e0d328a1ba3a525b6e641e333f55" ref="classViewports.html#a3574e0d328a1ba3a525b6e641e333f55"/>
 <keyword name="viewports_" id="ViewerPlugin::viewports__a9b94cd8ce2f4a2c5cc6ff0e2ca1e6ccf" ref="classViewerPlugin.html#a9b94cd8ce2f4a2c5cc6ff0e2ca1e6ccf"/>
@@ -3253,9 +3267,9 @@
 <keyword name="write(int fd, const uint8_t *buffer, uint64_t nbyte)" id="File::write_a5a5d7ed271101b21155b977b7d5098f0" ref="classFile.html#a5a5d7ed271101b21155b977b7d5098f0"/>
 <keyword name="write(const std::string &amp;fileName, size_t indent=DEFAULT_INDENT)" id="Json::write_a54144044e308a8bd5aeee392894cfd77" ref="classJson.html#a54144044e308a8bd5aeee392894cfd77"/>
 <keyword name="write(Json &amp;out) const" id="Vector3::write_a667066c90f575fb9c29b67fc0fbfafd1" ref="classVector3.html#a667066c90f575fb9c29b67fc0fbfafd1"/>
-<keyword name="write(Json &amp;out) const" id="ClassificationList::write_a1fb52d7823e401f09ca97bb7719ac55a" ref="classClassificationList.html#a1fb52d7823e401f09ca97bb7719ac55a"/>
+<keyword name="write(Json &amp;out) const" id="Classifications::write_ace1b3b2e4026ee45e1fb31d3bbb2ce40" ref="classClassifications.html#ace1b3b2e4026ee45e1fb31d3bbb2ce40"/>
 <keyword name="write(Json &amp;out) const" id="Dataset::write_a416ec3102c365b61050045222ba4e09a" ref="classDataset.html#a416ec3102c365b61050045222ba4e09a"/>
-<keyword name="write(Json &amp;out) const" id="DatasetList::write_a2f58c697a4037dcb4def56f13974b342" ref="classDatasetList.html#a2f58c697a4037dcb4def56f13974b342"/>
+<keyword name="write(Json &amp;out) const" id="Datasets::write_a3520b415eb73da371a29cff0229f1fca" ref="classDatasets.html#a3520b415eb73da371a29cff0229f1fca"/>
 <keyword name="write(const std::string &amp;path) const" id="IndexFile::write_ab868d93812dccb43b8ae4602c8024635" ref="classIndexFile.html#ab868d93812dccb43b8ae4602c8024635"/>
 <keyword name="write(ChunkFile &amp;file) const" id="IndexFile::write_a9a30bc9213e44653b481986d8c8810f5" ref="classIndexFile.html#a9a30bc9213e44653b481986d8c8810f5"/>
 <keyword name="write(Json &amp;out) const" id="IndexFile::write_a0d46571f02483f20059b2602fb026587" ref="classIndexFile.html#a0d46571f02483f20059b2602fb026587"/>
@@ -3263,7 +3277,7 @@
 <keyword name="write(Json &amp;out) const" id="LasFile::Header::write_a094951fca40cc9e46cd1341522ad4301" ref="structLasFile_1_1Header.html#a094951fca40cc9e46cd1341522ad4301"/>
 <keyword name="write(Json &amp;out) const" id="LasFile::Point::write_a164c428cd96604bee799bf491de3e747" ref="structLasFile_1_1Point.html#a164c428cd96604bee799bf491de3e747"/>
 <keyword name="write(Json &amp;out) const" id="Layer::write_a367ad3bac0b67dbdd5367f257ef11247" ref="classLayer.html#a367ad3bac0b67dbdd5367f257ef11247"/>
-<keyword name="write(Json &amp;out) const" id="LayerList::write_a95e0e05975f95cab04afaf30fee14d90" ref="classLayerList.html#a95e0e05975f95cab04afaf30fee14d90"/>
+<keyword name="write(Json &amp;out) const" id="Layers::write_a38fdb144489376a4d31d3db6e382737a" ref="classLayers.html#a38fdb144489376a4d31d3db6e382737a"/>
 <keyword name="write()" id="Page::write_aa2aef9260a1e52ef92e68cdc7c7ad028" ref="classPage.html#aa2aef9260a1e52ef92e68cdc7c7ad028"/>
 <keyword name="write(Json &amp;out) const" id="Region::write_abaf2838a4c3454881468dd0474ec6087" ref="classRegion.html#abaf2838a4c3454881468dd0474ec6087"/>
 <keyword name="write(Json &amp;out) const" id="Settings::write_a75aefe39713e382b73fb559215a61d5c" ref="classSettings.html#a75aefe39713e382b73fb559215a61d5c"/>
@@ -3337,7 +3351,7 @@
 <keyword name="~Viewports()" id="Viewports::~Viewports_ac1fa3d3adc3ba0931b43958ed3b9a17e" ref="classViewports.html#ac1fa3d3adc3ba0931b43958ed3b9a17e"/>
 </keywords>
 <files>
-<file>3dforest-48.png</file>
+<file>3dforest_48px.png</file>
 <file>annotated.html</file>
 <file>bc_s.png</file>
 <file>bdwn.png</file>
@@ -3355,8 +3369,8 @@
 <file>classChunkFile.html</file>
 <file>classClassification-members.html</file>
 <file>classClassification.html</file>
-<file>classClassificationList-members.html</file>
-<file>classClassificationList.html</file>
+<file>classClassifications-members.html</file>
+<file>classClassifications.html</file>
 <file>classClassifyGroundPlugin-members.html</file>
 <file>classClassifyGroundPlugin.html</file>
 <file>classClassifyGroundWindow-members.html</file>
@@ -3367,12 +3381,14 @@
 <file>classCone.html</file>
 <file>classDataset-members.html</file>
 <file>classDataset.html</file>
-<file>classDatasetList-members.html</file>
-<file>classDatasetList.html</file>
+<file>classDatasets-members.html</file>
+<file>classDatasets.html</file>
 <file>classEditor-members.html</file>
 <file>classEditor.html</file>
 <file>classFile-members.html</file>
 <file>classFile.html</file>
+<file>classHelpPlugin-members.html</file>
+<file>classHelpPlugin.html</file>
 <file>classIconTheme-members.html</file>
 <file>classIconTheme.html</file>
 <file>classImportDialog-members.html</file>
@@ -3394,8 +3410,8 @@
 <file>classLasFile_1_1cpp_1_1LasFile.html</file>
 <file>classLayer-members.html</file>
 <file>classLayer.html</file>
-<file>classLayerList-members.html</file>
-<file>classLayerList.html</file>
+<file>classLayers-members.html</file>
+<file>classLayers.html</file>
 <file>classMainWindow-members.html</file>
 <file>classMainWindow.html</file>
 <file>classMatrix4-members.html</file>
@@ -3480,6 +3496,7 @@
 <file>dir_6b30eb0707077de049b3762538f9b3c9.html</file>
 <file>dir_7020b8b7abcceffa3f9f7a2d24718f16.html</file>
 <file>dir_732913403a7ef0d5674e81a57f89199b.html</file>
+<file>dir_82d0bdd1b23ff3b9d78b346abb730351.html</file>
 <file>dir_89c8dc4f5d023b011dbd89111b88e07f.html</file>
 <file>dir_99d0482cf009f9d97a0877749b817f19.html</file>
 <file>dir_a31afd56823c6335224242a3eb4525db.html</file>
