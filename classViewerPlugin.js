@@ -1,6 +1,7 @@
 var classViewerPlugin =
 [
-    [ "ViewerPlugin", "classViewerPlugin.html#a8f153e39eecdbfdfba33ed3127135715", null ],
+    [ "ViewerPlugin", "classViewerPlugin.html#a1f6744f7620bd0f030d801f371f94db8", null ],
+    [ "initialize", "classViewerPlugin.html#af74574b9902b948246a203252166d4e1", null ],
     [ "slotView3d", "classViewerPlugin.html#aa6075e7afc756754dd9e9b844e43de19", null ],
     [ "slotViewFront", "classViewerPlugin.html#aaa46ff734e5dc41cf6c5c36c1b500286", null ],
     [ "slotViewLayout", "classViewerPlugin.html#aa8f3e00bbee5fce2122080355e53f387", null ],

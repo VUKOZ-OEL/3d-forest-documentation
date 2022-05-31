@@ -1,6 +1,7 @@
 var classProjectFilePlugin =
 [
-    [ "ProjectFilePlugin", "classProjectFilePlugin.html#a8e70ec524da3debee5fb78ba015b9164", null ],
+    [ "ProjectFilePlugin", "classProjectFilePlugin.html#a25fe333f019b360707b77b82c282c241", null ],
+    [ "initialize", "classProjectFilePlugin.html#a8a81b49451cd85e0b0020d884f21c7dd", null ],
     [ "projectClose", "classProjectFilePlugin.html#a5936f0a89f7d48282432c61a540e3671", null ],
     [ "projectOpen", "classProjectFilePlugin.html#a356ae85328baa249ac08f5c8768647ff", null ],
     [ "projectSave", "classProjectFilePlugin.html#a5c928a25c63c0a22f9a514a1d19fe337", null ],

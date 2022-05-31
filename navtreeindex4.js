@@ -1,5 +1,10 @@
 var NAVTREEINDEX4 =
 {
+"classSettingsView.html#aecf03a641c91498dfcd8068055f0e421":[2,0,42,15],
+"classSettingsView.html#af1ad1296d09431a599043065c19e42d0":[2,0,42,1],
+"classSettingsViewWidget.html":[2,0,43],
+"classSettingsViewWidget.html#a02d9c31411df39597e07e0ea7e35264b":[2,0,43,16],
+"classSettingsViewWidget.html#a051a775243f109086a5edc85047972c8":[2,0,43,19],
 "classSettingsViewWidget.html#a0704e9ce69e3a4269f1b345424143944":[2,0,43,15],
 "classSettingsViewWidget.html#a09ea968f39b6f6613f585f5e8ea3027a":[2,0,43,23],
 "classSettingsViewWidget.html#a0a7085cefb3f99cfe47a7d10a91656ae":[2,0,43,12],
@@ -244,10 +249,5 @@ var NAVTREEINDEX4 =
 "classViewerOpenGLViewport.html#afc9a33e2325891e38a13e07bec8832be":[2,0,52,22],
 "classViewerOpenGLViewport.html#aff601f0eee599b5a5b2ba7051c382cf7":[2,0,52,0],
 "classViewerPlugin.html":[2,0,53],
-"classViewerPlugin.html#a013e8b1599cc563de94c3ce0f98afe46":[2,0,53,28],
-"classViewerPlugin.html#a0318202dabd21b7abbae090c56fbd065":[2,0,53,10],
-"classViewerPlugin.html#a163ba56bf0afe7501f8fc24c098220b0":[2,0,53,13],
-"classViewerPlugin.html#a1644865a0a5245e8ce3d8568e9ebef18":[2,0,53,27],
-"classViewerPlugin.html#a16be6e16e05216851ef802ff0447cc42":[2,0,53,5],
-"classViewerPlugin.html#a184e531f3994973578c84e4fe8be5f5d":[2,0,53,18]
+"classViewerPlugin.html#a013e8b1599cc563de94c3ce0f98afe46":[2,0,53,29]
 };

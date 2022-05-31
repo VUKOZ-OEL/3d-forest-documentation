@@ -1,5 +1,11 @@
 var NAVTREEINDEX6 =
 {
+"structLasFile_1_1Point.html":[2,0,20,1],
+"structLasFile_1_1Point.html#a0a173c0cfc5545164f97f1a7eea11a0f":[2,0,20,1,23],
+"structLasFile_1_1Point.html#a0b804f86b5af8c0568ed97b549925975":[2,0,20,1,15],
+"structLasFile_1_1Point.html#a0dc41475cb6132699b58b3f14c048d7d":[2,0,20,1,13],
+"structLasFile_1_1Point.html#a0de2fdca7ee6a924e4a937e04ff4be96":[2,0,20,1,11],
+"structLasFile_1_1Point.html#a164c428cd96604bee799bf491de3e747":[2,0,20,1,0],
 "structLasFile_1_1Point.html#a1967a95e3b6e827f3edb0ab1ce78e104":[2,0,20,1,19],
 "structLasFile_1_1Point.html#a1cbae6eda700c19560b65352c1a20f0c":[2,0,20,1,24],
 "structLasFile_1_1Point.html#a21bff4e368276b9309d2088103df2ee7":[2,0,20,1,26],

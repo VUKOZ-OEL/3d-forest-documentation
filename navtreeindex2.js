@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"classJson.html#ac17738c8fe3c515f49b7d000cb32f4a4":[2,0,19,48],
+"classJson.html#ac661467b105b4fe610ee855d8beaecdb":[2,0,19,24],
 "classJson.html#ac89bb6dbf584e91319bfdb93a51363b4":[2,0,19,7],
 "classJson.html#acfda5fc1a094751c95064c5782c62f04":[2,0,19,39],
 "classJson.html#ad3747081870852305b64c5b7bbb349bc":[2,0,19,10],
@@ -238,16 +240,14 @@ var NAVTREEINDEX2 =
 "classPluginInterface.html#a19c5c6c2e57cb2672d57efe358d0591d":[2,0,28,1],
 "classPluginInterface.html#a760046616d22d730c341e1cc974571cd":[2,0,28,0],
 "classProjectFilePlugin.html":[2,0,29],
-"classProjectFilePlugin.html#a2d174487204c90fac6599d144456d210":[2,0,29,5],
-"classProjectFilePlugin.html#a2e015db301c976d2f01ecaec617f90a1":[2,0,29,12],
-"classProjectFilePlugin.html#a356ae85328baa249ac08f5c8768647ff":[2,0,29,2],
-"classProjectFilePlugin.html#a5936f0a89f7d48282432c61a540e3671":[2,0,29,1],
-"classProjectFilePlugin.html#a5c928a25c63c0a22f9a514a1d19fe337":[2,0,29,3],
-"classProjectFilePlugin.html#a83f11e728a8cf031412b9ddced978c07":[2,0,29,4],
-"classProjectFilePlugin.html#a89c3a9b164376393ff9736f59b94994d":[2,0,29,10],
-"classProjectFilePlugin.html#a8e70ec524da3debee5fb78ba015b9164":[2,0,29,0],
-"classProjectFilePlugin.html#aada36cd1721760a56cd643ab01d371d2":[2,0,29,8],
-"classProjectFilePlugin.html#ac298259f037195ea56756cec751db89d":[2,0,29,7],
-"classProjectFilePlugin.html#aec4c592c0bb1f356ac51141d665cc0e8":[2,0,29,11],
-"classProjectFilePlugin.html#afc538a42055b33d815670de65d1af4cd":[2,0,29,9]
+"classProjectFilePlugin.html#a25fe333f019b360707b77b82c282c241":[2,0,29,0],
+"classProjectFilePlugin.html#a2d174487204c90fac6599d144456d210":[2,0,29,6],
+"classProjectFilePlugin.html#a2e015db301c976d2f01ecaec617f90a1":[2,0,29,13],
+"classProjectFilePlugin.html#a356ae85328baa249ac08f5c8768647ff":[2,0,29,3],
+"classProjectFilePlugin.html#a5936f0a89f7d48282432c61a540e3671":[2,0,29,2],
+"classProjectFilePlugin.html#a5c928a25c63c0a22f9a514a1d19fe337":[2,0,29,4],
+"classProjectFilePlugin.html#a83f11e728a8cf031412b9ddced978c07":[2,0,29,5],
+"classProjectFilePlugin.html#a89c3a9b164376393ff9736f59b94994d":[2,0,29,11],
+"classProjectFilePlugin.html#a8a81b49451cd85e0b0020d884f21c7dd":[2,0,29,1],
+"classProjectFilePlugin.html#aada36cd1721760a56cd643ab01d371d2":[2,0,29,9]
 };
