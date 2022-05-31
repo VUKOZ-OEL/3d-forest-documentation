@@ -87,7 +87,8 @@ $(document).ready(function(){initNavTree('developerguide_add_new_functionality.h
           ../plugins/myplugin</pre></li>
 <li>Add field "myPlugin_" to "src/gui/MainWindow.hpp". <pre class="fragment">        class MyPlugin;
         MyPlugin *myPlugin_;</pre></li>
-<li>Create instance in "src/gui/MainWindow.cpp" constructor. <pre class="fragment">        myPlugin_ = new MyPlugin(this);</pre></li>
+<li>Create instance in "src/gui/MainWindow.cpp" constructor. <pre class="fragment">        myPlugin_ = new MyPlugin();
+        myPlugin_-&gt;initialize(this);</pre></li>
 <li>Internal plugins will be visible from application main window.</li>
 </ol>
 </li>
@@ -111,7 +112,7 @@ $(document).ready(function(){initNavTree('developerguide_add_new_functionality.h
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="developerguide.html">Developer Guide</a></li>
-    <li class="footer">Generated on Tue May 31 2022 20:03:16 for 3D Forest by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Tue May 31 2022 21:53:07 for 3D Forest by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>
