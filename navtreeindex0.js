@@ -1,12 +1,12 @@
 var NAVTREEINDEX0 =
 {
 "annotated.html":[2,0],
-"cheatsheet.html":[1,8],
-"cheatsheet_cmake.html":[1,8,0],
-"cheatsheet_qtdesigner.html":[1,8,1],
-"cheatsheet_rename_files.html":[1,8,2],
-"cheatsheet_vscode_debug.html":[1,8,4],
-"cheatsheet_vscode_edit.html":[1,8,3],
+"cheatsheet.html":[1,9],
+"cheatsheet_cmake.html":[1,9,0],
+"cheatsheet_qtdesigner.html":[1,9,1],
+"cheatsheet_rename_files.html":[1,9,2],
+"cheatsheet_vscode_debug.html":[1,9,4],
+"cheatsheet_vscode_edit.html":[1,9,3],
 "classBox.html":[2,0,0],
 "classBox.html#a0092dd0bfe2995076ba32f5469a618e8":[2,0,0,24],
 "classBox.html#a03c20503e9a343a19becad41878e853e":[2,0,0,26],

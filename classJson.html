@@ -221,9 +221,9 @@ Protected Attributes</h2></td></tr>
 <div class="line">obj.<a class="code hl_function" href="classJson.html#af57f6c5aa6394be02c74cca4b5274427">deserialize</a>(<span class="stringliteral">&quot;{\&quot;a\&quot;:5}&quot;</span>);</div>
 <div class="line">std::cout &lt;&lt; obj[<span class="stringliteral">&quot;a&quot;</span>].<a class="code hl_function" href="classJson.html#a9fcbb22214d9d0ad7faac54735f0ca24">isNumber</a>() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>; <span class="comment">// 1</span></div>
 <div class="line">std::cout &lt;&lt; obj[<span class="stringliteral">&quot;a&quot;</span>].<a class="code hl_function" href="classJson.html#acfda5fc1a094751c95064c5782c62f04">number</a>() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>; <span class="comment">// 5</span></div>
-<div class="ttc" id="aclassJson_html"><div class="ttname"><a href="classJson.html">Json</a></div><div class="ttdoc">JSON.</div><div class="ttdef"><b>Definition:</b> Json.hpp:87</div></div>
-<div class="ttc" id="aclassJson_html_a9fcbb22214d9d0ad7faac54735f0ca24"><div class="ttname"><a href="classJson.html#a9fcbb22214d9d0ad7faac54735f0ca24">Json::isNumber</a></div><div class="ttdeci">bool isNumber() const</div><div class="ttdef"><b>Definition:</b> Json.hpp:138</div></div>
-<div class="ttc" id="aclassJson_html_acfda5fc1a094751c95064c5782c62f04"><div class="ttname"><a href="classJson.html#acfda5fc1a094751c95064c5782c62f04">Json::number</a></div><div class="ttdeci">double number() const</div><div class="ttdef"><b>Definition:</b> Json.hpp:461</div></div>
+<div class="ttc" id="aclassJson_html"><div class="ttname"><a href="classJson.html">Json</a></div><div class="ttdoc">JSON.</div><div class="ttdef"><b>Definition:</b> Json.hpp:88</div></div>
+<div class="ttc" id="aclassJson_html_a9fcbb22214d9d0ad7faac54735f0ca24"><div class="ttname"><a href="classJson.html#a9fcbb22214d9d0ad7faac54735f0ca24">Json::isNumber</a></div><div class="ttdeci">bool isNumber() const</div><div class="ttdef"><b>Definition:</b> Json.hpp:139</div></div>
+<div class="ttc" id="aclassJson_html_acfda5fc1a094751c95064c5782c62f04"><div class="ttname"><a href="classJson.html#acfda5fc1a094751c95064c5782c62f04">Json::number</a></div><div class="ttdeci">double number() const</div><div class="ttdef"><b>Definition:</b> Json.hpp:462</div></div>
 <div class="ttc" id="aclassJson_html_af57f6c5aa6394be02c74cca4b5274427"><div class="ttname"><a href="classJson.html#af57f6c5aa6394be02c74cca4b5274427">Json::deserialize</a></div><div class="ttdeci">void deserialize(const std::string &amp;in)</div><div class="ttdef"><b>Definition:</b> Json.cpp:69</div></div>
 </div><!-- fragment --> <pre class="fragment">example number:
 </pre> <div class="fragment"><div class="line"><a class="code hl_class" href="classJson.html">Json</a> obj;</div>
@@ -238,8 +238,8 @@ Protected Attributes</h2></td></tr>
 <div class="line">std::cout &lt;&lt; obj[<span class="stringliteral">&quot;name&quot;</span>].<a class="code hl_function" href="classJson.html#ad40c52e2ddcd30956b2bdd6fd803dfa6">isString</a>() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>; <span class="comment">// 1</span></div>
 <div class="line">std::cout &lt;&lt; obj[<span class="stringliteral">&quot;name&quot;</span>].<a class="code hl_function" href="classJson.html#abd63c9b5f878692260849ec8bc7f42ef">string</a>() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>; <span class="comment">// John</span></div>
 <div class="line">std::cout &lt;&lt; obj.<a class="code hl_function" href="classJson.html#a00979f5dd22f93f1e92d4480e24e51f3">serialize</a>(0) &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>; <span class="comment">// {&quot;name&quot;:&quot;John&quot;}</span></div>
-<div class="ttc" id="aclassJson_html_abd63c9b5f878692260849ec8bc7f42ef"><div class="ttname"><a href="classJson.html#abd63c9b5f878692260849ec8bc7f42ef">Json::string</a></div><div class="ttdeci">const std::string &amp; string() const</div><div class="ttdef"><b>Definition:</b> Json.hpp:451</div></div>
-<div class="ttc" id="aclassJson_html_ad40c52e2ddcd30956b2bdd6fd803dfa6"><div class="ttname"><a href="classJson.html#ad40c52e2ddcd30956b2bdd6fd803dfa6">Json::isString</a></div><div class="ttdeci">bool isString() const</div><div class="ttdef"><b>Definition:</b> Json.hpp:137</div></div>
+<div class="ttc" id="aclassJson_html_abd63c9b5f878692260849ec8bc7f42ef"><div class="ttname"><a href="classJson.html#abd63c9b5f878692260849ec8bc7f42ef">Json::string</a></div><div class="ttdeci">const std::string &amp; string() const</div><div class="ttdef"><b>Definition:</b> Json.hpp:452</div></div>
+<div class="ttc" id="aclassJson_html_ad40c52e2ddcd30956b2bdd6fd803dfa6"><div class="ttname"><a href="classJson.html#ad40c52e2ddcd30956b2bdd6fd803dfa6">Json::isString</a></div><div class="ttdeci">bool isString() const</div><div class="ttdef"><b>Definition:</b> Json.hpp:138</div></div>
 </div><!-- fragment --> <pre class="fragment">example array:
 </pre> <div class="fragment"><div class="line"><a class="code hl_class" href="classJson.html">Json</a> obj;</div>
 <div class="line">obj[<span class="stringliteral">&quot;dim&quot;</span>][0] = 10;</div>
@@ -260,10 +260,10 @@ Protected Attributes</h2></td></tr>
 <div class="line">std::cout &lt;&lt; area &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>; <span class="comment">// 200</span></div>
 <div class="line"> </div>
 <div class="line">std::cout &lt;&lt; obj.<a class="code hl_function" href="classJson.html#a00979f5dd22f93f1e92d4480e24e51f3">serialize</a>(0) &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>; <span class="comment">// {&quot;dim&quot;:[10,20],&quot;scale&quot;:[1,2,3]}</span></div>
-<div class="ttc" id="aclassJson_html_a2294b996718e1291220c72325e4a63c2"><div class="ttname"><a href="classJson.html#a2294b996718e1291220c72325e4a63c2">Json::array</a></div><div class="ttdeci">const std::vector&lt; Json &gt; &amp; array() const</div><div class="ttdef"><b>Definition:</b> Json.hpp:441</div></div>
-<div class="ttc" id="aclassJson_html_a4dec6df6f507190d2ca99187b8337722"><div class="ttname"><a href="classJson.html#a4dec6df6f507190d2ca99187b8337722">Json::isObject</a></div><div class="ttdeci">bool isObject() const</div><div class="ttdef"><b>Definition:</b> Json.hpp:135</div></div>
-<div class="ttc" id="aclassJson_html_ae6eba8b3f5db17b0f67d3b04fbcef25e"><div class="ttname"><a href="classJson.html#ae6eba8b3f5db17b0f67d3b04fbcef25e">Json::size</a></div><div class="ttdeci">size_t size() const</div><div class="ttdef"><b>Definition:</b> Json.hpp:391</div></div>
-<div class="ttc" id="aclassJson_html_af8111b572eb56928cc5b075834dfa4fa"><div class="ttname"><a href="classJson.html#af8111b572eb56928cc5b075834dfa4fa">Json::isArray</a></div><div class="ttdeci">bool isArray() const</div><div class="ttdef"><b>Definition:</b> Json.hpp:136</div></div>
+<div class="ttc" id="aclassJson_html_a2294b996718e1291220c72325e4a63c2"><div class="ttname"><a href="classJson.html#a2294b996718e1291220c72325e4a63c2">Json::array</a></div><div class="ttdeci">const std::vector&lt; Json &gt; &amp; array() const</div><div class="ttdef"><b>Definition:</b> Json.hpp:442</div></div>
+<div class="ttc" id="aclassJson_html_a4dec6df6f507190d2ca99187b8337722"><div class="ttname"><a href="classJson.html#a4dec6df6f507190d2ca99187b8337722">Json::isObject</a></div><div class="ttdeci">bool isObject() const</div><div class="ttdef"><b>Definition:</b> Json.hpp:136</div></div>
+<div class="ttc" id="aclassJson_html_ae6eba8b3f5db17b0f67d3b04fbcef25e"><div class="ttname"><a href="classJson.html#ae6eba8b3f5db17b0f67d3b04fbcef25e">Json::size</a></div><div class="ttdeci">size_t size() const</div><div class="ttdef"><b>Definition:</b> Json.hpp:392</div></div>
+<div class="ttc" id="aclassJson_html_af8111b572eb56928cc5b075834dfa4fa"><div class="ttname"><a href="classJson.html#af8111b572eb56928cc5b075834dfa4fa">Json::isArray</a></div><div class="ttdeci">bool isArray() const</div><div class="ttdef"><b>Definition:</b> Json.hpp:137</div></div>
 </div><!-- fragment --> </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a3665a31dbcc7a05d65f9f6b4c191c4a7" name="a3665a31dbcc7a05d65f9f6b4c191c4a7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3665a31dbcc7a05d65f9f6b4c191c4a7">&#9670;&nbsp;</a></span>Type</h2>
@@ -1752,7 +1752,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classJson.html#a445eadc76cec47be46dbf9724826a798">clear()</a>, <a class="el" href="classJson.html#a6e94f2604aacda68aefc26436bf6d4d8">createArray()</a>, <a class="el" href="classJson.html#a94d5e4e97c55767a956adf09b6b3f19a">createNumber()</a>, <a class="el" href="classJson.html#a639c088152edf4d655c8cd93caae818c">createObject()</a>, <a class="el" href="classJson.html#a6f00a57cbf0cbe26c9f38253f7e6c8c0">createString()</a>, <a class="el" href="classJson.html#ae18168df9eaa32db5276a0803bad1b65">createType()</a>, <a class="el" href="classJson.html#af8111b572eb56928cc5b075834dfa4fa">isArray()</a>, <a class="el" href="classJson.html#a2a6bf9e4a8ebfb9531588557b8abef9c">isFalse()</a>, <a class="el" href="classJson.html#ae6d9f7ed505b70cb30c45d3de7f10a61">isNull()</a>, <a class="el" href="classJson.html#a9fcbb22214d9d0ad7faac54735f0ca24">isNumber()</a>, <a class="el" href="classJson.html#a4dec6df6f507190d2ca99187b8337722">isObject()</a>, <a class="el" href="classJson.html#ad40c52e2ddcd30956b2bdd6fd803dfa6">isString()</a>, <a class="el" href="classJson.html#a0ed16e4b04a38aeaa8690090de4ffcaf">isTrue()</a>, and <a class="el" href="classJson.html#a994315b6e259b8d9b32480c5bc78c407">serialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classJson.html#a445eadc76cec47be46dbf9724826a798">clear()</a>, <a class="el" href="classJson.html#a6e94f2604aacda68aefc26436bf6d4d8">createArray()</a>, <a class="el" href="classJson.html#a94d5e4e97c55767a956adf09b6b3f19a">createNumber()</a>, <a class="el" href="classJson.html#a639c088152edf4d655c8cd93caae818c">createObject()</a>, <a class="el" href="classJson.html#a6f00a57cbf0cbe26c9f38253f7e6c8c0">createString()</a>, <a class="el" href="classJson.html#ae18168df9eaa32db5276a0803bad1b65">createType()</a>, and <a class="el" href="classJson.html#a994315b6e259b8d9b32480c5bc78c407">serialize()</a>.</p>
 
 </div>
 </div>
@@ -1766,7 +1766,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classJson.html">Json</a></li>
-    <li class="footer">Generated on Tue May 31 2022 20:03:17 for 3D Forest by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Sat Jun 4 2022 22:07:04 for 3D Forest by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>

@@ -11,6 +11,12 @@
 <section title="Git" ref="developerguide_git.html"/>
 <section title="Build Using &quot;Unix Makefiles&quot; on Linux" ref="developerguide_build_linux_make.html"/>
 <section title="Build Using &quot;MinGW Makefiles&quot; on Windows" ref="developerguide_build_windows_make.html"/>
+<section title="Build with Visual Studio for Windows" ref="developerguide_build_windows_visual_studio.html">
+<section title="Install git" ref="developerguide_build_windows_visual_studio.html#sec_git"/>
+<section title="Install Visual Studio" ref="developerguide_build_windows_visual_studio.html#sec_vs"/>
+<section title="Install Qt" ref="developerguide_build_windows_visual_studio.html#sec_qt"/>
+<section title="Build 3D Forest" ref="developerguide_build_windows_visual_studio.html#sec_build"/>
+</section>
 <section title="Add New Functionality" ref="developerguide_add_new_functionality.html"/>
 <section title="Code Style" ref="developerguide_code.html"/>
 <section title="Doxygen" ref="developerguide_doxygen.html"/>
@@ -930,6 +936,38 @@
 <section title="actionProjectSaveAs_" ref="classProjectFilePlugin.html#aec4c592c0bb1f356ac51141d665cc0e8"/>
 <section title="mainWindow_" ref="classProjectFilePlugin.html#a2e015db301c976d2f01ecaec617f90a1"/>
 </section>
+<section title="ProjectNavigatorClassifications" ref="classProjectNavigatorClassifications.html">
+<section title="Column" ref="classProjectNavigatorClassifications.html#a48156ee3ab3a84e9d4e6824cf861be80">
+<section title="COLUMN_CHECKED" ref="classProjectNavigatorClassifications.html#a48156ee3ab3a84e9d4e6824cf861be80a857940187bb562b86986e94a32255021"/>
+<section title="COLUMN_ID" ref="classProjectNavigatorClassifications.html#a48156ee3ab3a84e9d4e6824cf861be80ac6d55bad832751903c3ce53cce730f94"/>
+<section title="COLUMN_LABEL" ref="classProjectNavigatorClassifications.html#a48156ee3ab3a84e9d4e6824cf861be80a72a8c68bd29c0edddf65ecc03246df9f"/>
+<section title="COLUMN_LAST" ref="classProjectNavigatorClassifications.html#a48156ee3ab3a84e9d4e6824cf861be80af3462f289638b6c6f260472b74178615"/>
+</section>
+<section title="ProjectNavigatorClassifications" ref="classProjectNavigatorClassifications.html#a30bb168a7cefa4f75b12405bee5814c9"/>
+<section title="addItem" ref="classProjectNavigatorClassifications.html#a3c17bb933eeca2c5bb329187603e0ec8"/>
+<section title="block" ref="classProjectNavigatorClassifications.html#a6d82fdddba89e36d498d3b3dffe84d3a"/>
+<section title="dataChanged" ref="classProjectNavigatorClassifications.html#a554d0f16caed59e629353348159e9e1a"/>
+<section title="filterChanged" ref="classProjectNavigatorClassifications.html#a6be87b2a6fee6c7d3b64a24dcf11efd5"/>
+<section title="setClassifications" ref="classProjectNavigatorClassifications.html#a3f18a83edb569e31c0134c8ba16a9546"/>
+<section title="slotHide" ref="classProjectNavigatorClassifications.html#a9eabd844978206166156db78a16b2eaf"/>
+<section title="slotItemChanged" ref="classProjectNavigatorClassifications.html#a9ecddb7a92cb0722a044df70ae2cae4c"/>
+<section title="slotItemSelectionChanged" ref="classProjectNavigatorClassifications.html#a36ad4824ad9853b840e6d2b0a4f1e7fc"/>
+<section title="slotSelectAll" ref="classProjectNavigatorClassifications.html#ac545e4e1846cd6850daee2ce23c69bc9"/>
+<section title="slotSelectInvert" ref="classProjectNavigatorClassifications.html#af5ddae2bacec4d7be22f38426460f023"/>
+<section title="slotSelectNone" ref="classProjectNavigatorClassifications.html#ade110182fa5315ba81d7fc84ca6c2298"/>
+<section title="slotShow" ref="classProjectNavigatorClassifications.html#a89d5e05310b173f1fa05e6a54f4877ed"/>
+<section title="slotUpdate" ref="classProjectNavigatorClassifications.html#a46febe0f05c08351767eca506e1fb96a"/>
+<section title="unblock" ref="classProjectNavigatorClassifications.html#adc08fd7212af28742198dfae08a86525"/>
+<section title="updateTree" ref="classProjectNavigatorClassifications.html#aea88bb88b975db28d363336eb32dfec6"/>
+<section title="classifications_" ref="classProjectNavigatorClassifications.html#a0c0984c705934840787de966c9b4cf6d"/>
+<section title="hideButton_" ref="classProjectNavigatorClassifications.html#aa39353bae4819faf8794fd0f7548946b"/>
+<section title="mainWindow_" ref="classProjectNavigatorClassifications.html#abb3ebde64071b309e2e9093032f77115"/>
+<section title="selectAllButton_" ref="classProjectNavigatorClassifications.html#a15c57be7eb9031741745bb0a49a08e8a"/>
+<section title="selectInvertButton_" ref="classProjectNavigatorClassifications.html#a74c11d0280d2355ac6f52a5d60b85c79"/>
+<section title="selectNoneButton_" ref="classProjectNavigatorClassifications.html#a113e995eb8fd698f7efd2625a0ad8d21"/>
+<section title="showButton_" ref="classProjectNavigatorClassifications.html#a9a0ee4e17c7f70d61c3fe37269d6ee1f"/>
+<section title="tree_" ref="classProjectNavigatorClassifications.html#a0c2ba0f3ec12079e6d38715cbff97d96"/>
+</section>
 <section title="ProjectNavigatorFiles" ref="classProjectNavigatorFiles.html">
 <section title="Column" ref="classProjectNavigatorFiles.html#ad92c5569a2af30f57300482ce0e52450">
 <section title="COLUMN_CHECKED" ref="classProjectNavigatorFiles.html#ad92c5569a2af30f57300482ce0e52450abd8aa81790c84782d337281e7b15ca4e"/>
@@ -1014,6 +1052,7 @@
 </section>
 <section title="ProjectNavigatorWindow" ref="classProjectNavigatorWindow.html">
 <section title="ProjectNavigatorWindow" ref="classProjectNavigatorWindow.html#ad86f71e57a5acf7411777e2115cf8c68"/>
+<section title="classifications_" ref="classProjectNavigatorWindow.html#aef79bfdf593a23f327e6a756fdc25127"/>
 <section title="datasets_" ref="classProjectNavigatorWindow.html#a9dde8a541c96eebec2408c74d21e2196"/>
 <section title="layers_" ref="classProjectNavigatorWindow.html#ad7d7818c19f2cf9a86b7a6b91ae9568a"/>
 <section title="mainWindow_" ref="classProjectNavigatorWindow.html#aaca4581e25c772dca0aef5d76b1ab0a5"/>
@@ -1145,6 +1184,13 @@
 <section title="slotPlugin" ref="classSegmentationPlugin.html#a809a57743c4ce7d4bec2374c22e65900"/>
 <section title="dockWindow_" ref="classSegmentationPlugin.html#a08421f3f550856de9b838cff0ef28b0b"/>
 <section title="mainWindow_" ref="classSegmentationPlugin.html#a3cff02381a3139b1cbfa7ee352bfdb84"/>
+</section>
+<section title="SegmentationWindow" ref="classSegmentationWindow.html">
+<section title="SegmentationWindow" ref="classSegmentationWindow.html#a8b647e48a9adb42f116ab4ab2796aea2"/>
+<section title="slotApply" ref="classSegmentationWindow.html#a3ebc5c037037b6f2c1712049a69d9572"/>
+<section title="distanceSpinBox_" ref="classSegmentationWindow.html#ac835a98ab67efb1fdf90ae87431c1fcf"/>
+<section title="mainWindow_" ref="classSegmentationWindow.html#af0a00ec7f2fdf4bed6cdba9c70cfc22b"/>
+<section title="widget_" ref="classSegmentationWindow.html#a245b6a9d7aa0509ac27907a6d3c7c047"/>
 </section>
 <section title="Settings" ref="classSettings.html">
 <section title="read" ref="classSettings.html#a72a269056237468189cd4d5c801eccf6"/>
@@ -1585,6 +1631,7 @@
 <section title="QDockWidget" ref="">
 <section title="ClassifyGroundWindow" ref="classClassifyGroundWindow.html"/>
 <section title="ProjectNavigatorWindow" ref="classProjectNavigatorWindow.html"/>
+<section title="SegmentationWindow" ref="classSegmentationWindow.html"/>
 <section title="SettingsWindow" ref="classSettingsWindow.html"/>
 </section>
 <section title="QIcon" ref="">
@@ -1611,6 +1658,7 @@
 </section>
 <section title="Query" ref="classQuery.html"/>
 <section title="QWidget" ref="">
+<section title="ProjectNavigatorClassifications" ref="classProjectNavigatorClassifications.html"/>
 <section title="ProjectNavigatorFiles" ref="classProjectNavigatorFiles.html"/>
 <section title="ProjectNavigatorLayers" ref="classProjectNavigatorLayers.html"/>
 <section title="SettingsViewWidget" ref="classSettingsViewWidget.html"/>
@@ -1769,6 +1817,7 @@
 <keyword name="PluginInterface" id="PluginInterface_" ref="classPluginInterface.html"/>
 <keyword name="LasFile::Point" id="LasFile::Point_" ref="structLasFile_1_1Point.html"/>
 <keyword name="ProjectFilePlugin" id="ProjectFilePlugin_" ref="classProjectFilePlugin.html"/>
+<keyword name="ProjectNavigatorClassifications" id="ProjectNavigatorClassifications_" ref="classProjectNavigatorClassifications.html"/>
 <keyword name="ProjectNavigatorFiles" id="ProjectNavigatorFiles_" ref="classProjectNavigatorFiles.html"/>
 <keyword name="ProjectNavigatorLayers" id="ProjectNavigatorLayers_" ref="classProjectNavigatorLayers.html"/>
 <keyword name="ProjectNavigatorPlugin" id="ProjectNavigatorPlugin_" ref="classProjectNavigatorPlugin.html"/>
@@ -1778,6 +1827,7 @@
 <keyword name="RenderThread" id="RenderThread_" ref="classRenderThread.html"/>
 <keyword name="Segmentation" id="Segmentation_" ref="classSegmentation.html"/>
 <keyword name="SegmentationPlugin" id="SegmentationPlugin_" ref="classSegmentationPlugin.html"/>
+<keyword name="SegmentationWindow" id="SegmentationWindow_" ref="classSegmentationWindow.html"/>
 <keyword name="IndexFile::Selection" id="IndexFile::Selection_" ref="structIndexFile_1_1Selection.html"/>
 <keyword name="IndexFile::SelectionTile" id="IndexFile::SelectionTile_" ref="structIndexFile_1_1SelectionTile.html"/>
 <keyword name="IndexFileBuilder::Settings" id="IndexFileBuilder::Settings_" ref="classIndexFileBuilder_1_1Settings.html"/>
@@ -1811,6 +1861,7 @@
 <keyword name="Git" id="Git_" ref="developerguide_git.html"/>
 <keyword name="Build Using &quot;Unix Makefiles&quot; on Linux" id="Build Using &quot;Unix Makefiles&quot; on Linux_" ref="developerguide_build_linux_make.html"/>
 <keyword name="Build Using &quot;MinGW Makefiles&quot; on Windows" id="Build Using &quot;MinGW Makefiles&quot; on Windows_" ref="developerguide_build_windows_make.html"/>
+<keyword name="Build with Visual Studio for Windows" id="Build with Visual Studio for Windows_" ref="developerguide_build_windows_visual_studio.html"/>
 <keyword name="Add New Functionality" id="Add New Functionality_" ref="developerguide_add_new_functionality.html"/>
 <keyword name="Code Style" id="Code Style_" ref="developerguide_code.html"/>
 <keyword name="Doxygen" id="Doxygen_" ref="developerguide_doxygen.html"/>
@@ -1839,6 +1890,7 @@
 <keyword name="actionViewTop_" id="ViewerPlugin::actionViewTop__a1644865a0a5245e8ce3d8568e9ebef18" ref="classViewerPlugin.html#a1644865a0a5245e8ce3d8568e9ebef18"/>
 <keyword name="addButton_" id="ProjectNavigatorFiles::addButton__a04ad5b24aa513db5a2688ed7d709eb60" ref="classProjectNavigatorFiles.html#a04ad5b24aa513db5a2688ed7d709eb60"/>
 <keyword name="addButton_" id="ProjectNavigatorLayers::addButton__af1540310b6bafa248881e1486a1fcd7d" ref="classProjectNavigatorLayers.html#af1540310b6bafa248881e1486a1fcd7d"/>
+<keyword name="addItem(size_t i)" id="ProjectNavigatorClassifications::addItem_a3c17bb933eeca2c5bb329187603e0ec8" ref="classProjectNavigatorClassifications.html#a3c17bb933eeca2c5bb329187603e0ec8"/>
 <keyword name="addItem(size_t i)" id="ProjectNavigatorFiles::addItem_a73268d72e14c26dd0e71376365beb83a" ref="classProjectNavigatorFiles.html#a73268d72e14c26dd0e71376365beb83a"/>
 <keyword name="addItem(size_t i)" id="ProjectNavigatorLayers::addItem_a5d45c8f220e64c655af7857a07a19a0c" ref="classProjectNavigatorLayers.html#a5d45c8f220e64c655af7857a07a19a0c"/>
 <keyword name="addItem(size_t i)" id="SettingsViewWidget::addItem_ac958adb9c8bcc077b8542246197c4166" ref="classSettingsViewWidget.html#ac958adb9c8bcc077b8542246197c4166"/>
@@ -1864,6 +1916,7 @@
 <keyword name="backgroundColor() const" id="SettingsView::backgroundColor_a533d5411ec965c2dc1e7dadefe8df209" ref="classSettingsView.html#a533d5411ec965c2dc1e7dadefe8df209"/>
 <keyword name="BlackGreen16" id="ColorPalette::BlackGreen16_adfe3672a1f8c991b61c0c572fefdbec2" ref="classColorPalette.html#adfe3672a1f8c991b61c0c572fefdbec2"/>
 <keyword name="BlackRed16" id="ColorPalette::BlackRed16_a8722332bf7d5f46af8d6c9ecce313e98" ref="classColorPalette.html#a8722332bf7d5f46af8d6c9ecce313e98"/>
+<keyword name="block()" id="ProjectNavigatorClassifications::block_a6d82fdddba89e36d498d3b3dffe84d3a" ref="classProjectNavigatorClassifications.html#a6d82fdddba89e36d498d3b3dffe84d3a"/>
 <keyword name="block()" id="ProjectNavigatorFiles::block_a99604db0d0c98457213cee7aa66461b6" ref="classProjectNavigatorFiles.html#a99604db0d0c98457213cee7aa66461b6"/>
 <keyword name="block()" id="ProjectNavigatorLayers::block_ab10efaf76251d1e98203c0d1a20bc678" ref="classProjectNavigatorLayers.html#ab10efaf76251d1e98203c0d1a20bc678"/>
 <keyword name="block()" id="SettingsViewWidget::block_af9219907788cf6a5abeccdd63064ee09" ref="classSettingsViewWidget.html#af9219907788cf6a5abeccdd63064ee09"/>
@@ -1941,9 +1994,6 @@
 <keyword name="CLASS_NEVER_CLASSIFIED" id="LasFile::CLASS_NEVER_CLASSIFIED_a23ca2c79a141774dc33b80f1b8c7127cafe6a5504256abd4980819a85a5467508" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127cafe6a5504256abd4980819a85a5467508"/>
 <keyword name="CLASS_UNASSIGNED" id="LasFile::CLASS_UNASSIGNED_a23ca2c79a141774dc33b80f1b8c7127cac9e261db850bde2a104cabd4f70cd29e" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127cac9e261db850bde2a104cabd4f70cd29e"/>
 <keyword name="classes_" id="Classifications::classes__aa39e2d9bb989c41b01ae3914e5524e07" ref="classClassifications.html#aa39e2d9bb989c41b01ae3914e5524e07"/>
-<keyword name="classification" id="LasFile::Point::classification_aecb05abcc58648b14bca776e90ed9189" ref="structLasFile_1_1Point.html#aecb05abcc58648b14bca776e90ed9189"/>
-<keyword name="classification" id="Page::classification_a517be58884db1f30cb1fefd65ae449e8" ref="classPage.html#a517be58884db1f30cb1fefd65ae449e8"/>
-<keyword name="classification()" id="Query::classification_a019601f80fc296ef862d2f32f6b69f68" ref="classQuery.html#a019601f80fc296ef862d2f32f6b69f68"/>
 <keyword name="Classification" id="LasFile::Classification_a23ca2c79a141774dc33b80f1b8c7127c" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127c"/>
 <keyword name="CLASS_NEVER_CLASSIFIED" id="LasFile::CLASS_NEVER_CLASSIFIED_a23ca2c79a141774dc33b80f1b8c7127cafe6a5504256abd4980819a85a5467508" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127cafe6a5504256abd4980819a85a5467508"/>
 <keyword name="CLASS_UNASSIGNED" id="LasFile::CLASS_UNASSIGNED_a23ca2c79a141774dc33b80f1b8c7127cac9e261db850bde2a104cabd4f70cd29e" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127cac9e261db850bde2a104cabd4f70cd29e"/>
@@ -1953,11 +2003,16 @@
 <keyword name="CLASS_HIGH_VEGETATION" id="LasFile::CLASS_HIGH_VEGETATION_a23ca2c79a141774dc33b80f1b8c7127ca4881a2d84e79bc87cef09d2e24e08f97" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127ca4881a2d84e79bc87cef09d2e24e08f97"/>
 <keyword name="CLASS_BUILDING" id="LasFile::CLASS_BUILDING_a23ca2c79a141774dc33b80f1b8c7127ca482330a47c151351db995bb6b8d5b7b1" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127ca482330a47c151351db995bb6b8d5b7b1"/>
 <keyword name="Classification" id="ColorPalette::Classification_a84eea7fc6cf059a4dcac0f38892372ed" ref="classColorPalette.html#a84eea7fc6cf059a4dcac0f38892372ed"/>
+<keyword name="classification" id="LasFile::Point::classification_aecb05abcc58648b14bca776e90ed9189" ref="structLasFile_1_1Point.html#aecb05abcc58648b14bca776e90ed9189"/>
+<keyword name="classification" id="Page::classification_a517be58884db1f30cb1fefd65ae449e8" ref="classPage.html#a517be58884db1f30cb1fefd65ae449e8"/>
+<keyword name="classification()" id="Query::classification_a019601f80fc296ef862d2f32f6b69f68" ref="classQuery.html#a019601f80fc296ef862d2f32f6b69f68"/>
 <keyword name="classification_" id="Query::classification__a876ab134e57df7cae49579c08e06c0a1" ref="classQuery.html#a876ab134e57df7cae49579c08e06c0a1"/>
 <keyword name="classification_flags" id="LasFile::Point::classification_flags_af293689ccbbc1a32d2449e70dc84e546" ref="structLasFile_1_1Point.html#af293689ccbbc1a32d2449e70dc84e546"/>
 <keyword name="classifications() const" id="Editor::classifications_a1e80724a9fe61e693142cb521c841703" ref="classEditor.html#a1e80724a9fe61e693142cb521c841703"/>
 <keyword name="Classifications()" id="Classifications::Classifications_a567c666740d6c0584930b9fad8ac53fb" ref="classClassifications.html#a567c666740d6c0584930b9fad8ac53fb"/>
 <keyword name="classifications_" id="Editor::classifications__aef0b17344d0d7debff0fe64739952162" ref="classEditor.html#aef0b17344d0d7debff0fe64739952162"/>
+<keyword name="classifications_" id="ProjectNavigatorClassifications::classifications__a0c0984c705934840787de966c9b4cf6d" ref="classProjectNavigatorClassifications.html#a0c0984c705934840787de966c9b4cf6d"/>
+<keyword name="classifications_" id="ProjectNavigatorWindow::classifications__aef79bfdf593a23f327e6a756fdc25127" ref="classProjectNavigatorWindow.html#aef79bfdf593a23f327e6a756fdc25127"/>
 <keyword name="ClassifyGroundPlugin()" id="ClassifyGroundPlugin::ClassifyGroundPlugin_a58a790ac9b049b52cb4e7db5455eb08c" ref="classClassifyGroundPlugin.html#a58a790ac9b049b52cb4e7db5455eb08c"/>
 <keyword name="ClassifyGroundWindow(MainWindow *mainWindow)" id="ClassifyGroundWindow::ClassifyGroundWindow_a594cf7f29b068e7a57d95d8b30138eb5" ref="classClassifyGroundWindow.html#a594cf7f29b068e7a57d95d8b30138eb5"/>
 <keyword name="clear()" id="Box::clear_a4683fb5768bc496fc28617ba550946b8" ref="classBox.html#a4683fb5768bc496fc28617ba550946b8"/>
@@ -2016,6 +2071,11 @@
 <keyword name="colorSourceSize() const" id="SettingsView::colorSourceSize_a1523ed88aa6bf3ded901240f997b6987" ref="classSettingsView.html#a1523ed88aa6bf3ded901240f997b6987"/>
 <keyword name="colorSourceString(size_t id) const" id="SettingsView::colorSourceString_ac568f75e432beddd4c15ff4a0fb51631" ref="classSettingsView.html#ac568f75e432beddd4c15ff4a0fb51631"/>
 <keyword name="colorSourceString_" id="SettingsView::colorSourceString__ac6518c4a467d7c6b646b2390501fdfda" ref="classSettingsView.html#ac6518c4a467d7c6b646b2390501fdfda"/>
+<keyword name="Column" id="ProjectNavigatorClassifications::Column_a48156ee3ab3a84e9d4e6824cf861be80" ref="classProjectNavigatorClassifications.html#a48156ee3ab3a84e9d4e6824cf861be80"/>
+<keyword name="COLUMN_CHECKED" id="ProjectNavigatorClassifications::COLUMN_CHECKED_a48156ee3ab3a84e9d4e6824cf861be80a857940187bb562b86986e94a32255021" ref="classProjectNavigatorClassifications.html#a48156ee3ab3a84e9d4e6824cf861be80a857940187bb562b86986e94a32255021"/>
+<keyword name="COLUMN_ID" id="ProjectNavigatorClassifications::COLUMN_ID_a48156ee3ab3a84e9d4e6824cf861be80ac6d55bad832751903c3ce53cce730f94" ref="classProjectNavigatorClassifications.html#a48156ee3ab3a84e9d4e6824cf861be80ac6d55bad832751903c3ce53cce730f94"/>
+<keyword name="COLUMN_LABEL" id="ProjectNavigatorClassifications::COLUMN_LABEL_a48156ee3ab3a84e9d4e6824cf861be80a72a8c68bd29c0edddf65ecc03246df9f" ref="classProjectNavigatorClassifications.html#a48156ee3ab3a84e9d4e6824cf861be80a72a8c68bd29c0edddf65ecc03246df9f"/>
+<keyword name="COLUMN_LAST" id="ProjectNavigatorClassifications::COLUMN_LAST_a48156ee3ab3a84e9d4e6824cf861be80af3462f289638b6c6f260472b74178615" ref="classProjectNavigatorClassifications.html#a48156ee3ab3a84e9d4e6824cf861be80af3462f289638b6c6f260472b74178615"/>
 <keyword name="Column" id="ProjectNavigatorFiles::Column_ad92c5569a2af30f57300482ce0e52450" ref="classProjectNavigatorFiles.html#ad92c5569a2af30f57300482ce0e52450"/>
 <keyword name="COLUMN_CHECKED" id="ProjectNavigatorFiles::COLUMN_CHECKED_ad92c5569a2af30f57300482ce0e52450abd8aa81790c84782d337281e7b15ca4e" ref="classProjectNavigatorFiles.html#ad92c5569a2af30f57300482ce0e52450abd8aa81790c84782d337281e7b15ca4e"/>
 <keyword name="COLUMN_ID" id="ProjectNavigatorFiles::COLUMN_ID_ad92c5569a2af30f57300482ce0e52450af4f131fe5aee5b16a0197b154ad3b03e" ref="classProjectNavigatorFiles.html#ad92c5569a2af30f57300482ce0e52450af4f131fe5aee5b16a0197b154ad3b03e"/>
@@ -2033,16 +2093,20 @@
 <keyword name="COLUMN_LABEL" id="SettingsViewWidget::COLUMN_LABEL_af055c6a6a20d9f6d075c458156d1c9daa22efa8f18b933001e2ef760fe636a5e2" ref="classSettingsViewWidget.html#af055c6a6a20d9f6d075c458156d1c9daa22efa8f18b933001e2ef760fe636a5e2"/>
 <keyword name="COLUMN_OPACITY" id="SettingsViewWidget::COLUMN_OPACITY_af055c6a6a20d9f6d075c458156d1c9daab2e94cc204ea36aacd388de420808db4" ref="classSettingsViewWidget.html#af055c6a6a20d9f6d075c458156d1c9daab2e94cc204ea36aacd388de420808db4"/>
 <keyword name="COLUMN_LAST" id="SettingsViewWidget::COLUMN_LAST_af055c6a6a20d9f6d075c458156d1c9daa1823abf5582e69faeb2b7c599fb2b4f6" ref="classSettingsViewWidget.html#af055c6a6a20d9f6d075c458156d1c9daa1823abf5582e69faeb2b7c599fb2b4f6"/>
+<keyword name="COLUMN_CHECKED" id="ProjectNavigatorClassifications::COLUMN_CHECKED_a48156ee3ab3a84e9d4e6824cf861be80a857940187bb562b86986e94a32255021" ref="classProjectNavigatorClassifications.html#a48156ee3ab3a84e9d4e6824cf861be80a857940187bb562b86986e94a32255021"/>
 <keyword name="COLUMN_CHECKED" id="ProjectNavigatorFiles::COLUMN_CHECKED_ad92c5569a2af30f57300482ce0e52450abd8aa81790c84782d337281e7b15ca4e" ref="classProjectNavigatorFiles.html#ad92c5569a2af30f57300482ce0e52450abd8aa81790c84782d337281e7b15ca4e"/>
 <keyword name="COLUMN_CHECKED" id="ProjectNavigatorLayers::COLUMN_CHECKED_a6c23f18ea70ae31024f80547798b5c27a24936a2d77e83b67c937a080308732c9" ref="classProjectNavigatorLayers.html#a6c23f18ea70ae31024f80547798b5c27a24936a2d77e83b67c937a080308732c9"/>
 <keyword name="COLUMN_CHECKED" id="SettingsViewWidget::COLUMN_CHECKED_af055c6a6a20d9f6d075c458156d1c9daa10da7636913344e9211c8672a2d6c9ba" ref="classSettingsViewWidget.html#af055c6a6a20d9f6d075c458156d1c9daa10da7636913344e9211c8672a2d6c9ba"/>
 <keyword name="COLUMN_DATE_CREATED" id="ProjectNavigatorFiles::COLUMN_DATE_CREATED_ad92c5569a2af30f57300482ce0e52450a920ffebb31e1b0390c1473cccfc231e9" ref="classProjectNavigatorFiles.html#ad92c5569a2af30f57300482ce0e52450a920ffebb31e1b0390c1473cccfc231e9"/>
+<keyword name="COLUMN_ID" id="ProjectNavigatorClassifications::COLUMN_ID_a48156ee3ab3a84e9d4e6824cf861be80ac6d55bad832751903c3ce53cce730f94" ref="classProjectNavigatorClassifications.html#a48156ee3ab3a84e9d4e6824cf861be80ac6d55bad832751903c3ce53cce730f94"/>
 <keyword name="COLUMN_ID" id="ProjectNavigatorFiles::COLUMN_ID_ad92c5569a2af30f57300482ce0e52450af4f131fe5aee5b16a0197b154ad3b03e" ref="classProjectNavigatorFiles.html#ad92c5569a2af30f57300482ce0e52450af4f131fe5aee5b16a0197b154ad3b03e"/>
 <keyword name="COLUMN_ID" id="ProjectNavigatorLayers::COLUMN_ID_a6c23f18ea70ae31024f80547798b5c27a76150512bcc2f1e960866924a6c2717f" ref="classProjectNavigatorLayers.html#a6c23f18ea70ae31024f80547798b5c27a76150512bcc2f1e960866924a6c2717f"/>
 <keyword name="COLUMN_ID" id="SettingsViewWidget::COLUMN_ID_af055c6a6a20d9f6d075c458156d1c9daaccb1ca8b6fd5c55d78e01af819773daf" ref="classSettingsViewWidget.html#af055c6a6a20d9f6d075c458156d1c9daaccb1ca8b6fd5c55d78e01af819773daf"/>
+<keyword name="COLUMN_LABEL" id="ProjectNavigatorClassifications::COLUMN_LABEL_a48156ee3ab3a84e9d4e6824cf861be80a72a8c68bd29c0edddf65ecc03246df9f" ref="classProjectNavigatorClassifications.html#a48156ee3ab3a84e9d4e6824cf861be80a72a8c68bd29c0edddf65ecc03246df9f"/>
 <keyword name="COLUMN_LABEL" id="ProjectNavigatorFiles::COLUMN_LABEL_ad92c5569a2af30f57300482ce0e52450a1659807b76bca6dd040a9f4ff2b6e40b" ref="classProjectNavigatorFiles.html#ad92c5569a2af30f57300482ce0e52450a1659807b76bca6dd040a9f4ff2b6e40b"/>
 <keyword name="COLUMN_LABEL" id="ProjectNavigatorLayers::COLUMN_LABEL_a6c23f18ea70ae31024f80547798b5c27ade529711e4908ccc234e2c75bbd6bc19" ref="classProjectNavigatorLayers.html#a6c23f18ea70ae31024f80547798b5c27ade529711e4908ccc234e2c75bbd6bc19"/>
 <keyword name="COLUMN_LABEL" id="SettingsViewWidget::COLUMN_LABEL_af055c6a6a20d9f6d075c458156d1c9daa22efa8f18b933001e2ef760fe636a5e2" ref="classSettingsViewWidget.html#af055c6a6a20d9f6d075c458156d1c9daa22efa8f18b933001e2ef760fe636a5e2"/>
+<keyword name="COLUMN_LAST" id="ProjectNavigatorClassifications::COLUMN_LAST_a48156ee3ab3a84e9d4e6824cf861be80af3462f289638b6c6f260472b74178615" ref="classProjectNavigatorClassifications.html#a48156ee3ab3a84e9d4e6824cf861be80af3462f289638b6c6f260472b74178615"/>
 <keyword name="COLUMN_LAST" id="ProjectNavigatorFiles::COLUMN_LAST_ad92c5569a2af30f57300482ce0e52450a4b2545214260ecb40f4a13971ae45459" ref="classProjectNavigatorFiles.html#ad92c5569a2af30f57300482ce0e52450a4b2545214260ecb40f4a13971ae45459"/>
 <keyword name="COLUMN_LAST" id="ProjectNavigatorLayers::COLUMN_LAST_a6c23f18ea70ae31024f80547798b5c27a8b9c67ec133f57e213f828ae3edfba89" ref="classProjectNavigatorLayers.html#a6c23f18ea70ae31024f80547798b5c27a8b9c67ec133f57e213f828ae3edfba89"/>
 <keyword name="COLUMN_LAST" id="SettingsViewWidget::COLUMN_LAST_af055c6a6a20d9f6d075c458156d1c9daa1823abf5582e69faeb2b7c599fb2b4f6" ref="classSettingsViewWidget.html#af055c6a6a20d9f6d075c458156d1c9daa1823abf5582e69faeb2b7c599fb2b4f6"/>
@@ -2089,6 +2153,7 @@
 <keyword name="data() const" id="Matrix4::data_a26c251168333d7f7732266510f22fb73" ref="classMatrix4.html#a26c251168333d7f7732266510f22fb73"/>
 <keyword name="data_" id="Json::data__aeb83b9da8f24af3c913ea2bf63f0a69e" ref="classJson.html#aeb83b9da8f24af3c913ea2bf63f0a69e"/>
 <keyword name="data_[4][4]" id="Matrix4::data__a2d5c0fc52e086ffda17407cfb97b1ffd" ref="classMatrix4.html#a2d5c0fc52e086ffda17407cfb97b1ffd"/>
+<keyword name="dataChanged()" id="ProjectNavigatorClassifications::dataChanged_a554d0f16caed59e629353348159e9e1a" ref="classProjectNavigatorClassifications.html#a554d0f16caed59e629353348159e9e1a"/>
 <keyword name="dataChanged()" id="ProjectNavigatorFiles::dataChanged_accc152e48bec862be7fe61be26a9525e" ref="classProjectNavigatorFiles.html#accc152e48bec862be7fe61be26a9525e"/>
 <keyword name="dataChanged()" id="ProjectNavigatorLayers::dataChanged_a2bb8aaff158facad4783247e82d1f1d0" ref="classProjectNavigatorLayers.html#a2bb8aaff158facad4783247e82d1f1d0"/>
 <keyword name="dataLength" id="ChunkFile::Chunk::dataLength_a03944dd179148646f847c2d3b69951bd" ref="structChunkFile_1_1Chunk.html#a03944dd179148646f847c2d3b69951bd"/>
@@ -2118,12 +2183,13 @@
 <keyword name="distance(T x, T y, T z) const" id="Box::distance_acc15a91b404afab65d303c2edf06fcbf" ref="classBox.html#acc15a91b404afab65d303c2edf06fcbf"/>
 <keyword name="distance(double x, double y, double z) const" id="Box&lt; double &gt;::distance_acc15a91b404afab65d303c2edf06fcbf" ref="classBox.html#acc15a91b404afab65d303c2edf06fcbf"/>
 <keyword name="distance_" id="ViewerCamera::distance__af69cf9d026d57a693221daff7dd3c0ea" ref="classViewerCamera.html#af69cf9d026d57a693221daff7dd3c0ea"/>
+<keyword name="distanceSpinBox_" id="SegmentationWindow::distanceSpinBox__ac835a98ab67efb1fdf90ae87431c1fcf" ref="classSegmentationWindow.html#ac835a98ab67efb1fdf90ae87431c1fcf"/>
 <keyword name="divide(Box&lt; double &gt; &amp;boundary, double x, double y, double z, uint64_t code) const" id="IndexFile::divide_a91296efaf069cd015a5682d8916fbff0" ref="classIndexFile.html#a91296efaf069cd015a5682d8916fbff0"/>
 <keyword name="dockWindow_" id="ClassifyGroundPlugin::dockWindow__aebbc5274f30d6354d31acb72ca2447bf" ref="classClassifyGroundPlugin.html#aebbc5274f30d6354d31acb72ca2447bf"/>
 <keyword name="dockWindow_" id="SegmentationPlugin::dockWindow__a08421f3f550856de9b838cff0ef28b0b" ref="classSegmentationPlugin.html#a08421f3f550856de9b838cff0ef28b0b"/>
 <keyword name="edge_of_flight_line" id="LasFile::Point::edge_of_flight_line_aa8b17418f5f56cc60b58ff43ac2237e4" ref="structLasFile_1_1Point.html#aa8b17418f5f56cc60b58ff43ac2237e4"/>
-<keyword name="editor()" id="MainWindow::editor_ad80b2d808ca015c062a8a27727892480" ref="classMainWindow.html#ad80b2d808ca015c062a8a27727892480"/>
 <keyword name="Editor()" id="Editor::Editor_ae208b788b6212af03488814462ae40d6" ref="classEditor.html#ae208b788b6212af03488814462ae40d6"/>
+<keyword name="editor()" id="MainWindow::editor_ad80b2d808ca015c062a8a27727892480" ref="classMainWindow.html#ad80b2d808ca015c062a8a27727892480"/>
 <keyword name="editor_" id="Page::editor__a7f96c82a47c8cb593656a68ca3ab7262" ref="classPage.html#a7f96c82a47c8cb593656a68ca3ab7262"/>
 <keyword name="editor_" id="Query::editor__ac33cb1d22d39800cf5ea48ee653d017c" ref="classQuery.html#ac33cb1d22d39800cf5ea48ee653d017c"/>
 <keyword name="editor_" id="RenderThread::editor__a31db16bca92b0077573db985ef3e31ac" ref="classRenderThread.html#a31db16bca92b0077573db985ef3e31ac"/>
@@ -2161,9 +2227,9 @@
 <keyword name="eye" id="Camera::eye_ac889297b5e95ecf4142ed786077cd9c0" ref="classCamera.html#ac889297b5e95ecf4142ed786077cd9c0"/>
 <keyword name="eye_" id="ViewerCamera::eye__a3ea0e607a0fb3fcd2895bc11aaeb6e6f" ref="classViewerCamera.html#a3ea0e607a0fb3fcd2895bc11aaeb6e6f"/>
 <keyword name="fd_" id="File::fd__a7e0076037ae46f8f6e555cb790d26988" ref="classFile.html#a7e0076037ae46f8f6e555cb790d26988"/>
+<keyword name="file()" id="LasFile::file_a67466e3d529b0d0aa6116dc65044159c" ref="classLasFile.html#a67466e3d529b0d0aa6116dc65044159c"/>
 <keyword name="File()" id="File::File_ae039af5807fc385f41b60644725d15d0" ref="classFile.html#ae039af5807fc385f41b60644725d15d0"/>
 <keyword name="File(const File &amp;)=delete" id="File::File_a042f525d4beac394675727bcd5cce274" ref="classFile.html#a042f525d4beac394675727bcd5cce274"/>
-<keyword name="file()" id="LasFile::file_a67466e3d529b0d0aa6116dc65044159c" ref="classLasFile.html#a67466e3d529b0d0aa6116dc65044159c"/>
 <keyword name="file_" id="ChunkFile::file__aeb986e42b8f608d030a86d0a60e529c3" ref="classChunkFile.html#aeb986e42b8f608d030a86d0a60e529c3"/>
 <keyword name="file_" id="LasFile::file__a49e34f00c3f3551e21a631ab8f9f9cc6" ref="classLasFile.html#a49e34f00c3f3551e21a631ab8f9f9cc6"/>
 <keyword name="file_creation_day_of_year" id="LasFile::Header::file_creation_day_of_year_ace9546083a9405e9585ad29f6e2ab3e1" ref="structLasFile_1_1Header.html#ace9546083a9405e9585ad29f6e2ab3e1"/>
@@ -2175,6 +2241,7 @@
 <keyword name="fileName() const" id="Dataset::fileName_adb06894dc2d3c918f3cbbb1f116f8c79" ref="classDataset.html#adb06894dc2d3c918f3cbbb1f116f8c79"/>
 <keyword name="fileName(size_t i) const" id="Datasets::fileName_ae91754d9f50ee287377ade913a1a2010" ref="classDatasets.html#ae91754d9f50ee287377ade913a1a2010"/>
 <keyword name="fileName_" id="Dataset::fileName__a38152300561aebc5852384d62751bda5" ref="classDataset.html#a38152300561aebc5852384d62751bda5"/>
+<keyword name="filterChanged()" id="ProjectNavigatorClassifications::filterChanged_a6be87b2a6fee6c7d3b64a24dcf11efd5" ref="classProjectNavigatorClassifications.html#a6be87b2a6fee6c7d3b64a24dcf11efd5"/>
 <keyword name="filterChanged()" id="ProjectNavigatorFiles::filterChanged_aed81ace52fe3562d8c861873780a44d3" ref="classProjectNavigatorFiles.html#aed81ace52fe3562d8c861873780a44d3"/>
 <keyword name="filterChanged()" id="ProjectNavigatorLayers::filterChanged_a7f2db56096e81f08b1b759b34a1344be" ref="classProjectNavigatorLayers.html#a7f2db56096e81f08b1b759b34a1344be"/>
 <keyword name="finished_" id="Thread::finished__ad033b3f88003c311c8a17cdf4a09ec94" ref="classThread.html#ad033b3f88003c311c8a17cdf4a09ec94"/>
@@ -2240,6 +2307,7 @@
 <keyword name="height() const" id="ViewerCamera::height_abd8630170d1e6a197fd7efef44a4dbd0" ref="classViewerCamera.html#abd8630170d1e6a197fd7efef44a4dbd0"/>
 <keyword name="HelpPlugin()" id="HelpPlugin::HelpPlugin_a9efc4f67f9dfe52fd5a106ee93f0906a" ref="classHelpPlugin.html#a9efc4f67f9dfe52fd5a106ee93f0906a"/>
 <keyword name="helpPlugin_" id="MainWindow::helpPlugin__ae9c8c57b833643fecf2064b349c4370d" ref="classMainWindow.html#ae9c8c57b833643fecf2064b349c4370d"/>
+<keyword name="hideButton_" id="ProjectNavigatorClassifications::hideButton__aa39353bae4819faf8794fd0f7548946b" ref="classProjectNavigatorClassifications.html#aa39353bae4819faf8794fd0f7548946b"/>
 <keyword name="hideButton_" id="ProjectNavigatorFiles::hideButton__a67b2eefc11290a23e3e6cdc14fa0ffdb" ref="classProjectNavigatorFiles.html#a67b2eefc11290a23e3e6cdc14fa0ffdb"/>
 <keyword name="hideButton_" id="ProjectNavigatorLayers::hideButton__a776f587d1f340a1ee7e2aac29c9ce8b0" ref="classProjectNavigatorLayers.html#a776f587d1f340a1ee7e2aac29c9ce8b0"/>
 <keyword name="hideToolBar(const QString &amp;menu)" id="MainWindow::hideToolBar_a67e94016b002fb9d132e08c446c8e01b" ref="classMainWindow.html#a67e94016b002fb9d132e08c446c8e01b"/>
@@ -2387,11 +2455,13 @@
 <keyword name="mainWindow_" id="HelpPlugin::mainWindow__a563d0d185a581edd2862a49a0e5339b0" ref="classHelpPlugin.html#a563d0d185a581edd2862a49a0e5339b0"/>
 <keyword name="mainWindow_" id="ImportPlugin::mainWindow__ac3106035080acb9b520a727c5960a4a4" ref="classImportPlugin.html#ac3106035080acb9b520a727c5960a4a4"/>
 <keyword name="mainWindow_" id="ProjectFilePlugin::mainWindow__a2e015db301c976d2f01ecaec617f90a1" ref="classProjectFilePlugin.html#a2e015db301c976d2f01ecaec617f90a1"/>
+<keyword name="mainWindow_" id="ProjectNavigatorClassifications::mainWindow__abb3ebde64071b309e2e9093032f77115" ref="classProjectNavigatorClassifications.html#abb3ebde64071b309e2e9093032f77115"/>
 <keyword name="mainWindow_" id="ProjectNavigatorFiles::mainWindow__ab54307969f842e0a58fdbc627a863d66" ref="classProjectNavigatorFiles.html#ab54307969f842e0a58fdbc627a863d66"/>
 <keyword name="mainWindow_" id="ProjectNavigatorLayers::mainWindow__a52c00a2909e17c0c8e80d64a2ab6b7f6" ref="classProjectNavigatorLayers.html#a52c00a2909e17c0c8e80d64a2ab6b7f6"/>
 <keyword name="mainWindow_" id="ProjectNavigatorPlugin::mainWindow__a0918bcc4456342afd5ebc5897b4e331d" ref="classProjectNavigatorPlugin.html#a0918bcc4456342afd5ebc5897b4e331d"/>
 <keyword name="mainWindow_" id="ProjectNavigatorWindow::mainWindow__aaca4581e25c772dca0aef5d76b1ab0a5" ref="classProjectNavigatorWindow.html#aaca4581e25c772dca0aef5d76b1ab0a5"/>
 <keyword name="mainWindow_" id="SegmentationPlugin::mainWindow__a3cff02381a3139b1cbfa7ee352bfdb84" ref="classSegmentationPlugin.html#a3cff02381a3139b1cbfa7ee352bfdb84"/>
+<keyword name="mainWindow_" id="SegmentationWindow::mainWindow__af0a00ec7f2fdf4bed6cdba9c70cfc22b" ref="classSegmentationWindow.html#af0a00ec7f2fdf4bed6cdba9c70cfc22b"/>
 <keyword name="mainWindow_" id="SettingsPlugin::mainWindow__aced82b5833ebbfd24d09a88bef46c3e1" ref="classSettingsPlugin.html#aced82b5833ebbfd24d09a88bef46c3e1"/>
 <keyword name="mainWindow_" id="SettingsViewWidget::mainWindow__ac8eb4b5574a7d925182221d3f5ae60ec" ref="classSettingsViewWidget.html#ac8eb4b5574a7d925182221d3f5ae60ec"/>
 <keyword name="mainWindow_" id="SettingsWindow::mainWindow__ab4e4362ffdf59ca82b0113b3723b16cd" ref="classSettingsWindow.html#ab4e4362ffdf59ca82b0113b3723b16cd"/>
@@ -2561,9 +2631,9 @@
 <keyword name="ortho(T left, T right, T bottom, T top, T near, T far)" id="Matrix4::ortho_ad92ac22e8be869ce5aedd2549d3e1bb5" ref="classMatrix4.html#ad92ac22e8be869ce5aedd2549d3e1bb5"/>
 <keyword name="outputLas_" id="IndexFileBuilder::outputLas__ab1e9a57a96f4f24019442004e0faf308" ref="classIndexFileBuilder.html#ab1e9a57a96f4f24019442004e0faf308"/>
 <keyword name="outputPath_" id="IndexFileBuilder::outputPath__ae3fff1a931132d18a0232ab3a8383216" ref="classIndexFileBuilder.html#ae3fff1a931132d18a0232ab3a8383216"/>
+<keyword name="Page(Editor *editor, Query *query, uint32_t datasetId, uint32_t pageId)" id="Page::Page_ad1560fe7eb31f90ec1705940c15228b7" ref="classPage.html#ad1560fe7eb31f90ec1705940c15228b7"/>
 <keyword name="page()" id="Query::page_aa0db33f35f4bb68ada5c356a57204424" ref="classQuery.html#aa0db33f35f4bb68ada5c356a57204424"/>
 <keyword name="page(size_t viewport, size_t index)" id="Viewports::page_a42b52622aa19383905ad36b704320019" ref="classViewports.html#a42b52622aa19383905ad36b704320019"/>
-<keyword name="Page(Editor *editor, Query *query, uint32_t datasetId, uint32_t pageId)" id="Page::Page_ad1560fe7eb31f90ec1705940c15228b7" ref="classPage.html#ad1560fe7eb31f90ec1705940c15228b7"/>
 <keyword name="page_" id="Query::page__a77a594433f8631ac96279cf89607fd1d" ref="classQuery.html#a77a594433f8631ac96279cf89607fd1d"/>
 <keyword name="pageId" id="Query::Key::pageId_a6cae52092de0ee3a79bcd31b94356f1d" ref="structQuery_1_1Key.html#a6cae52092de0ee3a79bcd31b94356f1d"/>
 <keyword name="pageId() const" id="Page::pageId_ae7ba3b8055fcf04a4d251213ba1143b6" ref="classPage.html#ae7ba3b8055fcf04a4d251213ba1143b6"/>
@@ -2618,6 +2688,7 @@
 <keyword name="projectionInv_" id="ViewerCamera::projectionInv__af8cdae2d4646612efcf3fef54cac3e9b" ref="classViewerCamera.html#af8cdae2d4646612efcf3fef54cac3e9b"/>
 <keyword name="projectName() const" id="Editor::projectName_a14c64a0812c8ab8acfff4d84be45e8dc" ref="classEditor.html#a14c64a0812c8ab8acfff4d84be45e8dc"/>
 <keyword name="projectName_" id="Editor::projectName__ac5e802a100ee4b69bb81b4efdc9b8546" ref="classEditor.html#ac5e802a100ee4b69bb81b4efdc9b8546"/>
+<keyword name="ProjectNavigatorClassifications(MainWindow *mainWindow)" id="ProjectNavigatorClassifications::ProjectNavigatorClassifications_a30bb168a7cefa4f75b12405bee5814c9" ref="classProjectNavigatorClassifications.html#a30bb168a7cefa4f75b12405bee5814c9"/>
 <keyword name="ProjectNavigatorFiles(MainWindow *mainWindow)" id="ProjectNavigatorFiles::ProjectNavigatorFiles_a4e80bed92185345e5332416faf939046" ref="classProjectNavigatorFiles.html#a4e80bed92185345e5332416faf939046"/>
 <keyword name="ProjectNavigatorLayers(MainWindow *mainWindow)" id="ProjectNavigatorLayers::ProjectNavigatorLayers_aeea7a409f35d9c35bf1347c7d945d181" ref="classProjectNavigatorLayers.html#aeea7a409f35d9c35bf1347c7d945d181"/>
 <keyword name="ProjectNavigatorPlugin()" id="ProjectNavigatorPlugin::ProjectNavigatorPlugin_ad77a6892ffedf37cbba9fe6f0c2c085f" ref="classProjectNavigatorPlugin.html#ad77a6892ffedf37cbba9fe6f0c2c085f"/>
@@ -2749,8 +2820,10 @@
 <keyword name="seekVlr()" id="LasFile::seekVlr_a49be33bc84f61594ba728279abfdea7d" ref="classLasFile.html#a49be33bc84f61594ba728279abfdea7d"/>
 <keyword name="Segmentation()" id="Segmentation::Segmentation_a966891da37798baabb99bf0144d47675" ref="classSegmentation.html#a966891da37798baabb99bf0144d47675"/>
 <keyword name="SegmentationPlugin()" id="SegmentationPlugin::SegmentationPlugin_a082cb34c8e4961ae38b13e0a280f9529" ref="classSegmentationPlugin.html#a082cb34c8e4961ae38b13e0a280f9529"/>
+<keyword name="SegmentationWindow(MainWindow *mainWindow)" id="SegmentationWindow::SegmentationWindow_a8b647e48a9adb42f116ab4ab2796aea2" ref="classSegmentationWindow.html#a8b647e48a9adb42f116ab4ab2796aea2"/>
 <keyword name="select(std::vector&lt; IndexFile::Selection &gt; &amp;selected, const Box&lt; double &gt; &amp;box) const" id="Datasets::select_a15fcb11c5c918366868f36a0cce7e8c5" ref="classDatasets.html#a15fcb11c5c918366868f36a0cce7e8c5"/>
 <keyword name="select()" id="Page::select_ae18eec0f67cca42f7a8835dad39b7d39" ref="classPage.html#ae18eec0f67cca42f7a8835dad39b7d39"/>
+<keyword name="selectAllButton_" id="ProjectNavigatorClassifications::selectAllButton__a15c57be7eb9031741745bb0a49a08e8a" ref="classProjectNavigatorClassifications.html#a15c57be7eb9031741745bb0a49a08e8a"/>
 <keyword name="selectAllButton_" id="ProjectNavigatorFiles::selectAllButton__ac95d5f037b2fda39b18f754274211408" ref="classProjectNavigatorFiles.html#ac95d5f037b2fda39b18f754274211408"/>
 <keyword name="selectAllButton_" id="ProjectNavigatorLayers::selectAllButton__a9e20be9131dd233548274b96b321d93b" ref="classProjectNavigatorLayers.html#a9e20be9131dd233548274b96b321d93b"/>
 <keyword name="selectBox()" id="Page::selectBox_aec69a97b2fdb74efeaa2cbd2c6a09983" ref="classPage.html#aec69a97b2fdb74efeaa2cbd2c6a09983"/>
@@ -2779,6 +2852,7 @@
 <keyword name="selectedViewport()" id="ViewerViewports::selectedViewport_a1c816b102bfc90716b5b6e30d5ac1fd7" ref="classViewerViewports.html#a1c816b102bfc90716b5b6e30d5ac1fd7"/>
 <keyword name="selectedViewport() const" id="ViewerViewports::selectedViewport_a38d5101815418fe966f2b545ab046204" ref="classViewerViewports.html#a38d5101815418fe966f2b545ab046204"/>
 <keyword name="selectedViewportId() const" id="ViewerViewports::selectedViewportId_a30b833e219ee8f10059d87f6a9c46cbd" ref="classViewerViewports.html#a30b833e219ee8f10059d87f6a9c46cbd"/>
+<keyword name="selectInvertButton_" id="ProjectNavigatorClassifications::selectInvertButton__a74c11d0280d2355ac6f52a5d60b85c79" ref="classProjectNavigatorClassifications.html#a74c11d0280d2355ac6f52a5d60b85c79"/>
 <keyword name="selectInvertButton_" id="ProjectNavigatorFiles::selectInvertButton__aad34f05c16ceb150fa15234f7a9d0667" ref="classProjectNavigatorFiles.html#aad34f05c16ceb150fa15234f7a9d0667"/>
 <keyword name="selectInvertButton_" id="ProjectNavigatorLayers::selectInvertButton__abe17f07fcd5ecb3e752b7cc3889f46e9" ref="classProjectNavigatorLayers.html#abe17f07fcd5ecb3e752b7cc3889f46e9"/>
 <keyword name="selection" id="Page::selection_acae1fa86206841b2222066d9bf1be98b" ref="classPage.html#acae1fa86206841b2222066d9bf1be98b"/>
@@ -2798,6 +2872,7 @@
 <keyword name="selectNode(std::map&lt; const Node *, uint64_t &gt; &amp;used, double x, double y, double z, const Box&lt; double &gt; &amp;boundary, size_t idx) const" id="IndexFile::selectNode_ae35994448fec24e3c0f76e174ff90988" ref="classIndexFile.html#ae35994448fec24e3c0f76e174ff90988"/>
 <keyword name="selectNodes(std::vector&lt; Selection &gt; &amp;selection, const Box&lt; double &gt; &amp;window, size_t id) const" id="IndexFile::selectNodes_a1adaef1617cbfd2d24b0b489661362d7" ref="classIndexFile.html#a1adaef1617cbfd2d24b0b489661362d7"/>
 <keyword name="selectNodes(std::vector&lt; Selection &gt; &amp;idxList, const Box&lt; double &gt; &amp;window, const Box&lt; double &gt; &amp;boundary, size_t idx, size_t id) const" id="IndexFile::selectNodes_aedf067863dde3fabdc6e87150e0cf78d" ref="classIndexFile.html#aedf067863dde3fabdc6e87150e0cf78d"/>
+<keyword name="selectNoneButton_" id="ProjectNavigatorClassifications::selectNoneButton__a113e995eb8fd698f7efd2625a0ad8d21" ref="classProjectNavigatorClassifications.html#a113e995eb8fd698f7efd2625a0ad8d21"/>
 <keyword name="selectNoneButton_" id="ProjectNavigatorFiles::selectNoneButton__a58cb89d4c3318beda29cf72b58cbdad3" ref="classProjectNavigatorFiles.html#a58cb89d4c3318beda29cf72b58cbdad3"/>
 <keyword name="selectNoneButton_" id="ProjectNavigatorLayers::selectNoneButton__a2100d96f17de5a6df91abf656109eb35" ref="classProjectNavigatorLayers.html#a2100d96f17de5a6df91abf656109eb35"/>
 <keyword name="selectSphere()" id="Page::selectSphere_a84eab8485b1de860775db586c4d726ef" ref="classPage.html#a84eab8485b1de860775db586c4d726ef"/>
@@ -2835,6 +2910,7 @@
 <keyword name="setCallback(ThreadCallbackInterface *callback)" id="Thread::setCallback_aca6a320fefe02bdae1ab9a2e079a7f8c" ref="classThread.html#aca6a320fefe02bdae1ab9a2e079a7f8c"/>
 <keyword name="setCenterEnabled(bool b)" id="SettingsImport::setCenterEnabled_ab5229f9f2efbb0b92ae84ec70a2c0eaa" ref="classSettingsImport.html#ab5229f9f2efbb0b92ae84ec70a2c0eaa"/>
 <keyword name="setClassifications(const Classifications &amp;classifications)" id="Editor::setClassifications_ab1649227496aec5969ef8a7e5132429c" ref="classEditor.html#ab1649227496aec5969ef8a7e5132429c"/>
+<keyword name="setClassifications(const Classifications &amp;classifications)" id="ProjectNavigatorClassifications::setClassifications_a3f18a83edb569e31c0134c8ba16a9546" ref="classProjectNavigatorClassifications.html#a3f18a83edb569e31c0134c8ba16a9546"/>
 <keyword name="setClipFilter(const Region &amp;clipFilter)" id="Editor::setClipFilter_a4fdff42c4c102fba2dac842f5abbf7aa" ref="classEditor.html#a4fdff42c4c102fba2dac842f5abbf7aa"/>
 <keyword name="setColor(const Vector3&lt; float &gt; &amp;color)" id="Dataset::setColor_a78914411f85685877e0b583196df9dd4" ref="classDataset.html#a78914411f85685877e0b583196df9dd4"/>
 <keyword name="setColor(size_t i, const Vector3&lt; float &gt; &amp;color)" id="Datasets::setColor_acae4451daa86ab361d69fb26d0259822" ref="classDatasets.html#acae4451daa86ab361d69fb26d0259822"/>
@@ -2936,6 +3012,7 @@
 <keyword name="setViewTop()" id="ViewerViewports::setViewTop_a5fff3a0b7571dbbd92384c0a3ef7a894" ref="classViewerViewports.html#a5fff3a0b7571dbbd92384c0a3ef7a894"/>
 <keyword name="setWindowTitle(const QString &amp;path)" id="MainWindow::setWindowTitle_a603859ec307e1f4cffc99f94f1424c3f" ref="classMainWindow.html#a603859ec307e1f4cffc99f94f1424c3f"/>
 <keyword name="setWindowViewports(ViewerViewports *viewer, size_t viewportId)" id="ViewerOpenGLViewport::setWindowViewports_af0c8368e67d629fb4f2a12f02b0ddb9e" ref="classViewerOpenGLViewport.html#af0c8368e67d629fb4f2a12f02b0ddb9e"/>
+<keyword name="showButton_" id="ProjectNavigatorClassifications::showButton__a9a0ee4e17c7f70d61c3fe37269d6ee1f" ref="classProjectNavigatorClassifications.html#a9a0ee4e17c7f70d61c3fe37269d6ee1f"/>
 <keyword name="showButton_" id="ProjectNavigatorFiles::showButton__af1abc9987a974ed03f76d553277fadc6" ref="classProjectNavigatorFiles.html#af1abc9987a974ed03f76d553277fadc6"/>
 <keyword name="showButton_" id="ProjectNavigatorLayers::showButton__a1030290e69013c053f23b43cb9035805" ref="classProjectNavigatorLayers.html#a1030290e69013c053f23b43cb9035805"/>
 <keyword name="showError(const char *message)" id="MainWindow::showError_a099aa96447509af81287e6277bd26e0d" ref="classMainWindow.html#a099aa96447509af81287e6277bd26e0d"/>
@@ -2967,15 +3044,19 @@
 <keyword name="slotAdd()" id="ProjectNavigatorFiles::slotAdd_ae1794e67b9fc81704744df6d0421ec9e" ref="classProjectNavigatorFiles.html#ae1794e67b9fc81704744df6d0421ec9e"/>
 <keyword name="slotAdd()" id="ProjectNavigatorLayers::slotAdd_a5c9502a10de098c1ba5e398e874e7a5d" ref="classProjectNavigatorLayers.html#a5c9502a10de098c1ba5e398e874e7a5d"/>
 <keyword name="slotApply()" id="ClassifyGroundWindow::slotApply_ac4a2a98c64cdd1e7360da800749530c9" ref="classClassifyGroundWindow.html#ac4a2a98c64cdd1e7360da800749530c9"/>
+<keyword name="slotApply()" id="SegmentationWindow::slotApply_a3ebc5c037037b6f2c1712049a69d9572" ref="classSegmentationWindow.html#a3ebc5c037037b6f2c1712049a69d9572"/>
 <keyword name="slotClearSelection()" id="SettingsViewWidget::slotClearSelection_af3094965ac121d5948529bc259f0a625" ref="classSettingsViewWidget.html#af3094965ac121d5948529bc259f0a625"/>
 <keyword name="slotDelete()" id="ProjectNavigatorFiles::slotDelete_a0870b1618571f79dafc0bf634332e897" ref="classProjectNavigatorFiles.html#a0870b1618571f79dafc0bf634332e897"/>
 <keyword name="slotDelete()" id="ProjectNavigatorLayers::slotDelete_a65390dd090bfdb0bca3b354cef5f78a5" ref="classProjectNavigatorLayers.html#a65390dd090bfdb0bca3b354cef5f78a5"/>
+<keyword name="slotHide()" id="ProjectNavigatorClassifications::slotHide_a9eabd844978206166156db78a16b2eaf" ref="classProjectNavigatorClassifications.html#a9eabd844978206166156db78a16b2eaf"/>
 <keyword name="slotHide()" id="ProjectNavigatorFiles::slotHide_a64a8b709f7632ce41f31c683f6cebac5" ref="classProjectNavigatorFiles.html#a64a8b709f7632ce41f31c683f6cebac5"/>
 <keyword name="slotHide()" id="ProjectNavigatorLayers::slotHide_ae454fdb05bb8fcbabd2b075a16a676a4" ref="classProjectNavigatorLayers.html#ae454fdb05bb8fcbabd2b075a16a676a4"/>
 <keyword name="slotImport()" id="ImportPlugin::slotImport_af0c2a82a5c47ee5489e1b2816be70535" ref="classImportPlugin.html#af0c2a82a5c47ee5489e1b2816be70535"/>
+<keyword name="slotItemChanged(QTreeWidgetItem *item, int column)" id="ProjectNavigatorClassifications::slotItemChanged_a9ecddb7a92cb0722a044df70ae2cae4c" ref="classProjectNavigatorClassifications.html#a9ecddb7a92cb0722a044df70ae2cae4c"/>
 <keyword name="slotItemChanged(QTreeWidgetItem *item, int column)" id="ProjectNavigatorFiles::slotItemChanged_a2cce53d4aa56c79909b98bb12a04e1ef" ref="classProjectNavigatorFiles.html#a2cce53d4aa56c79909b98bb12a04e1ef"/>
 <keyword name="slotItemChanged(QTreeWidgetItem *item, int column)" id="ProjectNavigatorLayers::slotItemChanged_abb971f7f247b755ec5644fa66dd2b5da" ref="classProjectNavigatorLayers.html#abb971f7f247b755ec5644fa66dd2b5da"/>
 <keyword name="slotItemChanged(QTreeWidgetItem *item, int column)" id="SettingsViewWidget::slotItemChanged_a0a7085cefb3f99cfe47a7d10a91656ae" ref="classSettingsViewWidget.html#a0a7085cefb3f99cfe47a7d10a91656ae"/>
+<keyword name="slotItemSelectionChanged()" id="ProjectNavigatorClassifications::slotItemSelectionChanged_a36ad4824ad9853b840e6d2b0a4f1e7fc" ref="classProjectNavigatorClassifications.html#a36ad4824ad9853b840e6d2b0a4f1e7fc"/>
 <keyword name="slotItemSelectionChanged()" id="ProjectNavigatorFiles::slotItemSelectionChanged_a091f77a18023a0830e8b06ac91062a2b" ref="classProjectNavigatorFiles.html#a091f77a18023a0830e8b06ac91062a2b"/>
 <keyword name="slotItemSelectionChanged()" id="ProjectNavigatorLayers::slotItemSelectionChanged_a0798d9c3eb470f330ab8ce8bed4f145a" ref="classProjectNavigatorLayers.html#a0798d9c3eb470f330ab8ce8bed4f145a"/>
 <keyword name="slotPlugin()" id="ClassifyGroundPlugin::slotPlugin_a38a82a4776e2ff57d180a6e26d6edd1d" ref="classClassifyGroundPlugin.html#a38a82a4776e2ff57d180a6e26d6edd1d"/>
@@ -2990,18 +3071,23 @@
 <keyword name="slotRender()" id="MainWindow::slotRender_ab399feaee95b2330bd6ad0bbeaebcbe6" ref="classMainWindow.html#ab399feaee95b2330bd6ad0bbeaebcbe6"/>
 <keyword name="slotRenderViewport()" id="MainWindow::slotRenderViewport_a32b3b57106e01b0f7ab6080fd1eadb14" ref="classMainWindow.html#a32b3b57106e01b0f7ab6080fd1eadb14"/>
 <keyword name="slotRenderViewport(size_t viewportId)" id="MainWindow::slotRenderViewport_a3232457dd0e7528fd20fbaeeda894c19" ref="classMainWindow.html#a3232457dd0e7528fd20fbaeeda894c19"/>
+<keyword name="slotSelectAll()" id="ProjectNavigatorClassifications::slotSelectAll_ac545e4e1846cd6850daee2ce23c69bc9" ref="classProjectNavigatorClassifications.html#ac545e4e1846cd6850daee2ce23c69bc9"/>
 <keyword name="slotSelectAll()" id="ProjectNavigatorFiles::slotSelectAll_af77c95ec7d3f7365e3985c530aa2f829" ref="classProjectNavigatorFiles.html#af77c95ec7d3f7365e3985c530aa2f829"/>
 <keyword name="slotSelectAll()" id="ProjectNavigatorLayers::slotSelectAll_ad460c8daec58605b215881dbc85b9264" ref="classProjectNavigatorLayers.html#ad460c8daec58605b215881dbc85b9264"/>
+<keyword name="slotSelectInvert()" id="ProjectNavigatorClassifications::slotSelectInvert_af5ddae2bacec4d7be22f38426460f023" ref="classProjectNavigatorClassifications.html#af5ddae2bacec4d7be22f38426460f023"/>
 <keyword name="slotSelectInvert()" id="ProjectNavigatorFiles::slotSelectInvert_aff37c7818555eec696bf0cfc8e7b3b1e" ref="classProjectNavigatorFiles.html#aff37c7818555eec696bf0cfc8e7b3b1e"/>
 <keyword name="slotSelectInvert()" id="ProjectNavigatorLayers::slotSelectInvert_a9e3aaada5d562acf0fadcd8de3e41573" ref="classProjectNavigatorLayers.html#a9e3aaada5d562acf0fadcd8de3e41573"/>
+<keyword name="slotSelectNone()" id="ProjectNavigatorClassifications::slotSelectNone_ade110182fa5315ba81d7fc84ca6c2298" ref="classProjectNavigatorClassifications.html#ade110182fa5315ba81d7fc84ca6c2298"/>
 <keyword name="slotSelectNone()" id="ProjectNavigatorFiles::slotSelectNone_a0daf727f948067b2add04d45b8c0e035" ref="classProjectNavigatorFiles.html#a0daf727f948067b2add04d45b8c0e035"/>
 <keyword name="slotSelectNone()" id="ProjectNavigatorLayers::slotSelectNone_a2f6597eb164bc68a504ef25df7411c76" ref="classProjectNavigatorLayers.html#a2f6597eb164bc68a504ef25df7411c76"/>
 <keyword name="slotSetColorBg()" id="SettingsViewWidget::slotSetColorBg_a50e7f0f068499688d89560b09639c393" ref="classSettingsViewWidget.html#a50e7f0f068499688d89560b09639c393"/>
 <keyword name="slotSetColorFg()" id="SettingsViewWidget::slotSetColorFg_a1e4504035e9a296ae98a5ef6ab56627a" ref="classSettingsViewWidget.html#a1e4504035e9a296ae98a5ef6ab56627a"/>
 <keyword name="slotSetFogEnabled(int v)" id="SettingsViewWidget::slotSetFogEnabled_a0704e9ce69e3a4269f1b345424143944" ref="classSettingsViewWidget.html#a0704e9ce69e3a4269f1b345424143944"/>
 <keyword name="slotSetPointSize(int v)" id="SettingsViewWidget::slotSetPointSize_a02d9c31411df39597e07e0ea7e35264b" ref="classSettingsViewWidget.html#a02d9c31411df39597e07e0ea7e35264b"/>
+<keyword name="slotShow()" id="ProjectNavigatorClassifications::slotShow_a89d5e05310b173f1fa05e6a54f4877ed" ref="classProjectNavigatorClassifications.html#a89d5e05310b173f1fa05e6a54f4877ed"/>
 <keyword name="slotShow()" id="ProjectNavigatorFiles::slotShow_aa3da771ca8a669cef6b27acc0a2c4b1e" ref="classProjectNavigatorFiles.html#aa3da771ca8a669cef6b27acc0a2c4b1e"/>
 <keyword name="slotShow()" id="ProjectNavigatorLayers::slotShow_ac514820da4058e958356eee312d11663" ref="classProjectNavigatorLayers.html#ac514820da4058e958356eee312d11663"/>
+<keyword name="slotUpdate()" id="ProjectNavigatorClassifications::slotUpdate_a46febe0f05c08351767eca506e1fb96a" ref="classProjectNavigatorClassifications.html#a46febe0f05c08351767eca506e1fb96a"/>
 <keyword name="slotUpdate()" id="ProjectNavigatorFiles::slotUpdate_a415f0ef83323e43b50a47bc90cd3ab67" ref="classProjectNavigatorFiles.html#a415f0ef83323e43b50a47bc90cd3ab67"/>
 <keyword name="slotUpdate()" id="ProjectNavigatorLayers::slotUpdate_af82d0f51b2900760427ed507bbe5aff9" ref="classProjectNavigatorLayers.html#af82d0f51b2900760427ed507bbe5aff9"/>
 <keyword name="slotUpdate()" id="SettingsViewWidget::slotUpdate_ada26dd0aa27b9b172ad6dc75498488d1" ref="classSettingsViewWidget.html#ada26dd0aa27b9b172ad6dc75498488d1"/>
@@ -3127,6 +3213,7 @@
 <keyword name="translation(size_t i) const" id="Datasets::translation_ac120763a29d7086ebd8e12da7b80a359" ref="classDatasets.html#ac120763a29d7086ebd8e12da7b80a359"/>
 <keyword name="translation_" id="Dataset::translation__a5fa324079e5113012e46806b25540901" ref="classDataset.html#a5fa324079e5113012e46806b25540901"/>
 <keyword name="translationFile_" id="Dataset::translationFile__a70f375bdd8b7b9c026a65603be292b56" ref="classDataset.html#a70f375bdd8b7b9c026a65603be292b56"/>
+<keyword name="tree_" id="ProjectNavigatorClassifications::tree__a0c2ba0f3ec12079e6d38715cbff97d96" ref="classProjectNavigatorClassifications.html#a0c2ba0f3ec12079e6d38715cbff97d96"/>
 <keyword name="tree_" id="ProjectNavigatorFiles::tree__a6eb6322dc0677ca62d2276be8d67a35e" ref="classProjectNavigatorFiles.html#a6eb6322dc0677ca62d2276be8d67a35e"/>
 <keyword name="tree_" id="ProjectNavigatorLayers::tree__aaeaa3cc5722d11a35dd756d085b5854a" ref="classProjectNavigatorLayers.html#aaeaa3cc5722d11a35dd756d085b5854a"/>
 <keyword name="tree_" id="SettingsViewWidget::tree__a83048409d34071a04fbccb1ab4fef924" ref="classSettingsViewWidget.html#a83048409d34071a04fbccb1ab4fef924"/>
@@ -3154,6 +3241,7 @@
 <keyword name="TYPE_TRUE" id="Json::TYPE_TRUE_a3665a31dbcc7a05d65f9f6b4c191c4a7ab1c59b16725bef2a0aa1f93af6a7cbcb" ref="classJson.html#a3665a31dbcc7a05d65f9f6b4c191c4a7ab1c59b16725bef2a0aa1f93af6a7cbcb"/>
 <keyword name="uint32() const" id="Json::uint32_afc0ea491e91bd3284388273b48f235d2" ref="classJson.html#afc0ea491e91bd3284388273b48f235d2"/>
 <keyword name="uint64() const" id="Json::uint64_af91904706cf598c92dde888d4609fc11" ref="classJson.html#af91904706cf598c92dde888d4609fc11"/>
+<keyword name="unblock()" id="ProjectNavigatorClassifications::unblock_adc08fd7212af28742198dfae08a86525" ref="classProjectNavigatorClassifications.html#adc08fd7212af28742198dfae08a86525"/>
 <keyword name="unblock()" id="ProjectNavigatorFiles::unblock_adfa5afa112c93bb1d820892578b969eb" ref="classProjectNavigatorFiles.html#adfa5afa112c93bb1d820892578b969eb"/>
 <keyword name="unblock()" id="ProjectNavigatorLayers::unblock_ad52ed3030f4d1b252f0b6a6a951fea7a" ref="classProjectNavigatorLayers.html#ad52ed3030f4d1b252f0b6a6a951fea7a"/>
 <keyword name="unblock()" id="SettingsViewWidget::unblock_a18cb5d50304282bf6a93cb8186039d10" ref="classSettingsViewWidget.html#a18cb5d50304282bf6a93cb8186039d10"/>
@@ -3178,6 +3266,7 @@
 <keyword name="updateRender()" id="MainWindow::updateRender_aa2a5945f9c4bf90022f0a7ad3db34c49" ref="classMainWindow.html#aa2a5945f9c4bf90022f0a7ad3db34c49"/>
 <keyword name="updateScene(Editor *editor)" id="ViewerOpenGLViewport::updateScene_a92754e2655b195a2f491d47e48d31a74" ref="classViewerOpenGLViewport.html#a92754e2655b195a2f491d47e48d31a74"/>
 <keyword name="updateScene(Editor *editor)" id="ViewerViewports::updateScene_adceb6774e8ab9ceea923edfc3281fcb8" ref="classViewerViewports.html#adceb6774e8ab9ceea923edfc3281fcb8"/>
+<keyword name="updateTree()" id="ProjectNavigatorClassifications::updateTree_aea88bb88b975db28d363336eb32dfec6" ref="classProjectNavigatorClassifications.html#aea88bb88b975db28d363336eb32dfec6"/>
 <keyword name="updateTree()" id="ProjectNavigatorFiles::updateTree_a08bc511e6f2dd88c45c9d4751654e8e3" ref="classProjectNavigatorFiles.html#a08bc511e6f2dd88c45c9d4751654e8e3"/>
 <keyword name="updateTree()" id="ProjectNavigatorLayers::updateTree_a68ca6925bde2a6bd908903251aa7f761" ref="classProjectNavigatorLayers.html#a68ca6925bde2a6bd908903251aa7f761"/>
 <keyword name="updateTree()" id="SettingsViewWidget::updateTree_a051a775243f109086a5edc85047972c8" ref="classSettingsViewWidget.html#a051a775243f109086a5edc85047972c8"/>
@@ -3265,6 +3354,7 @@
 <keyword name="wheelEvent(QWheelEvent *event)" id="ViewerCamera::wheelEvent_ab0f28902b8973a78ef56b10b267e2c4d" ref="classViewerCamera.html#ab0f28902b8973a78ef56b10b267e2c4d"/>
 <keyword name="wheelEvent(QWheelEvent *event) override" id="ViewerOpenGLViewport::wheelEvent_aa131fb9d9067a83a4b4e5b063406a50c" ref="classViewerOpenGLViewport.html#aa131fb9d9067a83a4b4e5b063406a50c"/>
 <keyword name="widget_" id="ClassifyGroundWindow::widget__a43b4c813825a1716d185c19b19cb0320" ref="classClassifyGroundWindow.html#a43b4c813825a1716d185c19b19cb0320"/>
+<keyword name="widget_" id="SegmentationWindow::widget__a245b6a9d7aa0509ac27907a6d3c7c047" ref="classSegmentationWindow.html#a245b6a9d7aa0509ac27907a6d3c7c047"/>
 <keyword name="width() const" id="ViewerCamera::width_a331e348393e85e68892335b772422841" ref="classViewerCamera.html#a331e348393e85e68892335b772422841"/>
 <keyword name="WindowsXp32" id="ColorPalette::WindowsXp32_aad9c6c41b53e1280ec8d25425b82e00a" ref="classColorPalette.html#aad9c6c41b53e1280ec8d25425b82e00a"/>
 <keyword name="windowViewports_" id="ViewerOpenGLViewport::windowViewports__a6ef9aeeeda133f49800649c2fded631c" ref="classViewerOpenGLViewport.html#a6ef9aeeeda133f49800649c2fded631c"/>
@@ -3436,6 +3526,8 @@
 <file>classPluginInterface.html</file>
 <file>classProjectFilePlugin-members.html</file>
 <file>classProjectFilePlugin.html</file>
+<file>classProjectNavigatorClassifications-members.html</file>
+<file>classProjectNavigatorClassifications.html</file>
 <file>classProjectNavigatorFiles-members.html</file>
 <file>classProjectNavigatorFiles.html</file>
 <file>classProjectNavigatorLayers-members.html</file>
@@ -3454,6 +3546,8 @@
 <file>classSegmentation.html</file>
 <file>classSegmentationPlugin-members.html</file>
 <file>classSegmentationPlugin.html</file>
+<file>classSegmentationWindow-members.html</file>
+<file>classSegmentationWindow.html</file>
 <file>classSettings-members.html</file>
 <file>classSettings.html</file>
 <file>classSettingsImport-members.html</file>
@@ -3495,6 +3589,7 @@
 <file>developerguide_add_new_functionality.html</file>
 <file>developerguide_build_linux_make.html</file>
 <file>developerguide_build_windows_make.html</file>
+<file>developerguide_build_windows_visual_studio.html</file>
 <file>developerguide_code.html</file>
 <file>developerguide_documentation.html</file>
 <file>developerguide_doxygen.html</file>

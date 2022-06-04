@@ -45,6 +45,7 @@ var hierarchy =
     [ "QDockWidget", null, [
       [ "ClassifyGroundWindow", "classClassifyGroundWindow.html", null ],
       [ "ProjectNavigatorWindow", "classProjectNavigatorWindow.html", null ],
+      [ "SegmentationWindow", "classSegmentationWindow.html", null ],
       [ "SettingsWindow", "classSettingsWindow.html", null ]
     ] ],
     [ "QIcon", null, [
@@ -71,6 +72,7 @@ var hierarchy =
     ] ],
     [ "Query", "classQuery.html", null ],
     [ "QWidget", null, [
+      [ "ProjectNavigatorClassifications", "classProjectNavigatorClassifications.html", null ],
       [ "ProjectNavigatorFiles", "classProjectNavigatorFiles.html", null ],
       [ "ProjectNavigatorLayers", "classProjectNavigatorLayers.html", null ],
       [ "SettingsViewWidget", "classSettingsViewWidget.html", null ],
