@@ -57,5 +57,6 @@ var annotated_dup =
     [ "ViewerOpenGLViewport", "classViewerOpenGLViewport.html", "classViewerOpenGLViewport" ],
     [ "ViewerPlugin", "classViewerPlugin.html", "classViewerPlugin" ],
     [ "ViewerViewports", "classViewerViewports.html", "classViewerViewports" ],
-    [ "Viewports", "classViewports.html", "classViewports" ]
+    [ "Viewports", "classViewports.html", "classViewports" ],
+    [ "Voxels", "classVoxels.html", "classVoxels" ]
 ];

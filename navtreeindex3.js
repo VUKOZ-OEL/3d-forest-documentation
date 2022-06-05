@@ -1,5 +1,8 @@
 var NAVTREEINDEX3 =
 {
+"classProjectFilePlugin.html#a89c3a9b164376393ff9736f59b94994d":[2,0,29,11],
+"classProjectFilePlugin.html#a8a81b49451cd85e0b0020d884f21c7dd":[2,0,29,1],
+"classProjectFilePlugin.html#aada36cd1721760a56cd643ab01d371d2":[2,0,29,9],
 "classProjectFilePlugin.html#ac298259f037195ea56756cec751db89d":[2,0,29,8],
 "classProjectFilePlugin.html#aec4c592c0bb1f356ac51141d665cc0e8":[2,0,29,12],
 "classProjectFilePlugin.html#afc538a42055b33d815670de65d1af4cd":[2,0,29,10],
@@ -246,8 +249,5 @@ var NAVTREEINDEX3 =
 "classSettings.html#a75aefe39713e382b73fb559215a61d5c":[2,0,41,3],
 "classSettings.html#ab979ecd9684a8f5dc71cbbb21a1e2dae":[2,0,41,2],
 "classSettings.html#aca113856e801c8613c2292059846c0b2":[2,0,41,1],
-"classSettingsImport.html":[2,0,42],
-"classSettingsImport.html#a0d6ce7f8cfbb6cb3a9bf874da9348622":[2,0,42,5],
-"classSettingsImport.html#a9069185ba2111f56ed866f6032885c74":[2,0,42,1],
-"classSettingsImport.html#aa40b5d790d268be993f1c9b4c8c646f1":[2,0,42,0]
+"classSettingsImport.html":[2,0,42]
 };

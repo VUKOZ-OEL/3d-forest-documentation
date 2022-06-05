@@ -26,11 +26,13 @@ var classEditor =
     [ "setLayers", "classEditor.html#a0be692fcb710fb01f42195f212b12567", null ],
     [ "setSettingsView", "classEditor.html#a44d6145f2efe3944e316421d47b79d12", null ],
     [ "settings", "classEditor.html#aa1fa3644ca2b631ecba682207077cec1", null ],
+    [ "setVoxels", "classEditor.html#a80c8620584cd919be40b2017bcf2e34d", null ],
     [ "unlock", "classEditor.html#ab86b61dc6b177e79fab2d1926ee1323c", null ],
     [ "updateAfterRead", "classEditor.html#ad207e51af81163ce768b57e4001fb896", null ],
     [ "viewports", "classEditor.html#ab92648c48738b6b969a542b16a9cdad4", null ],
     [ "viewports", "classEditor.html#a17ba09a4210d2ddf4af1ba72cd4c3fe7", null ],
     [ "viewportsResize", "classEditor.html#aeaff6e79fd0bf322635814ca1ce259da", null ],
+    [ "voxels", "classEditor.html#afc93f79454969ed4fed0675da2873be9", null ],
     [ "classifications_", "classEditor.html#aef0b17344d0d7debff0fe64739952162", null ],
     [ "clipFilter_", "classEditor.html#a7199627b13b8eec9ce1c7ec2b7f5dcec", null ],
     [ "datasets_", "classEditor.html#a679212059d7693ad3d44c7227dd2a97c", null ],
@@ -41,5 +43,6 @@ var classEditor =
     [ "projectName_", "classEditor.html#ac5e802a100ee4b69bb81b4efdc9b8546", null ],
     [ "settings_", "classEditor.html#af8dd8a2d40527bd02ed22da7ae20f649", null ],
     [ "unsavedChanges_", "classEditor.html#abee3cf937e01f9d876c69679c5ea4571", null ],
-    [ "viewports_", "classEditor.html#abc3de124c1b770afe56114111fee9a9e", null ]
+    [ "viewports_", "classEditor.html#abc3de124c1b770afe56114111fee9a9e", null ],
+    [ "voxels_", "classEditor.html#a14c69f859e95fa20f2c40ea6b9a9138b", null ]
 ];

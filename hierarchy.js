@@ -3,6 +3,7 @@ var hierarchy =
     [ "std::array", null, [
       [ "Vector3< float >", "classVector3.html", null ],
       [ "Vector3< double >", "classVector3.html", null ],
+      [ "Vector3< size_t >", "classVector3.html", null ],
       [ "Vector3< T >", "classVector3.html", null ]
     ] ],
     [ "Box< T >", "classBox.html", null ],
@@ -97,5 +98,6 @@ var hierarchy =
     [ "ViewerAabb", "classViewerAabb.html", null ],
     [ "ViewerCamera", "classViewerCamera.html", null ],
     [ "ViewerOpenGL", "classViewerOpenGL.html", null ],
-    [ "Viewports", "classViewports.html", null ]
+    [ "Viewports", "classViewports.html", null ],
+    [ "Voxels", "classVoxels.html", null ]
 ];
