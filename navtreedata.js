@@ -25,8 +25,56 @@
 var NAVTREE =
 [
   [ "3D Forest", "index.html", [
-    [ "User Manual", "index.html", null ],
-    [ "Developer Guide", "developerguide.html", "developerguide" ],
+    [ "User Manual", "3dforest_user_manual.html", null ],
+    [ "Developer Guide", "3dforest_developer_guide.html", [
+      [ "Git", "3dforest_developer_guide.html#git", [
+        [ "Get the Source Code", "3dforest_developer_guide.html#git_get_code", null ],
+        [ "Create New Branch", "3dforest_developer_guide.html#git_create_branch", null ],
+        [ "Merging Your Changes", "3dforest_developer_guide.html#git_merging", null ],
+        [ "Commands", "3dforest_developer_guide.html#git_commands", null ]
+      ] ],
+      [ "Build from Source Code in Linux with \"Unix Makefiles\"", "3dforest_developer_guide.html#build_linux_make", [
+        [ "Install Qt", "3dforest_developer_guide.html#build_linux_make_qt", null ],
+        [ "Installation of other tools: OpenGL and CMake from a terminal", "3dforest_developer_guide.html#build_linux_make_opengl", null ],
+        [ "Installation of other tools: gcc, g++, make, libc6-dev, etc.", "3dforest_developer_guide.html#build_linux_make_gcc", null ],
+        [ "Build 3D Forest", "3dforest_developer_guide.html#build_linux_make_3dforest", null ]
+      ] ],
+      [ "Build from Source Code in Windows with \"MinGW Makefiles\"", "3dforest_developer_guide.html#build_windows_make", [
+        [ "Install git", "3dforest_developer_guide.html#build_windows_make_git", null ],
+        [ "Install msys2 and mingw-w64", "3dforest_developer_guide.html#build_windows_make_mingw", null ],
+        [ "Install Qt", "3dforest_developer_guide.html#build_windows_make_qt", null ],
+        [ "Build 3D Forest", "3dforest_developer_guide.html#build_windows_make_3dforest", null ]
+      ] ],
+      [ "Build from Source Code in Windows with Visual Studio", "3dforest_developer_guide.html#build_windows_visual_studio", [
+        [ "Install git", "3dforest_developer_guide.html#build_windows_visual_studio_git", null ],
+        [ "Install Visual Studio", "3dforest_developer_guide.html#build_windows_visual_studio_ide", null ],
+        [ "Install Qt", "3dforest_developer_guide.html#build_windows_visual_studio_qt", null ],
+        [ "Build 3D Forest", "3dforest_developer_guide.html#build_windows_visual_studio_3dforest", null ]
+      ] ],
+      [ "Add New Functionality", "3dforest_developer_guide.html#add_new_functionality", [
+        [ "Plugins", "3dforest_developer_guide.html#add_new_functionality_plugins", null ],
+        [ "Tools", "3dforest_developer_guide.html#add_new_functionality_tools", null ],
+        [ "Internal Plugins", "3dforest_developer_guide.html#add_new_functionality_internal_plugins", null ],
+        [ "Extend Core Functionality", "3dforest_developer_guide.html#add_new_functionality_extend_core_functionality", null ],
+        [ "General", "3dforest_developer_guide.html#add_new_functionality_general", null ]
+      ] ],
+      [ "Code Format Suggestions", "3dforest_developer_guide.html#code_format", [
+        [ "Automatic Code Formatting", "3dforest_developer_guide.html#code_format_automatic", null ],
+        [ "Names", "3dforest_developer_guide.html#code_format_names", null ],
+        [ "File Names", "3dforest_developer_guide.html#code_format_file_names", null ]
+      ] ],
+      [ "Logging", "3dforest_developer_guide.html#logging", null ],
+      [ "Doxygen", "3dforest_developer_guide.html#doxygen", null ],
+      [ "Generate Help Manuals", "3dforest_developer_guide.html#generate_help_manuals", null ],
+      [ "Adding Third Party Libraries", "3dforest_developer_guide.html#adding_3rd_party_library", null ],
+      [ "Cheat Sheet", "3dforest_developer_guide.html#cheatsheet", [
+        [ "CMake Build Script", "3dforest_developer_guide.html#cheatsheet_cmake", null ],
+        [ "Qt Designer", "3dforest_developer_guide.html#cheatsheet_qtdesigner", null ],
+        [ "Rename Files", "3dforest_developer_guide.html#cheatsheet_rename_files", null ],
+        [ "Edit Source Code with Visual Studio Code", "3dforest_developer_guide.html#cheatsheet_vscode_edit", null ],
+        [ "Build and Debug in Visual Studio Code", "3dforest_developer_guide.html#cheatsheet_vscode_debug", null ]
+      ] ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
@@ -44,13 +92,13 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"annotated.html",
-"classEditor.html#af9e294c617b2db0a74cbba0c8e7f75f1",
-"classJson.html#ab769040720ba527986a643525575c7fa",
-"classProjectFilePlugin.html#a89c3a9b164376393ff9736f59b94994d",
-"classSettingsImport.html#a0d6ce7f8cfbb6cb3a9bf874da9348622",
-"classViewerOpenGLViewport.html#a036de102c334b70090845db42750fd00",
-"structLasFile_1_1Header.html#a059c57652a65860e5ce18e4e4cde27b4"
+"3dforest_developer_guide.html",
+"classEditor.html#a44d6145f2efe3944e316421d47b79d12",
+"classJson.html#a11c04d534c6a7efdff7f5ea0f7f66bc8",
+"classPage.html#a8e7b9a4b828e1ef641a59d87cffab589",
+"classQuery.html#afd187aab62996b619577d8d95a71c8c3",
+"classViewerCamera.html#a90d6c191d1ac17aaf436e6c5ea8ed537",
+"structChunkFile_1_1Chunk.html#a5ed29c6396ca5efa1eb7df1763186665"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

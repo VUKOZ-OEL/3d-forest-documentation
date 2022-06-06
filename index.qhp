@@ -6,28 +6,54 @@
 <filterAttribute>doxygen</filterAttribute>
 <toc>
 <section title="3D Forest" ref="index.html">
-<section title="User Manual" ref="index.html"/>
-<section title="Developer Guide" ref="developerguide.html">
-<section title="Git" ref="developerguide_git.html"/>
-<section title="Build Using &quot;Unix Makefiles&quot; on Linux" ref="developerguide_build_linux_make.html"/>
-<section title="Build Using &quot;MinGW Makefiles&quot; on Windows" ref="developerguide_build_windows_make.html"/>
-<section title="Build with Visual Studio for Windows" ref="developerguide_build_windows_visual_studio.html">
-<section title="Install git" ref="developerguide_build_windows_visual_studio.html#sec_git"/>
-<section title="Install Visual Studio" ref="developerguide_build_windows_visual_studio.html#sec_vs"/>
-<section title="Install Qt" ref="developerguide_build_windows_visual_studio.html#sec_qt"/>
-<section title="Build 3D Forest" ref="developerguide_build_windows_visual_studio.html#sec_build"/>
+<section title="User Manual" ref="3dforest_user_manual.html"/>
+<section title="Developer Guide" ref="3dforest_developer_guide.html">
+<section title="Git" ref="3dforest_developer_guide.html#git">
+<section title="Get the Source Code" ref="3dforest_developer_guide.html#git_get_code"/>
+<section title="Create New Branch" ref="3dforest_developer_guide.html#git_create_branch"/>
+<section title="Merging Your Changes" ref="3dforest_developer_guide.html#git_merging"/>
+<section title="Commands" ref="3dforest_developer_guide.html#git_commands"/>
 </section>
-<section title="Add New Functionality" ref="developerguide_add_new_functionality.html"/>
-<section title="Code Style" ref="developerguide_code.html"/>
-<section title="Doxygen" ref="developerguide_doxygen.html"/>
-<section title="Generate Help Manuals" ref="developerguide_documentation.html"/>
-<section title="Adding Third Party Libraries" ref="developerguide_3rd_party.html"/>
-<section title="Cheat Sheet" ref="cheatsheet.html">
-<section title="CMake Build Script" ref="cheatsheet_cmake.html"/>
-<section title="Qt Designer" ref="cheatsheet_qtdesigner.html"/>
-<section title="Rename Files" ref="cheatsheet_rename_files.html"/>
-<section title="Edit Source Code with Visual Studio Code" ref="cheatsheet_vscode_edit.html"/>
-<section title="Build and Debug in Visual Studio Code" ref="cheatsheet_vscode_debug.html"/>
+<section title="Build from Source Code in Linux with &quot;Unix Makefiles&quot;" ref="3dforest_developer_guide.html#build_linux_make">
+<section title="Install Qt" ref="3dforest_developer_guide.html#build_linux_make_qt"/>
+<section title="Installation of other tools: OpenGL and CMake from a terminal" ref="3dforest_developer_guide.html#build_linux_make_opengl"/>
+<section title="Installation of other tools: gcc, g++, make, libc6-dev, etc." ref="3dforest_developer_guide.html#build_linux_make_gcc"/>
+<section title="Build 3D Forest" ref="3dforest_developer_guide.html#build_linux_make_3dforest"/>
+</section>
+<section title="Build from Source Code in Windows with &quot;MinGW Makefiles&quot;" ref="3dforest_developer_guide.html#build_windows_make">
+<section title="Install git" ref="3dforest_developer_guide.html#build_windows_make_git"/>
+<section title="Install msys2 and mingw-w64" ref="3dforest_developer_guide.html#build_windows_make_mingw"/>
+<section title="Install Qt" ref="3dforest_developer_guide.html#build_windows_make_qt"/>
+<section title="Build 3D Forest" ref="3dforest_developer_guide.html#build_windows_make_3dforest"/>
+</section>
+<section title="Build from Source Code in Windows with Visual Studio" ref="3dforest_developer_guide.html#build_windows_visual_studio">
+<section title="Install git" ref="3dforest_developer_guide.html#build_windows_visual_studio_git"/>
+<section title="Install Visual Studio" ref="3dforest_developer_guide.html#build_windows_visual_studio_ide"/>
+<section title="Install Qt" ref="3dforest_developer_guide.html#build_windows_visual_studio_qt"/>
+<section title="Build 3D Forest" ref="3dforest_developer_guide.html#build_windows_visual_studio_3dforest"/>
+</section>
+<section title="Add New Functionality" ref="3dforest_developer_guide.html#add_new_functionality">
+<section title="Plugins" ref="3dforest_developer_guide.html#add_new_functionality_plugins"/>
+<section title="Tools" ref="3dforest_developer_guide.html#add_new_functionality_tools"/>
+<section title="Internal Plugins" ref="3dforest_developer_guide.html#add_new_functionality_internal_plugins"/>
+<section title="Extend Core Functionality" ref="3dforest_developer_guide.html#add_new_functionality_extend_core_functionality"/>
+<section title="General" ref="3dforest_developer_guide.html#add_new_functionality_general"/>
+</section>
+<section title="Code Format Suggestions" ref="3dforest_developer_guide.html#code_format">
+<section title="Automatic Code Formatting" ref="3dforest_developer_guide.html#code_format_automatic"/>
+<section title="Names" ref="3dforest_developer_guide.html#code_format_names"/>
+<section title="File Names" ref="3dforest_developer_guide.html#code_format_file_names"/>
+</section>
+<section title="Logging" ref="3dforest_developer_guide.html#logging"/>
+<section title="Doxygen" ref="3dforest_developer_guide.html#doxygen"/>
+<section title="Generate Help Manuals" ref="3dforest_developer_guide.html#generate_help_manuals"/>
+<section title="Adding Third Party Libraries" ref="3dforest_developer_guide.html#adding_3rd_party_library"/>
+<section title="Cheat Sheet" ref="3dforest_developer_guide.html#cheatsheet">
+<section title="CMake Build Script" ref="3dforest_developer_guide.html#cheatsheet_cmake"/>
+<section title="Qt Designer" ref="3dforest_developer_guide.html#cheatsheet_qtdesigner"/>
+<section title="Rename Files" ref="3dforest_developer_guide.html#cheatsheet_rename_files"/>
+<section title="Edit Source Code with Visual Studio Code" ref="3dforest_developer_guide.html#cheatsheet_vscode_edit"/>
+<section title="Build and Debug in Visual Studio Code" ref="3dforest_developer_guide.html#cheatsheet_vscode_debug"/>
 </section>
 </section>
 <section title="Classes" ref="annotated.html">
@@ -678,13 +704,14 @@
 <section title="nir" ref="structLasFile_1_1Point.html#a3c139f418e82884d5ac9a959749efac7"/>
 <section title="number_of_returns" ref="structLasFile_1_1Point.html#a0de2fdca7ee6a924e4a937e04ff4be96"/>
 <section title="red" ref="structLasFile_1_1Point.html#acd5445cda3f9ba9a08404f04d83f3ba4"/>
-<section title="reserved1" ref="structLasFile_1_1Point.html#a0dc41475cb6132699b58b3f14c048d7d"/>
 <section title="return_number" ref="structLasFile_1_1Point.html#acf9f16be4bb66f38222ad6c4ad9fc3e8"/>
 <section title="scan_direction_flag" ref="structLasFile_1_1Point.html#a0b804f86b5af8c0568ed97b549925975"/>
 <section title="scanner_channel" ref="structLasFile_1_1Point.html#ac71ea7232503e15fd57352bfd3413dd7"/>
 <section title="source_id" ref="structLasFile_1_1Point.html#a5614b37255cf6811ac209e349e174556"/>
 <section title="user_blue" ref="structLasFile_1_1Point.html#a227e10aa655770dea945b0a5f224b4ea"/>
 <section title="user_data" ref="structLasFile_1_1Point.html#a1967a95e3b6e827f3edb0ab1ce78e104"/>
+<section title="user_element" ref="structLasFile_1_1Point.html#a8bb6df632202eaaaad1c9263685245fe"/>
+<section title="user_elevation" ref="structLasFile_1_1Point.html#a9f484532204d04d419f8888584088209"/>
 <section title="user_green" ref="structLasFile_1_1Point.html#a4d2c38b8d17244339a55d3bef506ec7e"/>
 <section title="user_intensity" ref="structLasFile_1_1Point.html#ae5b7eff97e953e21d7317e28cc7c99a0"/>
 <section title="user_layer" ref="structLasFile_1_1Point.html#a83bd3a482e28e222ebed1b8c69b63cd5"/>
@@ -899,6 +926,8 @@
 <section title="color" ref="classPage.html#a1d9f45e67227f3dd94c3e5296ee09e4d"/>
 <section title="datasetId_" ref="classPage.html#ae3c73c5fecb6b842af87bc6fcec4f5a5"/>
 <section title="editor_" ref="classPage.html#a7f96c82a47c8cb593656a68ca3ab7262"/>
+<section title="element" ref="classPage.html#a6c125e868e1cac34c5615f6ea9131f16"/>
+<section title="elevation" ref="classPage.html#a8e7b9a4b828e1ef641a59d87cffab589"/>
 <section title="gpsTime" ref="classPage.html#a6769c033a5ef36760dee05f7d9ecffe7"/>
 <section title="intensity" ref="classPage.html#a8811de5f08f73cd25b38ac921bf16fa6"/>
 <section title="layer" ref="classPage.html#abe226aea16ab170dea7cbac717d70991"/>
@@ -1075,6 +1104,8 @@
 <section title="cacheSize" ref="classQuery.html#a5dbf40e29aa23c70709d90d0559edb76"/>
 <section title="classification" ref="classQuery.html#a019601f80fc296ef862d2f32f6b69f68"/>
 <section title="clear" ref="classQuery.html#a3827c2cd2f1d9efade5952db80e0fdfc"/>
+<section title="element" ref="classQuery.html#a0ab5ba6eb5b160a41a78d7b4af3a5938"/>
+<section title="elevation" ref="classQuery.html#aa78130e8b60e40fe0bf762ec190075fd"/>
 <section title="exec" ref="classQuery.html#ad3e930aabe2db38eec7abf489803f5b6"/>
 <section title="exec" ref="classQuery.html#a63ef05d672c1896c05bca0b2f62c80db"/>
 <section title="flush" ref="classQuery.html#a1247b868fc280a77c008a33041af1217"/>
@@ -1125,6 +1156,8 @@
 <section title="classification_" ref="classQuery.html#a876ab134e57df7cae49579c08e06c0a1"/>
 <section title="color_" ref="classQuery.html#a775a073d392e75881600af6f3a20e31b"/>
 <section title="editor_" ref="classQuery.html#ac33cb1d22d39800cf5ea48ee653d017c"/>
+<section title="element_" ref="classQuery.html#ae52f7ab1e5fdba771de098d4b6d3ba16"/>
+<section title="elevation_" ref="classQuery.html#ab5c223f0176cb8ab4cccba38219e13db"/>
 <section title="gpsTime_" ref="classQuery.html#aaddcde4828a13d66db668f8474c6a1ea"/>
 <section title="grid_" ref="classQuery.html#aaceb769a1fb0f1da14b1afaed109c336"/>
 <section title="gridBoundary_" ref="classQuery.html#a8dd15acaf4ca7c2027c95b1f3c575463"/>
@@ -1865,22 +1898,8 @@
 <keyword name="ViewerViewports" id="ViewerViewports_" ref="classViewerViewports.html"/>
 <keyword name="Viewports" id="Viewports_" ref="classViewports.html"/>
 <keyword name="Voxels" id="Voxels_" ref="classVoxels.html"/>
-<keyword name="Cheat Sheet" id="Cheat Sheet_" ref="cheatsheet.html"/>
-<keyword name="CMake Build Script" id="CMake Build Script_" ref="cheatsheet_cmake.html"/>
-<keyword name="Qt Designer" id="Qt Designer_" ref="cheatsheet_qtdesigner.html"/>
-<keyword name="Rename Files" id="Rename Files_" ref="cheatsheet_rename_files.html"/>
-<keyword name="Edit Source Code with Visual Studio Code" id="Edit Source Code with Visual Studio Code_" ref="cheatsheet_vscode_edit.html"/>
-<keyword name="Build and Debug in Visual Studio Code" id="Build and Debug in Visual Studio Code_" ref="cheatsheet_vscode_debug.html"/>
-<keyword name="Developer Guide" id="Developer Guide_" ref="developerguide.html"/>
-<keyword name="Git" id="Git_" ref="developerguide_git.html"/>
-<keyword name="Build Using &quot;Unix Makefiles&quot; on Linux" id="Build Using &quot;Unix Makefiles&quot; on Linux_" ref="developerguide_build_linux_make.html"/>
-<keyword name="Build Using &quot;MinGW Makefiles&quot; on Windows" id="Build Using &quot;MinGW Makefiles&quot; on Windows_" ref="developerguide_build_windows_make.html"/>
-<keyword name="Build with Visual Studio for Windows" id="Build with Visual Studio for Windows_" ref="developerguide_build_windows_visual_studio.html"/>
-<keyword name="Add New Functionality" id="Add New Functionality_" ref="developerguide_add_new_functionality.html"/>
-<keyword name="Code Style" id="Code Style_" ref="developerguide_code.html"/>
-<keyword name="Doxygen" id="Doxygen_" ref="developerguide_doxygen.html"/>
-<keyword name="Generate Help Manuals" id="Generate Help Manuals_" ref="developerguide_documentation.html"/>
-<keyword name="Adding Third Party Libraries" id="Adding Third Party Libraries_" ref="developerguide_3rd_party.html"/>
+<keyword name="User Manual" id="User Manual_" ref="3dforest_user_manual.html"/>
+<keyword name="Developer Guide" id="Developer Guide_" ref="3dforest_developer_guide.html"/>
 <keyword name="aabb_" id="ViewerOpenGLViewport::aabb__a9d122da83b74df68ef915b999c023276" ref="classViewerOpenGLViewport.html#a9d122da83b74df68ef915b999c023276"/>
 <keyword name="aboutAction_" id="HelpPlugin::aboutAction__ad84fa97db8a44eaacc069c458e04c15c" ref="classHelpPlugin.html#ad84fa97db8a44eaacc069c458e04c15c"/>
 <keyword name="acceptButton_" id="ImportDialog::acceptButton__ae1be903589ef5e1190879aa87aaa82b7" ref="classImportDialog.html#ae1be903589ef5e1190879aa87aaa82b7"/>
@@ -1956,12 +1975,6 @@
 <keyword name="boundaryPoints() const" id="IndexFile::boundaryPoints_a81646f81cec564c80360b46a13a67582" ref="classIndexFile.html#a81646f81cec564c80360b46a13a67582"/>
 <keyword name="boundaryPoints_" id="IndexFile::boundaryPoints__a7c269e4d6a71e5ab7561d20198470e06" ref="classIndexFile.html#a7c269e4d6a71e5ab7561d20198470e06"/>
 <keyword name="boundaryPointsFile_" id="IndexFile::boundaryPointsFile__a704bbd32dac0a3351ad783e4be731bd3" ref="classIndexFile.html#a704bbd32dac0a3351ad783e4be731bd3"/>
-<keyword name="box" id="Page::box_aecb94042f6ab79102605a505ad3bddfc" ref="classPage.html#aecb94042f6ab79102605a505ad3bddfc"/>
-<keyword name="box" id="Region::box_aced6afbc1554734b4b75fb57acf08bf5" ref="classRegion.html#aced6afbc1554734b4b75fb57acf08bf5"/>
-<keyword name="box() const" id="Cone::box_adaf440f02aef6c9889f10904b5862572" ref="classCone.html#adaf440f02aef6c9889f10904b5862572"/>
-<keyword name="box() const" id="Sphere::box_a3d30bf5f31d75981c1387394f2b1b769" ref="classSphere.html#a3d30bf5f31d75981c1387394f2b1b769"/>
-<keyword name="box() const" id="Cone&lt; double &gt;::box_adaf440f02aef6c9889f10904b5862572" ref="classCone.html#adaf440f02aef6c9889f10904b5862572"/>
-<keyword name="box() const" id="Sphere&lt; double &gt;::box_a3d30bf5f31d75981c1387394f2b1b769" ref="classSphere.html#a3d30bf5f31d75981c1387394f2b1b769"/>
 <keyword name="Box()" id="Box::Box_a057f84d8fa68647c6484d4e004d8ab74" ref="classBox.html#a057f84d8fa68647c6484d4e004d8ab74"/>
 <keyword name="Box(const Box&lt; B &gt; &amp;box)" id="Box::Box_aa2f47f763c87c6529e7ac978af7dc04a" ref="classBox.html#aa2f47f763c87c6529e7ac978af7dc04a"/>
 <keyword name="Box(B x1, B y1, B z1, B x2, B y2, B z2)" id="Box::Box_a2613d71f208382ba0e971161b3fb2fd2" ref="classBox.html#a2613d71f208382ba0e971161b3fb2fd2"/>
@@ -1970,6 +1983,12 @@
 <keyword name="Box(const Box&lt; B &gt; &amp;box)" id="Box&lt; double &gt;::Box_aa2f47f763c87c6529e7ac978af7dc04a" ref="classBox.html#aa2f47f763c87c6529e7ac978af7dc04a"/>
 <keyword name="Box(B x1, B y1, B z1, B x2, B y2, B z2)" id="Box&lt; double &gt;::Box_a2613d71f208382ba0e971161b3fb2fd2" ref="classBox.html#a2613d71f208382ba0e971161b3fb2fd2"/>
 <keyword name="Box(B cx, B cy, B cz, B r)" id="Box&lt; double &gt;::Box_a766d72eb5cd074fcfff50a3e9c8c0579" ref="classBox.html#a766d72eb5cd074fcfff50a3e9c8c0579"/>
+<keyword name="box" id="Page::box_aecb94042f6ab79102605a505ad3bddfc" ref="classPage.html#aecb94042f6ab79102605a505ad3bddfc"/>
+<keyword name="box" id="Region::box_aced6afbc1554734b4b75fb57acf08bf5" ref="classRegion.html#aced6afbc1554734b4b75fb57acf08bf5"/>
+<keyword name="box() const" id="Cone::box_adaf440f02aef6c9889f10904b5862572" ref="classCone.html#adaf440f02aef6c9889f10904b5862572"/>
+<keyword name="box() const" id="Sphere::box_a3d30bf5f31d75981c1387394f2b1b769" ref="classSphere.html#a3d30bf5f31d75981c1387394f2b1b769"/>
+<keyword name="box() const" id="Cone&lt; double &gt;::box_adaf440f02aef6c9889f10904b5862572" ref="classCone.html#adaf440f02aef6c9889f10904b5862572"/>
+<keyword name="box() const" id="Sphere&lt; double &gt;::box_a3d30bf5f31d75981c1387394f2b1b769" ref="classSphere.html#a3d30bf5f31d75981c1387394f2b1b769"/>
 <keyword name="box_" id="Cone::box__ab1553899daf90c5e2e59280043c28a7a" ref="classCone.html#ab1553899daf90c5e2e59280043c28a7a"/>
 <keyword name="box_" id="Sphere::box__a41d4afc4e5d7e14ed125f9f1d72cf912" ref="classSphere.html#a41d4afc4e5d7e14ed125f9f1d72cf912"/>
 <keyword name="box_" id="Cone&lt; double &gt;::box__ab1553899daf90c5e2e59280043c28a7a" ref="classCone.html#ab1553899daf90c5e2e59280043c28a7a"/>
@@ -2008,6 +2027,9 @@
 <keyword name="CLASS_NEVER_CLASSIFIED" id="LasFile::CLASS_NEVER_CLASSIFIED_a23ca2c79a141774dc33b80f1b8c7127cafe6a5504256abd4980819a85a5467508" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127cafe6a5504256abd4980819a85a5467508"/>
 <keyword name="CLASS_UNASSIGNED" id="LasFile::CLASS_UNASSIGNED_a23ca2c79a141774dc33b80f1b8c7127cac9e261db850bde2a104cabd4f70cd29e" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127cac9e261db850bde2a104cabd4f70cd29e"/>
 <keyword name="classes_" id="Classifications::classes__aa39e2d9bb989c41b01ae3914e5524e07" ref="classClassifications.html#aa39e2d9bb989c41b01ae3914e5524e07"/>
+<keyword name="classification" id="LasFile::Point::classification_aecb05abcc58648b14bca776e90ed9189" ref="structLasFile_1_1Point.html#aecb05abcc58648b14bca776e90ed9189"/>
+<keyword name="classification" id="Page::classification_a517be58884db1f30cb1fefd65ae449e8" ref="classPage.html#a517be58884db1f30cb1fefd65ae449e8"/>
+<keyword name="classification()" id="Query::classification_a019601f80fc296ef862d2f32f6b69f68" ref="classQuery.html#a019601f80fc296ef862d2f32f6b69f68"/>
 <keyword name="Classification" id="LasFile::Classification_a23ca2c79a141774dc33b80f1b8c7127c" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127c"/>
 <keyword name="CLASS_NEVER_CLASSIFIED" id="LasFile::CLASS_NEVER_CLASSIFIED_a23ca2c79a141774dc33b80f1b8c7127cafe6a5504256abd4980819a85a5467508" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127cafe6a5504256abd4980819a85a5467508"/>
 <keyword name="CLASS_UNASSIGNED" id="LasFile::CLASS_UNASSIGNED_a23ca2c79a141774dc33b80f1b8c7127cac9e261db850bde2a104cabd4f70cd29e" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127cac9e261db850bde2a104cabd4f70cd29e"/>
@@ -2017,9 +2039,6 @@
 <keyword name="CLASS_HIGH_VEGETATION" id="LasFile::CLASS_HIGH_VEGETATION_a23ca2c79a141774dc33b80f1b8c7127ca4881a2d84e79bc87cef09d2e24e08f97" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127ca4881a2d84e79bc87cef09d2e24e08f97"/>
 <keyword name="CLASS_BUILDING" id="LasFile::CLASS_BUILDING_a23ca2c79a141774dc33b80f1b8c7127ca482330a47c151351db995bb6b8d5b7b1" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127ca482330a47c151351db995bb6b8d5b7b1"/>
 <keyword name="Classification" id="ColorPalette::Classification_a84eea7fc6cf059a4dcac0f38892372ed" ref="classColorPalette.html#a84eea7fc6cf059a4dcac0f38892372ed"/>
-<keyword name="classification" id="LasFile::Point::classification_aecb05abcc58648b14bca776e90ed9189" ref="structLasFile_1_1Point.html#aecb05abcc58648b14bca776e90ed9189"/>
-<keyword name="classification" id="Page::classification_a517be58884db1f30cb1fefd65ae449e8" ref="classPage.html#a517be58884db1f30cb1fefd65ae449e8"/>
-<keyword name="classification()" id="Query::classification_a019601f80fc296ef862d2f32f6b69f68" ref="classQuery.html#a019601f80fc296ef862d2f32f6b69f68"/>
 <keyword name="classification_" id="Query::classification__a876ab134e57df7cae49579c08e06c0a1" ref="classQuery.html#a876ab134e57df7cae49579c08e06c0a1"/>
 <keyword name="classification_flags" id="LasFile::Point::classification_flags_af293689ccbbc1a32d2449e70dc84e546" ref="structLasFile_1_1Point.html#af293689ccbbc1a32d2449e70dc84e546"/>
 <keyword name="Classifications()" id="Classifications::Classifications_a567c666740d6c0584930b9fad8ac53fb" ref="classClassifications.html#a567c666740d6c0584930b9fad8ac53fb"/>
@@ -2207,13 +2226,19 @@
 <keyword name="dockWindow_" id="ClassifyGroundPlugin::dockWindow__aebbc5274f30d6354d31acb72ca2447bf" ref="classClassifyGroundPlugin.html#aebbc5274f30d6354d31acb72ca2447bf"/>
 <keyword name="dockWindow_" id="SegmentationPlugin::dockWindow__a08421f3f550856de9b838cff0ef28b0b" ref="classSegmentationPlugin.html#a08421f3f550856de9b838cff0ef28b0b"/>
 <keyword name="edge_of_flight_line" id="LasFile::Point::edge_of_flight_line_aa8b17418f5f56cc60b58ff43ac2237e4" ref="structLasFile_1_1Point.html#aa8b17418f5f56cc60b58ff43ac2237e4"/>
-<keyword name="editor()" id="MainWindow::editor_ad80b2d808ca015c062a8a27727892480" ref="classMainWindow.html#ad80b2d808ca015c062a8a27727892480"/>
 <keyword name="Editor()" id="Editor::Editor_ae208b788b6212af03488814462ae40d6" ref="classEditor.html#ae208b788b6212af03488814462ae40d6"/>
+<keyword name="editor()" id="MainWindow::editor_ad80b2d808ca015c062a8a27727892480" ref="classMainWindow.html#ad80b2d808ca015c062a8a27727892480"/>
 <keyword name="editor_" id="Page::editor__a7f96c82a47c8cb593656a68ca3ab7262" ref="classPage.html#a7f96c82a47c8cb593656a68ca3ab7262"/>
 <keyword name="editor_" id="Query::editor__ac33cb1d22d39800cf5ea48ee653d017c" ref="classQuery.html#ac33cb1d22d39800cf5ea48ee653d017c"/>
 <keyword name="editor_" id="RenderThread::editor__a31db16bca92b0077573db985ef3e31ac" ref="classRenderThread.html#a31db16bca92b0077573db985ef3e31ac"/>
 <keyword name="editor_" id="MainWindow::editor__ac06299c080a47670c5512d2d6df67c7b" ref="classMainWindow.html#ac06299c080a47670c5512d2d6df67c7b"/>
 <keyword name="editor_" id="ViewerOpenGLViewport::editor__a036de102c334b70090845db42750fd00" ref="classViewerOpenGLViewport.html#a036de102c334b70090845db42750fd00"/>
+<keyword name="element" id="Page::element_a6c125e868e1cac34c5615f6ea9131f16" ref="classPage.html#a6c125e868e1cac34c5615f6ea9131f16"/>
+<keyword name="element()" id="Query::element_a0ab5ba6eb5b160a41a78d7b4af3a5938" ref="classQuery.html#a0ab5ba6eb5b160a41a78d7b4af3a5938"/>
+<keyword name="element_" id="Query::element__ae52f7ab1e5fdba771de098d4b6d3ba16" ref="classQuery.html#ae52f7ab1e5fdba771de098d4b6d3ba16"/>
+<keyword name="elevation" id="Page::elevation_a8e7b9a4b828e1ef641a59d87cffab589" ref="classPage.html#a8e7b9a4b828e1ef641a59d87cffab589"/>
+<keyword name="elevation()" id="Query::elevation_aa78130e8b60e40fe0bf762ec190075fd" ref="classQuery.html#aa78130e8b60e40fe0bf762ec190075fd"/>
+<keyword name="elevation_" id="Query::elevation__ab5c223f0176cb8ab4cccba38219e13db" ref="classQuery.html#ab5c223f0176cb8ab4cccba38219e13db"/>
 <keyword name="empty() const" id="Box::empty_ac4e37635274d9b1cd02f6123f8f5ea48" ref="classBox.html#ac4e37635274d9b1cd02f6123f8f5ea48"/>
 <keyword name="empty() const" id="Cone::empty_a0cd454703ff64d7be1901679c2aa5400" ref="classCone.html#a0cd454703ff64d7be1901679c2aa5400"/>
 <keyword name="empty() const" id="Sphere::empty_a6cb7071316d4ef80862c4714119ad526" ref="classSphere.html#a6cb7071316d4ef80862c4714119ad526"/>
@@ -2246,9 +2271,9 @@
 <keyword name="eye" id="Camera::eye_ac889297b5e95ecf4142ed786077cd9c0" ref="classCamera.html#ac889297b5e95ecf4142ed786077cd9c0"/>
 <keyword name="eye_" id="ViewerCamera::eye__a3ea0e607a0fb3fcd2895bc11aaeb6e6f" ref="classViewerCamera.html#a3ea0e607a0fb3fcd2895bc11aaeb6e6f"/>
 <keyword name="fd_" id="File::fd__a7e0076037ae46f8f6e555cb790d26988" ref="classFile.html#a7e0076037ae46f8f6e555cb790d26988"/>
+<keyword name="file()" id="LasFile::file_a67466e3d529b0d0aa6116dc65044159c" ref="classLasFile.html#a67466e3d529b0d0aa6116dc65044159c"/>
 <keyword name="File()" id="File::File_ae039af5807fc385f41b60644725d15d0" ref="classFile.html#ae039af5807fc385f41b60644725d15d0"/>
 <keyword name="File(const File &amp;)=delete" id="File::File_a042f525d4beac394675727bcd5cce274" ref="classFile.html#a042f525d4beac394675727bcd5cce274"/>
-<keyword name="file()" id="LasFile::file_a67466e3d529b0d0aa6116dc65044159c" ref="classLasFile.html#a67466e3d529b0d0aa6116dc65044159c"/>
 <keyword name="file_" id="ChunkFile::file__aeb986e42b8f608d030a86d0a60e529c3" ref="classChunkFile.html#aeb986e42b8f608d030a86d0a60e529c3"/>
 <keyword name="file_" id="LasFile::file__a49e34f00c3f3551e21a631ab8f9f9cc6" ref="classLasFile.html#a49e34f00c3f3551e21a631ab8f9f9cc6"/>
 <keyword name="file_creation_day_of_year" id="LasFile::Header::file_creation_day_of_year_ace9546083a9405e9585ad29f6e2ab3e1" ref="structLasFile_1_1Header.html#ace9546083a9405e9585ad29f6e2ab3e1"/>
@@ -2447,8 +2472,8 @@
 <keyword name="layer" id="Page::layer_abe226aea16ab170dea7cbac717d70991" ref="classPage.html#abe226aea16ab170dea7cbac717d70991"/>
 <keyword name="layer()" id="Query::layer_a06ce11ada8f978ded161027318a9aec1" ref="classQuery.html#a06ce11ada8f978ded161027318a9aec1"/>
 <keyword name="layer_" id="Query::layer__a84dd59c59a20cf2361a2b4dbc35ee967" ref="classQuery.html#a84dd59c59a20cf2361a2b4dbc35ee967"/>
-<keyword name="Layers()" id="Layers::Layers_a05aa5fc771e104e0f514a247d590ea64" ref="classLayers.html#a05aa5fc771e104e0f514a247d590ea64"/>
 <keyword name="layers() const" id="Editor::layers_ad5b24880347df3424ea0243b687c4bfa" ref="classEditor.html#ad5b24880347df3424ea0243b687c4bfa"/>
+<keyword name="Layers()" id="Layers::Layers_a05aa5fc771e104e0f514a247d590ea64" ref="classLayers.html#a05aa5fc771e104e0f514a247d590ea64"/>
 <keyword name="layers_" id="Editor::layers__a94da1fec94bdc13d4721d1b2907eab27" ref="classEditor.html#a94da1fec94bdc13d4721d1b2907eab27"/>
 <keyword name="layers_" id="Layers::layers__acf3b2293a4f2ad287ce84fb06e83ecd2" ref="classLayers.html#acf3b2293a4f2ad287ce84fb06e83ecd2"/>
 <keyword name="layers_" id="ProjectNavigatorLayers::layers__a0177094c7907e795959135e66c61adb0" ref="classProjectNavigatorLayers.html#a0177094c7907e795959135e66c61adb0"/>
@@ -2805,7 +2830,6 @@
 <keyword name="replaceExtension(const std::string &amp;path, const std::string &amp;newExtension)" id="File::replaceExtension_ac92f6e7cb331ae966887ef8ea0b6ba5e" ref="classFile.html#ac92f6e7cb331ae966887ef8ea0b6ba5e"/>
 <keyword name="replaceFileName(const std::string &amp;path, const std::string &amp;newFileName)" id="File::replaceFileName_afa23f24c30214085f30a15bef90049cb" ref="classFile.html#afa23f24c30214085f30a15bef90049cb"/>
 <keyword name="reserved" id="IndexFile::Node::reserved_a28d5ac1c4ef0cfa527585149f0c94cae" ref="structIndexFile_1_1Node.html#a28d5ac1c4ef0cfa527585149f0c94cae"/>
-<keyword name="reserved1" id="LasFile::Point::reserved1_a0dc41475cb6132699b58b3f14c048d7d" ref="structLasFile_1_1Point.html#a0dc41475cb6132699b58b3f14c048d7d"/>
 <keyword name="reset()" id="Query::reset_a9cc7b28a9b77b5b9dc6a93d9a9eccab8" ref="classQuery.html#a9cc7b28a9b77b5b9dc6a93d9a9eccab8"/>
 <keyword name="resetCamera()" id="ViewerOpenGLViewport::resetCamera_a2f39a8911b75a828eea4c93200e399b0" ref="classViewerOpenGLViewport.html#a2f39a8911b75a828eea4c93200e399b0"/>
 <keyword name="resetClipFilter()" id="Editor::resetClipFilter_aec933e937af394640534bc5b8ba285ee" ref="classEditor.html#aec933e937af394640534bc5b8ba285ee"/>
@@ -3010,8 +3034,8 @@
 <keyword name="setState(Page::State state)" id="Page::setState_addba1c2fd5f27a2c4a6855e6b88908f9" ref="classPage.html#addba1c2fd5f27a2c4a6855e6b88908f9"/>
 <keyword name="setState(Page::State state)" id="Query::setState_ae6527973ff1ec3ce988b7f6a2c119f07" ref="classQuery.html#ae6527973ff1ec3ce988b7f6a2c119f07"/>
 <keyword name="setState(Page::State state)" id="Viewports::setState_a8b24a5282082152ab62faebc3c87d11f" ref="classViewports.html#a8b24a5282082152ab62faebc3c87d11f"/>
-<keyword name="Settings()" id="IndexFileBuilder::Settings::Settings_ac688d3c5d798f05545ea988f2dbc45dd" ref="classIndexFileBuilder_1_1Settings.html#ac688d3c5d798f05545ea988f2dbc45dd"/>
 <keyword name="settings() const" id="Editor::settings_aa1fa3644ca2b631ecba682207077cec1" ref="classEditor.html#aa1fa3644ca2b631ecba682207077cec1"/>
+<keyword name="Settings()" id="IndexFileBuilder::Settings::Settings_ac688d3c5d798f05545ea988f2dbc45dd" ref="classIndexFileBuilder_1_1Settings.html#ac688d3c5d798f05545ea988f2dbc45dd"/>
 <keyword name="settings_" id="Editor::settings__af8dd8a2d40527bd02ed22da7ae20f649" ref="classEditor.html#af8dd8a2d40527bd02ed22da7ae20f649"/>
 <keyword name="settings_" id="IndexFileBuilder::settings__aa48d8019b8d2747041e456840b25daf5" ref="classIndexFileBuilder.html#aa48d8019b8d2747041e456840b25daf5"/>
 <keyword name="settings_" id="SettingsViewWidget::settings__aafa5c62139d36e1db97fb257ca52aa11" ref="classSettingsViewWidget.html#aafa5c62139d36e1db97fb257ca52aa11"/>
@@ -3311,6 +3335,8 @@
 <keyword name="updateViewer()" id="ViewerPlugin::updateViewer_a2bd575c2ad1d355bc46ab549b2086e2b" ref="classViewerPlugin.html#a2bd575c2ad1d355bc46ab549b2086e2b"/>
 <keyword name="user_blue" id="LasFile::Point::user_blue_a227e10aa655770dea945b0a5f224b4ea" ref="structLasFile_1_1Point.html#a227e10aa655770dea945b0a5f224b4ea"/>
 <keyword name="user_data" id="LasFile::Point::user_data_a1967a95e3b6e827f3edb0ab1ce78e104" ref="structLasFile_1_1Point.html#a1967a95e3b6e827f3edb0ab1ce78e104"/>
+<keyword name="user_element" id="LasFile::Point::user_element_a8bb6df632202eaaaad1c9263685245fe" ref="structLasFile_1_1Point.html#a8bb6df632202eaaaad1c9263685245fe"/>
+<keyword name="user_elevation" id="LasFile::Point::user_elevation_a9f484532204d04d419f8888584088209" ref="structLasFile_1_1Point.html#a9f484532204d04d419f8888584088209"/>
 <keyword name="user_green" id="LasFile::Point::user_green_a4d2c38b8d17244339a55d3bef506ec7e" ref="structLasFile_1_1Point.html#a4d2c38b8d17244339a55d3bef506ec7e"/>
 <keyword name="user_intensity" id="LasFile::Point::user_intensity_ae5b7eff97e953e21d7317e28cc7c99a0" ref="structLasFile_1_1Point.html#ae5b7eff97e953e21d7317e28cc7c99a0"/>
 <keyword name="user_layer" id="LasFile::Point::user_layer_a83bd3a482e28e222ebed1b8c69b63cd5" ref="structLasFile_1_1Point.html#a83bd3a482e28e222ebed1b8c69b63cd5"/>
@@ -3502,15 +3528,11 @@
 <files>
 <file>3dforest.png</file>
 <file>3dforest_48px.png</file>
+<file>3dforest_developer_guide.html</file>
+<file>3dforest_user_manual.html</file>
 <file>annotated.html</file>
 <file>bc_s.png</file>
 <file>bdwn.png</file>
-<file>cheatsheet.html</file>
-<file>cheatsheet_cmake.html</file>
-<file>cheatsheet_qtdesigner.html</file>
-<file>cheatsheet_rename_files.html</file>
-<file>cheatsheet_vscode_debug.html</file>
-<file>cheatsheet_vscode_edit.html</file>
 <file>classBox-members.html</file>
 <file>classBox.html</file>
 <file>classCamera-members.html</file>
@@ -3634,16 +3656,6 @@
 <file>classVoxels.html</file>
 <file>classes.html</file>
 <file>closed.png</file>
-<file>developerguide.html</file>
-<file>developerguide_3rd_party.html</file>
-<file>developerguide_add_new_functionality.html</file>
-<file>developerguide_build_linux_make.html</file>
-<file>developerguide_build_windows_make.html</file>
-<file>developerguide_build_windows_visual_studio.html</file>
-<file>developerguide_code.html</file>
-<file>developerguide_documentation.html</file>
-<file>developerguide_doxygen.html</file>
-<file>developerguide_git.html</file>
 <file>dir_0f882cb75be93feeddb1b229d2e04e3e.html</file>
 <file>dir_380b845d13835543a9a5e324419d47b9.html</file>
 <file>dir_53adf0b982dc8545998aae3f283a5a58.html</file>

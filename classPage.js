@@ -38,6 +38,8 @@ var classPage =
     [ "color", "classPage.html#a1d9f45e67227f3dd94c3e5296ee09e4d", null ],
     [ "datasetId_", "classPage.html#ae3c73c5fecb6b842af87bc6fcec4f5a5", null ],
     [ "editor_", "classPage.html#a7f96c82a47c8cb593656a68ca3ab7262", null ],
+    [ "element", "classPage.html#a6c125e868e1cac34c5615f6ea9131f16", null ],
+    [ "elevation", "classPage.html#a8e7b9a4b828e1ef641a59d87cffab589", null ],
     [ "gpsTime", "classPage.html#a6769c033a5ef36760dee05f7d9ecffe7", null ],
     [ "intensity", "classPage.html#a8811de5f08f73cd25b38ac921bf16fa6", null ],
     [ "layer", "classPage.html#abe226aea16ab170dea7cbac717d70991", null ],

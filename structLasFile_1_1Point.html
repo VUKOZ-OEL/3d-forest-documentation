@@ -133,8 +133,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a227e10aa655770dea945b0a5f224b4ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5b7eff97e953e21d7317e28cc7c99a0"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLasFile_1_1Point.html#ae5b7eff97e953e21d7317e28cc7c99a0">user_intensity</a></td></tr>
 <tr class="separator:ae5b7eff97e953e21d7317e28cc7c99a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0dc41475cb6132699b58b3f14c048d7d"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLasFile_1_1Point.html#a0dc41475cb6132699b58b3f14c048d7d">reserved1</a></td></tr>
-<tr class="separator:a0dc41475cb6132699b58b3f14c048d7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f484532204d04d419f8888584088209"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLasFile_1_1Point.html#a9f484532204d04d419f8888584088209">user_elevation</a></td></tr>
+<tr class="separator:a9f484532204d04d419f8888584088209"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bb6df632202eaaaad1c9263685245fe"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLasFile_1_1Point.html#a8bb6df632202eaaaad1c9263685245fe">user_element</a></td></tr>
+<tr class="separator:a8bb6df632202eaaaad1c9263685245fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a164c428cd96604bee799bf491de3e747" name="a164c428cd96604bee799bf491de3e747"></a>
@@ -348,20 +350,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0dc41475cb6132699b58b3f14c048d7d" name="a0dc41475cb6132699b58b3f14c048d7d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0dc41475cb6132699b58b3f14c048d7d">&#9670;&nbsp;</a></span>reserved1</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint32_t LasFile::Point::reserved1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="acf9f16be4bb66f38222ad6c4ad9fc3e8" name="acf9f16be4bb66f38222ad6c4ad9fc3e8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acf9f16be4bb66f38222ad6c4ad9fc3e8">&#9670;&nbsp;</a></span>return_number</h2>
 
@@ -455,6 +443,38 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">Referenced by <a class="el" href="classPage.html#a794b61a639d75b1b37731cf3809f0ae3">Page::read()</a>, <a class="el" href="classLasFile.html#ae02cfc5614e4620601a51f01439e0905">LasFile::readPoint()</a>, and <a class="el" href="classLasFile.html#a9d40511b751de184e364b5460f9614de">LasFile::writePoint()</a>.</p>
+
+</div>
+</div>
+<a id="a8bb6df632202eaaaad1c9263685245fe" name="a8bb6df632202eaaaad1c9263685245fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bb6df632202eaaaad1c9263685245fe">&#9670;&nbsp;</a></span>user_element</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t LasFile::Point::user_element</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structLasFile_1_1Header.html#aa2445aed35c51231e25b98fbc9402d77">LasFile::Header::pointDataRecordLength3dForest()</a>, <a class="el" href="classPage.html#a794b61a639d75b1b37731cf3809f0ae3">Page::read()</a>, <a class="el" href="classLasFile.html#ae02cfc5614e4620601a51f01439e0905">LasFile::readPoint()</a>, and <a class="el" href="classLasFile.html#a9d40511b751de184e364b5460f9614de">LasFile::writePoint()</a>.</p>
+
+</div>
+</div>
+<a id="a9f484532204d04d419f8888584088209" name="a9f484532204d04d419f8888584088209"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f484532204d04d419f8888584088209">&#9670;&nbsp;</a></span>user_elevation</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t LasFile::Point::user_elevation</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="structLasFile_1_1Header.html#aa2445aed35c51231e25b98fbc9402d77">LasFile::Header::pointDataRecordLength3dForest()</a>, <a class="el" href="classPage.html#a794b61a639d75b1b37731cf3809f0ae3">Page::read()</a>, <a class="el" href="classLasFile.html#ae02cfc5614e4620601a51f01439e0905">LasFile::readPoint()</a>, and <a class="el" href="classLasFile.html#a9d40511b751de184e364b5460f9614de">LasFile::writePoint()</a>.</p>
 
 </div>
 </div>
