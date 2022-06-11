@@ -76,11 +76,12 @@ var hierarchy =
       [ "ProjectNavigatorClassifications", "classProjectNavigatorClassifications.html", null ],
       [ "ProjectNavigatorFiles", "classProjectNavigatorFiles.html", null ],
       [ "ProjectNavigatorLayers", "classProjectNavigatorLayers.html", null ],
-      [ "SettingsViewWidget", "classSettingsViewWidget.html", null ],
+      [ "SettingsColorWidget", "classSettingsColorWidget.html", null ],
       [ "ViewerViewports", "classViewerViewports.html", null ]
     ] ],
     [ "Region", "classRegion.html", null ],
     [ "Segmentation", "classSegmentation.html", null ],
+    [ "SegmentationThread", "classSegmentationThread.html", null ],
     [ "IndexFile::Selection", "structIndexFile_1_1Selection.html", null ],
     [ "IndexFile::SelectionTile", "structIndexFile_1_1SelectionTile.html", null ],
     [ "IndexFileBuilder::Settings", "classIndexFileBuilder_1_1Settings.html", null ],

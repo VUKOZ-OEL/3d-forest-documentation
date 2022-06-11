@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.4"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>3D Forest: CMake Build Script</title>
+<title>3D Forest: SegmentationThread Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript">var page_layout=1;</script>
 <script type="text/javascript" src="jquery.js"></script>
@@ -47,31 +47,54 @@
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('cheatsheet_cmake.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('classSegmentationThread.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
-<div><div class="header">
-  <div class="headertitle"><div class="title">CMake Build Script </div></div>
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="classSegmentationThread-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">SegmentationThread Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p >Example Windows build script executed from directory build:</p>
-<pre class="fragment">cmake -G "MinGW Makefiles" .. -DCMAKE_INSTALL_PREFIX=.. -DCMAKE_BUILD_TYPE=Debug -DBUILD_EXAMPLES=ON
-mingw32-make format
-mingw32-make
-mingw32-make install
-mingw32-make doxygen
-qhelpgenerator ..\doc\index.qhcp -o html\index.qhc
-mkdir ..\bin\documentation
-copy html\index.qhc ..\bin\documentation\
-copy html\index.qch ..\bin\documentation\
-</pre> </div></div><!-- contents -->
-</div><!-- PageDoc -->
+
+<p><code>#include &lt;SegmentationThread.hpp&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a5c5b9a1f21e114db574804220a7c2c21"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationThread.html#a5c5b9a1f21e114db574804220a7c2c21">SegmentationThread</a> ()</td></tr>
+<tr class="separator:a5c5b9a1f21e114db574804220a7c2c21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a5c5b9a1f21e114db574804220a7c2c21" name="a5c5b9a1f21e114db574804220a7c2c21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c5b9a1f21e114db574804220a7c2c21">&#9670;&nbsp;</a></span>SegmentationThread()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SegmentationThread::SegmentationThread </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
+<li>SegmentationThread.hpp</li>
+<li>SegmentationThread.cpp</li>
+</ul>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.9.4-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="classSegmentationThread.html">SegmentationThread</a></li>
     <li class="footer">
       Copyright 2020-present VUKOZ Documentation contributions included herein are the copyrights of their respective owners.
       The documentation provided herein is licensed under the terms of the

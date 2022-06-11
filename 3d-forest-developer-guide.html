@@ -47,7 +47,7 @@
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('developer_guide.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('3d-forest-developer-guide.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -58,28 +58,28 @@ $(document).ready(function(){initNavTree('developer_guide.html',''); initResizab
 <div class="textblock"><p >These documents describe how to build 3D Forest and develop new plugins using APIs in 3D Forest and other libraries.</p>
 <h1><a class="anchor" id="git"></a>
 Git</h1>
-<h2><a class="anchor" id="git_get_code"></a>
+<h2><a class="anchor" id="git-get-code"></a>
 Get the Source Code</h2>
-<pre class="fragment">  git clone https://github.com/VUKOZ-OEL/3dforest2.git
-  cd 3dforest2</pre><h2><a class="anchor" id="git_create_branch"></a>
+<pre class="fragment">  git clone https://github.com/VUKOZ-OEL/3d-forest.git
+  cd 3d-forest</pre><h2><a class="anchor" id="git-create-branch"></a>
 Create New Branch</h2>
 <ul>
 <li>If you like to make some changes, then create your branch in GitHub:<ol type="1">
-<li>Open web page '<a href="https://github.com/VUKOZ-OEL/3dforest2'">https://github.com/VUKOZ-OEL/3dforest2'</a>.</li>
+<li>Open web page '<a href="https://github.com/VUKOZ-OEL/3d-forest'">https://github.com/VUKOZ-OEL/3d-forest'</a>.</li>
 <li>Click on 'main' button.</li>
 <li>In 'Switch branches/tags' popup window:<ol type="a">
 <li>Select field 'Filter branches/tags':</li>
-<li>Type a name of your_branch. Example "vb" for "Vaclav Bubnik".</li>
+<li>Type a name of your-branch. Example "vb" for "Vaclav Bubnik".</li>
 <li>Hit enter.</li>
 </ol>
 </li>
 </ol>
 </li>
 </ul>
-<h2><a class="anchor" id="git_merging"></a>
+<h2><a class="anchor" id="git-merging"></a>
 Merging Your Changes</h2>
 <ul>
-<li>Switch to your branch if you like to make some changes: <pre class="fragment">  git checkout your_branch</pre></li>
+<li>Switch to your branch if you like to make some changes: <pre class="fragment">  git checkout your-branch</pre></li>
 <li>Merging 'main' into your branch is required before making contribution from your branch. Merging from 'main' may result to some unfortunate merge conflicts which are resolved manually. <pre class="fragment">  # Push your current changes in your branch if you have any (git status)
   git add --all
   git commit -m "Update"
@@ -91,21 +91,21 @@ Merging Your Changes</h2>
   git pull
 
   # Merging 'main' into your branch
-  git checkout your_branch
-  git merge --no-ff -m "Merge branch 'main' into your_branch" main
+  git checkout your-branch
+  git merge --no-ff -m "Merge branch 'main' into your-branch" main
 
   # Resolve conflicts and push
   git push
 
   # Merging your branch into 'main' (contribution, pull requests later)
   git checkout main
-  git merge --no-ff -m "Merge branch 'your_branch' into main" your_branch
+  git merge --no-ff -m "Merge branch 'your-branch' into main" your-branch
   git push
 
   # Return to your branch
-  git checkout your_branch</pre></li>
+  git checkout your-branch</pre></li>
 </ul>
-<h2><a class="anchor" id="git_commands"></a>
+<h2><a class="anchor" id="git-commands"></a>
 Commands</h2>
 <ul>
 <li>Common download sequence: <pre class="fragment">  git checkout &lt;branch&gt;
@@ -118,10 +118,10 @@ Commands</h2>
   git commit -m "Add feature x"
   git push</pre></li>
 </ul>
-<h1><a class="anchor" id="build_linux_make"></a>
+<h1><a class="anchor" id="build-linux-make"></a>
 Build from Source Code in Linux with "Unix Makefiles"</h1>
 <p >The code uses C++17, CMake, Qt5/Qt6 and OpenGL which will be installed in the following steps. Qt and OpenGL are required only for GUI desktop application.</p>
-<h2><a class="anchor" id="build_linux_make_qt"></a>
+<h2><a class="anchor" id="build-linux-make-qt"></a>
 Install Qt</h2>
 <ul>
 <li>Download Qt installer from <a href="https://www.qt.io/download">https://www.qt.io/download</a><ul>
@@ -144,33 +144,33 @@ Install Qt</h2>
 </ul>
 </li>
 </ul>
-<h2><a class="anchor" id="build_linux_make_opengl"></a>
+<h2><a class="anchor" id="build-linux-make-opengl"></a>
 Installation of other tools: OpenGL and CMake from a terminal</h2>
 <pre class="fragment">    $ sudo apt-get update
     $ sudo apt install mesa-common-dev libglu1-mesa-dev
-    $ sudo apt install cmake</pre><h2><a class="anchor" id="build_linux_make_gcc"></a>
+    $ sudo apt install cmake</pre><h2><a class="anchor" id="build-linux-make-gcc"></a>
 Installation of other tools: gcc, g++, make, libc6-dev, etc.</h2>
-<pre class="fragment">    $ sudo apt-get install build-essential</pre><h2><a class="anchor" id="build_linux_make_3dforest"></a>
+<pre class="fragment">    $ sudo apt-get install build-essential</pre><h2><a class="anchor" id="build-linux-make-3dforest"></a>
 Build 3D Forest</h2>
 <ol type="1">
 <li>Get 3D Forest source code <pre class="fragment">    $ cd /home/user/
-    $ git clone https://github.com/VUKOZ-OEL/3dforest2.git</pre></li>
-<li>Build 3D Forest <pre class="fragment">    $ cd /home/user/3dforest2
+    $ git clone https://github.com/VUKOZ-OEL/3d-forest.git</pre></li>
+<li>Build 3D Forest <pre class="fragment">    $ cd /home/user/3d-forest
     $ mkdir build
-    $ cd /home/user/3dforest2/build
+    $ cd /home/user/3d-forest/build
     $ PATH=$PATH:/home/user/Qt/5.15.2/gcc_64/bin
     $ cmake -G "Unix Makefiles" .. -DCMAKE_INSTALL_PREFIX=..
     $ make
     $ make install</pre></li>
-<li>Start 3D Forest application <pre class="fragment">    $ cd /home/user/3dforest2/bin
-    $ LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/user/3dforest2/bin:/home/user/Qt/5.15.2/gcc_64/lib ./3dforest</pre></li>
-<li>We can open example project "project.json" from directory "/home/user/3dforest2/data"</li>
+<li>Start 3D Forest application <pre class="fragment">    $ cd /home/user/3d-forest/bin
+    $ LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/user/3d-forest/bin:/home/user/Qt/5.15.2/gcc_64/lib ./3dforest</pre></li>
+<li>We can open example project "project.json" from directory "/home/user/3d-forest/data"</li>
 <li>We can see that we did not store modified PATH and LD_LIBRARY_PATH to user or system variables. One could modify "/home/&lt;user&gt;/.bashrc" or "/home/&lt;user&gt;/.profile" to make the change persistent.</li>
 </ol>
-<h1><a class="anchor" id="build_windows_make"></a>
+<h1><a class="anchor" id="build-windows-make"></a>
 Build from Source Code in Windows with "MinGW Makefiles"</h1>
 <p >The code uses C++17, CMake, Qt5/Qt6 and OpenGL which will be installed in the following steps. Qt and OpenGL are required only for GUI desktop application.</p>
-<h2><a class="anchor" id="build_windows_make_git"></a>
+<h2><a class="anchor" id="build-windows-make-git"></a>
 Install git</h2>
 <ul>
 <li>Open "Git for windows" <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></li>
@@ -214,7 +214,7 @@ Install git</h2>
 </ul>
 </li>
 </ul>
-<h2><a class="anchor" id="build_windows_make_mingw"></a>
+<h2><a class="anchor" id="build-windows-make-mingw"></a>
 Install msys2 and mingw-w64</h2>
 <ul>
 <li>Open <a href="https://www.msys2.org/">https://www.msys2.org/</a> and follow Installation instructions:<ul>
@@ -252,7 +252,7 @@ Install msys2 and mingw-w64</h2>
 </ul>
 </li>
 </ul>
-<h2><a class="anchor" id="build_windows_make_qt"></a>
+<h2><a class="anchor" id="build-windows-make-qt"></a>
 Install Qt</h2>
 <ul>
 <li>Download Qt installer from <a href="https://www.qt.io/download">https://www.qt.io/download</a><ul>
@@ -295,24 +295,24 @@ Install Qt</h2>
 <li>In "System variables" select Variable "Path" and click "Edit..."</li>
 <li>Click "New" and add "C:\Qt\5.15.0\mingw81_64\bin" or "C:\Qt\6.3.0\mingw_64\bin" depending on your installed qt version</li>
 </ul>
-<h2><a class="anchor" id="build_windows_make_3dforest"></a>
+<h2><a class="anchor" id="build-windows-make-3dforest"></a>
 Build 3D Forest</h2>
 <ul>
 <li>Open "cmd" terminal windows application</li>
-<li>Use "cd" command to navigate to local git repository folder <pre class="fragment">        cd Documents\3dforest2</pre> or first clone the repository to "Documents" as follows: <pre class="fragment">        cd Documents
-        git clone https://github.com/VUKOZ-OEL/3dforest2.git
-        cd 3dforest2</pre></li>
+<li>Use "cd" command to navigate to local git repository folder <pre class="fragment">        cd Documents\3d-forest</pre> or first clone the repository to "Documents" as follows: <pre class="fragment">        cd Documents
+        git clone https://github.com/VUKOZ-OEL/3d-forest.git
+        cd 3d-forest</pre></li>
 <li>Build source files to executable 3dforest application as follows: <pre class="fragment">        &gt; mkdir build
         &gt; cd build
         &gt; cmake -G "MinGW Makefiles" .. -DCMAKE_INSTALL_PREFIX=..
         &gt; mingw32-make
         &gt; mingw32-make install</pre></li>
-<li>Run 3dforest.exe from directory "Documents\3dforest2\bin"</li>
+<li>Run 3dforest.exe from directory "Documents\3d-forest\bin"</li>
 </ul>
-<h1><a class="anchor" id="build_windows_visual_studio"></a>
+<h1><a class="anchor" id="build-windows-visual-studio"></a>
 Build from Source Code in Windows with Visual Studio</h1>
 <p >The code uses C++17, CMake, Qt5/Qt6 and OpenGL which will be installed in the following steps. Qt and OpenGL are required only for GUI desktop application.</p>
-<h2><a class="anchor" id="build_windows_visual_studio_git"></a>
+<h2><a class="anchor" id="build-windows-visual-studio-git"></a>
 Install git</h2>
 <ul>
 <li>Open "Git for windows" <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></li>
@@ -356,7 +356,7 @@ Install git</h2>
 </ul>
 </li>
 </ul>
-<h2><a class="anchor" id="build_windows_visual_studio_ide"></a>
+<h2><a class="anchor" id="build-windows-visual-studio-ide"></a>
 Install Visual Studio</h2>
 <ul>
 <li>Open <a href="https://visualstudio.microsoft.com/downloads/">https://visualstudio.microsoft.com/downloads/</a></li>
@@ -364,7 +364,7 @@ Install Visual Studio</h2>
 <li>Run VisualStudioSetup.exe</li>
 <li>Select "Desktop development with C++", Total size is 8 GB</li>
 </ul>
-<h2><a class="anchor" id="build_windows_visual_studio_qt"></a>
+<h2><a class="anchor" id="build-windows-visual-studio-qt"></a>
 Install Qt</h2>
 <ul>
 <li>Download Qt installer from <a href="https://www.qt.io/download">https://www.qt.io/download</a><ul>
@@ -402,29 +402,29 @@ Install Qt</h2>
 <li>In "System variables" select Variable "Path" and click "Edit..."</li>
 <li>Click "New" and add "C:\Qt\6.3.0\msvc2019_64\bin"</li>
 </ul>
-<h2><a class="anchor" id="build_windows_visual_studio_3dforest"></a>
+<h2><a class="anchor" id="build-windows-visual-studio-3dforest"></a>
 Build 3D Forest</h2>
 <ul>
-<li>Open directory "3dforest2" in Visual Studio. This will automatically create Visual Studio solution from CMake files.</li>
+<li>Open directory "3d-forest" in Visual Studio. This will automatically create Visual Studio solution from CMake files.</li>
 <li>Click "Build All"</li>
 </ul>
-<h1><a class="anchor" id="add_new_functionality"></a>
+<h1><a class="anchor" id="add-new-functionality"></a>
 Add New Functionality</h1>
-<h2><a class="anchor" id="add_new_functionality_plugins"></a>
+<h2><a class="anchor" id="add-new-functionality-plugins"></a>
 Plugins</h2>
 <p >There are several ways to add new functionality. The most easy way is to add new external plugin. External plugins are self contained. It is not necessary to touch any file outside of your plugin directory with exception of one cmake file.</p><ol type="1">
 <li>To start, one can copy and modify existing external plugin such as "src/plugins/classifyground" to new directory "src/plugins/myplugin".</li>
 <li>Add path to "src/plugins/CMakeLists.txt" to build the new plugin: <pre class="fragment">        add_subdirectory(myplugin)</pre></li>
 <li>External plugins will be visible from application main window.</li>
 </ol>
-<h2><a class="anchor" id="add_new_functionality_tools"></a>
+<h2><a class="anchor" id="add-new-functionality-tools"></a>
 Tools</h2>
 <p >It is possible to add new command line tool to "src/apps/tools/mytool".</p><ol type="1">
 <li>Example command line tool "src/apps/tools/sandbox".</li>
 <li>Example command line tool with Qt "src/apps/tools/icon".</li>
 <li>Tools are not available from application main window.</li>
 </ol>
-<h2><a class="anchor" id="add_new_functionality_internal_plugins"></a>
+<h2><a class="anchor" id="add-new-functionality-internal-plugins"></a>
 Internal Plugins</h2>
 <p >The third way is to add new internal plugin.</p><ol type="1">
 <li>To start, one can copy and modify existing internal plugin such as "src/plugins/projectfile" to new directory "src/plugins/myplugin".</li>
@@ -440,26 +440,26 @@ Internal Plugins</h2>
         myPlugin_-&gt;initialize(this);</pre></li>
 <li>Internal plugins will be visible from application main window.</li>
 </ol>
-<h2><a class="anchor" id="add_new_functionality_extend_core_functionality"></a>
+<h2><a class="anchor" id="add-new-functionality-extend-core-functionality"></a>
 Extend Core Functionality</h2>
 <p >The last and most difficult way is to modify core functionality in the following directories. This functionality is available in all plugins.</p><ul>
 <li>"src/core" build to "lib3dforestcore.dll"</li>
 <li>"src/editor" build to "lib3dforesteditor.dll"</li>
 <li>"src/gui" build to "lib3dforestgui.dll"</li>
 </ul>
-<h2><a class="anchor" id="add_new_functionality_general"></a>
+<h2><a class="anchor" id="add-new-functionality-general"></a>
 General</h2>
 <ol type="1">
 <li>The main() 3D Forest application is in "src/apps/3dforest/3dforest.cpp".</li>
 <li>For development with Visual Studio Code, update ".vscode/settings.json" to contain new directories. For example, add "${workspaceRoot}/src/plugins/myaction" to "C_Cpp.default.includePath" include paths.</li>
 <li>Need some icon? Try to look into directory "3rdparty/icons".</li>
 </ol>
-<h1><a class="anchor" id="code_format"></a>
+<h1><a class="anchor" id="code-format"></a>
 Code Format Suggestions</h1>
-<h2><a class="anchor" id="code_format_automatic"></a>
+<h2><a class="anchor" id="code-format-automatic"></a>
 Automatic Code Formatting</h2>
 <p >The following command performs automatic code formatting. It is good to run this command before 'git add &lt;file&gt;' and git commit to GitHub: </p><pre class="fragment">mingw32-make format
-</pre><h2><a class="anchor" id="code_format_names"></a>
+</pre><h2><a class="anchor" id="code-format-names"></a>
 Names</h2>
 <p >The code is using C++ std on Backend and Qt on Frontend.</p>
 <p >Function names follow mixed Qt style and std: </p><pre class="fragment">get:
@@ -485,7 +485,7 @@ signals:
     void toolsRequested(const QString &amp;source);
     void findTextFinished(const QString &amp;text);
     void loadProgress(int progress);
-</pre><h2><a class="anchor" id="code_format_file_names"></a>
+</pre><h2><a class="anchor" id="code-format-file-names"></a>
 File Names</h2>
 <pre class="fragment">directory "3rd Party" is "3rdparty" lowercase, no separators
 
@@ -557,7 +557,7 @@ Examples:
 
     Documenting another file.
 */
-</pre><h1><a class="anchor" id="generate_help_manuals"></a>
+</pre><h1><a class="anchor" id="generate-help-manuals"></a>
 Generate Help Manuals</h1>
 <p >We would like to be able to give users access to documentation from within the user interface of our application. This section demonstrates how to edit, generate and distribute such documentation with 3D Forest.</p>
 <p >These are the locations where it is possible to write the documentation:</p><ul>
@@ -578,7 +578,7 @@ Generate Help Manuals</h1>
 <li>We access help via 'Help-&gt;Manual'.</li>
 <li>The previous step displays Help dialog with table of contents on the left side and relevant html page on the right side.</li>
 </ol>
-<h1><a class="anchor" id="adding_3rd_party_library"></a>
+<h1><a class="anchor" id="adding-3rd-party-library"></a>
 Adding Third Party Libraries</h1>
 <p >Third party libraries used by 3D Forest are copied to '3rdparty' directory and therefore distributed together with 3D Forest. 3rd party code is build as a part of 3D Forest build process. This removes inconvenient step which would require to search, download and install dependencies.</p>
 <p >GPLv3 compatibility matrix: <a href="https://www.gnu.org/licenses/gpl-faq.en.html#AllCompatibility">https://www.gnu.org/licenses/gpl-faq.en.html#AllCompatibility</a></p>
@@ -586,7 +586,7 @@ Adding Third Party Libraries</h1>
 <p >GPL-Incompatible Free Software Licenses: <a href="https://www.gnu.org/licenses/license-list.html#GPLIncompatibleLicenses">https://www.gnu.org/licenses/license-list.html#GPLIncompatibleLicenses</a></p>
 <h1><a class="anchor" id="cheatsheet"></a>
 Cheat Sheet</h1>
-<h2><a class="anchor" id="cheatsheet_cmake"></a>
+<h2><a class="anchor" id="cheatsheet-cmake"></a>
 CMake Build Script</h2>
 <p >Example Windows build script executed from directory build: </p><pre class="fragment">cmake -G "MinGW Makefiles" .. -DCMAKE_INSTALL_PREFIX=.. -DCMAKE_BUILD_TYPE=Debug -DBUILD_EXAMPLES=ON
 mingw32-make format
@@ -597,14 +597,14 @@ qhelpgenerator ..\doc\index.qhcp -o html\index.qhc
 mkdir ..\bin\documentation
 copy html\index.qhc ..\bin\documentation\
 copy html\index.qch ..\bin\documentation\
-</pre><h2><a class="anchor" id="cheatsheet_qtdesigner"></a>
+</pre><h2><a class="anchor" id="cheatsheet-qtdesigner"></a>
 Qt Designer</h2>
 <p >Conversion of '.ui' files to '.hpp' files by using 'uic' command line tool: </p><pre class="fragment">which uic
 uic -o ui_window.h window.ui
-</pre><h2><a class="anchor" id="cheatsheet_rename_files"></a>
+</pre><h2><a class="anchor" id="cheatsheet-rename-files"></a>
 Rename Files</h2>
 <p >Rename filenames: </p><pre class="fragment">powershell -C "gci | % {rni $_.Name ($_.Name -replace '24px', '24')}"
-</pre><h2><a class="anchor" id="cheatsheet_vscode_edit"></a>
+</pre><h2><a class="anchor" id="cheatsheet-vscode-edit"></a>
 Edit Source Code with Visual Studio Code</h2>
 <ol type="1">
 <li>Download and install Visual Studio Code<ul>
@@ -613,12 +613,12 @@ Edit Source Code with Visual Studio Code</h2>
 <li>Tested with version 1.56.2.</li>
 </ul>
 </li>
-<li>In file explorer, right-click on folder "3dforest2" and select "Open with Code". This will open 3D Forest workspace.</li>
+<li>In file explorer, right-click on folder "3d-forest" and select "Open with Code". This will open 3D Forest workspace.</li>
 <li>Install extension "C/C++ IntelliSense, debugging, and code browsing". Extension identifier is "ms-vscode.cpptools". Tested with v1.4.0.</li>
 <li>Install extension "CMake Tools". Extension identifier is "ms-vscode.cmake-tools". Tested with v1.7.3.</li>
 <li>Optionally install extension "CMake langage support for Visual Studio Code". Extension identifier is "twxs.cmake".</li>
 <li>Optionally install extension "Code Spell Checker". Extension identifier is "streetsidesoftware.code-spell-checker".</li>
-<li>On Windows, add the following lines to "3dforest2/.vscode/settings.json" (compiler path and IntelliSense settings): <pre class="fragment">    {
+<li>On Windows, add the following lines to "3d-forest/.vscode/settings.json" (compiler path and IntelliSense settings): <pre class="fragment">    {
         "files.eol": "\n",
         "C_Cpp.default.includePath":[
             "C:/Qt/5.15.0/mingw81_64/include/**",
@@ -639,7 +639,7 @@ Edit Source Code with Visual Studio Code</h2>
     }</pre></li>
 <li>Close the window and reopen to the same folder to apply new settings.</li>
 </ol>
-<h2><a class="anchor" id="cheatsheet_vscode_debug"></a>
+<h2><a class="anchor" id="cheatsheet-vscode-debug"></a>
 Build and Debug in Visual Studio Code</h2>
 <ol type="1">
 <li>Install GDB for msys2:<ul>
