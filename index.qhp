@@ -75,6 +75,7 @@
 <section title="isInside" ref="classBox.html#a855b05194e75578f3aab8ae6359e1472"/>
 <section title="length" ref="classBox.html#a2fd90386291b86d4d2e2672df70d4b0b"/>
 <section title="max" ref="classBox.html#a373b9710b5a66263e7b8b2d1813300e6"/>
+<section title="maximumLength" ref="classBox.html#a6fae4bbaf15c8b5a6c7ac330f8a7a784"/>
 <section title="min" ref="classBox.html#ab26e65e3e40bb6179039f62b6e75464b"/>
 <section title="radius" ref="classBox.html#af38477a148da11f3f931e412b08efa97"/>
 <section title="read" ref="classBox.html#ab89ea3104acbbc12dfaf020edb472d94"/>
@@ -374,9 +375,6 @@
 <section title="slotAbout" ref="classHelpPlugin.html#ad8453a56526bcf6be764713bb94d0521"/>
 <section title="aboutAction_" ref="classHelpPlugin.html#ad84fa97db8a44eaacc069c458e04c15c"/>
 <section title="mainWindow_" ref="classHelpPlugin.html#a563d0d185a581edd2862a49a0e5339b0"/>
-</section>
-<section title="IconTheme" ref="classIconTheme.html">
-<section title="IconTheme" ref="classIconTheme.html#a9cc914b836ef3081799061360a22a18a"/>
 </section>
 <section title="ImportDialog" ref="classImportDialog.html">
 <section title="ImportDialog" ref="classImportDialog.html#af115261c2768b0ae58784af9f40cce03"/>
@@ -824,6 +822,7 @@
 <section title="loadPlugins" ref="classMainWindow.html#ad63ce417061edc862704eb68e7a7a2d2"/>
 <section title="minimumSizeHint" ref="classMainWindow.html#aa5399468cbc29ca280031efd48a6f6de"/>
 <section title="resumeThreads" ref="classMainWindow.html#af8a9144702df759c5883114632f1d92c"/>
+<section title="setStatusProgressBarPercent" ref="classMainWindow.html#a326d567eda9b9ec6a97ff9c04382b0c4"/>
 <section title="setWindowTitle" ref="classMainWindow.html#a603859ec307e1f4cffc99f94f1424c3f"/>
 <section title="showError" ref="classMainWindow.html#a099aa96447509af81287e6277bd26e0d"/>
 <section title="signalRender" ref="classMainWindow.html#ab1752eb76c7658ceb65786fcdc2b12df"/>
@@ -852,6 +851,7 @@
 <section title="projectFilePlugin_" ref="classMainWindow.html#a7d8470ccefbf28ad10a4af0a0d8b324f"/>
 <section title="projectNavigatorPlugin_" ref="classMainWindow.html#ae33f153fc996b738d6cbbd83c810f8b2"/>
 <section title="settingsPlugin_" ref="classMainWindow.html#adedd3fbee2bc378c6c94ef779946e343"/>
+<section title="statusProgressBar_" ref="classMainWindow.html#a5f91991cb17aae871bcb2f45e3dc6c54"/>
 <section title="threadRender_" ref="classMainWindow.html#a85a27fbde71c5900149c6417e9e73555"/>
 <section title="toolBar_" ref="classMainWindow.html#a1a21bf2516346c235d5182cfcb88294c"/>
 <section title="viewerPlugin_" ref="classMainWindow.html#aee8e286c1365b31235d02ea39da76030"/>
@@ -1085,6 +1085,7 @@
 </section>
 <section title="ProjectNavigatorWindow" ref="classProjectNavigatorWindow.html">
 <section title="ProjectNavigatorWindow" ref="classProjectNavigatorWindow.html#ad86f71e57a5acf7411777e2115cf8c68"/>
+<section title="slotCurrentChanged" ref="classProjectNavigatorWindow.html#a31ba5ace40859a69df3a05db60fe5737"/>
 <section title="classifications_" ref="classProjectNavigatorWindow.html#aef79bfdf593a23f327e6a756fdc25127"/>
 <section title="datasets_" ref="classProjectNavigatorWindow.html#a9dde8a541c96eebec2408c74d21e2196"/>
 <section title="layers_" ref="classProjectNavigatorWindow.html#ad7d7818c19f2cf9a86b7a6b91ae9568a"/>
@@ -1212,8 +1213,19 @@
 <section title="initialized_" ref="classRenderThread.html#ab6caa314d0c9e59aa3652c95e025cf35"/>
 <section title="viewportId_" ref="classRenderThread.html#a0cbac4b60bf8be44316fd3ff25e533e5"/>
 </section>
-<section title="Segmentation" ref="classSegmentation.html">
-<section title="Segmentation" ref="classSegmentation.html#a966891da37798baabb99bf0144d47675"/>
+<section title="SegmentationPca" ref="classSegmentationPca.html">
+<section title="SegmentationPca" ref="classSegmentationPca.html#ac01ae7116d9772441229f2afd7102bc8"/>
+<section title="clear" ref="classSegmentationPca.html#a7c34f2d5c482bbf06027b083f6f16132"/>
+<section title="compute" ref="classSegmentationPca.html#ad9bc4a7bb4ae6b194c7d18f42fdf208d"/>
+<section title="E" ref="classSegmentationPca.html#ad6c572c36f66052a238749652f37534e"/>
+<section title="eigenVectors" ref="classSegmentationPca.html#a0c8e68e4da6bb66d1944f95b2d19d126"/>
+<section title="eigenVectorsT" ref="classSegmentationPca.html#aad2456417ee917bab52b8080e9affbc9"/>
+<section title="in" ref="classSegmentationPca.html#ad5f2f0ff0ee5df04d6dd8d8c34a4fae8"/>
+<section title="max" ref="classSegmentationPca.html#a08d88eab7766683095331554bc85f058"/>
+<section title="min" ref="classSegmentationPca.html#acd377a86b1033b049c6b776201839e95"/>
+<section title="out" ref="classSegmentationPca.html#ae303a41fe26cbfaefef7f75500e65ed7"/>
+<section title="product" ref="classSegmentationPca.html#adc00a45947752845cece56808f14ef36"/>
+<section title="V" ref="classSegmentationPca.html#ae0694d43f823d1e8056a6ce517dc04c5"/>
 </section>
 <section title="SegmentationPlugin" ref="classSegmentationPlugin.html">
 <section title="SegmentationPlugin" ref="classSegmentationPlugin.html#a082cb34c8e4961ae38b13e0a280f9529"/>
@@ -1223,24 +1235,58 @@
 <section title="mainWindow_" ref="classSegmentationPlugin.html#a3cff02381a3139b1cbfa7ee352bfdb84"/>
 </section>
 <section title="SegmentationThread" ref="classSegmentationThread.html">
-<section title="SegmentationThread" ref="classSegmentationThread.html#a5c5b9a1f21e114db574804220a7c2c21"/>
+<section title="State" ref="classSegmentationThread.html#a2b488593f36eac816f4a13d7609993e4">
+<section title="STATE_VOXEL_SIZE" ref="classSegmentationThread.html#a2b488593f36eac816f4a13d7609993e4ad0071fb3345d1323a666988162f68d21"/>
+<section title="STATE_THRESHOLD" ref="classSegmentationThread.html#a2b488593f36eac816f4a13d7609993e4ad0225338b964474924602aa1c64d8036"/>
+<section title="STATE_FINISHED" ref="classSegmentationThread.html#a2b488593f36eac816f4a13d7609993e4a18e3c5b4f1b0aab6f24eca09a101e3f4"/>
+</section>
+<section title="SegmentationThread" ref="classSegmentationThread.html#a6f2ab6b9f6b562082bdd65d0c9c763f6"/>
+<section title="~SegmentationThread" ref="classSegmentationThread.html#a3f8e826a615355c7ee2abb76601d2deb"/>
+<section title="clear" ref="classSegmentationThread.html#a67151b7c784f73c38e5305f6aa766b90"/>
+<section title="compute" ref="classSegmentationThread.html#a7473bc69c2924109bda24c01bae87418"/>
+<section title="computeInitializeLayers" ref="classSegmentationThread.html#a7ca97ad6de4ea8026f680591b419bc66"/>
+<section title="computeThreshold" ref="classSegmentationThread.html#a4ac4c63d56f10dab1b9957410b13a836"/>
+<section title="computeVoxelSize" ref="classSegmentationThread.html#acf34af6a26ab25d79b0f09a1fbfa9ecf"/>
+<section title="editor" ref="classSegmentationThread.html#a9b689870861a19158883eccac3cd6a8b"/>
+<section title="progressPercent" ref="classSegmentationThread.html#a6da4fedfaa66512b4678ef2f35a02a82"/>
+<section title="setState" ref="classSegmentationThread.html#ab2847de25ae60fa2eb84927ae47eaa13"/>
+<section title="start" ref="classSegmentationThread.html#a9e1faef03cf876577f8240e0f5013c51"/>
+<section title="updateProgressPercent" ref="classSegmentationThread.html#a7a8a3dad23d0bc3a03963cd872074953"/>
+<section title="editor_" ref="classSegmentationThread.html#a3e7dbc0a320da651f051ac207ddea6b9"/>
+<section title="layersCreated_" ref="classSegmentationThread.html#a4b9f8666a48aadae098952aa16b903f7"/>
+<section title="pca_" ref="classSegmentationThread.html#a7521a78d7210f0dc5e15f9c5a17973bf"/>
+<section title="progressMax_" ref="classSegmentationThread.html#a2715370550eb4d0432431a832ff05b4a"/>
+<section title="progressPercent_" ref="classSegmentationThread.html#a93540495bec6457f74ace32f93d131c2"/>
+<section title="progressValue_" ref="classSegmentationThread.html#ae3d30932310bfbac59e11f62eb7f7018"/>
+<section title="query_" ref="classSegmentationThread.html#ad6099db1366b5da17b92a97dc4ac4074"/>
+<section title="state_" ref="classSegmentationThread.html#ac9e1bc3ed1d3a928b922b7a7136a2ed2"/>
+<section title="stateInitialized_" ref="classSegmentationThread.html#ae3aa18203f93f6b2c6cb3a4f32d7229c"/>
+<section title="threshold_" ref="classSegmentationThread.html#a8d8d0f9f8d351ea45dcb749d0510d437"/>
+<section title="voxels_" ref="classSegmentationThread.html#a6f8742a14773dc521ef792a994c3c86d"/>
+<section title="voxelSize_" ref="classSegmentationThread.html#ae8657b9a48c9a56f51196b8c2b685402"/>
 </section>
 <section title="SegmentationWindow" ref="classSegmentationWindow.html">
 <section title="SegmentationWindow" ref="classSegmentationWindow.html#a8b647e48a9adb42f116ab4ab2796aea2"/>
-<section title="createInputSlider" ref="classSegmentationWindow.html#a9aea6c8661447c36810a79a5551d38c9"/>
-<section title="slotApply" ref="classSegmentationWindow.html#a3ebc5c037037b6f2c1712049a69d9572"/>
-<section title="slotDistanceFinalValue" ref="classSegmentationWindow.html#aff137582e9d2f3c7efec14f29fb8d1a1"/>
-<section title="slotDistanceIntermediateValue" ref="classSegmentationWindow.html#a4483a5bdba9eede702066ebd971c8cf3"/>
+<section title="~SegmentationWindow" ref="classSegmentationWindow.html#a4e5a757bba757a924a9cf5ce87858181"/>
+<section title="closeEvent" ref="classSegmentationWindow.html#a5b9f1d01f33bd6d44b508fee569d212a"/>
+<section title="resumeThreads" ref="classSegmentationWindow.html#a44648f683d56a16cd8a36e3c48df6978"/>
+<section title="showEvent" ref="classSegmentationWindow.html#a01ccc726d3a708870a1fbcfca6c68adc"/>
+<section title="signalThread" ref="classSegmentationWindow.html#a27c5c3cd601b0dda79d656f3b9d04ba9"/>
+<section title="slotAccept" ref="classSegmentationWindow.html#a44c1c8d509dbc86c5d9bbb67419823c7"/>
+<section title="slotReject" ref="classSegmentationWindow.html#aaf4f56cae7031cf8bfa386ccabf893f1"/>
+<section title="slotThread" ref="classSegmentationWindow.html#ab923a3c23b539ddc0a8591bba3619dde"/>
 <section title="slotThresholdFinalValue" ref="classSegmentationWindow.html#a96322c89529341d13d107a4299cd9160"/>
-<section title="slotThresholdIntermediateValue" ref="classSegmentationWindow.html#afb302adda48e9724164870ae4b34c6b6"/>
-<section title="distanceGroup_" ref="classSegmentationWindow.html#a6994e17e9cbed2a1aba0c068cc0798a3"/>
-<section title="distanceSlider_" ref="classSegmentationWindow.html#a156f6d910d15ebaa57e4407facef0902"/>
-<section title="distanceSpinBox_" ref="classSegmentationWindow.html#ac835a98ab67efb1fdf90ae87431c1fcf"/>
+<section title="slotVoxelSizeFinalValue" ref="classSegmentationWindow.html#a295b7a8c381fc64b174a6bfa796f2517"/>
+<section title="suspendThreads" ref="classSegmentationWindow.html#afa096cae4303315f688047afa9915f2b"/>
+<section title="threadProgress" ref="classSegmentationWindow.html#a51df0ac44ccf359626b43fad9fc36bd6"/>
+<section title="updateRange" ref="classSegmentationWindow.html#a30a2dc38bda35a517080a6f1eb7648f7"/>
+<section title="acceptButton_" ref="classSegmentationWindow.html#a576ace57c910eb44d3ab77fbc7dd5499"/>
 <section title="mainWindow_" ref="classSegmentationWindow.html#af0a00ec7f2fdf4bed6cdba9c70cfc22b"/>
-<section title="thresholdGroup_" ref="classSegmentationWindow.html#a1620ea10342828a56eb6dd0986e4b8e9"/>
-<section title="thresholdSlider_" ref="classSegmentationWindow.html#adef64b141ad79bf5abad0c29371fef7d"/>
-<section title="thresholdSpinBox_" ref="classSegmentationWindow.html#aa8b5c693fb07e13a441f1ce31fd51ae4"/>
-<section title="widget_" ref="classSegmentationWindow.html#a245b6a9d7aa0509ac27907a6d3c7c047"/>
+<section title="previewSizeInput_" ref="classSegmentationWindow.html#aaef7b0c13aebff6e2f67909a8ce153c2"/>
+<section title="rejectButton_" ref="classSegmentationWindow.html#a72a8cf08f8b1d716b81df325542e9947"/>
+<section title="segmentationThread_" ref="classSegmentationWindow.html#ab1e20f0bfcd49656de0bccfa9c1368ee"/>
+<section title="thresholdInput_" ref="classSegmentationWindow.html#aeacdcc3ab43d2ba9980e5f1368de464e"/>
+<section title="voxelSizeInput_" ref="classSegmentationWindow.html#a4da5da828c83fea6bf0ff8c2746c7b86"/>
 </section>
 <section title="Settings" ref="classSettings.html">
 <section title="read" ref="classSettings.html#a72a269056237468189cd4d5c801eccf6"/>
@@ -1336,6 +1382,20 @@
 <section title="settingsColorWidget_" ref="classSettingsWindow.html#a773c68933e3e6ad5bc162c4ced2d2124"/>
 <section title="tabWidget_" ref="classSettingsWindow.html#ab81433217b4ab47cf9fb6f766ad260e4"/>
 </section>
+<section title="SliderWidget" ref="classSliderWidget.html">
+<section title="SliderWidget" ref="classSliderWidget.html#aa076d00ccc775a8cfbe417c4abd9511b"/>
+<section title="blockSignals" ref="classSliderWidget.html#acea30ba16adc0dbc4919d781cc0821be"/>
+<section title="create" ref="classSliderWidget.html#a64615e4034278f86984b1995f537a371"/>
+<section title="setMaximum" ref="classSliderWidget.html#afab693126ed98a96b558078bf14f8c7e"/>
+<section title="setValue" ref="classSliderWidget.html#ac54ea804fa66c380df0bd110346f98f6"/>
+<section title="signalFinalValue" ref="classSliderWidget.html#a8204c71d79bec8655330ce8772699074"/>
+<section title="signalIntermediateValue" ref="classSliderWidget.html#a9dc2daeae8343d80b378d3a0725b45de"/>
+<section title="slotFinalValue" ref="classSliderWidget.html#a60369c77797277ae591f85ccaf620b3f"/>
+<section title="slotIntermediateValue" ref="classSliderWidget.html#aa723f762cdcbd38603ff5b3db12deb98"/>
+<section title="value" ref="classSliderWidget.html#a05ed61d5bb79a82da1f51f73b5e2466a"/>
+<section title="slider_" ref="classSliderWidget.html#af78094cd45511e36029e3f0e9d394004"/>
+<section title="spinBox_" ref="classSliderWidget.html#a99c4924701e9e37778db465e2a038246"/>
+</section>
 <section title="Sphere" ref="classSphere.html">
 <section title="Sphere" ref="classSphere.html#acacfd6de079ea50acdaf57b823166651"/>
 <section title="~Sphere" ref="classSphere.html#a0aa944de5fe12ff6d41b0c668d0f6b56"/>
@@ -1351,6 +1411,9 @@
 <section title="x_" ref="classSphere.html#addfe51a03aa4e751f7bdd246121ae1fa"/>
 <section title="y_" ref="classSphere.html#a4eb091e363f5601b750a85eb82331f0f"/>
 <section title="z_" ref="classSphere.html#a250acee1d9d9b49d632e8cddbdf9116e"/>
+</section>
+<section title="ThemeIcon" ref="classThemeIcon.html">
+<section title="ThemeIcon" ref="classThemeIcon.html#ae1e18c15ab1b71e939b2a427e756090c"/>
 </section>
 <section title="Thread" ref="classThread.html">
 <section title="State" ref="classThread.html#af7ce7e2ee31f34185c4c25a94731977e">
@@ -1368,6 +1431,7 @@
 <section title="setState" ref="classThread.html#a2fdd9bda9eb9d50df3849251eaff59ea"/>
 <section title="start" ref="classThread.html#a1f53ee62bd30a7924186ef26150ce262"/>
 <section title="stop" ref="classThread.html#abd50159ecd409936f454c2321f673616"/>
+<section title="wait" ref="classThread.html#a0e8a26ae17743d266df954af945920ad"/>
 <section title="callback_" ref="classThread.html#a47bd120decee0b00e6dce50994cd5e0c"/>
 <section title="condition_" ref="classThread.html#a3f27fed65babe3e53e35c0fbd6763390"/>
 <section title="conditionCaller_" ref="classThread.html#a91eac52d474a163c2ee7d8e3475e34ae"/>
@@ -1377,6 +1441,7 @@
 <section title="received_" ref="classThread.html#a6894b3e907687c090a673f1112ee6ed7"/>
 <section title="state_" ref="classThread.html#a3d4cc84fbd421732c4d148db43281b53"/>
 <section title="thread_" ref="classThread.html#a745837e8c54d86f86addd823018a38c6"/>
+<section title="waiting_" ref="classThread.html#a46dcc3bc4639b7413f2dba2a613661e1"/>
 </section>
 <section title="ThreadCallbackInterface" ref="classThreadCallbackInterface.html">
 <section title="~ThreadCallbackInterface" ref="classThreadCallbackInterface.html#a32d091268f4de37a663971196a5245d7"/>
@@ -1633,18 +1698,39 @@
 <section title="viewports_" ref="classViewports.html#a3574e0d328a1ba3a525b6e641e333f55"/>
 </section>
 <section title="Voxels" ref="classVoxels.html">
+<section title="Voxel" ref="structVoxels_1_1Voxel.html">
+<section title="i" ref="structVoxels_1_1Voxel.html#a7824e7bb6055dc585b17c80678dc3555"/>
+<section title="x" ref="structVoxels_1_1Voxel.html#a38141eab6775cf6dbe5eab016ae6aec3"/>
+<section title="y" ref="structVoxels_1_1Voxel.html#a10b94fbf36d85bbc6ff8f57507f46f1c"/>
+<section title="z" ref="structVoxels_1_1Voxel.html#a35931196fa2790025f4f9475a07dba63"/>
+</section>
 <section title="Voxels" ref="classVoxels.html#a10063cfcf5a4fd91e520a4dcbb3eb80c"/>
+<section title="at" ref="classVoxels.html#a4de99427a7809aa8a23b28c37ebab0e8"/>
+<section title="at" ref="classVoxels.html#afff1b402be1110ffd8d5a14399a0e8bb"/>
+<section title="at" ref="classVoxels.html#a4a3d8c94d0d74415e7e4a9870207a936"/>
+<section title="at" ref="classVoxels.html#a751981baecdb0637cf4130c5f2ade60d"/>
 <section title="clear" ref="classVoxels.html#af0d991f4e4247ca866cb4a04ceb51d31"/>
-<section title="dim_" ref="classVoxels.html#a77d4350a390f1d3d7f1d0a50d65bf15e"/>
-<section title="position_" ref="classVoxels.html#a69956283fe1da5791cb4ed44f285ae7f"/>
-<section title="value_" ref="classVoxels.html#ae72cc20321a325a71ed0e5e5f9473f7c"/>
+<section title="create" ref="classVoxels.html#a12f61412517408f6747837ef088c7ea7"/>
+<section title="data" ref="classVoxels.html#ad4dde7f2e5ec6fae4253fe98e3bd1e28"/>
+<section title="next" ref="classVoxels.html#a38e92206357ac01e5c447504e4a33ea3"/>
+<section title="push" ref="classVoxels.html#a652cf18ae49e6f3146b8c206f2073a4f"/>
+<section title="resize" ref="classVoxels.html#ad3554b726c68e0be2c88cceef8f81d30"/>
+<section title="size" ref="classVoxels.html#af4153e26aa9597b9a56c93b82578c68b"/>
+<section title="data_" ref="classVoxels.html#a96650a7940bffdf13cc194318c12ecd8"/>
+<section title="numberOfVoxels_" ref="classVoxels.html#a65768a02714c42b8922ef04b00ff90cb"/>
+<section title="nx_" ref="classVoxels.html#a55b672b940cd347097efbd1cc4947b85"/>
+<section title="ny_" ref="classVoxels.html#ab972988a2a98e8fc354c0859550f9469"/>
+<section title="nz_" ref="classVoxels.html#a24d00aef4bd97eee51b65920cea0eafb"/>
+<section title="spaceRegion_" ref="classVoxels.html#aa3d7c6348af9b0118a83508d91c3d70e"/>
+<section title="stack_" ref="classVoxels.html#a606f240b3d8e31d2c0fe0865ee0cadf0"/>
+<section title="voxelSize_" ref="classVoxels.html#a0f1e785699af85e9673c65dd10a94b3b"/>
+<section title="voxelSizeInput_" ref="classVoxels.html#a6ba16728b0f9cb06d732521faf10a5cd"/>
 </section>
 </section>
 <section title="Class Hierarchy" ref="hierarchy.html">
 <section title="std::array" ref="">
 <section title="Vector3&lt; float &gt;" ref="classVector3.html"/>
 <section title="Vector3&lt; double &gt;" ref="classVector3.html"/>
-<section title="Vector3&lt; size_t &gt;" ref="classVector3.html"/>
 <section title="Vector3&lt; T &gt;" ref="classVector3.html"/>
 </section>
 <section title="Box&lt; T &gt;" ref="classBox.html"/>
@@ -1683,15 +1769,15 @@
 <section title="LasFile::Point" ref="structLasFile_1_1Point.html"/>
 <section title="QDialog" ref="">
 <section title="ImportDialog" ref="classImportDialog.html"/>
+<section title="SegmentationWindow" ref="classSegmentationWindow.html"/>
 </section>
 <section title="QDockWidget" ref="">
 <section title="ClassifyGroundWindow" ref="classClassifyGroundWindow.html"/>
 <section title="ProjectNavigatorWindow" ref="classProjectNavigatorWindow.html"/>
-<section title="SegmentationWindow" ref="classSegmentationWindow.html"/>
 <section title="SettingsWindow" ref="classSettingsWindow.html"/>
 </section>
 <section title="QIcon" ref="">
-<section title="IconTheme" ref="classIconTheme.html"/>
+<section title="ThemeIcon" ref="classThemeIcon.html"/>
 </section>
 <section title="QMainWindow" ref="">
 <section title="MainWindow" ref="classMainWindow.html"/>
@@ -1718,11 +1804,11 @@
 <section title="ProjectNavigatorFiles" ref="classProjectNavigatorFiles.html"/>
 <section title="ProjectNavigatorLayers" ref="classProjectNavigatorLayers.html"/>
 <section title="SettingsColorWidget" ref="classSettingsColorWidget.html"/>
+<section title="SliderWidget" ref="classSliderWidget.html"/>
 <section title="ViewerViewports" ref="classViewerViewports.html"/>
 </section>
 <section title="Region" ref="classRegion.html"/>
-<section title="Segmentation" ref="classSegmentation.html"/>
-<section title="SegmentationThread" ref="classSegmentationThread.html"/>
+<section title="SegmentationPca" ref="classSegmentationPca.html"/>
 <section title="IndexFile::Selection" ref="structIndexFile_1_1Selection.html"/>
 <section title="IndexFile::SelectionTile" ref="structIndexFile_1_1SelectionTile.html"/>
 <section title="IndexFileBuilder::Settings" ref="classIndexFileBuilder_1_1Settings.html"/>
@@ -1733,14 +1819,17 @@
 <section title="Sphere&lt; double &gt;" ref="classSphere.html"/>
 <section title="Thread" ref="classThread.html">
 <section title="RenderThread" ref="classRenderThread.html"/>
+<section title="SegmentationThread" ref="classSegmentationThread.html"/>
 </section>
 <section title="ThreadCallbackInterface" ref="classThreadCallbackInterface.html">
 <section title="MainWindow" ref="classMainWindow.html"/>
+<section title="SegmentationWindow" ref="classSegmentationWindow.html"/>
 </section>
 <section title="ViewerAabb" ref="classViewerAabb.html"/>
 <section title="ViewerCamera" ref="classViewerCamera.html"/>
 <section title="ViewerOpenGL" ref="classViewerOpenGL.html"/>
 <section title="Viewports" ref="classViewports.html"/>
+<section title="Voxels::Voxel" ref="structVoxels_1_1Voxel.html"/>
 <section title="Voxels" ref="classVoxels.html"/>
 </section>
 <section title="Class Members" ref="functions.html">
@@ -1856,7 +1945,6 @@
 <keyword name="File" id="File_" ref="classFile.html"/>
 <keyword name="LasFile::Header" id="LasFile::Header_" ref="structLasFile_1_1Header.html"/>
 <keyword name="HelpPlugin" id="HelpPlugin_" ref="classHelpPlugin.html"/>
-<keyword name="IconTheme" id="IconTheme_" ref="classIconTheme.html"/>
 <keyword name="ImportDialog" id="ImportDialog_" ref="classImportDialog.html"/>
 <keyword name="ImportPlugin" id="ImportPlugin_" ref="classImportPlugin.html"/>
 <keyword name="IndexFile" id="IndexFile_" ref="classIndexFile.html"/>
@@ -1883,7 +1971,7 @@
 <keyword name="Query" id="Query_" ref="classQuery.html"/>
 <keyword name="Region" id="Region_" ref="classRegion.html"/>
 <keyword name="RenderThread" id="RenderThread_" ref="classRenderThread.html"/>
-<keyword name="Segmentation" id="Segmentation_" ref="classSegmentation.html"/>
+<keyword name="SegmentationPca" id="SegmentationPca_" ref="classSegmentationPca.html"/>
 <keyword name="SegmentationPlugin" id="SegmentationPlugin_" ref="classSegmentationPlugin.html"/>
 <keyword name="SegmentationThread" id="SegmentationThread_" ref="classSegmentationThread.html"/>
 <keyword name="SegmentationWindow" id="SegmentationWindow_" ref="classSegmentationWindow.html"/>
@@ -1896,14 +1984,15 @@
 <keyword name="SettingsPlugin" id="SettingsPlugin_" ref="classSettingsPlugin.html"/>
 <keyword name="SettingsView" id="SettingsView_" ref="classSettingsView.html"/>
 <keyword name="SettingsWindow" id="SettingsWindow_" ref="classSettingsWindow.html"/>
+<keyword name="SliderWidget" id="SliderWidget_" ref="classSliderWidget.html"/>
 <keyword name="Sphere" id="Sphere_" ref="classSphere.html"/>
 <keyword name="Sphere&lt; double &gt;" id="Sphere&lt; double &gt;_" ref="classSphere.html"/>
+<keyword name="ThemeIcon" id="ThemeIcon_" ref="classThemeIcon.html"/>
 <keyword name="Thread" id="Thread_" ref="classThread.html"/>
 <keyword name="ThreadCallbackInterface" id="ThreadCallbackInterface_" ref="classThreadCallbackInterface.html"/>
 <keyword name="Vector3" id="Vector3_" ref="classVector3.html"/>
 <keyword name="Vector3&lt; double &gt;" id="Vector3&lt; double &gt;_" ref="classVector3.html"/>
 <keyword name="Vector3&lt; float &gt;" id="Vector3&lt; float &gt;_" ref="classVector3.html"/>
-<keyword name="Vector3&lt; size_t &gt;" id="Vector3&lt; size_t &gt;_" ref="classVector3.html"/>
 <keyword name="ViewerAabb" id="ViewerAabb_" ref="classViewerAabb.html"/>
 <keyword name="ViewerCamera" id="ViewerCamera_" ref="classViewerCamera.html"/>
 <keyword name="ViewerOpenGL" id="ViewerOpenGL_" ref="classViewerOpenGL.html"/>
@@ -1911,12 +2000,14 @@
 <keyword name="ViewerPlugin" id="ViewerPlugin_" ref="classViewerPlugin.html"/>
 <keyword name="ViewerViewports" id="ViewerViewports_" ref="classViewerViewports.html"/>
 <keyword name="Viewports" id="Viewports_" ref="classViewports.html"/>
+<keyword name="Voxels::Voxel" id="Voxels::Voxel_" ref="structVoxels_1_1Voxel.html"/>
 <keyword name="Voxels" id="Voxels_" ref="classVoxels.html"/>
 <keyword name="User Manual" id="User Manual_" ref="3d-forest-user-manual.html"/>
 <keyword name="Developer Guide" id="Developer Guide_" ref="3d-forest-developer-guide.html"/>
 <keyword name="aabb_" id="ViewerOpenGLViewport::aabb__a9d122da83b74df68ef915b999c023276" ref="classViewerOpenGLViewport.html#a9d122da83b74df68ef915b999c023276"/>
 <keyword name="aboutAction_" id="HelpPlugin::aboutAction__ad84fa97db8a44eaacc069c458e04c15c" ref="classHelpPlugin.html#ad84fa97db8a44eaacc069c458e04c15c"/>
 <keyword name="acceptButton_" id="ImportDialog::acceptButton__ae1be903589ef5e1190879aa87aaa82b7" ref="classImportDialog.html#ae1be903589ef5e1190879aa87aaa82b7"/>
+<keyword name="acceptButton_" id="SegmentationWindow::acceptButton__a576ace57c910eb44d3ab77fbc7dd5499" ref="classSegmentationWindow.html#a576ace57c910eb44d3ab77fbc7dd5499"/>
 <keyword name="actionExit_" id="MainWindow::actionExit__a0031324e0de276a8356ec8fd81851d73" ref="classMainWindow.html#a0031324e0de276a8356ec8fd81851d73"/>
 <keyword name="actionImport_" id="ImportPlugin::actionImport__a4263519274972bf8f8b84fda8b23a2f0" ref="classImportPlugin.html#a4263519274972bf8f8b84fda8b23a2f0"/>
 <keyword name="actionProjectNew_" id="ProjectFilePlugin::actionProjectNew__aada36cd1721760a56cd643ab01d371d2" ref="classProjectFilePlugin.html#aada36cd1721760a56cd643ab01d371d2"/>
@@ -1959,6 +2050,10 @@
 <keyword name="at(size_t idx) const" id="IndexFile::at_a2b8df0c7a66004831e58a739d62311fb" ref="classIndexFile.html#a2b8df0c7a66004831e58a739d62311fb"/>
 <keyword name="at(size_t idx)" id="IndexFile::at_abf5c0ebbfc16362bee1e55c0d2d759ac" ref="classIndexFile.html#abf5c0ebbfc16362bee1e55c0d2d759ac"/>
 <keyword name="at(size_t i) const" id="Layers::at_a128b60178807983a27cd025a182f8e2d" ref="classLayers.html#a128b60178807983a27cd025a182f8e2d"/>
+<keyword name="at(size_t x, size_t y, size_t z) const" id="Voxels::at_a751981baecdb0637cf4130c5f2ade60d" ref="classVoxels.html#a751981baecdb0637cf4130c5f2ade60d"/>
+<keyword name="at(size_t x, size_t y, size_t z)" id="Voxels::at_a4a3d8c94d0d74415e7e4a9870207a936" ref="classVoxels.html#a4a3d8c94d0d74415e7e4a9870207a936"/>
+<keyword name="at(size_t index) const" id="Voxels::at_afff1b402be1110ffd8d5a14399a0e8bb" ref="classVoxels.html#afff1b402be1110ffd8d5a14399a0e8bb"/>
+<keyword name="at(size_t index)" id="Voxels::at_a4de99427a7809aa8a23b28c37ebab0e8" ref="classVoxels.html#a4de99427a7809aa8a23b28c37ebab0e8"/>
 <keyword name="background_" id="SettingsView::background__a97b86bd182a8f52c774fb37cf99be2b9" ref="classSettingsView.html#a97b86bd182a8f52c774fb37cf99be2b9"/>
 <keyword name="backgroundColor() const" id="SettingsView::backgroundColor_a533d5411ec965c2dc1e7dadefe8df209" ref="classSettingsView.html#a533d5411ec965c2dc1e7dadefe8df209"/>
 <keyword name="BlackGreen16" id="ColorPalette::BlackGreen16_adfe3672a1f8c991b61c0c572fefdbec2" ref="classColorPalette.html#adfe3672a1f8c991b61c0c572fefdbec2"/>
@@ -1967,6 +2062,7 @@
 <keyword name="block()" id="ProjectNavigatorFiles::block_a99604db0d0c98457213cee7aa66461b6" ref="classProjectNavigatorFiles.html#a99604db0d0c98457213cee7aa66461b6"/>
 <keyword name="block()" id="ProjectNavigatorLayers::block_ab10efaf76251d1e98203c0d1a20bc678" ref="classProjectNavigatorLayers.html#ab10efaf76251d1e98203c0d1a20bc678"/>
 <keyword name="block()" id="SettingsColorWidget::block_a3018a6528f64303d5cf64265517cbb83" ref="classSettingsColorWidget.html#a3018a6528f64303d5cf64265517cbb83"/>
+<keyword name="blockSignals(bool block)" id="SliderWidget::blockSignals_acea30ba16adc0dbc4919d781cc0821be" ref="classSliderWidget.html#acea30ba16adc0dbc4919d781cc0821be"/>
 <keyword name="blue" id="LasFile::Point::blue_a76d55eb4a0a6e310e1516730f4d47762" ref="structLasFile_1_1Point.html#a76d55eb4a0a6e310e1516730f4d47762"/>
 <keyword name="blue()" id="Query::blue_ad39284d9ef0c5a5384182763470bd79d" ref="classQuery.html#ad39284d9ef0c5a5384182763470bd79d"/>
 <keyword name="blueCyanGreenYellowRed(size_t nColors)" id="ColorPalette::blueCyanGreenYellowRed_a0a9b79ecc9d0bfcd4d7ce1a3f5addc18" ref="classColorPalette.html#a0a9b79ecc9d0bfcd4d7ce1a3f5addc18"/>
@@ -1989,6 +2085,12 @@
 <keyword name="boundaryPoints() const" id="IndexFile::boundaryPoints_a81646f81cec564c80360b46a13a67582" ref="classIndexFile.html#a81646f81cec564c80360b46a13a67582"/>
 <keyword name="boundaryPoints_" id="IndexFile::boundaryPoints__a7c269e4d6a71e5ab7561d20198470e06" ref="classIndexFile.html#a7c269e4d6a71e5ab7561d20198470e06"/>
 <keyword name="boundaryPointsFile_" id="IndexFile::boundaryPointsFile__a704bbd32dac0a3351ad783e4be731bd3" ref="classIndexFile.html#a704bbd32dac0a3351ad783e4be731bd3"/>
+<keyword name="box" id="Page::box_aecb94042f6ab79102605a505ad3bddfc" ref="classPage.html#aecb94042f6ab79102605a505ad3bddfc"/>
+<keyword name="box" id="Region::box_aced6afbc1554734b4b75fb57acf08bf5" ref="classRegion.html#aced6afbc1554734b4b75fb57acf08bf5"/>
+<keyword name="box() const" id="Cone::box_adaf440f02aef6c9889f10904b5862572" ref="classCone.html#adaf440f02aef6c9889f10904b5862572"/>
+<keyword name="box() const" id="Sphere::box_a3d30bf5f31d75981c1387394f2b1b769" ref="classSphere.html#a3d30bf5f31d75981c1387394f2b1b769"/>
+<keyword name="box() const" id="Cone&lt; double &gt;::box_adaf440f02aef6c9889f10904b5862572" ref="classCone.html#adaf440f02aef6c9889f10904b5862572"/>
+<keyword name="box() const" id="Sphere&lt; double &gt;::box_a3d30bf5f31d75981c1387394f2b1b769" ref="classSphere.html#a3d30bf5f31d75981c1387394f2b1b769"/>
 <keyword name="Box()" id="Box::Box_a057f84d8fa68647c6484d4e004d8ab74" ref="classBox.html#a057f84d8fa68647c6484d4e004d8ab74"/>
 <keyword name="Box(const Box&lt; B &gt; &amp;box)" id="Box::Box_aa2f47f763c87c6529e7ac978af7dc04a" ref="classBox.html#aa2f47f763c87c6529e7ac978af7dc04a"/>
 <keyword name="Box(B x1, B y1, B z1, B x2, B y2, B z2)" id="Box::Box_a2613d71f208382ba0e971161b3fb2fd2" ref="classBox.html#a2613d71f208382ba0e971161b3fb2fd2"/>
@@ -1997,12 +2099,6 @@
 <keyword name="Box(const Box&lt; B &gt; &amp;box)" id="Box&lt; double &gt;::Box_aa2f47f763c87c6529e7ac978af7dc04a" ref="classBox.html#aa2f47f763c87c6529e7ac978af7dc04a"/>
 <keyword name="Box(B x1, B y1, B z1, B x2, B y2, B z2)" id="Box&lt; double &gt;::Box_a2613d71f208382ba0e971161b3fb2fd2" ref="classBox.html#a2613d71f208382ba0e971161b3fb2fd2"/>
 <keyword name="Box(B cx, B cy, B cz, B r)" id="Box&lt; double &gt;::Box_a766d72eb5cd074fcfff50a3e9c8c0579" ref="classBox.html#a766d72eb5cd074fcfff50a3e9c8c0579"/>
-<keyword name="box" id="Page::box_aecb94042f6ab79102605a505ad3bddfc" ref="classPage.html#aecb94042f6ab79102605a505ad3bddfc"/>
-<keyword name="box" id="Region::box_aced6afbc1554734b4b75fb57acf08bf5" ref="classRegion.html#aced6afbc1554734b4b75fb57acf08bf5"/>
-<keyword name="box() const" id="Cone::box_adaf440f02aef6c9889f10904b5862572" ref="classCone.html#adaf440f02aef6c9889f10904b5862572"/>
-<keyword name="box() const" id="Sphere::box_a3d30bf5f31d75981c1387394f2b1b769" ref="classSphere.html#a3d30bf5f31d75981c1387394f2b1b769"/>
-<keyword name="box() const" id="Cone&lt; double &gt;::box_adaf440f02aef6c9889f10904b5862572" ref="classCone.html#adaf440f02aef6c9889f10904b5862572"/>
-<keyword name="box() const" id="Sphere&lt; double &gt;::box_a3d30bf5f31d75981c1387394f2b1b769" ref="classSphere.html#a3d30bf5f31d75981c1387394f2b1b769"/>
 <keyword name="box_" id="Cone::box__ab1553899daf90c5e2e59280043c28a7a" ref="classCone.html#ab1553899daf90c5e2e59280043c28a7a"/>
 <keyword name="box_" id="Sphere::box__a41d4afc4e5d7e14ed125f9f1d72cf912" ref="classSphere.html#a41d4afc4e5d7e14ed125f9f1d72cf912"/>
 <keyword name="box_" id="Cone&lt; double &gt;::box__ab1553899daf90c5e2e59280043c28a7a" ref="classCone.html#ab1553899daf90c5e2e59280043c28a7a"/>
@@ -2017,9 +2113,9 @@
 <keyword name="cacheSize() const" id="Query::cacheSize_a5dbf40e29aa23c70709d90d0559edb76" ref="classQuery.html#a5dbf40e29aa23c70709d90d0559edb76"/>
 <keyword name="cacheSizeMax_" id="Query::cacheSizeMax__a78a89c437116645be190d3e1a2a1ad45" ref="classQuery.html#a78a89c437116645be190d3e1a2a1ad45"/>
 <keyword name="callback_" id="Thread::callback__a47bd120decee0b00e6dce50994cd5e0c" ref="classThread.html#a47bd120decee0b00e6dce50994cd5e0c"/>
-<keyword name="Camera()" id="Camera::Camera_a01f94c3543f56ede7af49dc778f19331" ref="classCamera.html#a01f94c3543f56ede7af49dc778f19331"/>
 <keyword name="camera() const" id="ViewerOpenGLViewport::camera_a1797ab3e2311064f3287e90327147aa3" ref="classViewerOpenGLViewport.html#a1797ab3e2311064f3287e90327147aa3"/>
 <keyword name="camera(size_t viewportId) const" id="ViewerViewports::camera_a071c47f25ca702f5ad58a62ae4b6b24d" ref="classViewerViewports.html#a071c47f25ca702f5ad58a62ae4b6b24d"/>
+<keyword name="Camera()" id="Camera::Camera_a01f94c3543f56ede7af49dc778f19331" ref="classCamera.html#a01f94c3543f56ede7af49dc778f19331"/>
 <keyword name="camera_" id="RenderThread::camera__af3d22371395b2cffa2bc438d8c6ae0f5" ref="classRenderThread.html#af3d22371395b2cffa2bc438d8c6ae0f5"/>
 <keyword name="camera_" id="ViewerOpenGLViewport::camera__a27d22f053f9024c6ba9507cfa96378a0" ref="classViewerOpenGLViewport.html#a27d22f053f9024c6ba9507cfa96378a0"/>
 <keyword name="cameraChanged()" id="ViewerOpenGLViewport::cameraChanged_adf6b4ee0fc6f8df2c3525e93ded8ab11" ref="classViewerOpenGLViewport.html#adf6b4ee0fc6f8df2c3525e93ded8ab11"/>
@@ -2041,6 +2137,9 @@
 <keyword name="CLASS_NEVER_CLASSIFIED" id="LasFile::CLASS_NEVER_CLASSIFIED_a23ca2c79a141774dc33b80f1b8c7127cafe6a5504256abd4980819a85a5467508" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127cafe6a5504256abd4980819a85a5467508"/>
 <keyword name="CLASS_UNASSIGNED" id="LasFile::CLASS_UNASSIGNED_a23ca2c79a141774dc33b80f1b8c7127cac9e261db850bde2a104cabd4f70cd29e" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127cac9e261db850bde2a104cabd4f70cd29e"/>
 <keyword name="classes_" id="Classifications::classes__aa39e2d9bb989c41b01ae3914e5524e07" ref="classClassifications.html#aa39e2d9bb989c41b01ae3914e5524e07"/>
+<keyword name="classification" id="LasFile::Point::classification_aecb05abcc58648b14bca776e90ed9189" ref="structLasFile_1_1Point.html#aecb05abcc58648b14bca776e90ed9189"/>
+<keyword name="classification" id="Page::classification_a517be58884db1f30cb1fefd65ae449e8" ref="classPage.html#a517be58884db1f30cb1fefd65ae449e8"/>
+<keyword name="classification()" id="Query::classification_a019601f80fc296ef862d2f32f6b69f68" ref="classQuery.html#a019601f80fc296ef862d2f32f6b69f68"/>
 <keyword name="Classification" id="LasFile::Classification_a23ca2c79a141774dc33b80f1b8c7127c" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127c"/>
 <keyword name="CLASS_NEVER_CLASSIFIED" id="LasFile::CLASS_NEVER_CLASSIFIED_a23ca2c79a141774dc33b80f1b8c7127cafe6a5504256abd4980819a85a5467508" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127cafe6a5504256abd4980819a85a5467508"/>
 <keyword name="CLASS_UNASSIGNED" id="LasFile::CLASS_UNASSIGNED_a23ca2c79a141774dc33b80f1b8c7127cac9e261db850bde2a104cabd4f70cd29e" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127cac9e261db850bde2a104cabd4f70cd29e"/>
@@ -2050,13 +2149,10 @@
 <keyword name="CLASS_HIGH_VEGETATION" id="LasFile::CLASS_HIGH_VEGETATION_a23ca2c79a141774dc33b80f1b8c7127ca4881a2d84e79bc87cef09d2e24e08f97" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127ca4881a2d84e79bc87cef09d2e24e08f97"/>
 <keyword name="CLASS_BUILDING" id="LasFile::CLASS_BUILDING_a23ca2c79a141774dc33b80f1b8c7127ca482330a47c151351db995bb6b8d5b7b1" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127ca482330a47c151351db995bb6b8d5b7b1"/>
 <keyword name="Classification" id="ColorPalette::Classification_a84eea7fc6cf059a4dcac0f38892372ed" ref="classColorPalette.html#a84eea7fc6cf059a4dcac0f38892372ed"/>
-<keyword name="classification" id="LasFile::Point::classification_aecb05abcc58648b14bca776e90ed9189" ref="structLasFile_1_1Point.html#aecb05abcc58648b14bca776e90ed9189"/>
-<keyword name="classification" id="Page::classification_a517be58884db1f30cb1fefd65ae449e8" ref="classPage.html#a517be58884db1f30cb1fefd65ae449e8"/>
-<keyword name="classification()" id="Query::classification_a019601f80fc296ef862d2f32f6b69f68" ref="classQuery.html#a019601f80fc296ef862d2f32f6b69f68"/>
 <keyword name="classification_" id="Query::classification__a876ab134e57df7cae49579c08e06c0a1" ref="classQuery.html#a876ab134e57df7cae49579c08e06c0a1"/>
 <keyword name="classification_flags" id="LasFile::Point::classification_flags_af293689ccbbc1a32d2449e70dc84e546" ref="structLasFile_1_1Point.html#af293689ccbbc1a32d2449e70dc84e546"/>
-<keyword name="classifications() const" id="Editor::classifications_a1e80724a9fe61e693142cb521c841703" ref="classEditor.html#a1e80724a9fe61e693142cb521c841703"/>
 <keyword name="Classifications()" id="Classifications::Classifications_a567c666740d6c0584930b9fad8ac53fb" ref="classClassifications.html#a567c666740d6c0584930b9fad8ac53fb"/>
+<keyword name="classifications() const" id="Editor::classifications_a1e80724a9fe61e693142cb521c841703" ref="classEditor.html#a1e80724a9fe61e693142cb521c841703"/>
 <keyword name="classifications_" id="Editor::classifications__aef0b17344d0d7debff0fe64739952162" ref="classEditor.html#aef0b17344d0d7debff0fe64739952162"/>
 <keyword name="classifications_" id="ProjectNavigatorClassifications::classifications__a0c0984c705934840787de966c9b4cf6d" ref="classProjectNavigatorClassifications.html#a0c0984c705934840787de966c9b4cf6d"/>
 <keyword name="classifications_" id="ProjectNavigatorWindow::classifications__aef79bfdf593a23f327e6a756fdc25127" ref="classProjectNavigatorWindow.html#aef79bfdf593a23f327e6a756fdc25127"/>
@@ -2075,12 +2171,13 @@
 <keyword name="clear()" id="Query::clear_a3827c2cd2f1d9efade5952db80e0fdfc" ref="classQuery.html#a3827c2cd2f1d9efade5952db80e0fdfc"/>
 <keyword name="clear()" id="Region::clear_a02f3d61eb9f9ca7980d2f915893a281b" ref="classRegion.html#a02f3d61eb9f9ca7980d2f915893a281b"/>
 <keyword name="clear()" id="Voxels::clear_af0d991f4e4247ca866cb4a04ceb51d31" ref="classVoxels.html#af0d991f4e4247ca866cb4a04ceb51d31"/>
+<keyword name="clear()" id="SegmentationPca::clear_a7c34f2d5c482bbf06027b083f6f16132" ref="classSegmentationPca.html#a7c34f2d5c482bbf06027b083f6f16132"/>
+<keyword name="clear()" id="SegmentationThread::clear_a67151b7c784f73c38e5305f6aa766b90" ref="classSegmentationThread.html#a67151b7c784f73c38e5305f6aa766b90"/>
 <keyword name="clear()" id="Box&lt; double &gt;::clear_a4683fb5768bc496fc28617ba550946b8" ref="classBox.html#a4683fb5768bc496fc28617ba550946b8"/>
 <keyword name="clear()" id="Cone&lt; double &gt;::clear_afda36d04d4e7ec5e42f7f4cfdb55ae15" ref="classCone.html#afda36d04d4e7ec5e42f7f4cfdb55ae15"/>
 <keyword name="clear()" id="Sphere&lt; double &gt;::clear_ad09286d79866a75e7740c31e764bf25d" ref="classSphere.html#ad09286d79866a75e7740c31e764bf25d"/>
 <keyword name="clear()" id="Vector3&lt; float &gt;::clear_a8703ae1698fee715be6371077d951623" ref="classVector3.html#a8703ae1698fee715be6371077d951623"/>
 <keyword name="clear()" id="Vector3&lt; double &gt;::clear_a8703ae1698fee715be6371077d951623" ref="classVector3.html#a8703ae1698fee715be6371077d951623"/>
-<keyword name="clear()" id="Vector3&lt; size_t &gt;::clear_a8703ae1698fee715be6371077d951623" ref="classVector3.html#a8703ae1698fee715be6371077d951623"/>
 <keyword name="clearContent()" id="Viewports::clearContent_aa92aa517bc43293abdc355c9a637b389" ref="classViewports.html#aa92aa517bc43293abdc355c9a637b389"/>
 <keyword name="clearScreen()" id="ViewerOpenGLViewport::clearScreen_abbb968242532ecf93a613de02f138d5a" ref="classViewerOpenGLViewport.html#abbb968242532ecf93a613de02f138d5a"/>
 <keyword name="clipBoundary() const" id="Editor::clipBoundary_a96fb7187c64c892167c1be7ad8ebe188" ref="classEditor.html#a96fb7187c64c892167c1be7ad8ebe188"/>
@@ -2091,6 +2188,7 @@
 <keyword name="close()" id="Editor::close_aa7dc8544e104c680c9d2515f442a136b" ref="classEditor.html#aa7dc8544e104c680c9d2515f442a136b"/>
 <keyword name="close()" id="LasFile::close_a05b29b98795315afa718219a267db632" ref="classLasFile.html#a05b29b98795315afa718219a267db632"/>
 <keyword name="closeEvent(QCloseEvent *event) override" id="MainWindow::closeEvent_a05fb9d72c044aa3bb7d187b994704e2f" ref="classMainWindow.html#a05fb9d72c044aa3bb7d187b994704e2f"/>
+<keyword name="closeEvent(QCloseEvent *event)" id="SegmentationWindow::closeEvent_a5b9f1d01f33bd6d44b508fee569d212a" ref="classSegmentationWindow.html#a5b9f1d01f33bd6d44b508fee569d212a"/>
 <keyword name="code" id="IndexFile::BuildNode::code_a55a634fdea966b5620459df940a9e104" ref="structIndexFile_1_1BuildNode.html#a55a634fdea966b5620459df940a9e104"/>
 <keyword name="color" id="Page::color_a1d9f45e67227f3dd94c3e5296ee09e4d" ref="classPage.html#a1d9f45e67227f3dd94c3e5296ee09e4d"/>
 <keyword name="color() const" id="Dataset::color_aa1798f10a97f7642352744201f6fe5c7" ref="classDataset.html#aa1798f10a97f7642352744201f6fe5c7"/>
@@ -2162,6 +2260,11 @@
 <keyword name="COLUMN_OPACITY" id="SettingsColorWidget::COLUMN_OPACITY_a00b0964fb4d3c0dadc49c9ff7f7df822a65d7c3f577db292376298976b441dc86" ref="classSettingsColorWidget.html#a00b0964fb4d3c0dadc49c9ff7f7df822a65d7c3f577db292376298976b441dc86"/>
 <keyword name="compute()=0" id="Thread::compute_a47ec714d0c44684ef3fa7e5ec87bb958" ref="classThread.html#a47ec714d0c44684ef3fa7e5ec87bb958"/>
 <keyword name="compute()" id="RenderThread::compute_ab16f97a2e5af978e0cd5a21290c52512" ref="classRenderThread.html#ab16f97a2e5af978e0cd5a21290c52512"/>
+<keyword name="compute(Query &amp;query, Voxels &amp;voxels, const Box&lt; double &gt; &amp;cell, size_t index)" id="SegmentationPca::compute_ad9bc4a7bb4ae6b194c7d18f42fdf208d" ref="classSegmentationPca.html#ad9bc4a7bb4ae6b194c7d18f42fdf208d"/>
+<keyword name="compute()" id="SegmentationThread::compute_a7473bc69c2924109bda24c01bae87418" ref="classSegmentationThread.html#a7473bc69c2924109bda24c01bae87418"/>
+<keyword name="computeInitializeLayers()" id="SegmentationThread::computeInitializeLayers_a7ca97ad6de4ea8026f680591b419bc66" ref="classSegmentationThread.html#a7ca97ad6de4ea8026f680591b419bc66"/>
+<keyword name="computeThreshold()" id="SegmentationThread::computeThreshold_a4ac4c63d56f10dab1b9957410b13a836" ref="classSegmentationThread.html#a4ac4c63d56f10dab1b9957410b13a836"/>
+<keyword name="computeVoxelSize()" id="SegmentationThread::computeVoxelSize_acf34af6a26ab25d79b0f09a1fbfa9ecf" ref="classSegmentationThread.html#acf34af6a26ab25d79b0f09a1fbfa9ecf"/>
 <keyword name="condition_" id="Thread::condition__a3f27fed65babe3e53e35c0fbd6763390" ref="classThread.html#a3f27fed65babe3e53e35c0fbd6763390"/>
 <keyword name="conditionCaller_" id="Thread::conditionCaller__a91eac52d474a163c2ee7d8e3475e34ae" ref="classThread.html#a91eac52d474a163c2ee7d8e3475e34ae"/>
 <keyword name="Cone()" id="Cone::Cone_a8f72f6bef3b0f1ded6ec1254754d1d7d" ref="classCone.html#a8f72f6bef3b0f1ded6ec1254754d1d7d"/>
@@ -2181,10 +2284,11 @@
 <keyword name="create()" id="Thread::create_a51bc5725c88a3c82465234fbaf271881" ref="classThread.html#a51bc5725c88a3c82465234fbaf271881"/>
 <keyword name="create(const std::string &amp;path, const std::vector&lt; LasFile::Point &gt; &amp;points, const std::array&lt; double, 3 &gt; &amp;scale={1, 1, 1}, const std::array&lt; double, 3 &gt; &amp;offset={0, 0, 0}, uint8_t version_minor=4)" id="LasFile::create_a318d6f3cce97e188a5d6ad178f66b270" ref="classLasFile.html#a318d6f3cce97e188a5d6ad178f66b270"/>
 <keyword name="create(const std::string &amp;path)" id="LasFile::create_a51a3b3fae52d5db385fd74cec23c376a" ref="classLasFile.html#a51a3b3fae52d5db385fd74cec23c376a"/>
+<keyword name="create(const Box&lt; double &gt; &amp;spaceRegion, double voxelSize)" id="Voxels::create_a12f61412517408f6747837ef088c7ea7" ref="classVoxels.html#a12f61412517408f6747837ef088c7ea7"/>
+<keyword name="create(SliderWidget *&amp;outputWidget, const QObject *receiver, const char *memberIntermediateValue, const char *memberFinalValue, const QString &amp;text, const QString &amp;toolTip, const QString &amp;unitsList, int step, int min, int max, int value)" id="SliderWidget::create_a64615e4034278f86984b1995f537a371" ref="classSliderWidget.html#a64615e4034278f86984b1995f537a371"/>
 <keyword name="createAction(QAction **result, const QString &amp;menu, const QString &amp;toolBar, const QString &amp;text, const QString &amp;toolTip, const QIcon &amp;icon, const QObject *receiver, const char *member)" id="MainWindow::createAction_a77b39adc9dd7fbde00139efcdc7b9592" ref="classMainWindow.html#a77b39adc9dd7fbde00139efcdc7b9592"/>
 <keyword name="createArray()" id="Json::createArray_a6e94f2604aacda68aefc26436bf6d4d8" ref="classJson.html#a6e94f2604aacda68aefc26436bf6d4d8"/>
 <keyword name="createArray(const std::vector&lt; double &gt; &amp;in)" id="Json::createArray_ac661467b105b4fe610ee855d8beaecdb" ref="classJson.html#ac661467b105b4fe610ee855d8beaecdb"/>
-<keyword name="createInputSlider(QVBoxLayout *layout, QWidget *&amp;group, QSlider *&amp;slider, QSpinBox *&amp;spinBox, const char *memberIntermediateValue, const char *memberFinalValue, const QString &amp;text, const QString &amp;toolTip, const QString &amp;unitsList, int step, int min, int max, int value)" id="SegmentationWindow::createInputSlider_a9aea6c8661447c36810a79a5551d38c9" ref="classSegmentationWindow.html#a9aea6c8661447c36810a79a5551d38c9"/>
 <keyword name="createMenuSeparator(const QString &amp;menu)" id="MainWindow::createMenuSeparator_af9c237e7505c966ea353ab444fa6ce13" ref="classMainWindow.html#af9c237e7505c966ea353ab444fa6ce13"/>
 <keyword name="createNumber(double in)" id="Json::createNumber_a94d5e4e97c55767a956adf09b6b3f19a" ref="classJson.html#a94d5e4e97c55767a956adf09b6b3f19a"/>
 <keyword name="createObject()" id="Json::createObject_a639c088152edf4d655c8cd93caae818c" ref="classJson.html#a639c088152edf4d655c8cd93caae818c"/>
@@ -2198,13 +2302,13 @@
 <keyword name="crossProduct(const Vector3&lt; float &gt; &amp;a, const Vector3&lt; float &gt; &amp;b)" id="Vector3&lt; float &gt;::crossProduct_adc438ea6eb94c2b80582c0ed0d1d7831" ref="classVector3.html#adc438ea6eb94c2b80582c0ed0d1d7831"/>
 <keyword name="crossProduct(const Vector3&lt; double &gt; &amp;v) const" id="Vector3&lt; double &gt;::crossProduct_a144ed894764145eeabd03a68399da37c" ref="classVector3.html#a144ed894764145eeabd03a68399da37c"/>
 <keyword name="crossProduct(const Vector3&lt; double &gt; &amp;a, const Vector3&lt; double &gt; &amp;b)" id="Vector3&lt; double &gt;::crossProduct_adc438ea6eb94c2b80582c0ed0d1d7831" ref="classVector3.html#adc438ea6eb94c2b80582c0ed0d1d7831"/>
-<keyword name="crossProduct(const Vector3&lt; size_t &gt; &amp;v) const" id="Vector3&lt; size_t &gt;::crossProduct_a144ed894764145eeabd03a68399da37c" ref="classVector3.html#a144ed894764145eeabd03a68399da37c"/>
-<keyword name="crossProduct(const Vector3&lt; size_t &gt; &amp;a, const Vector3&lt; size_t &gt; &amp;b)" id="Vector3&lt; size_t &gt;::crossProduct_adc438ea6eb94c2b80582c0ed0d1d7831" ref="classVector3.html#adc438ea6eb94c2b80582c0ed0d1d7831"/>
 <keyword name="current_" id="IndexFileBuilder::current__a4c9e4cf51c8f4e51ed9af86ae2d28e1b" ref="classIndexFileBuilder.html#a4c9e4cf51c8f4e51ed9af86ae2d28e1b"/>
 <keyword name="currentPath()" id="File::currentPath_a1bf433d5664c6eb749f4d5ed30088e56" ref="classFile.html#a1bf433d5664c6eb749f4d5ed30088e56"/>
 <keyword name="data() const" id="Matrix4::data_a26c251168333d7f7732266510f22fb73" ref="classMatrix4.html#a26c251168333d7f7732266510f22fb73"/>
+<keyword name="data() const" id="Voxels::data_ad4dde7f2e5ec6fae4253fe98e3bd1e28" ref="classVoxels.html#ad4dde7f2e5ec6fae4253fe98e3bd1e28"/>
 <keyword name="data_" id="Json::data__aeb83b9da8f24af3c913ea2bf63f0a69e" ref="classJson.html#aeb83b9da8f24af3c913ea2bf63f0a69e"/>
 <keyword name="data_[4][4]" id="Matrix4::data__a2d5c0fc52e086ffda17407cfb97b1ffd" ref="classMatrix4.html#a2d5c0fc52e086ffda17407cfb97b1ffd"/>
+<keyword name="data_" id="Voxels::data__a96650a7940bffdf13cc194318c12ecd8" ref="classVoxels.html#a96650a7940bffdf13cc194318c12ecd8"/>
 <keyword name="dataChanged()" id="ProjectNavigatorClassifications::dataChanged_a554d0f16caed59e629353348159e9e1a" ref="classProjectNavigatorClassifications.html#a554d0f16caed59e629353348159e9e1a"/>
 <keyword name="dataChanged()" id="ProjectNavigatorFiles::dataChanged_accc152e48bec862be7fe61be26a9525e" ref="classProjectNavigatorFiles.html#accc152e48bec862be7fe61be26a9525e"/>
 <keyword name="dataChanged()" id="ProjectNavigatorLayers::dataChanged_a2bb8aaff158facad4783247e82d1f1d0" ref="classProjectNavigatorLayers.html#a2bb8aaff158facad4783247e82d1f1d0"/>
@@ -2230,25 +2334,26 @@
 <keyword name="deserialize(const std::string &amp;in)" id="Json::deserialize_af57f6c5aa6394be02c74cca4b5274427" ref="classJson.html#af57f6c5aa6394be02c74cca4b5274427"/>
 <keyword name="deserialize(const char *in, size_t n)" id="Json::deserialize_a34b8bd14fd159dd1a1b59cad4d5ee3e7" ref="classJson.html#a34b8bd14fd159dd1a1b59cad4d5ee3e7"/>
 <keyword name="deserialize(Json &amp;obj, const char *in, size_t n, size_t &amp;i)" id="Json::deserialize_ada4b1d862a5bf9415a8cc3c247d1d08a" ref="classJson.html#ada4b1d862a5bf9415a8cc3c247d1d08a"/>
-<keyword name="dim_" id="Voxels::dim__a77d4350a390f1d3d7f1d0a50d65bf15e" ref="classVoxels.html#a77d4350a390f1d3d7f1d0a50d65bf15e"/>
 <keyword name="direction_" id="ViewerCamera::direction__a9e42b1ac19fb6f686e9d80c824415db0" ref="classViewerCamera.html#a9e42b1ac19fb6f686e9d80c824415db0"/>
 <keyword name="distance(T x, T y, T z) const" id="Box::distance_acc15a91b404afab65d303c2edf06fcbf" ref="classBox.html#acc15a91b404afab65d303c2edf06fcbf"/>
 <keyword name="distance(double x, double y, double z) const" id="Box&lt; double &gt;::distance_acc15a91b404afab65d303c2edf06fcbf" ref="classBox.html#acc15a91b404afab65d303c2edf06fcbf"/>
 <keyword name="distance_" id="ViewerCamera::distance__af69cf9d026d57a693221daff7dd3c0ea" ref="classViewerCamera.html#af69cf9d026d57a693221daff7dd3c0ea"/>
-<keyword name="distanceGroup_" id="SegmentationWindow::distanceGroup__a6994e17e9cbed2a1aba0c068cc0798a3" ref="classSegmentationWindow.html#a6994e17e9cbed2a1aba0c068cc0798a3"/>
-<keyword name="distanceSlider_" id="SegmentationWindow::distanceSlider__a156f6d910d15ebaa57e4407facef0902" ref="classSegmentationWindow.html#a156f6d910d15ebaa57e4407facef0902"/>
-<keyword name="distanceSpinBox_" id="SegmentationWindow::distanceSpinBox__ac835a98ab67efb1fdf90ae87431c1fcf" ref="classSegmentationWindow.html#ac835a98ab67efb1fdf90ae87431c1fcf"/>
 <keyword name="divide(Box&lt; double &gt; &amp;boundary, double x, double y, double z, uint64_t code) const" id="IndexFile::divide_a91296efaf069cd015a5682d8916fbff0" ref="classIndexFile.html#a91296efaf069cd015a5682d8916fbff0"/>
 <keyword name="dockWindow_" id="ClassifyGroundPlugin::dockWindow__aebbc5274f30d6354d31acb72ca2447bf" ref="classClassifyGroundPlugin.html#aebbc5274f30d6354d31acb72ca2447bf"/>
 <keyword name="dockWindow_" id="SegmentationPlugin::dockWindow__a08421f3f550856de9b838cff0ef28b0b" ref="classSegmentationPlugin.html#a08421f3f550856de9b838cff0ef28b0b"/>
+<keyword name="E" id="SegmentationPca::E_ad6c572c36f66052a238749652f37534e" ref="classSegmentationPca.html#ad6c572c36f66052a238749652f37534e"/>
 <keyword name="edge_of_flight_line" id="LasFile::Point::edge_of_flight_line_aa8b17418f5f56cc60b58ff43ac2237e4" ref="structLasFile_1_1Point.html#aa8b17418f5f56cc60b58ff43ac2237e4"/>
-<keyword name="editor()" id="MainWindow::editor_ad80b2d808ca015c062a8a27727892480" ref="classMainWindow.html#ad80b2d808ca015c062a8a27727892480"/>
 <keyword name="Editor()" id="Editor::Editor_ae208b788b6212af03488814462ae40d6" ref="classEditor.html#ae208b788b6212af03488814462ae40d6"/>
+<keyword name="editor()" id="MainWindow::editor_ad80b2d808ca015c062a8a27727892480" ref="classMainWindow.html#ad80b2d808ca015c062a8a27727892480"/>
+<keyword name="editor() const" id="SegmentationThread::editor_a9b689870861a19158883eccac3cd6a8b" ref="classSegmentationThread.html#a9b689870861a19158883eccac3cd6a8b"/>
 <keyword name="editor_" id="Page::editor__a7f96c82a47c8cb593656a68ca3ab7262" ref="classPage.html#a7f96c82a47c8cb593656a68ca3ab7262"/>
 <keyword name="editor_" id="Query::editor__ac33cb1d22d39800cf5ea48ee653d017c" ref="classQuery.html#ac33cb1d22d39800cf5ea48ee653d017c"/>
 <keyword name="editor_" id="RenderThread::editor__a31db16bca92b0077573db985ef3e31ac" ref="classRenderThread.html#a31db16bca92b0077573db985ef3e31ac"/>
 <keyword name="editor_" id="MainWindow::editor__ac06299c080a47670c5512d2d6df67c7b" ref="classMainWindow.html#ac06299c080a47670c5512d2d6df67c7b"/>
+<keyword name="editor_" id="SegmentationThread::editor__a3e7dbc0a320da651f051ac207ddea6b9" ref="classSegmentationThread.html#a3e7dbc0a320da651f051ac207ddea6b9"/>
 <keyword name="editor_" id="ViewerOpenGLViewport::editor__a036de102c334b70090845db42750fd00" ref="classViewerOpenGLViewport.html#a036de102c334b70090845db42750fd00"/>
+<keyword name="eigenVectors" id="SegmentationPca::eigenVectors_a0c8e68e4da6bb66d1944f95b2d19d126" ref="classSegmentationPca.html#a0c8e68e4da6bb66d1944f95b2d19d126"/>
+<keyword name="eigenVectorsT" id="SegmentationPca::eigenVectorsT_aad2456417ee917bab52b8080e9affbc9" ref="classSegmentationPca.html#aad2456417ee917bab52b8080e9affbc9"/>
 <keyword name="element" id="Page::element_a6c125e868e1cac34c5615f6ea9131f16" ref="classPage.html#a6c125e868e1cac34c5615f6ea9131f16"/>
 <keyword name="element()" id="Query::element_a0ab5ba6eb5b160a41a78d7b4af3a5938" ref="classQuery.html#a0ab5ba6eb5b160a41a78d7b4af3a5938"/>
 <keyword name="element_" id="Query::element__ae52f7ab1e5fdba771de098d4b6d3ba16" ref="classQuery.html#ae52f7ab1e5fdba771de098d4b6d3ba16"/>
@@ -2371,9 +2476,9 @@
 <keyword name="hideButton_" id="ProjectNavigatorFiles::hideButton__a67b2eefc11290a23e3e6cdc14fa0ffdb" ref="classProjectNavigatorFiles.html#a67b2eefc11290a23e3e6cdc14fa0ffdb"/>
 <keyword name="hideButton_" id="ProjectNavigatorLayers::hideButton__a776f587d1f340a1ee7e2aac29c9ce8b0" ref="classProjectNavigatorLayers.html#a776f587d1f340a1ee7e2aac29c9ce8b0"/>
 <keyword name="hideToolBar(const QString &amp;menu)" id="MainWindow::hideToolBar_a67e94016b002fb9d132e08c446c8e01b" ref="classMainWindow.html#a67e94016b002fb9d132e08c446c8e01b"/>
+<keyword name="i" id="Voxels::Voxel::i_a7824e7bb6055dc585b17c80678dc3555" ref="structVoxels_1_1Voxel.html#a7824e7bb6055dc585b17c80678dc3555"/>
 <keyword name="ICON_SIZE" id="MainWindow::ICON_SIZE_a150bdf9d9accf9a02234e8ee4e7ca05f" ref="classMainWindow.html#a150bdf9d9accf9a02234e8ee4e7ca05f"/>
 <keyword name="ICON_SIZE_TEXT" id="MainWindow::ICON_SIZE_TEXT_a926be8cd46703d94ac3ba8b2c248de61" ref="classMainWindow.html#a926be8cd46703d94ac3ba8b2c248de61"/>
-<keyword name="IconTheme(const QString &amp;prefix, const QString &amp;name)" id="IconTheme::IconTheme_a9cc914b836ef3081799061360a22a18a" ref="classIconTheme.html#a9cc914b836ef3081799061360a22a18a"/>
 <keyword name="id" id="IndexFile::Selection::id_af3d1fdec36a1ffeed2e1de74367a17f0" ref="structIndexFile_1_1Selection.html#af3d1fdec36a1ffeed2e1de74367a17f0"/>
 <keyword name="id() const" id="Dataset::id_a1c9fda0e8c6343e8642aadd9813bcc74" ref="classDataset.html#a1c9fda0e8c6343e8642aadd9813bcc74"/>
 <keyword name="id(size_t i) const" id="Datasets::id_af67fee980a821fd6490108c959705930" ref="classDatasets.html#af67fee980a821fd6490108c959705930"/>
@@ -2386,6 +2491,7 @@
 <keyword name="ImportDialog(MainWindow *mainWindow)" id="ImportDialog::ImportDialog_af115261c2768b0ae58784af9f40cce03" ref="classImportDialog.html#af115261c2768b0ae58784af9f40cce03"/>
 <keyword name="ImportPlugin()" id="ImportPlugin::ImportPlugin_a327f66edb9356fbd3b382bf0fa3d7ef1" ref="classImportPlugin.html#a327f66edb9356fbd3b382bf0fa3d7ef1"/>
 <keyword name="importPlugin_" id="MainWindow::importPlugin__a1c1182fffc1446376483b0f606a9450a" ref="classMainWindow.html#a1c1182fffc1446376483b0f606a9450a"/>
+<keyword name="in" id="SegmentationPca::in_ad5f2f0ff0ee5df04d6dd8d8c34a4fae8" ref="classSegmentationPca.html#ad5f2f0ff0ee5df04d6dd8d8c34a4fae8"/>
 <keyword name="index() const" id="Dataset::index_a3d907995b77a6ccd1d513184f90ea534" ref="classDataset.html#a3d907995b77a6ccd1d513184f90ea534"/>
 <keyword name="index(size_t id)" id="Datasets::index_ab72d8e3186d6de2a2d2429db964da703" ref="classDatasets.html#ab72d8e3186d6de2a2d2429db964da703"/>
 <keyword name="index(const std::string &amp;outputPath, const std::string &amp;inputPath, const IndexFileBuilder::Settings &amp;settings)" id="IndexFileBuilder::index_a1609554ba5b2073ceb3bf41d587ee6eb" ref="classIndexFileBuilder.html#a1609554ba5b2073ceb3bf41d587ee6eb"/>
@@ -2495,6 +2601,7 @@
 <keyword name="layers_" id="Layers::layers__acf3b2293a4f2ad287ce84fb06e83ecd2" ref="classLayers.html#acf3b2293a4f2ad287ce84fb06e83ecd2"/>
 <keyword name="layers_" id="ProjectNavigatorLayers::layers__a0177094c7907e795959135e66c61adb0" ref="classProjectNavigatorLayers.html#a0177094c7907e795959135e66c61adb0"/>
 <keyword name="layers_" id="ProjectNavigatorWindow::layers__ad7d7818c19f2cf9a86b7a6b91ae9568a" ref="classProjectNavigatorWindow.html#ad7d7818c19f2cf9a86b7a6b91ae9568a"/>
+<keyword name="layersCreated_" id="SegmentationThread::layersCreated__a4b9f8666a48aadae098952aa16b903f7" ref="classSegmentationThread.html#a4b9f8666a48aadae098952aa16b903f7"/>
 <keyword name="legacy_number_of_point_records" id="LasFile::Header::legacy_number_of_point_records_a8420734f1f329db14d2e4d3ad8c9c419" ref="structLasFile_1_1Header.html#a8420734f1f329db14d2e4d3ad8c9c419"/>
 <keyword name="legacy_number_of_points_by_return[5]" id="LasFile::Header::legacy_number_of_points_by_return_aa2f10446e486a317e404474b8f7dc9ee" ref="structLasFile_1_1Header.html#aa2f10446e486a317e404474b8f7dc9ee"/>
 <keyword name="length(size_t idx) const" id="Box::length_a2fd90386291b86d4d2e2672df70d4b0b" ref="classBox.html#a2fd90386291b86d4d2e2672df70d4b0b"/>
@@ -2502,7 +2609,6 @@
 <keyword name="length(size_t idx) const" id="Box&lt; double &gt;::length_a2fd90386291b86d4d2e2672df70d4b0b" ref="classBox.html#a2fd90386291b86d4d2e2672df70d4b0b"/>
 <keyword name="length() const" id="Vector3&lt; float &gt;::length_aa5177b38edaae3717bc94443946345d0" ref="classVector3.html#aa5177b38edaae3717bc94443946345d0"/>
 <keyword name="length() const" id="Vector3&lt; double &gt;::length_aa5177b38edaae3717bc94443946345d0" ref="classVector3.html#aa5177b38edaae3717bc94443946345d0"/>
-<keyword name="length() const" id="Vector3&lt; size_t &gt;::length_aa5177b38edaae3717bc94443946345d0" ref="classVector3.html#aa5177b38edaae3717bc94443946345d0"/>
 <keyword name="lengthSpinBox_" id="ClassifyGroundWindow::lengthSpinBox__ab09354ba99cb585fac2847e8d2fe8ed5" ref="classClassifyGroundWindow.html#ab09354ba99cb585fac2847e8d2fe8ed5"/>
 <keyword name="LINES" id="ViewerOpenGL::LINES_a26c789d6cfce5d040bb1a7c91e3cfc11a71728d61bd7a7f024afad0546cf51647" ref="classViewerOpenGL.html#a26c789d6cfce5d040bb1a7c91e3cfc11a71728d61bd7a7f024afad0546cf51647"/>
 <keyword name="liveCheckBox_" id="ClassifyGroundWindow::liveCheckBox__a7d3c7431e83d5075542a11489a68055a" ref="classClassifyGroundWindow.html#a7d3c7431e83d5075542a11489a68055a"/>
@@ -2536,12 +2642,12 @@
 <keyword name="Matrix4(const Matrix4&lt; B &gt; &amp;m)" id="Matrix4::Matrix4_a6d516367955b66e2d7a28ca8f7a6decc" ref="classMatrix4.html#a6d516367955b66e2d7a28ca8f7a6decc"/>
 <keyword name="Matrix4(const B *data)" id="Matrix4::Matrix4_a5bd557a6fbb0da947ff007a5e087ca00" ref="classMatrix4.html#a5bd557a6fbb0da947ff007a5e087ca00"/>
 <keyword name="Matrix4(T m00, T m01, T m02, T m03, T m10, T m11, T m12, T m13, T m20, T m21, T m22, T m23, T m30, T m31, T m32, T m33)" id="Matrix4::Matrix4_aa3ef301695645f15f56f7e30f77ab0a1" ref="classMatrix4.html#aa3ef301695645f15f56f7e30f77ab0a1"/>
+<keyword name="max" id="SegmentationPca::max_a08d88eab7766683095331554bc85f058" ref="classSegmentationPca.html#a08d88eab7766683095331554bc85f058"/>
 <keyword name="max(size_t idx) const" id="Box::max_a373b9710b5a66263e7b8b2d1813300e6" ref="classBox.html#a373b9710b5a66263e7b8b2d1813300e6"/>
 <keyword name="max() const" id="Vector3::max_a40ddaa77a92addca35357ca8735150f7" ref="classVector3.html#a40ddaa77a92addca35357ca8735150f7"/>
 <keyword name="max(size_t idx) const" id="Box&lt; double &gt;::max_a373b9710b5a66263e7b8b2d1813300e6" ref="classBox.html#a373b9710b5a66263e7b8b2d1813300e6"/>
 <keyword name="max() const" id="Vector3&lt; float &gt;::max_a40ddaa77a92addca35357ca8735150f7" ref="classVector3.html#a40ddaa77a92addca35357ca8735150f7"/>
 <keyword name="max() const" id="Vector3&lt; double &gt;::max_a40ddaa77a92addca35357ca8735150f7" ref="classVector3.html#a40ddaa77a92addca35357ca8735150f7"/>
-<keyword name="max() const" id="Vector3&lt; size_t &gt;::max_a40ddaa77a92addca35357ca8735150f7" ref="classVector3.html#a40ddaa77a92addca35357ca8735150f7"/>
 <keyword name="max_[3]" id="Box::max__a722f5d255cce69b2eba9b8756e90fe93" ref="classBox.html#a722f5d255cce69b2eba9b8756e90fe93"/>
 <keyword name="max_" id="IndexFileBuilder::max__adfc1c05f9e67e5d3d835ff2d71795e9a" ref="classIndexFileBuilder.html#adfc1c05f9e67e5d3d835ff2d71795e9a"/>
 <keyword name="max_" id="ViewerAabb::max__a791c481581b6751137515a5388397a02" ref="classViewerAabb.html#a791c481581b6751137515a5388397a02"/>
@@ -2551,6 +2657,8 @@
 <keyword name="max_z" id="LasFile::Header::max_z_a95cd569b18d3425988888e5980f1d41e" ref="structLasFile_1_1Header.html#a95cd569b18d3425988888e5980f1d41e"/>
 <keyword name="maximum_" id="IndexFileBuilder::maximum__ab8cc7881f06cb57a12827e0e6e182cb2" ref="classIndexFileBuilder.html#ab8cc7881f06cb57a12827e0e6e182cb2"/>
 <keyword name="maximumIdx_" id="IndexFileBuilder::maximumIdx__acc231dc5476d226b93a6901434ccc1c5" ref="classIndexFileBuilder.html#acc231dc5476d226b93a6901434ccc1c5"/>
+<keyword name="maximumLength() const" id="Box::maximumLength_a6fae4bbaf15c8b5a6c7ac330f8a7a784" ref="classBox.html#a6fae4bbaf15c8b5a6c7ac330f8a7a784"/>
+<keyword name="maximumLength() const" id="Box&lt; double &gt;::maximumLength_a6fae4bbaf15c8b5a6c7ac330f8a7a784" ref="classBox.html#a6fae4bbaf15c8b5a6c7ac330f8a7a784"/>
 <keyword name="maximumResults() const" id="Query::maximumResults_a7e11ffea099daae843ed4244ba14b14b" ref="classQuery.html#a7e11ffea099daae843ed4244ba14b14b"/>
 <keyword name="maximumResults_" id="Query::maximumResults__af5d52a34ed8914c089f010a848ad3071" ref="classQuery.html#af5d52a34ed8914c089f010a848ad3071"/>
 <keyword name="maximumTotal_" id="IndexFileBuilder::maximumTotal__af15e14e5ace7cf97ec216501ffdf3067" ref="classIndexFileBuilder.html#af15e14e5ace7cf97ec216501ffdf3067"/>
@@ -2561,12 +2669,12 @@
 <keyword name="maxSize2" id="IndexFileBuilder::Settings::maxSize2_af2f47878eb1976d552f136830e801b57" ref="classIndexFileBuilder_1_1Settings.html#af2f47878eb1976d552f136830e801b57"/>
 <keyword name="maxSize_" id="IndexFile::maxSize__a4430ff0a614e44df38a78fa4e0ed02c8" ref="classIndexFile.html#a4430ff0a614e44df38a78fa4e0ed02c8"/>
 <keyword name="menu_" id="MainWindow::menu__afebfc018bdbfa9a00e4043d17aec9c3e" ref="classMainWindow.html#afebfc018bdbfa9a00e4043d17aec9c3e"/>
+<keyword name="min" id="SegmentationPca::min_acd377a86b1033b049c6b776201839e95" ref="classSegmentationPca.html#acd377a86b1033b049c6b776201839e95"/>
 <keyword name="min(size_t idx) const" id="Box::min_ab26e65e3e40bb6179039f62b6e75464b" ref="classBox.html#ab26e65e3e40bb6179039f62b6e75464b"/>
 <keyword name="min() const" id="Vector3::min_a22549ff626f1d5e0bbd12ea1da305978" ref="classVector3.html#a22549ff626f1d5e0bbd12ea1da305978"/>
 <keyword name="min(size_t idx) const" id="Box&lt; double &gt;::min_ab26e65e3e40bb6179039f62b6e75464b" ref="classBox.html#ab26e65e3e40bb6179039f62b6e75464b"/>
 <keyword name="min() const" id="Vector3&lt; float &gt;::min_a22549ff626f1d5e0bbd12ea1da305978" ref="classVector3.html#a22549ff626f1d5e0bbd12ea1da305978"/>
 <keyword name="min() const" id="Vector3&lt; double &gt;::min_a22549ff626f1d5e0bbd12ea1da305978" ref="classVector3.html#a22549ff626f1d5e0bbd12ea1da305978"/>
-<keyword name="min() const" id="Vector3&lt; size_t &gt;::min_a22549ff626f1d5e0bbd12ea1da305978" ref="classVector3.html#a22549ff626f1d5e0bbd12ea1da305978"/>
 <keyword name="min_[3]" id="Box::min__a09e4d4cd1b4cbd17557f36fdf7c6f86a" ref="classBox.html#a09e4d4cd1b4cbd17557f36fdf7c6f86a"/>
 <keyword name="min_" id="ViewerAabb::min__a10c5b244280f3721cd4bc47ded8d9a77" ref="classViewerAabb.html#a10c5b244280f3721cd4bc47ded8d9a77"/>
 <keyword name="min_[3]" id="Box&lt; double &gt;::min__a09e4d4cd1b4cbd17557f36fdf7c6f86a" ref="classBox.html#a09e4d4cd1b4cbd17557f36fdf7c6f86a"/>
@@ -2602,6 +2710,7 @@
 <keyword name="next(const Node *node, size_t idx) const" id="IndexFile::next_ae4ee47b37e81c21bac897f806acd1c40" ref="classIndexFile.html#ae4ee47b37e81c21bac897f806acd1c40"/>
 <keyword name="next()" id="IndexFileBuilder::next_a15784b9d6267a2ac076c0a4a3d019d1d" ref="classIndexFileBuilder.html#a15784b9d6267a2ac076c0a4a3d019d1d"/>
 <keyword name="next()" id="Query::next_a51988eba61bad20f421e3bb7cc6178b7" ref="classQuery.html#a51988eba61bad20f421e3bb7cc6178b7"/>
+<keyword name="next(Box&lt; double &gt; *cell=nullptr, size_t *index=nullptr, size_t *x=nullptr, size_t *y=nullptr, size_t *z=nullptr)" id="Voxels::next_a38e92206357ac01e5c447504e4a33ea3" ref="classVoxels.html#a38e92206357ac01e5c447504e4a33ea3"/>
 <keyword name="nextGrid()" id="Query::nextGrid_a941ddb696a5a2f31f029535ebfcf8ef4" ref="classQuery.html#a941ddb696a5a2f31f029535ebfcf8ef4"/>
 <keyword name="nextPage()" id="Query::nextPage_ac11de23ddf582cbb6196cc4b84860be5" ref="classQuery.html#ac11de23ddf582cbb6196cc4b84860be5"/>
 <keyword name="nextState()" id="IndexFileBuilder::nextState_a4e47dd0050965ab6df680b7f3a9de815" ref="classIndexFileBuilder.html#a4e47dd0050965ab6df680b7f3a9de815"/>
@@ -2613,11 +2722,9 @@
 <keyword name="normalize()" id="Vector3::normalize_a9b147a862a1b86ed2e5b735d19da3da1" ref="classVector3.html#a9b147a862a1b86ed2e5b735d19da3da1"/>
 <keyword name="normalize()" id="Vector3&lt; float &gt;::normalize_a9b147a862a1b86ed2e5b735d19da3da1" ref="classVector3.html#a9b147a862a1b86ed2e5b735d19da3da1"/>
 <keyword name="normalize()" id="Vector3&lt; double &gt;::normalize_a9b147a862a1b86ed2e5b735d19da3da1" ref="classVector3.html#a9b147a862a1b86ed2e5b735d19da3da1"/>
-<keyword name="normalize()" id="Vector3&lt; size_t &gt;::normalize_a9b147a862a1b86ed2e5b735d19da3da1" ref="classVector3.html#a9b147a862a1b86ed2e5b735d19da3da1"/>
 <keyword name="normalized() const" id="Vector3::normalized_aaf369f4d5479483db7f55c0f561422af" ref="classVector3.html#aaf369f4d5479483db7f55c0f561422af"/>
 <keyword name="normalized() const" id="Vector3&lt; float &gt;::normalized_aaf369f4d5479483db7f55c0f561422af" ref="classVector3.html#aaf369f4d5479483db7f55c0f561422af"/>
 <keyword name="normalized() const" id="Vector3&lt; double &gt;::normalized_aaf369f4d5479483db7f55c0f561422af" ref="classVector3.html#aaf369f4d5479483db7f55c0f561422af"/>
-<keyword name="normalized() const" id="Vector3&lt; size_t &gt;::normalized_aaf369f4d5479483db7f55c0f561422af" ref="classVector3.html#aaf369f4d5479483db7f55c0f561422af"/>
 <keyword name="nPoints() const" id="Dataset::nPoints_a1a7b314d511d0b0eae52926ad0561061" ref="classDataset.html#a1a7b314d511d0b0eae52926ad0561061"/>
 <keyword name="nPoints() const" id="Datasets::nPoints_a87d52b7fc9fc4691cff3235057806b6b" ref="classDatasets.html#a87d52b7fc9fc4691cff3235057806b6b"/>
 <keyword name="nPoints_" id="Dataset::nPoints__ac80afb2f67835667da98c4bde33c5520" ref="classDataset.html#ac80afb2f67835667da98c4bde33c5520"/>
@@ -2633,6 +2740,10 @@
 <keyword name="numberOfReturns" id="Page::numberOfReturns_a5a74a4754cc9f1ef47e0f10736e7454d" ref="classPage.html#a5a74a4754cc9f1ef47e0f10736e7454d"/>
 <keyword name="numberOfReturns()" id="Query::numberOfReturns_a77b11c3e3ed9d3e6afe0a4e565a28605" ref="classQuery.html#a77b11c3e3ed9d3e6afe0a4e565a28605"/>
 <keyword name="numberOfReturns_" id="Query::numberOfReturns__aa11995e0db80be8f62f689ae4d223cf2" ref="classQuery.html#aa11995e0db80be8f62f689ae4d223cf2"/>
+<keyword name="numberOfVoxels_" id="Voxels::numberOfVoxels__a65768a02714c42b8922ef04b00ff90cb" ref="classVoxels.html#a65768a02714c42b8922ef04b00ff90cb"/>
+<keyword name="nx_" id="Voxels::nx__a55b672b940cd347097efbd1cc4947b85" ref="classVoxels.html#a55b672b940cd347097efbd1cc4947b85"/>
+<keyword name="ny_" id="Voxels::ny__ab972988a2a98e8fc354c0859550f9469" ref="classVoxels.html#ab972988a2a98e8fc354c0859550f9469"/>
+<keyword name="nz_" id="Voxels::nz__a24d00aef4bd97eee51b65920cea0eafb" ref="classVoxels.html#a24d00aef4bd97eee51b65920cea0eafb"/>
 <keyword name="object" id="Json::Data::object_ad4701854d24e4460c0b9f5569792e6d3" ref="classJson_1_1Data.html#ad4701854d24e4460c0b9f5569792e6d3"/>
 <keyword name="object() const" id="Json::object_a11c04d534c6a7efdff7f5ea0f7f66bc8" ref="classJson.html#a11c04d534c6a7efdff7f5ea0f7f66bc8"/>
 <keyword name="octree" id="Page::octree_a651a0adc86942bc926cd887002dad80f" ref="classPage.html#a651a0adc86942bc926cd887002dad80f"/>
@@ -2669,17 +2780,12 @@
 <keyword name="operator*(const Vector3&lt; double &gt; &amp;a, double b)" id="Vector3&lt; double &gt;::operator*_a772dee55be13c0a38c8f92c6f5b9f017" ref="classVector3.html#a772dee55be13c0a38c8f92c6f5b9f017"/>
 <keyword name="operator*(double a, const Vector3&lt; double &gt; &amp;b)" id="Vector3&lt; double &gt;::operator*_acc716f0b105332ec609a2c991e50d7da" ref="classVector3.html#acc716f0b105332ec609a2c991e50d7da"/>
 <keyword name="operator*(const Vector3&lt; double &gt; &amp;a, const Vector3&lt; double &gt; &amp;b)" id="Vector3&lt; double &gt;::operator*_a8f33e2690b03aef0c3e20816bcbeffee" ref="classVector3.html#a8f33e2690b03aef0c3e20816bcbeffee"/>
-<keyword name="operator*(const Vector3&lt; size_t &gt; &amp;a, size_t b)" id="Vector3&lt; size_t &gt;::operator*_a772dee55be13c0a38c8f92c6f5b9f017" ref="classVector3.html#a772dee55be13c0a38c8f92c6f5b9f017"/>
-<keyword name="operator*(size_t a, const Vector3&lt; size_t &gt; &amp;b)" id="Vector3&lt; size_t &gt;::operator*_acc716f0b105332ec609a2c991e50d7da" ref="classVector3.html#acc716f0b105332ec609a2c991e50d7da"/>
-<keyword name="operator*(const Vector3&lt; size_t &gt; &amp;a, const Vector3&lt; size_t &gt; &amp;b)" id="Vector3&lt; size_t &gt;::operator*_a8f33e2690b03aef0c3e20816bcbeffee" ref="classVector3.html#a8f33e2690b03aef0c3e20816bcbeffee"/>
 <keyword name="operator+(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b)" id="Vector3::operator+_a708a02684026b64c0a4f32eddc813613" ref="classVector3.html#a708a02684026b64c0a4f32eddc813613"/>
 <keyword name="operator+(const Vector3&lt; float &gt; &amp;a, const Vector3&lt; float &gt; &amp;b)" id="Vector3&lt; float &gt;::operator+_a708a02684026b64c0a4f32eddc813613" ref="classVector3.html#a708a02684026b64c0a4f32eddc813613"/>
 <keyword name="operator+(const Vector3&lt; double &gt; &amp;a, const Vector3&lt; double &gt; &amp;b)" id="Vector3&lt; double &gt;::operator+_a708a02684026b64c0a4f32eddc813613" ref="classVector3.html#a708a02684026b64c0a4f32eddc813613"/>
-<keyword name="operator+(const Vector3&lt; size_t &gt; &amp;a, const Vector3&lt; size_t &gt; &amp;b)" id="Vector3&lt; size_t &gt;::operator+_a708a02684026b64c0a4f32eddc813613" ref="classVector3.html#a708a02684026b64c0a4f32eddc813613"/>
 <keyword name="operator-(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b)" id="Vector3::operator-_a9029e567bae655b7b12924bbff497989" ref="classVector3.html#a9029e567bae655b7b12924bbff497989"/>
 <keyword name="operator-(const Vector3&lt; float &gt; &amp;a, const Vector3&lt; float &gt; &amp;b)" id="Vector3&lt; float &gt;::operator-_a9029e567bae655b7b12924bbff497989" ref="classVector3.html#a9029e567bae655b7b12924bbff497989"/>
 <keyword name="operator-(const Vector3&lt; double &gt; &amp;a, const Vector3&lt; double &gt; &amp;b)" id="Vector3&lt; double &gt;::operator-_a9029e567bae655b7b12924bbff497989" ref="classVector3.html#a9029e567bae655b7b12924bbff497989"/>
-<keyword name="operator-(const Vector3&lt; size_t &gt; &amp;a, const Vector3&lt; size_t &gt; &amp;b)" id="Vector3&lt; size_t &gt;::operator-_a9029e567bae655b7b12924bbff497989" ref="classVector3.html#a9029e567bae655b7b12924bbff497989"/>
 <keyword name="operator/(const Vector3&lt; T &gt; &amp;a, T b)" id="Vector3::operator/_ae78c22f637866f014d0d7112aabf6d0d" ref="classVector3.html#ae78c22f637866f014d0d7112aabf6d0d"/>
 <keyword name="operator/(T a, const Vector3&lt; T &gt; &amp;b)" id="Vector3::operator/_a7334e4413fee0e636aeae4f3471d4926" ref="classVector3.html#a7334e4413fee0e636aeae4f3471d4926"/>
 <keyword name="operator/(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b)" id="Vector3::operator/_a0b41bf49b70ae60be8def2e5597cedc1" ref="classVector3.html#a0b41bf49b70ae60be8def2e5597cedc1"/>
@@ -2689,21 +2795,18 @@
 <keyword name="operator/(const Vector3&lt; double &gt; &amp;a, double b)" id="Vector3&lt; double &gt;::operator/_ae78c22f637866f014d0d7112aabf6d0d" ref="classVector3.html#ae78c22f637866f014d0d7112aabf6d0d"/>
 <keyword name="operator/(double a, const Vector3&lt; double &gt; &amp;b)" id="Vector3&lt; double &gt;::operator/_a7334e4413fee0e636aeae4f3471d4926" ref="classVector3.html#a7334e4413fee0e636aeae4f3471d4926"/>
 <keyword name="operator/(const Vector3&lt; double &gt; &amp;a, const Vector3&lt; double &gt; &amp;b)" id="Vector3&lt; double &gt;::operator/_a0b41bf49b70ae60be8def2e5597cedc1" ref="classVector3.html#a0b41bf49b70ae60be8def2e5597cedc1"/>
-<keyword name="operator/(const Vector3&lt; size_t &gt; &amp;a, size_t b)" id="Vector3&lt; size_t &gt;::operator/_ae78c22f637866f014d0d7112aabf6d0d" ref="classVector3.html#ae78c22f637866f014d0d7112aabf6d0d"/>
-<keyword name="operator/(size_t a, const Vector3&lt; size_t &gt; &amp;b)" id="Vector3&lt; size_t &gt;::operator/_a7334e4413fee0e636aeae4f3471d4926" ref="classVector3.html#a7334e4413fee0e636aeae4f3471d4926"/>
-<keyword name="operator/(const Vector3&lt; size_t &gt; &amp;a, const Vector3&lt; size_t &gt; &amp;b)" id="Vector3&lt; size_t &gt;::operator/_a0b41bf49b70ae60be8def2e5597cedc1" ref="classVector3.html#a0b41bf49b70ae60be8def2e5597cedc1"/>
 <keyword name="operator&lt;(const Key &amp;rhs) const" id="Query::Key::operator&lt;_a5016282a6227a0252069e2bd34d94fec" ref="structQuery_1_1Key.html#a5016282a6227a0252069e2bd34d94fec"/>
 <keyword name="operator=(const File &amp;)=delete" id="File::operator=_a878dae94a3b260807de318337ecfc515" ref="classFile.html#a878dae94a3b260807de318337ecfc515"/>
 <keyword name="operator=(const Matrix4&lt; T &gt; &amp;m)=default" id="Matrix4::operator=_aaa961e7de9a141471e2fa2999d6034ad" ref="classMatrix4.html#aaa961e7de9a141471e2fa2999d6034ad"/>
 <keyword name="operator=(const Vector3&lt; B &gt; &amp;v)" id="Vector3::operator=_a166caa04925efaec01ef6740a0ed7472" ref="classVector3.html#a166caa04925efaec01ef6740a0ed7472"/>
 <keyword name="operator=(const Vector3&lt; B &gt; &amp;v)" id="Vector3&lt; float &gt;::operator=_a166caa04925efaec01ef6740a0ed7472" ref="classVector3.html#a166caa04925efaec01ef6740a0ed7472"/>
 <keyword name="operator=(const Vector3&lt; B &gt; &amp;v)" id="Vector3&lt; double &gt;::operator=_a166caa04925efaec01ef6740a0ed7472" ref="classVector3.html#a166caa04925efaec01ef6740a0ed7472"/>
-<keyword name="operator=(const Vector3&lt; B &gt; &amp;v)" id="Vector3&lt; size_t &gt;::operator=_a166caa04925efaec01ef6740a0ed7472" ref="classVector3.html#a166caa04925efaec01ef6740a0ed7472"/>
 <keyword name="operator[](const std::string &amp;key)" id="Json::operator[]_ad3b8bd2b3a9c72e613187c9dac8ee5b7" ref="classJson.html#ad3b8bd2b3a9c72e613187c9dac8ee5b7"/>
 <keyword name="operator[](const std::string &amp;key) const" id="Json::operator[]_a7209530ad7326118c0a7d1e12536d314" ref="classJson.html#a7209530ad7326118c0a7d1e12536d314"/>
 <keyword name="operator[](size_t index)" id="Json::operator[]_aea5b6f1a975d86a690828d9962f33147" ref="classJson.html#aea5b6f1a975d86a690828d9962f33147"/>
 <keyword name="operator[](size_t index) const" id="Json::operator[]_a450b751e1cbbd9e1057bae622c3b576e" ref="classJson.html#a450b751e1cbbd9e1057bae622c3b576e"/>
 <keyword name="ortho(T left, T right, T bottom, T top, T near, T far)" id="Matrix4::ortho_ad92ac22e8be869ce5aedd2549d3e1bb5" ref="classMatrix4.html#ad92ac22e8be869ce5aedd2549d3e1bb5"/>
+<keyword name="out" id="SegmentationPca::out_ae303a41fe26cbfaefef7f75500e65ed7" ref="classSegmentationPca.html#ae303a41fe26cbfaefef7f75500e65ed7"/>
 <keyword name="outputLas_" id="IndexFileBuilder::outputLas__ab1e9a57a96f4f24019442004e0faf308" ref="classIndexFileBuilder.html#ab1e9a57a96f4f24019442004e0faf308"/>
 <keyword name="outputPath_" id="IndexFileBuilder::outputPath__ae3fff1a931132d18a0232ab3a8383216" ref="classIndexFileBuilder.html#ae3fff1a931132d18a0232ab3a8383216"/>
 <keyword name="page()" id="Query::page_aa0db33f35f4bb68ada5c356a57204424" ref="classQuery.html#aa0db33f35f4bb68ada5c356a57204424"/>
@@ -2729,6 +2832,7 @@
 <keyword name="path_" id="Dataset::path__a52360d9550ed61aa9785451d00fbf7d1" ref="classDataset.html#a52360d9550ed61aa9785451d00fbf7d1"/>
 <keyword name="path_" id="Editor::path__af9e294c617b2db0a74cbba0c8e7f75f1" ref="classEditor.html#af9e294c617b2db0a74cbba0c8e7f75f1"/>
 <keyword name="pathUnresolved_" id="Dataset::pathUnresolved__afcd54c03dcaf40274e3d30615a199713" ref="classDataset.html#afcd54c03dcaf40274e3d30615a199713"/>
+<keyword name="pca_" id="SegmentationThread::pca__a7521a78d7210f0dc5e15f9c5a17973bf" ref="classSegmentationThread.html#a7521a78d7210f0dc5e15f9c5a17973bf"/>
 <keyword name="percent() const" id="IndexFileBuilder::percent_a105d7f5fca28ca32134eaf2feb93cbf5" ref="classIndexFileBuilder.html#a105d7f5fca28ca32134eaf2feb93cbf5"/>
 <keyword name="perspective(T fovy, T aspect, T near, T far)" id="Matrix4::perspective_a8597dc550fbedb162c8232d7e4a37541" ref="classMatrix4.html#a8597dc550fbedb162c8232d7e4a37541"/>
 <keyword name="perspective_" id="ViewerCamera::perspective__a5287691b320d8c1bf5cd0ad524cb5176" ref="classViewerCamera.html#a5287691b320d8c1bf5cd0ad524cb5176"/>
@@ -2747,10 +2851,15 @@
 <keyword name="pointSizeSlider_" id="SettingsColorWidget::pointSizeSlider__ac5f188899f3352c51d5efaf2b404a877" ref="classSettingsColorWidget.html#ac5f188899f3352c51d5efaf2b404a877"/>
 <keyword name="position" id="Page::position_a2df46ac2d3d9252906a0b3e45b3bd077" ref="classPage.html#a2df46ac2d3d9252906a0b3e45b3bd077"/>
 <keyword name="position_" id="Query::position__ad8a1e665ad8b3738ce4f4e47d6b4482c" ref="classQuery.html#ad8a1e665ad8b3738ce4f4e47d6b4482c"/>
-<keyword name="position_" id="Voxels::position__a69956283fe1da5791cb4ed44f285ae7f" ref="classVoxels.html#a69956283fe1da5791cb4ed44f285ae7f"/>
 <keyword name="positionBase_" id="Page::positionBase__ab41070c710ecd46b905290ae64f150fd" ref="classPage.html#ab41070c710ecd46b905290ae64f150fd"/>
 <keyword name="prev" id="IndexFile::Node::prev_a0fb650138b322f85153f958fb8db36f6" ref="structIndexFile_1_1Node.html#a0fb650138b322f85153f958fb8db36f6"/>
 <keyword name="prev(const Node *node) const" id="IndexFile::prev_aef50970e09018998b6659bb307d613f9" ref="classIndexFile.html#aef50970e09018998b6659bb307d613f9"/>
+<keyword name="previewSizeInput_" id="SegmentationWindow::previewSizeInput__aaef7b0c13aebff6e2f67909a8ce153c2" ref="classSegmentationWindow.html#aaef7b0c13aebff6e2f67909a8ce153c2"/>
+<keyword name="product" id="SegmentationPca::product_adc00a45947752845cece56808f14ef36" ref="classSegmentationPca.html#adc00a45947752845cece56808f14ef36"/>
+<keyword name="progressMax_" id="SegmentationThread::progressMax__a2715370550eb4d0432431a832ff05b4a" ref="classSegmentationThread.html#a2715370550eb4d0432431a832ff05b4a"/>
+<keyword name="progressPercent() const" id="SegmentationThread::progressPercent_a6da4fedfaa66512b4678ef2f35a02a82" ref="classSegmentationThread.html#a6da4fedfaa66512b4678ef2f35a02a82"/>
+<keyword name="progressPercent_" id="SegmentationThread::progressPercent__a93540495bec6457f74ace32f93d131c2" ref="classSegmentationThread.html#a93540495bec6457f74ace32f93d131c2"/>
+<keyword name="progressValue_" id="SegmentationThread::progressValue__ae3d30932310bfbac59e11f62eb7f7018" ref="classSegmentationThread.html#ae3d30932310bfbac59e11f62eb7f7018"/>
 <keyword name="project(const Vector3&lt; T &gt; &amp;v)" id="Matrix4::project_ab68f28d89fd482939a03ae2bf41dd0c9" ref="classMatrix4.html#ab68f28d89fd482939a03ae2bf41dd0c9"/>
 <keyword name="project(const QVector3D &amp;world) const" id="ViewerCamera::project_a2b0e5bccd6268d5c8c8628b46c82c758" ref="classViewerCamera.html#a2b0e5bccd6268d5c8c8628b46c82c758"/>
 <keyword name="project_id_1" id="LasFile::Header::project_id_1_a813eb2352825cbd1171f584aa719a39e" ref="structLasFile_1_1Header.html#a813eb2352825cbd1171f584aa719a39e"/>
@@ -2774,10 +2883,12 @@
 <keyword name="projectPath() const" id="Editor::projectPath_a8da46d9e9258a8d8220543fcec0e6f28" ref="classEditor.html#a8da46d9e9258a8d8220543fcec0e6f28"/>
 <keyword name="projectSave(const QString &amp;path=&quot;&quot;)" id="ProjectFilePlugin::projectSave_a5c928a25c63c0a22f9a514a1d19fe337" ref="classProjectFilePlugin.html#a5c928a25c63c0a22f9a514a1d19fe337"/>
 <keyword name="projectWindow_" id="ProjectNavigatorPlugin::projectWindow__aef4970aa5df0ca9260f6b8a095ffe364" ref="classProjectNavigatorPlugin.html#aef4970aa5df0ca9260f6b8a095ffe364"/>
+<keyword name="push(size_t x1, size_t y1, size_t z1, size_t x2, size_t y2, size_t z2)" id="Voxels::push_a652cf18ae49e6f3146b8c206f2073a4f" ref="classVoxels.html#a652cf18ae49e6f3146b8c206f2073a4f"/>
 <keyword name="push_back(const Layer &amp;layer)" id="Layers::push_back_af8c9aa5fedd7dcecbf12c50e5b3f240f" ref="classLayers.html#af8c9aa5fedd7dcecbf12c50e5b3f240f"/>
 <keyword name="QUADS" id="ViewerOpenGL::QUADS_a26c789d6cfce5d040bb1a7c91e3cfc11a9f1157a3208d3d6dcb0a1f3296d638bc" ref="classViewerOpenGL.html#a26c789d6cfce5d040bb1a7c91e3cfc11a9f1157a3208d3d6dcb0a1f3296d638bc"/>
 <keyword name="Query(Editor *editor)" id="Query::Query_a8b32769d7995d5b8479b17fb44feb2c8" ref="classQuery.html#a8b32769d7995d5b8479b17fb44feb2c8"/>
 <keyword name="query_" id="Page::query__add1bf06919dc765cc78afae94e32120e" ref="classPage.html#add1bf06919dc765cc78afae94e32120e"/>
+<keyword name="query_" id="SegmentationThread::query__ad6099db1366b5da17b92a97dc4ac4074" ref="classSegmentationThread.html#ad6099db1366b5da17b92a97dc4ac4074"/>
 <keyword name="radius() const" id="Box::radius_af38477a148da11f3f931e412b08efa97" ref="classBox.html#af38477a148da11f3f931e412b08efa97"/>
 <keyword name="radius() const" id="Box&lt; double &gt;::radius_af38477a148da11f3f931e412b08efa97" ref="classBox.html#af38477a148da11f3f931e412b08efa97"/>
 <keyword name="radius_" id="Cone::radius__a88d8cc92eff443651c97670ef4f1e9b1" ref="classCone.html#a88d8cc92eff443651c97670ef4f1e9b1"/>
@@ -2814,7 +2925,6 @@
 <keyword name="read(const Json &amp;in)" id="Box&lt; double &gt;::read_ab89ea3104acbbc12dfaf020edb472d94" ref="classBox.html#ab89ea3104acbbc12dfaf020edb472d94"/>
 <keyword name="read(const Json &amp;in)" id="Vector3&lt; float &gt;::read_ac2038eab222c7acfa5ac5dbe675d071b" ref="classVector3.html#ac2038eab222c7acfa5ac5dbe675d071b"/>
 <keyword name="read(const Json &amp;in)" id="Vector3&lt; double &gt;::read_ac2038eab222c7acfa5ac5dbe675d071b" ref="classVector3.html#ac2038eab222c7acfa5ac5dbe675d071b"/>
-<keyword name="read(const Json &amp;in)" id="Vector3&lt; size_t &gt;::read_ac2038eab222c7acfa5ac5dbe675d071b" ref="classVector3.html#ac2038eab222c7acfa5ac5dbe675d071b"/>
 <keyword name="readHeader()" id="LasFile::readHeader_a6cc70618469526f1a1d42f60df575fc3" ref="classLasFile.html#a6cc70618469526f1a1d42f60df575fc3"/>
 <keyword name="readHeader(Header &amp;hdr)" id="LasFile::readHeader_a64eea39c20570366f83c29f134f4d5cd" ref="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd"/>
 <keyword name="readPath_" id="IndexFileBuilder::readPath__a6b0094685cb5ab0a29a6a2afc3c3133e" ref="classIndexFileBuilder.html#a6b0094685cb5ab0a29a6a2afc3c3133e"/>
@@ -2830,6 +2940,7 @@
 <keyword name="RedYellow16" id="ColorPalette::RedYellow16_a1db20213b489eb026b56ee6eb1608716" ref="classColorPalette.html#a1db20213b489eb026b56ee6eb1608716"/>
 <keyword name="Region()" id="Region::Region_aa8796c9b4ac95da7f7ca4f374673800c" ref="classRegion.html#aa8796c9b4ac95da7f7ca4f374673800c"/>
 <keyword name="rejectButton_" id="ImportDialog::rejectButton__a1155f054747c09fb2348f4f1742c43a4" ref="classImportDialog.html#a1155f054747c09fb2348f4f1742c43a4"/>
+<keyword name="rejectButton_" id="SegmentationWindow::rejectButton__a72a8cf08f8b1d716b81df325542e9947" ref="classSegmentationWindow.html#a72a8cf08f8b1d716b81df325542e9947"/>
 <keyword name="remove(const std::string &amp;path)" id="File::remove_a2d8652f7022fa6d3ad2d7ad19e3abf2f" ref="classFile.html#a2d8652f7022fa6d3ad2d7ad19e3abf2f"/>
 <keyword name="render(size_t viewportId, const Camera &amp;camera)" id="RenderThread::render_a19e2b1e2b0baedcdb47bc9bdbdb9bce5" ref="classRenderThread.html#a19e2b1e2b0baedcdb47bc9bdbdb9bce5"/>
 <keyword name="render(Mode mode, const std::vector&lt; float &gt; &amp;xyz, const std::vector&lt; float &gt; &amp;rgb)" id="ViewerOpenGL::render_ae4904079bdd2f426651917afceb421fd" ref="classViewerOpenGL.html#ae4904079bdd2f426651917afceb421fd"/>
@@ -2855,10 +2966,12 @@
 <keyword name="resetScene(Editor *editor, size_t viewportId, bool resetView)" id="ViewerViewports::resetScene_aa0e3fa32e7fdc4c0957f92c16f786add" ref="classViewerViewports.html#aa0e3fa32e7fdc4c0957f92c16f786add"/>
 <keyword name="resize(size_t n)" id="Page::resize_ab9fbfdbc5e96e812d0ef9e216a221742" ref="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742"/>
 <keyword name="resize(Editor *editor, size_t n)" id="Viewports::resize_a35e2fdbed992cb7c8c0886250ef15e25" ref="classViewports.html#a35e2fdbed992cb7c8c0886250ef15e25"/>
+<keyword name="resize(size_t n)" id="Voxels::resize_ad3554b726c68e0be2c88cceef8f81d30" ref="classVoxels.html#ad3554b726c68e0be2c88cceef8f81d30"/>
 <keyword name="resizeGL(int w, int h) override" id="ViewerOpenGLViewport::resizeGL_a9e27b6b6034c10cdc6080888962345a1" ref="classViewerOpenGLViewport.html#a9e27b6b6034c10cdc6080888962345a1"/>
 <keyword name="resolvePath(const std::string &amp;path, const std::string &amp;basePath)" id="File::resolvePath_a8b2f7f3315c9de83f72c50ec1cd22c8f" ref="classFile.html#a8b2f7f3315c9de83f72c50ec1cd22c8f"/>
 <keyword name="resultSize() const" id="Query::resultSize_a71eba23c5408a2238c2079b01f05a3e9" ref="classQuery.html#a71eba23c5408a2238c2079b01f05a3e9"/>
 <keyword name="resumeThreads()" id="MainWindow::resumeThreads_af8a9144702df759c5883114632f1d92c" ref="classMainWindow.html#af8a9144702df759c5883114632f1d92c"/>
+<keyword name="resumeThreads()" id="SegmentationWindow::resumeThreads_a44648f683d56a16cd8a36e3c48df6978" ref="classSegmentationWindow.html#a44648f683d56a16cd8a36e3c48df6978"/>
 <keyword name="return_number" id="LasFile::Point::return_number_acf9f16be4bb66f38222ad6c4ad9fc3e8" ref="structLasFile_1_1Point.html#acf9f16be4bb66f38222ad6c4ad9fc3e8"/>
 <keyword name="returnNumber" id="Page::returnNumber_a6284ce197ea33e036606715b7f2a7448" ref="classPage.html#a6284ce197ea33e036606715b7f2a7448"/>
 <keyword name="returnNumber()" id="Query::returnNumber_afb8ffeafdb807c66b17cbfffd15031bf" ref="classQuery.html#afb8ffeafdb807c66b17cbfffd15031bf"/>
@@ -2871,7 +2984,6 @@
 <keyword name="rotated(const Vector3&lt; T &gt; &amp;axis, double angle) const" id="Vector3::rotated_a20c4d5b90d487e364b4a663f728512a1" ref="classVector3.html#a20c4d5b90d487e364b4a663f728512a1"/>
 <keyword name="rotated(const Vector3&lt; float &gt; &amp;axis, double angle) const" id="Vector3&lt; float &gt;::rotated_a20c4d5b90d487e364b4a663f728512a1" ref="classVector3.html#a20c4d5b90d487e364b4a663f728512a1"/>
 <keyword name="rotated(const Vector3&lt; double &gt; &amp;axis, double angle) const" id="Vector3&lt; double &gt;::rotated_a20c4d5b90d487e364b4a663f728512a1" ref="classVector3.html#a20c4d5b90d487e364b4a663f728512a1"/>
-<keyword name="rotated(const Vector3&lt; size_t &gt; &amp;axis, double angle) const" id="Vector3&lt; size_t &gt;::rotated_a20c4d5b90d487e364b4a663f728512a1" ref="classVector3.html#a20c4d5b90d487e364b4a663f728512a1"/>
 <keyword name="rotation() const" id="ViewerCamera::rotation_acfb2eb3619a3da9ec81929b776df6587" ref="classViewerCamera.html#acfb2eb3619a3da9ec81929b776df6587"/>
 <keyword name="rotation_" id="ViewerCamera::rotation__a5c6d4c691a4e15f9aed919ac290492d2" ref="classViewerCamera.html#a5c6d4c691a4e15f9aed919ac290492d2"/>
 <keyword name="runColorModifier()" id="Page::runColorModifier_adb0cbf6a76d3b810094c5b35fa3fc8a8" ref="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8"/>
@@ -2895,9 +3007,10 @@
 <keyword name="seekHeader()" id="LasFile::seekHeader_a266f5292ad9b64c7d34ca9d4ea799b67" ref="classLasFile.html#a266f5292ad9b64c7d34ca9d4ea799b67"/>
 <keyword name="seekPointData()" id="LasFile::seekPointData_a26d4c64f95ef348b09c1e14f8079919e" ref="classLasFile.html#a26d4c64f95ef348b09c1e14f8079919e"/>
 <keyword name="seekVlr()" id="LasFile::seekVlr_a49be33bc84f61594ba728279abfdea7d" ref="classLasFile.html#a49be33bc84f61594ba728279abfdea7d"/>
-<keyword name="Segmentation()" id="Segmentation::Segmentation_a966891da37798baabb99bf0144d47675" ref="classSegmentation.html#a966891da37798baabb99bf0144d47675"/>
+<keyword name="SegmentationPca()" id="SegmentationPca::SegmentationPca_ac01ae7116d9772441229f2afd7102bc8" ref="classSegmentationPca.html#ac01ae7116d9772441229f2afd7102bc8"/>
 <keyword name="SegmentationPlugin()" id="SegmentationPlugin::SegmentationPlugin_a082cb34c8e4961ae38b13e0a280f9529" ref="classSegmentationPlugin.html#a082cb34c8e4961ae38b13e0a280f9529"/>
-<keyword name="SegmentationThread()" id="SegmentationThread::SegmentationThread_a5c5b9a1f21e114db574804220a7c2c21" ref="classSegmentationThread.html#a5c5b9a1f21e114db574804220a7c2c21"/>
+<keyword name="SegmentationThread(Editor *editor)" id="SegmentationThread::SegmentationThread_a6f2ab6b9f6b562082bdd65d0c9c763f6" ref="classSegmentationThread.html#a6f2ab6b9f6b562082bdd65d0c9c763f6"/>
+<keyword name="segmentationThread_" id="SegmentationWindow::segmentationThread__ab1e20f0bfcd49656de0bccfa9c1368ee" ref="classSegmentationWindow.html#ab1e20f0bfcd49656de0bccfa9c1368ee"/>
 <keyword name="SegmentationWindow(MainWindow *mainWindow)" id="SegmentationWindow::SegmentationWindow_a8b647e48a9adb42f116ab4ab2796aea2" ref="classSegmentationWindow.html#a8b647e48a9adb42f116ab4ab2796aea2"/>
 <keyword name="select(std::vector&lt; IndexFile::Selection &gt; &amp;selected, const Box&lt; double &gt; &amp;box) const" id="Datasets::select_a15fcb11c5c918366868f36a0cce7e8c5" ref="classDatasets.html#a15fcb11c5c918366868f36a0cce7e8c5"/>
 <keyword name="select()" id="Page::select_ae18eec0f67cca42f7a8835dad39b7d39" ref="classPage.html#ae18eec0f67cca42f7a8835dad39b7d39"/>
@@ -2984,7 +3097,6 @@
 <keyword name="set(double x, double y, double z, double radius)" id="Sphere&lt; double &gt;::set_a98fc8b8df0de87a7cb9ae371b3ed5435" ref="classSphere.html#a98fc8b8df0de87a7cb9ae371b3ed5435"/>
 <keyword name="set(B v0, B v1, B v2)" id="Vector3&lt; float &gt;::set_a0bbbb921398a7290338ebf7982ffd707" ref="classVector3.html#a0bbbb921398a7290338ebf7982ffd707"/>
 <keyword name="set(B v0, B v1, B v2)" id="Vector3&lt; double &gt;::set_a0bbbb921398a7290338ebf7982ffd707" ref="classVector3.html#a0bbbb921398a7290338ebf7982ffd707"/>
-<keyword name="set(B v0, B v1, B v2)" id="Vector3&lt; size_t &gt;::set_a0bbbb921398a7290338ebf7982ffd707" ref="classVector3.html#a0bbbb921398a7290338ebf7982ffd707"/>
 <keyword name="setBackgroundColor(const Vector3&lt; float &gt; &amp;rgb)" id="SettingsView::setBackgroundColor_ad6042cbb5bcb37eeb6d165fd619daefa" ref="classSettingsView.html#ad6042cbb5bcb37eeb6d165fd619daefa"/>
 <keyword name="setCallback(ThreadCallbackInterface *callback)" id="Thread::setCallback_aca6a320fefe02bdae1ab9a2e079a7f8c" ref="classThread.html#aca6a320fefe02bdae1ab9a2e079a7f8c"/>
 <keyword name="setCenterEnabled(bool b)" id="SettingsImport::setCenterEnabled_ab5229f9f2efbb0b92ae84ec70a2c0eaa" ref="classSettingsImport.html#ab5229f9f2efbb0b92ae84ec70a2c0eaa"/>
@@ -3030,6 +3142,7 @@
 <keyword name="setLayout(ViewLayout viewLayout)" id="ViewerViewports::setLayout_a3e54669d04c2aa76ad3cbabba03493af" ref="classViewerViewports.html#a3e54669d04c2aa76ad3cbabba03493af"/>
 <keyword name="setLookAt(const QVector3D &amp;center, float distance)" id="ViewerCamera::setLookAt_a4dc28ef54d1c29b2020c53f748ac1301" ref="classViewerCamera.html#a4dc28ef54d1c29b2020c53f748ac1301"/>
 <keyword name="setLookAt(const QVector3D &amp;eye, const QVector3D &amp;center, const QVector3D &amp;up)" id="ViewerCamera::setLookAt_a4d6cc0eb455d3cbd67bcc8ff85870de3" ref="classViewerCamera.html#a4d6cc0eb455d3cbd67bcc8ff85870de3"/>
+<keyword name="setMaximum(int max)" id="SliderWidget::setMaximum_afab693126ed98a96b558078bf14f8c7e" ref="classSliderWidget.html#afab693126ed98a96b558078bf14f8c7e"/>
 <keyword name="setMaximumResults(size_t nPoints)" id="Query::setMaximumResults_a6411ba88f79445f5fe05db93b58b8ff5" ref="classQuery.html#a6411ba88f79445f5fe05db93b58b8ff5"/>
 <keyword name="setModelView(const QMatrix4x4 &amp;m)" id="ViewerCamera::setModelView_a0cc370e4eb688e224c91b59dea2e3699" ref="classViewerCamera.html#a0cc370e4eb688e224c91b59dea2e3699"/>
 <keyword name="setModelViewProjection(const QMatrix4x4 &amp;m)" id="ViewerCamera::setModelViewProjection_a0f934cce0ab83f6b2a79f38d4870a0c7" ref="classViewerCamera.html#a0f934cce0ab83f6b2a79f38d4870a0c7"/>
@@ -3052,6 +3165,8 @@
 <keyword name="setState(Page::State state)" id="Page::setState_addba1c2fd5f27a2c4a6855e6b88908f9" ref="classPage.html#addba1c2fd5f27a2c4a6855e6b88908f9"/>
 <keyword name="setState(Page::State state)" id="Query::setState_ae6527973ff1ec3ce988b7f6a2c119f07" ref="classQuery.html#ae6527973ff1ec3ce988b7f6a2c119f07"/>
 <keyword name="setState(Page::State state)" id="Viewports::setState_a8b24a5282082152ab62faebc3c87d11f" ref="classViewports.html#a8b24a5282082152ab62faebc3c87d11f"/>
+<keyword name="setState(State state)" id="SegmentationThread::setState_ab2847de25ae60fa2eb84927ae47eaa13" ref="classSegmentationThread.html#ab2847de25ae60fa2eb84927ae47eaa13"/>
+<keyword name="setStatusProgressBarPercent(int percent)" id="MainWindow::setStatusProgressBarPercent_a326d567eda9b9ec6a97ff9c04382b0c4" ref="classMainWindow.html#a326d567eda9b9ec6a97ff9c04382b0c4"/>
 <keyword name="Settings()" id="IndexFileBuilder::Settings::Settings_ac688d3c5d798f05545ea988f2dbc45dd" ref="classIndexFileBuilder_1_1Settings.html#ac688d3c5d798f05545ea988f2dbc45dd"/>
 <keyword name="settings() const" id="Editor::settings_aa1fa3644ca2b631ecba682207077cec1" ref="classEditor.html#aa1fa3644ca2b631ecba682207077cec1"/>
 <keyword name="settings_" id="Editor::settings__af8dd8a2d40527bd02ed22da7ae20f649" ref="classEditor.html#af8dd8a2d40527bd02ed22da7ae20f649"/>
@@ -3071,6 +3186,7 @@
 <keyword name="setTranslation(const Vector3&lt; double &gt; &amp;translation)" id="Dataset::setTranslation_a947cb4559f885fd98b3787c4547ff1df" ref="classDataset.html#a947cb4559f885fd98b3787c4547ff1df"/>
 <keyword name="setTranslation(size_t i, const Vector3&lt; double &gt; &amp;translation)" id="Datasets::setTranslation_ac6584722a2d221dcdaf2d6d0badc93aa" ref="classDatasets.html#ac6584722a2d221dcdaf2d6d0badc93aa"/>
 <keyword name="setValid()" id="ViewerAabb::setValid_a354ebb6acee3c6a60137270ed821c36f" ref="classViewerAabb.html#a354ebb6acee3c6a60137270ed821c36f"/>
+<keyword name="setValue(int value)" id="SliderWidget::setValue_ac54ea804fa66c380df0bd110346f98f6" ref="classSliderWidget.html#ac54ea804fa66c380df0bd110346f98f6"/>
 <keyword name="setView(const SettingsView &amp;view)" id="Settings::setView_aca113856e801c8613c2292059846c0b2" ref="classSettings.html#aca113856e801c8613c2292059846c0b2"/>
 <keyword name="setView3d()" id="ViewerOpenGLViewport::setView3d_af6e649d7e7b74278e277c99822d7e1e9" ref="classViewerOpenGLViewport.html#af6e649d7e7b74278e277c99822d7e1e9"/>
 <keyword name="setView3d()" id="ViewerViewports::setView3d_abcf05140cfa9c0ae6b94c28a3a3240ab" ref="classViewerViewports.html#abcf05140cfa9c0ae6b94c28a3a3240ab"/>
@@ -3097,7 +3213,11 @@
 <keyword name="showButton_" id="ProjectNavigatorFiles::showButton__af1abc9987a974ed03f76d553277fadc6" ref="classProjectNavigatorFiles.html#af1abc9987a974ed03f76d553277fadc6"/>
 <keyword name="showButton_" id="ProjectNavigatorLayers::showButton__a1030290e69013c053f23b43cb9035805" ref="classProjectNavigatorLayers.html#a1030290e69013c053f23b43cb9035805"/>
 <keyword name="showError(const char *message)" id="MainWindow::showError_a099aa96447509af81287e6277bd26e0d" ref="classMainWindow.html#a099aa96447509af81287e6277bd26e0d"/>
+<keyword name="showEvent(QShowEvent *event)" id="SegmentationWindow::showEvent_a01ccc726d3a708870a1fbcfca6c68adc" ref="classSegmentationWindow.html#a01ccc726d3a708870a1fbcfca6c68adc"/>
+<keyword name="signalFinalValue()" id="SliderWidget::signalFinalValue_a8204c71d79bec8655330ce8772699074" ref="classSliderWidget.html#a8204c71d79bec8655330ce8772699074"/>
+<keyword name="signalIntermediateValue(int v)" id="SliderWidget::signalIntermediateValue_a9dc2daeae8343d80b378d3a0725b45de" ref="classSliderWidget.html#a9dc2daeae8343d80b378d3a0725b45de"/>
 <keyword name="signalRender()" id="MainWindow::signalRender_ab1752eb76c7658ceb65786fcdc2b12df" ref="classMainWindow.html#ab1752eb76c7658ceb65786fcdc2b12df"/>
+<keyword name="signalThread()" id="SegmentationWindow::signalThread_a27c5c3cd601b0dda79d656f3b9d04ba9" ref="classSegmentationWindow.html#a27c5c3cd601b0dda79d656f3b9d04ba9"/>
 <keyword name="signalUpdate()" id="MainWindow::signalUpdate_a4a0216a91f1e80c0ffd4ceb5c5371dd7" ref="classMainWindow.html#a4a0216a91f1e80c0ffd4ceb5c5371dd7"/>
 <keyword name="size" id="IndexFile::Node::size_a942f8219b2e8d56db76edbd38014c874" ref="structIndexFile_1_1Node.html#a942f8219b2e8d56db76edbd38014c874"/>
 <keyword name="size" id="IndexFile::SelectionTile::size_a918b50dea3a3ac9dcb17addf79f85e80" ref="structIndexFile_1_1SelectionTile.html#a918b50dea3a3ac9dcb17addf79f85e80"/>
@@ -3109,6 +3229,7 @@
 <keyword name="size() const" id="Datasets::size_a168042bc91bc2a3b3c6950eb509d95fb" ref="classDatasets.html#a168042bc91bc2a3b3c6950eb509d95fb"/>
 <keyword name="size() const" id="IndexFile::size_a262b429ff3e52d0100631a64661ff524" ref="classIndexFile.html#a262b429ff3e52d0100631a64661ff524"/>
 <keyword name="size() const" id="Layers::size_a6f5075043409c3dc9d328d2c997eed73" ref="classLayers.html#a6f5075043409c3dc9d328d2c997eed73"/>
+<keyword name="size() const" id="Voxels::size_af4153e26aa9597b9a56c93b82578c68b" ref="classVoxels.html#af4153e26aa9597b9a56c93b82578c68b"/>
 <keyword name="size_" id="File::size__a98af0822e51d0c0a359a4f9731b41862" ref="classFile.html#a98af0822e51d0c0a359a4f9731b41862"/>
 <keyword name="sizeFile_" id="IndexFileBuilder::sizeFile__a3389ada89a33fe07fe647135a20ea609" ref="classIndexFileBuilder.html#a3389ada89a33fe07fe647135a20ea609"/>
 <keyword name="sizeFileOut_" id="IndexFileBuilder::sizeFileOut__a7873899ecf19c465c63eb4b11cae9ac4" ref="classIndexFileBuilder.html#a7873899ecf19c465c63eb4b11cae9ac4"/>
@@ -3120,20 +3241,23 @@
 <keyword name="sizePointsOut_" id="IndexFileBuilder::sizePointsOut__a024e78cc244c2b663d78e442448d4811" ref="classIndexFileBuilder.html#a024e78cc244c2b663d78e442448d4811"/>
 <keyword name="skip(uint64_t nbyte)" id="ChunkFile::skip_ac9c3bd08c61121710290ca967865e3a8" ref="classChunkFile.html#ac9c3bd08c61121710290ca967865e3a8"/>
 <keyword name="skip(uint64_t nbyte)" id="File::skip_ae49bd82756282ac6e93c0ca00401267a" ref="classFile.html#ae49bd82756282ac6e93c0ca00401267a"/>
+<keyword name="slider_" id="SliderWidget::slider__af78094cd45511e36029e3f0e9d394004" ref="classSliderWidget.html#af78094cd45511e36029e3f0e9d394004"/>
+<keyword name="SliderWidget()" id="SliderWidget::SliderWidget_aa076d00ccc775a8cfbe417c4abd9511b" ref="classSliderWidget.html#aa076d00ccc775a8cfbe417c4abd9511b"/>
 <keyword name="slotAbout()" id="HelpPlugin::slotAbout_ad8453a56526bcf6be764713bb94d0521" ref="classHelpPlugin.html#ad8453a56526bcf6be764713bb94d0521"/>
 <keyword name="slotAccept()" id="ImportDialog::slotAccept_ad86004d302fed89835d0dbebe9531ea1" ref="classImportDialog.html#ad86004d302fed89835d0dbebe9531ea1"/>
+<keyword name="slotAccept()" id="SegmentationWindow::slotAccept_a44c1c8d509dbc86c5d9bbb67419823c7" ref="classSegmentationWindow.html#a44c1c8d509dbc86c5d9bbb67419823c7"/>
 <keyword name="slotAdd()" id="ProjectNavigatorFiles::slotAdd_ae1794e67b9fc81704744df6d0421ec9e" ref="classProjectNavigatorFiles.html#ae1794e67b9fc81704744df6d0421ec9e"/>
 <keyword name="slotAdd()" id="ProjectNavigatorLayers::slotAdd_a5c9502a10de098c1ba5e398e874e7a5d" ref="classProjectNavigatorLayers.html#a5c9502a10de098c1ba5e398e874e7a5d"/>
 <keyword name="slotApply()" id="ClassifyGroundWindow::slotApply_ac4a2a98c64cdd1e7360da800749530c9" ref="classClassifyGroundWindow.html#ac4a2a98c64cdd1e7360da800749530c9"/>
-<keyword name="slotApply()" id="SegmentationWindow::slotApply_a3ebc5c037037b6f2c1712049a69d9572" ref="classSegmentationWindow.html#a3ebc5c037037b6f2c1712049a69d9572"/>
+<keyword name="slotCurrentChanged(int index)" id="ProjectNavigatorWindow::slotCurrentChanged_a31ba5ace40859a69df3a05db60fe5737" ref="classProjectNavigatorWindow.html#a31ba5ace40859a69df3a05db60fe5737"/>
 <keyword name="slotDelete()" id="ProjectNavigatorFiles::slotDelete_a0870b1618571f79dafc0bf634332e897" ref="classProjectNavigatorFiles.html#a0870b1618571f79dafc0bf634332e897"/>
 <keyword name="slotDelete()" id="ProjectNavigatorLayers::slotDelete_a65390dd090bfdb0bca3b354cef5f78a5" ref="classProjectNavigatorLayers.html#a65390dd090bfdb0bca3b354cef5f78a5"/>
-<keyword name="slotDistanceFinalValue()" id="SegmentationWindow::slotDistanceFinalValue_aff137582e9d2f3c7efec14f29fb8d1a1" ref="classSegmentationWindow.html#aff137582e9d2f3c7efec14f29fb8d1a1"/>
-<keyword name="slotDistanceIntermediateValue(int v)" id="SegmentationWindow::slotDistanceIntermediateValue_a4483a5bdba9eede702066ebd971c8cf3" ref="classSegmentationWindow.html#a4483a5bdba9eede702066ebd971c8cf3"/>
+<keyword name="slotFinalValue()" id="SliderWidget::slotFinalValue_a60369c77797277ae591f85ccaf620b3f" ref="classSliderWidget.html#a60369c77797277ae591f85ccaf620b3f"/>
 <keyword name="slotHide()" id="ProjectNavigatorClassifications::slotHide_a9eabd844978206166156db78a16b2eaf" ref="classProjectNavigatorClassifications.html#a9eabd844978206166156db78a16b2eaf"/>
 <keyword name="slotHide()" id="ProjectNavigatorFiles::slotHide_a64a8b709f7632ce41f31c683f6cebac5" ref="classProjectNavigatorFiles.html#a64a8b709f7632ce41f31c683f6cebac5"/>
 <keyword name="slotHide()" id="ProjectNavigatorLayers::slotHide_ae454fdb05bb8fcbabd2b075a16a676a4" ref="classProjectNavigatorLayers.html#ae454fdb05bb8fcbabd2b075a16a676a4"/>
 <keyword name="slotImport()" id="ImportPlugin::slotImport_af0c2a82a5c47ee5489e1b2816be70535" ref="classImportPlugin.html#af0c2a82a5c47ee5489e1b2816be70535"/>
+<keyword name="slotIntermediateValue(int v)" id="SliderWidget::slotIntermediateValue_aa723f762cdcbd38603ff5b3db12deb98" ref="classSliderWidget.html#aa723f762cdcbd38603ff5b3db12deb98"/>
 <keyword name="slotItemChanged(QTreeWidgetItem *item, int column)" id="ProjectNavigatorClassifications::slotItemChanged_a9ecddb7a92cb0722a044df70ae2cae4c" ref="classProjectNavigatorClassifications.html#a9ecddb7a92cb0722a044df70ae2cae4c"/>
 <keyword name="slotItemChanged(QTreeWidgetItem *item, int column)" id="ProjectNavigatorFiles::slotItemChanged_a2cce53d4aa56c79909b98bb12a04e1ef" ref="classProjectNavigatorFiles.html#a2cce53d4aa56c79909b98bb12a04e1ef"/>
 <keyword name="slotItemChanged(QTreeWidgetItem *item, int column)" id="ProjectNavigatorLayers::slotItemChanged_abb971f7f247b755ec5644fa66dd2b5da" ref="classProjectNavigatorLayers.html#abb971f7f247b755ec5644fa66dd2b5da"/>
@@ -3150,6 +3274,7 @@
 <keyword name="slotProjectSave()" id="ProjectFilePlugin::slotProjectSave_afd2066ebb1f4d34da85f176277d59986" ref="classProjectFilePlugin.html#afd2066ebb1f4d34da85f176277d59986"/>
 <keyword name="slotProjectSaveAs()" id="ProjectFilePlugin::slotProjectSaveAs_ac298259f037195ea56756cec751db89d" ref="classProjectFilePlugin.html#ac298259f037195ea56756cec751db89d"/>
 <keyword name="slotReject()" id="ImportDialog::slotReject_ab6d256240b424d74917b3ad8a4ed792a" ref="classImportDialog.html#ab6d256240b424d74917b3ad8a4ed792a"/>
+<keyword name="slotReject()" id="SegmentationWindow::slotReject_aaf4f56cae7031cf8bfa386ccabf893f1" ref="classSegmentationWindow.html#aaf4f56cae7031cf8bfa386ccabf893f1"/>
 <keyword name="slotRender()" id="MainWindow::slotRender_ab399feaee95b2330bd6ad0bbeaebcbe6" ref="classMainWindow.html#ab399feaee95b2330bd6ad0bbeaebcbe6"/>
 <keyword name="slotRenderViewport()" id="MainWindow::slotRenderViewport_a32b3b57106e01b0f7ab6080fd1eadb14" ref="classMainWindow.html#a32b3b57106e01b0f7ab6080fd1eadb14"/>
 <keyword name="slotRenderViewport(size_t viewportId)" id="MainWindow::slotRenderViewport_a3232457dd0e7528fd20fbaeeda894c19" ref="classMainWindow.html#a3232457dd0e7528fd20fbaeeda894c19"/>
@@ -3169,8 +3294,8 @@
 <keyword name="slotShow()" id="ProjectNavigatorClassifications::slotShow_a89d5e05310b173f1fa05e6a54f4877ed" ref="classProjectNavigatorClassifications.html#a89d5e05310b173f1fa05e6a54f4877ed"/>
 <keyword name="slotShow()" id="ProjectNavigatorFiles::slotShow_aa3da771ca8a669cef6b27acc0a2c4b1e" ref="classProjectNavigatorFiles.html#aa3da771ca8a669cef6b27acc0a2c4b1e"/>
 <keyword name="slotShow()" id="ProjectNavigatorLayers::slotShow_ac514820da4058e958356eee312d11663" ref="classProjectNavigatorLayers.html#ac514820da4058e958356eee312d11663"/>
+<keyword name="slotThread()" id="SegmentationWindow::slotThread_ab923a3c23b539ddc0a8591bba3619dde" ref="classSegmentationWindow.html#ab923a3c23b539ddc0a8591bba3619dde"/>
 <keyword name="slotThresholdFinalValue()" id="SegmentationWindow::slotThresholdFinalValue_a96322c89529341d13d107a4299cd9160" ref="classSegmentationWindow.html#a96322c89529341d13d107a4299cd9160"/>
-<keyword name="slotThresholdIntermediateValue(int v)" id="SegmentationWindow::slotThresholdIntermediateValue_afb302adda48e9724164870ae4b34c6b6" ref="classSegmentationWindow.html#afb302adda48e9724164870ae4b34c6b6"/>
 <keyword name="slotUpdate()" id="ProjectNavigatorClassifications::slotUpdate_a46febe0f05c08351767eca506e1fb96a" ref="classProjectNavigatorClassifications.html#a46febe0f05c08351767eca506e1fb96a"/>
 <keyword name="slotUpdate()" id="ProjectNavigatorFiles::slotUpdate_a415f0ef83323e43b50a47bc90cd3ab67" ref="classProjectNavigatorFiles.html#a415f0ef83323e43b50a47bc90cd3ab67"/>
 <keyword name="slotUpdate()" id="ProjectNavigatorLayers::slotUpdate_af82d0f51b2900760427ed507bbe5aff9" ref="classProjectNavigatorLayers.html#af82d0f51b2900760427ed507bbe5aff9"/>
@@ -3188,14 +3313,19 @@
 <keyword name="slotViewResetDistance()" id="ViewerPlugin::slotViewResetDistance_ab474714af2f1534642eceb5269773170" ref="classViewerPlugin.html#ab474714af2f1534642eceb5269773170"/>
 <keyword name="slotViewRight()" id="ViewerPlugin::slotViewRight_ac0fb2bba80acd7eebf9cc2bea50ac7c9" ref="classViewerPlugin.html#ac0fb2bba80acd7eebf9cc2bea50ac7c9"/>
 <keyword name="slotViewTop()" id="ViewerPlugin::slotViewTop_a163ba56bf0afe7501f8fc24c098220b0" ref="classViewerPlugin.html#a163ba56bf0afe7501f8fc24c098220b0"/>
+<keyword name="slotVoxelSizeFinalValue()" id="SegmentationWindow::slotVoxelSizeFinalValue_a295b7a8c381fc64b174a6bfa796f2517" ref="classSegmentationWindow.html#a295b7a8c381fc64b174a6bfa796f2517"/>
 <keyword name="sort(const std::string &amp;path, size_t element_size, int(*comp)(const void *, const void *))" id="File::sort_a8fab5538852190c50d779e4f3e8cc33d" ref="classFile.html#a8fab5538852190c50d779e4f3e8cc33d"/>
 <keyword name="source_id" id="LasFile::Point::source_id_a5614b37255cf6811ac209e349e174556" ref="structLasFile_1_1Point.html#a5614b37255cf6811ac209e349e174556"/>
+<keyword name="spaceRegion_" id="Voxels::spaceRegion__aa3d7c6348af9b0118a83508d91c3d70e" ref="classVoxels.html#aa3d7c6348af9b0118a83508d91c3d70e"/>
 <keyword name="Sphere()" id="Sphere::Sphere_acacfd6de079ea50acdaf57b823166651" ref="classSphere.html#acacfd6de079ea50acdaf57b823166651"/>
 <keyword name="Sphere(B x, B y, B z, B radius)" id="Sphere::Sphere_ad239e8ffe3e908bc84db5e084806ca3f" ref="classSphere.html#ad239e8ffe3e908bc84db5e084806ca3f"/>
 <keyword name="Sphere()" id="Sphere&lt; double &gt;::Sphere_acacfd6de079ea50acdaf57b823166651" ref="classSphere.html#acacfd6de079ea50acdaf57b823166651"/>
 <keyword name="Sphere(B x, B y, B z, B radius)" id="Sphere&lt; double &gt;::Sphere_ad239e8ffe3e908bc84db5e084806ca3f" ref="classSphere.html#ad239e8ffe3e908bc84db5e084806ca3f"/>
+<keyword name="spinBox_" id="SliderWidget::spinBox__a99c4924701e9e37778db465e2a038246" ref="classSliderWidget.html#a99c4924701e9e37778db465e2a038246"/>
+<keyword name="stack_" id="Voxels::stack__a606f240b3d8e31d2c0fe0865ee0cadf0" ref="classVoxels.html#a606f240b3d8e31d2c0fe0865ee0cadf0"/>
 <keyword name="start()" id="Thread::start_a1f53ee62bd30a7924186ef26150ce262" ref="classThread.html#a1f53ee62bd30a7924186ef26150ce262"/>
 <keyword name="start(const std::string &amp;outputPath, const std::string &amp;inputPath, const IndexFileBuilder::Settings &amp;settings)" id="IndexFileBuilder::start_a3280a636f3d5ba198828cf7051c62135" ref="classIndexFileBuilder.html#a3280a636f3d5ba198828cf7051c62135"/>
+<keyword name="start(int voxelSize, int threshold)" id="SegmentationThread::start_a9e1faef03cf876577f8240e0f5013c51" ref="classSegmentationThread.html#a9e1faef03cf876577f8240e0f5013c51"/>
 <keyword name="start_" id="IndexFileBuilder::start__a81fc2fec806333a20ddc316fbd235feb" ref="classIndexFileBuilder.html#a81fc2fec806333a20ddc316fbd235feb"/>
 <keyword name="state() const" id="Page::state_a924a92d92d7d9c1eb650cf8983169826" ref="classPage.html#a924a92d92d7d9c1eb650cf8983169826"/>
 <keyword name="State" id="Thread::State_af7ce7e2ee31f34185c4c25a94731977e" ref="classThread.html#af7ce7e2ee31f34185c4c25a94731977e"/>
@@ -3225,9 +3355,14 @@
 <keyword name="STATE_RUN_MODIFIERS" id="Page::STATE_RUN_MODIFIERS_a0bdf6886be75ddfd1b4626a5ced85c7aa3f06635f317b04378d7fb621cd22c789" ref="classPage.html#a0bdf6886be75ddfd1b4626a5ced85c7aa3f06635f317b04378d7fb621cd22c789"/>
 <keyword name="STATE_RENDER" id="Page::STATE_RENDER_a0bdf6886be75ddfd1b4626a5ced85c7aa64b7c31814837db21f4ed398c5207e6a" ref="classPage.html#a0bdf6886be75ddfd1b4626a5ced85c7aa64b7c31814837db21f4ed398c5207e6a"/>
 <keyword name="STATE_RENDERED" id="Page::STATE_RENDERED_a0bdf6886be75ddfd1b4626a5ced85c7aa4d73db2c4cad114129f72e09a1960226" ref="classPage.html#a0bdf6886be75ddfd1b4626a5ced85c7aa4d73db2c4cad114129f72e09a1960226"/>
+<keyword name="State" id="SegmentationThread::State_a2b488593f36eac816f4a13d7609993e4" ref="classSegmentationThread.html#a2b488593f36eac816f4a13d7609993e4"/>
+<keyword name="STATE_VOXEL_SIZE" id="SegmentationThread::STATE_VOXEL_SIZE_a2b488593f36eac816f4a13d7609993e4ad0071fb3345d1323a666988162f68d21" ref="classSegmentationThread.html#a2b488593f36eac816f4a13d7609993e4ad0071fb3345d1323a666988162f68d21"/>
+<keyword name="STATE_THRESHOLD" id="SegmentationThread::STATE_THRESHOLD_a2b488593f36eac816f4a13d7609993e4ad0225338b964474924602aa1c64d8036" ref="classSegmentationThread.html#a2b488593f36eac816f4a13d7609993e4ad0225338b964474924602aa1c64d8036"/>
+<keyword name="STATE_FINISHED" id="SegmentationThread::STATE_FINISHED_a2b488593f36eac816f4a13d7609993e4a18e3c5b4f1b0aab6f24eca09a101e3f4" ref="classSegmentationThread.html#a2b488593f36eac816f4a13d7609993e4a18e3c5b4f1b0aab6f24eca09a101e3f4"/>
 <keyword name="state_" id="Thread::state__a3d4cc84fbd421732c4d148db43281b53" ref="classThread.html#a3d4cc84fbd421732c4d148db43281b53"/>
 <keyword name="state_" id="IndexFileBuilder::state__af059ebfc9d78f1511e3c90008e3556d7" ref="classIndexFileBuilder.html#af059ebfc9d78f1511e3c90008e3556d7"/>
 <keyword name="state_" id="Page::state__a24e637d52c3d3d95ed172647a66f2896" ref="classPage.html#a24e637d52c3d3d95ed172647a66f2896"/>
+<keyword name="state_" id="SegmentationThread::state__ac9e1bc3ed1d3a928b922b7a7136a2ed2" ref="classSegmentationThread.html#ac9e1bc3ed1d3a928b922b7a7136a2ed2"/>
 <keyword name="STATE_BEGIN" id="IndexFileBuilder::STATE_BEGIN_ad3b2fc13c6453565308feb2daa92c034a42524ffe4104b39df957f72fc6f50358" ref="classIndexFileBuilder.html#ad3b2fc13c6453565308feb2daa92c034a42524ffe4104b39df957f72fc6f50358"/>
 <keyword name="STATE_CANCEL" id="Thread::STATE_CANCEL_af7ce7e2ee31f34185c4c25a94731977ea404395b07999996e809d062f7de10a3f" ref="classThread.html#af7ce7e2ee31f34185c4c25a94731977ea404395b07999996e809d062f7de10a3f"/>
 <keyword name="STATE_COPY" id="IndexFileBuilder::STATE_COPY_ad3b2fc13c6453565308feb2daa92c034a12d081d003be98efb852a78b40c5748b" ref="classIndexFileBuilder.html#ad3b2fc13c6453565308feb2daa92c034a12d081d003be98efb852a78b40c5748b"/>
@@ -3236,6 +3371,7 @@
 <keyword name="STATE_COPY_VLR" id="IndexFileBuilder::STATE_COPY_VLR_ad3b2fc13c6453565308feb2daa92c034ada37e3f06891ec27b889d792ddf3cd42" ref="classIndexFileBuilder.html#ad3b2fc13c6453565308feb2daa92c034ada37e3f06891ec27b889d792ddf3cd42"/>
 <keyword name="STATE_END" id="IndexFileBuilder::STATE_END_ad3b2fc13c6453565308feb2daa92c034a07d37b5b1846462120890fc8d164406e" ref="classIndexFileBuilder.html#ad3b2fc13c6453565308feb2daa92c034a07d37b5b1846462120890fc8d164406e"/>
 <keyword name="STATE_EXIT" id="Thread::STATE_EXIT_af7ce7e2ee31f34185c4c25a94731977ea2d9f611aff2ac2f1bc41f1b4f1fb0c35" ref="classThread.html#af7ce7e2ee31f34185c4c25a94731977ea2d9f611aff2ac2f1bc41f1b4f1fb0c35"/>
+<keyword name="STATE_FINISHED" id="SegmentationThread::STATE_FINISHED_a2b488593f36eac816f4a13d7609993e4a18e3c5b4f1b0aab6f24eca09a101e3f4" ref="classSegmentationThread.html#a2b488593f36eac816f4a13d7609993e4a18e3c5b4f1b0aab6f24eca09a101e3f4"/>
 <keyword name="STATE_MAIN_BEGIN" id="IndexFileBuilder::STATE_MAIN_BEGIN_ad3b2fc13c6453565308feb2daa92c034a65fd63bbd7fb955810d7172ffeea2c76" ref="classIndexFileBuilder.html#ad3b2fc13c6453565308feb2daa92c034a65fd63bbd7fb955810d7172ffeea2c76"/>
 <keyword name="STATE_MAIN_END" id="IndexFileBuilder::STATE_MAIN_END_ad3b2fc13c6453565308feb2daa92c034a09298ba7011a6c1cde187d4ffc892bee" ref="classIndexFileBuilder.html#ad3b2fc13c6453565308feb2daa92c034a09298ba7011a6c1cde187d4ffc892bee"/>
 <keyword name="STATE_MAIN_INSERT" id="IndexFileBuilder::STATE_MAIN_INSERT_ad3b2fc13c6453565308feb2daa92c034afbf1951d425b55003ddb5f3abff5bcc7" ref="classIndexFileBuilder.html#ad3b2fc13c6453565308feb2daa92c034afbf1951d425b55003ddb5f3abff5bcc7"/>
@@ -3251,10 +3387,13 @@
 <keyword name="STATE_RUN" id="Thread::STATE_RUN_af7ce7e2ee31f34185c4c25a94731977ea73d334fd1ae218c0f1d2dc2080cb6f25" ref="classThread.html#af7ce7e2ee31f34185c4c25a94731977ea73d334fd1ae218c0f1d2dc2080cb6f25"/>
 <keyword name="STATE_RUN_MODIFIERS" id="Page::STATE_RUN_MODIFIERS_a0bdf6886be75ddfd1b4626a5ced85c7aa3f06635f317b04378d7fb621cd22c789" ref="classPage.html#a0bdf6886be75ddfd1b4626a5ced85c7aa3f06635f317b04378d7fb621cd22c789"/>
 <keyword name="STATE_SELECT" id="Page::STATE_SELECT_a0bdf6886be75ddfd1b4626a5ced85c7aad98f96b3e2d6a2807ddc1c16c6647ee9" ref="classPage.html#a0bdf6886be75ddfd1b4626a5ced85c7aad98f96b3e2d6a2807ddc1c16c6647ee9"/>
+<keyword name="STATE_THRESHOLD" id="SegmentationThread::STATE_THRESHOLD_a2b488593f36eac816f4a13d7609993e4ad0225338b964474924602aa1c64d8036" ref="classSegmentationThread.html#a2b488593f36eac816f4a13d7609993e4ad0225338b964474924602aa1c64d8036"/>
 <keyword name="STATE_TRANSFORM" id="Page::STATE_TRANSFORM_a0bdf6886be75ddfd1b4626a5ced85c7aac89636ebb879da26dd403331e69f540d" ref="classPage.html#a0bdf6886be75ddfd1b4626a5ced85c7aac89636ebb879da26dd403331e69f540d"/>
+<keyword name="STATE_VOXEL_SIZE" id="SegmentationThread::STATE_VOXEL_SIZE_a2b488593f36eac816f4a13d7609993e4ad0071fb3345d1323a666988162f68d21" ref="classSegmentationThread.html#a2b488593f36eac816f4a13d7609993e4ad0071fb3345d1323a666988162f68d21"/>
 <keyword name="stateCopy()" id="IndexFileBuilder::stateCopy_a0a6d9d3f8d163d047f50ceb5415066f0" ref="classIndexFileBuilder.html#a0a6d9d3f8d163d047f50ceb5415066f0"/>
 <keyword name="stateCopyPoints()" id="IndexFileBuilder::stateCopyPoints_ae8ba81be2fa095faae8f8fd63af19bdc" ref="classIndexFileBuilder.html#ae8ba81be2fa095faae8f8fd63af19bdc"/>
 <keyword name="stateEnd()" id="IndexFileBuilder::stateEnd_ae10a57af7f9c2538e2fd94a154d5340a" ref="classIndexFileBuilder.html#ae10a57af7f9c2538e2fd94a154d5340a"/>
+<keyword name="stateInitialized_" id="SegmentationThread::stateInitialized__ae3aa18203f93f6b2c6cb3a4f32d7229c" ref="classSegmentationThread.html#ae3aa18203f93f6b2c6cb3a4f32d7229c"/>
 <keyword name="stateMainBegin()" id="IndexFileBuilder::stateMainBegin_ab3167f1bf6d5c8f839e1e01b7ab34c4b" ref="classIndexFileBuilder.html#ab3167f1bf6d5c8f839e1e01b7ab34c4b"/>
 <keyword name="stateMainEnd()" id="IndexFileBuilder::stateMainEnd_aa1545ac1bf9d9ef8cd3cb3a4c1888469" ref="classIndexFileBuilder.html#aa1545ac1bf9d9ef8cd3cb3a4c1888469"/>
 <keyword name="stateMainInsert()" id="IndexFileBuilder::stateMainInsert_a1cede7375c5751e0bb1b4793aed4b5a1" ref="classIndexFileBuilder.html#a1cede7375c5751e0bb1b4793aed4b5a1"/>
@@ -3264,6 +3403,7 @@
 <keyword name="stateNodeEnd()" id="IndexFileBuilder::stateNodeEnd_ad96867f425717a02661e47cd199043d9" ref="classIndexFileBuilder.html#ad96867f425717a02661e47cd199043d9"/>
 <keyword name="stateNodeInsert()" id="IndexFileBuilder::stateNodeInsert_aa2f10cf0750d736387b1287fa44b83e2" ref="classIndexFileBuilder.html#aa2f10cf0750d736387b1287fa44b83e2"/>
 <keyword name="status() const" id="ChunkFile::status_a2eaf343a0aea445734fc42800590f5e3" ref="classChunkFile.html#a2eaf343a0aea445734fc42800590f5e3"/>
+<keyword name="statusProgressBar_" id="MainWindow::statusProgressBar__a5f91991cb17aae871bcb2f45e3dc6c54" ref="classMainWindow.html#a5f91991cb17aae871bcb2f45e3dc6c54"/>
 <keyword name="step_" id="IndexFileBuilder::step__a0575898e6a01d2608b4102ee78a25067" ref="classIndexFileBuilder.html#a0575898e6a01d2608b4102ee78a25067"/>
 <keyword name="stop()" id="Thread::stop_abd50159ecd409936f454c2321f673616" ref="classThread.html#abd50159ecd409936f454c2321f673616"/>
 <keyword name="string" id="Json::Data::string_a2480aa158afd74360c58d0903cb57264" ref="classJson_1_1Data.html#a2480aa158afd74360c58d0903cb57264"/>
@@ -3271,17 +3411,19 @@
 <keyword name="subOffsetEvlr(uint64_t decrement)" id="LasFile::Header::subOffsetEvlr_a61472b0d3e9acd62750ee17af8a18870" ref="structLasFile_1_1Header.html#a61472b0d3e9acd62750ee17af8a18870"/>
 <keyword name="subOffsetWdpr(uint64_t decrement)" id="LasFile::Header::subOffsetWdpr_aa7da0e0ce5ce5d975944f793838d7bd1" ref="structLasFile_1_1Header.html#aa7da0e0ce5ce5d975944f793838d7bd1"/>
 <keyword name="suspendThreads()" id="MainWindow::suspendThreads_ad4b63df5640f381056f422c7ce4254f5" ref="classMainWindow.html#ad4b63df5640f381056f422c7ce4254f5"/>
+<keyword name="suspendThreads()" id="SegmentationWindow::suspendThreads_afa096cae4303315f688047afa9915f2b" ref="classSegmentationWindow.html#afa096cae4303315f688047afa9915f2b"/>
 <keyword name="system_identifier[32]" id="LasFile::Header::system_identifier_a7f1a49fa088b44cd1eeef73440328724" ref="structLasFile_1_1Header.html#a7f1a49fa088b44cd1eeef73440328724"/>
 <keyword name="tabWidget_" id="ProjectNavigatorWindow::tabWidget__a7c84cb657f9b82b6880eb386e0cb5412" ref="classProjectNavigatorWindow.html#a7c84cb657f9b82b6880eb386e0cb5412"/>
 <keyword name="tabWidget_" id="SettingsWindow::tabWidget__ab81433217b4ab47cf9fb6f766ad260e4" ref="classSettingsWindow.html#ab81433217b4ab47cf9fb6f766ad260e4"/>
+<keyword name="ThemeIcon(const QString &amp;prefix, const QString &amp;name)" id="ThemeIcon::ThemeIcon_ae1e18c15ab1b71e939b2a427e756090c" ref="classThemeIcon.html#ae1e18c15ab1b71e939b2a427e756090c"/>
 <keyword name="Thread()" id="Thread::Thread_a95c703fb8f2f27cb64f475a8c940864a" ref="classThread.html#a95c703fb8f2f27cb64f475a8c940864a"/>
 <keyword name="thread_" id="Thread::thread__a745837e8c54d86f86addd823018a38c6" ref="classThread.html#a745837e8c54d86f86addd823018a38c6"/>
 <keyword name="threadProgress(bool finished)=0" id="ThreadCallbackInterface::threadProgress_a07a215f8f95ad1c0c1dac69c142c020d" ref="classThreadCallbackInterface.html#a07a215f8f95ad1c0c1dac69c142c020d"/>
 <keyword name="threadProgress(bool finished)" id="MainWindow::threadProgress_ac05511606a6ea4e3429445e255915649" ref="classMainWindow.html#ac05511606a6ea4e3429445e255915649"/>
+<keyword name="threadProgress(bool finished)" id="SegmentationWindow::threadProgress_a51df0ac44ccf359626b43fad9fc36bd6" ref="classSegmentationWindow.html#a51df0ac44ccf359626b43fad9fc36bd6"/>
 <keyword name="threadRender_" id="MainWindow::threadRender__a85a27fbde71c5900149c6417e9e73555" ref="classMainWindow.html#a85a27fbde71c5900149c6417e9e73555"/>
-<keyword name="thresholdGroup_" id="SegmentationWindow::thresholdGroup__a1620ea10342828a56eb6dd0986e4b8e9" ref="classSegmentationWindow.html#a1620ea10342828a56eb6dd0986e4b8e9"/>
-<keyword name="thresholdSlider_" id="SegmentationWindow::thresholdSlider__adef64b141ad79bf5abad0c29371fef7d" ref="classSegmentationWindow.html#adef64b141ad79bf5abad0c29371fef7d"/>
-<keyword name="thresholdSpinBox_" id="SegmentationWindow::thresholdSpinBox__aa8b5c693fb07e13a441f1ce31fd51ae4" ref="classSegmentationWindow.html#aa8b5c693fb07e13a441f1ce31fd51ae4"/>
+<keyword name="threshold_" id="SegmentationThread::threshold__a8d8d0f9f8d351ea45dcb749d0510d437" ref="classSegmentationThread.html#a8d8d0f9f8d351ea45dcb749d0510d437"/>
+<keyword name="thresholdInput_" id="SegmentationWindow::thresholdInput__aeacdcc3ab43d2ba9980e5f1368de464e" ref="classSegmentationWindow.html#aeacdcc3ab43d2ba9980e5f1368de464e"/>
 <keyword name="tileId" id="IndexFile::SelectionTile::tileId_afe0b3251457bf3ac0899169faa51751f" ref="structIndexFile_1_1SelectionTile.html#afe0b3251457bf3ac0899169faa51751f"/>
 <keyword name="tmpname(const std::string &amp;path)" id="File::tmpname_adbb1906a2c192d3faf72273c4c23edd3" ref="classFile.html#adbb1906a2c192d3faf72273c4c23edd3"/>
 <keyword name="tmpname(const std::string &amp;outputPath, const std::string &amp;inputPath)" id="File::tmpname_aa6349b7e96276a282a4927fecc4a44fc" ref="classFile.html#aa6349b7e96276a282a4927fecc4a44fc"/>
@@ -3349,7 +3491,9 @@
 <keyword name="updateFrustrum()" id="ViewerCamera::updateFrustrum_aab90be179455d85f88273b2f7f6b9067" ref="classViewerCamera.html#aab90be179455d85f88273b2f7f6b9067"/>
 <keyword name="updateMatrix()" id="ViewerCamera::updateMatrix_ae52c7f8831e83f50d7b7a34da725972a" ref="classViewerCamera.html#ae52c7f8831e83f50d7b7a34da725972a"/>
 <keyword name="updateModifiers()" id="MainWindow::updateModifiers_ad38737cf15e5efc031a03010660c6c44" ref="classMainWindow.html#ad38737cf15e5efc031a03010660c6c44"/>
+<keyword name="updateProgressPercent()" id="SegmentationThread::updateProgressPercent_a7a8a3dad23d0bc3a03963cd872074953" ref="classSegmentationThread.html#a7a8a3dad23d0bc3a03963cd872074953"/>
 <keyword name="updateProjection()" id="ViewerCamera::updateProjection_a7f117e5207316099d8569ad7f5591625" ref="classViewerCamera.html#a7f117e5207316099d8569ad7f5591625"/>
+<keyword name="updateRange()" id="SegmentationWindow::updateRange_a30a2dc38bda35a517080a6f1eb7648f7" ref="classSegmentationWindow.html#a30a2dc38bda35a517080a6f1eb7648f7"/>
 <keyword name="updateRender()" id="MainWindow::updateRender_aa2a5945f9c4bf90022f0a7ad3db34c49" ref="classMainWindow.html#aa2a5945f9c4bf90022f0a7ad3db34c49"/>
 <keyword name="updateScene(Editor *editor)" id="ViewerOpenGLViewport::updateScene_a92754e2655b195a2f491d47e48d31a74" ref="classViewerOpenGLViewport.html#a92754e2655b195a2f491d47e48d31a74"/>
 <keyword name="updateScene(Editor *editor)" id="ViewerViewports::updateScene_adceb6774e8ab9ceea923edfc3281fcb8" ref="classViewerViewports.html#adceb6774e8ab9ceea923edfc3281fcb8"/>
@@ -3374,6 +3518,7 @@
 <keyword name="userData_" id="Query::userData__a821e87e067c7cc1370658f55f21e0227" ref="classQuery.html#a821e87e067c7cc1370658f55f21e0227"/>
 <keyword name="userGreen()" id="Query::userGreen_a7a3de73294fdb52106d4da1afc5bfe11" ref="classQuery.html#a7a3de73294fdb52106d4da1afc5bfe11"/>
 <keyword name="userRed()" id="Query::userRed_ad460135843b3f1aa80dc9ca9a3cdbc8b" ref="classQuery.html#ad460135843b3f1aa80dc9ca9a3cdbc8b"/>
+<keyword name="V" id="SegmentationPca::V_ae0694d43f823d1e8056a6ce517dc04c5" ref="classSegmentationPca.html#ae0694d43f823d1e8056a6ce517dc04c5"/>
 <keyword name="valid_" id="ViewerAabb::valid__a9e545b8e0f69a6334c3c2c134bae58a2" ref="classViewerAabb.html#a9e545b8e0f69a6334c3c2c134bae58a2"/>
 <keyword name="validate()" id="Box::validate_ae6d792cb0c22ffd4bc2572e320227b87" ref="classBox.html#ae6d792cb0c22ffd4bc2572e320227b87"/>
 <keyword name="validate(const Chunk &amp;chunk, uint32_t type, uint8_t majorVersion, uint8_t minorVersion) const" id="ChunkFile::validate_a9f1b4b91acd806bfb1a5ef1f208e3035" ref="classChunkFile.html#a9f1b4b91acd806bfb1a5ef1f208e3035"/>
@@ -3382,8 +3527,8 @@
 <keyword name="validate()" id="Box&lt; double &gt;::validate_ae6d792cb0c22ffd4bc2572e320227b87" ref="classBox.html#ae6d792cb0c22ffd4bc2572e320227b87"/>
 <keyword name="validate()" id="Cone&lt; double &gt;::validate_ae23be68b96cda9c18b0807826f23e800" ref="classCone.html#ae23be68b96cda9c18b0807826f23e800"/>
 <keyword name="validate()" id="Sphere&lt; double &gt;::validate_a7389dd82079a2d2628f28a75674e9489" ref="classSphere.html#a7389dd82079a2d2628f28a75674e9489"/>
+<keyword name="value()" id="SliderWidget::value_a05ed61d5bb79a82da1f51f73b5e2466a" ref="classSliderWidget.html#a05ed61d5bb79a82da1f51f73b5e2466a"/>
 <keyword name="value_" id="IndexFileBuilder::value__a49d4c32ddfcbc0430e3c753178e7e90b" ref="classIndexFileBuilder.html#a49d4c32ddfcbc0430e3c753178e7e90b"/>
-<keyword name="value_" id="Voxels::value__ae72cc20321a325a71ed0e5e5f9473f7c" ref="classVoxels.html#ae72cc20321a325a71ed0e5e5f9473f7c"/>
 <keyword name="valueIdx_" id="IndexFileBuilder::valueIdx__aa8f6f6b5c6c35fdeb30798064216a1e2" ref="classIndexFileBuilder.html#aa8f6f6b5c6c35fdeb30798064216a1e2"/>
 <keyword name="valueTotal_" id="IndexFileBuilder::valueTotal__a44806376fe0528af33ba9fd15d53023f" ref="classIndexFileBuilder.html#a44806376fe0528af33ba9fd15d53023f"/>
 <keyword name="Vector3()" id="Vector3::Vector3_a54f99f4211298d5245ea578bdd5143cc" ref="classVector3.html#a54f99f4211298d5245ea578bdd5143cc"/>
@@ -3398,10 +3543,6 @@
 <keyword name="Vector3(double v0, double v1, double v2)" id="Vector3&lt; double &gt;::Vector3_a8ed0fa42d6b8ce876140de122a3fd068" ref="classVector3.html#a8ed0fa42d6b8ce876140de122a3fd068"/>
 <keyword name="Vector3(uint32_t v24)" id="Vector3&lt; double &gt;::Vector3_ae202bc0d70533c3f278d6bacead29358" ref="classVector3.html#ae202bc0d70533c3f278d6bacead29358"/>
 <keyword name="Vector3(const Vector3&lt; B &gt; &amp;v)" id="Vector3&lt; double &gt;::Vector3_a82ffd83aa2fcaea943361562e47ab9c4" ref="classVector3.html#a82ffd83aa2fcaea943361562e47ab9c4"/>
-<keyword name="Vector3()" id="Vector3&lt; size_t &gt;::Vector3_a54f99f4211298d5245ea578bdd5143cc" ref="classVector3.html#a54f99f4211298d5245ea578bdd5143cc"/>
-<keyword name="Vector3(size_t v0, size_t v1, size_t v2)" id="Vector3&lt; size_t &gt;::Vector3_a8ed0fa42d6b8ce876140de122a3fd068" ref="classVector3.html#a8ed0fa42d6b8ce876140de122a3fd068"/>
-<keyword name="Vector3(uint32_t v24)" id="Vector3&lt; size_t &gt;::Vector3_ae202bc0d70533c3f278d6bacead29358" ref="classVector3.html#ae202bc0d70533c3f278d6bacead29358"/>
-<keyword name="Vector3(const Vector3&lt; B &gt; &amp;v)" id="Vector3&lt; size_t &gt;::Vector3_a82ffd83aa2fcaea943361562e47ab9c4" ref="classVector3.html#a82ffd83aa2fcaea943361562e47ab9c4"/>
 <keyword name="verbose" id="IndexFileBuilder::Settings::verbose_acfd5141f1dad6bb95a999967429ffdf1" ref="classIndexFileBuilder_1_1Settings.html#acfd5141f1dad6bb95a999967429ffdf1"/>
 <keyword name="version_major" id="LasFile::Header::version_major_adaf7a4238f113a794ab7b24609e79706" ref="structLasFile_1_1Header.html#adaf7a4238f113a794ab7b24609e79706"/>
 <keyword name="version_minor" id="LasFile::Header::version_minor_a72292110e59c0af02845558736926ff3" ref="structLasFile_1_1Header.html#a72292110e59c0af02845558736926ff3"/>
@@ -3428,10 +3569,10 @@
 <keyword name="viewportId() const" id="ViewerOpenGLViewport::viewportId_a7afb9e787cdaab558648ae9ec7f4faf7" ref="classViewerOpenGLViewport.html#a7afb9e787cdaab558648ae9ec7f4faf7"/>
 <keyword name="viewportId_" id="RenderThread::viewportId__a0cbac4b60bf8be44316fd3ff25e533e5" ref="classRenderThread.html#a0cbac4b60bf8be44316fd3ff25e533e5"/>
 <keyword name="viewportId_" id="ViewerOpenGLViewport::viewportId__aebc393ce3e433f2aab54d4432cc2e1a6" ref="classViewerOpenGLViewport.html#aebc393ce3e433f2aab54d4432cc2e1a6"/>
-<keyword name="Viewports()" id="Viewports::Viewports_a6ad2ff587fccc7fd92f926098dd35e88" ref="classViewports.html#a6ad2ff587fccc7fd92f926098dd35e88"/>
 <keyword name="viewports()" id="Editor::viewports_ab92648c48738b6b969a542b16a9cdad4" ref="classEditor.html#ab92648c48738b6b969a542b16a9cdad4"/>
 <keyword name="viewports() const" id="Editor::viewports_a17ba09a4210d2ddf4af1ba72cd4c3fe7" ref="classEditor.html#a17ba09a4210d2ddf4af1ba72cd4c3fe7"/>
 <keyword name="viewports()" id="ViewerPlugin::viewports_a489085e9ed4e929b93b301605b72f2ce" ref="classViewerPlugin.html#a489085e9ed4e929b93b301605b72f2ce"/>
+<keyword name="Viewports()" id="Viewports::Viewports_a6ad2ff587fccc7fd92f926098dd35e88" ref="classViewports.html#a6ad2ff587fccc7fd92f926098dd35e88"/>
 <keyword name="viewports_" id="Editor::viewports__abc3de124c1b770afe56114111fee9a9e" ref="classEditor.html#abc3de124c1b770afe56114111fee9a9e"/>
 <keyword name="viewports_" id="Viewports::viewports__a3574e0d328a1ba3a525b6e641e333f55" ref="classViewports.html#a3574e0d328a1ba3a525b6e641e333f55"/>
 <keyword name="viewports_" id="ViewerPlugin::viewports__a9b94cd8ce2f4a2c5cc6ff0e2ca1e6ccf" ref="classViewerPlugin.html#a9b94cd8ce2f4a2c5cc6ff0e2ca1e6ccf"/>
@@ -3440,6 +3581,13 @@
 <keyword name="Voxels()" id="Voxels::Voxels_a10063cfcf5a4fd91e520a4dcbb3eb80c" ref="classVoxels.html#a10063cfcf5a4fd91e520a4dcbb3eb80c"/>
 <keyword name="voxels() const" id="Editor::voxels_afc93f79454969ed4fed0675da2873be9" ref="classEditor.html#afc93f79454969ed4fed0675da2873be9"/>
 <keyword name="voxels_" id="Editor::voxels__a14c69f859e95fa20f2c40ea6b9a9138b" ref="classEditor.html#a14c69f859e95fa20f2c40ea6b9a9138b"/>
+<keyword name="voxels_" id="SegmentationThread::voxels__a6f8742a14773dc521ef792a994c3c86d" ref="classSegmentationThread.html#a6f8742a14773dc521ef792a994c3c86d"/>
+<keyword name="voxelSize_" id="Voxels::voxelSize__a0f1e785699af85e9673c65dd10a94b3b" ref="classVoxels.html#a0f1e785699af85e9673c65dd10a94b3b"/>
+<keyword name="voxelSize_" id="SegmentationThread::voxelSize__ae8657b9a48c9a56f51196b8c2b685402" ref="classSegmentationThread.html#ae8657b9a48c9a56f51196b8c2b685402"/>
+<keyword name="voxelSizeInput_" id="Voxels::voxelSizeInput__a6ba16728b0f9cb06d732521faf10a5cd" ref="classVoxels.html#a6ba16728b0f9cb06d732521faf10a5cd"/>
+<keyword name="voxelSizeInput_" id="SegmentationWindow::voxelSizeInput__a4da5da828c83fea6bf0ff8c2746c7b86" ref="classSegmentationWindow.html#a4da5da828c83fea6bf0ff8c2746c7b86"/>
+<keyword name="wait()" id="Thread::wait_a0e8a26ae17743d266df954af945920ad" ref="classThread.html#a0e8a26ae17743d266df954af945920ad"/>
+<keyword name="waiting_" id="Thread::waiting__a46dcc3bc4639b7413f2dba2a613661e1" ref="classThread.html#a46dcc3bc4639b7413f2dba2a613661e1"/>
 <keyword name="wave_index" id="LasFile::Point::wave_index_a1cbae6eda700c19560b65352c1a20f0c" ref="structLasFile_1_1Point.html#a1cbae6eda700c19560b65352c1a20f0c"/>
 <keyword name="wave_offset" id="LasFile::Point::wave_offset_abe0a0f0350527f0c2421f20224343432" ref="structLasFile_1_1Point.html#abe0a0f0350527f0c2421f20224343432"/>
 <keyword name="wave_return" id="LasFile::Point::wave_return_a21bff4e368276b9309d2088103df2ee7" ref="structLasFile_1_1Point.html#a21bff4e368276b9309d2088103df2ee7"/>
@@ -3450,7 +3598,6 @@
 <keyword name="wheelEvent(QWheelEvent *event)" id="ViewerCamera::wheelEvent_ab0f28902b8973a78ef56b10b267e2c4d" ref="classViewerCamera.html#ab0f28902b8973a78ef56b10b267e2c4d"/>
 <keyword name="wheelEvent(QWheelEvent *event) override" id="ViewerOpenGLViewport::wheelEvent_aa131fb9d9067a83a4b4e5b063406a50c" ref="classViewerOpenGLViewport.html#aa131fb9d9067a83a4b4e5b063406a50c"/>
 <keyword name="widget_" id="ClassifyGroundWindow::widget__a43b4c813825a1716d185c19b19cb0320" ref="classClassifyGroundWindow.html#a43b4c813825a1716d185c19b19cb0320"/>
-<keyword name="widget_" id="SegmentationWindow::widget__a245b6a9d7aa0509ac27907a6d3c7c047" ref="classSegmentationWindow.html#a245b6a9d7aa0509ac27907a6d3c7c047"/>
 <keyword name="width() const" id="ViewerCamera::width_a331e348393e85e68892335b772422841" ref="classViewerCamera.html#a331e348393e85e68892335b772422841"/>
 <keyword name="WindowsXp32" id="ColorPalette::WindowsXp32_aad9c6c41b53e1280ec8d25425b82e00a" ref="classColorPalette.html#aad9c6c41b53e1280ec8d25425b82e00a"/>
 <keyword name="windowViewports_" id="ViewerOpenGLViewport::windowViewports__a6ef9aeeeda133f49800649c2fded631c" ref="classViewerOpenGLViewport.html#a6ef9aeeeda133f49800649c2fded631c"/>
@@ -3483,13 +3630,13 @@
 <keyword name="write(Json &amp;out) const" id="Box&lt; double &gt;::write_a03c20503e9a343a19becad41878e853e" ref="classBox.html#a03c20503e9a343a19becad41878e853e"/>
 <keyword name="write(Json &amp;out) const" id="Vector3&lt; float &gt;::write_a667066c90f575fb9c29b67fc0fbfafd1" ref="classVector3.html#a667066c90f575fb9c29b67fc0fbfafd1"/>
 <keyword name="write(Json &amp;out) const" id="Vector3&lt; double &gt;::write_a667066c90f575fb9c29b67fc0fbfafd1" ref="classVector3.html#a667066c90f575fb9c29b67fc0fbfafd1"/>
-<keyword name="write(Json &amp;out) const" id="Vector3&lt; size_t &gt;::write_a667066c90f575fb9c29b67fc0fbfafd1" ref="classVector3.html#a667066c90f575fb9c29b67fc0fbfafd1"/>
 <keyword name="writeHeader()" id="LasFile::writeHeader_a3a5baca5c7f1cad307adb31676f7cf77" ref="classLasFile.html#a3a5baca5c7f1cad307adb31676f7cf77"/>
 <keyword name="writeHeader(const Header &amp;hdr)" id="LasFile::writeHeader_a8deeb82d893c01bc5a36005d962d5615" ref="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615"/>
 <keyword name="writePath_" id="IndexFileBuilder::writePath__a65de71ff0dccffbdd66042a8d6155954" ref="classIndexFileBuilder.html#a65de71ff0dccffbdd66042a8d6155954"/>
 <keyword name="writePoint(const Point &amp;pt)" id="LasFile::writePoint_aa39ee02843aad7c29901acc50d06504e" ref="classLasFile.html#aa39ee02843aad7c29901acc50d06504e"/>
 <keyword name="writePoint(uint8_t *buffer, const Point &amp;pt) const" id="LasFile::writePoint_a9d40511b751de184e364b5460f9614de" ref="classLasFile.html#a9d40511b751de184e364b5460f9614de"/>
 <keyword name="x" id="LasFile::Point::x_abf3d2fdfeeefd9f941a62f9b3562e4d3" ref="structLasFile_1_1Point.html#abf3d2fdfeeefd9f941a62f9b3562e4d3"/>
+<keyword name="x" id="Voxels::Voxel::x_a38141eab6775cf6dbe5eab016ae6aec3" ref="structVoxels_1_1Voxel.html#a38141eab6775cf6dbe5eab016ae6aec3"/>
 <keyword name="x()" id="Query::x_aa08684c85aa912426cee444b233f1699" ref="classQuery.html#aa08684c85aa912426cee444b233f1699"/>
 <keyword name="x_" id="Cone::x__adf7d3bceb5040ef7a55e969faa674e51" ref="classCone.html#adf7d3bceb5040ef7a55e969faa674e51"/>
 <keyword name="x_" id="Sphere::x__addfe51a03aa4e751f7bdd246121ae1fa" ref="classSphere.html#addfe51a03aa4e751f7bdd246121ae1fa"/>
@@ -3498,6 +3645,7 @@
 <keyword name="x_offset" id="LasFile::Header::x_offset_ae7e9ddc9666ac1b9f1bf2592910c4348" ref="structLasFile_1_1Header.html#ae7e9ddc9666ac1b9f1bf2592910c4348"/>
 <keyword name="x_scale_factor" id="LasFile::Header::x_scale_factor_a1499a5e12615e3f162085d5a28f67aa3" ref="structLasFile_1_1Header.html#a1499a5e12615e3f162085d5a28f67aa3"/>
 <keyword name="y" id="LasFile::Point::y_a7f7ab5cf4781ecdb33d466d0078d0078" ref="structLasFile_1_1Point.html#a7f7ab5cf4781ecdb33d466d0078d0078"/>
+<keyword name="y" id="Voxels::Voxel::y_a10b94fbf36d85bbc6ff8f57507f46f1c" ref="structVoxels_1_1Voxel.html#a10b94fbf36d85bbc6ff8f57507f46f1c"/>
 <keyword name="y()" id="Query::y_ad935d2c943ebd8f661fe11d6351732a5" ref="classQuery.html#ad935d2c943ebd8f661fe11d6351732a5"/>
 <keyword name="y_" id="Cone::y__a64959b83d65af59e82d125d5d18cc68f" ref="classCone.html#a64959b83d65af59e82d125d5d18cc68f"/>
 <keyword name="y_" id="Sphere::y__a4eb091e363f5601b750a85eb82331f0f" ref="classSphere.html#a4eb091e363f5601b750a85eb82331f0f"/>
@@ -3506,6 +3654,7 @@
 <keyword name="y_offset" id="LasFile::Header::y_offset_afde5cc91fe9ad1af45bfb82243ef8500" ref="structLasFile_1_1Header.html#afde5cc91fe9ad1af45bfb82243ef8500"/>
 <keyword name="y_scale_factor" id="LasFile::Header::y_scale_factor_a1077b1fab1eb786eb9202f22f2e30d60" ref="structLasFile_1_1Header.html#a1077b1fab1eb786eb9202f22f2e30d60"/>
 <keyword name="z" id="LasFile::Point::z_a28dde80c9d7079f50d53030e313a8ca1" ref="structLasFile_1_1Point.html#a28dde80c9d7079f50d53030e313a8ca1"/>
+<keyword name="z" id="Voxels::Voxel::z_a35931196fa2790025f4f9475a07dba63" ref="structVoxels_1_1Voxel.html#a35931196fa2790025f4f9475a07dba63"/>
 <keyword name="z()" id="Query::z_a11b248d55891b84b90147495960f3ce8" ref="classQuery.html#a11b248d55891b84b90147495960f3ce8"/>
 <keyword name="z2_" id="Cone::z2__afe1825ed569920b9fb08c2865d87eed9" ref="classCone.html#afe1825ed569920b9fb08c2865d87eed9"/>
 <keyword name="z2_" id="Cone&lt; double &gt;::z2__afe1825ed569920b9fb08c2865d87eed9" ref="classCone.html#afe1825ed569920b9fb08c2865d87eed9"/>
@@ -3537,6 +3686,8 @@
 <keyword name="~PluginInterface()=default" id="PluginInterface::~PluginInterface_a760046616d22d730c341e1cc974571cd" ref="classPluginInterface.html#a760046616d22d730c341e1cc974571cd"/>
 <keyword name="~Query()" id="Query::~Query_aad0c964335e9809cc7e22af34e9e8410" ref="classQuery.html#aad0c964335e9809cc7e22af34e9e8410"/>
 <keyword name="~Region()" id="Region::~Region_a3c3670fff78f7511d156e3b2f0bc6266" ref="classRegion.html#a3c3670fff78f7511d156e3b2f0bc6266"/>
+<keyword name="~SegmentationThread()" id="SegmentationThread::~SegmentationThread_a3f8e826a615355c7ee2abb76601d2deb" ref="classSegmentationThread.html#a3f8e826a615355c7ee2abb76601d2deb"/>
+<keyword name="~SegmentationWindow()" id="SegmentationWindow::~SegmentationWindow_a4e5a757bba757a924a9cf5ce87858181" ref="classSegmentationWindow.html#a4e5a757bba757a924a9cf5ce87858181"/>
 <keyword name="~Settings()" id="IndexFileBuilder::Settings::~Settings_ae9090728c12ac291cc609660c0ee9fbb" ref="classIndexFileBuilder_1_1Settings.html#ae9090728c12ac291cc609660c0ee9fbb"/>
 <keyword name="~Sphere()" id="Sphere::~Sphere_a0aa944de5fe12ff6d41b0c668d0f6b56" ref="classSphere.html#a0aa944de5fe12ff6d41b0c668d0f6b56"/>
 <keyword name="~Sphere()" id="Sphere&lt; double &gt;::~Sphere_a0aa944de5fe12ff6d41b0c668d0f6b56" ref="classSphere.html#a0aa944de5fe12ff6d41b0c668d0f6b56"/>
@@ -3585,8 +3736,6 @@
 <file>classFile.html</file>
 <file>classHelpPlugin-members.html</file>
 <file>classHelpPlugin.html</file>
-<file>classIconTheme-members.html</file>
-<file>classIconTheme.html</file>
 <file>classImportDialog-members.html</file>
 <file>classImportDialog.html</file>
 <file>classImportPlugin-members.html</file>
@@ -3636,8 +3785,8 @@
 <file>classRegion.html</file>
 <file>classRenderThread-members.html</file>
 <file>classRenderThread.html</file>
-<file>classSegmentation-members.html</file>
-<file>classSegmentation.html</file>
+<file>classSegmentationPca-members.html</file>
+<file>classSegmentationPca.html</file>
 <file>classSegmentationPlugin-members.html</file>
 <file>classSegmentationPlugin.html</file>
 <file>classSegmentationThread-members.html</file>
@@ -3656,8 +3805,12 @@
 <file>classSettingsView.html</file>
 <file>classSettingsWindow-members.html</file>
 <file>classSettingsWindow.html</file>
+<file>classSliderWidget-members.html</file>
+<file>classSliderWidget.html</file>
 <file>classSphere-members.html</file>
 <file>classSphere.html</file>
+<file>classThemeIcon-members.html</file>
+<file>classThemeIcon.html</file>
 <file>classThread-members.html</file>
 <file>classThread.html</file>
 <file>classThreadCallbackInterface-members.html</file>
@@ -3812,6 +3965,8 @@
 <file>structLasFile_1_1Point.html</file>
 <file>structQuery_1_1Key-members.html</file>
 <file>structQuery_1_1Key.html</file>
+<file>structVoxels_1_1Voxel-members.html</file>
+<file>structVoxels_1_1Voxel.html</file>
 <file>sync_off.png</file>
 <file>sync_on.png</file>
 <file>tab_a.png</file>

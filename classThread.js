@@ -15,6 +15,7 @@ var classThread =
     [ "setState", "classThread.html#a2fdd9bda9eb9d50df3849251eaff59ea", null ],
     [ "start", "classThread.html#a1f53ee62bd30a7924186ef26150ce262", null ],
     [ "stop", "classThread.html#abd50159ecd409936f454c2321f673616", null ],
+    [ "wait", "classThread.html#a0e8a26ae17743d266df954af945920ad", null ],
     [ "callback_", "classThread.html#a47bd120decee0b00e6dce50994cd5e0c", null ],
     [ "condition_", "classThread.html#a3f27fed65babe3e53e35c0fbd6763390", null ],
     [ "conditionCaller_", "classThread.html#a91eac52d474a163c2ee7d8e3475e34ae", null ],
@@ -23,5 +24,6 @@ var classThread =
     [ "mutexCaller_", "classThread.html#ae16410c240a7cbcd05fc71d84030df54", null ],
     [ "received_", "classThread.html#a6894b3e907687c090a673f1112ee6ed7", null ],
     [ "state_", "classThread.html#a3d4cc84fbd421732c4d148db43281b53", null ],
-    [ "thread_", "classThread.html#a745837e8c54d86f86addd823018a38c6", null ]
+    [ "thread_", "classThread.html#a745837e8c54d86f86addd823018a38c6", null ],
+    [ "waiting_", "classThread.html#a46dcc3bc4639b7413f2dba2a613661e1", null ]
 ];

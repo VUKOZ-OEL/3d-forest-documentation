@@ -12,6 +12,7 @@ var classMainWindow =
     [ "loadPlugins", "classMainWindow.html#ad63ce417061edc862704eb68e7a7a2d2", null ],
     [ "minimumSizeHint", "classMainWindow.html#aa5399468cbc29ca280031efd48a6f6de", null ],
     [ "resumeThreads", "classMainWindow.html#af8a9144702df759c5883114632f1d92c", null ],
+    [ "setStatusProgressBarPercent", "classMainWindow.html#a326d567eda9b9ec6a97ff9c04382b0c4", null ],
     [ "setWindowTitle", "classMainWindow.html#a603859ec307e1f4cffc99f94f1424c3f", null ],
     [ "showError", "classMainWindow.html#a099aa96447509af81287e6277bd26e0d", null ],
     [ "signalRender", "classMainWindow.html#ab1752eb76c7658ceb65786fcdc2b12df", null ],
@@ -40,6 +41,7 @@ var classMainWindow =
     [ "projectFilePlugin_", "classMainWindow.html#a7d8470ccefbf28ad10a4af0a0d8b324f", null ],
     [ "projectNavigatorPlugin_", "classMainWindow.html#ae33f153fc996b738d6cbbd83c810f8b2", null ],
     [ "settingsPlugin_", "classMainWindow.html#adedd3fbee2bc378c6c94ef779946e343", null ],
+    [ "statusProgressBar_", "classMainWindow.html#a5f91991cb17aae871bcb2f45e3dc6c54", null ],
     [ "threadRender_", "classMainWindow.html#a85a27fbde71c5900149c6417e9e73555", null ],
     [ "toolBar_", "classMainWindow.html#a1a21bf2516346c235d5182cfcb88294c", null ],
     [ "viewerPlugin_", "classMainWindow.html#aee8e286c1365b31235d02ea39da76030", null ]

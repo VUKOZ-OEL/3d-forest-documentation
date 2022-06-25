@@ -3,7 +3,6 @@ var hierarchy =
     [ "std::array", null, [
       [ "Vector3< float >", "classVector3.html", null ],
       [ "Vector3< double >", "classVector3.html", null ],
-      [ "Vector3< size_t >", "classVector3.html", null ],
       [ "Vector3< T >", "classVector3.html", null ]
     ] ],
     [ "Box< T >", "classBox.html", null ],
@@ -41,16 +40,16 @@ var hierarchy =
     ] ],
     [ "LasFile::Point", "structLasFile_1_1Point.html", null ],
     [ "QDialog", null, [
-      [ "ImportDialog", "classImportDialog.html", null ]
+      [ "ImportDialog", "classImportDialog.html", null ],
+      [ "SegmentationWindow", "classSegmentationWindow.html", null ]
     ] ],
     [ "QDockWidget", null, [
       [ "ClassifyGroundWindow", "classClassifyGroundWindow.html", null ],
       [ "ProjectNavigatorWindow", "classProjectNavigatorWindow.html", null ],
-      [ "SegmentationWindow", "classSegmentationWindow.html", null ],
       [ "SettingsWindow", "classSettingsWindow.html", null ]
     ] ],
     [ "QIcon", null, [
-      [ "IconTheme", "classIconTheme.html", null ]
+      [ "ThemeIcon", "classThemeIcon.html", null ]
     ] ],
     [ "QMainWindow", null, [
       [ "MainWindow", "classMainWindow.html", null ]
@@ -77,11 +76,11 @@ var hierarchy =
       [ "ProjectNavigatorFiles", "classProjectNavigatorFiles.html", null ],
       [ "ProjectNavigatorLayers", "classProjectNavigatorLayers.html", null ],
       [ "SettingsColorWidget", "classSettingsColorWidget.html", null ],
+      [ "SliderWidget", "classSliderWidget.html", null ],
       [ "ViewerViewports", "classViewerViewports.html", null ]
     ] ],
     [ "Region", "classRegion.html", null ],
-    [ "Segmentation", "classSegmentation.html", null ],
-    [ "SegmentationThread", "classSegmentationThread.html", null ],
+    [ "SegmentationPca", "classSegmentationPca.html", null ],
     [ "IndexFile::Selection", "structIndexFile_1_1Selection.html", null ],
     [ "IndexFile::SelectionTile", "structIndexFile_1_1SelectionTile.html", null ],
     [ "IndexFileBuilder::Settings", "classIndexFileBuilder_1_1Settings.html", null ],
@@ -91,14 +90,17 @@ var hierarchy =
     [ "Sphere< T >", "classSphere.html", null ],
     [ "Sphere< double >", "classSphere.html", null ],
     [ "Thread", "classThread.html", [
-      [ "RenderThread", "classRenderThread.html", null ]
+      [ "RenderThread", "classRenderThread.html", null ],
+      [ "SegmentationThread", "classSegmentationThread.html", null ]
     ] ],
     [ "ThreadCallbackInterface", "classThreadCallbackInterface.html", [
-      [ "MainWindow", "classMainWindow.html", null ]
+      [ "MainWindow", "classMainWindow.html", null ],
+      [ "SegmentationWindow", "classSegmentationWindow.html", null ]
     ] ],
     [ "ViewerAabb", "classViewerAabb.html", null ],
     [ "ViewerCamera", "classViewerCamera.html", null ],
     [ "ViewerOpenGL", "classViewerOpenGL.html", null ],
     [ "Viewports", "classViewports.html", null ],
+    [ "Voxels::Voxel", "structVoxels_1_1Voxel.html", null ],
     [ "Voxels", "classVoxels.html", null ]
 ];

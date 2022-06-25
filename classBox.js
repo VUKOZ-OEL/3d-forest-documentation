@@ -16,6 +16,7 @@ var classBox =
     [ "isInside", "classBox.html#a855b05194e75578f3aab8ae6359e1472", null ],
     [ "length", "classBox.html#a2fd90386291b86d4d2e2672df70d4b0b", null ],
     [ "max", "classBox.html#a373b9710b5a66263e7b8b2d1813300e6", null ],
+    [ "maximumLength", "classBox.html#a6fae4bbaf15c8b5a6c7ac330f8a7a784", null ],
     [ "min", "classBox.html#ab26e65e3e40bb6179039f62b6e75464b", null ],
     [ "radius", "classBox.html#af38477a148da11f3f931e412b08efa97", null ],
     [ "read", "classBox.html#ab89ea3104acbbc12dfaf020edb472d94", null ],

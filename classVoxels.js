@@ -1,8 +1,25 @@
 var classVoxels =
 [
+    [ "Voxel", "structVoxels_1_1Voxel.html", "structVoxels_1_1Voxel" ],
     [ "Voxels", "classVoxels.html#a10063cfcf5a4fd91e520a4dcbb3eb80c", null ],
+    [ "at", "classVoxels.html#a4de99427a7809aa8a23b28c37ebab0e8", null ],
+    [ "at", "classVoxels.html#afff1b402be1110ffd8d5a14399a0e8bb", null ],
+    [ "at", "classVoxels.html#a4a3d8c94d0d74415e7e4a9870207a936", null ],
+    [ "at", "classVoxels.html#a751981baecdb0637cf4130c5f2ade60d", null ],
     [ "clear", "classVoxels.html#af0d991f4e4247ca866cb4a04ceb51d31", null ],
-    [ "dim_", "classVoxels.html#a77d4350a390f1d3d7f1d0a50d65bf15e", null ],
-    [ "position_", "classVoxels.html#a69956283fe1da5791cb4ed44f285ae7f", null ],
-    [ "value_", "classVoxels.html#ae72cc20321a325a71ed0e5e5f9473f7c", null ]
+    [ "create", "classVoxels.html#a12f61412517408f6747837ef088c7ea7", null ],
+    [ "data", "classVoxels.html#ad4dde7f2e5ec6fae4253fe98e3bd1e28", null ],
+    [ "next", "classVoxels.html#a38e92206357ac01e5c447504e4a33ea3", null ],
+    [ "push", "classVoxels.html#a652cf18ae49e6f3146b8c206f2073a4f", null ],
+    [ "resize", "classVoxels.html#ad3554b726c68e0be2c88cceef8f81d30", null ],
+    [ "size", "classVoxels.html#af4153e26aa9597b9a56c93b82578c68b", null ],
+    [ "data_", "classVoxels.html#a96650a7940bffdf13cc194318c12ecd8", null ],
+    [ "numberOfVoxels_", "classVoxels.html#a65768a02714c42b8922ef04b00ff90cb", null ],
+    [ "nx_", "classVoxels.html#a55b672b940cd347097efbd1cc4947b85", null ],
+    [ "ny_", "classVoxels.html#ab972988a2a98e8fc354c0859550f9469", null ],
+    [ "nz_", "classVoxels.html#a24d00aef4bd97eee51b65920cea0eafb", null ],
+    [ "spaceRegion_", "classVoxels.html#aa3d7c6348af9b0118a83508d91c3d70e", null ],
+    [ "stack_", "classVoxels.html#a606f240b3d8e31d2c0fe0865ee0cadf0", null ],
+    [ "voxelSize_", "classVoxels.html#a0f1e785699af85e9673c65dd10a94b3b", null ],
+    [ "voxelSizeInput_", "classVoxels.html#a6ba16728b0f9cb06d732521faf10a5cd", null ]
 ];

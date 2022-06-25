@@ -64,7 +64,7 @@ $(document).ready(function(){initNavTree('classThread.html',''); initResizable()
 
 <p><code>#include &lt;Thread.hpp&gt;</code></p>
 
-<p>Inherited by <a class="el" href="classRenderThread.html">RenderThread</a>.</p>
+<p>Inherited by <a class="el" href="classRenderThread.html">RenderThread</a>, and <a class="el" href="classSegmentationThread.html">SegmentationThread</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -82,6 +82,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab5f1ec60a122d14701747fd96daeff61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd50159ecd409936f454c2321f673616"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#abd50159ecd409936f454c2321f673616">stop</a> ()</td></tr>
 <tr class="separator:abd50159ecd409936f454c2321f673616"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e8a26ae17743d266df954af945920ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a0e8a26ae17743d266df954af945920ad">wait</a> ()</td></tr>
+<tr class="separator:a0e8a26ae17743d266df954af945920ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47ec714d0c44684ef3fa7e5ec87bb958"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a47ec714d0c44684ef3fa7e5ec87bb958">compute</a> ()=0</td></tr>
 <tr class="separator:a47ec714d0c44684ef3fa7e5ec87bb958"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -114,6 +116,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a3d4cc84fbd421732c4d148db43281b53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad033b3f88003c311c8a17cdf4a09ec94"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#ad033b3f88003c311c8a17cdf4a09ec94">finished_</a></td></tr>
 <tr class="separator:ad033b3f88003c311c8a17cdf4a09ec94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46dcc3bc4639b7413f2dba2a613661e1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a46dcc3bc4639b7413f2dba2a613661e1">waiting_</a></td></tr>
+<tr class="separator:a46dcc3bc4639b7413f2dba2a613661e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae16410c240a7cbcd05fc71d84030df54"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#ae16410c240a7cbcd05fc71d84030df54">mutexCaller_</a></td></tr>
 <tr class="separator:ae16410c240a7cbcd05fc71d84030df54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91eac52d474a163c2ee7d8e3475e34ae"><td class="memItemLeft" align="right" valign="top">std::condition_variable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a91eac52d474a163c2ee7d8e3475e34ae">conditionCaller_</a></td></tr>
@@ -210,7 +214,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classRenderThread.html#a19e2b1e2b0baedcdb47bc9bdbdb9bce5">RenderThread::render()</a>, and <a class="el" href="classMainWindow.html#ad4b63df5640f381056f422c7ce4254f5">MainWindow::suspendThreads()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classRenderThread.html#a19e2b1e2b0baedcdb47bc9bdbdb9bce5">RenderThread::render()</a>, <a class="el" href="classSegmentationThread.html#a9e1faef03cf876577f8240e0f5013c51">SegmentationThread::start()</a>, <a class="el" href="classMainWindow.html#ad4b63df5640f381056f422c7ce4254f5">MainWindow::suspendThreads()</a>, and <a class="el" href="classSegmentationWindow.html#afa096cae4303315f688047afa9915f2b">SegmentationWindow::suspendThreads()</a>.</p>
 
 </div>
 </div>
@@ -237,7 +241,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classRenderThread.html#ab16f97a2e5af978e0cd5a21290c52512">RenderThread</a>.</p>
+<p>Implemented in <a class="el" href="classRenderThread.html#ab16f97a2e5af978e0cd5a21290c52512">RenderThread</a>, and <a class="el" href="classSegmentationThread.html#a7473bc69c2924109bda24c01bae87418">SegmentationThread</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classThread.html#a7298e42790456b04102d8c6eddafd29a">runLoop()</a>.</p>
 
@@ -258,7 +262,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classMainWindow.html#a996c5a2b6f77944776856f08ec30858d">MainWindow::MainWindow()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classMainWindow.html#a996c5a2b6f77944776856f08ec30858d">MainWindow::MainWindow()</a>, and <a class="el" href="classSegmentationWindow.html#a8b647e48a9adb42f116ab4ab2796aea2">SegmentationWindow::SegmentationWindow()</a>.</p>
 
 </div>
 </div>
@@ -305,7 +309,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classMainWindow.html#a996c5a2b6f77944776856f08ec30858d">MainWindow::MainWindow()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classMainWindow.html#a996c5a2b6f77944776856f08ec30858d">MainWindow::MainWindow()</a>, and <a class="el" href="classSegmentationWindow.html#a8b647e48a9adb42f116ab4ab2796aea2">SegmentationWindow::SegmentationWindow()</a>.</p>
 
 </div>
 </div>
@@ -352,7 +356,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classRenderThread.html#a19e2b1e2b0baedcdb47bc9bdbdb9bce5">RenderThread::render()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classRenderThread.html#a19e2b1e2b0baedcdb47bc9bdbdb9bce5">RenderThread::render()</a>, and <a class="el" href="classSegmentationThread.html#a9e1faef03cf876577f8240e0f5013c51">SegmentationThread::start()</a>.</p>
 
 </div>
 </div>
@@ -371,7 +375,24 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classMainWindow.html#ae98d00a93bc118200eeef9f9bba1dba7">MainWindow::~MainWindow()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classMainWindow.html#ae98d00a93bc118200eeef9f9bba1dba7">MainWindow::~MainWindow()</a>, and <a class="el" href="classSegmentationWindow.html#a4e5a757bba757a924a9cf5ce87858181">SegmentationWindow::~SegmentationWindow()</a>.</p>
+
+</div>
+</div>
+<a id="a0e8a26ae17743d266df954af945920ad" name="a0e8a26ae17743d266df954af945920ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e8a26ae17743d266df954af945920ad">&#9670;&nbsp;</a></span>wait()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Thread::wait </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -396,7 +417,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classRenderThread.html#ab16f97a2e5af978e0cd5a21290c52512">RenderThread::compute()</a>, and <a class="el" href="classThread.html#aca6a320fefe02bdae1ab9a2e079a7f8c">setCallback()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classRenderThread.html#ab16f97a2e5af978e0cd5a21290c52512">RenderThread::compute()</a>, <a class="el" href="classSegmentationThread.html#a7473bc69c2924109bda24c01bae87418">SegmentationThread::compute()</a>, and <a class="el" href="classThread.html#aca6a320fefe02bdae1ab9a2e079a7f8c">setCallback()</a>.</p>
 
 </div>
 </div>
@@ -420,7 +441,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classThread.html#a7298e42790456b04102d8c6eddafd29a">runLoop()</a>, and <a class="el" href="classThread.html#a2fdd9bda9eb9d50df3849251eaff59ea">setState()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classThread.html#a7298e42790456b04102d8c6eddafd29a">runLoop()</a>, <a class="el" href="classThread.html#a2fdd9bda9eb9d50df3849251eaff59ea">setState()</a>, and <a class="el" href="classThread.html#a0e8a26ae17743d266df954af945920ad">wait()</a>.</p>
 
 </div>
 </div>
@@ -492,7 +513,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classThread.html#a7298e42790456b04102d8c6eddafd29a">runLoop()</a>, and <a class="el" href="classThread.html#a2fdd9bda9eb9d50df3849251eaff59ea">setState()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classThread.html#a7298e42790456b04102d8c6eddafd29a">runLoop()</a>, <a class="el" href="classThread.html#a2fdd9bda9eb9d50df3849251eaff59ea">setState()</a>, and <a class="el" href="classThread.html#a0e8a26ae17743d266df954af945920ad">wait()</a>.</p>
 
 </div>
 </div>
@@ -588,7 +609,31 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classThread.html#a51bc5725c88a3c82465234fbaf271881">create()</a>, and <a class="el" href="classThread.html#abd50159ecd409936f454c2321f673616">stop()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classThread.html#a51bc5725c88a3c82465234fbaf271881">create()</a>, <a class="el" href="classThread.html#abd50159ecd409936f454c2321f673616">stop()</a>, and <a class="el" href="classThread.html#a0e8a26ae17743d266df954af945920ad">wait()</a>.</p>
+
+</div>
+</div>
+<a id="a46dcc3bc4639b7413f2dba2a613661e1" name="a46dcc3bc4639b7413f2dba2a613661e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46dcc3bc4639b7413f2dba2a613661e1">&#9670;&nbsp;</a></span>waiting_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Thread::waiting_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classThread.html#a7298e42790456b04102d8c6eddafd29a">runLoop()</a>, and <a class="el" href="classThread.html#a0e8a26ae17743d266df954af945920ad">wait()</a>.</p>
 
 </div>
 </div>

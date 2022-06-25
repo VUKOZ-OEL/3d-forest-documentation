@@ -54,21 +54,167 @@ $(document).ready(function(){initNavTree('classSegmentationThread.html',''); ini
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-types">Protected Types</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classSegmentationThread-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">SegmentationThread Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &lt;SegmentationThread.hpp&gt;</code></p>
+
+<p>Inherits <a class="el" href="classThread.html">Thread</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5c5b9a1f21e114db574804220a7c2c21"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationThread.html#a5c5b9a1f21e114db574804220a7c2c21">SegmentationThread</a> ()</td></tr>
-<tr class="separator:a5c5b9a1f21e114db574804220a7c2c21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f2ab6b9f6b562082bdd65d0c9c763f6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationThread.html#a6f2ab6b9f6b562082bdd65d0c9c763f6">SegmentationThread</a> (<a class="el" href="classEditor.html">Editor</a> *<a class="el" href="classSegmentationThread.html#a9b689870861a19158883eccac3cd6a8b">editor</a>)</td></tr>
+<tr class="separator:a6f2ab6b9f6b562082bdd65d0c9c763f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f8e826a615355c7ee2abb76601d2deb"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationThread.html#a3f8e826a615355c7ee2abb76601d2deb">~SegmentationThread</a> ()</td></tr>
+<tr class="separator:a3f8e826a615355c7ee2abb76601d2deb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67151b7c784f73c38e5305f6aa766b90"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationThread.html#a67151b7c784f73c38e5305f6aa766b90">clear</a> ()</td></tr>
+<tr class="separator:a67151b7c784f73c38e5305f6aa766b90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e1faef03cf876577f8240e0f5013c51"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationThread.html#a9e1faef03cf876577f8240e0f5013c51">start</a> (int voxelSize, int threshold)</td></tr>
+<tr class="separator:a9e1faef03cf876577f8240e0f5013c51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6da4fedfaa66512b4678ef2f35a02a82"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationThread.html#a6da4fedfaa66512b4678ef2f35a02a82">progressPercent</a> () const</td></tr>
+<tr class="separator:a6da4fedfaa66512b4678ef2f35a02a82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7473bc69c2924109bda24c01bae87418"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationThread.html#a7473bc69c2924109bda24c01bae87418">compute</a> ()</td></tr>
+<tr class="separator:a7473bc69c2924109bda24c01bae87418"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b689870861a19158883eccac3cd6a8b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classEditor.html">Editor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationThread.html#a9b689870861a19158883eccac3cd6a8b">editor</a> () const</td></tr>
+<tr class="separator:a9b689870861a19158883eccac3cd6a8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classThread"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classThread')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classThread.html">Thread</a></td></tr>
+<tr class="memitem:a95c703fb8f2f27cb64f475a8c940864a inherit pub_methods_classThread"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a95c703fb8f2f27cb64f475a8c940864a">Thread</a> ()</td></tr>
+<tr class="separator:a95c703fb8f2f27cb64f475a8c940864a inherit pub_methods_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37d9edd3a1a776cbc27dedff949c9726 inherit pub_methods_classThread"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a37d9edd3a1a776cbc27dedff949c9726">~Thread</a> ()</td></tr>
+<tr class="separator:a37d9edd3a1a776cbc27dedff949c9726 inherit pub_methods_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca6a320fefe02bdae1ab9a2e079a7f8c inherit pub_methods_classThread"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#aca6a320fefe02bdae1ab9a2e079a7f8c">setCallback</a> (<a class="el" href="classThreadCallbackInterface.html">ThreadCallbackInterface</a> *callback)</td></tr>
+<tr class="separator:aca6a320fefe02bdae1ab9a2e079a7f8c inherit pub_methods_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51bc5725c88a3c82465234fbaf271881 inherit pub_methods_classThread"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a51bc5725c88a3c82465234fbaf271881">create</a> ()</td></tr>
+<tr class="separator:a51bc5725c88a3c82465234fbaf271881 inherit pub_methods_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f53ee62bd30a7924186ef26150ce262 inherit pub_methods_classThread"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a1f53ee62bd30a7924186ef26150ce262">start</a> ()</td></tr>
+<tr class="separator:a1f53ee62bd30a7924186ef26150ce262 inherit pub_methods_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5f1ec60a122d14701747fd96daeff61 inherit pub_methods_classThread"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#ab5f1ec60a122d14701747fd96daeff61">cancel</a> ()</td></tr>
+<tr class="separator:ab5f1ec60a122d14701747fd96daeff61 inherit pub_methods_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd50159ecd409936f454c2321f673616 inherit pub_methods_classThread"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#abd50159ecd409936f454c2321f673616">stop</a> ()</td></tr>
+<tr class="separator:abd50159ecd409936f454c2321f673616 inherit pub_methods_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e8a26ae17743d266df954af945920ad inherit pub_methods_classThread"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a0e8a26ae17743d266df954af945920ad">wait</a> ()</td></tr>
+<tr class="separator:a0e8a26ae17743d266df954af945920ad inherit pub_methods_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47ec714d0c44684ef3fa7e5ec87bb958 inherit pub_methods_classThread"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a47ec714d0c44684ef3fa7e5ec87bb958">compute</a> ()=0</td></tr>
+<tr class="separator:a47ec714d0c44684ef3fa7e5ec87bb958 inherit pub_methods_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-types" name="pro-types"></a>
+Protected Types</h2></td></tr>
+<tr class="memitem:a2b488593f36eac816f4a13d7609993e4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationThread.html#a2b488593f36eac816f4a13d7609993e4">State</a> { <a class="el" href="classSegmentationThread.html#a2b488593f36eac816f4a13d7609993e4ad0071fb3345d1323a666988162f68d21">STATE_VOXEL_SIZE</a>
+, <a class="el" href="classSegmentationThread.html#a2b488593f36eac816f4a13d7609993e4ad0225338b964474924602aa1c64d8036">STATE_THRESHOLD</a>
+, <a class="el" href="classSegmentationThread.html#a2b488593f36eac816f4a13d7609993e4a18e3c5b4f1b0aab6f24eca09a101e3f4">STATE_FINISHED</a>
+ }</td></tr>
+<tr class="separator:a2b488593f36eac816f4a13d7609993e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_types_classThread"><td colspan="2" onclick="javascript:toggleInherit('pro_types_classThread')"><img src="closed.png" alt="-"/>&#160;Protected Types inherited from <a class="el" href="classThread.html">Thread</a></td></tr>
+<tr class="memitem:af7ce7e2ee31f34185c4c25a94731977e inherit pro_types_classThread"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#af7ce7e2ee31f34185c4c25a94731977e">State</a> { <a class="el" href="classThread.html#af7ce7e2ee31f34185c4c25a94731977ea73d334fd1ae218c0f1d2dc2080cb6f25">STATE_RUN</a>
+, <a class="el" href="classThread.html#af7ce7e2ee31f34185c4c25a94731977ea404395b07999996e809d062f7de10a3f">STATE_CANCEL</a>
+, <a class="el" href="classThread.html#af7ce7e2ee31f34185c4c25a94731977ea2d9f611aff2ac2f1bc41f1b4f1fb0c35">STATE_EXIT</a>
+ }</td></tr>
+<tr class="separator:af7ce7e2ee31f34185c4c25a94731977e inherit pro_types_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:ab2847de25ae60fa2eb84927ae47eaa13"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationThread.html#ab2847de25ae60fa2eb84927ae47eaa13">setState</a> (<a class="el" href="classSegmentationThread.html#a2b488593f36eac816f4a13d7609993e4">State</a> state)</td></tr>
+<tr class="separator:ab2847de25ae60fa2eb84927ae47eaa13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a8a3dad23d0bc3a03963cd872074953"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationThread.html#a7a8a3dad23d0bc3a03963cd872074953">updateProgressPercent</a> ()</td></tr>
+<tr class="separator:a7a8a3dad23d0bc3a03963cd872074953"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ca97ad6de4ea8026f680591b419bc66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationThread.html#a7ca97ad6de4ea8026f680591b419bc66">computeInitializeLayers</a> ()</td></tr>
+<tr class="separator:a7ca97ad6de4ea8026f680591b419bc66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf34af6a26ab25d79b0f09a1fbfa9ecf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationThread.html#acf34af6a26ab25d79b0f09a1fbfa9ecf">computeVoxelSize</a> ()</td></tr>
+<tr class="separator:acf34af6a26ab25d79b0f09a1fbfa9ecf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ac4c63d56f10dab1b9957410b13a836"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationThread.html#a4ac4c63d56f10dab1b9957410b13a836">computeThreshold</a> ()</td></tr>
+<tr class="separator:a4ac4c63d56f10dab1b9957410b13a836"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classThread"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classThread')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classThread.html">Thread</a></td></tr>
+<tr class="memitem:a2fdd9bda9eb9d50df3849251eaff59ea inherit pro_methods_classThread"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a2fdd9bda9eb9d50df3849251eaff59ea">setState</a> (<a class="el" href="classThread.html#af7ce7e2ee31f34185c4c25a94731977e">State</a> state)</td></tr>
+<tr class="separator:a2fdd9bda9eb9d50df3849251eaff59ea inherit pro_methods_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7298e42790456b04102d8c6eddafd29a inherit pro_methods_classThread"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a7298e42790456b04102d8c6eddafd29a">runLoop</a> ()</td></tr>
+<tr class="separator:a7298e42790456b04102d8c6eddafd29a inherit pro_methods_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a3e7dbc0a320da651f051ac207ddea6b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classEditor.html">Editor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationThread.html#a3e7dbc0a320da651f051ac207ddea6b9">editor_</a></td></tr>
+<tr class="separator:a3e7dbc0a320da651f051ac207ddea6b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6099db1366b5da17b92a97dc4ac4074"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classQuery.html">Query</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationThread.html#ad6099db1366b5da17b92a97dc4ac4074">query_</a></td></tr>
+<tr class="separator:ad6099db1366b5da17b92a97dc4ac4074"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9e1bc3ed1d3a928b922b7a7136a2ed2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSegmentationThread.html#a2b488593f36eac816f4a13d7609993e4">State</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationThread.html#ac9e1bc3ed1d3a928b922b7a7136a2ed2">state_</a></td></tr>
+<tr class="separator:ac9e1bc3ed1d3a928b922b7a7136a2ed2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3aa18203f93f6b2c6cb3a4f32d7229c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationThread.html#ae3aa18203f93f6b2c6cb3a4f32d7229c">stateInitialized_</a></td></tr>
+<tr class="separator:ae3aa18203f93f6b2c6cb3a4f32d7229c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b9f8666a48aadae098952aa16b903f7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationThread.html#a4b9f8666a48aadae098952aa16b903f7">layersCreated_</a></td></tr>
+<tr class="separator:a4b9f8666a48aadae098952aa16b903f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2715370550eb4d0432431a832ff05b4a"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationThread.html#a2715370550eb4d0432431a832ff05b4a">progressMax_</a></td></tr>
+<tr class="separator:a2715370550eb4d0432431a832ff05b4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3d30932310bfbac59e11f62eb7f7018"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationThread.html#ae3d30932310bfbac59e11f62eb7f7018">progressValue_</a></td></tr>
+<tr class="separator:ae3d30932310bfbac59e11f62eb7f7018"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93540495bec6457f74ace32f93d131c2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationThread.html#a93540495bec6457f74ace32f93d131c2">progressPercent_</a></td></tr>
+<tr class="separator:a93540495bec6457f74ace32f93d131c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8657b9a48c9a56f51196b8c2b685402"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationThread.html#ae8657b9a48c9a56f51196b8c2b685402">voxelSize_</a></td></tr>
+<tr class="separator:ae8657b9a48c9a56f51196b8c2b685402"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d8d0f9f8d351ea45dcb749d0510d437"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationThread.html#a8d8d0f9f8d351ea45dcb749d0510d437">threshold_</a></td></tr>
+<tr class="separator:a8d8d0f9f8d351ea45dcb749d0510d437"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f8742a14773dc521ef792a994c3c86d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classVoxels.html">Voxels</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationThread.html#a6f8742a14773dc521ef792a994c3c86d">voxels_</a></td></tr>
+<tr class="separator:a6f8742a14773dc521ef792a994c3c86d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7521a78d7210f0dc5e15f9c5a17973bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSegmentationPca.html">SegmentationPca</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationThread.html#a7521a78d7210f0dc5e15f9c5a17973bf">pca_</a></td></tr>
+<tr class="separator:a7521a78d7210f0dc5e15f9c5a17973bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classThread"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classThread')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classThread.html">Thread</a></td></tr>
+<tr class="memitem:a745837e8c54d86f86addd823018a38c6 inherit pro_attribs_classThread"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; std::thread &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a745837e8c54d86f86addd823018a38c6">thread_</a></td></tr>
+<tr class="separator:a745837e8c54d86f86addd823018a38c6 inherit pro_attribs_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47bd120decee0b00e6dce50994cd5e0c inherit pro_attribs_classThread"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classThreadCallbackInterface.html">ThreadCallbackInterface</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a47bd120decee0b00e6dce50994cd5e0c">callback_</a></td></tr>
+<tr class="separator:a47bd120decee0b00e6dce50994cd5e0c inherit pro_attribs_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82164d41222eaed95bdf85bcc15a6f1a inherit pro_attribs_classThread"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a82164d41222eaed95bdf85bcc15a6f1a">mutex_</a></td></tr>
+<tr class="separator:a82164d41222eaed95bdf85bcc15a6f1a inherit pro_attribs_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f27fed65babe3e53e35c0fbd6763390 inherit pro_attribs_classThread"><td class="memItemLeft" align="right" valign="top">std::condition_variable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a3f27fed65babe3e53e35c0fbd6763390">condition_</a></td></tr>
+<tr class="separator:a3f27fed65babe3e53e35c0fbd6763390 inherit pro_attribs_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d4cc84fbd421732c4d148db43281b53 inherit pro_attribs_classThread"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classThread.html#af7ce7e2ee31f34185c4c25a94731977e">State</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a3d4cc84fbd421732c4d148db43281b53">state_</a></td></tr>
+<tr class="separator:a3d4cc84fbd421732c4d148db43281b53 inherit pro_attribs_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad033b3f88003c311c8a17cdf4a09ec94 inherit pro_attribs_classThread"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#ad033b3f88003c311c8a17cdf4a09ec94">finished_</a></td></tr>
+<tr class="separator:ad033b3f88003c311c8a17cdf4a09ec94 inherit pro_attribs_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46dcc3bc4639b7413f2dba2a613661e1 inherit pro_attribs_classThread"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a46dcc3bc4639b7413f2dba2a613661e1">waiting_</a></td></tr>
+<tr class="separator:a46dcc3bc4639b7413f2dba2a613661e1 inherit pro_attribs_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae16410c240a7cbcd05fc71d84030df54 inherit pro_attribs_classThread"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#ae16410c240a7cbcd05fc71d84030df54">mutexCaller_</a></td></tr>
+<tr class="separator:ae16410c240a7cbcd05fc71d84030df54 inherit pro_attribs_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91eac52d474a163c2ee7d8e3475e34ae inherit pro_attribs_classThread"><td class="memItemLeft" align="right" valign="top">std::condition_variable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a91eac52d474a163c2ee7d8e3475e34ae">conditionCaller_</a></td></tr>
+<tr class="separator:a91eac52d474a163c2ee7d8e3475e34ae inherit pro_attribs_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6894b3e907687c090a673f1112ee6ed7 inherit pro_attribs_classThread"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThread.html#a6894b3e907687c090a673f1112ee6ed7">received_</a></td></tr>
+<tr class="separator:a6894b3e907687c090a673f1112ee6ed7 inherit pro_attribs_classThread"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a2b488593f36eac816f4a13d7609993e4" name="a2b488593f36eac816f4a13d7609993e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b488593f36eac816f4a13d7609993e4">&#9670;&nbsp;</a></span>State</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classSegmentationThread.html#a2b488593f36eac816f4a13d7609993e4">SegmentationThread::State</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Segmentation <a class="el" href="classThread.html" title="Thread.">Thread</a> State. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a2b488593f36eac816f4a13d7609993e4ad0071fb3345d1323a666988162f68d21" name="a2b488593f36eac816f4a13d7609993e4ad0071fb3345d1323a666988162f68d21"></a>STATE_VOXEL_SIZE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2b488593f36eac816f4a13d7609993e4ad0225338b964474924602aa1c64d8036" name="a2b488593f36eac816f4a13d7609993e4ad0225338b964474924602aa1c64d8036"></a>STATE_THRESHOLD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2b488593f36eac816f4a13d7609993e4a18e3c5b4f1b0aab6f24eca09a101e3f4" name="a2b488593f36eac816f4a13d7609993e4a18e3c5b4f1b0aab6f24eca09a101e3f4"></a>STATE_FINISHED&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a5c5b9a1f21e114db574804220a7c2c21" name="a5c5b9a1f21e114db574804220a7c2c21"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c5b9a1f21e114db574804220a7c2c21">&#9670;&nbsp;</a></span>SegmentationThread()</h2>
+<a id="a6f2ab6b9f6b562082bdd65d0c9c763f6" name="a6f2ab6b9f6b562082bdd65d0c9c763f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f2ab6b9f6b562082bdd65d0c9c763f6">&#9670;&nbsp;</a></span>SegmentationThread()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -76,11 +222,583 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">SegmentationThread::SegmentationThread </td>
           <td>(</td>
+          <td class="paramtype"><a class="el" href="classEditor.html">Editor</a> *&#160;</td>
+          <td class="paramname"><em>editor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3f8e826a615355c7ee2abb76601d2deb" name="a3f8e826a615355c7ee2abb76601d2deb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f8e826a615355c7ee2abb76601d2deb">&#9670;&nbsp;</a></span>~SegmentationThread()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SegmentationThread::~SegmentationThread </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a67151b7c784f73c38e5305f6aa766b90" name="a67151b7c784f73c38e5305f6aa766b90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67151b7c784f73c38e5305f6aa766b90">&#9670;&nbsp;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SegmentationThread::clear </td>
+          <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7473bc69c2924109bda24c01bae87418" name="a7473bc69c2924109bda24c01bae87418"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7473bc69c2924109bda24c01bae87418">&#9670;&nbsp;</a></span>compute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SegmentationThread::compute </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="classThread.html#a47ec714d0c44684ef3fa7e5ec87bb958">Thread</a>.</p>
+
+</div>
+</div>
+<a id="a7ca97ad6de4ea8026f680591b419bc66" name="a7ca97ad6de4ea8026f680591b419bc66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ca97ad6de4ea8026f680591b419bc66">&#9670;&nbsp;</a></span>computeInitializeLayers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SegmentationThread::computeInitializeLayers </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#a7473bc69c2924109bda24c01bae87418">compute()</a>.</p>
+
+</div>
+</div>
+<a id="a4ac4c63d56f10dab1b9957410b13a836" name="a4ac4c63d56f10dab1b9957410b13a836"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ac4c63d56f10dab1b9957410b13a836">&#9670;&nbsp;</a></span>computeThreshold()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SegmentationThread::computeThreshold </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#a7473bc69c2924109bda24c01bae87418">compute()</a>.</p>
+
+</div>
+</div>
+<a id="acf34af6a26ab25d79b0f09a1fbfa9ecf" name="acf34af6a26ab25d79b0f09a1fbfa9ecf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf34af6a26ab25d79b0f09a1fbfa9ecf">&#9670;&nbsp;</a></span>computeVoxelSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SegmentationThread::computeVoxelSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#a7473bc69c2924109bda24c01bae87418">compute()</a>.</p>
+
+</div>
+</div>
+<a id="a9b689870861a19158883eccac3cd6a8b" name="a9b689870861a19158883eccac3cd6a8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b689870861a19158883eccac3cd6a8b">&#9670;&nbsp;</a></span>editor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classEditor.html">Editor</a> * SegmentationThread::editor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationWindow.html#a30a2dc38bda35a517080a6f1eb7648f7">SegmentationWindow::updateRange()</a>.</p>
+
+</div>
+</div>
+<a id="a6da4fedfaa66512b4678ef2f35a02a82" name="a6da4fedfaa66512b4678ef2f35a02a82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6da4fedfaa66512b4678ef2f35a02a82">&#9670;&nbsp;</a></span>progressPercent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int SegmentationThread::progressPercent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationWindow.html#ab923a3c23b539ddc0a8591bba3619dde">SegmentationWindow::slotThread()</a>.</p>
+
+</div>
+</div>
+<a id="ab2847de25ae60fa2eb84927ae47eaa13" name="ab2847de25ae60fa2eb84927ae47eaa13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2847de25ae60fa2eb84927ae47eaa13">&#9670;&nbsp;</a></span>setState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SegmentationThread::setState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classSegmentationThread.html#a2b488593f36eac816f4a13d7609993e4">State</a>&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#a7473bc69c2924109bda24c01bae87418">compute()</a>, and <a class="el" href="classSegmentationThread.html#a9e1faef03cf876577f8240e0f5013c51">start()</a>.</p>
+
+</div>
+</div>
+<a id="a9e1faef03cf876577f8240e0f5013c51" name="a9e1faef03cf876577f8240e0f5013c51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e1faef03cf876577f8240e0f5013c51">&#9670;&nbsp;</a></span>start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SegmentationThread::start </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>voxelSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>threshold</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationWindow.html#a44648f683d56a16cd8a36e3c48df6978">SegmentationWindow::resumeThreads()</a>.</p>
+
+</div>
+</div>
+<a id="a7a8a3dad23d0bc3a03963cd872074953" name="a7a8a3dad23d0bc3a03963cd872074953"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a8a3dad23d0bc3a03963cd872074953">&#9670;&nbsp;</a></span>updateProgressPercent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SegmentationThread::updateProgressPercent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#acf34af6a26ab25d79b0f09a1fbfa9ecf">computeVoxelSize()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a3e7dbc0a320da651f051ac207ddea6b9" name="a3e7dbc0a320da651f051ac207ddea6b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e7dbc0a320da651f051ac207ddea6b9">&#9670;&nbsp;</a></span>editor_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classEditor.html">Editor</a>* SegmentationThread::editor_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#a7ca97ad6de4ea8026f680591b419bc66">computeInitializeLayers()</a>, <a class="el" href="classSegmentationThread.html#acf34af6a26ab25d79b0f09a1fbfa9ecf">computeVoxelSize()</a>, and <a class="el" href="classSegmentationThread.html#a9b689870861a19158883eccac3cd6a8b">editor()</a>.</p>
+
+</div>
+</div>
+<a id="a4b9f8666a48aadae098952aa16b903f7" name="a4b9f8666a48aadae098952aa16b903f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b9f8666a48aadae098952aa16b903f7">&#9670;&nbsp;</a></span>layersCreated_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SegmentationThread::layersCreated_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#a7473bc69c2924109bda24c01bae87418">compute()</a>.</p>
+
+</div>
+</div>
+<a id="a7521a78d7210f0dc5e15f9c5a17973bf" name="a7521a78d7210f0dc5e15f9c5a17973bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7521a78d7210f0dc5e15f9c5a17973bf">&#9670;&nbsp;</a></span>pca_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classSegmentationPca.html">SegmentationPca</a> SegmentationThread::pca_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#a67151b7c784f73c38e5305f6aa766b90">clear()</a>, and <a class="el" href="classSegmentationThread.html#acf34af6a26ab25d79b0f09a1fbfa9ecf">computeVoxelSize()</a>.</p>
+
+</div>
+</div>
+<a id="a2715370550eb4d0432431a832ff05b4a" name="a2715370550eb4d0432431a832ff05b4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2715370550eb4d0432431a832ff05b4a">&#9670;&nbsp;</a></span>progressMax_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t SegmentationThread::progressMax_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#acf34af6a26ab25d79b0f09a1fbfa9ecf">computeVoxelSize()</a>, <a class="el" href="classSegmentationThread.html#ab2847de25ae60fa2eb84927ae47eaa13">setState()</a>, and <a class="el" href="classSegmentationThread.html#a7a8a3dad23d0bc3a03963cd872074953">updateProgressPercent()</a>.</p>
+
+</div>
+</div>
+<a id="a93540495bec6457f74ace32f93d131c2" name="a93540495bec6457f74ace32f93d131c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93540495bec6457f74ace32f93d131c2">&#9670;&nbsp;</a></span>progressPercent_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int SegmentationThread::progressPercent_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#acf34af6a26ab25d79b0f09a1fbfa9ecf">computeVoxelSize()</a>, <a class="el" href="classSegmentationThread.html#a6da4fedfaa66512b4678ef2f35a02a82">progressPercent()</a>, <a class="el" href="classSegmentationThread.html#ab2847de25ae60fa2eb84927ae47eaa13">setState()</a>, and <a class="el" href="classSegmentationThread.html#a7a8a3dad23d0bc3a03963cd872074953">updateProgressPercent()</a>.</p>
+
+</div>
+</div>
+<a id="ae3d30932310bfbac59e11f62eb7f7018" name="ae3d30932310bfbac59e11f62eb7f7018"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3d30932310bfbac59e11f62eb7f7018">&#9670;&nbsp;</a></span>progressValue_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t SegmentationThread::progressValue_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#acf34af6a26ab25d79b0f09a1fbfa9ecf">computeVoxelSize()</a>, <a class="el" href="classSegmentationThread.html#ab2847de25ae60fa2eb84927ae47eaa13">setState()</a>, and <a class="el" href="classSegmentationThread.html#a7a8a3dad23d0bc3a03963cd872074953">updateProgressPercent()</a>.</p>
+
+</div>
+</div>
+<a id="ad6099db1366b5da17b92a97dc4ac4074" name="ad6099db1366b5da17b92a97dc4ac4074"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6099db1366b5da17b92a97dc4ac4074">&#9670;&nbsp;</a></span>query_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classQuery.html">Query</a> SegmentationThread::query_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#a67151b7c784f73c38e5305f6aa766b90">clear()</a>, <a class="el" href="classSegmentationThread.html#a7ca97ad6de4ea8026f680591b419bc66">computeInitializeLayers()</a>, and <a class="el" href="classSegmentationThread.html#acf34af6a26ab25d79b0f09a1fbfa9ecf">computeVoxelSize()</a>.</p>
+
+</div>
+</div>
+<a id="ac9e1bc3ed1d3a928b922b7a7136a2ed2" name="ac9e1bc3ed1d3a928b922b7a7136a2ed2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9e1bc3ed1d3a928b922b7a7136a2ed2">&#9670;&nbsp;</a></span>state_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classSegmentationThread.html#a2b488593f36eac816f4a13d7609993e4">State</a> SegmentationThread::state_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#a7473bc69c2924109bda24c01bae87418">compute()</a>, and <a class="el" href="classSegmentationThread.html#ab2847de25ae60fa2eb84927ae47eaa13">setState()</a>.</p>
+
+</div>
+</div>
+<a id="ae3aa18203f93f6b2c6cb3a4f32d7229c" name="ae3aa18203f93f6b2c6cb3a4f32d7229c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3aa18203f93f6b2c6cb3a4f32d7229c">&#9670;&nbsp;</a></span>stateInitialized_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SegmentationThread::stateInitialized_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#a7473bc69c2924109bda24c01bae87418">compute()</a>, <a class="el" href="classSegmentationThread.html#acf34af6a26ab25d79b0f09a1fbfa9ecf">computeVoxelSize()</a>, and <a class="el" href="classSegmentationThread.html#ab2847de25ae60fa2eb84927ae47eaa13">setState()</a>.</p>
+
+</div>
+</div>
+<a id="a8d8d0f9f8d351ea45dcb749d0510d437" name="a8d8d0f9f8d351ea45dcb749d0510d437"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d8d0f9f8d351ea45dcb749d0510d437">&#9670;&nbsp;</a></span>threshold_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int SegmentationThread::threshold_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#a9e1faef03cf876577f8240e0f5013c51">start()</a>.</p>
+
+</div>
+</div>
+<a id="a6f8742a14773dc521ef792a994c3c86d" name="a6f8742a14773dc521ef792a994c3c86d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f8742a14773dc521ef792a994c3c86d">&#9670;&nbsp;</a></span>voxels_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classVoxels.html">Voxels</a> SegmentationThread::voxels_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#a67151b7c784f73c38e5305f6aa766b90">clear()</a>, and <a class="el" href="classSegmentationThread.html#acf34af6a26ab25d79b0f09a1fbfa9ecf">computeVoxelSize()</a>.</p>
+
+</div>
+</div>
+<a id="ae8657b9a48c9a56f51196b8c2b685402" name="ae8657b9a48c9a56f51196b8c2b685402"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8657b9a48c9a56f51196b8c2b685402">&#9670;&nbsp;</a></span>voxelSize_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int SegmentationThread::voxelSize_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#acf34af6a26ab25d79b0f09a1fbfa9ecf">computeVoxelSize()</a>, and <a class="el" href="classSegmentationThread.html#a9e1faef03cf876577f8240e0f5013c51">start()</a>.</p>
 
 </div>
 </div>

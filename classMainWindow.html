@@ -121,6 +121,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa2a5945f9c4bf90022f0a7ad3db34c49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad80b2d808ca015c062a8a27727892480"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classEditor.html">Editor</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#ad80b2d808ca015c062a8a27727892480">editor</a> ()</td></tr>
 <tr class="separator:ad80b2d808ca015c062a8a27727892480"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a326d567eda9b9ec6a97ff9c04382b0c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a326d567eda9b9ec6a97ff9c04382b0c4">setStatusProgressBarPercent</a> (int percent)</td></tr>
+<tr class="separator:a326d567eda9b9ec6a97ff9c04382b0c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classThreadCallbackInterface"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classThreadCallbackInterface')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classThreadCallbackInterface.html">ThreadCallbackInterface</a></td></tr>
 <tr class="memitem:a32d091268f4de37a663971196a5245d7 inherit pub_methods_classThreadCallbackInterface"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classThreadCallbackInterface.html#a32d091268f4de37a663971196a5245d7">~ThreadCallbackInterface</a> ()=default</td></tr>
 <tr class="separator:a32d091268f4de37a663971196a5245d7 inherit pub_methods_classThreadCallbackInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -134,7 +136,7 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:aec780e3c9de52ce7d77cf87b12d6ae72"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#aec780e3c9de52ce7d77cf87b12d6ae72">APPLICATION_NAME</a> = &quot;3DForest&quot;</td></tr>
+<tr class="memitem:aec780e3c9de52ce7d77cf87b12d6ae72"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#aec780e3c9de52ce7d77cf87b12d6ae72">APPLICATION_NAME</a> = &quot;3D Forest&quot;</td></tr>
 <tr class="separator:aec780e3c9de52ce7d77cf87b12d6ae72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae2f8e2f07f5248e11b3364fd2f6ef9a"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#aae2f8e2f07f5248e11b3364fd2f6ef9a">APPLICATION_VERSION</a> = &quot;1.0&quot;</td></tr>
 <tr class="separator:aae2f8e2f07f5248e11b3364fd2f6ef9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -174,6 +176,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:ae9c8c57b833643fecf2064b349c4370d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aace1a0d7b2d7cf79b1c3f2f58221e76d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classPluginInterface.html">PluginInterface</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#aace1a0d7b2d7cf79b1c3f2f58221e76d">plugins_</a></td></tr>
 <tr class="separator:aace1a0d7b2d7cf79b1c3f2f58221e76d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f91991cb17aae871bcb2f45e3dc6c54"><td class="memItemLeft" align="right" valign="top">QProgressBar *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a5f91991cb17aae871bcb2f45e3dc6c54">statusProgressBar_</a></td></tr>
+<tr class="separator:a5f91991cb17aae871bcb2f45e3dc6c54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afebfc018bdbfa9a00e4043d17aec9c3e"><td class="memItemLeft" align="right" valign="top">QHash&lt; QString, QMenu * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#afebfc018bdbfa9a00e4043d17aec9c3e">menu_</a></td></tr>
 <tr class="separator:afebfc018bdbfa9a00e4043d17aec9c3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a21bf2516346c235d5182cfcb88294c"><td class="memItemLeft" align="right" valign="top">QHash&lt; QString, QToolBar * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a1a21bf2516346c235d5182cfcb88294c">toolBar_</a></td></tr>
@@ -550,7 +554,27 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classClassifyGroundWindow.html#ac4a2a98c64cdd1e7360da800749530c9">ClassifyGroundWindow::slotApply()</a>, <a class="el" href="classMainWindow.html#af0386597f60b60f599b306d9dfaa32fc">updateData()</a>, <a class="el" href="classMainWindow.html#a8802f2eb453d7f80369c1bdb5c4b67ef">updateFilter()</a>, <a class="el" href="classMainWindow.html#ad38737cf15e5efc031a03010660c6c44">updateModifiers()</a>, and <a class="el" href="classMainWindow.html#aa2a5945f9c4bf90022f0a7ad3db34c49">updateRender()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classSegmentationWindow.html#a5b9f1d01f33bd6d44b508fee569d212a">SegmentationWindow::closeEvent()</a>, <a class="el" href="classClassifyGroundWindow.html#ac4a2a98c64cdd1e7360da800749530c9">ClassifyGroundWindow::slotApply()</a>, <a class="el" href="classMainWindow.html#af0386597f60b60f599b306d9dfaa32fc">updateData()</a>, <a class="el" href="classMainWindow.html#a8802f2eb453d7f80369c1bdb5c4b67ef">updateFilter()</a>, <a class="el" href="classMainWindow.html#ad38737cf15e5efc031a03010660c6c44">updateModifiers()</a>, and <a class="el" href="classMainWindow.html#aa2a5945f9c4bf90022f0a7ad3db34c49">updateRender()</a>.</p>
+
+</div>
+</div>
+<a id="a326d567eda9b9ec6a97ff9c04382b0c4" name="a326d567eda9b9ec6a97ff9c04382b0c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a326d567eda9b9ec6a97ff9c04382b0c4">&#9670;&nbsp;</a></span>setStatusProgressBarPercent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::setStatusProgressBarPercent </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>percent</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classMainWindow.html#a996c5a2b6f77944776856f08ec30858d">MainWindow()</a>, <a class="el" href="classSegmentationWindow.html#a44648f683d56a16cd8a36e3c48df6978">SegmentationWindow::resumeThreads()</a>, <a class="el" href="classSegmentationWindow.html#ab923a3c23b539ddc0a8591bba3619dde">SegmentationWindow::slotThread()</a>, and <a class="el" href="classSegmentationWindow.html#afa096cae4303315f688047afa9915f2b">SegmentationWindow::suspendThreads()</a>.</p>
 
 </div>
 </div>
@@ -768,7 +792,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorClassifications.html#a554d0f16caed59e629353348159e9e1a">ProjectNavigatorClassifications::dataChanged()</a>, <a class="el" href="classProjectNavigatorFiles.html#accc152e48bec862be7fe61be26a9525e">ProjectNavigatorFiles::dataChanged()</a>, <a class="el" href="classProjectNavigatorLayers.html#a2bb8aaff158facad4783247e82d1f1d0">ProjectNavigatorLayers::dataChanged()</a>, <a class="el" href="classProjectNavigatorClassifications.html#a6be87b2a6fee6c7d3b64a24dcf11efd5">ProjectNavigatorClassifications::filterChanged()</a>, <a class="el" href="classProjectNavigatorFiles.html#aed81ace52fe3562d8c861873780a44d3">ProjectNavigatorFiles::filterChanged()</a>, <a class="el" href="classProjectNavigatorLayers.html#a7f2db56096e81f08b1b759b34a1344be">ProjectNavigatorLayers::filterChanged()</a>, <a class="el" href="classProjectFilePlugin.html#a5936f0a89f7d48282432c61a540e3671">ProjectFilePlugin::projectClose()</a>, <a class="el" href="classProjectFilePlugin.html#a5c928a25c63c0a22f9a514a1d19fe337">ProjectFilePlugin::projectSave()</a>, <a class="el" href="classSettingsColorWidget.html#a9c23cd8ed157116e92bdef9606e8a9b5">SettingsColorWidget::settingsChanged()</a>, <a class="el" href="classSettingsColorWidget.html#a00769a83d59b448a8ce6c76ee3706c7c">SettingsColorWidget::settingsChangedApply()</a>, <a class="el" href="classClassifyGroundWindow.html#ac4a2a98c64cdd1e7360da800749530c9">ClassifyGroundWindow::slotApply()</a>, <a class="el" href="classViewerPlugin.html#aa8f3e00bbee5fce2122080355e53f387">ViewerPlugin::slotViewLayout()</a>, <a class="el" href="classMainWindow.html#af0386597f60b60f599b306d9dfaa32fc">updateData()</a>, <a class="el" href="classMainWindow.html#a8cea92bdea9733772b65fc8d434ea762">updateEverything()</a>, <a class="el" href="classMainWindow.html#a8802f2eb453d7f80369c1bdb5c4b67ef">updateFilter()</a>, <a class="el" href="classMainWindow.html#ad38737cf15e5efc031a03010660c6c44">updateModifiers()</a>, and <a class="el" href="classMainWindow.html#aa2a5945f9c4bf90022f0a7ad3db34c49">updateRender()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classProjectNavigatorClassifications.html#a554d0f16caed59e629353348159e9e1a">ProjectNavigatorClassifications::dataChanged()</a>, <a class="el" href="classProjectNavigatorFiles.html#accc152e48bec862be7fe61be26a9525e">ProjectNavigatorFiles::dataChanged()</a>, <a class="el" href="classProjectNavigatorLayers.html#a2bb8aaff158facad4783247e82d1f1d0">ProjectNavigatorLayers::dataChanged()</a>, <a class="el" href="classProjectNavigatorClassifications.html#a6be87b2a6fee6c7d3b64a24dcf11efd5">ProjectNavigatorClassifications::filterChanged()</a>, <a class="el" href="classProjectNavigatorFiles.html#aed81ace52fe3562d8c861873780a44d3">ProjectNavigatorFiles::filterChanged()</a>, <a class="el" href="classProjectNavigatorLayers.html#a7f2db56096e81f08b1b759b34a1344be">ProjectNavigatorLayers::filterChanged()</a>, <a class="el" href="classProjectFilePlugin.html#a5936f0a89f7d48282432c61a540e3671">ProjectFilePlugin::projectClose()</a>, <a class="el" href="classProjectFilePlugin.html#a5c928a25c63c0a22f9a514a1d19fe337">ProjectFilePlugin::projectSave()</a>, <a class="el" href="classSettingsColorWidget.html#a9c23cd8ed157116e92bdef9606e8a9b5">SettingsColorWidget::settingsChanged()</a>, <a class="el" href="classSettingsColorWidget.html#a00769a83d59b448a8ce6c76ee3706c7c">SettingsColorWidget::settingsChangedApply()</a>, <a class="el" href="classSegmentationWindow.html#a01ccc726d3a708870a1fbcfca6c68adc">SegmentationWindow::showEvent()</a>, <a class="el" href="classClassifyGroundWindow.html#ac4a2a98c64cdd1e7360da800749530c9">ClassifyGroundWindow::slotApply()</a>, <a class="el" href="classViewerPlugin.html#aa8f3e00bbee5fce2122080355e53f387">ViewerPlugin::slotViewLayout()</a>, <a class="el" href="classMainWindow.html#af0386597f60b60f599b306d9dfaa32fc">updateData()</a>, <a class="el" href="classMainWindow.html#a8cea92bdea9733772b65fc8d434ea762">updateEverything()</a>, <a class="el" href="classMainWindow.html#a8802f2eb453d7f80369c1bdb5c4b67ef">updateFilter()</a>, <a class="el" href="classMainWindow.html#ad38737cf15e5efc031a03010660c6c44">updateModifiers()</a>, and <a class="el" href="classMainWindow.html#aa2a5945f9c4bf90022f0a7ad3db34c49">updateRender()</a>.</p>
 
 </div>
 </div>
@@ -930,7 +954,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const char * MainWindow::APPLICATION_NAME = &quot;3DForest&quot;</td>
+          <td class="memname">const char * MainWindow::APPLICATION_NAME = &quot;3D Forest&quot;</td>
         </tr>
       </table>
   </td>
@@ -1060,7 +1084,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classSegmentationWindow.html#a9aea6c8661447c36810a79a5551d38c9">SegmentationWindow::createInputSlider()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classSliderWidget.html#a64615e4034278f86984b1995f537a371">SliderWidget::create()</a>, <a class="el" href="classMainWindow.html#a996c5a2b6f77944776856f08ec30858d">MainWindow()</a>, <a class="el" href="classProjectNavigatorWindow.html#ad86f71e57a5acf7411777e2115cf8c68">ProjectNavigatorWindow::ProjectNavigatorWindow()</a>, and <a class="el" href="classSettingsWindow.html#a9404b1f5819fc4a6f675c50dd25f7659">SettingsWindow::SettingsWindow()</a>.</p>
 
 </div>
 </div>
@@ -1205,6 +1229,30 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">Referenced by <a class="el" href="classMainWindow.html#a996c5a2b6f77944776856f08ec30858d">MainWindow()</a>.</p>
+
+</div>
+</div>
+<a id="a5f91991cb17aae871bcb2f45e3dc6c54" name="a5f91991cb17aae871bcb2f45e3dc6c54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f91991cb17aae871bcb2f45e3dc6c54">&#9670;&nbsp;</a></span>statusProgressBar_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QProgressBar* MainWindow::statusProgressBar_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classMainWindow.html#a996c5a2b6f77944776856f08ec30858d">MainWindow()</a>, and <a class="el" href="classMainWindow.html#a326d567eda9b9ec6a97ff9c04382b0c4">setStatusProgressBarPercent()</a>.</p>
 
 </div>
 </div>
