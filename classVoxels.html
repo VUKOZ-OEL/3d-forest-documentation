@@ -91,6 +91,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afff1b402be1110ffd8d5a14399a0e8bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4de99427a7809aa8a23b28c37ebab0e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structVoxels_1_1Voxel.html">Voxel</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a4de99427a7809aa8a23b28c37ebab0e8">at</a> (size_t index)</td></tr>
 <tr class="separator:a4de99427a7809aa8a23b28c37ebab0e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a359b503aa65c066f4c5a9d918fee0b55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a359b503aa65c066f4c5a9d918fee0b55">addOccupied</a> (size_t index)</td></tr>
+<tr class="separator:a359b503aa65c066f4c5a9d918fee0b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4610b8fa3cb57ea9e2c2f763ad8e2107"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a4610b8fa3cb57ea9e2c2f763ad8e2107">occupiedSize</a> () const</td></tr>
+<tr class="separator:a4610b8fa3cb57ea9e2c2f763ad8e2107"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a202e7b0709bfe4fb035bd97b9407628a"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a202e7b0709bfe4fb035bd97b9407628a">occupied</a> (size_t index) const</td></tr>
+<tr class="separator:a202e7b0709bfe4fb035bd97b9407628a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1234c0b39c03139396144ae63f4b97ac"><td class="memItemLeft" align="right" valign="top">const size_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a1234c0b39c03139396144ae63f4b97ac">occupiedData</a> () const</td></tr>
+<tr class="separator:a1234c0b39c03139396144ae63f4b97ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -117,6 +125,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a0f1e785699af85e9673c65dd10a94b3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96650a7940bffdf13cc194318c12ecd8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structVoxels_1_1Voxel.html">Voxel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a96650a7940bffdf13cc194318c12ecd8">data_</a></td></tr>
 <tr class="separator:a96650a7940bffdf13cc194318c12ecd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a978df376915e5414f65976a4c06b694b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a978df376915e5414f65976a4c06b694b">occupied_</a></td></tr>
+<tr class="separator:a978df376915e5414f65976a4c06b694b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a606f240b3d8e31d2c0fe0865ee0cadf0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classBox.html">Box</a>&lt; size_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a606f240b3d8e31d2c0fe0865ee0cadf0">stack_</a></td></tr>
 <tr class="separator:a606f240b3d8e31d2c0fe0865ee0cadf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -139,6 +149,32 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a359b503aa65c066f4c5a9d918fee0b55" name="a359b503aa65c066f4c5a9d918fee0b55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a359b503aa65c066f4c5a9d918fee0b55">&#9670;&nbsp;</a></span>addOccupied()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Voxels::addOccupied </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4de99427a7809aa8a23b28c37ebab0e8" name="a4de99427a7809aa8a23b28c37ebab0e8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4de99427a7809aa8a23b28c37ebab0e8">&#9670;&nbsp;</a></span>at() <span class="overload">[1/4]</span></h2>
 
@@ -399,6 +435,82 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a202e7b0709bfe4fb035bd97b9407628a" name="a202e7b0709bfe4fb035bd97b9407628a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a202e7b0709bfe4fb035bd97b9407628a">&#9670;&nbsp;</a></span>occupied()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t Voxels::occupied </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1234c0b39c03139396144ae63f4b97ac" name="a1234c0b39c03139396144ae63f4b97ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1234c0b39c03139396144ae63f4b97ac">&#9670;&nbsp;</a></span>occupiedData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const size_t * Voxels::occupiedData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4610b8fa3cb57ea9e2c2f763ad8e2107" name="a4610b8fa3cb57ea9e2c2f763ad8e2107"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4610b8fa3cb57ea9e2c2f763ad8e2107">&#9670;&nbsp;</a></span>occupiedSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t Voxels::occupiedSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a652cf18ae49e6f3146b8c206f2073a4f" name="a652cf18ae49e6f3146b8c206f2073a4f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a652cf18ae49e6f3146b8c206f2073a4f">&#9670;&nbsp;</a></span>push()</h2>
 
@@ -512,7 +624,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#acf34af6a26ab25d79b0f09a1fbfa9ecf">SegmentationThread::computeVoxelSize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#a8ce1a8134ee96e89a808e99944b9c357">SegmentationThread::computeMergeClusters()</a>, and <a class="el" href="classSegmentationThread.html#acf34af6a26ab25d79b0f09a1fbfa9ecf">SegmentationThread::computeVoxelSize()</a>.</p>
 
 </div>
 </div>
@@ -634,6 +746,30 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">Referenced by <a class="el" href="classVoxels.html#af0d991f4e4247ca866cb4a04ceb51d31">clear()</a>, and <a class="el" href="classVoxels.html#a12f61412517408f6747837ef088c7ea7">create()</a>.</p>
+
+</div>
+</div>
+<a id="a978df376915e5414f65976a4c06b694b" name="a978df376915e5414f65976a4c06b694b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a978df376915e5414f65976a4c06b694b">&#9670;&nbsp;</a></span>occupied_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;size_t&gt; Voxels::occupied_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classVoxels.html#af0d991f4e4247ca866cb4a04ceb51d31">clear()</a>.</p>
 
 </div>
 </div>

@@ -70,13 +70,13 @@ $(document).ready(function(){initNavTree('classSegmentationWindow.html',''); ini
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-slots" name="pub-slots"></a>
 Public Slots</h2></td></tr>
-<tr class="memitem:ab923a3c23b539ddc0a8591bba3619dde"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationWindow.html#ab923a3c23b539ddc0a8591bba3619dde">slotThread</a> ()</td></tr>
-<tr class="separator:ab923a3c23b539ddc0a8591bba3619dde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fdfab3c505670b9087767e97f144263"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationWindow.html#a7fdfab3c505670b9087767e97f144263">slotThread</a> (bool finished, int progressPercent)</td></tr>
+<tr class="separator:a7fdfab3c505670b9087767e97f144263"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="signals" name="signals"></a>
 Signals</h2></td></tr>
-<tr class="memitem:a27c5c3cd601b0dda79d656f3b9d04ba9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationWindow.html#a27c5c3cd601b0dda79d656f3b9d04ba9">signalThread</a> ()</td></tr>
-<tr class="separator:a27c5c3cd601b0dda79d656f3b9d04ba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a90ceb69fdc10e198d7346028bf84fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationWindow.html#a1a90ceb69fdc10e198d7346028bf84fe">signalThread</a> (bool finished, int progressPercent)</td></tr>
+<tr class="separator:a1a90ceb69fdc10e198d7346028bf84fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -257,8 +257,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a27c5c3cd601b0dda79d656f3b9d04ba9" name="a27c5c3cd601b0dda79d656f3b9d04ba9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27c5c3cd601b0dda79d656f3b9d04ba9">&#9670;&nbsp;</a></span>signalThread</h2>
+<a id="a1a90ceb69fdc10e198d7346028bf84fe" name="a1a90ceb69fdc10e198d7346028bf84fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a90ceb69fdc10e198d7346028bf84fe">&#9670;&nbsp;</a></span>signalThread</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -269,8 +269,19 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">void SegmentationWindow::signalThread </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>finished</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>progressPercent</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -338,8 +349,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ab923a3c23b539ddc0a8591bba3619dde" name="ab923a3c23b539ddc0a8591bba3619dde"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab923a3c23b539ddc0a8591bba3619dde">&#9670;&nbsp;</a></span>slotThread</h2>
+<a id="a7fdfab3c505670b9087767e97f144263" name="a7fdfab3c505670b9087767e97f144263"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fdfab3c505670b9087767e97f144263">&#9670;&nbsp;</a></span>slotThread</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -350,8 +361,19 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">void SegmentationWindow::slotThread </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>finished</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>progressPercent</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -546,7 +568,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classSegmentationWindow.html#a5b9f1d01f33bd6d44b508fee569d212a">closeEvent()</a>, <a class="el" href="classSegmentationWindow.html#a44648f683d56a16cd8a36e3c48df6978">resumeThreads()</a>, <a class="el" href="classSegmentationWindow.html#a01ccc726d3a708870a1fbcfca6c68adc">showEvent()</a>, <a class="el" href="classSegmentationWindow.html#ab923a3c23b539ddc0a8591bba3619dde">slotThread()</a>, and <a class="el" href="classSegmentationWindow.html#afa096cae4303315f688047afa9915f2b">suspendThreads()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classSegmentationWindow.html#a5b9f1d01f33bd6d44b508fee569d212a">closeEvent()</a>, <a class="el" href="classSegmentationWindow.html#a44648f683d56a16cd8a36e3c48df6978">resumeThreads()</a>, <a class="el" href="classSegmentationWindow.html#a01ccc726d3a708870a1fbcfca6c68adc">showEvent()</a>, <a class="el" href="classSegmentationWindow.html#a7fdfab3c505670b9087767e97f144263">slotThread()</a>, and <a class="el" href="classSegmentationWindow.html#afa096cae4303315f688047afa9915f2b">suspendThreads()</a>.</p>
 
 </div>
 </div>
@@ -618,7 +640,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classSegmentationWindow.html#a44648f683d56a16cd8a36e3c48df6978">resumeThreads()</a>, <a class="el" href="classSegmentationWindow.html#a8b647e48a9adb42f116ab4ab2796aea2">SegmentationWindow()</a>, <a class="el" href="classSegmentationWindow.html#ab923a3c23b539ddc0a8591bba3619dde">slotThread()</a>, <a class="el" href="classSegmentationWindow.html#afa096cae4303315f688047afa9915f2b">suspendThreads()</a>, <a class="el" href="classSegmentationWindow.html#a30a2dc38bda35a517080a6f1eb7648f7">updateRange()</a>, and <a class="el" href="classSegmentationWindow.html#a4e5a757bba757a924a9cf5ce87858181">~SegmentationWindow()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classSegmentationWindow.html#a44648f683d56a16cd8a36e3c48df6978">resumeThreads()</a>, <a class="el" href="classSegmentationWindow.html#a8b647e48a9adb42f116ab4ab2796aea2">SegmentationWindow()</a>, <a class="el" href="classSegmentationWindow.html#afa096cae4303315f688047afa9915f2b">suspendThreads()</a>, <a class="el" href="classSegmentationWindow.html#a51df0ac44ccf359626b43fad9fc36bd6">threadProgress()</a>, <a class="el" href="classSegmentationWindow.html#a30a2dc38bda35a517080a6f1eb7648f7">updateRange()</a>, and <a class="el" href="classSegmentationWindow.html#a4e5a757bba757a924a9cf5ce87858181">~SegmentationWindow()</a>.</p>
 
 </div>
 </div>

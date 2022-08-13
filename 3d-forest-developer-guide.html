@@ -167,6 +167,70 @@ Build 3D Forest</h2>
 <li>We can open example project "project.json" from directory "/home/user/3d-forest/data"</li>
 <li>We can see that we did not store modified PATH and LD_LIBRARY_PATH to user or system variables. One could modify "/home/&lt;user&gt;/.bashrc" or "/home/&lt;user&gt;/.profile" to make the change persistent.</li>
 </ol>
+<h1><a class="anchor" id="build-macos-make"></a>
+Build from Source Code in Mac OS with "Unix Makefiles"</h1>
+<p >The code uses C++14, CMake, Qt5/Qt6 and OpenGL which will be installed in the following steps. Qt and OpenGL are required only for GUI desktop application.</p>
+<h2><a class="anchor" id="build-macos-make-xcode"></a>
+Install Xcode</h2>
+<ul>
+<li>Install Xcode from the App store</li>
+<li>An alternative for old macs is described in <a href="http://while1.wz.cz/#how-to-install-old-versions-of-mac-os">http://while1.wz.cz/#how-to-install-old-versions-of-mac-os</a></li>
+</ul>
+<h2><a class="anchor" id="build-macos-make-cmake"></a>
+Install CMake</h2>
+<ul>
+<li>Download official "cmake-3.24.0-macos-universal.dmg"</li>
+<li>Copy "CMake.app" to "Applications"</li>
+</ul>
+<h2><a class="anchor" id="build-macos-make-qt"></a>
+Install Qt</h2>
+<ul>
+<li>Download Qt installer from <a href="https://www.qt.io/download">https://www.qt.io/download</a><ul>
+<li>Click "Downloads for open source users" button in "Go open source"</li>
+<li>Click "Download the Qt Online Installer" button in bottom section of the page "Looking for Qt binaries"</li>
+<li>Recommended download was "Qt Online Installer for mac OS"</li>
+<li>Click "Download" button to save file "qt-unified-macOS-x64-4.4.1-online.dmg"</li>
+</ul>
+</li>
+<li>Run the installer<ul>
+<li>Copy "qt-unified-macOS-x64-4.4.1-online" from "qt-unified-macOS-x64-4.4.1-online.dmg"</li>
+<li>Run "qt-unified-macOS-x64-4.4.1-online", it shows "Qt Setup" window</li>
+<li>Enter your Qt Account Email and Password, "Next"</li>
+<li>Check "I have read" and "I am an individual person", "Next", "Next"</li>
+<li>"Preparing meta information download..." may take few minutes</li>
+<li>The default installation directory is "/Users/user/Qt"</li>
+<li>Select "Custom installation", "Next"</li>
+<li>Qt 5 (computers from 2010)<ul>
+<li>Unroll Qt tree item and check "Qt 5.15.2" or make your custom installation since doing this may install 31GB of useless stuff.</li>
+<li>For example, check only the following for 10GB installation:<ul>
+<li>macOS</li>
+<li>Sources</li>
+<li>Qt Debug Information Files</li>
+<li>Qt Design Studio 3.5.0</li>
+<li>CMake 3.23.2</li>
+<li>Ninja 1.10.2</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>"Next", "Install", the installation takes between 10 to 30 minutes</li>
+<li>Click "Finish"</li>
+</ul>
+</li>
+</ul>
+<h2><a class="anchor" id="build-macos-make-3d-forest"></a>
+Build 3D Forest</h2>
+<ul>
+<li>Open "Terminal" utility from "Applications"</li>
+<li>Use "cd" command to navigate to local git repository folder <pre class="fragment">        cd Documents/3d-forest</pre> or first clone the repository for example into "Documents" as follows: <pre class="fragment">        cd Documents
+        git clone https://github.com/VUKOZ-OEL/3d-forest.git
+        cd 3d-forest</pre></li>
+<li>Build source files to executable 3dforest application as follows: <pre class="fragment">        &gt; mkdir build
+        &gt; cd build
+        &gt; /Applications/CMake.app/Contents/bin/cmake -G "Unix Makefiles" .. -DCMAKE_INSTALL_PREFIX=.. -DCMAKE_PREFIX_PATH=/Users/user/Qt/5.15.2/clang_64
+        &gt; make
+        &gt; make install</pre></li>
+</ul>
 <h1><a class="anchor" id="build-windows-make"></a>
 Build from Source Code in Windows with "MinGW Makefiles"</h1>
 <p >The code uses C++17, CMake, Qt5/Qt6 and OpenGL which will be installed in the following steps. Qt and OpenGL are required only for GUI desktop application.</p>

@@ -19,7 +19,6 @@ var structLasFile_1_1Point =
     [ "source_id", "structLasFile_1_1Point.html#a5614b37255cf6811ac209e349e174556", null ],
     [ "user_blue", "structLasFile_1_1Point.html#a227e10aa655770dea945b0a5f224b4ea", null ],
     [ "user_data", "structLasFile_1_1Point.html#a1967a95e3b6e827f3edb0ab1ce78e104", null ],
-    [ "user_element", "structLasFile_1_1Point.html#a8bb6df632202eaaaad1c9263685245fe", null ],
     [ "user_elevation", "structLasFile_1_1Point.html#a9f484532204d04d419f8888584088209", null ],
     [ "user_green", "structLasFile_1_1Point.html#a4d2c38b8d17244339a55d3bef506ec7e", null ],
     [ "user_intensity", "structLasFile_1_1Point.html#ae5b7eff97e953e21d7317e28cc7c99a0", null ],

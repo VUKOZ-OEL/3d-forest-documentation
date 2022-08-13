@@ -15,7 +15,7 @@ var classLasFile =
     [ "~LasFile", "classLasFile.html#a27db78c0423e8428ebda53d190f4979f", null ],
     [ "close", "classLasFile.html#a05b29b98795315afa718219a267db632", null ],
     [ "create", "classLasFile.html#a51a3b3fae52d5db385fd74cec23c376a", null ],
-    [ "create", "classLasFile.html#a318d6f3cce97e188a5d6ad178f66b270", null ],
+    [ "create", "classLasFile.html#ae5cfeb2ea48444aaeba75e3c3e27b9e0", null ],
     [ "file", "classLasFile.html#a67466e3d529b0d0aa6116dc65044159c", null ],
     [ "open", "classLasFile.html#a368fe63bce69c317237b048d0f5312dd", null ],
     [ "readHeader", "classLasFile.html#a6cc70618469526f1a1d42f60df575fc3", null ],

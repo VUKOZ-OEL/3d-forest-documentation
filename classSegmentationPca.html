@@ -70,6 +70,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7c34f2d5c482bbf06027b083f6f16132"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9bc4a7bb4ae6b194c7d18f42fdf208d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationPca.html#ad9bc4a7bb4ae6b194c7d18f42fdf208d">compute</a> (<a class="el" href="classQuery.html">Query</a> &amp;query, <a class="el" href="classVoxels.html">Voxels</a> &amp;voxels, const <a class="el" href="classBox.html">Box</a>&lt; double &gt; &amp;cell, size_t index)</td></tr>
 <tr class="separator:ad9bc4a7bb4ae6b194c7d18f42fdf208d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e94fe5b6985e05f1e9d685b423509a5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationPca.html#a8e94fe5b6985e05f1e9d685b423509a5">intensityMin</a> () const</td></tr>
+<tr class="separator:a8e94fe5b6985e05f1e9d685b423509a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b5c53fd8ca9c9a63adfd61bc9bb39f0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationPca.html#a8b5c53fd8ca9c9a63adfd61bc9bb39f0">intensityMax</a> () const</td></tr>
+<tr class="separator:a8b5c53fd8ca9c9a63adfd61bc9bb39f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -91,6 +95,10 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a08d88eab7766683095331554bc85f058"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6c572c36f66052a238749652f37534e"><td class="memItemLeft" align="right" valign="top">Eigen::SelfAdjointEigenSolver&lt; Eigen::Matrix3d &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationPca.html#ad6c572c36f66052a238749652f37534e">E</a></td></tr>
 <tr class="separator:ad6c572c36f66052a238749652f37534e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fee60d768eaff334de12f9837c2d38d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationPca.html#a0fee60d768eaff334de12f9837c2d38d">intensityMin_</a></td></tr>
+<tr class="separator:a0fee60d768eaff334de12f9837c2d38d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06506a5477ad2a6514b4f8cf530022e1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSegmentationPca.html#a06506a5477ad2a6514b4f8cf530022e1">intensityMax_</a></td></tr>
+<tr class="separator:a06506a5477ad2a6514b4f8cf530022e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac01ae7116d9772441229f2afd7102bc8" name="ac01ae7116d9772441229f2afd7102bc8"></a>
@@ -169,6 +177,60 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#acf34af6a26ab25d79b0f09a1fbfa9ecf">SegmentationThread::computeVoxelSize()</a>.</p>
+
+</div>
+</div>
+<a id="a8b5c53fd8ca9c9a63adfd61bc9bb39f0" name="a8b5c53fd8ca9c9a63adfd61bc9bb39f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b5c53fd8ca9c9a63adfd61bc9bb39f0">&#9670;&nbsp;</a></span>intensityMax()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SegmentationPca::intensityMax </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#a4ac4c63d56f10dab1b9957410b13a836">SegmentationThread::computeThreshold()</a>.</p>
+
+</div>
+</div>
+<a id="a8e94fe5b6985e05f1e9d685b423509a5" name="a8e94fe5b6985e05f1e9d685b423509a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e94fe5b6985e05f1e9d685b423509a5">&#9670;&nbsp;</a></span>intensityMin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SegmentationPca::intensityMin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#a4ac4c63d56f10dab1b9957410b13a836">SegmentationThread::computeThreshold()</a>.</p>
 
 </div>
 </div>
@@ -266,6 +328,54 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">Referenced by <a class="el" href="classSegmentationPca.html#ad9bc4a7bb4ae6b194c7d18f42fdf208d">compute()</a>.</p>
+
+</div>
+</div>
+<a id="a06506a5477ad2a6514b4f8cf530022e1" name="a06506a5477ad2a6514b4f8cf530022e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06506a5477ad2a6514b4f8cf530022e1">&#9670;&nbsp;</a></span>intensityMax_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SegmentationPca::intensityMax_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationPca.html#a7c34f2d5c482bbf06027b083f6f16132">clear()</a>, <a class="el" href="classSegmentationPca.html#ad9bc4a7bb4ae6b194c7d18f42fdf208d">compute()</a>, and <a class="el" href="classSegmentationPca.html#a8b5c53fd8ca9c9a63adfd61bc9bb39f0">intensityMax()</a>.</p>
+
+</div>
+</div>
+<a id="a0fee60d768eaff334de12f9837c2d38d" name="a0fee60d768eaff334de12f9837c2d38d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fee60d768eaff334de12f9837c2d38d">&#9670;&nbsp;</a></span>intensityMin_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SegmentationPca::intensityMin_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationPca.html#a7c34f2d5c482bbf06027b083f6f16132">clear()</a>, <a class="el" href="classSegmentationPca.html#ad9bc4a7bb4ae6b194c7d18f42fdf208d">compute()</a>, and <a class="el" href="classSegmentationPca.html#a8e94fe5b6985e05f1e9d685b423509a5">intensityMin()</a>.</p>
 
 </div>
 </div>

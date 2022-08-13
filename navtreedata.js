@@ -39,6 +39,12 @@ var NAVTREE =
         [ "Installation of other tools: gcc, g++, make, libc6-dev, etc.", "3d-forest-developer-guide.html#build-linux-make-gcc", null ],
         [ "Build 3D Forest", "3d-forest-developer-guide.html#build-linux-make-3dforest", null ]
       ] ],
+      [ "Build from Source Code in Mac OS with \"Unix Makefiles\"", "3d-forest-developer-guide.html#build-macos-make", [
+        [ "Install Xcode", "3d-forest-developer-guide.html#build-macos-make-xcode", null ],
+        [ "Install CMake", "3d-forest-developer-guide.html#build-macos-make-cmake", null ],
+        [ "Install Qt", "3d-forest-developer-guide.html#build-macos-make-qt", null ],
+        [ "Build 3D Forest", "3d-forest-developer-guide.html#build-macos-make-3d-forest", null ]
+      ] ],
       [ "Build from Source Code in Windows with \"MinGW Makefiles\"", "3d-forest-developer-guide.html#build-windows-make", [
         [ "Install git", "3d-forest-developer-guide.html#build-windows-make-git", null ],
         [ "Install msys2 and mingw-w64", "3d-forest-developer-guide.html#build-windows-make-mingw", null ],
@@ -93,12 +99,12 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "3d-forest-developer-guide.html",
-"classEditor.html#a38163856229855b52efe3756c0597d09",
-"classJson.html#a1d25e02085733810e3758a648b220ba7",
-"classPage.html#a84eab8485b1de860775db586c4d726ef",
-"classQuery.html#af9195257fc9648377d738a80c399b319",
-"classVector3.html#a7334e4413fee0e636aeae4f3471d4926",
-"classVoxels.html#afff1b402be1110ffd8d5a14399a0e8bb"
+"classEditor.html#a110354e5e64c2e88e3d739958ef5da84",
+"classJson.html#a00979f5dd22f93f1e92d4480e24e51f3",
+"classPage.html#a6769c033a5ef36760dee05f7d9ecffe7",
+"classQuery.html#af1913b1836b25d1c408ea6a3e84d55f8",
+"classVector3.html#a0bbbb921398a7290338ebf7982ffd707",
+"classVoxels.html#a55b672b940cd347097efbd1cc4947b85"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
