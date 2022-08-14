@@ -22,7 +22,7 @@ var classMainWindow =
     [ "slotRenderViewport", "classMainWindow.html#a32b3b57106e01b0f7ab6080fd1eadb14", null ],
     [ "slotRenderViewport", "classMainWindow.html#a3232457dd0e7528fd20fbaeeda894c19", null ],
     [ "suspendThreads", "classMainWindow.html#ad4b63df5640f381056f422c7ce4254f5", null ],
-    [ "threadProgress", "classMainWindow.html#ac05511606a6ea4e3429445e255915649", null ],
+    [ "threadProgress", "classMainWindow.html#afbe3dcb9cb8b1a48d10351a4f6e940a0", null ],
     [ "updateData", "classMainWindow.html#af0386597f60b60f599b306d9dfaa32fc", null ],
     [ "updateEverything", "classMainWindow.html#a8cea92bdea9733772b65fc8d434ea762", null ],
     [ "updateFilter", "classMainWindow.html#a8802f2eb453d7f80369c1bdb5c4b67ef", null ],

@@ -227,9 +227,11 @@ Build 3D Forest</h2>
         cd 3d-forest</pre></li>
 <li>Build source files to executable 3dforest application as follows: <pre class="fragment">        &gt; mkdir build
         &gt; cd build
-        &gt; /Applications/CMake.app/Contents/bin/cmake -G "Unix Makefiles" .. -DCMAKE_INSTALL_PREFIX=.. -DCMAKE_PREFIX_PATH=/Users/user/Qt/5.15.2/clang_64
+        &gt; /Applications/CMake.app/Contents/bin/cmake -G "Unix Makefiles" .. -DCMAKE_INSTALL_PREFIX=.. -DCMAKE_PREFIX_PATH=/Users/user/Qt/5.15.2/clang_64 -DCMAKE_BUILD_TYPE=Debug -DBUILD_EXAMPLES=ON -DFORCE_QT5=ON
         &gt; make
         &gt; make install</pre></li>
+<li>Run file example: <pre class="fragment">        &gt; cd /Users/user/Documents/3d-forest/bin
+        &gt; DYLD_LIBRARY_PATH=$DYLD_LIBRARY_PATH:/Users/user/Documents/3d-forest/bin ./3dforestexamplefile</pre></li>
 </ul>
 <h1><a class="anchor" id="build-windows-make"></a>
 Build from Source Code in Windows with "MinGW Makefiles"</h1>
