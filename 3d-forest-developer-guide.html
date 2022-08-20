@@ -170,11 +170,15 @@ Build 3D Forest</h2>
 <h1><a class="anchor" id="build-macos-make"></a>
 Build from Source Code in Mac OS with "Unix Makefiles"</h1>
 <p >The code uses C++14, CMake, Qt5/Qt6 and OpenGL which will be installed in the following steps. Qt and OpenGL are required only for GUI desktop application.</p>
+<div class="image">
+<img src="3d-forest-macos-build-1.png" alt=""/>
+<div class="caption">
+3D Forest application on macOS 10.13 1.4 GHz Processor, 4 GB Memory, GeForce 320M Graphics</div></div>
 <h2><a class="anchor" id="build-macos-make-xcode"></a>
 Install Xcode</h2>
 <ul>
 <li>Install Xcode from the App store</li>
-<li>An alternative for old macs is described in <a href="http://while1.wz.cz/#how-to-install-old-versions-of-mac-os">http://while1.wz.cz/#how-to-install-old-versions-of-mac-os</a></li>
+<li>An alternative installation for old macs is described in <a href="http://while1.wz.cz/#how-to-install-old-versions-of-mac-os">http://while1.wz.cz/#how-to-install-old-versions-of-mac-os</a></li>
 </ul>
 <h2><a class="anchor" id="build-macos-make-cmake"></a>
 Install CMake</h2>
@@ -232,6 +236,15 @@ Build 3D Forest</h2>
         &gt; make install</pre></li>
 <li>Run file example: <pre class="fragment">        &gt; cd /Users/user/Documents/3d-forest/bin
         &gt; DYLD_LIBRARY_PATH=$DYLD_LIBRARY_PATH:/Users/user/Documents/3d-forest/bin ./3dforestexamplefile</pre></li>
+<li>Run 3d Forest (by changing rpath to abs path): <pre class="fragment">        &gt; cd /Users/user/Documents/3d-forest/bin
+        &gt; install_name_tool -change @rpath/lib3dforestgui.dylib /Users/user/Documents/devel/3d-forest/bin/lib3dforestgui.dylib 3dforest
+        &gt; install_name_tool -change @rpath/lib3dforesteditor.dylib /Users/user/Documents/devel/3d-forest/bin/lib3dforesteditor.dylib 3dforest
+        &gt; install_name_tool -change @rpath/lib3dforestcore.dylib /Users/user/Documents/devel/3d-forest/bin/lib3dforestcore.dylib 3dforest
+        &gt; install_name_tool -change @rpath/QtOpenGL.framework/Versions/5/QtOpenGL /Users/user/Qt/5.15.2/clang_64/lib/QtOpenGL.framework/Versions/5/QtOpenGL 3dforest
+        &gt; install_name_tool -change @rpath/QtWidgets.framework/Versions/5/QtWidgets /Users/user/Qt/5.15.2/clang_64/lib/QtWidgets.framework/Versions/5/QtWidgets 3dforest
+        &gt; install_name_tool -change @rpath/QtGui.framework/Versions/5/QtGui /Users/user/Qt/5.15.2/clang_64/lib/QtGui.framework/Versions/5/QtGui 3dforest
+        &gt; install_name_tool -change @rpath/QtCore.framework/Versions/5/QtCore /Users/user/Qt/5.15.2/clang_64/lib/QtCore.framework/Versions/5/QtCore 3dforest
+        &gt; ./3dforest</pre></li>
 </ul>
 <h1><a class="anchor" id="build-windows-make"></a>
 Build from Source Code in Windows with "MinGW Makefiles"</h1>
