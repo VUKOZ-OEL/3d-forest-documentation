@@ -13,6 +13,7 @@ var hierarchy =
     [ "ChunkFile", "classChunkFile.html", null ],
     [ "Classification", "classClassification.html", null ],
     [ "Classifications", "classClassifications.html", null ],
+    [ "ClassifyGround", "classClassifyGround.html", null ],
     [ "ColorPalette", "classColorPalette.html", null ],
     [ "Cone< T >", "classCone.html", null ],
     [ "Cone< double >", "classCone.html", null ],

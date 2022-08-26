@@ -6,6 +6,7 @@ var classSettingsView =
       [ "COLOR_SOURCE_RETURN_NUMBER", "classSettingsView.html#a8f2a95a05dd67185f1e7d29b5cc70708a24a73d37f28c8718433bd4b99a70429c", null ],
       [ "COLOR_SOURCE_NUMBER_OF_RETURNS", "classSettingsView.html#a8f2a95a05dd67185f1e7d29b5cc70708ac1f88e3ba89a4c1a4e4235da6c1faafa", null ],
       [ "COLOR_SOURCE_CLASSIFICATION", "classSettingsView.html#a8f2a95a05dd67185f1e7d29b5cc70708a7869738c274f55c4ff1f3c86591cc930", null ],
+      [ "COLOR_SOURCE_ELEVATION", "classSettingsView.html#a8f2a95a05dd67185f1e7d29b5cc70708aa4eb195bd7748cb6fc524382c6dc5add", null ],
       [ "COLOR_SOURCE_USER_COLOR", "classSettingsView.html#a8f2a95a05dd67185f1e7d29b5cc70708a03a1b9244a544ff238b8d2b02a3b45fa", null ]
     ] ],
     [ "SettingsView", "classSettingsView.html#af1ad1296d09431a599043065c19e42d0", null ],

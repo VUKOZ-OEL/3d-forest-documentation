@@ -5,6 +5,7 @@ var annotated_dup =
     [ "ChunkFile", "classChunkFile.html", "classChunkFile" ],
     [ "Classification", "classClassification.html", "classClassification" ],
     [ "Classifications", "classClassifications.html", "classClassifications" ],
+    [ "ClassifyGround", "classClassifyGround.html", "classClassifyGround" ],
     [ "ClassifyGroundPlugin", "classClassifyGroundPlugin.html", "classClassifyGroundPlugin" ],
     [ "ClassifyGroundWindow", "classClassifyGroundWindow.html", "classClassifyGroundWindow" ],
     [ "ColorPalette", "classColorPalette.html", "classColorPalette" ],

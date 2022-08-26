@@ -4,6 +4,7 @@ var classClassifyGroundWindow =
     [ "slotApply", "classClassifyGroundWindow.html#ac4a2a98c64cdd1e7360da800749530c9", null ],
     [ "angleSpinBox_", "classClassifyGroundWindow.html#acc06b3ef2f788e5a583a1a63beb15625", null ],
     [ "applyButton_", "classClassifyGroundWindow.html#a553a69dd76bee7172b15b6a393c9b8b3", null ],
+    [ "classifyGround_", "classClassifyGroundWindow.html#a3209beaf30e0579295211948c3a909e5", null ],
     [ "lengthSpinBox_", "classClassifyGroundWindow.html#ab09354ba99cb585fac2847e8d2fe8ed5", null ],
     [ "liveCheckBox_", "classClassifyGroundWindow.html#a7d3c7431e83d5075542a11489a68055a", null ],
     [ "mainWindow_", "classClassifyGroundWindow.html#aff48f09eae5a4f2f6ee3227c05b019a3", null ],
