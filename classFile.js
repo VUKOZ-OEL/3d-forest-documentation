@@ -12,6 +12,7 @@ var classFile =
     [ "fileExtension", "classFile.html#a6ccf4a78575b89e2b18bf43fdcc44ef3", null ],
     [ "fileName", "classFile.html#a960da56002a945636a3d5e157f15f72d", null ],
     [ "isAbsolute", "classFile.html#a4996ee3d92219cd40d692710d53e0d63", null ],
+    [ "join", "classFile.html#a91d1632ec4ad273b2daa7e274de69bd3", null ],
     [ "move", "classFile.html#a340227290c3e0a2ac0ad561267d163db", null ],
     [ "offset", "classFile.html#a7934aacbbc68c9c38bc84f37dc49b069", null ],
     [ "open", "classFile.html#a0c6173ce64df564924b19eb0283222fe", null ],

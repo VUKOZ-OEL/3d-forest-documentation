@@ -99,12 +99,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "3d-forest-developer-guide.html",
-"classDatasets.html#a89620625a86f6ed7629094e3a3f3de25",
-"classIndexFileBuilder.html#ad96867f425717a02661e47cd199043d9",
-"classPage.html#a0bdf6886be75ddfd1b4626a5ced85c7aa4d73db2c4cad114129f72e09a1960226",
-"classQuery.html#aaddcde4828a13d66db668f8474c6a1ea",
-"classThread.html#a47bd120decee0b00e6dce50994cd5e0c",
-"classViewports.html#a42b52622aa19383905ad36b704320019"
+"classDatasets.html#acae4451daa86ab361d69fb26d0259822",
+"classIndexFileBuilder.html#aa4f0923c9206d5b709abd4ccc28ae904",
+"classMatrix4.html#a2f653e636e0cbe095e8176c532f8b96a",
+"classQuery.html#a37fa88cf5e86d051724338884fa2b828",
+"classSettingsPlugin.html#aced82b5833ebbfd24d09a88bef46c3e1",
+"classViewerOpenGLViewport.html#a1797ab3e2311064f3287e90327147aa3",
+"structIndexFile_1_1SelectionTile.html#a71649180951379f8b0f0253ec1081920"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

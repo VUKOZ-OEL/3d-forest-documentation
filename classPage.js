@@ -23,6 +23,7 @@ var classPage =
     [ "selectBox", "classPage.html#aec69a97b2fdb74efeaa2cbd2c6a09983", null ],
     [ "selectClassification", "classPage.html#a1ec1a660f39a2c4b89305a229f16367f", null ],
     [ "selectCone", "classPage.html#a50d31cd0b46f2b13c084c8df483a48de", null ],
+    [ "selectElevation", "classPage.html#a5321ded7ba0f41989c22bd5faf8f296c", null ],
     [ "selectLayer", "classPage.html#add6d18281c95f61d8b5957f41785876c", null ],
     [ "selectSphere", "classPage.html#a84eab8485b1de860775db586c4d726ef", null ],
     [ "setColor", "classPage.html#afe83f236e23c6b303a6b116407bc6d9f", null ],

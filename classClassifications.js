@@ -13,6 +13,6 @@ var classClassifications =
     [ "setInvertAll", "classClassifications.html#a8deaa9f3f20fcbc2151c52b1ff126b71", null ],
     [ "size", "classClassifications.html#a1e174f7811967adc88b11683c6f9a746", null ],
     [ "write", "classClassifications.html#ace1b3b2e4026ee45e1fb31d3bbb2ce40", null ],
-    [ "classes_", "classClassifications.html#aa39e2d9bb989c41b01ae3914e5524e07", null ],
+    [ "classes_", "classClassifications.html#a47c5feecbcf129fdac2a533c9dad6636", null ],
     [ "enabled_", "classClassifications.html#a78671e669038eb812de3ffb9cd9de856", null ]
 ];

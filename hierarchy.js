@@ -1,8 +1,11 @@
 var hierarchy =
 [
     [ "std::array", null, [
+      [ "Range< double >", "classRange.html", null ],
       [ "Vector3< float >", "classVector3.html", null ],
       [ "Vector3< double >", "classVector3.html", null ],
+      [ "Range< T >", "classRange.html", null ],
+      [ "Vector2< T >", "classVector2.html", null ],
       [ "Vector3< T >", "classVector3.html", null ]
     ] ],
     [ "Box< T >", "classBox.html", null ],
@@ -11,9 +14,9 @@ var hierarchy =
     [ "Camera", "classCamera.html", null ],
     [ "ChunkFile::Chunk", "structChunkFile_1_1Chunk.html", null ],
     [ "ChunkFile", "classChunkFile.html", null ],
+    [ "Class", "classClass.html", null ],
     [ "Classification", "classClassification.html", null ],
     [ "Classifications", "classClassifications.html", null ],
-    [ "ClassifyGround", "classClassifyGround.html", null ],
     [ "ColorPalette", "classColorPalette.html", null ],
     [ "Cone< T >", "classCone.html", null ],
     [ "Cone< double >", "classCone.html", null ],
@@ -21,6 +24,7 @@ var hierarchy =
     [ "Dataset", "classDataset.html", null ],
     [ "Datasets", "classDatasets.html", null ],
     [ "Editor", "classEditor.html", null ],
+    [ "Elevation", "classElevation.html", null ],
     [ "File", "classFile.html", null ],
     [ "LasFile::Header", "structLasFile_1_1Header.html", null ],
     [ "IndexFile", "classIndexFile.html", null ],
@@ -36,7 +40,8 @@ var hierarchy =
     [ "IndexFile::Node", "structIndexFile_1_1Node.html", null ],
     [ "Page", "classPage.html", null ],
     [ "PluginInterface", "classPluginInterface.html", [
-      [ "ClassifyGroundPlugin", "classClassifyGroundPlugin.html", null ],
+      [ "ClassificationPlugin", "classClassificationPlugin.html", null ],
+      [ "ElevationPlugin", "classElevationPlugin.html", null ],
       [ "SegmentationPlugin", "classSegmentationPlugin.html", null ]
     ] ],
     [ "LasFile::Point", "structLasFile_1_1Point.html", null ],
@@ -45,7 +50,8 @@ var hierarchy =
       [ "SegmentationWindow", "classSegmentationWindow.html", null ]
     ] ],
     [ "QDockWidget", null, [
-      [ "ClassifyGroundWindow", "classClassifyGroundWindow.html", null ],
+      [ "ClassificationWindow", "classClassificationWindow.html", null ],
+      [ "ElevationWindow", "classElevationWindow.html", null ],
       [ "ProjectNavigatorWindow", "classProjectNavigatorWindow.html", null ],
       [ "SettingsWindow", "classSettingsWindow.html", null ]
     ] ],
@@ -56,7 +62,8 @@ var hierarchy =
       [ "MainWindow", "classMainWindow.html", null ]
     ] ],
     [ "QObject", null, [
-      [ "ClassifyGroundPlugin", "classClassifyGroundPlugin.html", null ],
+      [ "ClassificationPlugin", "classClassificationPlugin.html", null ],
+      [ "ElevationPlugin", "classElevationPlugin.html", null ],
       [ "HelpPlugin", "classHelpPlugin.html", null ],
       [ "ImportPlugin", "classImportPlugin.html", null ],
       [ "ProjectFilePlugin", "classProjectFilePlugin.html", null ],
@@ -74,8 +81,10 @@ var hierarchy =
     [ "Query", "classQuery.html", null ],
     [ "QWidget", null, [
       [ "ProjectNavigatorClassifications", "classProjectNavigatorClassifications.html", null ],
+      [ "ProjectNavigatorElevation", "classProjectNavigatorElevation.html", null ],
       [ "ProjectNavigatorFiles", "classProjectNavigatorFiles.html", null ],
       [ "ProjectNavigatorLayers", "classProjectNavigatorLayers.html", null ],
+      [ "RangeSliderWidget", "classRangeSliderWidget.html", null ],
       [ "SettingsColorWidget", "classSettingsColorWidget.html", null ],
       [ "SliderWidget", "classSliderWidget.html", null ],
       [ "ViewerViewports", "classViewerViewports.html", null ]

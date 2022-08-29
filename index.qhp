@@ -130,12 +130,32 @@
 <section title="validate" ref="classChunkFile.html#a9f1b4b91acd806bfb1a5ef1f208e3035"/>
 <section title="write" ref="classChunkFile.html#aa760b32f0e8bf05b90e9e2a72a7ada26"/>
 <section title="write" ref="classChunkFile.html#af5b13c13d369e2e3e42d4e88b6e8d096"/>
-<section title="CHUNK_HEADER_SIZE" ref="classChunkFile.html#a71ff8da062f1454a236404ab1d7ab790"/>
 <section title="file_" ref="classChunkFile.html#aeb986e42b8f608d030a86d0a60e529c3"/>
 </section>
+<section title="Class" ref="classClass.html">
+<section title="enabled" ref="classClass.html#affec6a1574156a7b3cebd17bd35b80af"/>
+<section title="label" ref="classClass.html#a083e18e5b7e9e1532d32fdc51d412c93"/>
+</section>
 <section title="Classification" ref="classClassification.html">
-<section title="enabled" ref="classClassification.html#ad7a554b13846cb415ce15bac1f783f07"/>
-<section title="label" ref="classClassification.html#ad1937ce38b0acd0e6b8fc605d438cec0"/>
+<section title="Classification" ref="classClassification.html#a630b35f8644d287bcf4a170b31f0973c"/>
+<section title="~Classification" ref="classClassification.html#a10208d1e2f7621a174a85d259f776705"/>
+<section title="clear" ref="classClassification.html#aaafe6ff29e528ac2d8106daccf594e1f"/>
+<section title="start" ref="classClassification.html#a22706b00f6d712dd00dbf522faa5c027"/>
+<section title="step" ref="classClassification.html#a650850cfd76e7c60c2c2ebb5393deeb1"/>
+<section title="angleDeg_" ref="classClassification.html#ad29812449dad45148de74483a3824c2b"/>
+<section title="currentStep_" ref="classClassification.html#a05d6077de8b01d244c99c58f47d32e58"/>
+<section title="editor_" ref="classClassification.html#ae67c853715e6e865a8a6cce1b075fa03"/>
+<section title="groundErrorPercent_" ref="classClassification.html#a41fda79bd0fa94e52f5230c923228bbb"/>
+<section title="numberOfSteps_" ref="classClassification.html#a7f04f5bb070f6ddd5c202e7463173ae5"/>
+<section title="query_" ref="classClassification.html#a86b7c9ed7f26576e9de1aa29de07cc28"/>
+<section title="queryPoint_" ref="classClassification.html#a0f077422f1286b7e4e03bcca0d64fe6b"/>
+</section>
+<section title="ClassificationPlugin" ref="classClassificationPlugin.html">
+<section title="ClassificationPlugin" ref="classClassificationPlugin.html#a443e56a98b3c90b18fdef2e6865a3bd6"/>
+<section title="initialize" ref="classClassificationPlugin.html#aec961004efe44658af00e2828d4fb660"/>
+<section title="slotPlugin" ref="classClassificationPlugin.html#ad8a1e46911f3e842044d08a4358dea4b"/>
+<section title="dockWindow_" ref="classClassificationPlugin.html#aa9d827c6afaf5d7650a89ab67686bb59"/>
+<section title="mainWindow_" ref="classClassificationPlugin.html#a91a960921e7baf0df4c688ee5270c5ee"/>
 </section>
 <section title="Classifications" ref="classClassifications.html">
 <section title="Classifications" ref="classClassifications.html#a567c666740d6c0584930b9fad8ac53fb"/>
@@ -151,50 +171,20 @@
 <section title="setInvertAll" ref="classClassifications.html#a8deaa9f3f20fcbc2151c52b1ff126b71"/>
 <section title="size" ref="classClassifications.html#a1e174f7811967adc88b11683c6f9a746"/>
 <section title="write" ref="classClassifications.html#ace1b3b2e4026ee45e1fb31d3bbb2ce40"/>
-<section title="classes_" ref="classClassifications.html#aa39e2d9bb989c41b01ae3914e5524e07"/>
+<section title="classes_" ref="classClassifications.html#a47c5feecbcf129fdac2a533c9dad6636"/>
 <section title="enabled_" ref="classClassifications.html#a78671e669038eb812de3ffb9cd9de856"/>
 </section>
-<section title="ClassifyGround" ref="classClassifyGround.html">
-<section title="ClassifyGround" ref="classClassifyGround.html#aa2f749e309e4d7e90bb0698794ac7982"/>
-<section title="~ClassifyGround" ref="classClassifyGround.html#ada0403f0ad56ee58c8f761242f143463"/>
-<section title="clear" ref="classClassifyGround.html#adcd93967cae92afcf9c7f4939e6b01a2"/>
-<section title="exportGroundMesh" ref="classClassifyGround.html#ad3e728a7b875c58b4021a5111e5a2db3"/>
-<section title="start" ref="classClassifyGround.html#ad63f9cad3f728ecc9697767b6d8e7948"/>
-<section title="step" ref="classClassifyGround.html#ae8527a2a91a37be5ea4c75b7e077db0b"/>
-<section title="angleDeg_" ref="classClassifyGround.html#a2abea0a0e4671996930813a4513087d7"/>
-<section title="C" ref="classClassifyGround.html#a32e18e9583139760af8297bfdc08c94a"/>
-<section title="currentStep_" ref="classClassifyGround.html#a802ec0baf07f02a8ad67ae2228320a54"/>
-<section title="D" ref="classClassifyGround.html#a062750c68d07b6359003fef077edd8f1"/>
-<section title="editor_" ref="classClassifyGround.html#aa271548f3c60159b4c3c4552ea37f949"/>
-<section title="F" ref="classClassifyGround.html#a20451178f64b8099f291e5e1d50f8977"/>
-<section title="groundErrorPercent_" ref="classClassifyGround.html#afdb39ef9932e623eb8388a9f18dc48f2"/>
-<section title="I" ref="classClassifyGround.html#ae21535b68b9361addbabe6eb539f86d1"/>
-<section title="numberOfSteps_" ref="classClassifyGround.html#a3d19eef859644f5bc0a68f2f24248190"/>
-<section title="P" ref="classClassifyGround.html#a00271794251ccd2fc3e0eddcf926ef72"/>
-<section title="query_" ref="classClassifyGround.html#ae00b99ce7d6f409531e26152e399f8a1"/>
-<section title="queryPoint_" ref="classClassifyGround.html#afdd4244bd0666329744c3e356dfec01d"/>
-<section title="V" ref="classClassifyGround.html#a72b71f10e8456b054c8f7713d2ab8203"/>
-<section title="XY" ref="classClassifyGround.html#a147989c82e76d05e40a611016b9d4411"/>
-</section>
-<section title="ClassifyGroundPlugin" ref="classClassifyGroundPlugin.html">
-<section title="ClassifyGroundPlugin" ref="classClassifyGroundPlugin.html#a58a790ac9b049b52cb4e7db5455eb08c"/>
-<section title="initialize" ref="classClassifyGroundPlugin.html#a92e3a7387f15c603d8ea45d7f8831577"/>
-<section title="slotPlugin" ref="classClassifyGroundPlugin.html#a38a82a4776e2ff57d180a6e26d6edd1d"/>
-<section title="dockWindow_" ref="classClassifyGroundPlugin.html#aebbc5274f30d6354d31acb72ca2447bf"/>
-<section title="mainWindow_" ref="classClassifyGroundPlugin.html#ae76364b2bc6fa2e15363c24b55a30647"/>
-</section>
-<section title="ClassifyGroundWindow" ref="classClassifyGroundWindow.html">
-<section title="ClassifyGroundWindow" ref="classClassifyGroundWindow.html#a594cf7f29b068e7a57d95d8b30138eb5"/>
-<section title="slotApply" ref="classClassifyGroundWindow.html#ac4a2a98c64cdd1e7360da800749530c9"/>
-<section title="angleSpinBox_" ref="classClassifyGroundWindow.html#acc06b3ef2f788e5a583a1a63beb15625"/>
-<section title="applyButton_" ref="classClassifyGroundWindow.html#a553a69dd76bee7172b15b6a393c9b8b3"/>
-<section title="classifyGround_" ref="classClassifyGroundWindow.html#a3209beaf30e0579295211948c3a909e5"/>
-<section title="lengthSpinBox_" ref="classClassifyGroundWindow.html#ab09354ba99cb585fac2847e8d2fe8ed5"/>
-<section title="liveCheckBox_" ref="classClassifyGroundWindow.html#a7d3c7431e83d5075542a11489a68055a"/>
-<section title="mainWindow_" ref="classClassifyGroundWindow.html#aff48f09eae5a4f2f6ee3227c05b019a3"/>
-<section title="nPointsSpinBox_" ref="classClassifyGroundWindow.html#a88a7ddfed517cb80bfff335e023056e2"/>
-<section title="rangeSpinBox_" ref="classClassifyGroundWindow.html#af4e1476cf659f92613029c4d23643c8e"/>
-<section title="widget_" ref="classClassifyGroundWindow.html#a43b4c813825a1716d185c19b19cb0320"/>
+<section title="ClassificationWindow" ref="classClassificationWindow.html">
+<section title="ClassificationWindow" ref="classClassificationWindow.html#ade15992053fbe912bb40f0153efacbd2"/>
+<section title="slotApply" ref="classClassificationWindow.html#a9e1022b452fdc2ade14fd0fdd72360f5"/>
+<section title="angleSlider_" ref="classClassificationWindow.html#a512923da225d8ca33ce2cad849073348"/>
+<section title="applyButton_" ref="classClassificationWindow.html#a20023e8c209828c51e1c5b5f60d367f4"/>
+<section title="classification_" ref="classClassificationWindow.html#abbc47f6987590dd466767dd9c21b91f8"/>
+<section title="lengthSlider_" ref="classClassificationWindow.html#a900cee713c43aaa350f6b0009d964ade"/>
+<section title="mainWindow_" ref="classClassificationWindow.html#a22ebde64212c486de481d0501ad83bf7"/>
+<section title="nPointsSlider_" ref="classClassificationWindow.html#a6044f51e2cf0bf9e81b5a8e038a03801"/>
+<section title="rangeSlider_" ref="classClassificationWindow.html#a9e60043137ce6504cdb9262957170896"/>
+<section title="widget_" ref="classClassificationWindow.html#a687b23e6d858cfbd6dacb96e64a1ddfa"/>
 </section>
 <section title="ColorPalette" ref="classColorPalette.html">
 <section title="blueCyanGreenYellowRed" ref="classColorPalette.html#a0a9b79ecc9d0bfcd4d7ce1a3f5addc18"/>
@@ -316,6 +306,7 @@
 <section title="clipFilter" ref="classEditor.html#ae0018b3445d4c688201590c112aa1532"/>
 <section title="close" ref="classEditor.html#aa7dc8544e104c680c9d2515f442a136b"/>
 <section title="datasets" ref="classEditor.html#a9ecda11933059d31ea06105810011dee"/>
+<section title="elevationRange" ref="classEditor.html#a9582a2ada16031d94dbb79642c2c775e"/>
 <section title="hasUnsavedChanges" ref="classEditor.html#aed131dcb595ff4dbffe4f0ce1d38d095"/>
 <section title="layers" ref="classEditor.html#ad5b24880347df3424ea0243b687c4bfa"/>
 <section title="lock" ref="classEditor.html#aa4d63d7e37383e9bc541a21925989e23"/>
@@ -330,6 +321,7 @@
 <section title="setClassifications" ref="classEditor.html#ab1649227496aec5969ef8a7e5132429c"/>
 <section title="setClipFilter" ref="classEditor.html#a4fdff42c4c102fba2dac842f5abbf7aa"/>
 <section title="setDatasets" ref="classEditor.html#ad04484d56d18d9da2218a36038f87e69"/>
+<section title="setElevationRange" ref="classEditor.html#a69bd7fe0c97aac96361257ddd2fea180"/>
 <section title="setLayers" ref="classEditor.html#a0be692fcb710fb01f42195f212b12567"/>
 <section title="setSettingsView" ref="classEditor.html#a44d6145f2efe3944e316421d47b79d12"/>
 <section title="settings" ref="classEditor.html#aa1fa3644ca2b631ecba682207077cec1"/>
@@ -343,6 +335,7 @@
 <section title="classifications_" ref="classEditor.html#aef0b17344d0d7debff0fe64739952162"/>
 <section title="clipFilter_" ref="classEditor.html#a7199627b13b8eec9ce1c7ec2b7f5dcec"/>
 <section title="datasets_" ref="classEditor.html#a679212059d7693ad3d44c7227dd2a97c"/>
+<section title="elevationRange_" ref="classEditor.html#afd8c1c063a08258fa4e8ad9d674e2d94"/>
 <section title="layers_" ref="classEditor.html#a94da1fec94bdc13d4721d1b2907eab27"/>
 <section title="modifiers_" ref="classEditor.html#a9fe765fcb0f461bf1380290ca2df8dda"/>
 <section title="mutex_" ref="classEditor.html#a4d2b12d37cbfc557fefaf512be4ad9c1"/>
@@ -352,6 +345,45 @@
 <section title="unsavedChanges_" ref="classEditor.html#abee3cf937e01f9d876c69679c5ea4571"/>
 <section title="viewports_" ref="classEditor.html#abc3de124c1b770afe56114111fee9a9e"/>
 <section title="voxels_" ref="classEditor.html#a14c69f859e95fa20f2c40ea6b9a9138b"/>
+</section>
+<section title="Elevation" ref="classElevation.html">
+<section title="Elevation" ref="classElevation.html#a724cc5e5d061e9bd61722bbbff3d8b61"/>
+<section title="~Elevation" ref="classElevation.html#ab94ce7cdca70338fbe0be1e0f3108a1d"/>
+<section title="clear" ref="classElevation.html#ae9e318f27f952e89632a919bfb4112f3"/>
+<section title="exportGroundMesh" ref="classElevation.html#ad0021f7267c20970a46cdc3e1047d0ea"/>
+<section title="start" ref="classElevation.html#a8402fb56119316ad0a4a39e5f7221f0c"/>
+<section title="step" ref="classElevation.html#a34cdf7eb5261fb22ee54d7c30cc46df4"/>
+<section title="C" ref="classElevation.html#ac4c65119c706f2180c0157b91628a8a0"/>
+<section title="currentStep_" ref="classElevation.html#a5fce73439faa823a10119729375522bc"/>
+<section title="D" ref="classElevation.html#a500a1a25f371b5f6c87a7acd2df4a106"/>
+<section title="editor_" ref="classElevation.html#aeaadf4f2b05c95a61955e5ae36e749b3"/>
+<section title="elevationMaximum_" ref="classElevation.html#adc59c0df996f3c1005eaff484eaae9af"/>
+<section title="elevationMinimum_" ref="classElevation.html#ab434d756e0158d81923263306be3bb7d"/>
+<section title="elevationPointsCount_" ref="classElevation.html#a2d0104e6a88b0deefff0cbefacee50e7"/>
+<section title="F" ref="classElevation.html#a97d9eb03239f9fcebf2501925fc3daca"/>
+<section title="I" ref="classElevation.html#aa14c13337020e2aef76a3ac4aeed6e15"/>
+<section title="numberOfSteps_" ref="classElevation.html#a2087a848fc0694217ab7b0d1f93895f5"/>
+<section title="P" ref="classElevation.html#a63b1a1e9196ace19fa71e99fd3936001"/>
+<section title="query_" ref="classElevation.html#a0354297d5bc2051e6e8d04c5f3be2db6"/>
+<section title="V" ref="classElevation.html#a23f44220861f7369631a6a2fb8b04b88"/>
+<section title="XY" ref="classElevation.html#a6aba79df5f234a4d70559fb743e67652"/>
+</section>
+<section title="ElevationPlugin" ref="classElevationPlugin.html">
+<section title="ElevationPlugin" ref="classElevationPlugin.html#a442a906d170d5b93a1fb29e5bbc60548"/>
+<section title="initialize" ref="classElevationPlugin.html#a81fa22e62e4d51fa66dbfe23b7b4c67d"/>
+<section title="slotPlugin" ref="classElevationPlugin.html#acf8b7eabae3d310b1864f1a9d09dc216"/>
+<section title="dockWindow_" ref="classElevationPlugin.html#a7bc23a738cacbe70d0fdba28eaf18529"/>
+<section title="mainWindow_" ref="classElevationPlugin.html#ad946af1b216482405220c9981417c4e0"/>
+</section>
+<section title="ElevationWindow" ref="classElevationWindow.html">
+<section title="ElevationWindow" ref="classElevationWindow.html#a652e3b787ec99bca776012635dcf2df6"/>
+<section title="slotApply" ref="classElevationWindow.html#a0993f2ac216e1c34008a0c71781ab753"/>
+<section title="applyButton_" ref="classElevationWindow.html#a64d7a99c48755286d216e62fd3337df6"/>
+<section title="elevation_" ref="classElevationWindow.html#a7753585d2e61f0de26cfc1b1a5086553"/>
+<section title="lengthInput_" ref="classElevationWindow.html#abd1cabddd1d3a2b5834c3011370b8643"/>
+<section title="mainWindow_" ref="classElevationWindow.html#a5d3324dfe43e6e7c91af588a7fc48122"/>
+<section title="nPointsInput_" ref="classElevationWindow.html#ab35f4e73d8082a842e0a4730bb5b05cf"/>
+<section title="widget_" ref="classElevationWindow.html#ad144b96f2f1d7abde328282ce4be39d4"/>
 </section>
 <section title="File" ref="classFile.html">
 <section title="File" ref="classFile.html#ae039af5807fc385f41b60644725d15d0"/>
@@ -366,6 +398,7 @@
 <section title="fileExtension" ref="classFile.html#a6ccf4a78575b89e2b18bf43fdcc44ef3"/>
 <section title="fileName" ref="classFile.html#a960da56002a945636a3d5e157f15f72d"/>
 <section title="isAbsolute" ref="classFile.html#a4996ee3d92219cd40d692710d53e0d63"/>
+<section title="join" ref="classFile.html#a91d1632ec4ad273b2daa7e274de69bd3"/>
 <section title="move" ref="classFile.html#a340227290c3e0a2ac0ad561267d163db"/>
 <section title="offset" ref="classFile.html#a7934aacbbc68c9c38bc84f37dc49b069"/>
 <section title="open" ref="classFile.html#a0c6173ce64df564924b19eb0283222fe"/>
@@ -940,6 +973,7 @@
 <section title="selectBox" ref="classPage.html#aec69a97b2fdb74efeaa2cbd2c6a09983"/>
 <section title="selectClassification" ref="classPage.html#a1ec1a660f39a2c4b89305a229f16367f"/>
 <section title="selectCone" ref="classPage.html#a50d31cd0b46f2b13c084c8df483a48de"/>
+<section title="selectElevation" ref="classPage.html#a5321ded7ba0f41989c22bd5faf8f296c"/>
 <section title="selectLayer" ref="classPage.html#add6d18281c95f61d8b5957f41785876c"/>
 <section title="selectSphere" ref="classPage.html#a84eab8485b1de860775db586c4d726ef"/>
 <section title="setColor" ref="classPage.html#afe83f236e23c6b303a6b116407bc6d9f"/>
@@ -1028,6 +1062,16 @@
 <section title="showButton_" ref="classProjectNavigatorClassifications.html#a9a0ee4e17c7f70d61c3fe37269d6ee1f"/>
 <section title="tree_" ref="classProjectNavigatorClassifications.html#a0c2ba0f3ec12079e6d38715cbff97d96"/>
 </section>
+<section title="ProjectNavigatorElevation" ref="classProjectNavigatorElevation.html">
+<section title="ProjectNavigatorElevation" ref="classProjectNavigatorElevation.html#a458d35e7d15303acd915df4382b628da"/>
+<section title="filterChanged" ref="classProjectNavigatorElevation.html#a3e0c51801ed8f3c35e47aa2777f0b487"/>
+<section title="slotRangeIntermediateMaximumValue" ref="classProjectNavigatorElevation.html#a6b90c145ee757ab6b8c65aaca27db37b"/>
+<section title="slotRangeIntermediateMinimumValue" ref="classProjectNavigatorElevation.html#a6b298a0aed030f2beda41f7f1ed99802"/>
+<section title="slotUpdate" ref="classProjectNavigatorElevation.html#a97d58f52c03507388ceb2a68df6237d8"/>
+<section title="elevationRange_" ref="classProjectNavigatorElevation.html#a6ba941613a6f6ec1f2e343a1bcb03d28"/>
+<section title="mainWindow_" ref="classProjectNavigatorElevation.html#a00cc195a98a81f86da2bf4fb6fb433b7"/>
+<section title="rangeInput_" ref="classProjectNavigatorElevation.html#ab9bf92a7729981754465e65c26c9d9c2"/>
+</section>
 <section title="ProjectNavigatorFiles" ref="classProjectNavigatorFiles.html">
 <section title="Column" ref="classProjectNavigatorFiles.html#ad92c5569a2af30f57300482ce0e52450">
 <section title="COLUMN_CHECKED" ref="classProjectNavigatorFiles.html#ad92c5569a2af30f57300482ce0e52450abd8aa81790c84782d337281e7b15ca4e"/>
@@ -1112,8 +1156,10 @@
 </section>
 <section title="ProjectNavigatorWindow" ref="classProjectNavigatorWindow.html">
 <section title="ProjectNavigatorWindow" ref="classProjectNavigatorWindow.html#ad86f71e57a5acf7411777e2115cf8c68"/>
+<section title="slotCurrentChanged" ref="classProjectNavigatorWindow.html#a31ba5ace40859a69df3a05db60fe5737"/>
 <section title="classifications_" ref="classProjectNavigatorWindow.html#aef79bfdf593a23f327e6a756fdc25127"/>
 <section title="datasets_" ref="classProjectNavigatorWindow.html#a9dde8a541c96eebec2408c74d21e2196"/>
+<section title="elevation_" ref="classProjectNavigatorWindow.html#af02069208b8c9fa965872909d4831795"/>
 <section title="layers_" ref="classProjectNavigatorWindow.html#ad7d7818c19f2cf9a86b7a6b91ae9568a"/>
 <section title="mainWindow_" ref="classProjectNavigatorWindow.html#aaca4581e25c772dca0aef5d76b1ab0a5"/>
 <section title="tabWidget_" ref="classProjectNavigatorWindow.html#a7c84cb657f9b82b6880eb386e0cb5412"/>
@@ -1162,9 +1208,11 @@
 <section title="selectedBox" ref="classQuery.html#a54784664ad0c3bac531b3f5bf964f663"/>
 <section title="selectedClassifications" ref="classQuery.html#ad06bf78aad8def01d3e907d6906a6069"/>
 <section title="selectedCone" ref="classQuery.html#afd187aab62996b619577d8d95a71c8c3"/>
+<section title="selectedElevationRange" ref="classQuery.html#a3099b5c8c5551e9ba38042a69c8d06b4"/>
 <section title="selectedLayers" ref="classQuery.html#a6af4aa28e6373222bdf7ab0a46f49d3c"/>
 <section title="selectedPages" ref="classQuery.html#a0ae1f9325b633e7d11b83664235fde1b"/>
 <section title="selectedSphere" ref="classQuery.html#aaac87724dcc3f9fee680b15603e9a15e"/>
+<section title="selectElevationRange" ref="classQuery.html#a37fa88cf5e86d051724338884fa2b828"/>
 <section title="selectLayers" ref="classQuery.html#a2955f68402ad0be55433a50beec55a98"/>
 <section title="selectSphere" ref="classQuery.html#af9195257fc9648377d738a80c399b319"/>
 <section title="setGrid" ref="classQuery.html#a313ef7ff209b623e53ec4919f4253d9d"/>
@@ -1184,6 +1232,7 @@
 <section title="color_" ref="classQuery.html#a775a073d392e75881600af6f3a20e31b"/>
 <section title="editor_" ref="classQuery.html#ac33cb1d22d39800cf5ea48ee653d017c"/>
 <section title="elevation_" ref="classQuery.html#ab5c223f0176cb8ab4cccba38219e13db"/>
+<section title="elevationRange_" ref="classQuery.html#ad8ad55dcf449c0e7a7cfc5a008696600"/>
 <section title="gpsTime_" ref="classQuery.html#aaddcde4828a13d66db668f8474c6a1ea"/>
 <section title="grid_" ref="classQuery.html#aaceb769a1fb0f1da14b1afaed109c336"/>
 <section title="gridBoundary_" ref="classQuery.html#a8dd15acaf4ca7c2027c95b1f3c575463"/>
@@ -1213,6 +1262,40 @@
 <section title="selectLayers_" ref="classQuery.html#ad774148dde954f311a82eaf9b6058338"/>
 <section title="userColor_" ref="classQuery.html#a012f5c1775e452721f197612aea20e14"/>
 <section title="userData_" ref="classQuery.html#a821e87e067c7cc1370658f55f21e0227"/>
+</section>
+<section title="Range" ref="classRange.html">
+<section title="Range" ref="classRange.html#a6f65c35914aeb4d5238b6acddaf40680"/>
+<section title="~Range" ref="classRange.html#a9e6f4eb88b15c2aa15c4678789e4f7b0"/>
+<section title="clear" ref="classRange.html#a05a5b908926e64956b0db27d19b0bd5e"/>
+<section title="hasBoundaryValues" ref="classRange.html#a52f961d394646b6feba45820087e88a2"/>
+<section title="maximum" ref="classRange.html#aff4e9a5e3257b883b8594437dec9541c"/>
+<section title="maximumValue" ref="classRange.html#a05532d0a0b02cac0b90b3af098abe1f9"/>
+<section title="minimum" ref="classRange.html#a73c1bf8473f0bc0a4a45f872d9b50ce7"/>
+<section title="minimumValue" ref="classRange.html#a3579d8cec36ab7e8f72c26f5b048beed"/>
+<section title="read" ref="classRange.html#a7fefd20784c492612d7319ee414be499"/>
+<section title="setMaximum" ref="classRange.html#aa9c0e4e9f75ad65414cc6e8ff9478a10"/>
+<section title="setMaximumValue" ref="classRange.html#a5ff3588e0acf5904fda4bc4ff1ce54fc"/>
+<section title="setMinimum" ref="classRange.html#a7222f2600ea9c986f3d53d6558c0cbd3"/>
+<section title="setMinimumValue" ref="classRange.html#a1d2bb905ceecf16fd67ac51a6c7dd4ca"/>
+<section title="write" ref="classRange.html#a87bf0098a9bb07bf6bf24c35325b6c98"/>
+</section>
+<section title="RangeSliderWidget" ref="classRangeSliderWidget.html">
+<section title="RangeSliderWidget" ref="classRangeSliderWidget.html#a1233d0411202877b288c95fc153c6796"/>
+<section title="blockSignals" ref="classRangeSliderWidget.html#a6419166fc8d3f34f72c9f12b1d9cd02b"/>
+<section title="create" ref="classRangeSliderWidget.html#ae3050a911567010b3fac4c50b07c1cf3"/>
+<section title="maximumValue" ref="classRangeSliderWidget.html#abeb7121974fe870a7d1c9a104cbbca83"/>
+<section title="minimumValue" ref="classRangeSliderWidget.html#ac0074b2720a5c7ed405d9947e289726e"/>
+<section title="setMaximum" ref="classRangeSliderWidget.html#a1b8d79136ce737b3a64ca8f651828f2c"/>
+<section title="setMaximumValue" ref="classRangeSliderWidget.html#ad990aef03b153caa93cff3786eaa9a60"/>
+<section title="setMinimum" ref="classRangeSliderWidget.html#a1934d040c371e997fcae67eb3ae65e94"/>
+<section title="setMinimumValue" ref="classRangeSliderWidget.html#ab6db53f007d57d9d7cbea04a6d0b7a6a"/>
+<section title="signalIntermediateMaximumValue" ref="classRangeSliderWidget.html#a473389a21f415ce7194c644274a3dfbc"/>
+<section title="signalIntermediateMinimumValue" ref="classRangeSliderWidget.html#a019d9d1ec1ca7773e246d57661e7eda3"/>
+<section title="slotIntermediateMaximumValue" ref="classRangeSliderWidget.html#afab76c02842d77abe4320980d0ce2d09"/>
+<section title="slotIntermediateMinimumValue" ref="classRangeSliderWidget.html#a38940379040da72dc30eded97f969195"/>
+<section title="maxSpinBox_" ref="classRangeSliderWidget.html#ab532aa1e659eed8e1896dcb847cf53f6"/>
+<section title="minSpinBox_" ref="classRangeSliderWidget.html#a1c42bbd19f4fcb9b5852d35b81ea63be"/>
+<section title="slider_" ref="classRangeSliderWidget.html#a9527a46490f9722512ec475220f7e4ed"/>
 </section>
 <section title="Region" ref="classRegion.html">
 <section title="Type" ref="classRegion.html#ab5d4951b672efebd7f1a5354c1b05a6c">
@@ -1480,6 +1563,30 @@
 <section title="~ThreadCallbackInterface" ref="classThreadCallbackInterface.html#a32d091268f4de37a663971196a5245d7"/>
 <section title="threadProgress" ref="classThreadCallbackInterface.html#a07a215f8f95ad1c0c1dac69c142c020d"/>
 </section>
+<section title="Vector2" ref="classVector2.html">
+<section title="Vector2" ref="classVector2.html#ae2f1223cb0d664aa73afb789086a4174"/>
+<section title="Vector2" ref="classVector2.html#ac264220fb4d7a1eba06d69ed80ba4117"/>
+<section title="Vector2" ref="classVector2.html#ad738f596f321c468e22dd8bf9a315ba3"/>
+<section title="Vector2" ref="classVector2.html#a4505923aadccfec514b747063b0e80cc"/>
+<section title="clear" ref="classVector2.html#a214e3425347f032b3994a29a7b074666"/>
+<section title="length" ref="classVector2.html#a784391c74b4bd821fc4a6277170c1263"/>
+<section title="max" ref="classVector2.html#a05ab2ba9b85d092eb9ef7a04816cfcb1"/>
+<section title="min" ref="classVector2.html#ac6f32cf6659a797ed0fd12884798a676"/>
+<section title="normalize" ref="classVector2.html#ace2a626eaa79412e2946216e9c3e63c6"/>
+<section title="normalized" ref="classVector2.html#aa78ff4778f55bf9c1ba9a10830fc0b89"/>
+<section title="operator=" ref="classVector2.html#a015498f7ae54566e3f5ee6f8fbf9d6fc"/>
+<section title="read" ref="classVector2.html#ade9d2a411abb23323fe5c38ecf8f8d88"/>
+<section title="set" ref="classVector2.html#aad6f9b864455abf20e2a265f6336a2ac"/>
+<section title="write" ref="classVector2.html#a5b5f4000a74578a2a3a7ff1201b58a9c"/>
+<section title="operator*" ref="classVector2.html#aab925532ade9f0ab470ba8ec55b28823"/>
+<section title="operator*" ref="classVector2.html#a68e3f06f551189bc32cf17d67b77f14e"/>
+<section title="operator*" ref="classVector2.html#a7b296668e1769bc0f77f4d0b5c16ea0f"/>
+<section title="operator+" ref="classVector2.html#aad7188bb0b2c452928de7ac31b0c5151"/>
+<section title="operator-" ref="classVector2.html#a6084e994a765c9dce2049e0c166c12ee"/>
+<section title="operator/" ref="classVector2.html#a831722582ce3639fc708595fbbb17a00"/>
+<section title="operator/" ref="classVector2.html#ac76c572fc5284b5b11f31f4a9e09d39e"/>
+<section title="operator/" ref="classVector2.html#ae307fa5b824191b6f9f2f3f465e68e65"/>
+</section>
 <section title="Vector3" ref="classVector3.html">
 <section title="Vector3" ref="classVector3.html#a54f99f4211298d5245ea578bdd5143cc"/>
 <section title="Vector3" ref="classVector3.html#a8ed0fa42d6b8ce876140de122a3fd068"/>
@@ -1726,6 +1833,7 @@
 <section title="selectBox" ref="classViewports.html#aff44e2987baff2c163704ae6249a0f16"/>
 <section title="selectCamera" ref="classViewports.html#a98e1a4e99b2af633f26d32f7c53f3f4f"/>
 <section title="selectClassifications" ref="classViewports.html#af82f1629f09754c69bd8e549379e4f3f"/>
+<section title="selectElevationRange" ref="classViewports.html#abf5b3de5992a74d2c9c9e267dfa6f485"/>
 <section title="selectLayers" ref="classViewports.html#ae9873f342df51f5962093e45640e3316"/>
 <section title="setState" ref="classViewports.html#a8b24a5282082152ab62faebc3c87d11f"/>
 <section title="viewports_" ref="classViewports.html#a3574e0d328a1ba3a525b6e641e333f55"/>
@@ -1768,8 +1876,11 @@
 </section>
 <section title="Class Hierarchy" ref="hierarchy.html">
 <section title="std::array" ref="">
+<section title="Range&lt; double &gt;" ref="classRange.html"/>
 <section title="Vector3&lt; float &gt;" ref="classVector3.html"/>
 <section title="Vector3&lt; double &gt;" ref="classVector3.html"/>
+<section title="Range&lt; T &gt;" ref="classRange.html"/>
+<section title="Vector2&lt; T &gt;" ref="classVector2.html"/>
 <section title="Vector3&lt; T &gt;" ref="classVector3.html"/>
 </section>
 <section title="Box&lt; T &gt;" ref="classBox.html"/>
@@ -1778,9 +1889,9 @@
 <section title="Camera" ref="classCamera.html"/>
 <section title="ChunkFile::Chunk" ref="structChunkFile_1_1Chunk.html"/>
 <section title="ChunkFile" ref="classChunkFile.html"/>
+<section title="Class" ref="classClass.html"/>
 <section title="Classification" ref="classClassification.html"/>
 <section title="Classifications" ref="classClassifications.html"/>
-<section title="ClassifyGround" ref="classClassifyGround.html"/>
 <section title="ColorPalette" ref="classColorPalette.html"/>
 <section title="Cone&lt; T &gt;" ref="classCone.html"/>
 <section title="Cone&lt; double &gt;" ref="classCone.html"/>
@@ -1788,6 +1899,7 @@
 <section title="Dataset" ref="classDataset.html"/>
 <section title="Datasets" ref="classDatasets.html"/>
 <section title="Editor" ref="classEditor.html"/>
+<section title="Elevation" ref="classElevation.html"/>
 <section title="File" ref="classFile.html"/>
 <section title="LasFile::Header" ref="structLasFile_1_1Header.html"/>
 <section title="IndexFile" ref="classIndexFile.html"/>
@@ -1803,7 +1915,8 @@
 <section title="IndexFile::Node" ref="structIndexFile_1_1Node.html"/>
 <section title="Page" ref="classPage.html"/>
 <section title="PluginInterface" ref="classPluginInterface.html">
-<section title="ClassifyGroundPlugin" ref="classClassifyGroundPlugin.html"/>
+<section title="ClassificationPlugin" ref="classClassificationPlugin.html"/>
+<section title="ElevationPlugin" ref="classElevationPlugin.html"/>
 <section title="SegmentationPlugin" ref="classSegmentationPlugin.html"/>
 </section>
 <section title="LasFile::Point" ref="structLasFile_1_1Point.html"/>
@@ -1812,7 +1925,8 @@
 <section title="SegmentationWindow" ref="classSegmentationWindow.html"/>
 </section>
 <section title="QDockWidget" ref="">
-<section title="ClassifyGroundWindow" ref="classClassifyGroundWindow.html"/>
+<section title="ClassificationWindow" ref="classClassificationWindow.html"/>
+<section title="ElevationWindow" ref="classElevationWindow.html"/>
 <section title="ProjectNavigatorWindow" ref="classProjectNavigatorWindow.html"/>
 <section title="SettingsWindow" ref="classSettingsWindow.html"/>
 </section>
@@ -1823,7 +1937,8 @@
 <section title="MainWindow" ref="classMainWindow.html"/>
 </section>
 <section title="QObject" ref="">
-<section title="ClassifyGroundPlugin" ref="classClassifyGroundPlugin.html"/>
+<section title="ClassificationPlugin" ref="classClassificationPlugin.html"/>
+<section title="ElevationPlugin" ref="classElevationPlugin.html"/>
 <section title="HelpPlugin" ref="classHelpPlugin.html"/>
 <section title="ImportPlugin" ref="classImportPlugin.html"/>
 <section title="ProjectFilePlugin" ref="classProjectFilePlugin.html"/>
@@ -1841,8 +1956,10 @@
 <section title="Query" ref="classQuery.html"/>
 <section title="QWidget" ref="">
 <section title="ProjectNavigatorClassifications" ref="classProjectNavigatorClassifications.html"/>
+<section title="ProjectNavigatorElevation" ref="classProjectNavigatorElevation.html"/>
 <section title="ProjectNavigatorFiles" ref="classProjectNavigatorFiles.html"/>
 <section title="ProjectNavigatorLayers" ref="classProjectNavigatorLayers.html"/>
+<section title="RangeSliderWidget" ref="classRangeSliderWidget.html"/>
 <section title="SettingsColorWidget" ref="classSettingsColorWidget.html"/>
 <section title="SliderWidget" ref="classSliderWidget.html"/>
 <section title="ViewerViewports" ref="classViewerViewports.html"/>
@@ -1971,11 +2088,11 @@
 <keyword name="Camera" id="Camera_" ref="classCamera.html"/>
 <keyword name="ChunkFile::Chunk" id="ChunkFile::Chunk_" ref="structChunkFile_1_1Chunk.html"/>
 <keyword name="ChunkFile" id="ChunkFile_" ref="classChunkFile.html"/>
+<keyword name="Class" id="Class_" ref="classClass.html"/>
 <keyword name="Classification" id="Classification_" ref="classClassification.html"/>
+<keyword name="ClassificationPlugin" id="ClassificationPlugin_" ref="classClassificationPlugin.html"/>
 <keyword name="Classifications" id="Classifications_" ref="classClassifications.html"/>
-<keyword name="ClassifyGround" id="ClassifyGround_" ref="classClassifyGround.html"/>
-<keyword name="ClassifyGroundPlugin" id="ClassifyGroundPlugin_" ref="classClassifyGroundPlugin.html"/>
-<keyword name="ClassifyGroundWindow" id="ClassifyGroundWindow_" ref="classClassifyGroundWindow.html"/>
+<keyword name="ClassificationWindow" id="ClassificationWindow_" ref="classClassificationWindow.html"/>
 <keyword name="ColorPalette" id="ColorPalette_" ref="classColorPalette.html"/>
 <keyword name="Cone" id="Cone_" ref="classCone.html"/>
 <keyword name="Cone&lt; double &gt;" id="Cone&lt; double &gt;_" ref="classCone.html"/>
@@ -1983,6 +2100,9 @@
 <keyword name="Dataset" id="Dataset_" ref="classDataset.html"/>
 <keyword name="Datasets" id="Datasets_" ref="classDatasets.html"/>
 <keyword name="Editor" id="Editor_" ref="classEditor.html"/>
+<keyword name="Elevation" id="Elevation_" ref="classElevation.html"/>
+<keyword name="ElevationPlugin" id="ElevationPlugin_" ref="classElevationPlugin.html"/>
+<keyword name="ElevationWindow" id="ElevationWindow_" ref="classElevationWindow.html"/>
 <keyword name="File" id="File_" ref="classFile.html"/>
 <keyword name="LasFile::Header" id="LasFile::Header_" ref="structLasFile_1_1Header.html"/>
 <keyword name="HelpPlugin" id="HelpPlugin_" ref="classHelpPlugin.html"/>
@@ -2005,11 +2125,15 @@
 <keyword name="LasFile::Point" id="LasFile::Point_" ref="structLasFile_1_1Point.html"/>
 <keyword name="ProjectFilePlugin" id="ProjectFilePlugin_" ref="classProjectFilePlugin.html"/>
 <keyword name="ProjectNavigatorClassifications" id="ProjectNavigatorClassifications_" ref="classProjectNavigatorClassifications.html"/>
+<keyword name="ProjectNavigatorElevation" id="ProjectNavigatorElevation_" ref="classProjectNavigatorElevation.html"/>
 <keyword name="ProjectNavigatorFiles" id="ProjectNavigatorFiles_" ref="classProjectNavigatorFiles.html"/>
 <keyword name="ProjectNavigatorLayers" id="ProjectNavigatorLayers_" ref="classProjectNavigatorLayers.html"/>
 <keyword name="ProjectNavigatorPlugin" id="ProjectNavigatorPlugin_" ref="classProjectNavigatorPlugin.html"/>
 <keyword name="ProjectNavigatorWindow" id="ProjectNavigatorWindow_" ref="classProjectNavigatorWindow.html"/>
 <keyword name="Query" id="Query_" ref="classQuery.html"/>
+<keyword name="Range" id="Range_" ref="classRange.html"/>
+<keyword name="Range&lt; double &gt;" id="Range&lt; double &gt;_" ref="classRange.html"/>
+<keyword name="RangeSliderWidget" id="RangeSliderWidget_" ref="classRangeSliderWidget.html"/>
 <keyword name="Region" id="Region_" ref="classRegion.html"/>
 <keyword name="RenderThread" id="RenderThread_" ref="classRenderThread.html"/>
 <keyword name="SegmentationPca" id="SegmentationPca_" ref="classSegmentationPca.html"/>
@@ -2031,6 +2155,7 @@
 <keyword name="ThemeIcon" id="ThemeIcon_" ref="classThemeIcon.html"/>
 <keyword name="Thread" id="Thread_" ref="classThread.html"/>
 <keyword name="ThreadCallbackInterface" id="ThreadCallbackInterface_" ref="classThreadCallbackInterface.html"/>
+<keyword name="Vector2" id="Vector2_" ref="classVector2.html"/>
 <keyword name="Vector3" id="Vector3_" ref="classVector3.html"/>
 <keyword name="Vector3&lt; double &gt;" id="Vector3&lt; double &gt;_" ref="classVector3.html"/>
 <keyword name="Vector3&lt; float &gt;" id="Vector3&lt; float &gt;_" ref="classVector3.html"/>
@@ -2083,11 +2208,12 @@
 <keyword name="angle" id="LasFile::Point::angle_ae4e48939adaf00ad1525722d6d176e7a" ref="structLasFile_1_1Point.html#ae4e48939adaf00ad1525722d6d176e7a"/>
 <keyword name="angle_" id="Cone::angle__af8f611ac4445bca3f226762238aa0c5f" ref="classCone.html#af8f611ac4445bca3f226762238aa0c5f"/>
 <keyword name="angle_" id="Cone&lt; double &gt;::angle__af8f611ac4445bca3f226762238aa0c5f" ref="classCone.html#af8f611ac4445bca3f226762238aa0c5f"/>
-<keyword name="angleDeg_" id="ClassifyGround::angleDeg__a2abea0a0e4671996930813a4513087d7" ref="classClassifyGround.html#a2abea0a0e4671996930813a4513087d7"/>
-<keyword name="angleSpinBox_" id="ClassifyGroundWindow::angleSpinBox__acc06b3ef2f788e5a583a1a63beb15625" ref="classClassifyGroundWindow.html#acc06b3ef2f788e5a583a1a63beb15625"/>
+<keyword name="angleDeg_" id="Classification::angleDeg__ad29812449dad45148de74483a3824c2b" ref="classClassification.html#ad29812449dad45148de74483a3824c2b"/>
+<keyword name="angleSlider_" id="ClassificationWindow::angleSlider__a512923da225d8ca33ce2cad849073348" ref="classClassificationWindow.html#a512923da225d8ca33ce2cad849073348"/>
 <keyword name="APPLICATION_NAME" id="MainWindow::APPLICATION_NAME_aec780e3c9de52ce7d77cf87b12d6ae72" ref="classMainWindow.html#aec780e3c9de52ce7d77cf87b12d6ae72"/>
 <keyword name="APPLICATION_VERSION" id="MainWindow::APPLICATION_VERSION_aae2f8e2f07f5248e11b3364fd2f6ef9a" ref="classMainWindow.html#aae2f8e2f07f5248e11b3364fd2f6ef9a"/>
-<keyword name="applyButton_" id="ClassifyGroundWindow::applyButton__a553a69dd76bee7172b15b6a393c9b8b3" ref="classClassifyGroundWindow.html#a553a69dd76bee7172b15b6a393c9b8b3"/>
+<keyword name="applyButton_" id="ClassificationWindow::applyButton__a20023e8c209828c51e1c5b5f60d367f4" ref="classClassificationWindow.html#a20023e8c209828c51e1c5b5f60d367f4"/>
+<keyword name="applyButton_" id="ElevationWindow::applyButton__a64d7a99c48755286d216e62fd3337df6" ref="classElevationWindow.html#a64d7a99c48755286d216e62fd3337df6"/>
 <keyword name="array" id="Json::Data::array_a5811002ff73eebae1fd61677a0993a4a" ref="classJson_1_1Data.html#a5811002ff73eebae1fd61677a0993a4a"/>
 <keyword name="array() const" id="Json::array_a2294b996718e1291220c72325e4a63c2" ref="classJson.html#a2294b996718e1291220c72325e4a63c2"/>
 <keyword name="at(size_t i) const" id="Datasets::at_ab9fa1294d85738706221175476987421" ref="classDatasets.html#ab9fa1294d85738706221175476987421"/>
@@ -2106,6 +2232,7 @@
 <keyword name="block()" id="ProjectNavigatorFiles::block_a99604db0d0c98457213cee7aa66461b6" ref="classProjectNavigatorFiles.html#a99604db0d0c98457213cee7aa66461b6"/>
 <keyword name="block()" id="ProjectNavigatorLayers::block_ab10efaf76251d1e98203c0d1a20bc678" ref="classProjectNavigatorLayers.html#ab10efaf76251d1e98203c0d1a20bc678"/>
 <keyword name="block()" id="SettingsColorWidget::block_a3018a6528f64303d5cf64265517cbb83" ref="classSettingsColorWidget.html#a3018a6528f64303d5cf64265517cbb83"/>
+<keyword name="blockSignals(bool block)" id="RangeSliderWidget::blockSignals_a6419166fc8d3f34f72c9f12b1d9cd02b" ref="classRangeSliderWidget.html#a6419166fc8d3f34f72c9f12b1d9cd02b"/>
 <keyword name="blockSignals(bool block)" id="SliderWidget::blockSignals_acea30ba16adc0dbc4919d781cc0821be" ref="classSliderWidget.html#acea30ba16adc0dbc4919d781cc0821be"/>
 <keyword name="blue" id="LasFile::Point::blue_a76d55eb4a0a6e310e1516730f4d47762" ref="structLasFile_1_1Point.html#a76d55eb4a0a6e310e1516730f4d47762"/>
 <keyword name="blue()" id="Query::blue_ad39284d9ef0c5a5384182763470bd79d" ref="classQuery.html#ad39284d9ef0c5a5384182763470bd79d"/>
@@ -2129,12 +2256,6 @@
 <keyword name="boundaryPoints() const" id="IndexFile::boundaryPoints_a81646f81cec564c80360b46a13a67582" ref="classIndexFile.html#a81646f81cec564c80360b46a13a67582"/>
 <keyword name="boundaryPoints_" id="IndexFile::boundaryPoints__a7c269e4d6a71e5ab7561d20198470e06" ref="classIndexFile.html#a7c269e4d6a71e5ab7561d20198470e06"/>
 <keyword name="boundaryPointsFile_" id="IndexFile::boundaryPointsFile__a704bbd32dac0a3351ad783e4be731bd3" ref="classIndexFile.html#a704bbd32dac0a3351ad783e4be731bd3"/>
-<keyword name="box" id="Page::box_aecb94042f6ab79102605a505ad3bddfc" ref="classPage.html#aecb94042f6ab79102605a505ad3bddfc"/>
-<keyword name="box" id="Region::box_aced6afbc1554734b4b75fb57acf08bf5" ref="classRegion.html#aced6afbc1554734b4b75fb57acf08bf5"/>
-<keyword name="box() const" id="Cone::box_adaf440f02aef6c9889f10904b5862572" ref="classCone.html#adaf440f02aef6c9889f10904b5862572"/>
-<keyword name="box() const" id="Sphere::box_a3d30bf5f31d75981c1387394f2b1b769" ref="classSphere.html#a3d30bf5f31d75981c1387394f2b1b769"/>
-<keyword name="box() const" id="Cone&lt; double &gt;::box_adaf440f02aef6c9889f10904b5862572" ref="classCone.html#adaf440f02aef6c9889f10904b5862572"/>
-<keyword name="box() const" id="Sphere&lt; double &gt;::box_a3d30bf5f31d75981c1387394f2b1b769" ref="classSphere.html#a3d30bf5f31d75981c1387394f2b1b769"/>
 <keyword name="Box()" id="Box::Box_a057f84d8fa68647c6484d4e004d8ab74" ref="classBox.html#a057f84d8fa68647c6484d4e004d8ab74"/>
 <keyword name="Box(const Box&lt; B &gt; &amp;box)" id="Box::Box_aa2f47f763c87c6529e7ac978af7dc04a" ref="classBox.html#aa2f47f763c87c6529e7ac978af7dc04a"/>
 <keyword name="Box(B x1, B y1, B z1, B x2, B y2, B z2)" id="Box::Box_a2613d71f208382ba0e971161b3fb2fd2" ref="classBox.html#a2613d71f208382ba0e971161b3fb2fd2"/>
@@ -2143,6 +2264,12 @@
 <keyword name="Box(const Box&lt; B &gt; &amp;box)" id="Box&lt; double &gt;::Box_aa2f47f763c87c6529e7ac978af7dc04a" ref="classBox.html#aa2f47f763c87c6529e7ac978af7dc04a"/>
 <keyword name="Box(B x1, B y1, B z1, B x2, B y2, B z2)" id="Box&lt; double &gt;::Box_a2613d71f208382ba0e971161b3fb2fd2" ref="classBox.html#a2613d71f208382ba0e971161b3fb2fd2"/>
 <keyword name="Box(B cx, B cy, B cz, B r)" id="Box&lt; double &gt;::Box_a766d72eb5cd074fcfff50a3e9c8c0579" ref="classBox.html#a766d72eb5cd074fcfff50a3e9c8c0579"/>
+<keyword name="box" id="Page::box_aecb94042f6ab79102605a505ad3bddfc" ref="classPage.html#aecb94042f6ab79102605a505ad3bddfc"/>
+<keyword name="box" id="Region::box_aced6afbc1554734b4b75fb57acf08bf5" ref="classRegion.html#aced6afbc1554734b4b75fb57acf08bf5"/>
+<keyword name="box() const" id="Cone::box_adaf440f02aef6c9889f10904b5862572" ref="classCone.html#adaf440f02aef6c9889f10904b5862572"/>
+<keyword name="box() const" id="Sphere::box_a3d30bf5f31d75981c1387394f2b1b769" ref="classSphere.html#a3d30bf5f31d75981c1387394f2b1b769"/>
+<keyword name="box() const" id="Cone&lt; double &gt;::box_adaf440f02aef6c9889f10904b5862572" ref="classCone.html#adaf440f02aef6c9889f10904b5862572"/>
+<keyword name="box() const" id="Sphere&lt; double &gt;::box_a3d30bf5f31d75981c1387394f2b1b769" ref="classSphere.html#a3d30bf5f31d75981c1387394f2b1b769"/>
 <keyword name="box_" id="Cone::box__ab1553899daf90c5e2e59280043c28a7a" ref="classCone.html#ab1553899daf90c5e2e59280043c28a7a"/>
 <keyword name="box_" id="Sphere::box__a41d4afc4e5d7e14ed125f9f1d72cf912" ref="classSphere.html#a41d4afc4e5d7e14ed125f9f1d72cf912"/>
 <keyword name="box_" id="Cone&lt; double &gt;::box__ab1553899daf90c5e2e59280043c28a7a" ref="classCone.html#ab1553899daf90c5e2e59280043c28a7a"/>
@@ -2152,7 +2279,7 @@
 <keyword name="buffer_" id="Page::buffer__a52749f6268018a10a7e29acc2fb23d35" ref="classPage.html#a52749f6268018a10a7e29acc2fb23d35"/>
 <keyword name="bufferOut_" id="IndexFileBuilder::bufferOut__aeb5dbb7c9de7f0d32d90d5e5e39ada3a" ref="classIndexFileBuilder.html#aeb5dbb7c9de7f0d32d90d5e5e39ada3a"/>
 <keyword name="bufferSize" id="IndexFileBuilder::Settings::bufferSize_afe58d100aef5cb333914f600f3fc16a6" ref="classIndexFileBuilder_1_1Settings.html#afe58d100aef5cb333914f600f3fc16a6"/>
-<keyword name="C" id="ClassifyGround::C_a32e18e9583139760af8297bfdc08c94a" ref="classClassifyGround.html#a32e18e9583139760af8297bfdc08c94a"/>
+<keyword name="C" id="Elevation::C_ac4c65119c706f2180c0157b91628a8a0" ref="classElevation.html#ac4c65119c706f2180c0157b91628a8a0"/>
 <keyword name="cache(size_t index)" id="Query::cache_ade255e2a1b3d54c067c9e8606ab7b58a" ref="classQuery.html#ade255e2a1b3d54c067c9e8606ab7b58a"/>
 <keyword name="cache_" id="Query::cache__a9fa5ead65e52913d0458f3a6b4a9eeae" ref="classQuery.html#a9fa5ead65e52913d0458f3a6b4a9eeae"/>
 <keyword name="cacheSize() const" id="Query::cacheSize_a5dbf40e29aa23c70709d90d0559edb76" ref="classQuery.html#a5dbf40e29aa23c70709d90d0559edb76"/>
@@ -2171,7 +2298,6 @@
 <keyword name="center_" id="ViewerCamera::center__a094fac03ee696c06b1bf3143e37d9b81" ref="classViewerCamera.html#a094fac03ee696c06b1bf3143e37d9b81"/>
 <keyword name="centerCheckBox_" id="ImportDialog::centerCheckBox__ab426e9be34c1275c22881b01838cc4c0" ref="classImportDialog.html#ab426e9be34c1275c22881b01838cc4c0"/>
 <keyword name="centerEnabled_" id="SettingsImport::centerEnabled__ae6cf694787cf1ef7cd8bec950fafd09a" ref="classSettingsImport.html#ae6cf694787cf1ef7cd8bec950fafd09a"/>
-<keyword name="CHUNK_HEADER_SIZE" id="ChunkFile::CHUNK_HEADER_SIZE_a71ff8da062f1454a236404ab1d7ab790" ref="classChunkFile.html#a71ff8da062f1454a236404ab1d7ab790"/>
 <keyword name="CHUNK_TYPE" id="IndexFile::CHUNK_TYPE_a11f5d47fbe8704b47452a89eb0721763" ref="classIndexFile.html#a11f5d47fbe8704b47452a89eb0721763"/>
 <keyword name="ChunkFile()" id="ChunkFile::ChunkFile_acc303ad6a35ccdc5eae401da257881de" ref="classChunkFile.html#acc303ad6a35ccdc5eae401da257881de"/>
 <keyword name="CLASS_BUILDING" id="LasFile::CLASS_BUILDING_a23ca2c79a141774dc33b80f1b8c7127ca482330a47c151351db995bb6b8d5b7b1" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127ca482330a47c151351db995bb6b8d5b7b1"/>
@@ -2181,10 +2307,7 @@
 <keyword name="CLASS_MEDIUM_VEGETATION" id="LasFile::CLASS_MEDIUM_VEGETATION_a23ca2c79a141774dc33b80f1b8c7127cafa65ad36954bb12d367461d4d25b22d0" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127cafa65ad36954bb12d367461d4d25b22d0"/>
 <keyword name="CLASS_NEVER_CLASSIFIED" id="LasFile::CLASS_NEVER_CLASSIFIED_a23ca2c79a141774dc33b80f1b8c7127cafe6a5504256abd4980819a85a5467508" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127cafe6a5504256abd4980819a85a5467508"/>
 <keyword name="CLASS_UNASSIGNED" id="LasFile::CLASS_UNASSIGNED_a23ca2c79a141774dc33b80f1b8c7127cac9e261db850bde2a104cabd4f70cd29e" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127cac9e261db850bde2a104cabd4f70cd29e"/>
-<keyword name="classes_" id="Classifications::classes__aa39e2d9bb989c41b01ae3914e5524e07" ref="classClassifications.html#aa39e2d9bb989c41b01ae3914e5524e07"/>
-<keyword name="classification" id="LasFile::Point::classification_aecb05abcc58648b14bca776e90ed9189" ref="structLasFile_1_1Point.html#aecb05abcc58648b14bca776e90ed9189"/>
-<keyword name="classification" id="Page::classification_a517be58884db1f30cb1fefd65ae449e8" ref="classPage.html#a517be58884db1f30cb1fefd65ae449e8"/>
-<keyword name="classification()" id="Query::classification_a019601f80fc296ef862d2f32f6b69f68" ref="classQuery.html#a019601f80fc296ef862d2f32f6b69f68"/>
+<keyword name="classes_" id="Classifications::classes__a47c5feecbcf129fdac2a533c9dad6636" ref="classClassifications.html#a47c5feecbcf129fdac2a533c9dad6636"/>
 <keyword name="Classification" id="LasFile::Classification_a23ca2c79a141774dc33b80f1b8c7127c" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127c"/>
 <keyword name="CLASS_NEVER_CLASSIFIED" id="LasFile::CLASS_NEVER_CLASSIFIED_a23ca2c79a141774dc33b80f1b8c7127cafe6a5504256abd4980819a85a5467508" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127cafe6a5504256abd4980819a85a5467508"/>
 <keyword name="CLASS_UNASSIGNED" id="LasFile::CLASS_UNASSIGNED_a23ca2c79a141774dc33b80f1b8c7127cac9e261db850bde2a104cabd4f70cd29e" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127cac9e261db850bde2a104cabd4f70cd29e"/>
@@ -2194,21 +2317,26 @@
 <keyword name="CLASS_HIGH_VEGETATION" id="LasFile::CLASS_HIGH_VEGETATION_a23ca2c79a141774dc33b80f1b8c7127ca4881a2d84e79bc87cef09d2e24e08f97" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127ca4881a2d84e79bc87cef09d2e24e08f97"/>
 <keyword name="CLASS_BUILDING" id="LasFile::CLASS_BUILDING_a23ca2c79a141774dc33b80f1b8c7127ca482330a47c151351db995bb6b8d5b7b1" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127ca482330a47c151351db995bb6b8d5b7b1"/>
 <keyword name="Classification" id="ColorPalette::Classification_a84eea7fc6cf059a4dcac0f38892372ed" ref="classColorPalette.html#a84eea7fc6cf059a4dcac0f38892372ed"/>
+<keyword name="Classification(Editor *editor)" id="Classification::Classification_a630b35f8644d287bcf4a170b31f0973c" ref="classClassification.html#a630b35f8644d287bcf4a170b31f0973c"/>
+<keyword name="classification" id="LasFile::Point::classification_aecb05abcc58648b14bca776e90ed9189" ref="structLasFile_1_1Point.html#aecb05abcc58648b14bca776e90ed9189"/>
+<keyword name="classification" id="Page::classification_a517be58884db1f30cb1fefd65ae449e8" ref="classPage.html#a517be58884db1f30cb1fefd65ae449e8"/>
+<keyword name="classification()" id="Query::classification_a019601f80fc296ef862d2f32f6b69f68" ref="classQuery.html#a019601f80fc296ef862d2f32f6b69f68"/>
 <keyword name="classification_" id="Query::classification__a876ab134e57df7cae49579c08e06c0a1" ref="classQuery.html#a876ab134e57df7cae49579c08e06c0a1"/>
+<keyword name="classification_" id="ClassificationWindow::classification__abbc47f6987590dd466767dd9c21b91f8" ref="classClassificationWindow.html#abbc47f6987590dd466767dd9c21b91f8"/>
 <keyword name="classification_flags" id="LasFile::Point::classification_flags_af293689ccbbc1a32d2449e70dc84e546" ref="structLasFile_1_1Point.html#af293689ccbbc1a32d2449e70dc84e546"/>
+<keyword name="ClassificationPlugin()" id="ClassificationPlugin::ClassificationPlugin_a443e56a98b3c90b18fdef2e6865a3bd6" ref="classClassificationPlugin.html#a443e56a98b3c90b18fdef2e6865a3bd6"/>
 <keyword name="Classifications()" id="Classifications::Classifications_a567c666740d6c0584930b9fad8ac53fb" ref="classClassifications.html#a567c666740d6c0584930b9fad8ac53fb"/>
 <keyword name="classifications() const" id="Editor::classifications_a1e80724a9fe61e693142cb521c841703" ref="classEditor.html#a1e80724a9fe61e693142cb521c841703"/>
 <keyword name="classifications_" id="Editor::classifications__aef0b17344d0d7debff0fe64739952162" ref="classEditor.html#aef0b17344d0d7debff0fe64739952162"/>
 <keyword name="classifications_" id="ProjectNavigatorClassifications::classifications__a0c0984c705934840787de966c9b4cf6d" ref="classProjectNavigatorClassifications.html#a0c0984c705934840787de966c9b4cf6d"/>
 <keyword name="classifications_" id="ProjectNavigatorWindow::classifications__aef79bfdf593a23f327e6a756fdc25127" ref="classProjectNavigatorWindow.html#aef79bfdf593a23f327e6a756fdc25127"/>
-<keyword name="ClassifyGround(Editor *editor)" id="ClassifyGround::ClassifyGround_aa2f749e309e4d7e90bb0698794ac7982" ref="classClassifyGround.html#aa2f749e309e4d7e90bb0698794ac7982"/>
-<keyword name="classifyGround_" id="ClassifyGroundWindow::classifyGround__a3209beaf30e0579295211948c3a909e5" ref="classClassifyGroundWindow.html#a3209beaf30e0579295211948c3a909e5"/>
-<keyword name="ClassifyGroundPlugin()" id="ClassifyGroundPlugin::ClassifyGroundPlugin_a58a790ac9b049b52cb4e7db5455eb08c" ref="classClassifyGroundPlugin.html#a58a790ac9b049b52cb4e7db5455eb08c"/>
-<keyword name="ClassifyGroundWindow(MainWindow *mainWindow)" id="ClassifyGroundWindow::ClassifyGroundWindow_a594cf7f29b068e7a57d95d8b30138eb5" ref="classClassifyGroundWindow.html#a594cf7f29b068e7a57d95d8b30138eb5"/>
+<keyword name="ClassificationWindow(MainWindow *mainWindow)" id="ClassificationWindow::ClassificationWindow_ade15992053fbe912bb40f0153efacbd2" ref="classClassificationWindow.html#ade15992053fbe912bb40f0153efacbd2"/>
 <keyword name="clear()" id="Box::clear_a4683fb5768bc496fc28617ba550946b8" ref="classBox.html#a4683fb5768bc496fc28617ba550946b8"/>
 <keyword name="clear()" id="Cone::clear_afda36d04d4e7ec5e42f7f4cfdb55ae15" ref="classCone.html#afda36d04d4e7ec5e42f7f4cfdb55ae15"/>
 <keyword name="clear()" id="Json::clear_a445eadc76cec47be46dbf9724826a798" ref="classJson.html#a445eadc76cec47be46dbf9724826a798"/>
+<keyword name="clear()" id="Range::clear_a05a5b908926e64956b0db27d19b0bd5e" ref="classRange.html#a05a5b908926e64956b0db27d19b0bd5e"/>
 <keyword name="clear()" id="Sphere::clear_ad09286d79866a75e7740c31e764bf25d" ref="classSphere.html#ad09286d79866a75e7740c31e764bf25d"/>
+<keyword name="clear()" id="Vector2::clear_a214e3425347f032b3994a29a7b074666" ref="classVector2.html#a214e3425347f032b3994a29a7b074666"/>
 <keyword name="clear()" id="Vector3::clear_a8703ae1698fee715be6371077d951623" ref="classVector3.html#a8703ae1698fee715be6371077d951623"/>
 <keyword name="clear()" id="Classifications::clear_ac46944dc061e93bee1b6910c56bfb7d9" ref="classClassifications.html#ac46944dc061e93bee1b6910c56bfb7d9"/>
 <keyword name="clear()" id="Datasets::clear_a9f92f242b2ff660c37487c30eb99eb1d" ref="classDatasets.html#a9f92f242b2ff660c37487c30eb99eb1d"/>
@@ -2218,11 +2346,13 @@
 <keyword name="clear()" id="Query::clear_a3827c2cd2f1d9efade5952db80e0fdfc" ref="classQuery.html#a3827c2cd2f1d9efade5952db80e0fdfc"/>
 <keyword name="clear()" id="Region::clear_a02f3d61eb9f9ca7980d2f915893a281b" ref="classRegion.html#a02f3d61eb9f9ca7980d2f915893a281b"/>
 <keyword name="clear()" id="Voxels::clear_af0d991f4e4247ca866cb4a04ceb51d31" ref="classVoxels.html#af0d991f4e4247ca866cb4a04ceb51d31"/>
-<keyword name="clear()" id="ClassifyGround::clear_adcd93967cae92afcf9c7f4939e6b01a2" ref="classClassifyGround.html#adcd93967cae92afcf9c7f4939e6b01a2"/>
+<keyword name="clear()" id="Classification::clear_aaafe6ff29e528ac2d8106daccf594e1f" ref="classClassification.html#aaafe6ff29e528ac2d8106daccf594e1f"/>
+<keyword name="clear()" id="Elevation::clear_ae9e318f27f952e89632a919bfb4112f3" ref="classElevation.html#ae9e318f27f952e89632a919bfb4112f3"/>
 <keyword name="clear()" id="SegmentationPca::clear_a7c34f2d5c482bbf06027b083f6f16132" ref="classSegmentationPca.html#a7c34f2d5c482bbf06027b083f6f16132"/>
 <keyword name="clear()" id="SegmentationThread::clear_a67151b7c784f73c38e5305f6aa766b90" ref="classSegmentationThread.html#a67151b7c784f73c38e5305f6aa766b90"/>
 <keyword name="clear()" id="Box&lt; double &gt;::clear_a4683fb5768bc496fc28617ba550946b8" ref="classBox.html#a4683fb5768bc496fc28617ba550946b8"/>
 <keyword name="clear()" id="Cone&lt; double &gt;::clear_afda36d04d4e7ec5e42f7f4cfdb55ae15" ref="classCone.html#afda36d04d4e7ec5e42f7f4cfdb55ae15"/>
+<keyword name="clear()" id="Range&lt; double &gt;::clear_a05a5b908926e64956b0db27d19b0bd5e" ref="classRange.html#a05a5b908926e64956b0db27d19b0bd5e"/>
 <keyword name="clear()" id="Sphere&lt; double &gt;::clear_ad09286d79866a75e7740c31e764bf25d" ref="classSphere.html#ad09286d79866a75e7740c31e764bf25d"/>
 <keyword name="clear()" id="Vector3&lt; float &gt;::clear_a8703ae1698fee715be6371077d951623" ref="classVector3.html#a8703ae1698fee715be6371077d951623"/>
 <keyword name="clear()" id="Vector3&lt; double &gt;::clear_a8703ae1698fee715be6371077d951623" ref="classVector3.html#a8703ae1698fee715be6371077d951623"/>
@@ -2336,6 +2466,7 @@
 <keyword name="create(const std::string &amp;path, const std::vector&lt; LasFile::Point &gt; &amp;points, const std::array&lt; double, 3 &gt; scale={1, 1, 1}, const std::array&lt; double, 3 &gt; offset={0, 0, 0}, uint8_t version_minor=4)" id="LasFile::create_ae5cfeb2ea48444aaeba75e3c3e27b9e0" ref="classLasFile.html#ae5cfeb2ea48444aaeba75e3c3e27b9e0"/>
 <keyword name="create(const std::string &amp;path)" id="LasFile::create_a51a3b3fae52d5db385fd74cec23c376a" ref="classLasFile.html#a51a3b3fae52d5db385fd74cec23c376a"/>
 <keyword name="create(const Box&lt; double &gt; &amp;spaceRegion, double voxelSize)" id="Voxels::create_a12f61412517408f6747837ef088c7ea7" ref="classVoxels.html#a12f61412517408f6747837ef088c7ea7"/>
+<keyword name="create(RangeSliderWidget *&amp;outputWidget, const QObject *receiver, const char *memberIntermediateMinimumValue, const char *memberIntermediateMaximumValue, const QString &amp;text, const QString &amp;toolTip, const QString &amp;unitsList, int step, int min, int max, int minValue, int maxValue)" id="RangeSliderWidget::create_ae3050a911567010b3fac4c50b07c1cf3" ref="classRangeSliderWidget.html#ae3050a911567010b3fac4c50b07c1cf3"/>
 <keyword name="create(SliderWidget *&amp;outputWidget, const QObject *receiver, const char *memberIntermediateValue, const char *memberFinalValue, const QString &amp;text, const QString &amp;toolTip, const QString &amp;unitsList, int step, int min, int max, int value)" id="SliderWidget::create_a64615e4034278f86984b1995f537a371" ref="classSliderWidget.html#a64615e4034278f86984b1995f537a371"/>
 <keyword name="createAction(QAction **result, const QString &amp;menu, const QString &amp;toolBar, const QString &amp;text, const QString &amp;toolTip, const QIcon &amp;icon, const QObject *receiver, const char *member)" id="MainWindow::createAction_a77b39adc9dd7fbde00139efcdc7b9592" ref="classMainWindow.html#a77b39adc9dd7fbde00139efcdc7b9592"/>
 <keyword name="createArray()" id="Json::createArray_a6e94f2604aacda68aefc26436bf6d4d8" ref="classJson.html#a6e94f2604aacda68aefc26436bf6d4d8"/>
@@ -2355,8 +2486,9 @@
 <keyword name="crossProduct(const Vector3&lt; double &gt; &amp;a, const Vector3&lt; double &gt; &amp;b)" id="Vector3&lt; double &gt;::crossProduct_adc438ea6eb94c2b80582c0ed0d1d7831" ref="classVector3.html#adc438ea6eb94c2b80582c0ed0d1d7831"/>
 <keyword name="current_" id="IndexFileBuilder::current__a4c9e4cf51c8f4e51ed9af86ae2d28e1b" ref="classIndexFileBuilder.html#a4c9e4cf51c8f4e51ed9af86ae2d28e1b"/>
 <keyword name="currentPath()" id="File::currentPath_a1bf433d5664c6eb749f4d5ed30088e56" ref="classFile.html#a1bf433d5664c6eb749f4d5ed30088e56"/>
-<keyword name="currentStep_" id="ClassifyGround::currentStep__a802ec0baf07f02a8ad67ae2228320a54" ref="classClassifyGround.html#a802ec0baf07f02a8ad67ae2228320a54"/>
-<keyword name="D" id="ClassifyGround::D_a062750c68d07b6359003fef077edd8f1" ref="classClassifyGround.html#a062750c68d07b6359003fef077edd8f1"/>
+<keyword name="currentStep_" id="Classification::currentStep__a05d6077de8b01d244c99c58f47d32e58" ref="classClassification.html#a05d6077de8b01d244c99c58f47d32e58"/>
+<keyword name="currentStep_" id="Elevation::currentStep__a5fce73439faa823a10119729375522bc" ref="classElevation.html#a5fce73439faa823a10119729375522bc"/>
+<keyword name="D" id="Elevation::D_a500a1a25f371b5f6c87a7acd2df4a106" ref="classElevation.html#a500a1a25f371b5f6c87a7acd2df4a106"/>
 <keyword name="data() const" id="Matrix4::data_a26c251168333d7f7732266510f22fb73" ref="classMatrix4.html#a26c251168333d7f7732266510f22fb73"/>
 <keyword name="data() const" id="Voxels::data_ad4dde7f2e5ec6fae4253fe98e3bd1e28" ref="classVoxels.html#ad4dde7f2e5ec6fae4253fe98e3bd1e28"/>
 <keyword name="data_" id="Json::data__aeb83b9da8f24af3c913ea2bf63f0a69e" ref="classJson.html#aeb83b9da8f24af3c913ea2bf63f0a69e"/>
@@ -2392,7 +2524,8 @@
 <keyword name="distance(double x, double y, double z) const" id="Box&lt; double &gt;::distance_acc15a91b404afab65d303c2edf06fcbf" ref="classBox.html#acc15a91b404afab65d303c2edf06fcbf"/>
 <keyword name="distance_" id="ViewerCamera::distance__af69cf9d026d57a693221daff7dd3c0ea" ref="classViewerCamera.html#af69cf9d026d57a693221daff7dd3c0ea"/>
 <keyword name="divide(Box&lt; double &gt; &amp;boundary, double x, double y, double z, uint64_t code) const" id="IndexFile::divide_a91296efaf069cd015a5682d8916fbff0" ref="classIndexFile.html#a91296efaf069cd015a5682d8916fbff0"/>
-<keyword name="dockWindow_" id="ClassifyGroundPlugin::dockWindow__aebbc5274f30d6354d31acb72ca2447bf" ref="classClassifyGroundPlugin.html#aebbc5274f30d6354d31acb72ca2447bf"/>
+<keyword name="dockWindow_" id="ClassificationPlugin::dockWindow__aa9d827c6afaf5d7650a89ab67686bb59" ref="classClassificationPlugin.html#aa9d827c6afaf5d7650a89ab67686bb59"/>
+<keyword name="dockWindow_" id="ElevationPlugin::dockWindow__a7bc23a738cacbe70d0fdba28eaf18529" ref="classElevationPlugin.html#a7bc23a738cacbe70d0fdba28eaf18529"/>
 <keyword name="dockWindow_" id="SegmentationPlugin::dockWindow__a08421f3f550856de9b838cff0ef28b0b" ref="classSegmentationPlugin.html#a08421f3f550856de9b838cff0ef28b0b"/>
 <keyword name="E" id="SegmentationPca::E_ad6c572c36f66052a238749652f37534e" ref="classSegmentationPca.html#ad6c572c36f66052a238749652f37534e"/>
 <keyword name="edge_of_flight_line" id="LasFile::Point::edge_of_flight_line_aa8b17418f5f56cc60b58ff43ac2237e4" ref="structLasFile_1_1Point.html#aa8b17418f5f56cc60b58ff43ac2237e4"/>
@@ -2403,14 +2536,27 @@
 <keyword name="editor_" id="Query::editor__ac33cb1d22d39800cf5ea48ee653d017c" ref="classQuery.html#ac33cb1d22d39800cf5ea48ee653d017c"/>
 <keyword name="editor_" id="RenderThread::editor__a31db16bca92b0077573db985ef3e31ac" ref="classRenderThread.html#a31db16bca92b0077573db985ef3e31ac"/>
 <keyword name="editor_" id="MainWindow::editor__ac06299c080a47670c5512d2d6df67c7b" ref="classMainWindow.html#ac06299c080a47670c5512d2d6df67c7b"/>
-<keyword name="editor_" id="ClassifyGround::editor__aa271548f3c60159b4c3c4552ea37f949" ref="classClassifyGround.html#aa271548f3c60159b4c3c4552ea37f949"/>
+<keyword name="editor_" id="Classification::editor__ae67c853715e6e865a8a6cce1b075fa03" ref="classClassification.html#ae67c853715e6e865a8a6cce1b075fa03"/>
+<keyword name="editor_" id="Elevation::editor__aeaadf4f2b05c95a61955e5ae36e749b3" ref="classElevation.html#aeaadf4f2b05c95a61955e5ae36e749b3"/>
 <keyword name="editor_" id="SegmentationThread::editor__a3e7dbc0a320da651f051ac207ddea6b9" ref="classSegmentationThread.html#a3e7dbc0a320da651f051ac207ddea6b9"/>
 <keyword name="editor_" id="ViewerOpenGLViewport::editor__a036de102c334b70090845db42750fd00" ref="classViewerOpenGLViewport.html#a036de102c334b70090845db42750fd00"/>
 <keyword name="eigenVectors" id="SegmentationPca::eigenVectors_a0c8e68e4da6bb66d1944f95b2d19d126" ref="classSegmentationPca.html#a0c8e68e4da6bb66d1944f95b2d19d126"/>
 <keyword name="eigenVectorsT" id="SegmentationPca::eigenVectorsT_aad2456417ee917bab52b8080e9affbc9" ref="classSegmentationPca.html#aad2456417ee917bab52b8080e9affbc9"/>
 <keyword name="elevation" id="Page::elevation_a8e7b9a4b828e1ef641a59d87cffab589" ref="classPage.html#a8e7b9a4b828e1ef641a59d87cffab589"/>
 <keyword name="elevation()" id="Query::elevation_aa78130e8b60e40fe0bf762ec190075fd" ref="classQuery.html#aa78130e8b60e40fe0bf762ec190075fd"/>
+<keyword name="Elevation(Editor *editor)" id="Elevation::Elevation_a724cc5e5d061e9bd61722bbbff3d8b61" ref="classElevation.html#a724cc5e5d061e9bd61722bbbff3d8b61"/>
 <keyword name="elevation_" id="Query::elevation__ab5c223f0176cb8ab4cccba38219e13db" ref="classQuery.html#ab5c223f0176cb8ab4cccba38219e13db"/>
+<keyword name="elevation_" id="ElevationWindow::elevation__a7753585d2e61f0de26cfc1b1a5086553" ref="classElevationWindow.html#a7753585d2e61f0de26cfc1b1a5086553"/>
+<keyword name="elevation_" id="ProjectNavigatorWindow::elevation__af02069208b8c9fa965872909d4831795" ref="classProjectNavigatorWindow.html#af02069208b8c9fa965872909d4831795"/>
+<keyword name="elevationMaximum_" id="Elevation::elevationMaximum__adc59c0df996f3c1005eaff484eaae9af" ref="classElevation.html#adc59c0df996f3c1005eaff484eaae9af"/>
+<keyword name="elevationMinimum_" id="Elevation::elevationMinimum__ab434d756e0158d81923263306be3bb7d" ref="classElevation.html#ab434d756e0158d81923263306be3bb7d"/>
+<keyword name="ElevationPlugin()" id="ElevationPlugin::ElevationPlugin_a442a906d170d5b93a1fb29e5bbc60548" ref="classElevationPlugin.html#a442a906d170d5b93a1fb29e5bbc60548"/>
+<keyword name="elevationPointsCount_" id="Elevation::elevationPointsCount__a2d0104e6a88b0deefff0cbefacee50e7" ref="classElevation.html#a2d0104e6a88b0deefff0cbefacee50e7"/>
+<keyword name="elevationRange() const" id="Editor::elevationRange_a9582a2ada16031d94dbb79642c2c775e" ref="classEditor.html#a9582a2ada16031d94dbb79642c2c775e"/>
+<keyword name="elevationRange_" id="Editor::elevationRange__afd8c1c063a08258fa4e8ad9d674e2d94" ref="classEditor.html#afd8c1c063a08258fa4e8ad9d674e2d94"/>
+<keyword name="elevationRange_" id="Query::elevationRange__ad8ad55dcf449c0e7a7cfc5a008696600" ref="classQuery.html#ad8ad55dcf449c0e7a7cfc5a008696600"/>
+<keyword name="elevationRange_" id="ProjectNavigatorElevation::elevationRange__a6ba941613a6f6ec1f2e343a1bcb03d28" ref="classProjectNavigatorElevation.html#a6ba941613a6f6ec1f2e343a1bcb03d28"/>
+<keyword name="ElevationWindow(MainWindow *mainWindow)" id="ElevationWindow::ElevationWindow_a652e3b787ec99bca776012635dcf2df6" ref="classElevationWindow.html#a652e3b787ec99bca776012635dcf2df6"/>
 <keyword name="empty() const" id="Box::empty_ac4e37635274d9b1cd02f6123f8f5ea48" ref="classBox.html#ac4e37635274d9b1cd02f6123f8f5ea48"/>
 <keyword name="empty() const" id="Cone::empty_a0cd454703ff64d7be1901679c2aa5400" ref="classCone.html#a0cd454703ff64d7be1901679c2aa5400"/>
 <keyword name="empty() const" id="Sphere::empty_a6cb7071316d4ef80862c4714119ad526" ref="classSphere.html#a6cb7071316d4ef80862c4714119ad526"/>
@@ -2420,7 +2566,7 @@
 <keyword name="empty() const" id="Sphere&lt; double &gt;::empty_a6cb7071316d4ef80862c4714119ad526" ref="classSphere.html#a6cb7071316d4ef80862c4714119ad526"/>
 <keyword name="empty_" id="Box::empty__a15d207175cda455fc343a019891c7c0c" ref="classBox.html#a15d207175cda455fc343a019891c7c0c"/>
 <keyword name="empty_" id="Box&lt; double &gt;::empty__a15d207175cda455fc343a019891c7c0c" ref="classBox.html#a15d207175cda455fc343a019891c7c0c"/>
-<keyword name="enabled" id="Classification::enabled_ad7a554b13846cb415ce15bac1f783f07" ref="classClassification.html#ad7a554b13846cb415ce15bac1f783f07"/>
+<keyword name="enabled" id="Class::enabled_affec6a1574156a7b3cebd17bd35b80af" ref="classClass.html#affec6a1574156a7b3cebd17bd35b80af"/>
 <keyword name="enabled" id="Region::enabled_a64cfbbceb24960327163369973737693" ref="classRegion.html#a64cfbbceb24960327163369973737693"/>
 <keyword name="enabled_" id="Classifications::enabled__a78671e669038eb812de3ffb9cd9de856" ref="classClassifications.html#a78671e669038eb812de3ffb9cd9de856"/>
 <keyword name="enabled_" id="Dataset::enabled__af587d7ab534dea7fb08af56cfe5630f2" ref="classDataset.html#af587d7ab534dea7fb08af56cfe5630f2"/>
@@ -2436,14 +2582,14 @@
 <keyword name="exec()" id="Query::exec_ad3e930aabe2db38eec7abf489803f5b6" ref="classQuery.html#ad3e930aabe2db38eec7abf489803f5b6"/>
 <keyword name="exec(const std::vector&lt; IndexFile::Selection &gt; &amp;selectedPages)" id="Query::exec_a63ef05d672c1896c05bca0b2f62c80db" ref="classQuery.html#a63ef05d672c1896c05bca0b2f62c80db"/>
 <keyword name="exists(const std::string &amp;path)" id="File::exists_a998fdcdb01aaefe6b7c69520c8195245" ref="classFile.html#a998fdcdb01aaefe6b7c69520c8195245"/>
-<keyword name="exportGroundMesh(const char *path)" id="ClassifyGround::exportGroundMesh_ad3e728a7b875c58b4021a5111e5a2db3" ref="classClassifyGround.html#ad3e728a7b875c58b4021a5111e5a2db3"/>
+<keyword name="exportGroundMesh(const char *path)" id="Elevation::exportGroundMesh_ad0021f7267c20970a46cdc3e1047d0ea" ref="classElevation.html#ad0021f7267c20970a46cdc3e1047d0ea"/>
 <keyword name="extend(const Box&lt; T &gt; &amp;box)" id="Box::extend_a680f99a69c722e52c2a164c386663a9d" ref="classBox.html#a680f99a69c722e52c2a164c386663a9d"/>
 <keyword name="extend(const ViewerAabb &amp;box)" id="ViewerAabb::extend_a2aeecb9655b6352502cd5fc4ad0163e8" ref="classViewerAabb.html#a2aeecb9655b6352502cd5fc4ad0163e8"/>
 <keyword name="extend(const Box&lt; double &gt; &amp;box)" id="Box&lt; double &gt;::extend_a680f99a69c722e52c2a164c386663a9d" ref="classBox.html#a680f99a69c722e52c2a164c386663a9d"/>
 <keyword name="extension(const std::string &amp;path)" id="IndexFileBuilder::extension_a43e9a75b9d89306ecdf2ca56dd89cd90" ref="classIndexFileBuilder.html#a43e9a75b9d89306ecdf2ca56dd89cd90"/>
 <keyword name="eye" id="Camera::eye_ac889297b5e95ecf4142ed786077cd9c0" ref="classCamera.html#ac889297b5e95ecf4142ed786077cd9c0"/>
 <keyword name="eye_" id="ViewerCamera::eye__a3ea0e607a0fb3fcd2895bc11aaeb6e6f" ref="classViewerCamera.html#a3ea0e607a0fb3fcd2895bc11aaeb6e6f"/>
-<keyword name="F" id="ClassifyGround::F_a20451178f64b8099f291e5e1d50f8977" ref="classClassifyGround.html#a20451178f64b8099f291e5e1d50f8977"/>
+<keyword name="F" id="Elevation::F_a97d9eb03239f9fcebf2501925fc3daca" ref="classElevation.html#a97d9eb03239f9fcebf2501925fc3daca"/>
 <keyword name="fd_" id="File::fd__a7e0076037ae46f8f6e555cb790d26988" ref="classFile.html#a7e0076037ae46f8f6e555cb790d26988"/>
 <keyword name="File()" id="File::File_ae039af5807fc385f41b60644725d15d0" ref="classFile.html#ae039af5807fc385f41b60644725d15d0"/>
 <keyword name="File(const File &amp;)=delete" id="File::File_a042f525d4beac394675727bcd5cce274" ref="classFile.html#a042f525d4beac394675727bcd5cce274"/>
@@ -2460,6 +2606,7 @@
 <keyword name="fileName(size_t i) const" id="Datasets::fileName_ae91754d9f50ee287377ade913a1a2010" ref="classDatasets.html#ae91754d9f50ee287377ade913a1a2010"/>
 <keyword name="fileName_" id="Dataset::fileName__a38152300561aebc5852384d62751bda5" ref="classDataset.html#a38152300561aebc5852384d62751bda5"/>
 <keyword name="filterChanged()" id="ProjectNavigatorClassifications::filterChanged_a6be87b2a6fee6c7d3b64a24dcf11efd5" ref="classProjectNavigatorClassifications.html#a6be87b2a6fee6c7d3b64a24dcf11efd5"/>
+<keyword name="filterChanged()" id="ProjectNavigatorElevation::filterChanged_a3e0c51801ed8f3c35e47aa2777f0b487" ref="classProjectNavigatorElevation.html#a3e0c51801ed8f3c35e47aa2777f0b487"/>
 <keyword name="filterChanged()" id="ProjectNavigatorFiles::filterChanged_aed81ace52fe3562d8c861873780a44d3" ref="classProjectNavigatorFiles.html#aed81ace52fe3562d8c861873780a44d3"/>
 <keyword name="filterChanged()" id="ProjectNavigatorLayers::filterChanged_a7f2db56096e81f08b1b759b34a1344be" ref="classProjectNavigatorLayers.html#a7f2db56096e81f08b1b759b34a1344be"/>
 <keyword name="finished_" id="Thread::finished__ad033b3f88003c311c8a17cdf4a09ec94" ref="classThread.html#ad033b3f88003c311c8a17cdf4a09ec94"/>
@@ -2514,7 +2661,9 @@
 <keyword name="gridSize() const" id="Query::gridSize_af1913b1836b25d1c408ea6a3e84d55f8" ref="classQuery.html#af1913b1836b25d1c408ea6a3e84d55f8"/>
 <keyword name="gridXSize_" id="Query::gridXSize__a20887fefa47819f417363466c5f1a7dc" ref="classQuery.html#a20887fefa47819f417363466c5f1a7dc"/>
 <keyword name="gridYSize_" id="Query::gridYSize__a140371632165a3e3488584f639a20ac5" ref="classQuery.html#a140371632165a3e3488584f639a20ac5"/>
-<keyword name="groundErrorPercent_" id="ClassifyGround::groundErrorPercent__afdb39ef9932e623eb8388a9f18dc48f2" ref="classClassifyGround.html#afdb39ef9932e623eb8388a9f18dc48f2"/>
+<keyword name="groundErrorPercent_" id="Classification::groundErrorPercent__a41fda79bd0fa94e52f5230c923228bbb" ref="classClassification.html#a41fda79bd0fa94e52f5230c923228bbb"/>
+<keyword name="hasBoundaryValues() const" id="Range::hasBoundaryValues_a52f961d394646b6feba45820087e88a2" ref="classRange.html#a52f961d394646b6feba45820087e88a2"/>
+<keyword name="hasBoundaryValues() const" id="Range&lt; double &gt;::hasBoundaryValues_a52f961d394646b6feba45820087e88a2" ref="classRange.html#a52f961d394646b6feba45820087e88a2"/>
 <keyword name="hashTable_" id="Datasets::hashTable__a29d45e0c8d7fe6d3cf56838584e2b06c" ref="classDatasets.html#a29d45e0c8d7fe6d3cf56838584e2b06c"/>
 <keyword name="hashTableEnabledId_" id="Layers::hashTableEnabledId__a61d3ade82dc2ac3ceeb863cdfac12c60" ref="classLayers.html#a61d3ade82dc2ac3ceeb863cdfac12c60"/>
 <keyword name="hashTableId_" id="Layers::hashTableId__a091e458d3f3d39950cf0dba7a69d4d80" ref="classLayers.html#a091e458d3f3d39950cf0dba7a69d4d80"/>
@@ -2530,8 +2679,8 @@
 <keyword name="hideButton_" id="ProjectNavigatorFiles::hideButton__a67b2eefc11290a23e3e6cdc14fa0ffdb" ref="classProjectNavigatorFiles.html#a67b2eefc11290a23e3e6cdc14fa0ffdb"/>
 <keyword name="hideButton_" id="ProjectNavigatorLayers::hideButton__a776f587d1f340a1ee7e2aac29c9ce8b0" ref="classProjectNavigatorLayers.html#a776f587d1f340a1ee7e2aac29c9ce8b0"/>
 <keyword name="hideToolBar(const QString &amp;menu)" id="MainWindow::hideToolBar_a67e94016b002fb9d132e08c446c8e01b" ref="classMainWindow.html#a67e94016b002fb9d132e08c446c8e01b"/>
-<keyword name="I" id="ClassifyGround::I_ae21535b68b9361addbabe6eb539f86d1" ref="classClassifyGround.html#ae21535b68b9361addbabe6eb539f86d1"/>
 <keyword name="i" id="Voxels::Voxel::i_a7824e7bb6055dc585b17c80678dc3555" ref="structVoxels_1_1Voxel.html#a7824e7bb6055dc585b17c80678dc3555"/>
+<keyword name="I" id="Elevation::I_aa14c13337020e2aef76a3ac4aeed6e15" ref="classElevation.html#aa14c13337020e2aef76a3ac4aeed6e15"/>
 <keyword name="ICON_SIZE" id="MainWindow::ICON_SIZE_a150bdf9d9accf9a02234e8ee4e7ca05f" ref="classMainWindow.html#a150bdf9d9accf9a02234e8ee4e7ca05f"/>
 <keyword name="ICON_SIZE_TEXT" id="MainWindow::ICON_SIZE_TEXT_a926be8cd46703d94ac3ba8b2c248de61" ref="classMainWindow.html#a926be8cd46703d94ac3ba8b2c248de61"/>
 <keyword name="id" id="IndexFile::Selection::id_af3d1fdec36a1ffeed2e1de74367a17f0" ref="structIndexFile_1_1Selection.html#af3d1fdec36a1ffeed2e1de74367a17f0"/>
@@ -2564,7 +2713,8 @@
 <keyword name="indexSettings() const" id="SettingsImport::indexSettings_a9069185ba2111f56ed866f6032885c74" ref="classSettingsImport.html#a9069185ba2111f56ed866f6032885c74"/>
 <keyword name="indexSettings_" id="SettingsImport::indexSettings__a0d6ce7f8cfbb6cb3a9bf874da9348622" ref="classSettingsImport.html#a0d6ce7f8cfbb6cb3a9bf874da9348622"/>
 <keyword name="initialize(MainWindow *mainWindow)=0" id="PluginInterface::initialize_a19c5c6c2e57cb2672d57efe358d0591d" ref="classPluginInterface.html#a19c5c6c2e57cb2672d57efe358d0591d"/>
-<keyword name="initialize(MainWindow *mainWindow)" id="ClassifyGroundPlugin::initialize_a92e3a7387f15c603d8ea45d7f8831577" ref="classClassifyGroundPlugin.html#a92e3a7387f15c603d8ea45d7f8831577"/>
+<keyword name="initialize(MainWindow *mainWindow)" id="ClassificationPlugin::initialize_aec961004efe44658af00e2828d4fb660" ref="classClassificationPlugin.html#aec961004efe44658af00e2828d4fb660"/>
+<keyword name="initialize(MainWindow *mainWindow)" id="ElevationPlugin::initialize_a81fa22e62e4d51fa66dbfe23b7b4c67d" ref="classElevationPlugin.html#a81fa22e62e4d51fa66dbfe23b7b4c67d"/>
 <keyword name="initialize(MainWindow *mainWindow)" id="HelpPlugin::initialize_a8dc644cd25d837f8b49f86ade5f07a84" ref="classHelpPlugin.html#a8dc644cd25d837f8b49f86ade5f07a84"/>
 <keyword name="initialize(MainWindow *mainWindow)" id="ImportPlugin::initialize_acc25ded55cdcbd0c82f9ef14bfed4568" ref="classImportPlugin.html#acc25ded55cdcbd0c82f9ef14bfed4568"/>
 <keyword name="initialize(MainWindow *mainWindow)" id="ProjectFilePlugin::initialize_a8a81b49451cd85e0b0020d884f21c7dd" ref="classProjectFilePlugin.html#a8a81b49451cd85e0b0020d884f21c7dd"/>
@@ -2628,6 +2778,7 @@
 <keyword name="isString() const" id="Json::isString_ad40c52e2ddcd30956b2bdd6fd803dfa6" ref="classJson.html#ad40c52e2ddcd30956b2bdd6fd803dfa6"/>
 <keyword name="isTrue() const" id="Json::isTrue_a0ed16e4b04a38aeaa8690090de4ffcaf" ref="classJson.html#a0ed16e4b04a38aeaa8690090de4ffcaf"/>
 <keyword name="isValid() const" id="ViewerAabb::isValid_adacb546467c4255c81fbbe78d569cbfd" ref="classViewerAabb.html#adacb546467c4255c81fbbe78d569cbfd"/>
+<keyword name="join(const std::string &amp;path1, const std::string &amp;path2)" id="File::join_a91d1632ec4ad273b2daa7e274de69bd3" ref="classFile.html#a91d1632ec4ad273b2daa7e274de69bd3"/>
 <keyword name="Json()" id="Json::Json_a8e4495481320c71ce2a4122a7a2b165b" ref="classJson.html#a8e4495481320c71ce2a4122a7a2b165b"/>
 <keyword name="Json(bool in)" id="Json::Json_a0373e464df316c7b7977d2525de7f0d5" ref="classJson.html#a0373e464df316c7b7977d2525de7f0d5"/>
 <keyword name="Json(int in)" id="Json::Json_a3ae32f7b47e63a62c21b0bd5ae219b75" ref="classJson.html#a3ae32f7b47e63a62c21b0bd5ae219b75"/>
@@ -2641,7 +2792,7 @@
 <keyword name="Json(const std::string &amp;in)" id="Json::Json_ae7c3ed4c2a13bed2f464de8a56e8d1bc" ref="classJson.html#ae7c3ed4c2a13bed2f464de8a56e8d1bc"/>
 <keyword name="Json(const std::vector&lt; double &gt; &amp;in)" id="Json::Json_ab769040720ba527986a643525575c7fa" ref="classJson.html#ab769040720ba527986a643525575c7fa"/>
 <keyword name="key(size_t id) const" id="Datasets::key_afcf22e1381a97ab1ab77b68486d93c31" ref="classDatasets.html#afcf22e1381a97ab1ab77b68486d93c31"/>
-<keyword name="label" id="Classification::label_ad1937ce38b0acd0e6b8fc605d438cec0" ref="classClassification.html#ad1937ce38b0acd0e6b8fc605d438cec0"/>
+<keyword name="label" id="Class::label_a083e18e5b7e9e1532d32fdc51d412c93" ref="classClass.html#a083e18e5b7e9e1532d32fdc51d412c93"/>
 <keyword name="label(size_t i) const" id="Classifications::label_a10cc4574c16e89327f6cd5685329b04a" ref="classClassifications.html#a10cc4574c16e89327f6cd5685329b04a"/>
 <keyword name="label() const" id="Dataset::label_af3b41b375c8cb5b26d1d9b9988cba1f8" ref="classDataset.html#af3b41b375c8cb5b26d1d9b9988cba1f8"/>
 <keyword name="label(size_t i) const" id="Datasets::label_a1f84e74e9fce2ea5beaadead7b19b67c" ref="classDatasets.html#a1f84e74e9fce2ea5beaadead7b19b67c"/>
@@ -2664,25 +2815,29 @@
 <keyword name="legacy_number_of_point_records" id="LasFile::Header::legacy_number_of_point_records_a8420734f1f329db14d2e4d3ad8c9c419" ref="structLasFile_1_1Header.html#a8420734f1f329db14d2e4d3ad8c9c419"/>
 <keyword name="legacy_number_of_points_by_return[5]" id="LasFile::Header::legacy_number_of_points_by_return_aa2f10446e486a317e404474b8f7dc9ee" ref="structLasFile_1_1Header.html#aa2f10446e486a317e404474b8f7dc9ee"/>
 <keyword name="length(size_t idx) const" id="Box::length_a2fd90386291b86d4d2e2672df70d4b0b" ref="classBox.html#a2fd90386291b86d4d2e2672df70d4b0b"/>
+<keyword name="length() const" id="Vector2::length_a784391c74b4bd821fc4a6277170c1263" ref="classVector2.html#a784391c74b4bd821fc4a6277170c1263"/>
 <keyword name="length() const" id="Vector3::length_aa5177b38edaae3717bc94443946345d0" ref="classVector3.html#aa5177b38edaae3717bc94443946345d0"/>
 <keyword name="length(size_t idx) const" id="Box&lt; double &gt;::length_a2fd90386291b86d4d2e2672df70d4b0b" ref="classBox.html#a2fd90386291b86d4d2e2672df70d4b0b"/>
 <keyword name="length() const" id="Vector3&lt; float &gt;::length_aa5177b38edaae3717bc94443946345d0" ref="classVector3.html#aa5177b38edaae3717bc94443946345d0"/>
 <keyword name="length() const" id="Vector3&lt; double &gt;::length_aa5177b38edaae3717bc94443946345d0" ref="classVector3.html#aa5177b38edaae3717bc94443946345d0"/>
-<keyword name="lengthSpinBox_" id="ClassifyGroundWindow::lengthSpinBox__ab09354ba99cb585fac2847e8d2fe8ed5" ref="classClassifyGroundWindow.html#ab09354ba99cb585fac2847e8d2fe8ed5"/>
+<keyword name="lengthInput_" id="ElevationWindow::lengthInput__abd1cabddd1d3a2b5834c3011370b8643" ref="classElevationWindow.html#abd1cabddd1d3a2b5834c3011370b8643"/>
+<keyword name="lengthSlider_" id="ClassificationWindow::lengthSlider__a900cee713c43aaa350f6b0009d964ade" ref="classClassificationWindow.html#a900cee713c43aaa350f6b0009d964ade"/>
 <keyword name="LINES" id="ViewerOpenGL::LINES_a26c789d6cfce5d040bb1a7c91e3cfc11a71728d61bd7a7f024afad0546cf51647" ref="classViewerOpenGL.html#a26c789d6cfce5d040bb1a7c91e3cfc11a71728d61bd7a7f024afad0546cf51647"/>
-<keyword name="liveCheckBox_" id="ClassifyGroundWindow::liveCheckBox__a7d3c7431e83d5075542a11489a68055a" ref="classClassifyGroundWindow.html#a7d3c7431e83d5075542a11489a68055a"/>
 <keyword name="loadPlugin(QObject *plugin)" id="MainWindow::loadPlugin_a5d02c284dd17276fa5e9ced864324476" ref="classMainWindow.html#a5d02c284dd17276fa5e9ced864324476"/>
 <keyword name="loadPlugins()" id="MainWindow::loadPlugins_ad63ce417061edc862704eb68e7a7a2d2" ref="classMainWindow.html#ad63ce417061edc862704eb68e7a7a2d2"/>
 <keyword name="lock()" id="Editor::lock_aa4d63d7e37383e9bc541a21925989e23" ref="classEditor.html#aa4d63d7e37383e9bc541a21925989e23"/>
 <keyword name="lookAt(const Vector3&lt; T &gt; &amp;eye, const Vector3&lt; T &gt; &amp;center, const Vector3&lt; T &gt; &amp;up)" id="Matrix4::lookAt_a2f653e636e0cbe095e8176c532f8b96a" ref="classMatrix4.html#a2f653e636e0cbe095e8176c532f8b96a"/>
 <keyword name="lru_" id="Query::lru__a463d29a2ffd1b41fc00363f36c79d9d9" ref="classQuery.html#a463d29a2ffd1b41fc00363f36c79d9d9"/>
 <keyword name="MainWindow(QWidget *parent=nullptr)" id="MainWindow::MainWindow_a996c5a2b6f77944776856f08ec30858d" ref="classMainWindow.html#a996c5a2b6f77944776856f08ec30858d"/>
-<keyword name="mainWindow_" id="ClassifyGroundWindow::mainWindow__aff48f09eae5a4f2f6ee3227c05b019a3" ref="classClassifyGroundWindow.html#aff48f09eae5a4f2f6ee3227c05b019a3"/>
-<keyword name="mainWindow_" id="ClassifyGroundPlugin::mainWindow__ae76364b2bc6fa2e15363c24b55a30647" ref="classClassifyGroundPlugin.html#ae76364b2bc6fa2e15363c24b55a30647"/>
+<keyword name="mainWindow_" id="ClassificationWindow::mainWindow__a22ebde64212c486de481d0501ad83bf7" ref="classClassificationWindow.html#a22ebde64212c486de481d0501ad83bf7"/>
+<keyword name="mainWindow_" id="ClassificationPlugin::mainWindow__a91a960921e7baf0df4c688ee5270c5ee" ref="classClassificationPlugin.html#a91a960921e7baf0df4c688ee5270c5ee"/>
+<keyword name="mainWindow_" id="ElevationWindow::mainWindow__a5d3324dfe43e6e7c91af588a7fc48122" ref="classElevationWindow.html#a5d3324dfe43e6e7c91af588a7fc48122"/>
+<keyword name="mainWindow_" id="ElevationPlugin::mainWindow__ad946af1b216482405220c9981417c4e0" ref="classElevationPlugin.html#ad946af1b216482405220c9981417c4e0"/>
 <keyword name="mainWindow_" id="HelpPlugin::mainWindow__a563d0d185a581edd2862a49a0e5339b0" ref="classHelpPlugin.html#a563d0d185a581edd2862a49a0e5339b0"/>
 <keyword name="mainWindow_" id="ImportPlugin::mainWindow__ac3106035080acb9b520a727c5960a4a4" ref="classImportPlugin.html#ac3106035080acb9b520a727c5960a4a4"/>
 <keyword name="mainWindow_" id="ProjectFilePlugin::mainWindow__a2e015db301c976d2f01ecaec617f90a1" ref="classProjectFilePlugin.html#a2e015db301c976d2f01ecaec617f90a1"/>
 <keyword name="mainWindow_" id="ProjectNavigatorClassifications::mainWindow__abb3ebde64071b309e2e9093032f77115" ref="classProjectNavigatorClassifications.html#abb3ebde64071b309e2e9093032f77115"/>
+<keyword name="mainWindow_" id="ProjectNavigatorElevation::mainWindow__a00cc195a98a81f86da2bf4fb6fb433b7" ref="classProjectNavigatorElevation.html#a00cc195a98a81f86da2bf4fb6fb433b7"/>
 <keyword name="mainWindow_" id="ProjectNavigatorFiles::mainWindow__ab54307969f842e0a58fdbc627a863d66" ref="classProjectNavigatorFiles.html#ab54307969f842e0a58fdbc627a863d66"/>
 <keyword name="mainWindow_" id="ProjectNavigatorLayers::mainWindow__a52c00a2909e17c0c8e80d64a2ab6b7f6" ref="classProjectNavigatorLayers.html#a52c00a2909e17c0c8e80d64a2ab6b7f6"/>
 <keyword name="mainWindow_" id="ProjectNavigatorPlugin::mainWindow__a0918bcc4456342afd5ebc5897b4e331d" ref="classProjectNavigatorPlugin.html#a0918bcc4456342afd5ebc5897b4e331d"/>
@@ -2703,6 +2858,7 @@
 <keyword name="Matrix4(T m00, T m01, T m02, T m03, T m10, T m11, T m12, T m13, T m20, T m21, T m22, T m23, T m30, T m31, T m32, T m33)" id="Matrix4::Matrix4_aa3ef301695645f15f56f7e30f77ab0a1" ref="classMatrix4.html#aa3ef301695645f15f56f7e30f77ab0a1"/>
 <keyword name="max" id="SegmentationPca::max_a08d88eab7766683095331554bc85f058" ref="classSegmentationPca.html#a08d88eab7766683095331554bc85f058"/>
 <keyword name="max(size_t idx) const" id="Box::max_a373b9710b5a66263e7b8b2d1813300e6" ref="classBox.html#a373b9710b5a66263e7b8b2d1813300e6"/>
+<keyword name="max() const" id="Vector2::max_a05ab2ba9b85d092eb9ef7a04816cfcb1" ref="classVector2.html#a05ab2ba9b85d092eb9ef7a04816cfcb1"/>
 <keyword name="max() const" id="Vector3::max_a40ddaa77a92addca35357ca8735150f7" ref="classVector3.html#a40ddaa77a92addca35357ca8735150f7"/>
 <keyword name="max(size_t idx) const" id="Box&lt; double &gt;::max_a373b9710b5a66263e7b8b2d1813300e6" ref="classBox.html#a373b9710b5a66263e7b8b2d1813300e6"/>
 <keyword name="max() const" id="Vector3&lt; float &gt;::max_a40ddaa77a92addca35357ca8735150f7" ref="classVector3.html#a40ddaa77a92addca35357ca8735150f7"/>
@@ -2714,6 +2870,8 @@
 <keyword name="max_x" id="LasFile::Header::max_x_a3d7a49e37f375726758ce27c21a31188" ref="structLasFile_1_1Header.html#a3d7a49e37f375726758ce27c21a31188"/>
 <keyword name="max_y" id="LasFile::Header::max_y_aaf1a69d6f703f6f19dffe23c0c17b979" ref="structLasFile_1_1Header.html#aaf1a69d6f703f6f19dffe23c0c17b979"/>
 <keyword name="max_z" id="LasFile::Header::max_z_a95cd569b18d3425988888e5980f1d41e" ref="structLasFile_1_1Header.html#a95cd569b18d3425988888e5980f1d41e"/>
+<keyword name="maximum() const" id="Range::maximum_aff4e9a5e3257b883b8594437dec9541c" ref="classRange.html#aff4e9a5e3257b883b8594437dec9541c"/>
+<keyword name="maximum() const" id="Range&lt; double &gt;::maximum_aff4e9a5e3257b883b8594437dec9541c" ref="classRange.html#aff4e9a5e3257b883b8594437dec9541c"/>
 <keyword name="maximum_" id="IndexFileBuilder::maximum__ab8cc7881f06cb57a12827e0e6e182cb2" ref="classIndexFileBuilder.html#ab8cc7881f06cb57a12827e0e6e182cb2"/>
 <keyword name="maximumIdx_" id="IndexFileBuilder::maximumIdx__acc231dc5476d226b93a6901434ccc1c5" ref="classIndexFileBuilder.html#acc231dc5476d226b93a6901434ccc1c5"/>
 <keyword name="maximumLength() const" id="Box::maximumLength_a6fae4bbaf15c8b5a6c7ac330f8a7a784" ref="classBox.html#a6fae4bbaf15c8b5a6c7ac330f8a7a784"/>
@@ -2721,15 +2879,20 @@
 <keyword name="maximumResults() const" id="Query::maximumResults_a7e11ffea099daae843ed4244ba14b14b" ref="classQuery.html#a7e11ffea099daae843ed4244ba14b14b"/>
 <keyword name="maximumResults_" id="Query::maximumResults__af5d52a34ed8914c089f010a848ad3071" ref="classQuery.html#af5d52a34ed8914c089f010a848ad3071"/>
 <keyword name="maximumTotal_" id="IndexFileBuilder::maximumTotal__af15e14e5ace7cf97ec216501ffdf3067" ref="classIndexFileBuilder.html#af15e14e5ace7cf97ec216501ffdf3067"/>
+<keyword name="maximumValue() const" id="Range::maximumValue_a05532d0a0b02cac0b90b3af098abe1f9" ref="classRange.html#a05532d0a0b02cac0b90b3af098abe1f9"/>
+<keyword name="maximumValue()" id="RangeSliderWidget::maximumValue_abeb7121974fe870a7d1c9a104cbbca83" ref="classRangeSliderWidget.html#abeb7121974fe870a7d1c9a104cbbca83"/>
+<keyword name="maximumValue() const" id="Range&lt; double &gt;::maximumValue_a05532d0a0b02cac0b90b3af098abe1f9" ref="classRange.html#a05532d0a0b02cac0b90b3af098abe1f9"/>
 <keyword name="maxLevel1" id="IndexFileBuilder::Settings::maxLevel1_a7deb306665852fe31ffbe9d1f10f37f2" ref="classIndexFileBuilder_1_1Settings.html#a7deb306665852fe31ffbe9d1f10f37f2"/>
 <keyword name="maxLevel2" id="IndexFileBuilder::Settings::maxLevel2_a07756f444649129a0ab3fa1d11deff64" ref="classIndexFileBuilder_1_1Settings.html#a07756f444649129a0ab3fa1d11deff64"/>
 <keyword name="maxLevel_" id="IndexFile::maxLevel__ac033058e1879bbf39e60d11e80a3cc5e" ref="classIndexFile.html#ac033058e1879bbf39e60d11e80a3cc5e"/>
 <keyword name="maxSize1" id="IndexFileBuilder::Settings::maxSize1_a99eb56856164baf1560362f0f8f3d9dc" ref="classIndexFileBuilder_1_1Settings.html#a99eb56856164baf1560362f0f8f3d9dc"/>
 <keyword name="maxSize2" id="IndexFileBuilder::Settings::maxSize2_af2f47878eb1976d552f136830e801b57" ref="classIndexFileBuilder_1_1Settings.html#af2f47878eb1976d552f136830e801b57"/>
 <keyword name="maxSize_" id="IndexFile::maxSize__a4430ff0a614e44df38a78fa4e0ed02c8" ref="classIndexFile.html#a4430ff0a614e44df38a78fa4e0ed02c8"/>
+<keyword name="maxSpinBox_" id="RangeSliderWidget::maxSpinBox__ab532aa1e659eed8e1896dcb847cf53f6" ref="classRangeSliderWidget.html#ab532aa1e659eed8e1896dcb847cf53f6"/>
 <keyword name="menu_" id="MainWindow::menu__afebfc018bdbfa9a00e4043d17aec9c3e" ref="classMainWindow.html#afebfc018bdbfa9a00e4043d17aec9c3e"/>
 <keyword name="min" id="SegmentationPca::min_acd377a86b1033b049c6b776201839e95" ref="classSegmentationPca.html#acd377a86b1033b049c6b776201839e95"/>
 <keyword name="min(size_t idx) const" id="Box::min_ab26e65e3e40bb6179039f62b6e75464b" ref="classBox.html#ab26e65e3e40bb6179039f62b6e75464b"/>
+<keyword name="min() const" id="Vector2::min_ac6f32cf6659a797ed0fd12884798a676" ref="classVector2.html#ac6f32cf6659a797ed0fd12884798a676"/>
 <keyword name="min() const" id="Vector3::min_a22549ff626f1d5e0bbd12ea1da305978" ref="classVector3.html#a22549ff626f1d5e0bbd12ea1da305978"/>
 <keyword name="min(size_t idx) const" id="Box&lt; double &gt;::min_ab26e65e3e40bb6179039f62b6e75464b" ref="classBox.html#ab26e65e3e40bb6179039f62b6e75464b"/>
 <keyword name="min() const" id="Vector3&lt; float &gt;::min_a22549ff626f1d5e0bbd12ea1da305978" ref="classVector3.html#a22549ff626f1d5e0bbd12ea1da305978"/>
@@ -2740,8 +2903,14 @@
 <keyword name="min_x" id="LasFile::Header::min_x_a50a6be417e9ab24d28da06aa7c7f66c1" ref="structLasFile_1_1Header.html#a50a6be417e9ab24d28da06aa7c7f66c1"/>
 <keyword name="min_y" id="LasFile::Header::min_y_a44937e7e0339cf7e7a3ef45e43c1bfba" ref="structLasFile_1_1Header.html#a44937e7e0339cf7e7a3ef45e43c1bfba"/>
 <keyword name="min_z" id="LasFile::Header::min_z_a2a056bd989c4bd00644a47eeedeb4098" ref="structLasFile_1_1Header.html#a2a056bd989c4bd00644a47eeedeb4098"/>
+<keyword name="minimum() const" id="Range::minimum_a73c1bf8473f0bc0a4a45f872d9b50ce7" ref="classRange.html#a73c1bf8473f0bc0a4a45f872d9b50ce7"/>
+<keyword name="minimum() const" id="Range&lt; double &gt;::minimum_a73c1bf8473f0bc0a4a45f872d9b50ce7" ref="classRange.html#a73c1bf8473f0bc0a4a45f872d9b50ce7"/>
 <keyword name="minimumSizeHint() const override" id="MainWindow::minimumSizeHint_aa5399468cbc29ca280031efd48a6f6de" ref="classMainWindow.html#aa5399468cbc29ca280031efd48a6f6de"/>
+<keyword name="minimumValue() const" id="Range::minimumValue_a3579d8cec36ab7e8f72c26f5b048beed" ref="classRange.html#a3579d8cec36ab7e8f72c26f5b048beed"/>
+<keyword name="minimumValue()" id="RangeSliderWidget::minimumValue_ac0074b2720a5c7ed405d9947e289726e" ref="classRangeSliderWidget.html#ac0074b2720a5c7ed405d9947e289726e"/>
+<keyword name="minimumValue() const" id="Range&lt; double &gt;::minimumValue_a3579d8cec36ab7e8f72c26f5b048beed" ref="classRange.html#a3579d8cec36ab7e8f72c26f5b048beed"/>
 <keyword name="minorVersion" id="ChunkFile::Chunk::minorVersion_a82745253ea63c95f067966d2f996f7f9" ref="structChunkFile_1_1Chunk.html#a82745253ea63c95f067966d2f996f7f9"/>
+<keyword name="minSpinBox_" id="RangeSliderWidget::minSpinBox__a1c42bbd19f4fcb9b5852d35b81ea63be" ref="classRangeSliderWidget.html#a1c42bbd19f4fcb9b5852d35b81ea63be"/>
 <keyword name="Mode" id="ViewerOpenGL::Mode_a26c789d6cfce5d040bb1a7c91e3cfc11" ref="classViewerOpenGL.html#a26c789d6cfce5d040bb1a7c91e3cfc11"/>
 <keyword name="POINTS" id="ViewerOpenGL::POINTS_a26c789d6cfce5d040bb1a7c91e3cfc11ab5de1fe967cde782e034fdd4c5a3aeaf" ref="classViewerOpenGL.html#a26c789d6cfce5d040bb1a7c91e3cfc11ab5de1fe967cde782e034fdd4c5a3aeaf"/>
 <keyword name="LINES" id="ViewerOpenGL::LINES_a26c789d6cfce5d040bb1a7c91e3cfc11a71728d61bd7a7f024afad0546cf51647" ref="classViewerOpenGL.html#a26c789d6cfce5d040bb1a7c91e3cfc11a71728d61bd7a7f024afad0546cf51647"/>
@@ -2778,16 +2947,19 @@
 <keyword name="nextState()" id="Viewports::nextState_ab29abe3bf00cfe12cb0e5c884d08014c" ref="classViewports.html#ab29abe3bf00cfe12cb0e5c884d08014c"/>
 <keyword name="nir" id="LasFile::Point::nir_a3c139f418e82884d5ac9a959749efac7" ref="structLasFile_1_1Point.html#a3c139f418e82884d5ac9a959749efac7"/>
 <keyword name="nodes_" id="IndexFile::nodes__ad6637787d17dedb3c18e1a40a91477e3" ref="classIndexFile.html#ad6637787d17dedb3c18e1a40a91477e3"/>
+<keyword name="normalize()" id="Vector2::normalize_ace2a626eaa79412e2946216e9c3e63c6" ref="classVector2.html#ace2a626eaa79412e2946216e9c3e63c6"/>
 <keyword name="normalize()" id="Vector3::normalize_a9b147a862a1b86ed2e5b735d19da3da1" ref="classVector3.html#a9b147a862a1b86ed2e5b735d19da3da1"/>
 <keyword name="normalize()" id="Vector3&lt; float &gt;::normalize_a9b147a862a1b86ed2e5b735d19da3da1" ref="classVector3.html#a9b147a862a1b86ed2e5b735d19da3da1"/>
 <keyword name="normalize()" id="Vector3&lt; double &gt;::normalize_a9b147a862a1b86ed2e5b735d19da3da1" ref="classVector3.html#a9b147a862a1b86ed2e5b735d19da3da1"/>
+<keyword name="normalized() const" id="Vector2::normalized_aa78ff4778f55bf9c1ba9a10830fc0b89" ref="classVector2.html#aa78ff4778f55bf9c1ba9a10830fc0b89"/>
 <keyword name="normalized() const" id="Vector3::normalized_aaf369f4d5479483db7f55c0f561422af" ref="classVector3.html#aaf369f4d5479483db7f55c0f561422af"/>
 <keyword name="normalized() const" id="Vector3&lt; float &gt;::normalized_aaf369f4d5479483db7f55c0f561422af" ref="classVector3.html#aaf369f4d5479483db7f55c0f561422af"/>
 <keyword name="normalized() const" id="Vector3&lt; double &gt;::normalized_aaf369f4d5479483db7f55c0f561422af" ref="classVector3.html#aaf369f4d5479483db7f55c0f561422af"/>
 <keyword name="nPoints() const" id="Dataset::nPoints_a1a7b314d511d0b0eae52926ad0561061" ref="classDataset.html#a1a7b314d511d0b0eae52926ad0561061"/>
 <keyword name="nPoints() const" id="Datasets::nPoints_a87d52b7fc9fc4691cff3235057806b6b" ref="classDatasets.html#a87d52b7fc9fc4691cff3235057806b6b"/>
 <keyword name="nPoints_" id="Dataset::nPoints__ac80afb2f67835667da98c4bde33c5520" ref="classDataset.html#ac80afb2f67835667da98c4bde33c5520"/>
-<keyword name="nPointsSpinBox_" id="ClassifyGroundWindow::nPointsSpinBox__a88a7ddfed517cb80bfff335e023056e2" ref="classClassifyGroundWindow.html#a88a7ddfed517cb80bfff335e023056e2"/>
+<keyword name="nPointsInput_" id="ElevationWindow::nPointsInput__ab35f4e73d8082a842e0a4730bb5b05cf" ref="classElevationWindow.html#ab35f4e73d8082a842e0a4730bb5b05cf"/>
+<keyword name="nPointsSlider_" id="ClassificationWindow::nPointsSlider__a6044f51e2cf0bf9e81b5a8e038a03801" ref="classClassificationWindow.html#a6044f51e2cf0bf9e81b5a8e038a03801"/>
 <keyword name="nResults_" id="Query::nResults__a2d89f44600f534786c043b2cd43d7491" ref="classQuery.html#a2d89f44600f534786c043b2cd43d7491"/>
 <keyword name="number" id="Json::Data::number_ad979c2d84fdb38f4376c73ec1622be3c" ref="classJson_1_1Data.html#ad979c2d84fdb38f4376c73ec1622be3c"/>
 <keyword name="number() const" id="Json::number_acfda5fc1a094751c95064c5782c62f04" ref="classJson.html#acfda5fc1a094751c95064c5782c62f04"/>
@@ -2799,7 +2971,8 @@
 <keyword name="numberOfReturns" id="Page::numberOfReturns_a5a74a4754cc9f1ef47e0f10736e7454d" ref="classPage.html#a5a74a4754cc9f1ef47e0f10736e7454d"/>
 <keyword name="numberOfReturns()" id="Query::numberOfReturns_a77b11c3e3ed9d3e6afe0a4e565a28605" ref="classQuery.html#a77b11c3e3ed9d3e6afe0a4e565a28605"/>
 <keyword name="numberOfReturns_" id="Query::numberOfReturns__aa11995e0db80be8f62f689ae4d223cf2" ref="classQuery.html#aa11995e0db80be8f62f689ae4d223cf2"/>
-<keyword name="numberOfSteps_" id="ClassifyGround::numberOfSteps__a3d19eef859644f5bc0a68f2f24248190" ref="classClassifyGround.html#a3d19eef859644f5bc0a68f2f24248190"/>
+<keyword name="numberOfSteps_" id="Classification::numberOfSteps__a7f04f5bb070f6ddd5c202e7463173ae5" ref="classClassification.html#a7f04f5bb070f6ddd5c202e7463173ae5"/>
+<keyword name="numberOfSteps_" id="Elevation::numberOfSteps__a2087a848fc0694217ab7b0d1f93895f5" ref="classElevation.html#a2087a848fc0694217ab7b0d1f93895f5"/>
 <keyword name="numberOfVoxels_" id="Voxels::numberOfVoxels__a65768a02714c42b8922ef04b00ff90cb" ref="classVoxels.html#a65768a02714c42b8922ef04b00ff90cb"/>
 <keyword name="nx_" id="Voxels::nx__a55b672b940cd347097efbd1cc4947b85" ref="classVoxels.html#a55b672b940cd347097efbd1cc4947b85"/>
 <keyword name="ny_" id="Voxels::ny__ab972988a2a98e8fc354c0859550f9469" ref="classVoxels.html#ab972988a2a98e8fc354c0859550f9469"/>
@@ -2835,6 +3008,9 @@
 <keyword name="operator()(size_t r, size_t c) const" id="Matrix4::operator()_af4921b93bb9bb0fe9aba896dc85c8f55" ref="classMatrix4.html#af4921b93bb9bb0fe9aba896dc85c8f55"/>
 <keyword name="operator()(size_t r, size_t c)" id="Matrix4::operator()_ac8b16276dfaa92ee4b0923c649942800" ref="classMatrix4.html#ac8b16276dfaa92ee4b0923c649942800"/>
 <keyword name="operator*(const Matrix4&lt; T &gt; &amp;a, const Matrix4&lt; T &gt; &amp;b)" id="Matrix4::operator*_ac3fb12df018639749861146acbee5645" ref="classMatrix4.html#ac3fb12df018639749861146acbee5645"/>
+<keyword name="operator*(const Vector2&lt; T &gt; &amp;a, T b)" id="Vector2::operator*_a68e3f06f551189bc32cf17d67b77f14e" ref="classVector2.html#a68e3f06f551189bc32cf17d67b77f14e"/>
+<keyword name="operator*(T a, const Vector2&lt; T &gt; &amp;b)" id="Vector2::operator*_a7b296668e1769bc0f77f4d0b5c16ea0f" ref="classVector2.html#a7b296668e1769bc0f77f4d0b5c16ea0f"/>
+<keyword name="operator*(const Vector2&lt; T &gt; &amp;a, const Vector2&lt; T &gt; &amp;b)" id="Vector2::operator*_aab925532ade9f0ab470ba8ec55b28823" ref="classVector2.html#aab925532ade9f0ab470ba8ec55b28823"/>
 <keyword name="operator*(const Vector3&lt; T &gt; &amp;a, T b)" id="Vector3::operator*_a772dee55be13c0a38c8f92c6f5b9f017" ref="classVector3.html#a772dee55be13c0a38c8f92c6f5b9f017"/>
 <keyword name="operator*(T a, const Vector3&lt; T &gt; &amp;b)" id="Vector3::operator*_acc716f0b105332ec609a2c991e50d7da" ref="classVector3.html#acc716f0b105332ec609a2c991e50d7da"/>
 <keyword name="operator*(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b)" id="Vector3::operator*_a8f33e2690b03aef0c3e20816bcbeffee" ref="classVector3.html#a8f33e2690b03aef0c3e20816bcbeffee"/>
@@ -2844,12 +3020,17 @@
 <keyword name="operator*(const Vector3&lt; double &gt; &amp;a, double b)" id="Vector3&lt; double &gt;::operator*_a772dee55be13c0a38c8f92c6f5b9f017" ref="classVector3.html#a772dee55be13c0a38c8f92c6f5b9f017"/>
 <keyword name="operator*(double a, const Vector3&lt; double &gt; &amp;b)" id="Vector3&lt; double &gt;::operator*_acc716f0b105332ec609a2c991e50d7da" ref="classVector3.html#acc716f0b105332ec609a2c991e50d7da"/>
 <keyword name="operator*(const Vector3&lt; double &gt; &amp;a, const Vector3&lt; double &gt; &amp;b)" id="Vector3&lt; double &gt;::operator*_a8f33e2690b03aef0c3e20816bcbeffee" ref="classVector3.html#a8f33e2690b03aef0c3e20816bcbeffee"/>
+<keyword name="operator+(const Vector2&lt; T &gt; &amp;a, const Vector2&lt; T &gt; &amp;b)" id="Vector2::operator+_aad7188bb0b2c452928de7ac31b0c5151" ref="classVector2.html#aad7188bb0b2c452928de7ac31b0c5151"/>
 <keyword name="operator+(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b)" id="Vector3::operator+_a708a02684026b64c0a4f32eddc813613" ref="classVector3.html#a708a02684026b64c0a4f32eddc813613"/>
 <keyword name="operator+(const Vector3&lt; float &gt; &amp;a, const Vector3&lt; float &gt; &amp;b)" id="Vector3&lt; float &gt;::operator+_a708a02684026b64c0a4f32eddc813613" ref="classVector3.html#a708a02684026b64c0a4f32eddc813613"/>
 <keyword name="operator+(const Vector3&lt; double &gt; &amp;a, const Vector3&lt; double &gt; &amp;b)" id="Vector3&lt; double &gt;::operator+_a708a02684026b64c0a4f32eddc813613" ref="classVector3.html#a708a02684026b64c0a4f32eddc813613"/>
+<keyword name="operator-(const Vector2&lt; T &gt; &amp;a, const Vector2&lt; T &gt; &amp;b)" id="Vector2::operator-_a6084e994a765c9dce2049e0c166c12ee" ref="classVector2.html#a6084e994a765c9dce2049e0c166c12ee"/>
 <keyword name="operator-(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b)" id="Vector3::operator-_a9029e567bae655b7b12924bbff497989" ref="classVector3.html#a9029e567bae655b7b12924bbff497989"/>
 <keyword name="operator-(const Vector3&lt; float &gt; &amp;a, const Vector3&lt; float &gt; &amp;b)" id="Vector3&lt; float &gt;::operator-_a9029e567bae655b7b12924bbff497989" ref="classVector3.html#a9029e567bae655b7b12924bbff497989"/>
 <keyword name="operator-(const Vector3&lt; double &gt; &amp;a, const Vector3&lt; double &gt; &amp;b)" id="Vector3&lt; double &gt;::operator-_a9029e567bae655b7b12924bbff497989" ref="classVector3.html#a9029e567bae655b7b12924bbff497989"/>
+<keyword name="operator/(const Vector2&lt; T &gt; &amp;a, T b)" id="Vector2::operator/_ac76c572fc5284b5b11f31f4a9e09d39e" ref="classVector2.html#ac76c572fc5284b5b11f31f4a9e09d39e"/>
+<keyword name="operator/(T a, const Vector2&lt; T &gt; &amp;b)" id="Vector2::operator/_ae307fa5b824191b6f9f2f3f465e68e65" ref="classVector2.html#ae307fa5b824191b6f9f2f3f465e68e65"/>
+<keyword name="operator/(const Vector2&lt; T &gt; &amp;a, const Vector2&lt; T &gt; &amp;b)" id="Vector2::operator/_a831722582ce3639fc708595fbbb17a00" ref="classVector2.html#a831722582ce3639fc708595fbbb17a00"/>
 <keyword name="operator/(const Vector3&lt; T &gt; &amp;a, T b)" id="Vector3::operator/_ae78c22f637866f014d0d7112aabf6d0d" ref="classVector3.html#ae78c22f637866f014d0d7112aabf6d0d"/>
 <keyword name="operator/(T a, const Vector3&lt; T &gt; &amp;b)" id="Vector3::operator/_a7334e4413fee0e636aeae4f3471d4926" ref="classVector3.html#a7334e4413fee0e636aeae4f3471d4926"/>
 <keyword name="operator/(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b)" id="Vector3::operator/_a0b41bf49b70ae60be8def2e5597cedc1" ref="classVector3.html#a0b41bf49b70ae60be8def2e5597cedc1"/>
@@ -2862,6 +3043,7 @@
 <keyword name="operator&lt;(const Key &amp;rhs) const" id="Query::Key::operator&lt;_a5016282a6227a0252069e2bd34d94fec" ref="structQuery_1_1Key.html#a5016282a6227a0252069e2bd34d94fec"/>
 <keyword name="operator=(const File &amp;)=delete" id="File::operator=_a878dae94a3b260807de318337ecfc515" ref="classFile.html#a878dae94a3b260807de318337ecfc515"/>
 <keyword name="operator=(const Matrix4&lt; T &gt; &amp;m)=default" id="Matrix4::operator=_aaa961e7de9a141471e2fa2999d6034ad" ref="classMatrix4.html#aaa961e7de9a141471e2fa2999d6034ad"/>
+<keyword name="operator=(const Vector2&lt; B &gt; &amp;v)" id="Vector2::operator=_a015498f7ae54566e3f5ee6f8fbf9d6fc" ref="classVector2.html#a015498f7ae54566e3f5ee6f8fbf9d6fc"/>
 <keyword name="operator=(const Vector3&lt; B &gt; &amp;v)" id="Vector3::operator=_a166caa04925efaec01ef6740a0ed7472" ref="classVector3.html#a166caa04925efaec01ef6740a0ed7472"/>
 <keyword name="operator=(const Vector3&lt; B &gt; &amp;v)" id="Vector3&lt; float &gt;::operator=_a166caa04925efaec01ef6740a0ed7472" ref="classVector3.html#a166caa04925efaec01ef6740a0ed7472"/>
 <keyword name="operator=(const Vector3&lt; B &gt; &amp;v)" id="Vector3&lt; double &gt;::operator=_a166caa04925efaec01ef6740a0ed7472" ref="classVector3.html#a166caa04925efaec01ef6740a0ed7472"/>
@@ -2873,10 +3055,10 @@
 <keyword name="out" id="SegmentationPca::out_ae303a41fe26cbfaefef7f75500e65ed7" ref="classSegmentationPca.html#ae303a41fe26cbfaefef7f75500e65ed7"/>
 <keyword name="outputLas_" id="IndexFileBuilder::outputLas__ab1e9a57a96f4f24019442004e0faf308" ref="classIndexFileBuilder.html#ab1e9a57a96f4f24019442004e0faf308"/>
 <keyword name="outputPath_" id="IndexFileBuilder::outputPath__ae3fff1a931132d18a0232ab3a8383216" ref="classIndexFileBuilder.html#ae3fff1a931132d18a0232ab3a8383216"/>
-<keyword name="P" id="ClassifyGround::P_a00271794251ccd2fc3e0eddcf926ef72" ref="classClassifyGround.html#a00271794251ccd2fc3e0eddcf926ef72"/>
+<keyword name="P" id="Elevation::P_a63b1a1e9196ace19fa71e99fd3936001" ref="classElevation.html#a63b1a1e9196ace19fa71e99fd3936001"/>
+<keyword name="Page(Editor *editor, Query *query, uint32_t datasetId, uint32_t pageId)" id="Page::Page_ad1560fe7eb31f90ec1705940c15228b7" ref="classPage.html#ad1560fe7eb31f90ec1705940c15228b7"/>
 <keyword name="page()" id="Query::page_aa0db33f35f4bb68ada5c356a57204424" ref="classQuery.html#aa0db33f35f4bb68ada5c356a57204424"/>
 <keyword name="page(size_t viewport, size_t index)" id="Viewports::page_a42b52622aa19383905ad36b704320019" ref="classViewports.html#a42b52622aa19383905ad36b704320019"/>
-<keyword name="Page(Editor *editor, Query *query, uint32_t datasetId, uint32_t pageId)" id="Page::Page_ad1560fe7eb31f90ec1705940c15228b7" ref="classPage.html#ad1560fe7eb31f90ec1705940c15228b7"/>
 <keyword name="page_" id="Query::page__a77a594433f8631ac96279cf89607fd1d" ref="classQuery.html#a77a594433f8631ac96279cf89607fd1d"/>
 <keyword name="pageId" id="Query::Key::pageId_a6cae52092de0ee3a79bcd31b94356f1d" ref="structQuery_1_1Key.html#a6cae52092de0ee3a79bcd31b94356f1d"/>
 <keyword name="pageId() const" id="Page::pageId_ae7ba3b8055fcf04a4d251213ba1143b6" ref="classPage.html#ae7ba3b8055fcf04a4d251213ba1143b6"/>
@@ -2939,6 +3121,7 @@
 <keyword name="projectName() const" id="Editor::projectName_a14c64a0812c8ab8acfff4d84be45e8dc" ref="classEditor.html#a14c64a0812c8ab8acfff4d84be45e8dc"/>
 <keyword name="projectName_" id="Editor::projectName__ac5e802a100ee4b69bb81b4efdc9b8546" ref="classEditor.html#ac5e802a100ee4b69bb81b4efdc9b8546"/>
 <keyword name="ProjectNavigatorClassifications(MainWindow *mainWindow)" id="ProjectNavigatorClassifications::ProjectNavigatorClassifications_a30bb168a7cefa4f75b12405bee5814c9" ref="classProjectNavigatorClassifications.html#a30bb168a7cefa4f75b12405bee5814c9"/>
+<keyword name="ProjectNavigatorElevation(MainWindow *mainWindow)" id="ProjectNavigatorElevation::ProjectNavigatorElevation_a458d35e7d15303acd915df4382b628da" ref="classProjectNavigatorElevation.html#a458d35e7d15303acd915df4382b628da"/>
 <keyword name="ProjectNavigatorFiles(MainWindow *mainWindow)" id="ProjectNavigatorFiles::ProjectNavigatorFiles_a4e80bed92185345e5332416faf939046" ref="classProjectNavigatorFiles.html#a4e80bed92185345e5332416faf939046"/>
 <keyword name="ProjectNavigatorLayers(MainWindow *mainWindow)" id="ProjectNavigatorLayers::ProjectNavigatorLayers_aeea7a409f35d9c35bf1347c7d945d181" ref="classProjectNavigatorLayers.html#aeea7a409f35d9c35bf1347c7d945d181"/>
 <keyword name="ProjectNavigatorPlugin()" id="ProjectNavigatorPlugin::ProjectNavigatorPlugin_ad77a6892ffedf37cbba9fe6f0c2c085f" ref="classProjectNavigatorPlugin.html#ad77a6892ffedf37cbba9fe6f0c2c085f"/>
@@ -2953,9 +3136,10 @@
 <keyword name="QUADS" id="ViewerOpenGL::QUADS_a26c789d6cfce5d040bb1a7c91e3cfc11a9f1157a3208d3d6dcb0a1f3296d638bc" ref="classViewerOpenGL.html#a26c789d6cfce5d040bb1a7c91e3cfc11a9f1157a3208d3d6dcb0a1f3296d638bc"/>
 <keyword name="Query(Editor *editor)" id="Query::Query_a8b32769d7995d5b8479b17fb44feb2c8" ref="classQuery.html#a8b32769d7995d5b8479b17fb44feb2c8"/>
 <keyword name="query_" id="Page::query__add1bf06919dc765cc78afae94e32120e" ref="classPage.html#add1bf06919dc765cc78afae94e32120e"/>
-<keyword name="query_" id="ClassifyGround::query__ae00b99ce7d6f409531e26152e399f8a1" ref="classClassifyGround.html#ae00b99ce7d6f409531e26152e399f8a1"/>
+<keyword name="query_" id="Classification::query__a86b7c9ed7f26576e9de1aa29de07cc28" ref="classClassification.html#a86b7c9ed7f26576e9de1aa29de07cc28"/>
+<keyword name="query_" id="Elevation::query__a0354297d5bc2051e6e8d04c5f3be2db6" ref="classElevation.html#a0354297d5bc2051e6e8d04c5f3be2db6"/>
 <keyword name="query_" id="SegmentationThread::query__ad6099db1366b5da17b92a97dc4ac4074" ref="classSegmentationThread.html#ad6099db1366b5da17b92a97dc4ac4074"/>
-<keyword name="queryPoint_" id="ClassifyGround::queryPoint__afdd4244bd0666329744c3e356dfec01d" ref="classClassifyGround.html#afdd4244bd0666329744c3e356dfec01d"/>
+<keyword name="queryPoint_" id="Classification::queryPoint__a0f077422f1286b7e4e03bcca0d64fe6b" ref="classClassification.html#a0f077422f1286b7e4e03bcca0d64fe6b"/>
 <keyword name="radius() const" id="Box::radius_af38477a148da11f3f931e412b08efa97" ref="classBox.html#af38477a148da11f3f931e412b08efa97"/>
 <keyword name="radius() const" id="Box&lt; double &gt;::radius_af38477a148da11f3f931e412b08efa97" ref="classBox.html#af38477a148da11f3f931e412b08efa97"/>
 <keyword name="radius_" id="Cone::radius__a88d8cc92eff443651c97670ef4f1e9b1" ref="classCone.html#a88d8cc92eff443651c97670ef4f1e9b1"/>
@@ -2963,7 +3147,11 @@
 <keyword name="radius_" id="ViewerAabb::radius__a3cb0fa32c5e5214d82a5a18fc17c2130" ref="classViewerAabb.html#a3cb0fa32c5e5214d82a5a18fc17c2130"/>
 <keyword name="radius_" id="Cone&lt; double &gt;::radius__a88d8cc92eff443651c97670ef4f1e9b1" ref="classCone.html#a88d8cc92eff443651c97670ef4f1e9b1"/>
 <keyword name="radius_" id="Sphere&lt; double &gt;::radius__ad2991722a6a92d224c6ffffc2325d287" ref="classSphere.html#ad2991722a6a92d224c6ffffc2325d287"/>
-<keyword name="rangeSpinBox_" id="ClassifyGroundWindow::rangeSpinBox__af4e1476cf659f92613029c4d23643c8e" ref="classClassifyGroundWindow.html#af4e1476cf659f92613029c4d23643c8e"/>
+<keyword name="Range()" id="Range::Range_a6f65c35914aeb4d5238b6acddaf40680" ref="classRange.html#a6f65c35914aeb4d5238b6acddaf40680"/>
+<keyword name="Range()" id="Range&lt; double &gt;::Range_a6f65c35914aeb4d5238b6acddaf40680" ref="classRange.html#a6f65c35914aeb4d5238b6acddaf40680"/>
+<keyword name="rangeInput_" id="ProjectNavigatorElevation::rangeInput__ab9bf92a7729981754465e65c26c9d9c2" ref="classProjectNavigatorElevation.html#ab9bf92a7729981754465e65c26c9d9c2"/>
+<keyword name="rangeSlider_" id="ClassificationWindow::rangeSlider__a9e60043137ce6504cdb9262957170896" ref="classClassificationWindow.html#a9e60043137ce6504cdb9262957170896"/>
+<keyword name="RangeSliderWidget()" id="RangeSliderWidget::RangeSliderWidget_a1233d0411202877b288c95fc153c6796" ref="classRangeSliderWidget.html#a1233d0411202877b288c95fc153c6796"/>
 <keyword name="read(const Json &amp;in)" id="Box::read_ab89ea3104acbbc12dfaf020edb472d94" ref="classBox.html#ab89ea3104acbbc12dfaf020edb472d94"/>
 <keyword name="read(Chunk &amp;chunk)" id="ChunkFile::read_a9934f1a975b3e30fc194503dc15731c4" ref="classChunkFile.html#a9934f1a975b3e30fc194503dc15731c4"/>
 <keyword name="read(uint8_t *buffer, uint64_t nbyte)" id="ChunkFile::read_a20b0a7cb9846509db14525b3221cdd3c" ref="classChunkFile.html#a20b0a7cb9846509db14525b3221cdd3c"/>
@@ -2972,6 +3160,8 @@
 <keyword name="read(const std::string &amp;path)" id="File::read_af23eac0208c0ba4f2d2d2d7695e2f709" ref="classFile.html#af23eac0208c0ba4f2d2d2d7695e2f709"/>
 <keyword name="read(int fd, uint8_t *buffer, uint64_t nbyte)" id="File::read_a87de5e6051f146a178075b529b30e66d" ref="classFile.html#a87de5e6051f146a178075b529b30e66d"/>
 <keyword name="read(const std::string &amp;fileName)" id="Json::read_ab3c08045af4f1ad103ebfd6c1f38e1ed" ref="classJson.html#ab3c08045af4f1ad103ebfd6c1f38e1ed"/>
+<keyword name="read(const Json &amp;in)" id="Range::read_a7fefd20784c492612d7319ee414be499" ref="classRange.html#a7fefd20784c492612d7319ee414be499"/>
+<keyword name="read(const Json &amp;in)" id="Vector2::read_ade9d2a411abb23323fe5c38ecf8f8d88" ref="classVector2.html#ade9d2a411abb23323fe5c38ecf8f8d88"/>
 <keyword name="read(const Json &amp;in)" id="Vector3::read_ac2038eab222c7acfa5ac5dbe675d071b" ref="classVector3.html#ac2038eab222c7acfa5ac5dbe675d071b"/>
 <keyword name="read(const Json &amp;in)" id="Classifications::read_ae23f053637c829d2aaca68aa93d310ca" ref="classClassifications.html#ae23f053637c829d2aaca68aa93d310ca"/>
 <keyword name="read(size_t id, const std::string &amp;path, const std::string &amp;projectPath, const SettingsImport &amp;settings, const Box&lt; double &gt; &amp;projectBoundary)" id="Dataset::read_abba74f440c6e84e78538a551481b3c4c" ref="classDataset.html#abba74f440c6e84e78538a551481b3c4c"/>
@@ -2990,6 +3180,7 @@
 <keyword name="read(const Json &amp;in)" id="Settings::read_a72a269056237468189cd4d5c801eccf6" ref="classSettings.html#a72a269056237468189cd4d5c801eccf6"/>
 <keyword name="read(const Json &amp;in)" id="SettingsView::read_ab55a5a514df49cd81560de35827406cd" ref="classSettingsView.html#ab55a5a514df49cd81560de35827406cd"/>
 <keyword name="read(const Json &amp;in)" id="Box&lt; double &gt;::read_ab89ea3104acbbc12dfaf020edb472d94" ref="classBox.html#ab89ea3104acbbc12dfaf020edb472d94"/>
+<keyword name="read(const Json &amp;in)" id="Range&lt; double &gt;::read_a7fefd20784c492612d7319ee414be499" ref="classRange.html#a7fefd20784c492612d7319ee414be499"/>
 <keyword name="read(const Json &amp;in)" id="Vector3&lt; float &gt;::read_ac2038eab222c7acfa5ac5dbe675d071b" ref="classVector3.html#ac2038eab222c7acfa5ac5dbe675d071b"/>
 <keyword name="read(const Json &amp;in)" id="Vector3&lt; double &gt;::read_ac2038eab222c7acfa5ac5dbe675d071b" ref="classVector3.html#ac2038eab222c7acfa5ac5dbe675d071b"/>
 <keyword name="readHeader()" id="LasFile::readHeader_a6cc70618469526f1a1d42f60df575fc3" ref="classLasFile.html#a6cc70618469526f1a1d42f60df575fc3"/>
@@ -3101,6 +3292,7 @@
 <keyword name="selectedBox() const" id="Query::selectedBox_a54784664ad0c3bac531b3f5bf964f663" ref="classQuery.html#a54784664ad0c3bac531b3f5bf964f663"/>
 <keyword name="selectedClassifications() const" id="Query::selectedClassifications_ad06bf78aad8def01d3e907d6906a6069" ref="classQuery.html#ad06bf78aad8def01d3e907d6906a6069"/>
 <keyword name="selectedCone() const" id="Query::selectedCone_afd187aab62996b619577d8d95a71c8c3" ref="classQuery.html#afd187aab62996b619577d8d95a71c8c3"/>
+<keyword name="selectedElevationRange() const" id="Query::selectedElevationRange_a3099b5c8c5551e9ba38042a69c8d06b4" ref="classQuery.html#a3099b5c8c5551e9ba38042a69c8d06b4"/>
 <keyword name="selectedLayers() const" id="Query::selectedLayers_a6af4aa28e6373222bdf7ab0a46f49d3c" ref="classQuery.html#a6af4aa28e6373222bdf7ab0a46f49d3c"/>
 <keyword name="selectedNodes_" id="Page::selectedNodes__aac7e0f802f5a64f2357aea0fab737eba" ref="classPage.html#aac7e0f802f5a64f2357aea0fab737eba"/>
 <keyword name="selectedPages() const" id="Query::selectedPages_a0ae1f9325b633e7d11b83664235fde1b" ref="classQuery.html#a0ae1f9325b633e7d11b83664235fde1b"/>
@@ -3110,6 +3302,9 @@
 <keyword name="selectedViewport()" id="ViewerViewports::selectedViewport_a1c816b102bfc90716b5b6e30d5ac1fd7" ref="classViewerViewports.html#a1c816b102bfc90716b5b6e30d5ac1fd7"/>
 <keyword name="selectedViewport() const" id="ViewerViewports::selectedViewport_a38d5101815418fe966f2b545ab046204" ref="classViewerViewports.html#a38d5101815418fe966f2b545ab046204"/>
 <keyword name="selectedViewportId() const" id="ViewerViewports::selectedViewportId_a30b833e219ee8f10059d87f6a9c46cbd" ref="classViewerViewports.html#a30b833e219ee8f10059d87f6a9c46cbd"/>
+<keyword name="selectElevation()" id="Page::selectElevation_a5321ded7ba0f41989c22bd5faf8f296c" ref="classPage.html#a5321ded7ba0f41989c22bd5faf8f296c"/>
+<keyword name="selectElevationRange(const Range&lt; double &gt; &amp;elevationRange)" id="Query::selectElevationRange_a37fa88cf5e86d051724338884fa2b828" ref="classQuery.html#a37fa88cf5e86d051724338884fa2b828"/>
+<keyword name="selectElevationRange(const Range&lt; double &gt; &amp;elevationRange)" id="Viewports::selectElevationRange_abf5b3de5992a74d2c9c9e267dfa6f485" ref="classViewports.html#abf5b3de5992a74d2c9c9e267dfa6f485"/>
 <keyword name="selectInvertButton_" id="ProjectNavigatorClassifications::selectInvertButton__a74c11d0280d2355ac6f52a5d60b85c79" ref="classProjectNavigatorClassifications.html#a74c11d0280d2355ac6f52a5d60b85c79"/>
 <keyword name="selectInvertButton_" id="ProjectNavigatorFiles::selectInvertButton__aad34f05c16ceb150fa15234f7a9d0667" ref="classProjectNavigatorFiles.html#aad34f05c16ceb150fa15234f7a9d0667"/>
 <keyword name="selectInvertButton_" id="ProjectNavigatorLayers::selectInvertButton__abe17f07fcd5ecb3e752b7cc3889f46e9" ref="classProjectNavigatorLayers.html#abe17f07fcd5ecb3e752b7cc3889f46e9"/>
@@ -3149,6 +3344,7 @@
 <keyword name="set(T x, T y, T z1, T z2, T angle)" id="Cone::set_ab79bfecd6ef6d69e91ebb7b6b0e5840f" ref="classCone.html#ab79bfecd6ef6d69e91ebb7b6b0e5840f"/>
 <keyword name="set(const B *data)" id="Matrix4::set_a61003cea76e02f1d10c48b14f7c26876" ref="classMatrix4.html#a61003cea76e02f1d10c48b14f7c26876"/>
 <keyword name="set(T x, T y, T z, T radius)" id="Sphere::set_a98fc8b8df0de87a7cb9ae371b3ed5435" ref="classSphere.html#a98fc8b8df0de87a7cb9ae371b3ed5435"/>
+<keyword name="set(B v0, B v1)" id="Vector2::set_aad6f9b864455abf20e2a265f6336a2ac" ref="classVector2.html#aad6f9b864455abf20e2a265f6336a2ac"/>
 <keyword name="set(B v0, B v1, B v2)" id="Vector3::set_a0bbbb921398a7290338ebf7982ffd707" ref="classVector3.html#a0bbbb921398a7290338ebf7982ffd707"/>
 <keyword name="set(size_t id, const std::string &amp;label, bool enabled, const Vector3&lt; float &gt; &amp;color)" id="Layer::set_a6ae218efa9edb6055f201378cd0005cf" ref="classLayer.html#a6ae218efa9edb6055f201378cd0005cf"/>
 <keyword name="set(float min_x, float min_y, float min_z, float max_x, float max_y, float max_z)" id="ViewerAabb::set_a59fa41936fc23e61a52a0630d6ae586a" ref="classViewerAabb.html#a59fa41936fc23e61a52a0630d6ae586a"/>
@@ -3183,6 +3379,7 @@
 <keyword name="setDatasets(const Datasets &amp;datasets)" id="ProjectNavigatorFiles::setDatasets_aeba7b664b191642968a653bc8ea5919b" ref="classProjectNavigatorFiles.html#aeba7b664b191642968a653bc8ea5919b"/>
 <keyword name="setDefault()" id="Layers::setDefault_a0ac6e08510926b647f093fe2ae37bf65" ref="classLayers.html#a0ac6e08510926b647f093fe2ae37bf65"/>
 <keyword name="setDistance(float distance)" id="ViewerCamera::setDistance_a974954b6036ef2069a508113c7927362" ref="classViewerCamera.html#a974954b6036ef2069a508113c7927362"/>
+<keyword name="setElevationRange(const Range&lt; double &gt; &amp;elevationRange)" id="Editor::setElevationRange_a69bd7fe0c97aac96361257ddd2fea180" ref="classEditor.html#a69bd7fe0c97aac96361257ddd2fea180"/>
 <keyword name="setEnabled(bool b)" id="Classifications::setEnabled_aadcd881fba3aaf4fd3c3ba4b95de19a9" ref="classClassifications.html#aadcd881fba3aaf4fd3c3ba4b95de19a9"/>
 <keyword name="setEnabled(size_t i, bool b)" id="Classifications::setEnabled_ac99e67d98d954559a3f379d3b2965d93" ref="classClassifications.html#ac99e67d98d954559a3f379d3b2965d93"/>
 <keyword name="setEnabled(bool b)" id="Dataset::setEnabled_aa0cf9b0cb1964f8f7d9fdd58b38e75a5" ref="classDataset.html#aa0cf9b0cb1964f8f7d9fdd58b38e75a5"/>
@@ -3209,8 +3406,20 @@
 <keyword name="setLayout(ViewLayout viewLayout)" id="ViewerViewports::setLayout_a3e54669d04c2aa76ad3cbabba03493af" ref="classViewerViewports.html#a3e54669d04c2aa76ad3cbabba03493af"/>
 <keyword name="setLookAt(const QVector3D &amp;center, float distance)" id="ViewerCamera::setLookAt_a4dc28ef54d1c29b2020c53f748ac1301" ref="classViewerCamera.html#a4dc28ef54d1c29b2020c53f748ac1301"/>
 <keyword name="setLookAt(const QVector3D &amp;eye, const QVector3D &amp;center, const QVector3D &amp;up)" id="ViewerCamera::setLookAt_a4d6cc0eb455d3cbd67bcc8ff85870de3" ref="classViewerCamera.html#a4d6cc0eb455d3cbd67bcc8ff85870de3"/>
+<keyword name="setMaximum(double v)" id="Range::setMaximum_aa9c0e4e9f75ad65414cc6e8ff9478a10" ref="classRange.html#aa9c0e4e9f75ad65414cc6e8ff9478a10"/>
+<keyword name="setMaximum(int max)" id="RangeSliderWidget::setMaximum_a1b8d79136ce737b3a64ca8f651828f2c" ref="classRangeSliderWidget.html#a1b8d79136ce737b3a64ca8f651828f2c"/>
 <keyword name="setMaximum(int max)" id="SliderWidget::setMaximum_afab693126ed98a96b558078bf14f8c7e" ref="classSliderWidget.html#afab693126ed98a96b558078bf14f8c7e"/>
+<keyword name="setMaximum(double v)" id="Range&lt; double &gt;::setMaximum_aa9c0e4e9f75ad65414cc6e8ff9478a10" ref="classRange.html#aa9c0e4e9f75ad65414cc6e8ff9478a10"/>
 <keyword name="setMaximumResults(size_t nPoints)" id="Query::setMaximumResults_a6411ba88f79445f5fe05db93b58b8ff5" ref="classQuery.html#a6411ba88f79445f5fe05db93b58b8ff5"/>
+<keyword name="setMaximumValue(double v)" id="Range::setMaximumValue_a5ff3588e0acf5904fda4bc4ff1ce54fc" ref="classRange.html#a5ff3588e0acf5904fda4bc4ff1ce54fc"/>
+<keyword name="setMaximumValue(int value)" id="RangeSliderWidget::setMaximumValue_ad990aef03b153caa93cff3786eaa9a60" ref="classRangeSliderWidget.html#ad990aef03b153caa93cff3786eaa9a60"/>
+<keyword name="setMaximumValue(double v)" id="Range&lt; double &gt;::setMaximumValue_a5ff3588e0acf5904fda4bc4ff1ce54fc" ref="classRange.html#a5ff3588e0acf5904fda4bc4ff1ce54fc"/>
+<keyword name="setMinimum(double v)" id="Range::setMinimum_a7222f2600ea9c986f3d53d6558c0cbd3" ref="classRange.html#a7222f2600ea9c986f3d53d6558c0cbd3"/>
+<keyword name="setMinimum(int min)" id="RangeSliderWidget::setMinimum_a1934d040c371e997fcae67eb3ae65e94" ref="classRangeSliderWidget.html#a1934d040c371e997fcae67eb3ae65e94"/>
+<keyword name="setMinimum(double v)" id="Range&lt; double &gt;::setMinimum_a7222f2600ea9c986f3d53d6558c0cbd3" ref="classRange.html#a7222f2600ea9c986f3d53d6558c0cbd3"/>
+<keyword name="setMinimumValue(double v)" id="Range::setMinimumValue_a1d2bb905ceecf16fd67ac51a6c7dd4ca" ref="classRange.html#a1d2bb905ceecf16fd67ac51a6c7dd4ca"/>
+<keyword name="setMinimumValue(int value)" id="RangeSliderWidget::setMinimumValue_ab6db53f007d57d9d7cbea04a6d0b7a6a" ref="classRangeSliderWidget.html#ab6db53f007d57d9d7cbea04a6d0b7a6a"/>
+<keyword name="setMinimumValue(double v)" id="Range&lt; double &gt;::setMinimumValue_a1d2bb905ceecf16fd67ac51a6c7dd4ca" ref="classRange.html#a1d2bb905ceecf16fd67ac51a6c7dd4ca"/>
 <keyword name="setModelView(const QMatrix4x4 &amp;m)" id="ViewerCamera::setModelView_a0cc370e4eb688e224c91b59dea2e3699" ref="classViewerCamera.html#a0cc370e4eb688e224c91b59dea2e3699"/>
 <keyword name="setModelViewProjection(const QMatrix4x4 &amp;m)" id="ViewerCamera::setModelViewProjection_a0f934cce0ab83f6b2a79f38d4870a0c7" ref="classViewerCamera.html#a0f934cce0ab83f6b2a79f38d4870a0c7"/>
 <keyword name="setModified()" id="Page::setModified_ae25d8906b21c70621fb04375bf3074d5" ref="classPage.html#ae25d8906b21c70621fb04375bf3074d5"/>
@@ -3234,8 +3443,8 @@
 <keyword name="setState(Page::State state)" id="Viewports::setState_a8b24a5282082152ab62faebc3c87d11f" ref="classViewports.html#a8b24a5282082152ab62faebc3c87d11f"/>
 <keyword name="setState(State state)" id="SegmentationThread::setState_ab2847de25ae60fa2eb84927ae47eaa13" ref="classSegmentationThread.html#ab2847de25ae60fa2eb84927ae47eaa13"/>
 <keyword name="setStatusProgressBarPercent(int percent)" id="MainWindow::setStatusProgressBarPercent_a326d567eda9b9ec6a97ff9c04382b0c4" ref="classMainWindow.html#a326d567eda9b9ec6a97ff9c04382b0c4"/>
-<keyword name="Settings()" id="IndexFileBuilder::Settings::Settings_ac688d3c5d798f05545ea988f2dbc45dd" ref="classIndexFileBuilder_1_1Settings.html#ac688d3c5d798f05545ea988f2dbc45dd"/>
 <keyword name="settings() const" id="Editor::settings_aa1fa3644ca2b631ecba682207077cec1" ref="classEditor.html#aa1fa3644ca2b631ecba682207077cec1"/>
+<keyword name="Settings()" id="IndexFileBuilder::Settings::Settings_ac688d3c5d798f05545ea988f2dbc45dd" ref="classIndexFileBuilder_1_1Settings.html#ac688d3c5d798f05545ea988f2dbc45dd"/>
 <keyword name="settings_" id="Editor::settings__af8dd8a2d40527bd02ed22da7ae20f649" ref="classEditor.html#af8dd8a2d40527bd02ed22da7ae20f649"/>
 <keyword name="settings_" id="IndexFileBuilder::settings__aa48d8019b8d2747041e456840b25daf5" ref="classIndexFileBuilder.html#aa48d8019b8d2747041e456840b25daf5"/>
 <keyword name="settings_" id="SettingsColorWidget::settings__a7f28504c8e984c7d5f002c312a0c4af0" ref="classSettingsColorWidget.html#a7f28504c8e984c7d5f002c312a0c4af0"/>
@@ -3282,6 +3491,8 @@
 <keyword name="showError(const char *message)" id="MainWindow::showError_a099aa96447509af81287e6277bd26e0d" ref="classMainWindow.html#a099aa96447509af81287e6277bd26e0d"/>
 <keyword name="showEvent(QShowEvent *event)" id="SegmentationWindow::showEvent_a01ccc726d3a708870a1fbcfca6c68adc" ref="classSegmentationWindow.html#a01ccc726d3a708870a1fbcfca6c68adc"/>
 <keyword name="signalFinalValue()" id="SliderWidget::signalFinalValue_a8204c71d79bec8655330ce8772699074" ref="classSliderWidget.html#a8204c71d79bec8655330ce8772699074"/>
+<keyword name="signalIntermediateMaximumValue(int v)" id="RangeSliderWidget::signalIntermediateMaximumValue_a473389a21f415ce7194c644274a3dfbc" ref="classRangeSliderWidget.html#a473389a21f415ce7194c644274a3dfbc"/>
+<keyword name="signalIntermediateMinimumValue(int v)" id="RangeSliderWidget::signalIntermediateMinimumValue_a019d9d1ec1ca7773e246d57661e7eda3" ref="classRangeSliderWidget.html#a019d9d1ec1ca7773e246d57661e7eda3"/>
 <keyword name="signalIntermediateValue(int v)" id="SliderWidget::signalIntermediateValue_a9dc2daeae8343d80b378d3a0725b45de" ref="classSliderWidget.html#a9dc2daeae8343d80b378d3a0725b45de"/>
 <keyword name="signalRender()" id="MainWindow::signalRender_ab1752eb76c7658ceb65786fcdc2b12df" ref="classMainWindow.html#ab1752eb76c7658ceb65786fcdc2b12df"/>
 <keyword name="signalThread(bool finished, int progressPercent)" id="SegmentationWindow::signalThread_a1a90ceb69fdc10e198d7346028bf84fe" ref="classSegmentationWindow.html#a1a90ceb69fdc10e198d7346028bf84fe"/>
@@ -3308,6 +3519,7 @@
 <keyword name="sizePointsOut_" id="IndexFileBuilder::sizePointsOut__a024e78cc244c2b663d78e442448d4811" ref="classIndexFileBuilder.html#a024e78cc244c2b663d78e442448d4811"/>
 <keyword name="skip(uint64_t nbyte)" id="ChunkFile::skip_ac9c3bd08c61121710290ca967865e3a8" ref="classChunkFile.html#ac9c3bd08c61121710290ca967865e3a8"/>
 <keyword name="skip(uint64_t nbyte)" id="File::skip_ae49bd82756282ac6e93c0ca00401267a" ref="classFile.html#ae49bd82756282ac6e93c0ca00401267a"/>
+<keyword name="slider_" id="RangeSliderWidget::slider__a9527a46490f9722512ec475220f7e4ed" ref="classRangeSliderWidget.html#a9527a46490f9722512ec475220f7e4ed"/>
 <keyword name="slider_" id="SliderWidget::slider__af78094cd45511e36029e3f0e9d394004" ref="classSliderWidget.html#af78094cd45511e36029e3f0e9d394004"/>
 <keyword name="SliderWidget()" id="SliderWidget::SliderWidget_aa076d00ccc775a8cfbe417c4abd9511b" ref="classSliderWidget.html#aa076d00ccc775a8cfbe417c4abd9511b"/>
 <keyword name="slotAbout()" id="HelpPlugin::slotAbout_ad8453a56526bcf6be764713bb94d0521" ref="classHelpPlugin.html#ad8453a56526bcf6be764713bb94d0521"/>
@@ -3315,7 +3527,9 @@
 <keyword name="slotAccept()" id="SegmentationWindow::slotAccept_a44c1c8d509dbc86c5d9bbb67419823c7" ref="classSegmentationWindow.html#a44c1c8d509dbc86c5d9bbb67419823c7"/>
 <keyword name="slotAdd()" id="ProjectNavigatorFiles::slotAdd_ae1794e67b9fc81704744df6d0421ec9e" ref="classProjectNavigatorFiles.html#ae1794e67b9fc81704744df6d0421ec9e"/>
 <keyword name="slotAdd()" id="ProjectNavigatorLayers::slotAdd_a5c9502a10de098c1ba5e398e874e7a5d" ref="classProjectNavigatorLayers.html#a5c9502a10de098c1ba5e398e874e7a5d"/>
-<keyword name="slotApply()" id="ClassifyGroundWindow::slotApply_ac4a2a98c64cdd1e7360da800749530c9" ref="classClassifyGroundWindow.html#ac4a2a98c64cdd1e7360da800749530c9"/>
+<keyword name="slotApply()" id="ClassificationWindow::slotApply_a9e1022b452fdc2ade14fd0fdd72360f5" ref="classClassificationWindow.html#a9e1022b452fdc2ade14fd0fdd72360f5"/>
+<keyword name="slotApply()" id="ElevationWindow::slotApply_a0993f2ac216e1c34008a0c71781ab753" ref="classElevationWindow.html#a0993f2ac216e1c34008a0c71781ab753"/>
+<keyword name="slotCurrentChanged(int index)" id="ProjectNavigatorWindow::slotCurrentChanged_a31ba5ace40859a69df3a05db60fe5737" ref="classProjectNavigatorWindow.html#a31ba5ace40859a69df3a05db60fe5737"/>
 <keyword name="slotDelete()" id="ProjectNavigatorFiles::slotDelete_a0870b1618571f79dafc0bf634332e897" ref="classProjectNavigatorFiles.html#a0870b1618571f79dafc0bf634332e897"/>
 <keyword name="slotDelete()" id="ProjectNavigatorLayers::slotDelete_a65390dd090bfdb0bca3b354cef5f78a5" ref="classProjectNavigatorLayers.html#a65390dd090bfdb0bca3b354cef5f78a5"/>
 <keyword name="slotFinalValue()" id="SliderWidget::slotFinalValue_a60369c77797277ae591f85ccaf620b3f" ref="classSliderWidget.html#a60369c77797277ae591f85ccaf620b3f"/>
@@ -3323,6 +3537,8 @@
 <keyword name="slotHide()" id="ProjectNavigatorFiles::slotHide_a64a8b709f7632ce41f31c683f6cebac5" ref="classProjectNavigatorFiles.html#a64a8b709f7632ce41f31c683f6cebac5"/>
 <keyword name="slotHide()" id="ProjectNavigatorLayers::slotHide_ae454fdb05bb8fcbabd2b075a16a676a4" ref="classProjectNavigatorLayers.html#ae454fdb05bb8fcbabd2b075a16a676a4"/>
 <keyword name="slotImport()" id="ImportPlugin::slotImport_af0c2a82a5c47ee5489e1b2816be70535" ref="classImportPlugin.html#af0c2a82a5c47ee5489e1b2816be70535"/>
+<keyword name="slotIntermediateMaximumValue(int v)" id="RangeSliderWidget::slotIntermediateMaximumValue_afab76c02842d77abe4320980d0ce2d09" ref="classRangeSliderWidget.html#afab76c02842d77abe4320980d0ce2d09"/>
+<keyword name="slotIntermediateMinimumValue(int v)" id="RangeSliderWidget::slotIntermediateMinimumValue_a38940379040da72dc30eded97f969195" ref="classRangeSliderWidget.html#a38940379040da72dc30eded97f969195"/>
 <keyword name="slotIntermediateValue(int v)" id="SliderWidget::slotIntermediateValue_aa723f762cdcbd38603ff5b3db12deb98" ref="classSliderWidget.html#aa723f762cdcbd38603ff5b3db12deb98"/>
 <keyword name="slotItemChanged(QTreeWidgetItem *item, int column)" id="ProjectNavigatorClassifications::slotItemChanged_a9ecddb7a92cb0722a044df70ae2cae4c" ref="classProjectNavigatorClassifications.html#a9ecddb7a92cb0722a044df70ae2cae4c"/>
 <keyword name="slotItemChanged(QTreeWidgetItem *item, int column)" id="ProjectNavigatorFiles::slotItemChanged_a2cce53d4aa56c79909b98bb12a04e1ef" ref="classProjectNavigatorFiles.html#a2cce53d4aa56c79909b98bb12a04e1ef"/>
@@ -3331,7 +3547,8 @@
 <keyword name="slotItemSelectionChanged()" id="ProjectNavigatorClassifications::slotItemSelectionChanged_a36ad4824ad9853b840e6d2b0a4f1e7fc" ref="classProjectNavigatorClassifications.html#a36ad4824ad9853b840e6d2b0a4f1e7fc"/>
 <keyword name="slotItemSelectionChanged()" id="ProjectNavigatorFiles::slotItemSelectionChanged_a091f77a18023a0830e8b06ac91062a2b" ref="classProjectNavigatorFiles.html#a091f77a18023a0830e8b06ac91062a2b"/>
 <keyword name="slotItemSelectionChanged()" id="ProjectNavigatorLayers::slotItemSelectionChanged_a0798d9c3eb470f330ab8ce8bed4f145a" ref="classProjectNavigatorLayers.html#a0798d9c3eb470f330ab8ce8bed4f145a"/>
-<keyword name="slotPlugin()" id="ClassifyGroundPlugin::slotPlugin_a38a82a4776e2ff57d180a6e26d6edd1d" ref="classClassifyGroundPlugin.html#a38a82a4776e2ff57d180a6e26d6edd1d"/>
+<keyword name="slotPlugin()" id="ClassificationPlugin::slotPlugin_ad8a1e46911f3e842044d08a4358dea4b" ref="classClassificationPlugin.html#ad8a1e46911f3e842044d08a4358dea4b"/>
+<keyword name="slotPlugin()" id="ElevationPlugin::slotPlugin_acf8b7eabae3d310b1864f1a9d09dc216" ref="classElevationPlugin.html#acf8b7eabae3d310b1864f1a9d09dc216"/>
 <keyword name="slotPlugin()" id="ProjectNavigatorPlugin::slotPlugin_a922580e9fad5d1e5f64090cb8671cddf" ref="classProjectNavigatorPlugin.html#a922580e9fad5d1e5f64090cb8671cddf"/>
 <keyword name="slotPlugin()" id="SegmentationPlugin::slotPlugin_a809a57743c4ce7d4bec2374c22e65900" ref="classSegmentationPlugin.html#a809a57743c4ce7d4bec2374c22e65900"/>
 <keyword name="slotPlugin()" id="SettingsPlugin::slotPlugin_abf0ea1f0ed0e9203fb2c8dc74da6f62d" ref="classSettingsPlugin.html#abf0ea1f0ed0e9203fb2c8dc74da6f62d"/>
@@ -3339,6 +3556,8 @@
 <keyword name="slotProjectOpen()" id="ProjectFilePlugin::slotProjectOpen_a2d174487204c90fac6599d144456d210" ref="classProjectFilePlugin.html#a2d174487204c90fac6599d144456d210"/>
 <keyword name="slotProjectSave()" id="ProjectFilePlugin::slotProjectSave_afd2066ebb1f4d34da85f176277d59986" ref="classProjectFilePlugin.html#afd2066ebb1f4d34da85f176277d59986"/>
 <keyword name="slotProjectSaveAs()" id="ProjectFilePlugin::slotProjectSaveAs_ac298259f037195ea56756cec751db89d" ref="classProjectFilePlugin.html#ac298259f037195ea56756cec751db89d"/>
+<keyword name="slotRangeIntermediateMaximumValue(int v)" id="ProjectNavigatorElevation::slotRangeIntermediateMaximumValue_a6b90c145ee757ab6b8c65aaca27db37b" ref="classProjectNavigatorElevation.html#a6b90c145ee757ab6b8c65aaca27db37b"/>
+<keyword name="slotRangeIntermediateMinimumValue(int v)" id="ProjectNavigatorElevation::slotRangeIntermediateMinimumValue_a6b298a0aed030f2beda41f7f1ed99802" ref="classProjectNavigatorElevation.html#a6b298a0aed030f2beda41f7f1ed99802"/>
 <keyword name="slotReject()" id="ImportDialog::slotReject_ab6d256240b424d74917b3ad8a4ed792a" ref="classImportDialog.html#ab6d256240b424d74917b3ad8a4ed792a"/>
 <keyword name="slotReject()" id="SegmentationWindow::slotReject_aaf4f56cae7031cf8bfa386ccabf893f1" ref="classSegmentationWindow.html#aaf4f56cae7031cf8bfa386ccabf893f1"/>
 <keyword name="slotRender()" id="MainWindow::slotRender_ab399feaee95b2330bd6ad0bbeaebcbe6" ref="classMainWindow.html#ab399feaee95b2330bd6ad0bbeaebcbe6"/>
@@ -3363,6 +3582,7 @@
 <keyword name="slotThread(bool finished, int progressPercent)" id="SegmentationWindow::slotThread_a7fdfab3c505670b9087767e97f144263" ref="classSegmentationWindow.html#a7fdfab3c505670b9087767e97f144263"/>
 <keyword name="slotThresholdFinalValue()" id="SegmentationWindow::slotThresholdFinalValue_a96322c89529341d13d107a4299cd9160" ref="classSegmentationWindow.html#a96322c89529341d13d107a4299cd9160"/>
 <keyword name="slotUpdate()" id="ProjectNavigatorClassifications::slotUpdate_a46febe0f05c08351767eca506e1fb96a" ref="classProjectNavigatorClassifications.html#a46febe0f05c08351767eca506e1fb96a"/>
+<keyword name="slotUpdate()" id="ProjectNavigatorElevation::slotUpdate_a97d58f52c03507388ceb2a68df6237d8" ref="classProjectNavigatorElevation.html#a97d58f52c03507388ceb2a68df6237d8"/>
 <keyword name="slotUpdate()" id="ProjectNavigatorFiles::slotUpdate_a415f0ef83323e43b50a47bc90cd3ab67" ref="classProjectNavigatorFiles.html#a415f0ef83323e43b50a47bc90cd3ab67"/>
 <keyword name="slotUpdate()" id="ProjectNavigatorLayers::slotUpdate_af82d0f51b2900760427ed507bbe5aff9" ref="classProjectNavigatorLayers.html#af82d0f51b2900760427ed507bbe5aff9"/>
 <keyword name="slotUpdate()" id="SettingsColorWidget::slotUpdate_a5d9b429784a68b6f3214571081b78dcf" ref="classSettingsColorWidget.html#a5d9b429784a68b6f3214571081b78dcf"/>
@@ -3391,11 +3611,10 @@
 <keyword name="stack_" id="Voxels::stack__a606f240b3d8e31d2c0fe0865ee0cadf0" ref="classVoxels.html#a606f240b3d8e31d2c0fe0865ee0cadf0"/>
 <keyword name="start()" id="Thread::start_a1f53ee62bd30a7924186ef26150ce262" ref="classThread.html#a1f53ee62bd30a7924186ef26150ce262"/>
 <keyword name="start(const std::string &amp;outputPath, const std::string &amp;inputPath, const IndexFileBuilder::Settings &amp;settings)" id="IndexFileBuilder::start_a3280a636f3d5ba198828cf7051c62135" ref="classIndexFileBuilder.html#a3280a636f3d5ba198828cf7051c62135"/>
-<keyword name="start(size_t pointsPerCell=10000, double cellLengthMinPercent=1., double groundErrorPercent=15., double angleDeg=60.)" id="ClassifyGround::start_ad63f9cad3f728ecc9697767b6d8e7948" ref="classClassifyGround.html#ad63f9cad3f728ecc9697767b6d8e7948"/>
+<keyword name="start(size_t pointsPerCell=10000, double cellLengthMinPercent=1., double groundErrorPercent=15., double angleDeg=60.)" id="Classification::start_a22706b00f6d712dd00dbf522faa5c027" ref="classClassification.html#a22706b00f6d712dd00dbf522faa5c027"/>
+<keyword name="start(size_t pointsPerCell=10000, double cellLengthMinPercent=1.)" id="Elevation::start_a8402fb56119316ad0a4a39e5f7221f0c" ref="classElevation.html#a8402fb56119316ad0a4a39e5f7221f0c"/>
 <keyword name="start(int voxelSize, int thresholdPercent)" id="SegmentationThread::start_a9d93bd0962b8e18991b4694bcb74c3e1" ref="classSegmentationThread.html#a9d93bd0962b8e18991b4694bcb74c3e1"/>
 <keyword name="start_" id="IndexFileBuilder::start__a81fc2fec806333a20ddc316fbd235feb" ref="classIndexFileBuilder.html#a81fc2fec806333a20ddc316fbd235feb"/>
-<keyword name="state" id="Voxels::Voxel::state_a16bb17a7cb9851c2f4f1558d2f245591" ref="structVoxels_1_1Voxel.html#a16bb17a7cb9851c2f4f1558d2f245591"/>
-<keyword name="state() const" id="Page::state_a924a92d92d7d9c1eb650cf8983169826" ref="classPage.html#a924a92d92d7d9c1eb650cf8983169826"/>
 <keyword name="State" id="Thread::State_af7ce7e2ee31f34185c4c25a94731977e" ref="classThread.html#af7ce7e2ee31f34185c4c25a94731977e"/>
 <keyword name="STATE_RUN" id="Thread::STATE_RUN_af7ce7e2ee31f34185c4c25a94731977ea73d334fd1ae218c0f1d2dc2080cb6f25" ref="classThread.html#af7ce7e2ee31f34185c4c25a94731977ea73d334fd1ae218c0f1d2dc2080cb6f25"/>
 <keyword name="STATE_CANCEL" id="Thread::STATE_CANCEL_af7ce7e2ee31f34185c4c25a94731977ea404395b07999996e809d062f7de10a3f" ref="classThread.html#af7ce7e2ee31f34185c4c25a94731977ea404395b07999996e809d062f7de10a3f"/>
@@ -3428,6 +3647,8 @@
 <keyword name="STATE_THRESHOLD" id="SegmentationThread::STATE_THRESHOLD_a2b488593f36eac816f4a13d7609993e4ad0225338b964474924602aa1c64d8036" ref="classSegmentationThread.html#a2b488593f36eac816f4a13d7609993e4ad0225338b964474924602aa1c64d8036"/>
 <keyword name="STATE_MERGE_CLUSTERS" id="SegmentationThread::STATE_MERGE_CLUSTERS_a2b488593f36eac816f4a13d7609993e4a0eb6f225b1e52e7d473b03d148a2d696" ref="classSegmentationThread.html#a2b488593f36eac816f4a13d7609993e4a0eb6f225b1e52e7d473b03d148a2d696"/>
 <keyword name="STATE_FINISHED" id="SegmentationThread::STATE_FINISHED_a2b488593f36eac816f4a13d7609993e4a18e3c5b4f1b0aab6f24eca09a101e3f4" ref="classSegmentationThread.html#a2b488593f36eac816f4a13d7609993e4a18e3c5b4f1b0aab6f24eca09a101e3f4"/>
+<keyword name="state" id="Voxels::Voxel::state_a16bb17a7cb9851c2f4f1558d2f245591" ref="structVoxels_1_1Voxel.html#a16bb17a7cb9851c2f4f1558d2f245591"/>
+<keyword name="state() const" id="Page::state_a924a92d92d7d9c1eb650cf8983169826" ref="classPage.html#a924a92d92d7d9c1eb650cf8983169826"/>
 <keyword name="state_" id="Thread::state__a3d4cc84fbd421732c4d148db43281b53" ref="classThread.html#a3d4cc84fbd421732c4d148db43281b53"/>
 <keyword name="state_" id="IndexFileBuilder::state__af059ebfc9d78f1511e3c90008e3556d7" ref="classIndexFileBuilder.html#af059ebfc9d78f1511e3c90008e3556d7"/>
 <keyword name="state_" id="Page::state__a24e637d52c3d3d95ed172647a66f2896" ref="classPage.html#a24e637d52c3d3d95ed172647a66f2896"/>
@@ -3474,7 +3695,8 @@
 <keyword name="stateNodeInsert()" id="IndexFileBuilder::stateNodeInsert_aa2f10cf0750d736387b1287fa44b83e2" ref="classIndexFileBuilder.html#aa2f10cf0750d736387b1287fa44b83e2"/>
 <keyword name="status() const" id="ChunkFile::status_a2eaf343a0aea445734fc42800590f5e3" ref="classChunkFile.html#a2eaf343a0aea445734fc42800590f5e3"/>
 <keyword name="statusProgressBar_" id="MainWindow::statusProgressBar__a5f91991cb17aae871bcb2f45e3dc6c54" ref="classMainWindow.html#a5f91991cb17aae871bcb2f45e3dc6c54"/>
-<keyword name="step()" id="ClassifyGround::step_ae8527a2a91a37be5ea4c75b7e077db0b" ref="classClassifyGround.html#ae8527a2a91a37be5ea4c75b7e077db0b"/>
+<keyword name="step()" id="Classification::step_a650850cfd76e7c60c2c2ebb5393deeb1" ref="classClassification.html#a650850cfd76e7c60c2c2ebb5393deeb1"/>
+<keyword name="step()" id="Elevation::step_a34cdf7eb5261fb22ee54d7c30cc46df4" ref="classElevation.html#a34cdf7eb5261fb22ee54d7c30cc46df4"/>
 <keyword name="step_" id="IndexFileBuilder::step__a0575898e6a01d2608b4102ee78a25067" ref="classIndexFileBuilder.html#a0575898e6a01d2608b4102ee78a25067"/>
 <keyword name="stop()" id="Thread::stop_abd50159ecd409936f454c2321f673616" ref="classThread.html#abd50159ecd409936f454c2321f673616"/>
 <keyword name="string" id="Json::Data::string_a2480aa158afd74360c58d0903cb57264" ref="classJson_1_1Data.html#a2480aa158afd74360c58d0903cb57264"/>
@@ -3589,7 +3811,7 @@
 <keyword name="userData_" id="Query::userData__a821e87e067c7cc1370658f55f21e0227" ref="classQuery.html#a821e87e067c7cc1370658f55f21e0227"/>
 <keyword name="userGreen()" id="Query::userGreen_a7a3de73294fdb52106d4da1afc5bfe11" ref="classQuery.html#a7a3de73294fdb52106d4da1afc5bfe11"/>
 <keyword name="userRed()" id="Query::userRed_ad460135843b3f1aa80dc9ca9a3cdbc8b" ref="classQuery.html#ad460135843b3f1aa80dc9ca9a3cdbc8b"/>
-<keyword name="V" id="ClassifyGround::V_a72b71f10e8456b054c8f7713d2ab8203" ref="classClassifyGround.html#a72b71f10e8456b054c8f7713d2ab8203"/>
+<keyword name="V" id="Elevation::V_a23f44220861f7369631a6a2fb8b04b88" ref="classElevation.html#a23f44220861f7369631a6a2fb8b04b88"/>
 <keyword name="V" id="SegmentationPca::V_ae0694d43f823d1e8056a6ce517dc04c5" ref="classSegmentationPca.html#ae0694d43f823d1e8056a6ce517dc04c5"/>
 <keyword name="valid_" id="ViewerAabb::valid__a9e545b8e0f69a6334c3c2c134bae58a2" ref="classViewerAabb.html#a9e545b8e0f69a6334c3c2c134bae58a2"/>
 <keyword name="validate()" id="Box::validate_ae6d792cb0c22ffd4bc2572e320227b87" ref="classBox.html#ae6d792cb0c22ffd4bc2572e320227b87"/>
@@ -3603,6 +3825,10 @@
 <keyword name="value_" id="IndexFileBuilder::value__a49d4c32ddfcbc0430e3c753178e7e90b" ref="classIndexFileBuilder.html#a49d4c32ddfcbc0430e3c753178e7e90b"/>
 <keyword name="valueIdx_" id="IndexFileBuilder::valueIdx__aa8f6f6b5c6c35fdeb30798064216a1e2" ref="classIndexFileBuilder.html#aa8f6f6b5c6c35fdeb30798064216a1e2"/>
 <keyword name="valueTotal_" id="IndexFileBuilder::valueTotal__a44806376fe0528af33ba9fd15d53023f" ref="classIndexFileBuilder.html#a44806376fe0528af33ba9fd15d53023f"/>
+<keyword name="Vector2()" id="Vector2::Vector2_ae2f1223cb0d664aa73afb789086a4174" ref="classVector2.html#ae2f1223cb0d664aa73afb789086a4174"/>
+<keyword name="Vector2(T v0, T v1)" id="Vector2::Vector2_ac264220fb4d7a1eba06d69ed80ba4117" ref="classVector2.html#ac264220fb4d7a1eba06d69ed80ba4117"/>
+<keyword name="Vector2(uint32_t v16)" id="Vector2::Vector2_ad738f596f321c468e22dd8bf9a315ba3" ref="classVector2.html#ad738f596f321c468e22dd8bf9a315ba3"/>
+<keyword name="Vector2(const Vector2&lt; B &gt; &amp;v)" id="Vector2::Vector2_a4505923aadccfec514b747063b0e80cc" ref="classVector2.html#a4505923aadccfec514b747063b0e80cc"/>
 <keyword name="Vector3()" id="Vector3::Vector3_a54f99f4211298d5245ea578bdd5143cc" ref="classVector3.html#a54f99f4211298d5245ea578bdd5143cc"/>
 <keyword name="Vector3(T v0, T v1, T v2)" id="Vector3::Vector3_a8ed0fa42d6b8ce876140de122a3fd068" ref="classVector3.html#a8ed0fa42d6b8ce876140de122a3fd068"/>
 <keyword name="Vector3(uint32_t v24)" id="Vector3::Vector3_ae202bc0d70533c3f278d6bacead29358" ref="classVector3.html#ae202bc0d70533c3f278d6bacead29358"/>
@@ -3669,7 +3895,8 @@
 <keyword name="wave_z" id="LasFile::Point::wave_z_adda5692e9330efaa44227d060a74a57b" ref="structLasFile_1_1Point.html#adda5692e9330efaa44227d060a74a57b"/>
 <keyword name="wheelEvent(QWheelEvent *event)" id="ViewerCamera::wheelEvent_ab0f28902b8973a78ef56b10b267e2c4d" ref="classViewerCamera.html#ab0f28902b8973a78ef56b10b267e2c4d"/>
 <keyword name="wheelEvent(QWheelEvent *event) override" id="ViewerOpenGLViewport::wheelEvent_aa131fb9d9067a83a4b4e5b063406a50c" ref="classViewerOpenGLViewport.html#aa131fb9d9067a83a4b4e5b063406a50c"/>
-<keyword name="widget_" id="ClassifyGroundWindow::widget__a43b4c813825a1716d185c19b19cb0320" ref="classClassifyGroundWindow.html#a43b4c813825a1716d185c19b19cb0320"/>
+<keyword name="widget_" id="ClassificationWindow::widget__a687b23e6d858cfbd6dacb96e64a1ddfa" ref="classClassificationWindow.html#a687b23e6d858cfbd6dacb96e64a1ddfa"/>
+<keyword name="widget_" id="ElevationWindow::widget__ad144b96f2f1d7abde328282ce4be39d4" ref="classElevationWindow.html#ad144b96f2f1d7abde328282ce4be39d4"/>
 <keyword name="width() const" id="ViewerCamera::width_a331e348393e85e68892335b772422841" ref="classViewerCamera.html#a331e348393e85e68892335b772422841"/>
 <keyword name="WindowsXp32" id="ColorPalette::WindowsXp32_aad9c6c41b53e1280ec8d25425b82e00a" ref="classColorPalette.html#aad9c6c41b53e1280ec8d25425b82e00a"/>
 <keyword name="windowViewports_" id="ViewerOpenGLViewport::windowViewports__a6ef9aeeeda133f49800649c2fded631c" ref="classViewerOpenGLViewport.html#a6ef9aeeeda133f49800649c2fded631c"/>
@@ -3683,6 +3910,8 @@
 <keyword name="write(const std::string &amp;path, const std::string &amp;data)" id="File::write_ab0291d41ad8fd132dea57528ce356256" ref="classFile.html#ab0291d41ad8fd132dea57528ce356256"/>
 <keyword name="write(int fd, const uint8_t *buffer, uint64_t nbyte)" id="File::write_a5a5d7ed271101b21155b977b7d5098f0" ref="classFile.html#a5a5d7ed271101b21155b977b7d5098f0"/>
 <keyword name="write(const std::string &amp;fileName, size_t indent=DEFAULT_INDENT)" id="Json::write_a54144044e308a8bd5aeee392894cfd77" ref="classJson.html#a54144044e308a8bd5aeee392894cfd77"/>
+<keyword name="write(Json &amp;out) const" id="Range::write_a87bf0098a9bb07bf6bf24c35325b6c98" ref="classRange.html#a87bf0098a9bb07bf6bf24c35325b6c98"/>
+<keyword name="write(Json &amp;out) const" id="Vector2::write_a5b5f4000a74578a2a3a7ff1201b58a9c" ref="classVector2.html#a5b5f4000a74578a2a3a7ff1201b58a9c"/>
 <keyword name="write(Json &amp;out) const" id="Vector3::write_a667066c90f575fb9c29b67fc0fbfafd1" ref="classVector3.html#a667066c90f575fb9c29b67fc0fbfafd1"/>
 <keyword name="write(Json &amp;out) const" id="Classifications::write_ace1b3b2e4026ee45e1fb31d3bbb2ce40" ref="classClassifications.html#ace1b3b2e4026ee45e1fb31d3bbb2ce40"/>
 <keyword name="write(Json &amp;out) const" id="Dataset::write_a416ec3102c365b61050045222ba4e09a" ref="classDataset.html#a416ec3102c365b61050045222ba4e09a"/>
@@ -3700,6 +3929,7 @@
 <keyword name="write(Json &amp;out) const" id="Settings::write_a75aefe39713e382b73fb559215a61d5c" ref="classSettings.html#a75aefe39713e382b73fb559215a61d5c"/>
 <keyword name="write(Json &amp;out) const" id="SettingsView::write_a2c790342739cc1f1e7fd52bca48e3e0d" ref="classSettingsView.html#a2c790342739cc1f1e7fd52bca48e3e0d"/>
 <keyword name="write(Json &amp;out) const" id="Box&lt; double &gt;::write_a03c20503e9a343a19becad41878e853e" ref="classBox.html#a03c20503e9a343a19becad41878e853e"/>
+<keyword name="write(Json &amp;out) const" id="Range&lt; double &gt;::write_a87bf0098a9bb07bf6bf24c35325b6c98" ref="classRange.html#a87bf0098a9bb07bf6bf24c35325b6c98"/>
 <keyword name="write(Json &amp;out) const" id="Vector3&lt; float &gt;::write_a667066c90f575fb9c29b67fc0fbfafd1" ref="classVector3.html#a667066c90f575fb9c29b67fc0fbfafd1"/>
 <keyword name="write(Json &amp;out) const" id="Vector3&lt; double &gt;::write_a667066c90f575fb9c29b67fc0fbfafd1" ref="classVector3.html#a667066c90f575fb9c29b67fc0fbfafd1"/>
 <keyword name="writeHeader()" id="LasFile::writeHeader_a3a5baca5c7f1cad307adb31676f7cf77" ref="classLasFile.html#a3a5baca5c7f1cad307adb31676f7cf77"/>
@@ -3716,7 +3946,7 @@
 <keyword name="x_" id="Sphere&lt; double &gt;::x__addfe51a03aa4e751f7bdd246121ae1fa" ref="classSphere.html#addfe51a03aa4e751f7bdd246121ae1fa"/>
 <keyword name="x_offset" id="LasFile::Header::x_offset_ae7e9ddc9666ac1b9f1bf2592910c4348" ref="structLasFile_1_1Header.html#ae7e9ddc9666ac1b9f1bf2592910c4348"/>
 <keyword name="x_scale_factor" id="LasFile::Header::x_scale_factor_a1499a5e12615e3f162085d5a28f67aa3" ref="structLasFile_1_1Header.html#a1499a5e12615e3f162085d5a28f67aa3"/>
-<keyword name="XY" id="ClassifyGround::XY_a147989c82e76d05e40a611016b9d4411" ref="classClassifyGround.html#a147989c82e76d05e40a611016b9d4411"/>
+<keyword name="XY" id="Elevation::XY_a6aba79df5f234a4d70559fb743e67652" ref="classElevation.html#a6aba79df5f234a4d70559fb743e67652"/>
 <keyword name="y" id="LasFile::Point::y_a7f7ab5cf4781ecdb33d466d0078d0078" ref="structLasFile_1_1Point.html#a7f7ab5cf4781ecdb33d466d0078d0078"/>
 <keyword name="y" id="Voxels::Voxel::y_a10b94fbf36d85bbc6ff8f57507f46f1c" ref="structVoxels_1_1Voxel.html#a10b94fbf36d85bbc6ff8f57507f46f1c"/>
 <keyword name="y()" id="Query::y_ad935d2c943ebd8f661fe11d6351732a5" ref="classQuery.html#ad935d2c943ebd8f661fe11d6351732a5"/>
@@ -3744,10 +3974,11 @@
 <keyword name="~Box()" id="Box&lt; double &gt;::~Box_a31e16375a5a7dd5c381785ae4a8027e6" ref="classBox.html#a31e16375a5a7dd5c381785ae4a8027e6"/>
 <keyword name="~Camera()" id="Camera::~Camera_ad1897942d0ccf91052386388a497349f" ref="classCamera.html#ad1897942d0ccf91052386388a497349f"/>
 <keyword name="~ChunkFile()" id="ChunkFile::~ChunkFile_acd9ed9b3e3f2bc98beed36fdfcc41a24" ref="classChunkFile.html#acd9ed9b3e3f2bc98beed36fdfcc41a24"/>
-<keyword name="~ClassifyGround()" id="ClassifyGround::~ClassifyGround_ada0403f0ad56ee58c8f761242f143463" ref="classClassifyGround.html#ada0403f0ad56ee58c8f761242f143463"/>
+<keyword name="~Classification()" id="Classification::~Classification_a10208d1e2f7621a174a85d259f776705" ref="classClassification.html#a10208d1e2f7621a174a85d259f776705"/>
 <keyword name="~Cone()" id="Cone::~Cone_a09358e5d0825905007ca9f6dab5b48aa" ref="classCone.html#a09358e5d0825905007ca9f6dab5b48aa"/>
 <keyword name="~Cone()" id="Cone&lt; double &gt;::~Cone_a09358e5d0825905007ca9f6dab5b48aa" ref="classCone.html#a09358e5d0825905007ca9f6dab5b48aa"/>
 <keyword name="~Editor()" id="Editor::~Editor_ad465abc9575af92b4fa61525085172d6" ref="classEditor.html#ad465abc9575af92b4fa61525085172d6"/>
+<keyword name="~Elevation()" id="Elevation::~Elevation_ab94ce7cdca70338fbe0be1e0f3108a1d" ref="classElevation.html#ab94ce7cdca70338fbe0be1e0f3108a1d"/>
 <keyword name="~File()" id="File::~File_ac704ebdf5f57d7a1c5ddf409d797fb69" ref="classFile.html#ac704ebdf5f57d7a1c5ddf409d797fb69"/>
 <keyword name="~IndexFile()" id="IndexFile::~IndexFile_a0a8a8d6efa22a5a41dc36a46bf3df131" ref="classIndexFile.html#a0a8a8d6efa22a5a41dc36a46bf3df131"/>
 <keyword name="~IndexFileBuilder()" id="IndexFileBuilder::~IndexFileBuilder_a48ba20a8cb7f284cf957b6de935f9abb" ref="classIndexFileBuilder.html#a48ba20a8cb7f284cf957b6de935f9abb"/>
@@ -3759,6 +3990,8 @@
 <keyword name="~Page()" id="Page::~Page_a2341fff1cc032ab6528874175e7dd841" ref="classPage.html#a2341fff1cc032ab6528874175e7dd841"/>
 <keyword name="~PluginInterface()=default" id="PluginInterface::~PluginInterface_a760046616d22d730c341e1cc974571cd" ref="classPluginInterface.html#a760046616d22d730c341e1cc974571cd"/>
 <keyword name="~Query()" id="Query::~Query_aad0c964335e9809cc7e22af34e9e8410" ref="classQuery.html#aad0c964335e9809cc7e22af34e9e8410"/>
+<keyword name="~Range()" id="Range::~Range_a9e6f4eb88b15c2aa15c4678789e4f7b0" ref="classRange.html#a9e6f4eb88b15c2aa15c4678789e4f7b0"/>
+<keyword name="~Range()" id="Range&lt; double &gt;::~Range_a9e6f4eb88b15c2aa15c4678789e4f7b0" ref="classRange.html#a9e6f4eb88b15c2aa15c4678789e4f7b0"/>
 <keyword name="~Region()" id="Region::~Region_a3c3670fff78f7511d156e3b2f0bc6266" ref="classRegion.html#a3c3670fff78f7511d156e3b2f0bc6266"/>
 <keyword name="~SegmentationThread()" id="SegmentationThread::~SegmentationThread_a3f8e826a615355c7ee2abb76601d2deb" ref="classSegmentationThread.html#a3f8e826a615355c7ee2abb76601d2deb"/>
 <keyword name="~SegmentationWindow()" id="SegmentationWindow::~SegmentationWindow_a4e5a757bba757a924a9cf5ce87858181" ref="classSegmentationWindow.html#a4e5a757bba757a924a9cf5ce87858181"/>
@@ -3790,16 +4023,16 @@
 <file>classCamera.html</file>
 <file>classChunkFile-members.html</file>
 <file>classChunkFile.html</file>
+<file>classClass-members.html</file>
+<file>classClass.html</file>
 <file>classClassification-members.html</file>
 <file>classClassification.html</file>
+<file>classClassificationPlugin-members.html</file>
+<file>classClassificationPlugin.html</file>
+<file>classClassificationWindow-members.html</file>
+<file>classClassificationWindow.html</file>
 <file>classClassifications-members.html</file>
 <file>classClassifications.html</file>
-<file>classClassifyGround-members.html</file>
-<file>classClassifyGround.html</file>
-<file>classClassifyGroundPlugin-members.html</file>
-<file>classClassifyGroundPlugin.html</file>
-<file>classClassifyGroundWindow-members.html</file>
-<file>classClassifyGroundWindow.html</file>
 <file>classColorPalette-members.html</file>
 <file>classColorPalette.html</file>
 <file>classCone-members.html</file>
@@ -3810,6 +4043,12 @@
 <file>classDatasets.html</file>
 <file>classEditor-members.html</file>
 <file>classEditor.html</file>
+<file>classElevation-members.html</file>
+<file>classElevation.html</file>
+<file>classElevationPlugin-members.html</file>
+<file>classElevationPlugin.html</file>
+<file>classElevationWindow-members.html</file>
+<file>classElevationWindow.html</file>
 <file>classFile-members.html</file>
 <file>classFile.html</file>
 <file>classHelpPlugin-members.html</file>
@@ -3849,6 +4088,8 @@
 <file>classProjectFilePlugin.html</file>
 <file>classProjectNavigatorClassifications-members.html</file>
 <file>classProjectNavigatorClassifications.html</file>
+<file>classProjectNavigatorElevation-members.html</file>
+<file>classProjectNavigatorElevation.html</file>
 <file>classProjectNavigatorFiles-members.html</file>
 <file>classProjectNavigatorFiles.html</file>
 <file>classProjectNavigatorLayers-members.html</file>
@@ -3859,6 +4100,10 @@
 <file>classProjectNavigatorWindow.html</file>
 <file>classQuery-members.html</file>
 <file>classQuery.html</file>
+<file>classRange-members.html</file>
+<file>classRange.html</file>
+<file>classRangeSliderWidget-members.html</file>
+<file>classRangeSliderWidget.html</file>
 <file>classRegion-members.html</file>
 <file>classRegion.html</file>
 <file>classRenderThread-members.html</file>
@@ -3893,6 +4138,8 @@
 <file>classThread.html</file>
 <file>classThreadCallbackInterface-members.html</file>
 <file>classThreadCallbackInterface.html</file>
+<file>classVector2-members.html</file>
+<file>classVector2.html</file>
 <file>classVector3-members.html</file>
 <file>classVector3.html</file>
 <file>classViewerAabb-members.html</file>
@@ -3913,6 +4160,7 @@
 <file>classVoxels.html</file>
 <file>classes.html</file>
 <file>closed.png</file>
+<file>dir_0c8aced82964155205bddd15d19bb770.html</file>
 <file>dir_0f882cb75be93feeddb1b229d2e04e3e.html</file>
 <file>dir_380b845d13835543a9a5e324419d47b9.html</file>
 <file>dir_53adf0b982dc8545998aae3f283a5a58.html</file>
@@ -3921,7 +4169,6 @@
 <file>dir_68267d1309a1af8e8297ef4c3efbcdba.html</file>
 <file>dir_6b30eb0707077de049b3762538f9b3c9.html</file>
 <file>dir_7020b8b7abcceffa3f9f7a2d24718f16.html</file>
-<file>dir_732913403a7ef0d5674e81a57f89199b.html</file>
 <file>dir_82d0bdd1b23ff3b9d78b346abb730351.html</file>
 <file>dir_89c8dc4f5d023b011dbd89111b88e07f.html</file>
 <file>dir_99d0482cf009f9d97a0877749b817f19.html</file>
@@ -3931,6 +4178,7 @@
 <file>dir_d4c54a4f1a120dfcc21a28c191f90d65.html</file>
 <file>dir_e67f52d64bf46b89167a731718165438.html</file>
 <file>dir_e68e8157741866f444e17edd764ebbae.html</file>
+<file>dir_f47b705de65d151d6a49496b3eb658a0.html</file>
 <file>doc.png</file>
 <file>doxygen.css</file>
 <file>doxygen.svg</file>

@@ -10,6 +10,7 @@ var classViewports =
     [ "selectBox", "classViewports.html#aff44e2987baff2c163704ae6249a0f16", null ],
     [ "selectCamera", "classViewports.html#a98e1a4e99b2af633f26d32f7c53f3f4f", null ],
     [ "selectClassifications", "classViewports.html#af82f1629f09754c69bd8e549379e4f3f", null ],
+    [ "selectElevationRange", "classViewports.html#abf5b3de5992a74d2c9c9e267dfa6f485", null ],
     [ "selectLayers", "classViewports.html#ae9873f342df51f5962093e45640e3316", null ],
     [ "setState", "classViewports.html#a8b24a5282082152ab62faebc3c87d11f", null ],
     [ "viewports_", "classViewports.html#a3574e0d328a1ba3a525b6e641e333f55", null ]

@@ -17,6 +17,5 @@ var classChunkFile =
     [ "validate", "classChunkFile.html#a9f1b4b91acd806bfb1a5ef1f208e3035", null ],
     [ "write", "classChunkFile.html#aa760b32f0e8bf05b90e9e2a72a7ada26", null ],
     [ "write", "classChunkFile.html#af5b13c13d369e2e3e42d4e88b6e8d096", null ],
-    [ "CHUNK_HEADER_SIZE", "classChunkFile.html#a71ff8da062f1454a236404ab1d7ab790", null ],
     [ "file_", "classChunkFile.html#aeb986e42b8f608d030a86d0a60e529c3", null ]
 ];
