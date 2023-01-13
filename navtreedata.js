@@ -99,13 +99,15 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "3d-forest-developer-guide.html",
-"classDatasets.html#acae4451daa86ab361d69fb26d0259822",
-"classIndexFileBuilder.html#aa4f0923c9206d5b709abd4ccc28ae904",
-"classMatrix4.html#a2f653e636e0cbe095e8176c532f8b96a",
-"classQuery.html#a37fa88cf5e86d051724338884fa2b828",
-"classSettingsPlugin.html#aced82b5833ebbfd24d09a88bef46c3e1",
-"classViewerOpenGLViewport.html#a1797ab3e2311064f3287e90327147aa3",
-"structIndexFile_1_1SelectionTile.html#a71649180951379f8b0f0253ec1081920"
+"classDatasets.html#a9a0dda7a56827b732a8c3298749c4c04",
+"classExportFileDialog.html#acd72fcb7d8937643bfb783e8d5ecba30",
+"classIndexFileBuilder.html#a4e47dd0050965ab6df680b7f3a9de815",
+"classLogThread.html#affed7e1b2bfed266f380159a803da5c8",
+"classProjectNavigatorItemClassifications.html#acf073c5f3e593ef9e6871401eff7ce8b",
+"classQuery.html#a7e11ffea099daae843ed4244ba14b14b",
+"classSegmentationThread.html#a9c37df75e73dbf7118a6540694b0e856",
+"classVector3.html#ae78c22f637866f014d0d7112aabf6d0d",
+"classVoxels.html#a445ca78892024b9e4eb2e82961597772"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

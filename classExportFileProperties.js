@@ -1,0 +1,28 @@
+var classExportFileProperties =
+[
+    [ "ExportFileProperties", "classExportFileProperties.html#ab09c2a8229655e37a9aab2e948846d69", null ],
+    [ "~ExportFileProperties", "classExportFileProperties.html#a719f4d1c7002a12a4ccdee6a012b7f70", null ],
+    [ "clear", "classExportFileProperties.html#a8c826ad24f92bc052a276f11d5a5b245", null ],
+    [ "fileName", "classExportFileProperties.html#a457d753128e19006ebba9e3be6f2ccba", null ],
+    [ "format", "classExportFileProperties.html#acd4c254e8dc43e7ff53d96c9fc5087bf", null ],
+    [ "isFilterEnabled", "classExportFileProperties.html#a4e9700ce2ef4ad1bedfef3f5a2013e82", null ],
+    [ "numberOfPoints", "classExportFileProperties.html#a43ebd66f10a52b26c39e5ce5c225fccc", null ],
+    [ "offset", "classExportFileProperties.html#a5aee63bddc59b5d7a63fcf376b418e71", null ],
+    [ "region", "classExportFileProperties.html#ae05593b58e9bb2381fd8c69346a0e48e", null ],
+    [ "scale", "classExportFileProperties.html#aa33c2a24e03954677dd24c43748c309f", null ],
+    [ "setFileName", "classExportFileProperties.html#aa3d6c688d86d8d574cd340c203b4d685", null ],
+    [ "setFilterEnabled", "classExportFileProperties.html#a5b4ca74625f974ef346d58028d64cf82", null ],
+    [ "setFormat", "classExportFileProperties.html#ae831166727400b10938204247f51574f", null ],
+    [ "setNumberOfPoints", "classExportFileProperties.html#aad77bdd9caf54e3742c88f70d358e829", null ],
+    [ "setOffset", "classExportFileProperties.html#acfed4d4124a3121ecfeed160b7e57118", null ],
+    [ "setRegion", "classExportFileProperties.html#a46294d01e22ebc661185ed9bceee9055", null ],
+    [ "setScale", "classExportFileProperties.html#a917f3f58d42949910afb80710643a772", null ],
+    [ "setScale", "classExportFileProperties.html#a4b5dd7a7a358db158fcc45fb0466f568", null ],
+    [ "fileName_", "classExportFileProperties.html#ad36d1dfb4bab7977220b1ceb859a3139", null ],
+    [ "filterEnabled_", "classExportFileProperties.html#a31c869a7467305afa64cc99b7dd4ff84", null ],
+    [ "format_", "classExportFileProperties.html#abe1ed305e3ccf7d5e4da42547a3ffb89", null ],
+    [ "numberOfPoints_", "classExportFileProperties.html#a99431e159efba0b73ea9b2369289420e", null ],
+    [ "offset_", "classExportFileProperties.html#a5d7b7442ad7d8f74fb47ae5a9c55d55e", null ],
+    [ "region_", "classExportFileProperties.html#a0227980e0b55e16f73bf9286d91533e8", null ],
+    [ "scale_", "classExportFileProperties.html#a1e2a676226d433b2c12056bed4c30d42", null ]
+];

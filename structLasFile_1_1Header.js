@@ -9,6 +9,7 @@ var structLasFile_1_1Header =
     [ "pointDataRecordLengthFormat", "structLasFile_1_1Header.html#a98b060e32be1a43770aeb1b7d53f9b97", null ],
     [ "pointDataRecordLengthUser", "structLasFile_1_1Header.html#aa4172c3cd70d84929e796106460f2cc3", null ],
     [ "pointDataSize", "structLasFile_1_1Header.html#a7c7ec1d1384668349bc102ed02df55a1", null ],
+    [ "set", "structLasFile_1_1Header.html#afdd60d10aeff31922cd598e16cb2bd27", null ],
     [ "setGeneratingSoftware", "structLasFile_1_1Header.html#aad0a47be63f7ba11c86580f264a2353b", null ],
     [ "subOffsetEvlr", "structLasFile_1_1Header.html#a61472b0d3e9acd62750ee17af8a18870", null ],
     [ "subOffsetWdpr", "structLasFile_1_1Header.html#aa7da0e0ce5ce5d975944f793838d7bd1", null ],

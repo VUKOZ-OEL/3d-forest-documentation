@@ -53,10 +53,10 @@ $(document).ready(function(){initNavTree('classVoxels.html',''); initResizable()
 <div id="doc-content">
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classVoxels-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Voxels Class Reference</div></div>
 </div><!--header-->
@@ -64,71 +64,109 @@ $(document).ready(function(){initNavTree('classVoxels.html',''); initResizable()
 
 <p><code>#include &lt;Voxels.hpp&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structVoxels_1_1Voxel.html">Voxel</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a10063cfcf5a4fd91e520a4dcbb3eb80c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a10063cfcf5a4fd91e520a4dcbb3eb80c">Voxels</a> ()</td></tr>
 <tr class="separator:a10063cfcf5a4fd91e520a4dcbb3eb80c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0d991f4e4247ca866cb4a04ceb51d31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#af0d991f4e4247ca866cb4a04ceb51d31">clear</a> ()</td></tr>
 <tr class="separator:af0d991f4e4247ca866cb4a04ceb51d31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12f61412517408f6747837ef088c7ea7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a12f61412517408f6747837ef088c7ea7">create</a> (const <a class="el" href="classBox.html">Box</a>&lt; double &gt; &amp;spaceRegion, double voxelSize)</td></tr>
+<tr class="memitem:a12f61412517408f6747837ef088c7ea7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a12f61412517408f6747837ef088c7ea7">create</a> (const <a class="el" href="classBox.html">Box</a>&lt; double &gt; &amp;<a class="el" href="classVoxels.html#afd6e8d1eb2d42a2d640a749b7580b547">spaceRegion</a>, double <a class="el" href="classVoxels.html#a7ce2c1d96adeebcb0b77919f80aa3fe6">voxelSize</a>)</td></tr>
 <tr class="separator:a12f61412517408f6747837ef088c7ea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd6e8d1eb2d42a2d640a749b7580b547"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classBox.html">Box</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#afd6e8d1eb2d42a2d640a749b7580b547">spaceRegion</a> () const</td></tr>
+<tr class="separator:afd6e8d1eb2d42a2d640a749b7580b547"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ce2c1d96adeebcb0b77919f80aa3fe6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classVector3.html">Vector3</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a7ce2c1d96adeebcb0b77919f80aa3fe6">voxelSize</a> () const</td></tr>
+<tr class="separator:a7ce2c1d96adeebcb0b77919f80aa3fe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af202721b43007c0bb5d2f1ced64e6797"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#af202721b43007c0bb5d2f1ced64e6797">next</a> (<a class="el" href="classVoxel.html">Voxel</a> *voxel, <a class="el" href="classBox.html">Box</a>&lt; double &gt; *cell=nullptr, <a class="el" href="classQuery.html">Query</a> *query=nullptr)</td></tr>
+<tr class="separator:af202721b43007c0bb5d2f1ced64e6797"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ade03599a056a9aef3d1c73d28768ce"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a8ade03599a056a9aef3d1c73d28768ce">visitedVoxelsCount</a> () const</td></tr>
+<tr class="separator:a8ade03599a056a9aef3d1c73d28768ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4153e26aa9597b9a56c93b82578c68b"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#af4153e26aa9597b9a56c93b82578c68b">size</a> () const</td></tr>
 <tr class="separator:af4153e26aa9597b9a56c93b82578c68b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38e92206357ac01e5c447504e4a33ea3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a38e92206357ac01e5c447504e4a33ea3">next</a> (<a class="el" href="classBox.html">Box</a>&lt; double &gt; *cell=nullptr, size_t *index=nullptr, size_t *x=nullptr, size_t *y=nullptr, size_t *z=nullptr)</td></tr>
-<tr class="separator:a38e92206357ac01e5c447504e4a33ea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4dde7f2e5ec6fae4253fe98e3bd1e28"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structVoxels_1_1Voxel.html">Voxel</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#ad4dde7f2e5ec6fae4253fe98e3bd1e28">data</a> () const</td></tr>
-<tr class="separator:ad4dde7f2e5ec6fae4253fe98e3bd1e28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a751981baecdb0637cf4130c5f2ade60d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structVoxels_1_1Voxel.html">Voxel</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a751981baecdb0637cf4130c5f2ade60d">at</a> (size_t x, size_t y, size_t z) const</td></tr>
-<tr class="separator:a751981baecdb0637cf4130c5f2ade60d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a3d8c94d0d74415e7e4a9870207a936"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structVoxels_1_1Voxel.html">Voxel</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a4a3d8c94d0d74415e7e4a9870207a936">at</a> (size_t x, size_t y, size_t z)</td></tr>
-<tr class="separator:a4a3d8c94d0d74415e7e4a9870207a936"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afff1b402be1110ffd8d5a14399a0e8bb"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structVoxels_1_1Voxel.html">Voxel</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#afff1b402be1110ffd8d5a14399a0e8bb">at</a> (size_t index) const</td></tr>
-<tr class="separator:afff1b402be1110ffd8d5a14399a0e8bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4de99427a7809aa8a23b28c37ebab0e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structVoxels_1_1Voxel.html">Voxel</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a4de99427a7809aa8a23b28c37ebab0e8">at</a> (size_t index)</td></tr>
+<tr class="memitem:af7494c2d91a695ed23aa264d54abe197"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#af7494c2d91a695ed23aa264d54abe197">addVoxel</a> (const <a class="el" href="classVoxel.html">Voxel</a> &amp;voxel)</td></tr>
+<tr class="separator:af7494c2d91a695ed23aa264d54abe197"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4de99427a7809aa8a23b28c37ebab0e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classVoxel.html">Voxel</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a4de99427a7809aa8a23b28c37ebab0e8">at</a> (size_t index)</td></tr>
 <tr class="separator:a4de99427a7809aa8a23b28c37ebab0e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a359b503aa65c066f4c5a9d918fee0b55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a359b503aa65c066f4c5a9d918fee0b55">addOccupied</a> (size_t index)</td></tr>
-<tr class="separator:a359b503aa65c066f4c5a9d918fee0b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4610b8fa3cb57ea9e2c2f763ad8e2107"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a4610b8fa3cb57ea9e2c2f763ad8e2107">occupiedSize</a> () const</td></tr>
-<tr class="separator:a4610b8fa3cb57ea9e2c2f763ad8e2107"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a202e7b0709bfe4fb035bd97b9407628a"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a202e7b0709bfe4fb035bd97b9407628a">occupied</a> (size_t index) const</td></tr>
-<tr class="separator:a202e7b0709bfe4fb035bd97b9407628a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1234c0b39c03139396144ae63f4b97ac"><td class="memItemLeft" align="right" valign="top">const size_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a1234c0b39c03139396144ae63f4b97ac">occupiedData</a> () const</td></tr>
-<tr class="separator:a1234c0b39c03139396144ae63f4b97ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afff1b402be1110ffd8d5a14399a0e8bb"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classVoxel.html">Voxel</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#afff1b402be1110ffd8d5a14399a0e8bb">at</a> (size_t index) const</td></tr>
+<tr class="separator:afff1b402be1110ffd8d5a14399a0e8bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a3d8c94d0d74415e7e4a9870207a936"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classVoxel.html">Voxel</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a4a3d8c94d0d74415e7e4a9870207a936">at</a> (size_t x, size_t y, size_t z)</td></tr>
+<tr class="separator:a4a3d8c94d0d74415e7e4a9870207a936"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a751981baecdb0637cf4130c5f2ade60d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classVoxel.html">Voxel</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a751981baecdb0637cf4130c5f2ade60d">at</a> (size_t x, size_t y, size_t z) const</td></tr>
+<tr class="separator:a751981baecdb0637cf4130c5f2ade60d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae34a395936a55500b3817e3cbbb23112"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#ae34a395936a55500b3817e3cbbb23112">sort</a> (double elevationMinimum, double elevationMaximum)</td></tr>
+<tr class="separator:ae34a395936a55500b3817e3cbbb23112"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebc9ddad2ac95b158ba3c757aa20e0fa"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#aebc9ddad2ac95b158ba3c757aa20e0fa">sortedSize</a> () const</td></tr>
+<tr class="separator:aebc9ddad2ac95b158ba3c757aa20e0fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d1c57649e27def2086acb43f6cf8c6f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classVoxel.html">Voxel</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a4d1c57649e27def2086acb43f6cf8c6f">sortedAt</a> (size_t index)</td></tr>
+<tr class="separator:a4d1c57649e27def2086acb43f6cf8c6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa34018f7be8de1c8ff9dc8bb97100301"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classVoxel.html">Voxel</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#aa34018f7be8de1c8ff9dc8bb97100301">sortedAt</a> (size_t index) const</td></tr>
+<tr class="separator:aa34018f7be8de1c8ff9dc8bb97100301"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb13c918522558ca4749c9c92d20b28f"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#afb13c918522558ca4749c9c92d20b28f">sizeX</a> () const</td></tr>
+<tr class="separator:afb13c918522558ca4749c9c92d20b28f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a887adbed76b75f755e19bb47a789a94f"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a887adbed76b75f755e19bb47a789a94f">sizeY</a> () const</td></tr>
+<tr class="separator:a887adbed76b75f755e19bb47a789a94f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fe6236c258816c7232ef561d702f8d0"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a7fe6236c258816c7232ef561d702f8d0">sizeZ</a> () const</td></tr>
+<tr class="separator:a7fe6236c258816c7232ef561d702f8d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76e2f706eb95d32915109b3c062c4876"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a76e2f706eb95d32915109b3c062c4876">indexSize</a> () const</td></tr>
+<tr class="separator:a76e2f706eb95d32915109b3c062c4876"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cf3ca7757b029db60b5931859ea6dfc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a0cf3ca7757b029db60b5931859ea6dfc">contains</a> (size_t x, size_t y, size_t z) const</td></tr>
+<tr class="separator:a0cf3ca7757b029db60b5931859ea6dfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab57121592828a357af88c81905b2eb84"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#ab57121592828a357af88c81905b2eb84">find</a> (size_t x, size_t y, size_t z) const</td></tr>
+<tr class="separator:ab57121592828a357af88c81905b2eb84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89e49b31005327998c3e00fac6fbc088"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a89e49b31005327998c3e00fac6fbc088">indexOf</a> (size_t x, size_t y, size_t z) const</td></tr>
+<tr class="separator:a89e49b31005327998c3e00fac6fbc088"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d209eabff4e0753b51c5507dc5590ab"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a3d209eabff4e0753b51c5507dc5590ab">indexOf</a> (const <a class="el" href="classVoxel.html">Voxel</a> &amp;voxel) const</td></tr>
+<tr class="separator:a3d209eabff4e0753b51c5507dc5590ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bde9bd1a9eaa3c6815a21f0c51352a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a2bde9bd1a9eaa3c6815a21f0c51352a8">box</a> (const <a class="el" href="classVoxel.html">Voxel</a> &amp;voxel, <a class="el" href="classBox.html">Box</a>&lt; double &gt; *box)</td></tr>
+<tr class="separator:a2bde9bd1a9eaa3c6815a21f0c51352a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a80f6ad15aac6014e75dccc94e51065"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a2a80f6ad15aac6014e75dccc94e51065">descriptorMin</a> () const</td></tr>
+<tr class="separator:a2a80f6ad15aac6014e75dccc94e51065"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23c22d50ff1128a04e7e1390f6c95c1b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a23c22d50ff1128a04e7e1390f6c95c1b">descriptorMax</a> () const</td></tr>
+<tr class="separator:a23c22d50ff1128a04e7e1390f6c95c1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95459519edbe0ca95b6b44c25e9eef61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a95459519edbe0ca95b6b44c25e9eef61">normalize</a> (<a class="el" href="classVoxel.html">Voxel</a> *voxel)</td></tr>
+<tr class="separator:a95459519edbe0ca95b6b44c25e9eef61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf508af6942709d752590b09f64b5657"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#abf508af6942709d752590b09f64b5657">dump</a> () const</td></tr>
+<tr class="separator:abf508af6942709d752590b09f64b5657"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a0df1dcacae266b8c468b1192839aa04f"><td class="memItemLeft" align="right" valign="top">static const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a0df1dcacae266b8c468b1192839aa04f">npos</a> = SIZE_MAX</td></tr>
+<tr class="separator:a0df1dcacae266b8c468b1192839aa04f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
 <tr class="memitem:a652cf18ae49e6f3146b8c206f2073a4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a652cf18ae49e6f3146b8c206f2073a4f">push</a> (size_t x1, size_t y1, size_t z1, size_t x2, size_t y2, size_t z2)</td></tr>
 <tr class="separator:a652cf18ae49e6f3146b8c206f2073a4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3554b726c68e0be2c88cceef8f81d30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#ad3554b726c68e0be2c88cceef8f81d30">resize</a> (size_t n)</td></tr>
-<tr class="separator:ad3554b726c68e0be2c88cceef8f81d30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a445ca78892024b9e4eb2e82961597772"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a445ca78892024b9e4eb2e82961597772">next</a> (<a class="el" href="classQuery.html">Query</a> *query, <a class="el" href="classBox.html">Box</a>&lt; double &gt; *cell=nullptr, size_t *index=nullptr, uint32_t *x=nullptr, uint32_t *y=nullptr, uint32_t *z=nullptr)</td></tr>
+<tr class="separator:a445ca78892024b9e4eb2e82961597772"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
 <tr class="memitem:aa3d7c6348af9b0118a83508d91c3d70e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classBox.html">Box</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#aa3d7c6348af9b0118a83508d91c3d70e">spaceRegion_</a></td></tr>
 <tr class="separator:aa3d7c6348af9b0118a83508d91c3d70e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ba16728b0f9cb06d732521faf10a5cd"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a6ba16728b0f9cb06d732521faf10a5cd">voxelSizeInput_</a></td></tr>
 <tr class="separator:a6ba16728b0f9cb06d732521faf10a5cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65768a02714c42b8922ef04b00ff90cb"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a65768a02714c42b8922ef04b00ff90cb">numberOfVoxels_</a></td></tr>
-<tr class="separator:a65768a02714c42b8922ef04b00ff90cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f1e785699af85e9673c65dd10a94b3b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classVector3.html">Vector3</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a0f1e785699af85e9673c65dd10a94b3b">voxelSize_</a></td></tr>
+<tr class="separator:a0f1e785699af85e9673c65dd10a94b3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55b672b940cd347097efbd1cc4947b85"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a55b672b940cd347097efbd1cc4947b85">nx_</a></td></tr>
 <tr class="separator:a55b672b940cd347097efbd1cc4947b85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab972988a2a98e8fc354c0859550f9469"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#ab972988a2a98e8fc354c0859550f9469">ny_</a></td></tr>
 <tr class="separator:ab972988a2a98e8fc354c0859550f9469"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24d00aef4bd97eee51b65920cea0eafb"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a24d00aef4bd97eee51b65920cea0eafb">nz_</a></td></tr>
 <tr class="separator:a24d00aef4bd97eee51b65920cea0eafb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f1e785699af85e9673c65dd10a94b3b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classVector3.html">Vector3</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a0f1e785699af85e9673c65dd10a94b3b">voxelSize_</a></td></tr>
-<tr class="separator:a0f1e785699af85e9673c65dd10a94b3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96650a7940bffdf13cc194318c12ecd8"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structVoxels_1_1Voxel.html">Voxel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a96650a7940bffdf13cc194318c12ecd8">data_</a></td></tr>
-<tr class="separator:a96650a7940bffdf13cc194318c12ecd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a978df376915e5414f65976a4c06b694b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a978df376915e5414f65976a4c06b694b">occupied_</a></td></tr>
-<tr class="separator:a978df376915e5414f65976a4c06b694b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6db8fa59465fbe79247bfb134cba4a79"><td class="memItemLeft" align="right" valign="top">std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a6db8fa59465fbe79247bfb134cba4a79">index_</a></td></tr>
+<tr class="separator:a6db8fa59465fbe79247bfb134cba4a79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab43234aeddab525405eb93d2eebb4a96"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classVoxel.html">Voxel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#ab43234aeddab525405eb93d2eebb4a96">voxels_</a></td></tr>
+<tr class="separator:ab43234aeddab525405eb93d2eebb4a96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6312feb6313fa78d5488d31524ced46d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classVoxel.html">Voxel</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a6312feb6313fa78d5488d31524ced46d">sortedVoxels_</a></td></tr>
+<tr class="separator:a6312feb6313fa78d5488d31524ced46d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27354eff84d2809a38131dbf09ea7e35"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a27354eff84d2809a38131dbf09ea7e35">descriptorMin_</a></td></tr>
+<tr class="separator:a27354eff84d2809a38131dbf09ea7e35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abed4afabf46b8706200c334ea0e8000f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#abed4afabf46b8706200c334ea0e8000f">descriptorMax_</a></td></tr>
+<tr class="separator:abed4afabf46b8706200c334ea0e8000f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a606f240b3d8e31d2c0fe0865ee0cadf0"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classBox.html">Box</a>&lt; size_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a606f240b3d8e31d2c0fe0865ee0cadf0">stack_</a></td></tr>
 <tr class="separator:a606f240b3d8e31d2c0fe0865ee0cadf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3adc72f01af6bf15ddf8d4a85b522e4e"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classVoxels.html#a3adc72f01af6bf15ddf8d4a85b522e4e">visitedVoxelsCount_</a></td></tr>
+<tr class="separator:a3adc72f01af6bf15ddf8d4a85b522e4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a10063cfcf5a4fd91e520a4dcbb3eb80c" name="a10063cfcf5a4fd91e520a4dcbb3eb80c"></a>
@@ -149,29 +187,23 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a359b503aa65c066f4c5a9d918fee0b55" name="a359b503aa65c066f4c5a9d918fee0b55"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a359b503aa65c066f4c5a9d918fee0b55">&#9670;&nbsp;</a></span>addOccupied()</h2>
+<a id="af7494c2d91a695ed23aa264d54abe197" name="af7494c2d91a695ed23aa264d54abe197"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7494c2d91a695ed23aa264d54abe197">&#9670;&nbsp;</a></span>addVoxel()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Voxels::addOccupied </td>
+          <td class="memname">void Voxels::addVoxel </td>
           <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>index</em></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classVoxel.html">Voxel</a> &amp;&#160;</td>
+          <td class="paramname"><em>voxel</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#a304bc205211bb00063eb2f554d3e79d2">SegmentationThread::computeCreateVoxels()</a>.</p>
 
 </div>
 </div>
@@ -185,7 +217,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structVoxels_1_1Voxel.html">Voxel</a> &amp; Voxels::at </td>
+          <td class="memname"><a class="el" href="classVoxel.html">Voxel</a> &amp; Voxels::at </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>index</em></td><td>)</td>
@@ -199,6 +231,8 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p class="reference">Referenced by <a class="el" href="classSegmentationElement.html#afa567d7596a57f2bda7856f29f4b0390">SegmentationElement::computeBase()</a>, <a class="el" href="classSegmentationThread.html#aed7141d03b76f6db49da7c1b86c41575">SegmentationThread::computeCreateElements()</a>, <a class="el" href="classSegmentationThread.html#a250d7fd222f9b7dba39f51735e6b6acd">SegmentationThread::computeCreateLayers()</a>, <a class="el" href="classSegmentationThread.html#a7c0cb1ea9932c1d5aba4d77912367e04">SegmentationThread::computeInitializeElements()</a>, and <a class="el" href="classVoxels.html#abf508af6942709d752590b09f64b5657">dump()</a>.</p>
+
 </div>
 </div>
 <a id="afff1b402be1110ffd8d5a14399a0e8bb" name="afff1b402be1110ffd8d5a14399a0e8bb"></a>
@@ -211,7 +245,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="structVoxels_1_1Voxel.html">Voxel</a> &amp; Voxels::at </td>
+          <td class="memname">const <a class="el" href="classVoxel.html">Voxel</a> &amp; Voxels::at </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>index</em></td><td>)</td>
@@ -237,7 +271,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structVoxels_1_1Voxel.html">Voxel</a> &amp; Voxels::at </td>
+          <td class="memname"><a class="el" href="classVoxel.html">Voxel</a> &amp; Voxels::at </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -279,7 +313,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="structVoxels_1_1Voxel.html">Voxel</a> &amp; Voxels::at </td>
+          <td class="memname">const <a class="el" href="classVoxel.html">Voxel</a> &amp; Voxels::at </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -309,7 +343,35 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classSegmentationPca.html#ad9bc4a7bb4ae6b194c7d18f42fdf208d">SegmentationPca::compute()</a>.</p>
+</div>
+</div>
+<a id="a2bde9bd1a9eaa3c6815a21f0c51352a8" name="a2bde9bd1a9eaa3c6815a21f0c51352a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bde9bd1a9eaa3c6815a21f0c51352a8">&#9670;&nbsp;</a></span>box()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Voxels::box </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classVoxel.html">Voxel</a> &amp;&#160;</td>
+          <td class="paramname"><em>voxel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classBox.html">Box</a>&lt; double &gt; *&#160;</td>
+          <td class="paramname"><em>box</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classVoxels.html#a2bde9bd1a9eaa3c6815a21f0c51352a8">box()</a>.</p>
 
 </div>
 </div>
@@ -328,7 +390,49 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#a67151b7c784f73c38e5305f6aa766b90">SegmentationThread::clear()</a>, <a class="el" href="classEditor.html#aa7dc8544e104c680c9d2515f442a136b">Editor::close()</a>, <a class="el" href="classSegmentationThread.html#acf34af6a26ab25d79b0f09a1fbfa9ecf">SegmentationThread::computeVoxelSize()</a>, and <a class="el" href="classVoxels.html#a10063cfcf5a4fd91e520a4dcbb3eb80c">Voxels()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#a67151b7c784f73c38e5305f6aa766b90">SegmentationThread::clear()</a>, <a class="el" href="classEditor.html#aa7dc8544e104c680c9d2515f442a136b">Editor::close()</a>, <a class="el" href="classSegmentationThread.html#a304bc205211bb00063eb2f554d3e79d2">SegmentationThread::computeCreateVoxels()</a>, <a class="el" href="classVoxels.html#a12f61412517408f6747837ef088c7ea7">create()</a>, and <a class="el" href="classVoxels.html#a10063cfcf5a4fd91e520a4dcbb3eb80c">Voxels()</a>.</p>
+
+</div>
+</div>
+<a id="a0cf3ca7757b029db60b5931859ea6dfc" name="a0cf3ca7757b029db60b5931859ea6dfc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cf3ca7757b029db60b5931859ea6dfc">&#9670;&nbsp;</a></span>contains()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Voxels::contains </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>z</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -358,12 +462,12 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#acf34af6a26ab25d79b0f09a1fbfa9ecf">SegmentationThread::computeVoxelSize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#a304bc205211bb00063eb2f554d3e79d2">SegmentationThread::computeCreateVoxels()</a>.</p>
 
 </div>
 </div>
-<a id="ad4dde7f2e5ec6fae4253fe98e3bd1e28" name="ad4dde7f2e5ec6fae4253fe98e3bd1e28"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4dde7f2e5ec6fae4253fe98e3bd1e28">&#9670;&nbsp;</a></span>data()</h2>
+<a id="a23c22d50ff1128a04e7e1390f6c95c1b" name="a23c22d50ff1128a04e7e1390f6c95c1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23c22d50ff1128a04e7e1390f6c95c1b">&#9670;&nbsp;</a></span>descriptorMax()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -372,7 +476,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="structVoxels_1_1Voxel.html">Voxel</a> * Voxels::data </td>
+          <td class="memname">float Voxels::descriptorMax </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -387,15 +491,207 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a38e92206357ac01e5c447504e4a33ea3" name="a38e92206357ac01e5c447504e4a33ea3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38e92206357ac01e5c447504e4a33ea3">&#9670;&nbsp;</a></span>next()</h2>
+<a id="a2a80f6ad15aac6014e75dccc94e51065" name="a2a80f6ad15aac6014e75dccc94e51065"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a80f6ad15aac6014e75dccc94e51065">&#9670;&nbsp;</a></span>descriptorMin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Voxels::descriptorMin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abf508af6942709d752590b09f64b5657" name="abf508af6942709d752590b09f64b5657"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf508af6942709d752590b09f64b5657">&#9670;&nbsp;</a></span>dump()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
+          <td class="memname">void Voxels::dump </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab57121592828a357af88c81905b2eb84" name="ab57121592828a357af88c81905b2eb84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab57121592828a357af88c81905b2eb84">&#9670;&nbsp;</a></span>find()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t Voxels::find </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>z</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationElement.html#afa567d7596a57f2bda7856f29f4b0390">SegmentationElement::computeBase()</a>, and <a class="el" href="classSegmentationMap.html#ae6dabefe2d70d00247a37c72bffe1b24">SegmentationMap::process()</a>.</p>
+
+</div>
+</div>
+<a id="a3d209eabff4e0753b51c5507dc5590ab" name="a3d209eabff4e0753b51c5507dc5590ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d209eabff4e0753b51c5507dc5590ab">&#9670;&nbsp;</a></span>indexOf() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t Voxels::indexOf </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classVoxel.html">Voxel</a> &amp;&#160;</td>
+          <td class="paramname"><em>voxel</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a89e49b31005327998c3e00fac6fbc088" name="a89e49b31005327998c3e00fac6fbc088"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89e49b31005327998c3e00fac6fbc088">&#9670;&nbsp;</a></span>indexOf() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t Voxels::indexOf </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>z</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classVoxels.html#af7494c2d91a695ed23aa264d54abe197">addVoxel()</a>.</p>
+
+</div>
+</div>
+<a id="a76e2f706eb95d32915109b3c062c4876" name="a76e2f706eb95d32915109b3c062c4876"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76e2f706eb95d32915109b3c062c4876">&#9670;&nbsp;</a></span>indexSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t Voxels::indexSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#a304bc205211bb00063eb2f554d3e79d2">SegmentationThread::computeCreateVoxels()</a>.</p>
+
+</div>
+</div>
+<a id="a445ca78892024b9e4eb2e82961597772" name="a445ca78892024b9e4eb2e82961597772"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a445ca78892024b9e4eb2e82961597772">&#9670;&nbsp;</a></span>next() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
           <td class="memname">bool Voxels::next </td>
           <td>(</td>
+          <td class="paramtype"><a class="el" href="classQuery.html">Query</a> *&#160;</td>
+          <td class="paramname"><em>query</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype"><a class="el" href="classBox.html">Box</a>&lt; double &gt; *&#160;</td>
           <td class="paramname"><em>cell</em> = <code>nullptr</code>, </td>
         </tr>
@@ -408,20 +704,59 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t *&#160;</td>
+          <td class="paramtype">uint32_t *&#160;</td>
           <td class="paramname"><em>x</em> = <code>nullptr</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t *&#160;</td>
+          <td class="paramtype">uint32_t *&#160;</td>
           <td class="paramname"><em>y</em> = <code>nullptr</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t *&#160;</td>
+          <td class="paramtype">uint32_t *&#160;</td>
           <td class="paramname"><em>z</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af202721b43007c0bb5d2f1ced64e6797" name="af202721b43007c0bb5d2f1ced64e6797"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af202721b43007c0bb5d2f1ced64e6797">&#9670;&nbsp;</a></span>next() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Voxels::next </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classVoxel.html">Voxel</a> *&#160;</td>
+          <td class="paramname"><em>voxel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classBox.html">Box</a>&lt; double &gt; *&#160;</td>
+          <td class="paramname"><em>cell</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classQuery.html">Query</a> *&#160;</td>
+          <td class="paramname"><em>query</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -431,83 +766,27 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#acf34af6a26ab25d79b0f09a1fbfa9ecf">SegmentationThread::computeVoxelSize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#a304bc205211bb00063eb2f554d3e79d2">SegmentationThread::computeCreateVoxels()</a>, and <a class="el" href="classVoxels.html#af202721b43007c0bb5d2f1ced64e6797">next()</a>.</p>
 
 </div>
 </div>
-<a id="a202e7b0709bfe4fb035bd97b9407628a" name="a202e7b0709bfe4fb035bd97b9407628a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a202e7b0709bfe4fb035bd97b9407628a">&#9670;&nbsp;</a></span>occupied()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t Voxels::occupied </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>index</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1234c0b39c03139396144ae63f4b97ac" name="a1234c0b39c03139396144ae63f4b97ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1234c0b39c03139396144ae63f4b97ac">&#9670;&nbsp;</a></span>occupiedData()</h2>
+<a id="a95459519edbe0ca95b6b44c25e9eef61" name="a95459519edbe0ca95b6b44c25e9eef61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95459519edbe0ca95b6b44c25e9eef61">&#9670;&nbsp;</a></span>normalize()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const size_t * Voxels::occupiedData </td>
+          <td class="memname">void Voxels::normalize </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype"><a class="el" href="classVoxel.html">Voxel</a> *&#160;</td>
+          <td class="paramname"><em>voxel</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a4610b8fa3cb57ea9e2c2f763ad8e2107" name="a4610b8fa3cb57ea9e2c2f763ad8e2107"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4610b8fa3cb57ea9e2c2f763ad8e2107">&#9670;&nbsp;</a></span>occupiedSize()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t Voxels::occupiedSize </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p class="reference">Referenced by <a class="el" href="classVoxels.html#a95459519edbe0ca95b6b44c25e9eef61">normalize()</a>.</p>
 
 </div>
 </div>
@@ -564,40 +843,12 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classVoxels.html#a12f61412517408f6747837ef088c7ea7">create()</a>, and <a class="el" href="classVoxels.html#a38e92206357ac01e5c447504e4a33ea3">next()</a>.</p>
-
-</div>
-</div>
-<a id="ad3554b726c68e0be2c88cceef8f81d30" name="ad3554b726c68e0be2c88cceef8f81d30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3554b726c68e0be2c88cceef8f81d30">&#9670;&nbsp;</a></span>resize()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Voxels::resize </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>n</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classVoxels.html#a12f61412517408f6747837ef088c7ea7">create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classVoxels.html#a12f61412517408f6747837ef088c7ea7">create()</a>, and <a class="el" href="classVoxels.html#a445ca78892024b9e4eb2e82961597772">next()</a>.</p>
 
 </div>
 </div>
@@ -624,13 +875,286 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#a8ce1a8134ee96e89a808e99944b9c357">SegmentationThread::computeMergeClusters()</a>, and <a class="el" href="classSegmentationThread.html#acf34af6a26ab25d79b0f09a1fbfa9ecf">SegmentationThread::computeVoxelSize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#a250d7fd222f9b7dba39f51735e6b6acd">SegmentationThread::computeCreateLayers()</a>, <a class="el" href="classSegmentationThread.html#a304bc205211bb00063eb2f554d3e79d2">SegmentationThread::computeCreateVoxels()</a>, <a class="el" href="classSegmentationThread.html#a7c0cb1ea9932c1d5aba4d77912367e04">SegmentationThread::computeInitializeElements()</a>, <a class="el" href="classSegmentationThread.html#a41c2066778e7279826f7eeabc1e32bed">SegmentationThread::computeMergeElements()</a>, <a class="el" href="classSegmentationThread.html#a2d6d78564efd8d980cd0e4226154e5c6">SegmentationThread::computeSortVoxels()</a>, and <a class="el" href="classVoxels.html#abf508af6942709d752590b09f64b5657">dump()</a>.</p>
+
+</div>
+</div>
+<a id="afb13c918522558ca4749c9c92d20b28f" name="afb13c918522558ca4749c9c92d20b28f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb13c918522558ca4749c9c92d20b28f">&#9670;&nbsp;</a></span>sizeX()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t Voxels::sizeX </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationMap.html#a4b58533ca7519d8b2b648a6e0b924e84">SegmentationMap::create()</a>, and <a class="el" href="classSegmentationElement.html#a710597bb257515c25856444868b33215">SegmentationElement::pushNext1()</a>.</p>
+
+</div>
+</div>
+<a id="a887adbed76b75f755e19bb47a789a94f" name="a887adbed76b75f755e19bb47a789a94f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a887adbed76b75f755e19bb47a789a94f">&#9670;&nbsp;</a></span>sizeY()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t Voxels::sizeY </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationMap.html#a4b58533ca7519d8b2b648a6e0b924e84">SegmentationMap::create()</a>, and <a class="el" href="classSegmentationElement.html#a710597bb257515c25856444868b33215">SegmentationElement::pushNext1()</a>.</p>
+
+</div>
+</div>
+<a id="a7fe6236c258816c7232ef561d702f8d0" name="a7fe6236c258816c7232ef561d702f8d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fe6236c258816c7232ef561d702f8d0">&#9670;&nbsp;</a></span>sizeZ()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t Voxels::sizeZ </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationMap.html#a4b58533ca7519d8b2b648a6e0b924e84">SegmentationMap::create()</a>, and <a class="el" href="classSegmentationElement.html#a710597bb257515c25856444868b33215">SegmentationElement::pushNext1()</a>.</p>
+
+</div>
+</div>
+<a id="ae34a395936a55500b3817e3cbbb23112" name="ae34a395936a55500b3817e3cbbb23112"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae34a395936a55500b3817e3cbbb23112">&#9670;&nbsp;</a></span>sort()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Voxels::sort </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>elevationMinimum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>elevationMaximum</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#a2d6d78564efd8d980cd0e4226154e5c6">SegmentationThread::computeSortVoxels()</a>.</p>
+
+</div>
+</div>
+<a id="a4d1c57649e27def2086acb43f6cf8c6f" name="a4d1c57649e27def2086acb43f6cf8c6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d1c57649e27def2086acb43f6cf8c6f">&#9670;&nbsp;</a></span>sortedAt() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classVoxel.html">Voxel</a> &amp; Voxels::sortedAt </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationElements.html#a785038aeb3d063906e6d1ac06de00015">SegmentationElements::computeBase()</a>, and <a class="el" href="classSegmentationElement.html#a1a483ffea6ba15979995668e61d74519">SegmentationElement::computeStart()</a>.</p>
+
+</div>
+</div>
+<a id="aa34018f7be8de1c8ff9dc8bb97100301" name="aa34018f7be8de1c8ff9dc8bb97100301"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa34018f7be8de1c8ff9dc8bb97100301">&#9670;&nbsp;</a></span>sortedAt() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classVoxel.html">Voxel</a> &amp; Voxels::sortedAt </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aebc9ddad2ac95b158ba3c757aa20e0fa" name="aebc9ddad2ac95b158ba3c757aa20e0fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebc9ddad2ac95b158ba3c757aa20e0fa">&#9670;&nbsp;</a></span>sortedSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t Voxels::sortedSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#aed7141d03b76f6db49da7c1b86c41575">SegmentationThread::computeCreateElements()</a>.</p>
+
+</div>
+</div>
+<a id="afd6e8d1eb2d42a2d640a749b7580b547" name="afd6e8d1eb2d42a2d640a749b7580b547"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd6e8d1eb2d42a2d640a749b7580b547">&#9670;&nbsp;</a></span>spaceRegion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classBox.html">Box</a>&lt; double &gt; &amp; Voxels::spaceRegion </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classVoxels.html#a12f61412517408f6747837ef088c7ea7">create()</a>.</p>
+
+</div>
+</div>
+<a id="a8ade03599a056a9aef3d1c73d28768ce" name="a8ade03599a056a9aef3d1c73d28768ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ade03599a056a9aef3d1c73d28768ce">&#9670;&nbsp;</a></span>visitedVoxelsCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t Voxels::visitedVoxelsCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#a304bc205211bb00063eb2f554d3e79d2">SegmentationThread::computeCreateVoxels()</a>.</p>
+
+</div>
+</div>
+<a id="a7ce2c1d96adeebcb0b77919f80aa3fe6" name="a7ce2c1d96adeebcb0b77919f80aa3fe6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ce2c1d96adeebcb0b77919f80aa3fe6">&#9670;&nbsp;</a></span>voxelSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classVector3.html">Vector3</a>&lt; double &gt; &amp; Voxels::voxelSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classVoxels.html#a12f61412517408f6747837ef088c7ea7">create()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a96650a7940bffdf13cc194318c12ecd8" name="a96650a7940bffdf13cc194318c12ecd8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a96650a7940bffdf13cc194318c12ecd8">&#9670;&nbsp;</a></span>data_</h2>
+<a id="abed4afabf46b8706200c334ea0e8000f" name="abed4afabf46b8706200c334ea0e8000f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abed4afabf46b8706200c334ea0e8000f">&#9670;&nbsp;</a></span>descriptorMax_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -639,22 +1163,22 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="structVoxels_1_1Voxel.html">Voxel</a>&gt; Voxels::data_</td>
+          <td class="memname">float Voxels::descriptorMax_</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classVoxels.html#af0d991f4e4247ca866cb4a04ceb51d31">clear()</a>, and <a class="el" href="classVoxels.html#ad3554b726c68e0be2c88cceef8f81d30">resize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classVoxels.html#af7494c2d91a695ed23aa264d54abe197">addVoxel()</a>, <a class="el" href="classVoxels.html#af0d991f4e4247ca866cb4a04ceb51d31">clear()</a>, and <a class="el" href="classVoxels.html#a95459519edbe0ca95b6b44c25e9eef61">normalize()</a>.</p>
 
 </div>
 </div>
-<a id="a65768a02714c42b8922ef04b00ff90cb" name="a65768a02714c42b8922ef04b00ff90cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65768a02714c42b8922ef04b00ff90cb">&#9670;&nbsp;</a></span>numberOfVoxels_</h2>
+<a id="a27354eff84d2809a38131dbf09ea7e35" name="a27354eff84d2809a38131dbf09ea7e35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27354eff84d2809a38131dbf09ea7e35">&#9670;&nbsp;</a></span>descriptorMin_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -663,17 +1187,65 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">size_t Voxels::numberOfVoxels_</td>
+          <td class="memname">float Voxels::descriptorMin_</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classVoxels.html#af0d991f4e4247ca866cb4a04ceb51d31">clear()</a>, <a class="el" href="classVoxels.html#a12f61412517408f6747837ef088c7ea7">create()</a>, and <a class="el" href="classVoxels.html#ad3554b726c68e0be2c88cceef8f81d30">resize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classVoxels.html#af7494c2d91a695ed23aa264d54abe197">addVoxel()</a>, and <a class="el" href="classVoxels.html#af0d991f4e4247ca866cb4a04ceb51d31">clear()</a>.</p>
+
+</div>
+</div>
+<a id="a6db8fa59465fbe79247bfb134cba4a79" name="a6db8fa59465fbe79247bfb134cba4a79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6db8fa59465fbe79247bfb134cba4a79">&#9670;&nbsp;</a></span>index_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;size_t&gt; Voxels::index_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classVoxels.html#af7494c2d91a695ed23aa264d54abe197">addVoxel()</a>, <a class="el" href="classVoxels.html#af0d991f4e4247ca866cb4a04ceb51d31">clear()</a>, and <a class="el" href="classVoxels.html#a12f61412517408f6747837ef088c7ea7">create()</a>.</p>
+
+</div>
+</div>
+<a id="a0df1dcacae266b8c468b1192839aa04f" name="a0df1dcacae266b8c468b1192839aa04f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0df1dcacae266b8c468b1192839aa04f">&#9670;&nbsp;</a></span>npos</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const size_t Voxels::npos = SIZE_MAX</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classSegmentationElement.html#afa567d7596a57f2bda7856f29f4b0390">SegmentationElement::computeBase()</a>, <a class="el" href="classSegmentationThread.html#a250d7fd222f9b7dba39f51735e6b6acd">SegmentationThread::computeCreateLayers()</a>, <a class="el" href="classSegmentationThread.html#a1265175b60cf91540d8807f12d970c1d">SegmentationThread::computeInitializeVoxels()</a>, <a class="el" href="classVoxels.html#a12f61412517408f6747837ef088c7ea7">create()</a>, and <a class="el" href="classSegmentationMap.html#ae6dabefe2d70d00247a37c72bffe1b24">SegmentationMap::process()</a>.</p>
 
 </div>
 </div>
@@ -692,12 +1264,12 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classVoxels.html#af0d991f4e4247ca866cb4a04ceb51d31">clear()</a>, <a class="el" href="classVoxels.html#a12f61412517408f6747837ef088c7ea7">create()</a>, and <a class="el" href="classVoxels.html#a38e92206357ac01e5c447504e4a33ea3">next()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classVoxels.html#af0d991f4e4247ca866cb4a04ceb51d31">clear()</a>, <a class="el" href="classVoxels.html#a12f61412517408f6747837ef088c7ea7">create()</a>, and <a class="el" href="classVoxels.html#a445ca78892024b9e4eb2e82961597772">next()</a>.</p>
 
 </div>
 </div>
@@ -716,12 +1288,12 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classVoxels.html#af0d991f4e4247ca866cb4a04ceb51d31">clear()</a>, <a class="el" href="classVoxels.html#a12f61412517408f6747837ef088c7ea7">create()</a>, and <a class="el" href="classVoxels.html#a38e92206357ac01e5c447504e4a33ea3">next()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classVoxels.html#af0d991f4e4247ca866cb4a04ceb51d31">clear()</a>, <a class="el" href="classVoxels.html#a12f61412517408f6747837ef088c7ea7">create()</a>, and <a class="el" href="classVoxels.html#a445ca78892024b9e4eb2e82961597772">next()</a>.</p>
 
 </div>
 </div>
@@ -740,7 +1312,7 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -749,8 +1321,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a978df376915e5414f65976a4c06b694b" name="a978df376915e5414f65976a4c06b694b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a978df376915e5414f65976a4c06b694b">&#9670;&nbsp;</a></span>occupied_</h2>
+<a id="a6312feb6313fa78d5488d31524ced46d" name="a6312feb6313fa78d5488d31524ced46d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6312feb6313fa78d5488d31524ced46d">&#9670;&nbsp;</a></span>sortedVoxels_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -759,17 +1331,17 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;size_t&gt; Voxels::occupied_</td>
+          <td class="memname">std::vector&lt;<a class="el" href="classVoxel.html">Voxel</a> *&gt; Voxels::sortedVoxels_</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classVoxels.html#af0d991f4e4247ca866cb4a04ceb51d31">clear()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classVoxels.html#af0d991f4e4247ca866cb4a04ceb51d31">clear()</a>, and <a class="el" href="classVoxels.html#ae34a395936a55500b3817e3cbbb23112">sort()</a>.</p>
 
 </div>
 </div>
@@ -788,12 +1360,12 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classVoxels.html#af0d991f4e4247ca866cb4a04ceb51d31">clear()</a>, <a class="el" href="classVoxels.html#a12f61412517408f6747837ef088c7ea7">create()</a>, and <a class="el" href="classVoxels.html#a38e92206357ac01e5c447504e4a33ea3">next()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classVoxels.html#a2bde9bd1a9eaa3c6815a21f0c51352a8">box()</a>, <a class="el" href="classVoxels.html#af0d991f4e4247ca866cb4a04ceb51d31">clear()</a>, <a class="el" href="classVoxels.html#a12f61412517408f6747837ef088c7ea7">create()</a>, and <a class="el" href="classVoxels.html#a445ca78892024b9e4eb2e82961597772">next()</a>.</p>
 
 </div>
 </div>
@@ -812,12 +1384,60 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classVoxels.html#af0d991f4e4247ca866cb4a04ceb51d31">clear()</a>, <a class="el" href="classVoxels.html#a38e92206357ac01e5c447504e4a33ea3">next()</a>, and <a class="el" href="classVoxels.html#a652cf18ae49e6f3146b8c206f2073a4f">push()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classVoxels.html#af0d991f4e4247ca866cb4a04ceb51d31">clear()</a>, <a class="el" href="classVoxels.html#a445ca78892024b9e4eb2e82961597772">next()</a>, and <a class="el" href="classVoxels.html#a652cf18ae49e6f3146b8c206f2073a4f">push()</a>.</p>
+
+</div>
+</div>
+<a id="a3adc72f01af6bf15ddf8d4a85b522e4e" name="a3adc72f01af6bf15ddf8d4a85b522e4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3adc72f01af6bf15ddf8d4a85b522e4e">&#9670;&nbsp;</a></span>visitedVoxelsCount_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t Voxels::visitedVoxelsCount_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classVoxels.html#af0d991f4e4247ca866cb4a04ceb51d31">clear()</a>, and <a class="el" href="classVoxels.html#a445ca78892024b9e4eb2e82961597772">next()</a>.</p>
+
+</div>
+</div>
+<a id="ab43234aeddab525405eb93d2eebb4a96" name="ab43234aeddab525405eb93d2eebb4a96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab43234aeddab525405eb93d2eebb4a96">&#9670;&nbsp;</a></span>voxels_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classVoxel.html">Voxel</a>&gt; Voxels::voxels_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classVoxels.html#af7494c2d91a695ed23aa264d54abe197">addVoxel()</a>, <a class="el" href="classVoxels.html#af0d991f4e4247ca866cb4a04ceb51d31">clear()</a>, and <a class="el" href="classVoxels.html#ae34a395936a55500b3817e3cbbb23112">sort()</a>.</p>
 
 </div>
 </div>
@@ -836,12 +1456,12 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classVoxels.html#af0d991f4e4247ca866cb4a04ceb51d31">clear()</a>, <a class="el" href="classVoxels.html#a12f61412517408f6747837ef088c7ea7">create()</a>, and <a class="el" href="classVoxels.html#a38e92206357ac01e5c447504e4a33ea3">next()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classVoxels.html#a2bde9bd1a9eaa3c6815a21f0c51352a8">box()</a>, <a class="el" href="classVoxels.html#af0d991f4e4247ca866cb4a04ceb51d31">clear()</a>, <a class="el" href="classVoxels.html#a12f61412517408f6747837ef088c7ea7">create()</a>, and <a class="el" href="classVoxels.html#a445ca78892024b9e4eb2e82961597772">next()</a>.</p>
 
 </div>
 </div>
@@ -860,7 +1480,7 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

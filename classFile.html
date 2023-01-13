@@ -92,8 +92,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab1a3d9816e3461cfcaefc6a3b56218a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac59d823b8d83d7a2e0f6e909fe51cd69"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#ac59d823b8d83d7a2e0f6e909fe51cd69">write</a> (const uint8_t *buffer, uint64_t nbyte)</td></tr>
 <tr class="separator:ac59d823b8d83d7a2e0f6e909fe51cd69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21db6bf28cf9b2d5a5a7510064689bbe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a21db6bf28cf9b2d5a5a7510064689bbe">write</a> (const std::string &amp;str)</td></tr>
+<tr class="separator:a21db6bf28cf9b2d5a5a7510064689bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b5b01b4fc65ecf49cfca2ba487a992c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a5b5b01b4fc65ecf49cfca2ba487a992c">write</a> (<a class="el" href="classFile.html">File</a> &amp;input, uint64_t nbyte)</td></tr>
 <tr class="separator:a5b5b01b4fc65ecf49cfca2ba487a992c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb0ce5b71ecf6fbaa538a812a622fc10"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#abb0ce5b71ecf6fbaa538a812a622fc10">isOpen</a> () const</td></tr>
+<tr class="separator:abb0ce5b71ecf6fbaa538a812a622fc10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6040ea231aec39d3d41218a9e928896e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#a6040ea231aec39d3d41218a9e928896e">eof</a> () const</td></tr>
 <tr class="separator:a6040ea231aec39d3d41218a9e928896e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfde476dc7eb25dfc1f9b25f86fa4e7b"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFile.html#adfde476dc7eb25dfc1f9b25f86fa4e7b">size</a> () const</td></tr>
@@ -249,7 +253,7 @@ Static Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classChunkFile.html#acbc09a8ef4b3e3dadeb554dfb34eaaa0">ChunkFile::close()</a>, <a class="el" href="classFile.html#a83cbce54d6c3b8c2f417b51f6b3f488c">close()</a>, <a class="el" href="classLasFile.html#a05b29b98795315afa718219a267db632">LasFile::close()</a>, <a class="el" href="classFile.html#a5361b7bcd42092e482fbe075ae2e5a4a">create()</a>, <a class="el" href="classFile.html#a299598dc319633dff088e0c5691bb452">open()</a>, <a class="el" href="classFile.html#af23eac0208c0ba4f2d2d2d7695e2f709">read()</a>, <a class="el" href="classFile.html#a8fab5538852190c50d779e4f3e8cc33d">sort()</a>, <a class="el" href="classFile.html#ab0291d41ad8fd132dea57528ce356256">write()</a>, and <a class="el" href="classFile.html#ac704ebdf5f57d7a1c5ddf409d797fb69">~File()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classChunkFile.html#acbc09a8ef4b3e3dadeb554dfb34eaaa0">ChunkFile::close()</a>, <a class="el" href="classFile.html#a83cbce54d6c3b8c2f417b51f6b3f488c">close()</a>, <a class="el" href="classLasFile.html#a05b29b98795315afa718219a267db632">LasFile::close()</a>, <a class="el" href="classExportFileFormatCsv.html#a41660b2e20c8a01c0f26acc6e8cba684">ExportFileFormatCsv::close()</a>, <a class="el" href="classFile.html#a5361b7bcd42092e482fbe075ae2e5a4a">create()</a>, <a class="el" href="classFile.html#a299598dc319633dff088e0c5691bb452">open()</a>, <a class="el" href="classFile.html#af23eac0208c0ba4f2d2d2d7695e2f709">read()</a>, <a class="el" href="classFile.html#a8fab5538852190c50d779e4f3e8cc33d">sort()</a>, <a class="el" href="classFile.html#ab0291d41ad8fd132dea57528ce356256">write()</a>, and <a class="el" href="classFile.html#ac704ebdf5f57d7a1c5ddf409d797fb69">~File()</a>.</p>
 
 </div>
 </div>
@@ -370,7 +374,7 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classFile.html#a340227290c3e0a2ac0ad561267d163db">move()</a>, <a class="el" href="classFile.html#a0c6173ce64df564924b19eb0283222fe">open()</a>, <a class="el" href="classFile.html#a2d8652f7022fa6d3ad2d7ad19e3abf2f">remove()</a>, and <a class="el" href="classFile.html#a8b2f7f3315c9de83f72c50ec1cd22c8f">resolvePath()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classExportFileFormatLas.html#a198a3035d1252de4e80532d90aa839af">ExportFileFormatLas::create()</a>, <a class="el" href="classFile.html#a340227290c3e0a2ac0ad561267d163db">move()</a>, <a class="el" href="classFile.html#a0c6173ce64df564924b19eb0283222fe">open()</a>, <a class="el" href="classFile.html#a2d8652f7022fa6d3ad2d7ad19e3abf2f">remove()</a>, <a class="el" href="classFile.html#a8b2f7f3315c9de83f72c50ec1cd22c8f">resolvePath()</a>, and <a class="el" href="classExportFileDialog.html#a749b66422ae03a2bd70ca427ce7f10ea">ExportFileDialog::slotAccept()</a>.</p>
 
 </div>
 </div>
@@ -398,7 +402,7 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classEditor.html#a5d184614bda00967905941e3f16d6c50">Editor::open()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classEditor.html#a5d184614bda00967905941e3f16d6c50">Editor::open()</a>, and <a class="el" href="classExportFileDialog.html#acd72fcb7d8937643bfb783e8d5ecba30">ExportFileDialog::writer()</a>.</p>
 
 </div>
 </div>
@@ -455,6 +459,33 @@ Static Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">Referenced by <a class="el" href="classFile.html#a8b2f7f3315c9de83f72c50ec1cd22c8f">resolvePath()</a>.</p>
+
+</div>
+</div>
+<a id="abb0ce5b71ecf6fbaa538a812a622fc10" name="abb0ce5b71ecf6fbaa538a812a622fc10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb0ce5b71ecf6fbaa538a812a622fc10">&#9670;&nbsp;</a></span>isOpen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool File::isOpen </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classExportFileFormatCsv.html#a8a2f2a2c3aefbbde8478ef503234f248">ExportFileFormatCsv::isOpen()</a>, and <a class="el" href="classExportFileFormatLas.html#aa864b9b41c03f6bc250b44c25683144c">ExportFileFormatLas::isOpen()</a>.</p>
 
 </div>
 </div>
@@ -569,7 +600,7 @@ Static Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classFile.html#a3bfc09fe24a7a8090329a32f22e71061">create()</a>, <a class="el" href="classFile.html#a0c6173ce64df564924b19eb0283222fe">open()</a>, <a class="el" href="classLasFile.html#a368fe63bce69c317237b048d0f5312dd">LasFile::open()</a>, <a class="el" href="classChunkFile.html#a7b6eb95120bf70cce3cd2a7e3d9f2d0d">ChunkFile::open()</a>, <a class="el" href="classFile.html#af23eac0208c0ba4f2d2d2d7695e2f709">read()</a>, <a class="el" href="classFile.html#a8fab5538852190c50d779e4f3e8cc33d">sort()</a>, and <a class="el" href="classFile.html#ab0291d41ad8fd132dea57528ce356256">write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classFile.html#a3bfc09fe24a7a8090329a32f22e71061">create()</a>, <a class="el" href="classExportFileFormatCsv.html#a8c8758c3eb337620fd1034bc1756a7ed">ExportFileFormatCsv::create()</a>, <a class="el" href="classFile.html#a0c6173ce64df564924b19eb0283222fe">open()</a>, <a class="el" href="classLasFile.html#a368fe63bce69c317237b048d0f5312dd">LasFile::open()</a>, <a class="el" href="classChunkFile.html#a7b6eb95120bf70cce3cd2a7e3d9f2d0d">ChunkFile::open()</a>, <a class="el" href="classFile.html#af23eac0208c0ba4f2d2d2d7695e2f709">read()</a>, <a class="el" href="classFile.html#a8fab5538852190c50d779e4f3e8cc33d">sort()</a>, and <a class="el" href="classFile.html#ab0291d41ad8fd132dea57528ce356256">write()</a>.</p>
 
 </div>
 </div>
@@ -788,7 +819,7 @@ Static Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classPage.html#a794b61a639d75b1b37731cf3809f0ae3">Page::read()</a>, <a class="el" href="classJson.html#ab3c08045af4f1ad103ebfd6c1f38e1ed">Json::read()</a>, <a class="el" href="classFile.html#af23eac0208c0ba4f2d2d2d7695e2f709">read()</a>, <a class="el" href="classChunkFile.html#a20b0a7cb9846509db14525b3221cdd3c">ChunkFile::read()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, <a class="el" href="classLasFile.html#a5b1fa93b4518a9f19f5812aeefd9e814">LasFile::readPoint()</a>, <a class="el" href="classFile.html#a8fab5538852190c50d779e4f3e8cc33d">sort()</a>, <a class="el" href="classIndexFileBuilder.html#a0a6d9d3f8d163d047f50ceb5415066f0">IndexFileBuilder::stateCopy()</a>, <a class="el" href="classIndexFileBuilder.html#ae8ba81be2fa095faae8f8fd63af19bdc">IndexFileBuilder::stateCopyPoints()</a>, <a class="el" href="classIndexFileBuilder.html#a1cede7375c5751e0bb1b4793aed4b5a1">IndexFileBuilder::stateMainInsert()</a>, <a class="el" href="classIndexFileBuilder.html#a5dc65f60cf7594728674341df62cea73">IndexFileBuilder::stateMainSort()</a>, <a class="el" href="classIndexFileBuilder.html#aa2f10cf0750d736387b1287fa44b83e2">IndexFileBuilder::stateNodeInsert()</a>, and <a class="el" href="classFile.html#a5b5b01b4fc65ecf49cfca2ba487a992c">write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classJson.html#ab3c08045af4f1ad103ebfd6c1f38e1ed">Json::read()</a>, <a class="el" href="classFile.html#af23eac0208c0ba4f2d2d2d7695e2f709">read()</a>, <a class="el" href="classChunkFile.html#a20b0a7cb9846509db14525b3221cdd3c">ChunkFile::read()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">Page::readPage()</a>, <a class="el" href="classLasFile.html#a5b1fa93b4518a9f19f5812aeefd9e814">LasFile::readPoint()</a>, <a class="el" href="classFile.html#a8fab5538852190c50d779e4f3e8cc33d">sort()</a>, <a class="el" href="classIndexFileBuilder.html#a0a6d9d3f8d163d047f50ceb5415066f0">IndexFileBuilder::stateCopy()</a>, <a class="el" href="classIndexFileBuilder.html#ae8ba81be2fa095faae8f8fd63af19bdc">IndexFileBuilder::stateCopyPoints()</a>, <a class="el" href="classIndexFileBuilder.html#a1cede7375c5751e0bb1b4793aed4b5a1">IndexFileBuilder::stateMainInsert()</a>, <a class="el" href="classIndexFileBuilder.html#a5dc65f60cf7594728674341df62cea73">IndexFileBuilder::stateMainSort()</a>, <a class="el" href="classIndexFileBuilder.html#aa2f10cf0750d736387b1287fa44b83e2">IndexFileBuilder::stateNodeInsert()</a>, and <a class="el" href="classFile.html#a5b5b01b4fc65ecf49cfca2ba487a992c">write()</a>.</p>
 
 </div>
 </div>
@@ -816,7 +847,7 @@ Static Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classFile.html#a340227290c3e0a2ac0ad561267d163db">move()</a>, and <a class="el" href="classIndexFileBuilder.html#ae10a57af7f9c2538e2fd94a154d5340a">IndexFileBuilder::stateEnd()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classExportFileFormatLas.html#a198a3035d1252de4e80532d90aa839af">ExportFileFormatLas::create()</a>, <a class="el" href="classFile.html#a340227290c3e0a2ac0ad561267d163db">move()</a>, and <a class="el" href="classIndexFileBuilder.html#ae10a57af7f9c2538e2fd94a154d5340a">IndexFileBuilder::stateEnd()</a>.</p>
 
 </div>
 </div>
@@ -1136,7 +1167,7 @@ Static Protected Attributes</h2></td></tr>
 </div>
 </div>
 <a id="ab0291d41ad8fd132dea57528ce356256" name="ab0291d41ad8fd132dea57528ce356256"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0291d41ad8fd132dea57528ce356256">&#9670;&nbsp;</a></span>write() <span class="overload">[1/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0291d41ad8fd132dea57528ce356256">&#9670;&nbsp;</a></span>write() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1171,8 +1202,26 @@ Static Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a21db6bf28cf9b2d5a5a7510064689bbe" name="a21db6bf28cf9b2d5a5a7510064689bbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21db6bf28cf9b2d5a5a7510064689bbe">&#9670;&nbsp;</a></span>write() <span class="overload">[2/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void File::write </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4405607415f0f8b76d7cf62d14190efe" name="a4405607415f0f8b76d7cf62d14190efe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4405607415f0f8b76d7cf62d14190efe">&#9670;&nbsp;</a></span>write() <span class="overload">[2/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4405607415f0f8b76d7cf62d14190efe">&#9670;&nbsp;</a></span>write() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1220,7 +1269,7 @@ Static Protected Attributes</h2></td></tr>
 </div>
 </div>
 <a id="ac59d823b8d83d7a2e0f6e909fe51cd69" name="ac59d823b8d83d7a2e0f6e909fe51cd69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac59d823b8d83d7a2e0f6e909fe51cd69">&#9670;&nbsp;</a></span>write() <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac59d823b8d83d7a2e0f6e909fe51cd69">&#9670;&nbsp;</a></span>write() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1245,12 +1294,12 @@ Static Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classFile.html#a8fab5538852190c50d779e4f3e8cc33d">sort()</a>, <a class="el" href="classIndexFileBuilder.html#a0a6d9d3f8d163d047f50ceb5415066f0">IndexFileBuilder::stateCopy()</a>, <a class="el" href="classIndexFileBuilder.html#ae8ba81be2fa095faae8f8fd63af19bdc">IndexFileBuilder::stateCopyPoints()</a>, <a class="el" href="classIndexFileBuilder.html#a5dc65f60cf7594728674341df62cea73">IndexFileBuilder::stateMainSort()</a>, <a class="el" href="classIndexFileBuilder.html#aa2f10cf0750d736387b1287fa44b83e2">IndexFileBuilder::stateNodeInsert()</a>, <a class="el" href="classPage.html#aa2aef9260a1e52ef92e68cdc7c7ad028">Page::write()</a>, <a class="el" href="classJson.html#a54144044e308a8bd5aeee392894cfd77">Json::write()</a>, <a class="el" href="classFile.html#ab0291d41ad8fd132dea57528ce356256">write()</a>, <a class="el" href="classChunkFile.html#af5b13c13d369e2e3e42d4e88b6e8d096">ChunkFile::write()</a>, <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>, and <a class="el" href="classLasFile.html#aa39ee02843aad7c29901acc50d06504e">LasFile::writePoint()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classExportFileFormatCsv.html#a8c8758c3eb337620fd1034bc1756a7ed">ExportFileFormatCsv::create()</a>, <a class="el" href="classFile.html#a8fab5538852190c50d779e4f3e8cc33d">sort()</a>, <a class="el" href="classIndexFileBuilder.html#a0a6d9d3f8d163d047f50ceb5415066f0">IndexFileBuilder::stateCopy()</a>, <a class="el" href="classIndexFileBuilder.html#ae8ba81be2fa095faae8f8fd63af19bdc">IndexFileBuilder::stateCopyPoints()</a>, <a class="el" href="classIndexFileBuilder.html#a5dc65f60cf7594728674341df62cea73">IndexFileBuilder::stateMainSort()</a>, <a class="el" href="classIndexFileBuilder.html#aa2f10cf0750d736387b1287fa44b83e2">IndexFileBuilder::stateNodeInsert()</a>, <a class="el" href="classJson.html#a54144044e308a8bd5aeee392894cfd77">Json::write()</a>, <a class="el" href="classFile.html#ab0291d41ad8fd132dea57528ce356256">write()</a>, <a class="el" href="classChunkFile.html#af5b13c13d369e2e3e42d4e88b6e8d096">ChunkFile::write()</a>, <a class="el" href="classExportFileFormatCsv.html#ad83b25f35d2f13168dda2f5a95484f27">ExportFileFormatCsv::write()</a>, <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>, <a class="el" href="classPage.html#a137739c8e55b1cf17cdd3b1737a80478">Page::writePage()</a>, and <a class="el" href="classLasFile.html#aa39ee02843aad7c29901acc50d06504e">LasFile::writePoint()</a>.</p>
 
 </div>
 </div>
 <a id="a5b5b01b4fc65ecf49cfca2ba487a992c" name="a5b5b01b4fc65ecf49cfca2ba487a992c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b5b01b4fc65ecf49cfca2ba487a992c">&#9670;&nbsp;</a></span>write() <span class="overload">[4/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b5b01b4fc65ecf49cfca2ba487a992c">&#9670;&nbsp;</a></span>write() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1278,7 +1327,7 @@ Static Protected Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a5a5d7ed271101b21155b977b7d5098f0" name="a5a5d7ed271101b21155b977b7d5098f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a5d7ed271101b21155b977b7d5098f0">&#9670;&nbsp;</a></span>write() <span class="overload">[5/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a5d7ed271101b21155b977b7d5098f0">&#9670;&nbsp;</a></span>write() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

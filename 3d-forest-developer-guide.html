@@ -169,7 +169,7 @@ Build 3D Forest</h2>
 </ol>
 <h1><a class="anchor" id="build-macos-make"></a>
 Build from Source Code in Mac OS with "Unix Makefiles"</h1>
-<p >The code uses C++14, CMake, Qt5/Qt6 and OpenGL which will be installed in the following steps. Qt and OpenGL are required only for GUI desktop application.</p>
+<p >The code uses C++17, CMake, Qt5/Qt6 and OpenGL which will be installed in the following steps. Qt and OpenGL are required only for GUI desktop application.</p>
 <div class="image">
 <img src="3d-forest-macos.png" alt=""/>
 <div class="caption">
@@ -537,7 +537,7 @@ General</h2>
 <ol type="1">
 <li>The main() 3D Forest application is in "src/apps/3dforest/3dforest.cpp".</li>
 <li>For development with Visual Studio Code, update ".vscode/settings.json" to contain new directories. For example, add "${workspaceRoot}/src/plugins/myaction" to "C_Cpp.default.includePath" include paths.</li>
-<li>Need some icon? Try to look into directory "3rdparty/icons".</li>
+<li>Need some icon? Try to look into <a href="https://github.com/VUKOZ-OEL/3d-forest-icons">https://github.com/VUKOZ-OEL/3d-forest-icons</a></li>
 </ol>
 <h1><a class="anchor" id="code-format"></a>
 Code Format Suggestions</h1>
@@ -587,8 +587,10 @@ files     anything
           ".gitignore"
 </pre><h1><a class="anchor" id="logging"></a>
 Logging</h1>
-<pre class="fragment">#include &lt;Log.hpp&gt;
-LOG("counter=" &lt;&lt; counter);
+<p >Example log for file DescriptorPca.cpp </p><pre class="fragment">#include &lt;Log.hpp&gt;
+#define LOG_MODULE_NAME "DescriptorPca"
+#define LOG_MODULE_ENABLED 1 /* Define to enable all debug log messages from this file. */
+LOG_DEBUG(&lt;&lt; "Found nPoints &lt;" &lt;&lt; nPoints &lt;&lt; "&gt;.");
 </pre><h1><a class="anchor" id="doxygen"></a>
 Doxygen</h1>
 <p >Example command to generate documentation: </p><pre class="fragment">mingw32-make doxygen
@@ -608,7 +610,7 @@ void foo(value);
 
 [in], [out], [in,out] for parameters:
 /** @param [in] milliseconds sleep until milliseconds have elapsed. */
-void msleep(long milliseconds);
+void Time::msleep(long milliseconds);
 
 Group 'Point Data' creates hierarchy in generated output:
     /** @name Point Data */
@@ -710,19 +712,26 @@ Edit Source Code with Visual Studio Code</h2>
             "${workspaceRoot}/3rdparty/delaunator",
             "${workspaceRoot}/3rdparty/eigen",
             "${workspaceRoot}/3rdparty/libigl/include",
+            "${workspaceRoot}/3rdparty/stb",
+            "${workspaceRoot}/3rdparty/warnings",
             "${workspaceRoot}/3rdparty/widgets/ctkrangeslider",
+            "${workspaceRoot}/3rdparty/widgets/flowlayout",
             "${workspaceRoot}/src/apps/3dforest",
             "${workspaceRoot}/src/apps/tools/sandbox",
             "${workspaceRoot}/src/core",
             "${workspaceRoot}/src/editor",
             "${workspaceRoot}/src/gui",
             "${workspaceRoot}/src/plugins/classification",
-            "${workspaceRoot}/src/plugins/help",
+            "${workspaceRoot}/src/plugins/density",
+            "${workspaceRoot}/src/plugins/descriptor",
             "${workspaceRoot}/src/plugins/elevation",
-            "${workspaceRoot}/src/plugins/export",
-            "${workspaceRoot}/src/plugins/import",
-            "${workspaceRoot}/src/plugins/projectnavigator",
+            "${workspaceRoot}/src/plugins/exportfile",
+            "${workspaceRoot}/src/plugins/heightmap",
+            "${workspaceRoot}/src/plugins/help",
+            "${workspaceRoot}/src/plugins/importfile",
+            "${workspaceRoot}/src/plugins/logger",
             "${workspaceRoot}/src/plugins/projectfile",
+            "${workspaceRoot}/src/plugins/projectnavigator",
             "${workspaceRoot}/src/plugins/segmentation",
             "${workspaceRoot}/src/plugins/settings",
             "${workspaceRoot}/src/plugins/viewer"]

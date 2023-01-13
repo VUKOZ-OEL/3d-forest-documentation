@@ -64,6 +64,8 @@ $(document).ready(function(){initNavTree('structLasFile_1_1Header.html',''); ini
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:afdd60d10aeff31922cd598e16cb2bd27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLasFile_1_1Header.html#afdd60d10aeff31922cd598e16cb2bd27">set</a> (uint64_t numberOfPoints, const <a class="el" href="classBox.html">Box</a>&lt; double &gt; &amp;box, const std::array&lt; double, 3 &gt; scale={1, 1, 1}, const std::array&lt; double, 3 &gt; offset={0, 0, 0}, uint8_t pointFormat=6, uint8_t versionMinor=4)</td></tr>
+<tr class="separator:afdd60d10aeff31922cd598e16cb2bd27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a917245c1f6eb85ffd9f5413b4a61cec3"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLasFile_1_1Header.html#a917245c1f6eb85ffd9f5413b4a61cec3">versionHeaderSize</a> () const</td></tr>
 <tr class="separator:a917245c1f6eb85ffd9f5413b4a61cec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98b060e32be1a43770aeb1b7d53f9b97"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structLasFile_1_1Header.html#a98b060e32be1a43770aeb1b7d53f9b97">pointDataRecordLengthFormat</a> () const</td></tr>
@@ -265,7 +267,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classPage.html#a794b61a639d75b1b37731cf3809f0ae3">Page::read()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">Page::readPage()</a>.</p>
 
 </div>
 </div>
@@ -284,7 +286,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classLasFile.html#ae5cfeb2ea48444aaeba75e3c3e27b9e0">LasFile::create()</a>, and <a class="el" href="classIndexFileBuilder.html#a14344f0ccc5a20eb64e4fee0e81f7530">IndexFileBuilder::openFiles()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classIndexFileBuilder.html#a14344f0ccc5a20eb64e4fee0e81f7530">IndexFileBuilder::openFiles()</a>.</p>
 
 </div>
 </div>
@@ -343,6 +345,60 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="afdd60d10aeff31922cd598e16cb2bd27" name="afdd60d10aeff31922cd598e16cb2bd27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdd60d10aeff31922cd598e16cb2bd27">&#9670;&nbsp;</a></span>set()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LasFile::Header::set </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>numberOfPoints</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classBox.html">Box</a>&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>box</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::array&lt; double, 3 &gt;&#160;</td>
+          <td class="paramname"><em>scale</em> = <code>{1,&#160;1,&#160;1}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::array&lt; double, 3 &gt;&#160;</td>
+          <td class="paramname"><em>offset</em> = <code>{0,&#160;0,&#160;0}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>pointFormat</em> = <code>6</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>versionMinor</em> = <code>4</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classExportFileFormatLas.html#a198a3035d1252de4e80532d90aa839af">ExportFileFormatLas::create()</a>, and <a class="el" href="classLasFile.html#ae5cfeb2ea48444aaeba75e3c3e27b9e0">LasFile::create()</a>.</p>
+
+</div>
+</div>
 <a id="aad0a47be63f7ba11c86580f264a2353b" name="aad0a47be63f7ba11c86580f264a2353b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aad0a47be63f7ba11c86580f264a2353b">&#9670;&nbsp;</a></span>setGeneratingSoftware()</h2>
 
@@ -358,7 +414,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classLasFile.html#ae5cfeb2ea48444aaeba75e3c3e27b9e0">LasFile::create()</a>, and <a class="el" href="classIndexFileBuilder.html#a14344f0ccc5a20eb64e4fee0e81f7530">IndexFileBuilder::openFiles()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classIndexFileBuilder.html#a14344f0ccc5a20eb64e4fee0e81f7530">IndexFileBuilder::openFiles()</a>.</p>
 
 </div>
 </div>
@@ -484,7 +540,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classLasFile.html#ae5cfeb2ea48444aaeba75e3c3e27b9e0">LasFile::create()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
 
 </div>
 </div>
@@ -548,7 +604,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classLasFile.html#ae5cfeb2ea48444aaeba75e3c3e27b9e0">LasFile::create()</a>, <a class="el" href="classIndexFileBuilder.html#a14344f0ccc5a20eb64e4fee0e81f7530">IndexFileBuilder::openFiles()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, <a class="el" href="classLasFile.html#a49be33bc84f61594ba728279abfdea7d">LasFile::seekVlr()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classIndexFileBuilder.html#a14344f0ccc5a20eb64e4fee0e81f7530">IndexFileBuilder::openFiles()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, <a class="el" href="classLasFile.html#a49be33bc84f61594ba728279abfdea7d">LasFile::seekVlr()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
 
 </div>
 </div>
@@ -564,7 +620,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classLasFile.html#ae5cfeb2ea48444aaeba75e3c3e27b9e0">LasFile::create()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
 
 </div>
 </div>
@@ -596,7 +652,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classLasFile.html#ae5cfeb2ea48444aaeba75e3c3e27b9e0">LasFile::create()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
 
 </div>
 </div>
@@ -612,7 +668,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classLasFile.html#ae5cfeb2ea48444aaeba75e3c3e27b9e0">LasFile::create()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
 
 </div>
 </div>
@@ -628,7 +684,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classLasFile.html#ae5cfeb2ea48444aaeba75e3c3e27b9e0">LasFile::create()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
 
 </div>
 </div>
@@ -644,7 +700,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classLasFile.html#ae5cfeb2ea48444aaeba75e3c3e27b9e0">LasFile::create()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
 
 </div>
 </div>
@@ -660,7 +716,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classLasFile.html#ae5cfeb2ea48444aaeba75e3c3e27b9e0">LasFile::create()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
 
 </div>
 </div>
@@ -676,7 +732,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classLasFile.html#ae5cfeb2ea48444aaeba75e3c3e27b9e0">LasFile::create()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
 
 </div>
 </div>
@@ -708,7 +764,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classLasFile.html#ae5cfeb2ea48444aaeba75e3c3e27b9e0">LasFile::create()</a>, <a class="el" href="classIndexFileBuilder.html#a4e47dd0050965ab6df680b7f3a9de815">IndexFileBuilder::nextState()</a>, <a class="el" href="classDataset.html#a73491ca173d47e43b0bdb29a4ee46f0b">Dataset::read()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classIndexFileBuilder.html#a4e47dd0050965ab6df680b7f3a9de815">IndexFileBuilder::nextState()</a>, <a class="el" href="classDataset.html#a73491ca173d47e43b0bdb29a4ee46f0b">Dataset::read()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
 
 </div>
 </div>
@@ -772,7 +828,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classLasFile.html#ae5cfeb2ea48444aaeba75e3c3e27b9e0">LasFile::create()</a>, <a class="el" href="classIndexFileBuilder.html#a14344f0ccc5a20eb64e4fee0e81f7530">IndexFileBuilder::openFiles()</a>, <a class="el" href="classPage.html#a794b61a639d75b1b37731cf3809f0ae3">Page::read()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, <a class="el" href="classLasFile.html#a26d4c64f95ef348b09c1e14f8079919e">LasFile::seekPointData()</a>, <a class="el" href="classIndexFileBuilder.html#ae8ba81be2fa095faae8f8fd63af19bdc">IndexFileBuilder::stateCopyPoints()</a>, <a class="el" href="classIndexFileBuilder.html#a5dc65f60cf7594728674341df62cea73">IndexFileBuilder::stateMainSort()</a>, <a class="el" href="classIndexFileBuilder.html#aa2f10cf0750d736387b1287fa44b83e2">IndexFileBuilder::stateNodeInsert()</a>, <a class="el" href="classPage.html#aa2aef9260a1e52ef92e68cdc7c7ad028">Page::write()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classIndexFileBuilder.html#a14344f0ccc5a20eb64e4fee0e81f7530">IndexFileBuilder::openFiles()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">Page::readPage()</a>, <a class="el" href="classLasFile.html#a26d4c64f95ef348b09c1e14f8079919e">LasFile::seekPointData()</a>, <a class="el" href="classIndexFileBuilder.html#ae8ba81be2fa095faae8f8fd63af19bdc">IndexFileBuilder::stateCopyPoints()</a>, <a class="el" href="classIndexFileBuilder.html#a5dc65f60cf7594728674341df62cea73">IndexFileBuilder::stateMainSort()</a>, <a class="el" href="classIndexFileBuilder.html#aa2f10cf0750d736387b1287fa44b83e2">IndexFileBuilder::stateNodeInsert()</a>, <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>, and <a class="el" href="classPage.html#a137739c8e55b1cf17cdd3b1737a80478">Page::writePage()</a>.</p>
 
 </div>
 </div>
@@ -804,7 +860,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classLasFile.html#ae5cfeb2ea48444aaeba75e3c3e27b9e0">LasFile::create()</a>, <a class="el" href="classIndexFileBuilder.html#ae28dd9a8cfc2340cbc68284236697d24">IndexFileBuilder::formatPoint()</a>, <a class="el" href="classIndexFileBuilder.html#a14344f0ccc5a20eb64e4fee0e81f7530">IndexFileBuilder::openFiles()</a>, <a class="el" href="classPage.html#a794b61a639d75b1b37731cf3809f0ae3">Page::read()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, <a class="el" href="classLasFile.html#a75ca97bb5ce5b57d52cfbfdec891987b">LasFile::readPoint()</a>, <a class="el" href="classIndexFileBuilder.html#ae8ba81be2fa095faae8f8fd63af19bdc">IndexFileBuilder::stateCopyPoints()</a>, <a class="el" href="classPage.html#aa2aef9260a1e52ef92e68cdc7c7ad028">Page::write()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classIndexFileBuilder.html#ae28dd9a8cfc2340cbc68284236697d24">IndexFileBuilder::formatPoint()</a>, <a class="el" href="classIndexFileBuilder.html#a14344f0ccc5a20eb64e4fee0e81f7530">IndexFileBuilder::openFiles()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">Page::readPage()</a>, <a class="el" href="classLasFile.html#a75ca97bb5ce5b57d52cfbfdec891987b">LasFile::readPoint()</a>, <a class="el" href="classIndexFileBuilder.html#ae8ba81be2fa095faae8f8fd63af19bdc">IndexFileBuilder::stateCopyPoints()</a>, <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>, and <a class="el" href="classPage.html#a137739c8e55b1cf17cdd3b1737a80478">Page::writePage()</a>.</p>
 
 </div>
 </div>
@@ -820,7 +876,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classLasFile.html#ae5cfeb2ea48444aaeba75e3c3e27b9e0">LasFile::create()</a>, <a class="el" href="classIndexFileBuilder.html#a14344f0ccc5a20eb64e4fee0e81f7530">IndexFileBuilder::openFiles()</a>, <a class="el" href="classPage.html#a794b61a639d75b1b37731cf3809f0ae3">Page::read()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, <a class="el" href="classLasFile.html#a5b1fa93b4518a9f19f5812aeefd9e814">LasFile::readPoint()</a>, <a class="el" href="classPage.html#aa2aef9260a1e52ef92e68cdc7c7ad028">Page::write()</a>, <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>, and <a class="el" href="classLasFile.html#aa39ee02843aad7c29901acc50d06504e">LasFile::writePoint()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classIndexFileBuilder.html#a14344f0ccc5a20eb64e4fee0e81f7530">IndexFileBuilder::openFiles()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">Page::readPage()</a>, <a class="el" href="classLasFile.html#a5b1fa93b4518a9f19f5812aeefd9e814">LasFile::readPoint()</a>, <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>, <a class="el" href="classPage.html#a137739c8e55b1cf17cdd3b1737a80478">Page::writePage()</a>, and <a class="el" href="classLasFile.html#aa39ee02843aad7c29901acc50d06504e">LasFile::writePoint()</a>.</p>
 
 </div>
 </div>
@@ -916,7 +972,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classLasFile.html#ae5cfeb2ea48444aaeba75e3c3e27b9e0">LasFile::create()</a>, <a class="el" href="classIndexFileBuilder.html#a14344f0ccc5a20eb64e4fee0e81f7530">IndexFileBuilder::openFiles()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, <a class="el" href="structLasFile_1_1Header.html#a917245c1f6eb85ffd9f5413b4a61cec3">versionHeaderSize()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classIndexFileBuilder.html#a14344f0ccc5a20eb64e4fee0e81f7530">IndexFileBuilder::openFiles()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
 
 </div>
 </div>
@@ -932,7 +988,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classLasFile.html#ae5cfeb2ea48444aaeba75e3c3e27b9e0">LasFile::create()</a>, <a class="el" href="classIndexFileBuilder.html#a14344f0ccc5a20eb64e4fee0e81f7530">IndexFileBuilder::openFiles()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, <a class="el" href="structLasFile_1_1Header.html#a917245c1f6eb85ffd9f5413b4a61cec3">versionHeaderSize()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classIndexFileBuilder.html#a14344f0ccc5a20eb64e4fee0e81f7530">IndexFileBuilder::openFiles()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
 
 </div>
 </div>
@@ -948,7 +1004,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classLasFile.html#ae5cfeb2ea48444aaeba75e3c3e27b9e0">LasFile::create()</a>, <a class="el" href="classDataset.html#a73491ca173d47e43b0bdb29a4ee46f0b">Dataset::read()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, <a class="el" href="classLasFile.html#ae2c0a823ac8c1ef63283d28fa8136d66">LasFile::transform()</a>, <a class="el" href="classLasFile.html#acceacd2b4c6a6238c26bdff1d099ca1b">LasFile::transformInvert()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classDataset.html#a73491ca173d47e43b0bdb29a4ee46f0b">Dataset::read()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, <a class="el" href="classLasFile.html#ae2c0a823ac8c1ef63283d28fa8136d66">LasFile::transform()</a>, <a class="el" href="classLasFile.html#acceacd2b4c6a6238c26bdff1d099ca1b">LasFile::transformInvert()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
 
 </div>
 </div>
@@ -964,7 +1020,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classLasFile.html#ae5cfeb2ea48444aaeba75e3c3e27b9e0">LasFile::create()</a>, <a class="el" href="classDataset.html#a73491ca173d47e43b0bdb29a4ee46f0b">Dataset::read()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, <a class="el" href="classLasFile.html#ae2c0a823ac8c1ef63283d28fa8136d66">LasFile::transform()</a>, <a class="el" href="classLasFile.html#acceacd2b4c6a6238c26bdff1d099ca1b">LasFile::transformInvert()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classDataset.html#a73491ca173d47e43b0bdb29a4ee46f0b">Dataset::read()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, <a class="el" href="classLasFile.html#ae2c0a823ac8c1ef63283d28fa8136d66">LasFile::transform()</a>, <a class="el" href="classLasFile.html#acceacd2b4c6a6238c26bdff1d099ca1b">LasFile::transformInvert()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
 
 </div>
 </div>
@@ -980,7 +1036,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classLasFile.html#ae5cfeb2ea48444aaeba75e3c3e27b9e0">LasFile::create()</a>, <a class="el" href="classDataset.html#a73491ca173d47e43b0bdb29a4ee46f0b">Dataset::read()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, <a class="el" href="classLasFile.html#ae2c0a823ac8c1ef63283d28fa8136d66">LasFile::transform()</a>, <a class="el" href="classLasFile.html#acceacd2b4c6a6238c26bdff1d099ca1b">LasFile::transformInvert()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classDataset.html#a73491ca173d47e43b0bdb29a4ee46f0b">Dataset::read()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, <a class="el" href="classLasFile.html#ae2c0a823ac8c1ef63283d28fa8136d66">LasFile::transform()</a>, <a class="el" href="classLasFile.html#acceacd2b4c6a6238c26bdff1d099ca1b">LasFile::transformInvert()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
 
 </div>
 </div>
@@ -996,7 +1052,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classLasFile.html#ae5cfeb2ea48444aaeba75e3c3e27b9e0">LasFile::create()</a>, <a class="el" href="classDataset.html#a73491ca173d47e43b0bdb29a4ee46f0b">Dataset::read()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, <a class="el" href="classLasFile.html#ae2c0a823ac8c1ef63283d28fa8136d66">LasFile::transform()</a>, <a class="el" href="classLasFile.html#acceacd2b4c6a6238c26bdff1d099ca1b">LasFile::transformInvert()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classDataset.html#a73491ca173d47e43b0bdb29a4ee46f0b">Dataset::read()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, <a class="el" href="classLasFile.html#ae2c0a823ac8c1ef63283d28fa8136d66">LasFile::transform()</a>, <a class="el" href="classLasFile.html#acceacd2b4c6a6238c26bdff1d099ca1b">LasFile::transformInvert()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
 
 </div>
 </div>
@@ -1012,7 +1068,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classLasFile.html#ae5cfeb2ea48444aaeba75e3c3e27b9e0">LasFile::create()</a>, <a class="el" href="classDataset.html#a73491ca173d47e43b0bdb29a4ee46f0b">Dataset::read()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, <a class="el" href="classLasFile.html#ae2c0a823ac8c1ef63283d28fa8136d66">LasFile::transform()</a>, <a class="el" href="classLasFile.html#acceacd2b4c6a6238c26bdff1d099ca1b">LasFile::transformInvert()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classDataset.html#a73491ca173d47e43b0bdb29a4ee46f0b">Dataset::read()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, <a class="el" href="classLasFile.html#ae2c0a823ac8c1ef63283d28fa8136d66">LasFile::transform()</a>, <a class="el" href="classLasFile.html#acceacd2b4c6a6238c26bdff1d099ca1b">LasFile::transformInvert()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
 
 </div>
 </div>
@@ -1028,7 +1084,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classLasFile.html#ae5cfeb2ea48444aaeba75e3c3e27b9e0">LasFile::create()</a>, <a class="el" href="classDataset.html#a73491ca173d47e43b0bdb29a4ee46f0b">Dataset::read()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, <a class="el" href="classLasFile.html#ae2c0a823ac8c1ef63283d28fa8136d66">LasFile::transform()</a>, <a class="el" href="classLasFile.html#acceacd2b4c6a6238c26bdff1d099ca1b">LasFile::transformInvert()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classDataset.html#a73491ca173d47e43b0bdb29a4ee46f0b">Dataset::read()</a>, <a class="el" href="classLasFile.html#a64eea39c20570366f83c29f134f4d5cd">LasFile::readHeader()</a>, <a class="el" href="classLasFile.html#ae2c0a823ac8c1ef63283d28fa8136d66">LasFile::transform()</a>, <a class="el" href="classLasFile.html#acceacd2b4c6a6238c26bdff1d099ca1b">LasFile::transformInvert()</a>, and <a class="el" href="classLasFile.html#a8deeb82d893c01bc5a36005d962d5615">LasFile::writeHeader()</a>.</p>
 
 </div>
 </div>

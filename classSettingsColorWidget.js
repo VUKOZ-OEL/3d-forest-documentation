@@ -1,35 +1,22 @@
 var classSettingsColorWidget =
 [
-    [ "Column", "classSettingsColorWidget.html#a00b0964fb4d3c0dadc49c9ff7f7df822", [
-      [ "COLUMN_CHECKED", "classSettingsColorWidget.html#a00b0964fb4d3c0dadc49c9ff7f7df822a0fddda020c0b776e7aa91cd8699cdd6c", null ],
-      [ "COLUMN_ID", "classSettingsColorWidget.html#a00b0964fb4d3c0dadc49c9ff7f7df822afb71bb11a442fe8fc03b7c7ec0aabe4d", null ],
-      [ "COLUMN_LABEL", "classSettingsColorWidget.html#a00b0964fb4d3c0dadc49c9ff7f7df822a6458b842193d6aaf42ee99636b0260ab", null ],
-      [ "COLUMN_OPACITY", "classSettingsColorWidget.html#a00b0964fb4d3c0dadc49c9ff7f7df822a65d7c3f577db292376298976b441dc86", null ],
-      [ "COLUMN_LAST", "classSettingsColorWidget.html#a00b0964fb4d3c0dadc49c9ff7f7df822a73327c072668f279eaac3cdee3a37532", null ]
-    ] ],
     [ "SettingsColorWidget", "classSettingsColorWidget.html#a313b815f432cb5d07df041445e4aecf1", null ],
-    [ "addItem", "classSettingsColorWidget.html#af29185429045cc19cfef4ba3ca5ef297", null ],
     [ "block", "classSettingsColorWidget.html#a3018a6528f64303d5cf64265517cbb83", null ],
     [ "colorDialog", "classSettingsColorWidget.html#a6cd4146208302d4aa04fcba848265d3d", null ],
-    [ "index", "classSettingsColorWidget.html#a5cd285dc5ff0f57451edbcf52e53ae0e", null ],
     [ "setColor", "classSettingsColorWidget.html#a5ea3113cf7dc4d272d68a5d52119f43a", null ],
-    [ "setColorSource", "classSettingsColorWidget.html#acb6fd4f240e6e460c74d13d39bf6ed2c", null ],
     [ "setSettings", "classSettingsColorWidget.html#a5a581cef6813766c199d81c60a9c1be5", null ],
     [ "settingsChanged", "classSettingsColorWidget.html#a9c23cd8ed157116e92bdef9606e8a9b5", null ],
     [ "settingsChangedApply", "classSettingsColorWidget.html#a00769a83d59b448a8ce6c76ee3706c7c", null ],
-    [ "slotItemChanged", "classSettingsColorWidget.html#a67b90f70443c0610df0a9298cdd06a68", null ],
     [ "slotSetColorBg", "classSettingsColorWidget.html#a2aa844eadfb6b35d58e612e3979fd0b5", null ],
     [ "slotSetColorFg", "classSettingsColorWidget.html#ab58114fbe7e620295d8ae2a6ffa05489", null ],
     [ "slotSetFogEnabled", "classSettingsColorWidget.html#ac605d14c29a9243552f0fb3b49c3ca20", null ],
     [ "slotSetPointSize", "classSettingsColorWidget.html#a0e8f7fbdbf2a367c421294146405a8c3", null ],
-    [ "slotUpdate", "classSettingsColorWidget.html#a5d9b429784a68b6f3214571081b78dcf", null ],
+    [ "slotUpdate", "classSettingsColorWidget.html#a4fcc9bd18be827315338530aa83b1d75", null ],
     [ "unblock", "classSettingsColorWidget.html#ae40c13163e94b29bdd9dc7eff332deec", null ],
-    [ "updateTree", "classSettingsColorWidget.html#a5bcafe62fdf0b058789bae3c5b3dd485", null ],
     [ "colorBgButton_", "classSettingsColorWidget.html#acdaf99e98fda01abb85970176ca2c91e", null ],
     [ "colorFgButton_", "classSettingsColorWidget.html#a0dad2b1d317d859cd0b1313b07acdbcf", null ],
     [ "fogCheckBox_", "classSettingsColorWidget.html#abc1451c24535ebd5c35f1636ed1cc20b", null ],
     [ "mainWindow_", "classSettingsColorWidget.html#a5b4b13b5bad88e9c617bb841e411b87f", null ],
     [ "pointSizeSlider_", "classSettingsColorWidget.html#ac5f188899f3352c51d5efaf2b404a877", null ],
-    [ "settings_", "classSettingsColorWidget.html#a7f28504c8e984c7d5f002c312a0c4af0", null ],
-    [ "treeWidget_", "classSettingsColorWidget.html#adf7dc9f15561429483da5ffc7aaab213", null ]
+    [ "settings_", "classSettingsColorWidget.html#a7f28504c8e984c7d5f002c312a0c4af0", null ]
 ];

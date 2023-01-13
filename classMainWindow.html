@@ -82,8 +82,8 @@ Public Slots</h2></td></tr>
 Signals</h2></td></tr>
 <tr class="memitem:ab1752eb76c7658ceb65786fcdc2b12df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#ab1752eb76c7658ceb65786fcdc2b12df">signalRender</a> ()</td></tr>
 <tr class="separator:ab1752eb76c7658ceb65786fcdc2b12df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a0216a91f1e80c0ffd4ceb5c5371dd7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a4a0216a91f1e80c0ffd4ceb5c5371dd7">signalUpdate</a> ()</td></tr>
-<tr class="separator:a4a0216a91f1e80c0ffd4ceb5c5371dd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bef2c89919d3839f26bc23bd953908b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a1bef2c89919d3839f26bc23bd953908b">signalUpdate</a> (void *sender, const QSet&lt; <a class="el" href="classEditor.html#a2f1ef3e46b110e654f971dabaa0e109d">Editor::Type</a> &gt; &amp;target)</td></tr>
+<tr class="separator:a1bef2c89919d3839f26bc23bd953908b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -109,6 +109,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af8a9144702df759c5883114632f1d92c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbe3dcb9cb8b1a48d10351a4f6e940a0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#afbe3dcb9cb8b1a48d10351a4f6e940a0">threadProgress</a> (bool finished) override</td></tr>
 <tr class="separator:afbe3dcb9cb8b1a48d10351a4f6e940a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d2d51d697d014d9e797da8308060c27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a7d2d51d697d014d9e797da8308060c27">update</a> (void *sender, const QSet&lt; <a class="el" href="classEditor.html#a2f1ef3e46b110e654f971dabaa0e109d">Editor::Type</a> &gt; &amp;target)</td></tr>
+<tr class="separator:a7d2d51d697d014d9e797da8308060c27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1485f4fb987094c07f08a974903f7740"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a1485f4fb987094c07f08a974903f7740">update</a> (const QSet&lt; <a class="el" href="classEditor.html#a2f1ef3e46b110e654f971dabaa0e109d">Editor::Type</a> &gt; &amp;target, <a class="el" href="classPage.html#a0bdf6886be75ddfd1b4626a5ced85c7a">Page::State</a> viewPortsCacheState=<a class="el" href="classPage.html#a0bdf6886be75ddfd1b4626a5ced85c7aa94f0f137fae1f1602316ea3da0cf2776">Page::STATE_READ</a>, bool resetCamera=false)</td></tr>
+<tr class="separator:a1485f4fb987094c07f08a974903f7740"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8cea92bdea9733772b65fc8d434ea762"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a8cea92bdea9733772b65fc8d434ea762">updateEverything</a> ()</td></tr>
 <tr class="separator:a8cea92bdea9733772b65fc8d434ea762"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0386597f60b60f599b306d9dfaa32fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#af0386597f60b60f599b306d9dfaa32fc">updateData</a> ()</td></tr>
@@ -162,8 +166,12 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:ac06299c080a47670c5512d2d6df67c7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85a27fbde71c5900149c6417e9e73555"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRenderThread.html">RenderThread</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a85a27fbde71c5900149c6417e9e73555">threadRender_</a></td></tr>
 <tr class="separator:a85a27fbde71c5900149c6417e9e73555"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c1182fffc1446376483b0f606a9450a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classImportPlugin.html">ImportPlugin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a1c1182fffc1446376483b0f606a9450a">importPlugin_</a></td></tr>
-<tr class="separator:a1c1182fffc1446376483b0f606a9450a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af11a924cc1e786e44574a3ce8a18b871"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classImportFilePlugin.html">ImportFilePlugin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#af11a924cc1e786e44574a3ce8a18b871">importFilePlugin_</a></td></tr>
+<tr class="separator:af11a924cc1e786e44574a3ce8a18b871"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66758880129a8840d12d876e179b148c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classExportFilePlugin.html">ExportFilePlugin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a66758880129a8840d12d876e179b148c">exportFilePlugin_</a></td></tr>
+<tr class="separator:a66758880129a8840d12d876e179b148c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa940bae6213571141d94199ab5c55922"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classLoggerPlugin.html">LoggerPlugin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#aa940bae6213571141d94199ab5c55922">loggerPlugin_</a></td></tr>
+<tr class="separator:aa940bae6213571141d94199ab5c55922"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae33f153fc996b738d6cbbd83c810f8b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classProjectNavigatorPlugin.html">ProjectNavigatorPlugin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#ae33f153fc996b738d6cbbd83c810f8b2">projectNavigatorPlugin_</a></td></tr>
 <tr class="separator:ae33f153fc996b738d6cbbd83c810f8b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d8470ccefbf28ad10a4af0a0d8b324f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classProjectFilePlugin.html">ProjectFilePlugin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMainWindow.html#a7d8470ccefbf28ad10a4af0a0d8b324f">projectFilePlugin_</a></td></tr>
@@ -318,7 +326,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classClassificationPlugin.html#aec961004efe44658af00e2828d4fb660">ClassificationPlugin::initialize()</a>, <a class="el" href="classElevationPlugin.html#a81fa22e62e4d51fa66dbfe23b7b4c67d">ElevationPlugin::initialize()</a>, <a class="el" href="classHelpPlugin.html#a8dc644cd25d837f8b49f86ade5f07a84">HelpPlugin::initialize()</a>, <a class="el" href="classImportPlugin.html#acc25ded55cdcbd0c82f9ef14bfed4568">ImportPlugin::initialize()</a>, <a class="el" href="classProjectFilePlugin.html#a8a81b49451cd85e0b0020d884f21c7dd">ProjectFilePlugin::initialize()</a>, <a class="el" href="classProjectNavigatorPlugin.html#a830087ef096b86ce1f9c17a0e7e55e84">ProjectNavigatorPlugin::initialize()</a>, <a class="el" href="classSegmentationPlugin.html#aa68ae3f064978f4caf64f5d8b1500698">SegmentationPlugin::initialize()</a>, <a class="el" href="classSettingsPlugin.html#a0598ca18d8c18b97d050609a14e4ca26">SettingsPlugin::initialize()</a>, <a class="el" href="classViewerPlugin.html#af74574b9902b948246a203252166d4e1">ViewerPlugin::initialize()</a>, and <a class="el" href="classMainWindow.html#a996c5a2b6f77944776856f08ec30858d">MainWindow()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classClassificationPlugin.html#aec961004efe44658af00e2828d4fb660">ClassificationPlugin::initialize()</a>, <a class="el" href="classDensityPlugin.html#abf4f52d2bd28ff124ad17420e136c973">DensityPlugin::initialize()</a>, <a class="el" href="classDescriptorPlugin.html#a314dce8b995bcdb4e6b28f367c6e9620">DescriptorPlugin::initialize()</a>, <a class="el" href="classElevationPlugin.html#a81fa22e62e4d51fa66dbfe23b7b4c67d">ElevationPlugin::initialize()</a>, <a class="el" href="classExportFilePlugin.html#aa32f8370379defcac276447082cfbd51">ExportFilePlugin::initialize()</a>, <a class="el" href="classHeightMapPlugin.html#a1b327ce7549e300eecbdeda1016b4c4b">HeightMapPlugin::initialize()</a>, <a class="el" href="classHelpPlugin.html#a8dc644cd25d837f8b49f86ade5f07a84">HelpPlugin::initialize()</a>, <a class="el" href="classImportFilePlugin.html#a0957b98b5e3f363e4f9a47aa504144ee">ImportFilePlugin::initialize()</a>, <a class="el" href="classLoggerPlugin.html#a8ef72d8f8827961f49fa558f7a27210b">LoggerPlugin::initialize()</a>, <a class="el" href="classProjectFilePlugin.html#a8a81b49451cd85e0b0020d884f21c7dd">ProjectFilePlugin::initialize()</a>, <a class="el" href="classProjectNavigatorPlugin.html#a830087ef096b86ce1f9c17a0e7e55e84">ProjectNavigatorPlugin::initialize()</a>, <a class="el" href="classSegmentationPlugin.html#aa68ae3f064978f4caf64f5d8b1500698">SegmentationPlugin::initialize()</a>, <a class="el" href="classSettingsPlugin.html#a0598ca18d8c18b97d050609a14e4ca26">SettingsPlugin::initialize()</a>, <a class="el" href="classViewerPlugin.html#af74574b9902b948246a203252166d4e1">ViewerPlugin::initialize()</a>, and <a class="el" href="classMainWindow.html#a996c5a2b6f77944776856f08ec30858d">MainWindow()</a>.</p>
 
 </div>
 </div>
@@ -408,7 +416,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorClassifications.html#a30bb168a7cefa4f75b12405bee5814c9">ProjectNavigatorClassifications::ProjectNavigatorClassifications()</a>, <a class="el" href="classProjectNavigatorFiles.html#a4e80bed92185345e5332416faf939046">ProjectNavigatorFiles::ProjectNavigatorFiles()</a>, and <a class="el" href="classProjectNavigatorLayers.html#aeea7a409f35d9c35bf1347c7d945d181">ProjectNavigatorLayers::ProjectNavigatorLayers()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classToolTabWidget.html#a03f991dc920bd50c11da5154f70ab65c">ToolTabWidget::addTab()</a>, <a class="el" href="classProjectNavigatorItemClassifications.html#a8951b43e23e2dca6d51a571229dbabaa">ProjectNavigatorItemClassifications::ProjectNavigatorItemClassifications()</a>, <a class="el" href="classProjectNavigatorItemFiles.html#a913b29d5cc9d6317d94221c364f50c32">ProjectNavigatorItemFiles::ProjectNavigatorItemFiles()</a>, and <a class="el" href="classProjectNavigatorItemLayers.html#a2bf1face6ccd4531260babb8473357c1">ProjectNavigatorItemLayers::ProjectNavigatorItemLayers()</a>.</p>
 
 </div>
 </div>
@@ -435,7 +443,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorClassifications.html#a554d0f16caed59e629353348159e9e1a">ProjectNavigatorClassifications::dataChanged()</a>, <a class="el" href="classProjectNavigatorFiles.html#accc152e48bec862be7fe61be26a9525e">ProjectNavigatorFiles::dataChanged()</a>, <a class="el" href="classProjectNavigatorLayers.html#a2bb8aaff158facad4783247e82d1f1d0">ProjectNavigatorLayers::dataChanged()</a>, <a class="el" href="classProjectNavigatorClassifications.html#a6be87b2a6fee6c7d3b64a24dcf11efd5">ProjectNavigatorClassifications::filterChanged()</a>, <a class="el" href="classProjectNavigatorElevation.html#a3e0c51801ed8f3c35e47aa2777f0b487">ProjectNavigatorElevation::filterChanged()</a>, <a class="el" href="classProjectNavigatorFiles.html#aed81ace52fe3562d8c861873780a44d3">ProjectNavigatorFiles::filterChanged()</a>, <a class="el" href="classProjectNavigatorLayers.html#a7f2db56096e81f08b1b759b34a1344be">ProjectNavigatorLayers::filterChanged()</a>, <a class="el" href="classProjectFilePlugin.html#a5936f0a89f7d48282432c61a540e3671">ProjectFilePlugin::projectClose()</a>, <a class="el" href="classProjectFilePlugin.html#a356ae85328baa249ac08f5c8768647ff">ProjectFilePlugin::projectOpen()</a>, <a class="el" href="classProjectFilePlugin.html#a5c928a25c63c0a22f9a514a1d19fe337">ProjectFilePlugin::projectSave()</a>, <a class="el" href="classSettingsColorWidget.html#a9c23cd8ed157116e92bdef9606e8a9b5">SettingsColorWidget::settingsChanged()</a>, <a class="el" href="classSettingsColorWidget.html#a00769a83d59b448a8ce6c76ee3706c7c">SettingsColorWidget::settingsChangedApply()</a>, <a class="el" href="classClassificationWindow.html#a9e1022b452fdc2ade14fd0fdd72360f5">ClassificationWindow::slotApply()</a>, <a class="el" href="classProjectNavigatorClassifications.html#a46febe0f05c08351767eca506e1fb96a">ProjectNavigatorClassifications::slotUpdate()</a>, <a class="el" href="classProjectNavigatorElevation.html#a97d58f52c03507388ceb2a68df6237d8">ProjectNavigatorElevation::slotUpdate()</a>, <a class="el" href="classProjectNavigatorFiles.html#a415f0ef83323e43b50a47bc90cd3ab67">ProjectNavigatorFiles::slotUpdate()</a>, <a class="el" href="classProjectNavigatorLayers.html#af82d0f51b2900760427ed507bbe5aff9">ProjectNavigatorLayers::slotUpdate()</a>, <a class="el" href="classSettingsColorWidget.html#a5d9b429784a68b6f3214571081b78dcf">SettingsColorWidget::slotUpdate()</a>, and <a class="el" href="classViewerPlugin.html#aa8f3e00bbee5fce2122080355e53f387">ViewerPlugin::slotViewLayout()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classProjectNavigatorTree.html#a1721750b39699bac987ab28e018bc84f">ProjectNavigatorTree::applySettingsOut()</a>, <a class="el" href="classProjectNavigatorItemClassifications.html#a39231eceae65dea5e88a127f6c2dbfdb">ProjectNavigatorItemClassifications::dataChanged()</a>, <a class="el" href="classProjectNavigatorItemFiles.html#a04e9a23c702292bb37edad78ecc26ac6">ProjectNavigatorItemFiles::dataChanged()</a>, <a class="el" href="classProjectNavigatorItemLayers.html#acbeb67dabd036d35fc2549df9931a6b2">ProjectNavigatorItemLayers::dataChanged()</a>, <a class="el" href="classProjectNavigatorItemDensity.html#a4fadac2e84780abab8ff64ad0e1cdb0f">ProjectNavigatorItemDensity::densityInputChanged()</a>, <a class="el" href="classProjectNavigatorItemDescriptor.html#ac36464193ac048e801a58eff1b72c6e5">ProjectNavigatorItemDescriptor::descriptorInputChanged()</a>, <a class="el" href="classProjectNavigatorItemElevation.html#a991222e8d1830dd64efc3231fef4d54f">ProjectNavigatorItemElevation::elevationInputChanged()</a>, <a class="el" href="classProjectNavigatorItemClassifications.html#aae8869ec39408176c3220a4acda9e531">ProjectNavigatorItemClassifications::filterChanged()</a>, <a class="el" href="classProjectNavigatorItemClipping.html#a0ad8a99cb08c4d7e2ca23128d7d319fd">ProjectNavigatorItemClipping::filterChanged()</a>, <a class="el" href="classProjectNavigatorItemFiles.html#a8040171e2fcd39a42c6e4a2dc2719503">ProjectNavigatorItemFiles::filterChanged()</a>, <a class="el" href="classProjectNavigatorItemLayers.html#a6d7bff3f38551b809a7f52fd3457d8d3">ProjectNavigatorItemLayers::filterChanged()</a>, <a class="el" href="classHeightMapModifier.html#a15efc5237c546f4743c2af4b1037ee68">HeightMapModifier::initialize()</a>, <a class="el" href="classProjectFilePlugin.html#a5936f0a89f7d48282432c61a540e3671">ProjectFilePlugin::projectClose()</a>, <a class="el" href="classProjectFilePlugin.html#a356ae85328baa249ac08f5c8768647ff">ProjectFilePlugin::projectOpen()</a>, <a class="el" href="classProjectFilePlugin.html#a5c928a25c63c0a22f9a514a1d19fe337">ProjectFilePlugin::projectSave()</a>, <a class="el" href="classSettingsColorWidget.html#a9c23cd8ed157116e92bdef9606e8a9b5">SettingsColorWidget::settingsChanged()</a>, <a class="el" href="classSettingsColorWidget.html#a00769a83d59b448a8ce6c76ee3706c7c">SettingsColorWidget::settingsChangedApply()</a>, <a class="el" href="classClassificationWindow.html#a9e1022b452fdc2ade14fd0fdd72360f5">ClassificationWindow::slotApply()</a>, <a class="el" href="classDensityWindow.html#a1fc64928ba129702cca0870725840578">DensityWindow::slotApply()</a>, <a class="el" href="classElevationWindow.html#a0993f2ac216e1c34008a0c71781ab753">ElevationWindow::slotApply()</a>, <a class="el" href="classExportFilePlugin.html#a2a5787b4525819053b994066d73a5f2a">ExportFilePlugin::slotExportFile()</a>, <a class="el" href="classProjectNavigatorItemClassifications.html#ac491458c93a19c3840189cfaa26625aa">ProjectNavigatorItemClassifications::slotUpdate()</a>, <a class="el" href="classProjectNavigatorItemClipping.html#ac052512d2a2d6b1b5cf0ef49d6503602">ProjectNavigatorItemClipping::slotUpdate()</a>, <a class="el" href="classProjectNavigatorItemDensity.html#ae5e878c77cb9d64dea2ec205c8a6878b">ProjectNavigatorItemDensity::slotUpdate()</a>, <a class="el" href="classProjectNavigatorItemDescriptor.html#a91af5a4f93fcf6122d3559d88dfbf203">ProjectNavigatorItemDescriptor::slotUpdate()</a>, <a class="el" href="classProjectNavigatorItemElevation.html#a134c5b5ea7218ec79bd761372558f3e1">ProjectNavigatorItemElevation::slotUpdate()</a>, <a class="el" href="classProjectNavigatorItemFiles.html#acceb7682a831c8a4bd3457f765d2582b">ProjectNavigatorItemFiles::slotUpdate()</a>, <a class="el" href="classProjectNavigatorItemLayers.html#a25d593b3cc883381300d3d700b1c76c2">ProjectNavigatorItemLayers::slotUpdate()</a>, <a class="el" href="classProjectNavigatorTree.html#a5186b73fdb805548e3275449ad236a69">ProjectNavigatorTree::slotUpdate()</a>, <a class="el" href="classSettingsColorWidget.html#a4fcc9bd18be827315338530aa83b1d75">SettingsColorWidget::slotUpdate()</a>, and <a class="el" href="classViewerPlugin.html#aa8f3e00bbee5fce2122080355e53f387">ViewerPlugin::slotViewLayout()</a>.</p>
 
 </div>
 </div>
@@ -455,7 +463,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classImportPlugin.html#acc25ded55cdcbd0c82f9ef14bfed4568">ImportPlugin::initialize()</a>, <a class="el" href="classProjectFilePlugin.html#a8a81b49451cd85e0b0020d884f21c7dd">ProjectFilePlugin::initialize()</a>, and <a class="el" href="classViewerPlugin.html#af74574b9902b948246a203252166d4e1">ViewerPlugin::initialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classImportFilePlugin.html#a0957b98b5e3f363e4f9a47aa504144ee">ImportFilePlugin::initialize()</a>, and <a class="el" href="classProjectFilePlugin.html#a8a81b49451cd85e0b0020d884f21c7dd">ProjectFilePlugin::initialize()</a>.</p>
 
 </div>
 </div>
@@ -554,7 +562,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classSegmentationWindow.html#a5b9f1d01f33bd6d44b508fee569d212a">SegmentationWindow::closeEvent()</a>, <a class="el" href="classClassificationWindow.html#a9e1022b452fdc2ade14fd0fdd72360f5">ClassificationWindow::slotApply()</a>, <a class="el" href="classMainWindow.html#af0386597f60b60f599b306d9dfaa32fc">updateData()</a>, <a class="el" href="classMainWindow.html#a8802f2eb453d7f80369c1bdb5c4b67ef">updateFilter()</a>, <a class="el" href="classMainWindow.html#ad38737cf15e5efc031a03010660c6c44">updateModifiers()</a>, and <a class="el" href="classMainWindow.html#aa2a5945f9c4bf90022f0a7ad3db34c49">updateRender()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classHeightMapModifier.html#afa259574f27a25cec180da487dad0d86">HeightMapModifier::apply()</a>, <a class="el" href="classSegmentationWindow.html#a5b9f1d01f33bd6d44b508fee569d212a">SegmentationWindow::closeEvent()</a>, <a class="el" href="classHeightMapModifier.html#a244f6506a764ae2978540133b39d7add">HeightMapModifier::setPreviewEnabled()</a>, <a class="el" href="classClassificationWindow.html#a9e1022b452fdc2ade14fd0fdd72360f5">ClassificationWindow::slotApply()</a>, <a class="el" href="classExportFilePlugin.html#a2a5787b4525819053b994066d73a5f2a">ExportFilePlugin::slotExportFile()</a>, <a class="el" href="classMainWindow.html#a1485f4fb987094c07f08a974903f7740">update()</a>, <a class="el" href="classMainWindow.html#af0386597f60b60f599b306d9dfaa32fc">updateData()</a>, <a class="el" href="classMainWindow.html#a8802f2eb453d7f80369c1bdb5c4b67ef">updateFilter()</a>, <a class="el" href="classMainWindow.html#ad38737cf15e5efc031a03010660c6c44">updateModifiers()</a>, and <a class="el" href="classMainWindow.html#aa2a5945f9c4bf90022f0a7ad3db34c49">updateRender()</a>.</p>
 
 </div>
 </div>
@@ -614,7 +622,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classImportPlugin.html#a14d3471acc805e92288e92895fbc59dd">ImportPlugin::import()</a>, <a class="el" href="classProjectFilePlugin.html#a5936f0a89f7d48282432c61a540e3671">ProjectFilePlugin::projectClose()</a>, <a class="el" href="classProjectFilePlugin.html#a356ae85328baa249ac08f5c8768647ff">ProjectFilePlugin::projectOpen()</a>, and <a class="el" href="classProjectFilePlugin.html#a5c928a25c63c0a22f9a514a1d19fe337">ProjectFilePlugin::projectSave()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classImportFilePlugin.html#a5718fe83c8ba8558aa101db20d20f107">ImportFilePlugin::import()</a>, <a class="el" href="classProjectFilePlugin.html#a5936f0a89f7d48282432c61a540e3671">ProjectFilePlugin::projectClose()</a>, <a class="el" href="classProjectFilePlugin.html#a356ae85328baa249ac08f5c8768647ff">ProjectFilePlugin::projectOpen()</a>, <a class="el" href="classProjectFilePlugin.html#a5c928a25c63c0a22f9a514a1d19fe337">ProjectFilePlugin::projectSave()</a>, <a class="el" href="classClassificationWindow.html#a9e1022b452fdc2ade14fd0fdd72360f5">ClassificationWindow::slotApply()</a>, <a class="el" href="classDensityWindow.html#a1fc64928ba129702cca0870725840578">DensityWindow::slotApply()</a>, <a class="el" href="classDescriptorWindow.html#a3917ba6efcf195c53a86f2e0b39bd172">DescriptorWindow::slotApply()</a>, <a class="el" href="classElevationWindow.html#a0993f2ac216e1c34008a0c71781ab753">ElevationWindow::slotApply()</a>, and <a class="el" href="classExportFilePlugin.html#a2a5787b4525819053b994066d73a5f2a">ExportFilePlugin::slotExportFile()</a>.</p>
 
 </div>
 </div>
@@ -645,8 +653,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4a0216a91f1e80c0ffd4ceb5c5371dd7" name="a4a0216a91f1e80c0ffd4ceb5c5371dd7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a0216a91f1e80c0ffd4ceb5c5371dd7">&#9670;&nbsp;</a></span>signalUpdate</h2>
+<a id="a1bef2c89919d3839f26bc23bd953908b" name="a1bef2c89919d3839f26bc23bd953908b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bef2c89919d3839f26bc23bd953908b">&#9670;&nbsp;</a></span>signalUpdate</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -657,8 +665,19 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">void MainWindow::signalUpdate </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>sender</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const QSet&lt; <a class="el" href="classEditor.html#a2f1ef3e46b110e654f971dabaa0e109d">Editor::Type</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>target</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -668,7 +687,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classMainWindow.html#a8cea92bdea9733772b65fc8d434ea762">updateEverything()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classMainWindow.html#a7d2d51d697d014d9e797da8308060c27">update()</a>, and <a class="el" href="classMainWindow.html#a8cea92bdea9733772b65fc8d434ea762">updateEverything()</a>.</p>
 
 </div>
 </div>
@@ -792,7 +811,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorClassifications.html#a554d0f16caed59e629353348159e9e1a">ProjectNavigatorClassifications::dataChanged()</a>, <a class="el" href="classProjectNavigatorFiles.html#accc152e48bec862be7fe61be26a9525e">ProjectNavigatorFiles::dataChanged()</a>, <a class="el" href="classProjectNavigatorLayers.html#a2bb8aaff158facad4783247e82d1f1d0">ProjectNavigatorLayers::dataChanged()</a>, <a class="el" href="classProjectNavigatorClassifications.html#a6be87b2a6fee6c7d3b64a24dcf11efd5">ProjectNavigatorClassifications::filterChanged()</a>, <a class="el" href="classProjectNavigatorElevation.html#a3e0c51801ed8f3c35e47aa2777f0b487">ProjectNavigatorElevation::filterChanged()</a>, <a class="el" href="classProjectNavigatorFiles.html#aed81ace52fe3562d8c861873780a44d3">ProjectNavigatorFiles::filterChanged()</a>, <a class="el" href="classProjectNavigatorLayers.html#a7f2db56096e81f08b1b759b34a1344be">ProjectNavigatorLayers::filterChanged()</a>, <a class="el" href="classProjectFilePlugin.html#a5936f0a89f7d48282432c61a540e3671">ProjectFilePlugin::projectClose()</a>, <a class="el" href="classProjectFilePlugin.html#a5c928a25c63c0a22f9a514a1d19fe337">ProjectFilePlugin::projectSave()</a>, <a class="el" href="classSettingsColorWidget.html#a9c23cd8ed157116e92bdef9606e8a9b5">SettingsColorWidget::settingsChanged()</a>, <a class="el" href="classSettingsColorWidget.html#a00769a83d59b448a8ce6c76ee3706c7c">SettingsColorWidget::settingsChangedApply()</a>, <a class="el" href="classSegmentationWindow.html#a01ccc726d3a708870a1fbcfca6c68adc">SegmentationWindow::showEvent()</a>, <a class="el" href="classClassificationWindow.html#a9e1022b452fdc2ade14fd0fdd72360f5">ClassificationWindow::slotApply()</a>, <a class="el" href="classElevationWindow.html#a0993f2ac216e1c34008a0c71781ab753">ElevationWindow::slotApply()</a>, <a class="el" href="classViewerPlugin.html#aa8f3e00bbee5fce2122080355e53f387">ViewerPlugin::slotViewLayout()</a>, <a class="el" href="classMainWindow.html#af0386597f60b60f599b306d9dfaa32fc">updateData()</a>, <a class="el" href="classMainWindow.html#a8cea92bdea9733772b65fc8d434ea762">updateEverything()</a>, <a class="el" href="classMainWindow.html#a8802f2eb453d7f80369c1bdb5c4b67ef">updateFilter()</a>, <a class="el" href="classMainWindow.html#ad38737cf15e5efc031a03010660c6c44">updateModifiers()</a>, and <a class="el" href="classMainWindow.html#aa2a5945f9c4bf90022f0a7ad3db34c49">updateRender()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classHeightMapModifier.html#afa259574f27a25cec180da487dad0d86">HeightMapModifier::apply()</a>, <a class="el" href="classProjectNavigatorTree.html#a1721750b39699bac987ab28e018bc84f">ProjectNavigatorTree::applySettingsOut()</a>, <a class="el" href="classProjectNavigatorItemClassifications.html#a39231eceae65dea5e88a127f6c2dbfdb">ProjectNavigatorItemClassifications::dataChanged()</a>, <a class="el" href="classProjectNavigatorItemFiles.html#a04e9a23c702292bb37edad78ecc26ac6">ProjectNavigatorItemFiles::dataChanged()</a>, <a class="el" href="classProjectNavigatorItemLayers.html#acbeb67dabd036d35fc2549df9931a6b2">ProjectNavigatorItemLayers::dataChanged()</a>, <a class="el" href="classProjectNavigatorItemDensity.html#a4fadac2e84780abab8ff64ad0e1cdb0f">ProjectNavigatorItemDensity::densityInputChanged()</a>, <a class="el" href="classProjectNavigatorItemDescriptor.html#ac36464193ac048e801a58eff1b72c6e5">ProjectNavigatorItemDescriptor::descriptorInputChanged()</a>, <a class="el" href="classProjectNavigatorItemElevation.html#a991222e8d1830dd64efc3231fef4d54f">ProjectNavigatorItemElevation::elevationInputChanged()</a>, <a class="el" href="classProjectNavigatorItemClassifications.html#aae8869ec39408176c3220a4acda9e531">ProjectNavigatorItemClassifications::filterChanged()</a>, <a class="el" href="classProjectNavigatorItemClipping.html#a0ad8a99cb08c4d7e2ca23128d7d319fd">ProjectNavigatorItemClipping::filterChanged()</a>, <a class="el" href="classProjectNavigatorItemFiles.html#a8040171e2fcd39a42c6e4a2dc2719503">ProjectNavigatorItemFiles::filterChanged()</a>, <a class="el" href="classProjectNavigatorItemLayers.html#a6d7bff3f38551b809a7f52fd3457d8d3">ProjectNavigatorItemLayers::filterChanged()</a>, <a class="el" href="classProjectFilePlugin.html#a5936f0a89f7d48282432c61a540e3671">ProjectFilePlugin::projectClose()</a>, <a class="el" href="classProjectFilePlugin.html#a5c928a25c63c0a22f9a514a1d19fe337">ProjectFilePlugin::projectSave()</a>, <a class="el" href="classHeightMapModifier.html#a244f6506a764ae2978540133b39d7add">HeightMapModifier::setPreviewEnabled()</a>, <a class="el" href="classSettingsColorWidget.html#a9c23cd8ed157116e92bdef9606e8a9b5">SettingsColorWidget::settingsChanged()</a>, <a class="el" href="classSettingsColorWidget.html#a00769a83d59b448a8ce6c76ee3706c7c">SettingsColorWidget::settingsChangedApply()</a>, <a class="el" href="classSegmentationWindow.html#a01ccc726d3a708870a1fbcfca6c68adc">SegmentationWindow::showEvent()</a>, <a class="el" href="classClassificationWindow.html#a9e1022b452fdc2ade14fd0fdd72360f5">ClassificationWindow::slotApply()</a>, <a class="el" href="classDensityWindow.html#a1fc64928ba129702cca0870725840578">DensityWindow::slotApply()</a>, <a class="el" href="classDescriptorWindow.html#a3917ba6efcf195c53a86f2e0b39bd172">DescriptorWindow::slotApply()</a>, <a class="el" href="classElevationWindow.html#a0993f2ac216e1c34008a0c71781ab753">ElevationWindow::slotApply()</a>, <a class="el" href="classExportFilePlugin.html#a2a5787b4525819053b994066d73a5f2a">ExportFilePlugin::slotExportFile()</a>, <a class="el" href="classViewerPlugin.html#aa8f3e00bbee5fce2122080355e53f387">ViewerPlugin::slotViewLayout()</a>, <a class="el" href="classMainWindow.html#a1485f4fb987094c07f08a974903f7740">update()</a>, <a class="el" href="classMainWindow.html#af0386597f60b60f599b306d9dfaa32fc">updateData()</a>, <a class="el" href="classMainWindow.html#a8cea92bdea9733772b65fc8d434ea762">updateEverything()</a>, <a class="el" href="classMainWindow.html#a8802f2eb453d7f80369c1bdb5c4b67ef">updateFilter()</a>, <a class="el" href="classMainWindow.html#ad38737cf15e5efc031a03010660c6c44">updateModifiers()</a>, and <a class="el" href="classMainWindow.html#aa2a5945f9c4bf90022f0a7ad3db34c49">updateRender()</a>.</p>
 
 </div>
 </div>
@@ -824,6 +843,70 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a1485f4fb987094c07f08a974903f7740" name="a1485f4fb987094c07f08a974903f7740"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1485f4fb987094c07f08a974903f7740">&#9670;&nbsp;</a></span>update() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::update </td>
+          <td>(</td>
+          <td class="paramtype">const QSet&lt; <a class="el" href="classEditor.html#a2f1ef3e46b110e654f971dabaa0e109d">Editor::Type</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>target</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classPage.html#a0bdf6886be75ddfd1b4626a5ced85c7a">Page::State</a>&#160;</td>
+          <td class="paramname"><em>viewPortsCacheState</em> = <code><a class="el" href="classPage.html#a0bdf6886be75ddfd1b4626a5ced85c7aa94f0f137fae1f1602316ea3da0cf2776">Page::STATE_READ</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>resetCamera</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d2d51d697d014d9e797da8308060c27" name="a7d2d51d697d014d9e797da8308060c27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d2d51d697d014d9e797da8308060c27">&#9670;&nbsp;</a></span>update() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::update </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>sender</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QSet&lt; <a class="el" href="classEditor.html#a2f1ef3e46b110e654f971dabaa0e109d">Editor::Type</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>target</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classProjectNavigatorTree.html#a1721750b39699bac987ab28e018bc84f">ProjectNavigatorTree::applySettingsOut()</a>, <a class="el" href="classSettingsColorWidget.html#a9c23cd8ed157116e92bdef9606e8a9b5">SettingsColorWidget::settingsChanged()</a>, <a class="el" href="classSettingsColorWidget.html#a00769a83d59b448a8ce6c76ee3706c7c">SettingsColorWidget::settingsChangedApply()</a>, <a class="el" href="classDensityWindow.html#a1fc64928ba129702cca0870725840578">DensityWindow::slotApply()</a>, <a class="el" href="classDescriptorWindow.html#a3917ba6efcf195c53a86f2e0b39bd172">DescriptorWindow::slotApply()</a>, <a class="el" href="classElevationWindow.html#a0993f2ac216e1c34008a0c71781ab753">ElevationWindow::slotApply()</a>, <a class="el" href="classSegmentationWindow.html#a7fdfab3c505670b9087767e97f144263">SegmentationWindow::slotThread()</a>, and <a class="el" href="classMainWindow.html#a1485f4fb987094c07f08a974903f7740">update()</a>.</p>
+
+</div>
+</div>
 <a id="af0386597f60b60f599b306d9dfaa32fc" name="af0386597f60b60f599b306d9dfaa32fc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af0386597f60b60f599b306d9dfaa32fc">&#9670;&nbsp;</a></span>updateData()</h2>
 
@@ -839,7 +922,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorClassifications.html#a554d0f16caed59e629353348159e9e1a">ProjectNavigatorClassifications::dataChanged()</a>, <a class="el" href="classProjectNavigatorFiles.html#accc152e48bec862be7fe61be26a9525e">ProjectNavigatorFiles::dataChanged()</a>, and <a class="el" href="classProjectNavigatorLayers.html#a2bb8aaff158facad4783247e82d1f1d0">ProjectNavigatorLayers::dataChanged()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classProjectNavigatorItemClassifications.html#a39231eceae65dea5e88a127f6c2dbfdb">ProjectNavigatorItemClassifications::dataChanged()</a>, <a class="el" href="classProjectNavigatorItemFiles.html#a04e9a23c702292bb37edad78ecc26ac6">ProjectNavigatorItemFiles::dataChanged()</a>, and <a class="el" href="classProjectNavigatorItemLayers.html#acbeb67dabd036d35fc2549df9931a6b2">ProjectNavigatorItemLayers::dataChanged()</a>.</p>
 
 </div>
 </div>
@@ -858,7 +941,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classMainWindow.html#a996c5a2b6f77944776856f08ec30858d">MainWindow()</a>, <a class="el" href="classProjectFilePlugin.html#a356ae85328baa249ac08f5c8768647ff">ProjectFilePlugin::projectOpen()</a>, <a class="el" href="classElevationWindow.html#a0993f2ac216e1c34008a0c71781ab753">ElevationWindow::slotApply()</a>, and <a class="el" href="classProjectFilePlugin.html#a83f11e728a8cf031412b9ddced978c07">ProjectFilePlugin::slotProjectNew()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classMainWindow.html#a996c5a2b6f77944776856f08ec30858d">MainWindow()</a>, <a class="el" href="classProjectFilePlugin.html#a356ae85328baa249ac08f5c8768647ff">ProjectFilePlugin::projectOpen()</a>, and <a class="el" href="classProjectFilePlugin.html#a83f11e728a8cf031412b9ddced978c07">ProjectFilePlugin::slotProjectNew()</a>.</p>
 
 </div>
 </div>
@@ -877,7 +960,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorClassifications.html#a6be87b2a6fee6c7d3b64a24dcf11efd5">ProjectNavigatorClassifications::filterChanged()</a>, <a class="el" href="classProjectNavigatorElevation.html#a3e0c51801ed8f3c35e47aa2777f0b487">ProjectNavigatorElevation::filterChanged()</a>, <a class="el" href="classProjectNavigatorFiles.html#aed81ace52fe3562d8c861873780a44d3">ProjectNavigatorFiles::filterChanged()</a>, and <a class="el" href="classProjectNavigatorLayers.html#a7f2db56096e81f08b1b759b34a1344be">ProjectNavigatorLayers::filterChanged()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classProjectNavigatorItemDensity.html#a4fadac2e84780abab8ff64ad0e1cdb0f">ProjectNavigatorItemDensity::densityInputChanged()</a>, <a class="el" href="classProjectNavigatorItemDescriptor.html#ac36464193ac048e801a58eff1b72c6e5">ProjectNavigatorItemDescriptor::descriptorInputChanged()</a>, <a class="el" href="classProjectNavigatorItemElevation.html#a991222e8d1830dd64efc3231fef4d54f">ProjectNavigatorItemElevation::elevationInputChanged()</a>, <a class="el" href="classProjectNavigatorItemClassifications.html#aae8869ec39408176c3220a4acda9e531">ProjectNavigatorItemClassifications::filterChanged()</a>, <a class="el" href="classProjectNavigatorItemClipping.html#a0ad8a99cb08c4d7e2ca23128d7d319fd">ProjectNavigatorItemClipping::filterChanged()</a>, <a class="el" href="classProjectNavigatorItemFiles.html#a8040171e2fcd39a42c6e4a2dc2719503">ProjectNavigatorItemFiles::filterChanged()</a>, and <a class="el" href="classProjectNavigatorItemLayers.html#a6d7bff3f38551b809a7f52fd3457d8d3">ProjectNavigatorItemLayers::filterChanged()</a>.</p>
 
 </div>
 </div>
@@ -896,7 +979,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classSettingsColorWidget.html#a00769a83d59b448a8ce6c76ee3706c7c">SettingsColorWidget::settingsChangedApply()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classProjectNavigatorTree.html#a1721750b39699bac987ab28e018bc84f">ProjectNavigatorTree::applySettingsOut()</a>, and <a class="el" href="classSettingsColorWidget.html#a00769a83d59b448a8ce6c76ee3706c7c">SettingsColorWidget::settingsChangedApply()</a>.</p>
 
 </div>
 </div>
@@ -1012,7 +1095,31 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classMainWindow.html#a5d02c284dd17276fa5e9ced864324476">loadPlugin()</a>, <a class="el" href="classMainWindow.html#ab399feaee95b2330bd6ad0bbeaebcbe6">slotRender()</a>, <a class="el" href="classMainWindow.html#af0386597f60b60f599b306d9dfaa32fc">updateData()</a>, <a class="el" href="classMainWindow.html#a8cea92bdea9733772b65fc8d434ea762">updateEverything()</a>, <a class="el" href="classMainWindow.html#a8802f2eb453d7f80369c1bdb5c4b67ef">updateFilter()</a>, <a class="el" href="classMainWindow.html#ad38737cf15e5efc031a03010660c6c44">updateModifiers()</a>, and <a class="el" href="classMainWindow.html#aa2a5945f9c4bf90022f0a7ad3db34c49">updateRender()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classMainWindow.html#a5d02c284dd17276fa5e9ced864324476">loadPlugin()</a>, <a class="el" href="classMainWindow.html#ab399feaee95b2330bd6ad0bbeaebcbe6">slotRender()</a>, <a class="el" href="classMainWindow.html#a1485f4fb987094c07f08a974903f7740">update()</a>, <a class="el" href="classMainWindow.html#af0386597f60b60f599b306d9dfaa32fc">updateData()</a>, <a class="el" href="classMainWindow.html#a8cea92bdea9733772b65fc8d434ea762">updateEverything()</a>, <a class="el" href="classMainWindow.html#a8802f2eb453d7f80369c1bdb5c4b67ef">updateFilter()</a>, <a class="el" href="classMainWindow.html#ad38737cf15e5efc031a03010660c6c44">updateModifiers()</a>, and <a class="el" href="classMainWindow.html#aa2a5945f9c4bf90022f0a7ad3db34c49">updateRender()</a>.</p>
+
+</div>
+</div>
+<a id="a66758880129a8840d12d876e179b148c" name="a66758880129a8840d12d876e179b148c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66758880129a8840d12d876e179b148c">&#9670;&nbsp;</a></span>exportFilePlugin_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classExportFilePlugin.html">ExportFilePlugin</a>* MainWindow::exportFilePlugin_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classMainWindow.html#a996c5a2b6f77944776856f08ec30858d">MainWindow()</a>.</p>
 
 </div>
 </div>
@@ -1060,7 +1167,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classMainWindow.html#a77b39adc9dd7fbde00139efcdc7b9592">createAction()</a>, <a class="el" href="classProjectNavigatorClassifications.html#a30bb168a7cefa4f75b12405bee5814c9">ProjectNavigatorClassifications::ProjectNavigatorClassifications()</a>, <a class="el" href="classProjectNavigatorFiles.html#a4e80bed92185345e5332416faf939046">ProjectNavigatorFiles::ProjectNavigatorFiles()</a>, and <a class="el" href="classProjectNavigatorLayers.html#aeea7a409f35d9c35bf1347c7d945d181">ProjectNavigatorLayers::ProjectNavigatorLayers()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classMainWindow.html#a77b39adc9dd7fbde00139efcdc7b9592">createAction()</a>, <a class="el" href="classProjectNavigatorItemClassifications.html#a8951b43e23e2dca6d51a571229dbabaa">ProjectNavigatorItemClassifications::ProjectNavigatorItemClassifications()</a>, <a class="el" href="classProjectNavigatorItemFiles.html#a913b29d5cc9d6317d94221c364f50c32">ProjectNavigatorItemFiles::ProjectNavigatorItemFiles()</a>, and <a class="el" href="classProjectNavigatorItemLayers.html#a2bf1face6ccd4531260babb8473357c1">ProjectNavigatorItemLayers::ProjectNavigatorItemLayers()</a>.</p>
 
 </div>
 </div>
@@ -1084,12 +1191,12 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classRangeSliderWidget.html#ae3050a911567010b3fac4c50b07c1cf3">RangeSliderWidget::create()</a>, <a class="el" href="classSliderWidget.html#a64615e4034278f86984b1995f537a371">SliderWidget::create()</a>, <a class="el" href="classMainWindow.html#a996c5a2b6f77944776856f08ec30858d">MainWindow()</a>, <a class="el" href="classProjectNavigatorWindow.html#ad86f71e57a5acf7411777e2115cf8c68">ProjectNavigatorWindow::ProjectNavigatorWindow()</a>, and <a class="el" href="classSettingsWindow.html#a9404b1f5819fc4a6f675c50dd25f7659">SettingsWindow::SettingsWindow()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classRangeSliderWidget.html#ae3050a911567010b3fac4c50b07c1cf3">RangeSliderWidget::create()</a>, <a class="el" href="classSliderWidget.html#a64615e4034278f86984b1995f537a371">SliderWidget::create()</a>, and <a class="el" href="classMainWindow.html#a996c5a2b6f77944776856f08ec30858d">MainWindow()</a>.</p>
 
 </div>
 </div>
-<a id="a1c1182fffc1446376483b0f606a9450a" name="a1c1182fffc1446376483b0f606a9450a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c1182fffc1446376483b0f606a9450a">&#9670;&nbsp;</a></span>importPlugin_</h2>
+<a id="af11a924cc1e786e44574a3ce8a18b871" name="af11a924cc1e786e44574a3ce8a18b871"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af11a924cc1e786e44574a3ce8a18b871">&#9670;&nbsp;</a></span>importFilePlugin_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1098,7 +1205,31 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classImportPlugin.html">ImportPlugin</a>* MainWindow::importPlugin_</td>
+          <td class="memname"><a class="el" href="classImportFilePlugin.html">ImportFilePlugin</a>* MainWindow::importFilePlugin_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classMainWindow.html#a996c5a2b6f77944776856f08ec30858d">MainWindow()</a>.</p>
+
+</div>
+</div>
+<a id="aa940bae6213571141d94199ab5c55922" name="aa940bae6213571141d94199ab5c55922"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa940bae6213571141d94199ab5c55922">&#9670;&nbsp;</a></span>loggerPlugin_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classLoggerPlugin.html">LoggerPlugin</a>* MainWindow::loggerPlugin_</td>
         </tr>
       </table>
   </td>
@@ -1324,7 +1455,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classMainWindow.html#a996c5a2b6f77944776856f08ec30858d">MainWindow()</a>, <a class="el" href="classMainWindow.html#ab399feaee95b2330bd6ad0bbeaebcbe6">slotRender()</a>, <a class="el" href="classMainWindow.html#a32b3b57106e01b0f7ab6080fd1eadb14">slotRenderViewport()</a>, <a class="el" href="classMainWindow.html#af0386597f60b60f599b306d9dfaa32fc">updateData()</a>, <a class="el" href="classMainWindow.html#a8cea92bdea9733772b65fc8d434ea762">updateEverything()</a>, and <a class="el" href="classMainWindow.html#a8802f2eb453d7f80369c1bdb5c4b67ef">updateFilter()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classMainWindow.html#a996c5a2b6f77944776856f08ec30858d">MainWindow()</a>, <a class="el" href="classMainWindow.html#ab399feaee95b2330bd6ad0bbeaebcbe6">slotRender()</a>, <a class="el" href="classMainWindow.html#a32b3b57106e01b0f7ab6080fd1eadb14">slotRenderViewport()</a>, <a class="el" href="classMainWindow.html#a1485f4fb987094c07f08a974903f7740">update()</a>, <a class="el" href="classMainWindow.html#af0386597f60b60f599b306d9dfaa32fc">updateData()</a>, <a class="el" href="classMainWindow.html#a8cea92bdea9733772b65fc8d434ea762">updateEverything()</a>, and <a class="el" href="classMainWindow.html#a8802f2eb453d7f80369c1bdb5c4b67ef">updateFilter()</a>.</p>
 
 </div>
 </div>

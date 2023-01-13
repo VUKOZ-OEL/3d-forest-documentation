@@ -70,6 +70,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9f92f242b2ff660c37487c30eb99eb1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a168042bc91bc2a3b3c6950eb509d95fb"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDatasets.html#a168042bc91bc2a3b3c6950eb509d95fb">size</a> () const</td></tr>
 <tr class="separator:a168042bc91bc2a3b3c6950eb509d95fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8c3bdf8a939c1be15de4dd77330d365"><td class="memItemLeft" align="right" valign="top">const std::unordered_set&lt; size_t &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDatasets.html#ae8c3bdf8a939c1be15de4dd77330d365">idList</a> () const</td></tr>
+<tr class="separator:ae8c3bdf8a939c1be15de4dd77330d365"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9fa1294d85738706221175476987421"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classDataset.html">Dataset</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDatasets.html#ab9fa1294d85738706221175476987421">at</a> (size_t i) const</td></tr>
 <tr class="separator:ab9fa1294d85738706221175476987421"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afcf22e1381a97ab1ab77b68486d93c31"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classDataset.html">Dataset</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDatasets.html#afcf22e1381a97ab1ab77b68486d93c31">key</a> (size_t <a class="el" href="classDatasets.html#af67fee980a821fd6490108c959705930">id</a>) const</td></tr>
@@ -82,14 +84,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab72d8e3186d6de2a2d2429db964da703"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82f1caac199a0887c97cb863525f25b2"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDatasets.html#a82f1caac199a0887c97cb863525f25b2">unusedId</a> () const</td></tr>
 <tr class="separator:a82f1caac199a0887c97cb863525f25b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aecc5113bbefc04d7534709d4027ebda6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDatasets.html#aecc5113bbefc04d7534709d4027ebda6">isEnabled</a> (size_t i) const</td></tr>
-<tr class="separator:aecc5113bbefc04d7534709d4027ebda6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a084bf9f255d140113150065101b2f3b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDatasets.html#a084bf9f255d140113150065101b2f3b9">setEnabled</a> (size_t i, bool b)</td></tr>
-<tr class="separator:a084bf9f255d140113150065101b2f3b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec583a095e5045df416e9b12eec214eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDatasets.html#aec583a095e5045df416e9b12eec214eb">setEnabledAll</a> (bool b)</td></tr>
-<tr class="separator:aec583a095e5045df416e9b12eec214eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89620625a86f6ed7629094e3a3f3de25"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDatasets.html#a89620625a86f6ed7629094e3a3f3de25">setInvertAll</a> ()</td></tr>
-<tr class="separator:a89620625a86f6ed7629094e3a3f3de25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f84e74e9fce2ea5beaadead7b19b67c"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDatasets.html#a1f84e74e9fce2ea5beaadead7b19b67c">label</a> (size_t i) const</td></tr>
 <tr class="separator:a1f84e74e9fce2ea5beaadead7b19b67c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf56611864e0001c2ce9a91413345e1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDatasets.html#acf56611864e0001c2ce9a91413345e1e">setLabel</a> (size_t i, const std::string &amp;<a class="el" href="classDatasets.html#a1f84e74e9fce2ea5beaadead7b19b67c">label</a>)</td></tr>
@@ -112,12 +106,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae23deafc5630ac75f7395f7ce5e065f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9332eff6d4950b94dd65a286a5d3c74c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classBox.html">Box</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDatasets.html#a9332eff6d4950b94dd65a286a5d3c74c">boundary</a> () const</td></tr>
 <tr class="separator:a9332eff6d4950b94dd65a286a5d3c74c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed4854371743ebf5b1bae029a59666df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classBox.html">Box</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDatasets.html#aed4854371743ebf5b1bae029a59666df">boundary</a> (const <a class="el" href="classQueryFilterSet.html">QueryFilterSet</a> &amp;datasetFilter) const</td></tr>
+<tr class="separator:aed4854371743ebf5b1bae029a59666df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e232b4f0037ffc05da3909109020908"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDatasets.html#a0e232b4f0037ffc05da3909109020908">updateBoundary</a> ()</td></tr>
 <tr class="separator:a0e232b4f0037ffc05da3909109020908"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87d52b7fc9fc4691cff3235057806b6b"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDatasets.html#a87d52b7fc9fc4691cff3235057806b6b">nPoints</a> () const</td></tr>
 <tr class="separator:a87d52b7fc9fc4691cff3235057806b6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15fcb11c5c918366868f36a0cce7e8c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDatasets.html#a15fcb11c5c918366868f36a0cce7e8c5">select</a> (std::vector&lt; <a class="el" href="structIndexFile_1_1Selection.html">IndexFile::Selection</a> &gt; &amp;selected, const <a class="el" href="classBox.html">Box</a>&lt; double &gt; &amp;box) const</td></tr>
-<tr class="separator:a15fcb11c5c918366868f36a0cce7e8c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a916ee3cc66c17820de9334d8be0300bc"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDatasets.html#a916ee3cc66c17820de9334d8be0300bc">nPoints</a> (const <a class="el" href="classQueryFilterSet.html">QueryFilterSet</a> &amp;datasetFilter) const</td></tr>
+<tr class="separator:a916ee3cc66c17820de9334d8be0300bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4bd3d9cf60c9b2abd28244b2df7d118"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDatasets.html#af4bd3d9cf60c9b2abd28244b2df7d118">selectPages</a> (const <a class="el" href="classQueryFilterSet.html">QueryFilterSet</a> &amp;datasetFilter, const <a class="el" href="classBox.html">Box</a>&lt; double &gt; &amp;box, std::vector&lt; <a class="el" href="structIndexFile_1_1Selection.html">IndexFile::Selection</a> &gt; &amp;selected) const</td></tr>
+<tr class="separator:af4bd3d9cf60c9b2abd28244b2df7d118"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f66c3bb0fa5750f2fa7dc9af565792f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDatasets.html#a4f66c3bb0fa5750f2fa7dc9af565792f">read</a> (const std::string &amp;path, const std::string &amp;projectPath, const <a class="el" href="classSettingsImport.html">SettingsImport</a> &amp;settings, const <a class="el" href="classBox.html">Box</a>&lt; double &gt; &amp;projectBoundary)</td></tr>
 <tr class="separator:a4f66c3bb0fa5750f2fa7dc9af565792f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a666d39780e5dcb5e7aa6ce8af01438e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDatasets.html#a666d39780e5dcb5e7aa6ce8af01438e2">read</a> (const <a class="el" href="classJson.html">Json</a> &amp;in, const std::string &amp;projectPath)</td></tr>
@@ -129,6 +127,8 @@ Public Member Functions</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:af3f1626de45607702dec4dd310d2f177"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classDataset.html">Dataset</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDatasets.html#af3f1626de45607702dec4dd310d2f177">datasets_</a></td></tr>
 <tr class="separator:af3f1626de45607702dec4dd310d2f177"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a694fa60c7b0b776b9e27a67999c9aebc"><td class="memItemLeft" align="right" valign="top">std::unordered_set&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDatasets.html#a694fa60c7b0b776b9e27a67999c9aebc">datasetsIds_</a></td></tr>
+<tr class="separator:a694fa60c7b0b776b9e27a67999c9aebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29d45e0c8d7fe6d3cf56838584e2b06c"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; size_t, size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDatasets.html#a29d45e0c8d7fe6d3cf56838584e2b06c">hashTable_</a></td></tr>
 <tr class="separator:a29d45e0c8d7fe6d3cf56838584e2b06c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a0dda7a56827b732a8c3298749c4c04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classBox.html">Box</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDatasets.html#a9a0dda7a56827b732a8c3298749c4c04">boundary_</a></td></tr>
@@ -177,12 +177,10 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classQuery.html#a1443d1ea299df4c04f050ee7e1fd916b">Query::selectCamera()</a>.</p>
-
 </div>
 </div>
 <a id="a9332eff6d4950b94dd65a286a5d3c74c" name="a9332eff6d4950b94dd65a286a5d3c74c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9332eff6d4950b94dd65a286a5d3c74c">&#9670;&nbsp;</a></span>boundary()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9332eff6d4950b94dd65a286a5d3c74c">&#9670;&nbsp;</a></span>boundary() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -204,7 +202,25 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classEditor.html#a96fb7187c64c892167c1be7ad8ebe188">Editor::clipBoundary()</a>, <a class="el" href="classEditor.html#a38163856229855b52efe3756c0597d09">Editor::openDataset()</a>, <a class="el" href="classEditor.html#aec933e937af394640534bc5b8ba285ee">Editor::resetClipFilter()</a>, <a class="el" href="classViewerOpenGLViewport.html#a6ecce28bebeb1dc55809a05eab22d672">ViewerOpenGLViewport::resetScene()</a>, <a class="el" href="classEditor.html#a4fdff42c4c102fba2dac842f5abbf7aa">Editor::setClipFilter()</a>, and <a class="el" href="classEditor.html#ad207e51af81163ce768b57e4001fb896">Editor::updateAfterRead()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classEditor.html#a96fb7187c64c892167c1be7ad8ebe188">Editor::clipBoundary()</a>, <a class="el" href="classEditor.html#a38163856229855b52efe3756c0597d09">Editor::openDataset()</a>, <a class="el" href="classEditor.html#aec933e937af394640534bc5b8ba285ee">Editor::resetClipFilter()</a>, <a class="el" href="classViewerOpenGLViewport.html#a6ecce28bebeb1dc55809a05eab22d672">ViewerOpenGLViewport::resetScene()</a>, <a class="el" href="classEditor.html#a4fdff42c4c102fba2dac842f5abbf7aa">Editor::setClipFilter()</a>, <a class="el" href="classProjectNavigatorItemClipping.html#ac052512d2a2d6b1b5cf0ef49d6503602">ProjectNavigatorItemClipping::slotUpdate()</a>, and <a class="el" href="classEditor.html#ad207e51af81163ce768b57e4001fb896">Editor::updateAfterRead()</a>.</p>
+
+</div>
+</div>
+<a id="aed4854371743ebf5b1bae029a59666df" name="aed4854371743ebf5b1bae029a59666df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed4854371743ebf5b1bae029a59666df">&#9670;&nbsp;</a></span>boundary() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classBox.html">Box</a>&lt; double &gt; Datasets::boundary </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classQueryFilterSet.html">QueryFilterSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>datasetFilter</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -251,7 +267,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorFiles.html#a73268d72e14c26dd0e71376365beb83a">ProjectNavigatorFiles::addItem()</a>, and <a class="el" href="classDatasets.html#acae4451daa86ab361d69fb26d0259822">setColor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classProjectNavigatorItemFiles.html#a36bfad11f6815b534d0d589d5378ff76">ProjectNavigatorItemFiles::addTreeItem()</a>, and <a class="el" href="classDatasets.html#acae4451daa86ab361d69fb26d0259822">setColor()</a>.</p>
 
 </div>
 </div>
@@ -279,7 +295,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorFiles.html#a73268d72e14c26dd0e71376365beb83a">ProjectNavigatorFiles::addItem()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classProjectNavigatorItemFiles.html#a36bfad11f6815b534d0d589d5378ff76">ProjectNavigatorItemFiles::addTreeItem()</a>.</p>
 
 </div>
 </div>
@@ -299,7 +315,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorFiles.html#a0870b1618571f79dafc0bf634332e897">ProjectNavigatorFiles::slotDelete()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classProjectNavigatorItemFiles.html#a1061b39822de2afdb9ac59e2119a2276">ProjectNavigatorItemFiles::slotDelete()</a>.</p>
 
 </div>
 </div>
@@ -353,7 +369,34 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorFiles.html#a73268d72e14c26dd0e71376365beb83a">ProjectNavigatorFiles::addItem()</a>, and <a class="el" href="classDatasets.html#a4f66c3bb0fa5750f2fa7dc9af565792f">read()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classProjectNavigatorItemFiles.html#a36bfad11f6815b534d0d589d5378ff76">ProjectNavigatorItemFiles::addTreeItem()</a>, <a class="el" href="classDatasets.html#ac1ceab4b205b29c9e800b812c8564d43">erase()</a>, and <a class="el" href="classDatasets.html#a4f66c3bb0fa5750f2fa7dc9af565792f">read()</a>.</p>
+
+</div>
+</div>
+<a id="ae8c3bdf8a939c1be15de4dd77330d365" name="ae8c3bdf8a939c1be15de4dd77330d365"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8c3bdf8a939c1be15de4dd77330d365">&#9670;&nbsp;</a></span>idList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::unordered_set&lt; size_t &gt; &amp; Datasets::idList </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classQuery.html#a7ebc1e5cde5d235b789ca4028f72993d">Query::applyCamera()</a>.</p>
 
 </div>
 </div>
@@ -381,35 +424,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorFiles.html#a3e0639c0720c42c3703a76290f8391ad">ProjectNavigatorFiles::index()</a>.</p>
-
-</div>
-</div>
-<a id="aecc5113bbefc04d7534709d4027ebda6" name="aecc5113bbefc04d7534709d4027ebda6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aecc5113bbefc04d7534709d4027ebda6">&#9670;&nbsp;</a></span>isEnabled()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Datasets::isEnabled </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>i</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorFiles.html#a73268d72e14c26dd0e71376365beb83a">ProjectNavigatorFiles::addItem()</a>, and <a class="el" href="classProjectNavigatorFiles.html#a08bc511e6f2dd88c45c9d4751654e8e3">ProjectNavigatorFiles::updateTree()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classProjectNavigatorItemFiles.html#a7cb8e68de4d7212f2c711d978ff2b57b">ProjectNavigatorItemFiles::index()</a>.</p>
 
 </div>
 </div>
@@ -437,7 +452,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classPage.html#a794b61a639d75b1b37731cf3809f0ae3">Page::read()</a>, <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">Page::runColorModifier()</a>, <a class="el" href="classQuery.html#a1443d1ea299df4c04f050ee7e1fd916b">Query::selectCamera()</a>, <a class="el" href="classPage.html#a601eba8e292281c077c822485978989f">Page::transform()</a>, and <a class="el" href="classPage.html#aa2aef9260a1e52ef92e68cdc7c7ad028">Page::write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classQuery.html#a7ebc1e5cde5d235b789ca4028f72993d">Query::applyCamera()</a>, <a class="el" href="classDatasets.html#ac1ceab4b205b29c9e800b812c8564d43">erase()</a>, <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">Page::readPage()</a>, <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">Page::runColorModifier()</a>, <a class="el" href="classPage.html#a601eba8e292281c077c822485978989f">Page::transform()</a>, and <a class="el" href="classPage.html#a137739c8e55b1cf17cdd3b1737a80478">Page::writePage()</a>.</p>
 
 </div>
 </div>
@@ -465,12 +480,12 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorFiles.html#a73268d72e14c26dd0e71376365beb83a">ProjectNavigatorFiles::addItem()</a>, and <a class="el" href="classDatasets.html#acf56611864e0001c2ce9a91413345e1e">setLabel()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classProjectNavigatorItemFiles.html#a36bfad11f6815b534d0d589d5378ff76">ProjectNavigatorItemFiles::addTreeItem()</a>, and <a class="el" href="classDatasets.html#acf56611864e0001c2ce9a91413345e1e">setLabel()</a>.</p>
 
 </div>
 </div>
 <a id="a87d52b7fc9fc4691cff3235057806b6b" name="a87d52b7fc9fc4691cff3235057806b6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a87d52b7fc9fc4691cff3235057806b6b">&#9670;&nbsp;</a></span>nPoints()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a87d52b7fc9fc4691cff3235057806b6b">&#9670;&nbsp;</a></span>nPoints() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -484,7 +499,25 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#a7ca97ad6de4ea8026f680591b419bc66">SegmentationThread::computeInitializeLayers()</a>, <a class="el" href="classSegmentationThread.html#acf34af6a26ab25d79b0f09a1fbfa9ecf">SegmentationThread::computeVoxelSize()</a>, and <a class="el" href="classQuery.html#a313ef7ff209b623e53ec4919f4253d9d">Query::setGrid()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#a1265175b60cf91540d8807f12d970c1d">SegmentationThread::computeInitializeVoxels()</a>, and <a class="el" href="classQuery.html#a313ef7ff209b623e53ec4919f4253d9d">Query::setGrid()</a>.</p>
+
+</div>
+</div>
+<a id="a916ee3cc66c17820de9334d8be0300bc" name="a916ee3cc66c17820de9334d8be0300bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a916ee3cc66c17820de9334d8be0300bc">&#9670;&nbsp;</a></span>nPoints() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t Datasets::nPoints </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classQueryFilterSet.html">QueryFilterSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>datasetFilter</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -610,23 +643,29 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a15fcb11c5c918366868f36a0cce7e8c5" name="a15fcb11c5c918366868f36a0cce7e8c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15fcb11c5c918366868f36a0cce7e8c5">&#9670;&nbsp;</a></span>select()</h2>
+<a id="af4bd3d9cf60c9b2abd28244b2df7d118" name="af4bd3d9cf60c9b2abd28244b2df7d118"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4bd3d9cf60c9b2abd28244b2df7d118">&#9670;&nbsp;</a></span>selectPages()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Datasets::select </td>
+          <td class="memname">void Datasets::selectPages </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="structIndexFile_1_1Selection.html">IndexFile::Selection</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>selected</em>, </td>
+          <td class="paramtype">const <a class="el" href="classQueryFilterSet.html">QueryFilterSet</a> &amp;&#160;</td>
+          <td class="paramname"><em>datasetFilter</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classBox.html">Box</a>&lt; double &gt; &amp;&#160;</td>
-          <td class="paramname"><em>box</em>&#160;</td>
+          <td class="paramname"><em>box</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="structIndexFile_1_1Selection.html">IndexFile::Selection</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>selected</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -662,71 +701,6 @@ Protected Attributes</h2></td></tr>
           <td></td>
           <td>)</td>
           <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a084bf9f255d140113150065101b2f3b9" name="a084bf9f255d140113150065101b2f3b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a084bf9f255d140113150065101b2f3b9">&#9670;&nbsp;</a></span>setEnabled()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Datasets::setEnabled </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>i</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorFiles.html#a2cce53d4aa56c79909b98bb12a04e1ef">ProjectNavigatorFiles::slotItemChanged()</a>.</p>
-
-</div>
-</div>
-<a id="aec583a095e5045df416e9b12eec214eb" name="aec583a095e5045df416e9b12eec214eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec583a095e5045df416e9b12eec214eb">&#9670;&nbsp;</a></span>setEnabledAll()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Datasets::setEnabledAll </td>
-          <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>b</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a89620625a86f6ed7629094e3a3f3de25" name="a89620625a86f6ed7629094e3a3f3de25"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89620625a86f6ed7629094e3a3f3de25">&#9670;&nbsp;</a></span>setInvertAll()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Datasets::setInvertAll </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -812,7 +786,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorFiles.html#aeba7b664b191642968a653bc8ea5919b">ProjectNavigatorFiles::setDatasets()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classProjectNavigatorItemFiles.html#a431a179181596717e484ef7fbc7313c6">ProjectNavigatorItemFiles::setDatasets()</a>.</p>
 
 </div>
 </div>
@@ -947,7 +921,31 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classDatasets.html#a9f92f242b2ff660c37487c30eb99eb1d">clear()</a>, <a class="el" href="classDatasets.html#ac1ceab4b205b29c9e800b812c8564d43">erase()</a>, <a class="el" href="classDatasets.html#a87d52b7fc9fc4691cff3235057806b6b">nPoints()</a>, <a class="el" href="classDatasets.html#a4f66c3bb0fa5750f2fa7dc9af565792f">read()</a>, <a class="el" href="classDatasets.html#a15fcb11c5c918366868f36a0cce7e8c5">select()</a>, <a class="el" href="classDatasets.html#acae4451daa86ab361d69fb26d0259822">setColor()</a>, <a class="el" href="classDatasets.html#a084bf9f255d140113150065101b2f3b9">setEnabled()</a>, <a class="el" href="classDatasets.html#aec583a095e5045df416e9b12eec214eb">setEnabledAll()</a>, <a class="el" href="classDatasets.html#a89620625a86f6ed7629094e3a3f3de25">setInvertAll()</a>, <a class="el" href="classDatasets.html#acf56611864e0001c2ce9a91413345e1e">setLabel()</a>, <a class="el" href="classDatasets.html#ac6584722a2d221dcdaf2d6d0badc93aa">setTranslation()</a>, <a class="el" href="classDatasets.html#a0e232b4f0037ffc05da3909109020908">updateBoundary()</a>, and <a class="el" href="classDatasets.html#a3520b415eb73da371a29cff0229f1fca">write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classDatasets.html#aed4854371743ebf5b1bae029a59666df">boundary()</a>, <a class="el" href="classDatasets.html#a9f92f242b2ff660c37487c30eb99eb1d">clear()</a>, <a class="el" href="classDatasets.html#ac1ceab4b205b29c9e800b812c8564d43">erase()</a>, <a class="el" href="classDatasets.html#a87d52b7fc9fc4691cff3235057806b6b">nPoints()</a>, <a class="el" href="classDatasets.html#a4f66c3bb0fa5750f2fa7dc9af565792f">read()</a>, <a class="el" href="classDatasets.html#af4bd3d9cf60c9b2abd28244b2df7d118">selectPages()</a>, <a class="el" href="classDatasets.html#acae4451daa86ab361d69fb26d0259822">setColor()</a>, <a class="el" href="classDatasets.html#acf56611864e0001c2ce9a91413345e1e">setLabel()</a>, <a class="el" href="classDatasets.html#ac6584722a2d221dcdaf2d6d0badc93aa">setTranslation()</a>, <a class="el" href="classDatasets.html#a0e232b4f0037ffc05da3909109020908">updateBoundary()</a>, and <a class="el" href="classDatasets.html#a3520b415eb73da371a29cff0229f1fca">write()</a>.</p>
+
+</div>
+</div>
+<a id="a694fa60c7b0b776b9e27a67999c9aebc" name="a694fa60c7b0b776b9e27a67999c9aebc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a694fa60c7b0b776b9e27a67999c9aebc">&#9670;&nbsp;</a></span>datasetsIds_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unordered_set&lt;size_t&gt; Datasets::datasetsIds_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classDatasets.html#a9f92f242b2ff660c37487c30eb99eb1d">clear()</a>, <a class="el" href="classDatasets.html#ac1ceab4b205b29c9e800b812c8564d43">erase()</a>, and <a class="el" href="classDatasets.html#a4f66c3bb0fa5750f2fa7dc9af565792f">read()</a>.</p>
 
 </div>
 </div>

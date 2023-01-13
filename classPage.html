@@ -89,10 +89,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3a51c89548c61336991940707891bfa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7ba3b8055fcf04a4d251213ba1143b6"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#ae7ba3b8055fcf04a4d251213ba1143b6">pageId</a> () const</td></tr>
 <tr class="separator:ae7ba3b8055fcf04a4d251213ba1143b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a794b61a639d75b1b37731cf3809f0ae3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a794b61a639d75b1b37731cf3809f0ae3">read</a> ()</td></tr>
-<tr class="separator:a794b61a639d75b1b37731cf3809f0ae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2aef9260a1e52ef92e68cdc7c7ad028"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#aa2aef9260a1e52ef92e68cdc7c7ad028">write</a> ()</td></tr>
-<tr class="separator:aa2aef9260a1e52ef92e68cdc7c7ad028"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af81ad261b4c644e6980f2776a72a8830"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">readPage</a> ()</td></tr>
+<tr class="separator:af81ad261b4c644e6980f2776a72a8830"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a137739c8e55b1cf17cdd3b1737a80478"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a137739c8e55b1cf17cdd3b1737a80478">writePage</a> ()</td></tr>
+<tr class="separator:a137739c8e55b1cf17cdd3b1737a80478"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a924a92d92d7d9c1eb650cf8983169826"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPage.html#a0bdf6886be75ddfd1b4626a5ced85c7a">Page::State</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a924a92d92d7d9c1eb650cf8983169826">state</a> () const</td></tr>
 <tr class="separator:a924a92d92d7d9c1eb650cf8983169826"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:addba1c2fd5f27a2c4a6855e6b88908f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#addba1c2fd5f27a2c4a6855e6b88908f9">setState</a> (<a class="el" href="classPage.html#a0bdf6886be75ddfd1b4626a5ced85c7a">Page::State</a> <a class="el" href="classPage.html#a924a92d92d7d9c1eb650cf8983169826">state</a>)</td></tr>
@@ -117,8 +117,6 @@ Public Attributes</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Point Data</div></td></tr>
 <tr class="memitem:a2df46ac2d3d9252906a0b3e45b3bd077"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a2df46ac2d3d9252906a0b3e45b3bd077">position</a></td></tr>
 <tr class="separator:a2df46ac2d3d9252906a0b3e45b3bd077"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e7b9a4b828e1ef641a59d87cffab589"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a8e7b9a4b828e1ef641a59d87cffab589">elevation</a></td></tr>
-<tr class="separator:a8e7b9a4b828e1ef641a59d87cffab589"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8811de5f08f73cd25b38ac921bf16fa6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a8811de5f08f73cd25b38ac921bf16fa6">intensity</a></td></tr>
 <tr class="separator:a8811de5f08f73cd25b38ac921bf16fa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6284ce197ea33e036606715b7f2a7448"><td class="memItemLeft" align="right" valign="top">std::vector&lt; uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a6284ce197ea33e036606715b7f2a7448">returnNumber</a></td></tr>
@@ -133,10 +131,21 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a6769c033a5ef36760dee05f7d9ecffe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d9f45e67227f3dd94c3e5296ee09e4d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a1d9f45e67227f3dd94c3e5296ee09e4d">color</a></td></tr>
 <tr class="separator:a1d9f45e67227f3dd94c3e5296ee09e4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea15d5aa558c2365b9436abdc383067e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#aea15d5aa558c2365b9436abdc383067e">userColor</a></td></tr>
-<tr class="separator:aea15d5aa558c2365b9436abdc383067e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Point Data Extra Bytes</div></td></tr>
 <tr class="memitem:abe226aea16ab170dea7cbac717d70991"><td class="memItemLeft" align="right" valign="top">std::vector&lt; uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#abe226aea16ab170dea7cbac717d70991">layer</a></td></tr>
 <tr class="separator:abe226aea16ab170dea7cbac717d70991"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e7b9a4b828e1ef641a59d87cffab589"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a8e7b9a4b828e1ef641a59d87cffab589">elevation</a></td></tr>
+<tr class="separator:a8e7b9a4b828e1ef641a59d87cffab589"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb7613ddbf8e5841cee57141663a82fa"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#afb7613ddbf8e5841cee57141663a82fa">customColor</a></td></tr>
+<tr class="separator:afb7613ddbf8e5841cee57141663a82fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a951e06d3d7d4f12d30005426ae67042c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a951e06d3d7d4f12d30005426ae67042c">descriptor</a></td></tr>
+<tr class="separator:a951e06d3d7d4f12d30005426ae67042c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2491669a772e46ee5b92ced133fb4fd"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#ad2491669a772e46ee5b92ced133fb4fd">density</a></td></tr>
+<tr class="separator:ad2491669a772e46ee5b92ced133fb4fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa812f5226f32f9d32fb6ce181e499cbd"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#aa812f5226f32f9d32fb6ce181e499cbd">normal</a></td></tr>
+<tr class="separator:aa812f5226f32f9d32fb6ce181e499cbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a716403531d6337cb3a960d2c49978e3a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a716403531d6337cb3a960d2c49978e3a">value</a></td></tr>
+<tr class="separator:a716403531d6337cb3a960d2c49978e3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Rendering</div></td></tr>
 <tr class="memitem:a8fca0270910aa74535ea2da9fcab5d11"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a8fca0270910aa74535ea2da9fcab5d11">renderPosition</a></td></tr>
 <tr class="separator:a8fca0270910aa74535ea2da9fcab5d11"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -153,26 +162,30 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:ace3013575d5240fe86db693a07b0b1d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a601eba8e292281c077c822485978989f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a601eba8e292281c077c822485978989f">transform</a> ()</td></tr>
 <tr class="separator:a601eba8e292281c077c822485978989f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae18eec0f67cca42f7a8835dad39b7d39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#ae18eec0f67cca42f7a8835dad39b7d39">select</a> ()</td></tr>
-<tr class="separator:ae18eec0f67cca42f7a8835dad39b7d39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec69a97b2fdb74efeaa2cbd2c6a09983"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#aec69a97b2fdb74efeaa2cbd2c6a09983">selectBox</a> ()</td></tr>
-<tr class="separator:aec69a97b2fdb74efeaa2cbd2c6a09983"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50d31cd0b46f2b13c084c8df483a48de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a50d31cd0b46f2b13c084c8df483a48de">selectCone</a> ()</td></tr>
-<tr class="separator:a50d31cd0b46f2b13c084c8df483a48de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84eab8485b1de860775db586c4d726ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a84eab8485b1de860775db586c4d726ef">selectSphere</a> ()</td></tr>
-<tr class="separator:a84eab8485b1de860775db586c4d726ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5321ded7ba0f41989c22bd5faf8f296c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a5321ded7ba0f41989c22bd5faf8f296c">selectElevation</a> ()</td></tr>
-<tr class="separator:a5321ded7ba0f41989c22bd5faf8f296c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ec1a660f39a2c4b89305a229f16367f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a1ec1a660f39a2c4b89305a229f16367f">selectClassification</a> ()</td></tr>
-<tr class="separator:a1ec1a660f39a2c4b89305a229f16367f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add6d18281c95f61d8b5957f41785876c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#add6d18281c95f61d8b5957f41785876c">selectLayer</a> ()</td></tr>
-<tr class="separator:add6d18281c95f61d8b5957f41785876c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7d3166cec901c06cc9852e0f587a15e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#af7d3166cec901c06cc9852e0f587a15e">queryWhere</a> ()</td></tr>
+<tr class="separator:af7d3166cec901c06cc9852e0f587a15e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98eadfb3694278076f60bc826795ab87"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a98eadfb3694278076f60bc826795ab87">queryWhereBox</a> ()</td></tr>
+<tr class="separator:a98eadfb3694278076f60bc826795ab87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19f5afb4ce3ea45b5f0362788d3c719b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a19f5afb4ce3ea45b5f0362788d3c719b">queryWhereCone</a> ()</td></tr>
+<tr class="separator:a19f5afb4ce3ea45b5f0362788d3c719b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24d8463a69d22828e4626738bacb1c3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a24d8463a69d22828e4626738bacb1c3b">queryWhereSphere</a> ()</td></tr>
+<tr class="separator:a24d8463a69d22828e4626738bacb1c3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea0d0e5b9e6edbdd9ac0fe1048ddb9fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#aea0d0e5b9e6edbdd9ac0fe1048ddb9fe">queryWhereElevation</a> ()</td></tr>
+<tr class="separator:aea0d0e5b9e6edbdd9ac0fe1048ddb9fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f4b6b1954f0869199e8b324b2c9f0e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a9f4b6b1954f0869199e8b324b2c9f0e0">queryWhereDensity</a> ()</td></tr>
+<tr class="separator:a9f4b6b1954f0869199e8b324b2c9f0e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b1d549b21693aa31c3caf8599b051a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a2b1d549b21693aa31c3caf8599b051a4">queryWhereDescriptor</a> ()</td></tr>
+<tr class="separator:a2b1d549b21693aa31c3caf8599b051a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ca223ce3835a777e28af00ec88e9b65"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a9ca223ce3835a777e28af00ec88e9b65">queryWhereClassification</a> ()</td></tr>
+<tr class="separator:a9ca223ce3835a777e28af00ec88e9b65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43160dd6b5d659dba29b850143899154"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a43160dd6b5d659dba29b850143899154">queryWhereLayer</a> ()</td></tr>
+<tr class="separator:a43160dd6b5d659dba29b850143899154"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30a38467528b5e5fa71a62dcc7a8ea4d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a30a38467528b5e5fa71a62dcc7a8ea4d">runModifiers</a> ()</td></tr>
 <tr class="separator:a30a38467528b5e5fa71a62dcc7a8ea4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb0cbf6a76d3b810094c5b35fa3fc8a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">runColorModifier</a> ()</td></tr>
 <tr class="separator:adb0cbf6a76d3b810094c5b35fa3fc8a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe83f236e23c6b303a6b116407bc6d9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#afe83f236e23c6b303a6b116407bc6d9f">setColor</a> (size_t idx, size_t value, size_t max, const std::vector&lt; <a class="el" href="classVector3.html">Vector3</a>&lt; float &gt; &gt; &amp;pal)</td></tr>
-<tr class="separator:afe83f236e23c6b303a6b116407bc6d9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a66d895999c267b3bdc7b54bd52b7ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPage.html#a6a66d895999c267b3bdc7b54bd52b7ac">setColor</a> (size_t idx, size_t colorValue, size_t colorMax, const std::vector&lt; <a class="el" href="classVector3.html">Vector3</a>&lt; float &gt; &gt; &amp;pal)</td></tr>
+<tr class="separator:a6a66d895999c267b3bdc7b54bd52b7ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -327,7 +340,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classQuery.html#a1443d1ea299df4c04f050ee7e1fd916b">Query::selectCamera()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classQuery.html#a7ebc1e5cde5d235b789ca4028f72993d">Query::applyCamera()</a>.</p>
 
 </div>
 </div>
@@ -396,18 +409,261 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classQuery.html#a1443d1ea299df4c04f050ee7e1fd916b">Query::selectCamera()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classQuery.html#a7ebc1e5cde5d235b789ca4028f72993d">Query::applyCamera()</a>, and <a class="el" href="classViewerOpenGLViewport.html#aec1af5c48baebb85b27a63b3a857342a">ViewerOpenGLViewport::renderScene()</a>.</p>
 
 </div>
 </div>
-<a id="a794b61a639d75b1b37731cf3809f0ae3" name="a794b61a639d75b1b37731cf3809f0ae3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a794b61a639d75b1b37731cf3809f0ae3">&#9670;&nbsp;</a></span>read()</h2>
+<a id="af7d3166cec901c06cc9852e0f587a15e" name="af7d3166cec901c06cc9852e0f587a15e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7d3166cec901c06cc9852e0f587a15e">&#9670;&nbsp;</a></span>queryWhere()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Page::queryWhere </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classPage.html#ad546f6b2e656ff4efb94622e4bd6794e">nextState()</a>, and <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">readPage()</a>.</p>
+
+</div>
+</div>
+<a id="a98eadfb3694278076f60bc826795ab87" name="a98eadfb3694278076f60bc826795ab87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98eadfb3694278076f60bc826795ab87">&#9670;&nbsp;</a></span>queryWhereBox()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Page::queryWhereBox </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classPage.html#af7d3166cec901c06cc9852e0f587a15e">queryWhere()</a>.</p>
+
+</div>
+</div>
+<a id="a9ca223ce3835a777e28af00ec88e9b65" name="a9ca223ce3835a777e28af00ec88e9b65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ca223ce3835a777e28af00ec88e9b65">&#9670;&nbsp;</a></span>queryWhereClassification()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Page::queryWhereClassification </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classPage.html#af7d3166cec901c06cc9852e0f587a15e">queryWhere()</a>.</p>
+
+</div>
+</div>
+<a id="a19f5afb4ce3ea45b5f0362788d3c719b" name="a19f5afb4ce3ea45b5f0362788d3c719b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19f5afb4ce3ea45b5f0362788d3c719b">&#9670;&nbsp;</a></span>queryWhereCone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Page::queryWhereCone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classPage.html#af7d3166cec901c06cc9852e0f587a15e">queryWhere()</a>.</p>
+
+</div>
+</div>
+<a id="a9f4b6b1954f0869199e8b324b2c9f0e0" name="a9f4b6b1954f0869199e8b324b2c9f0e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f4b6b1954f0869199e8b324b2c9f0e0">&#9670;&nbsp;</a></span>queryWhereDensity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Page::queryWhereDensity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classPage.html#af7d3166cec901c06cc9852e0f587a15e">queryWhere()</a>.</p>
+
+</div>
+</div>
+<a id="a2b1d549b21693aa31c3caf8599b051a4" name="a2b1d549b21693aa31c3caf8599b051a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b1d549b21693aa31c3caf8599b051a4">&#9670;&nbsp;</a></span>queryWhereDescriptor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Page::queryWhereDescriptor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classPage.html#af7d3166cec901c06cc9852e0f587a15e">queryWhere()</a>.</p>
+
+</div>
+</div>
+<a id="aea0d0e5b9e6edbdd9ac0fe1048ddb9fe" name="aea0d0e5b9e6edbdd9ac0fe1048ddb9fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea0d0e5b9e6edbdd9ac0fe1048ddb9fe">&#9670;&nbsp;</a></span>queryWhereElevation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Page::queryWhereElevation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classPage.html#af7d3166cec901c06cc9852e0f587a15e">queryWhere()</a>.</p>
+
+</div>
+</div>
+<a id="a43160dd6b5d659dba29b850143899154" name="a43160dd6b5d659dba29b850143899154"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43160dd6b5d659dba29b850143899154">&#9670;&nbsp;</a></span>queryWhereLayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Page::queryWhereLayer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classPage.html#af7d3166cec901c06cc9852e0f587a15e">queryWhere()</a>.</p>
+
+</div>
+</div>
+<a id="a24d8463a69d22828e4626738bacb1c3b" name="a24d8463a69d22828e4626738bacb1c3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24d8463a69d22828e4626738bacb1c3b">&#9670;&nbsp;</a></span>queryWhereSphere()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Page::queryWhereSphere </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classPage.html#af7d3166cec901c06cc9852e0f587a15e">queryWhere()</a>.</p>
+
+</div>
+</div>
+<a id="af81ad261b4c644e6980f2776a72a8830" name="af81ad261b4c644e6980f2776a72a8830"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af81ad261b4c644e6980f2776a72a8830">&#9670;&nbsp;</a></span>readPage()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Page::read </td>
+          <td class="memname">void Page::readPage </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -443,7 +699,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classPage.html#a794b61a639d75b1b37731cf3809f0ae3">read()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">readPage()</a>.</p>
 
 </div>
 </div>
@@ -497,201 +753,12 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classPage.html#ad546f6b2e656ff4efb94622e4bd6794e">nextState()</a>, and <a class="el" href="classPage.html#a794b61a639d75b1b37731cf3809f0ae3">read()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPage.html#ad546f6b2e656ff4efb94622e4bd6794e">nextState()</a>, and <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">readPage()</a>.</p>
 
 </div>
 </div>
-<a id="ae18eec0f67cca42f7a8835dad39b7d39" name="ae18eec0f67cca42f7a8835dad39b7d39"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae18eec0f67cca42f7a8835dad39b7d39">&#9670;&nbsp;</a></span>select()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Page::select </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classPage.html#ad546f6b2e656ff4efb94622e4bd6794e">nextState()</a>, and <a class="el" href="classPage.html#a794b61a639d75b1b37731cf3809f0ae3">read()</a>.</p>
-
-</div>
-</div>
-<a id="aec69a97b2fdb74efeaa2cbd2c6a09983" name="aec69a97b2fdb74efeaa2cbd2c6a09983"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec69a97b2fdb74efeaa2cbd2c6a09983">&#9670;&nbsp;</a></span>selectBox()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Page::selectBox </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classPage.html#ae18eec0f67cca42f7a8835dad39b7d39">select()</a>.</p>
-
-</div>
-</div>
-<a id="a1ec1a660f39a2c4b89305a229f16367f" name="a1ec1a660f39a2c4b89305a229f16367f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ec1a660f39a2c4b89305a229f16367f">&#9670;&nbsp;</a></span>selectClassification()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Page::selectClassification </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classPage.html#ae18eec0f67cca42f7a8835dad39b7d39">select()</a>.</p>
-
-</div>
-</div>
-<a id="a50d31cd0b46f2b13c084c8df483a48de" name="a50d31cd0b46f2b13c084c8df483a48de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50d31cd0b46f2b13c084c8df483a48de">&#9670;&nbsp;</a></span>selectCone()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Page::selectCone </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classPage.html#ae18eec0f67cca42f7a8835dad39b7d39">select()</a>.</p>
-
-</div>
-</div>
-<a id="a5321ded7ba0f41989c22bd5faf8f296c" name="a5321ded7ba0f41989c22bd5faf8f296c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5321ded7ba0f41989c22bd5faf8f296c">&#9670;&nbsp;</a></span>selectElevation()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Page::selectElevation </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classPage.html#ae18eec0f67cca42f7a8835dad39b7d39">select()</a>.</p>
-
-</div>
-</div>
-<a id="add6d18281c95f61d8b5957f41785876c" name="add6d18281c95f61d8b5957f41785876c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add6d18281c95f61d8b5957f41785876c">&#9670;&nbsp;</a></span>selectLayer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Page::selectLayer </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classPage.html#ae18eec0f67cca42f7a8835dad39b7d39">select()</a>.</p>
-
-</div>
-</div>
-<a id="a84eab8485b1de860775db586c4d726ef" name="a84eab8485b1de860775db586c4d726ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a84eab8485b1de860775db586c4d726ef">&#9670;&nbsp;</a></span>selectSphere()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Page::selectSphere </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classPage.html#ae18eec0f67cca42f7a8835dad39b7d39">select()</a>.</p>
-
-</div>
-</div>
-<a id="afe83f236e23c6b303a6b116407bc6d9f" name="afe83f236e23c6b303a6b116407bc6d9f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe83f236e23c6b303a6b116407bc6d9f">&#9670;&nbsp;</a></span>setColor()</h2>
+<a id="a6a66d895999c267b3bdc7b54bd52b7ac" name="a6a66d895999c267b3bdc7b54bd52b7ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a66d895999c267b3bdc7b54bd52b7ac">&#9670;&nbsp;</a></span>setColor()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -709,13 +776,13 @@ Protected Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>value</em>, </td>
+          <td class="paramname"><em>colorValue</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>max</em>, </td>
+          <td class="paramname"><em>colorMax</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -844,7 +911,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classPage.html#aa2aef9260a1e52ef92e68cdc7c7ad028">write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPage.html#a137739c8e55b1cf17cdd3b1737a80478">writePage()</a>.</p>
 
 </div>
 </div>
@@ -871,18 +938,18 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classPage.html#ad546f6b2e656ff4efb94622e4bd6794e">nextState()</a>, and <a class="el" href="classPage.html#a794b61a639d75b1b37731cf3809f0ae3">read()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPage.html#ad546f6b2e656ff4efb94622e4bd6794e">nextState()</a>, and <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">readPage()</a>.</p>
 
 </div>
 </div>
-<a id="aa2aef9260a1e52ef92e68cdc7c7ad028" name="aa2aef9260a1e52ef92e68cdc7c7ad028"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa2aef9260a1e52ef92e68cdc7c7ad028">&#9670;&nbsp;</a></span>write()</h2>
+<a id="a137739c8e55b1cf17cdd3b1737a80478" name="a137739c8e55b1cf17cdd3b1737a80478"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a137739c8e55b1cf17cdd3b1737a80478">&#9670;&nbsp;</a></span>writePage()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Page::write </td>
+          <td class="memname">void Page::writePage </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -931,7 +998,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classPage.html#a794b61a639d75b1b37731cf3809f0ae3">read()</a>, and <a class="el" href="classPage.html#aa2aef9260a1e52ef92e68cdc7c7ad028">write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">readPage()</a>, and <a class="el" href="classPage.html#a137739c8e55b1cf17cdd3b1737a80478">writePage()</a>.</p>
 
 </div>
 </div>
@@ -949,7 +1016,7 @@ Protected Attributes</h2></td></tr>
 
 <p><a class="el" href="classClassification.html" title="Classification.">Classification</a>. </p>
 
-<p class="reference">Referenced by <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">clear()</a>, <a class="el" href="classPage.html#a794b61a639d75b1b37731cf3809f0ae3">read()</a>, <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>, <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">runColorModifier()</a>, <a class="el" href="classPage.html#a1ec1a660f39a2c4b89305a229f16367f">selectClassification()</a>, and <a class="el" href="classPage.html#ace3013575d5240fe86db693a07b0b1d0">toPoint()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">clear()</a>, <a class="el" href="classPage.html#a9ca223ce3835a777e28af00ec88e9b65">queryWhereClassification()</a>, <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">readPage()</a>, <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>, <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">runColorModifier()</a>, and <a class="el" href="classPage.html#ace3013575d5240fe86db693a07b0b1d0">toPoint()</a>.</p>
 
 </div>
 </div>
@@ -968,7 +1035,26 @@ Protected Attributes</h2></td></tr>
 <p>Red, Green, and Blue image channels. </p>
 <p >The data are stored as [r0, g0, b0, r1, g1, ...]. Color values are in range from 0 (zero intensity) to 1 (full intensity). When the input data set has no colors, then the colors in this vector are set to full intensity. </p>
 
-<p class="reference">Referenced by <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">clear()</a>, <a class="el" href="classPage.html#a794b61a639d75b1b37731cf3809f0ae3">read()</a>, <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>, and <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">runColorModifier()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">clear()</a>, <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">readPage()</a>, <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>, and <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">runColorModifier()</a>.</p>
+
+</div>
+</div>
+<a id="afb7613ddbf8e5841cee57141663a82fa" name="afb7613ddbf8e5841cee57141663a82fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb7613ddbf8e5841cee57141663a82fa">&#9670;&nbsp;</a></span>customColor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;float&gt; Page::customColor</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Red, Green, and Blue custom colors. </p>
+<p >The data are stored as [r0, g0, b0, r1, g1, ...]. Color values are in range from 0 (zero intensity) to 1 (full intensity). This value is stored in Point Data Record extra bytes. </p>
+
+<p class="reference">Referenced by <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">clear()</a>, <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">readPage()</a>, <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>, <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">runColorModifier()</a>, and <a class="el" href="classPage.html#ace3013575d5240fe86db693a07b0b1d0">toPoint()</a>.</p>
 
 </div>
 </div>
@@ -992,7 +1078,45 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classPage.html#a794b61a639d75b1b37731cf3809f0ae3">read()</a>, <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">runColorModifier()</a>, <a class="el" href="classPage.html#aec69a97b2fdb74efeaa2cbd2c6a09983">selectBox()</a>, <a class="el" href="classPage.html#a50d31cd0b46f2b13c084c8df483a48de">selectCone()</a>, <a class="el" href="classPage.html#a84eab8485b1de860775db586c4d726ef">selectSphere()</a>, <a class="el" href="classPage.html#a601eba8e292281c077c822485978989f">transform()</a>, and <a class="el" href="classPage.html#aa2aef9260a1e52ef92e68cdc7c7ad028">write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPage.html#a98eadfb3694278076f60bc826795ab87">queryWhereBox()</a>, <a class="el" href="classPage.html#a19f5afb4ce3ea45b5f0362788d3c719b">queryWhereCone()</a>, <a class="el" href="classPage.html#a24d8463a69d22828e4626738bacb1c3b">queryWhereSphere()</a>, <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">readPage()</a>, <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">runColorModifier()</a>, <a class="el" href="classPage.html#a601eba8e292281c077c822485978989f">transform()</a>, and <a class="el" href="classPage.html#a137739c8e55b1cf17cdd3b1737a80478">writePage()</a>.</p>
+
+</div>
+</div>
+<a id="ad2491669a772e46ee5b92ced133fb4fd" name="ad2491669a772e46ee5b92ced133fb4fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2491669a772e46ee5b92ced133fb4fd">&#9670;&nbsp;</a></span>density</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;float&gt; Page::density</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Density values. </p>
+<p >The data are stored as [d0, d1, ...]. The values are in range from 0 (zero) to 1 (full). This value is stored in Point Data Record extra bytes. </p>
+
+<p class="reference">Referenced by <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">clear()</a>, <a class="el" href="classPage.html#a9f4b6b1954f0869199e8b324b2c9f0e0">queryWhereDensity()</a>, <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">readPage()</a>, <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>, <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">runColorModifier()</a>, and <a class="el" href="classPage.html#ace3013575d5240fe86db693a07b0b1d0">toPoint()</a>.</p>
+
+</div>
+</div>
+<a id="a951e06d3d7d4f12d30005426ae67042c" name="a951e06d3d7d4f12d30005426ae67042c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a951e06d3d7d4f12d30005426ae67042c">&#9670;&nbsp;</a></span>descriptor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;float&gt; Page::descriptor</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Descriptor values. </p>
+<p >The data are stored as [d0, d1, ...]. The values are in range from 0 (zero) to 1 (full). This value is stored in Point Data Record extra bytes. </p>
+
+<p class="reference">Referenced by <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">clear()</a>, <a class="el" href="classPage.html#a2b1d549b21693aa31c3caf8599b051a4">queryWhereDescriptor()</a>, <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">readPage()</a>, <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>, <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">runColorModifier()</a>, and <a class="el" href="classPage.html#ace3013575d5240fe86db693a07b0b1d0">toPoint()</a>.</p>
 
 </div>
 </div>
@@ -1016,7 +1140,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classPage.html#a794b61a639d75b1b37731cf3809f0ae3">read()</a>, <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">runColorModifier()</a>, <a class="el" href="classPage.html#a30a38467528b5e5fa71a62dcc7a8ea4d">runModifiers()</a>, <a class="el" href="classPage.html#a601eba8e292281c077c822485978989f">transform()</a>, and <a class="el" href="classPage.html#aa2aef9260a1e52ef92e68cdc7c7ad028">write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">readPage()</a>, <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">runColorModifier()</a>, <a class="el" href="classPage.html#a30a38467528b5e5fa71a62dcc7a8ea4d">runModifiers()</a>, <a class="el" href="classPage.html#a601eba8e292281c077c822485978989f">transform()</a>, and <a class="el" href="classPage.html#a137739c8e55b1cf17cdd3b1737a80478">writePage()</a>.</p>
 
 </div>
 </div>
@@ -1033,9 +1157,9 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Point elevation above ground. </p>
-<p >The data are stored as [e0, e1, ...]. </p>
+<p >The data are stored as [e0, e1, ...]. This value is stored in Point Data Record extra bytes. </p>
 
-<p class="reference">Referenced by <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">clear()</a>, <a class="el" href="classPage.html#a794b61a639d75b1b37731cf3809f0ae3">read()</a>, <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>, <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">runColorModifier()</a>, <a class="el" href="classPage.html#a5321ded7ba0f41989c22bd5faf8f296c">selectElevation()</a>, and <a class="el" href="classPage.html#ace3013575d5240fe86db693a07b0b1d0">toPoint()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classHeightMapModifier.html#a507c4d11e92f68fc70be400b61ffdd1d">HeightMapModifier::applyModifier()</a>, <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">clear()</a>, <a class="el" href="classPage.html#aea0d0e5b9e6edbdd9ac0fe1048ddb9fe">queryWhereElevation()</a>, <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">readPage()</a>, <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>, <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">runColorModifier()</a>, and <a class="el" href="classPage.html#ace3013575d5240fe86db693a07b0b1d0">toPoint()</a>.</p>
 
 </div>
 </div>
@@ -1053,7 +1177,7 @@ Protected Attributes</h2></td></tr>
 
 <p>GPS time. </p>
 
-<p class="reference">Referenced by <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">clear()</a>, <a class="el" href="classPage.html#a794b61a639d75b1b37731cf3809f0ae3">read()</a>, and <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">clear()</a>, <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">readPage()</a>, and <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>.</p>
 
 </div>
 </div>
@@ -1072,7 +1196,7 @@ Protected Attributes</h2></td></tr>
 <p>Pulse return magnitude. </p>
 <p >The data are stored as [i0, i1, ...]. The values are in range from 0 (zero intensity) to 1 (full intensity). </p>
 
-<p class="reference">Referenced by <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">clear()</a>, <a class="el" href="classPage.html#a794b61a639d75b1b37731cf3809f0ae3">read()</a>, <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>, and <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">runColorModifier()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">clear()</a>, <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">readPage()</a>, <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>, and <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">runColorModifier()</a>.</p>
 
 </div>
 </div>
@@ -1091,7 +1215,7 @@ Protected Attributes</h2></td></tr>
 <p><a class="el" href="classLayer.html" title="Layer.">Layer</a> identification numbers. </p>
 <p >This value is stored in Point Data Record extra bytes. </p>
 
-<p class="reference">Referenced by <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">clear()</a>, <a class="el" href="classPage.html#a794b61a639d75b1b37731cf3809f0ae3">read()</a>, <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>, <a class="el" href="classPage.html#add6d18281c95f61d8b5957f41785876c">selectLayer()</a>, and <a class="el" href="classPage.html#ace3013575d5240fe86db693a07b0b1d0">toPoint()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">clear()</a>, <a class="el" href="classPage.html#a43160dd6b5d659dba29b850143899154">queryWhereLayer()</a>, <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">readPage()</a>, <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>, <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">runColorModifier()</a>, and <a class="el" href="classPage.html#ace3013575d5240fe86db693a07b0b1d0">toPoint()</a>.</p>
 
 </div>
 </div>
@@ -1115,7 +1239,26 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classPage.html#a794b61a639d75b1b37731cf3809f0ae3">read()</a>, <a class="el" href="classPage.html#ae25d8906b21c70621fb04375bf3074d5">setModified()</a>, <a class="el" href="classPage.html#addba1c2fd5f27a2c4a6855e6b88908f9">setState()</a>, and <a class="el" href="classPage.html#aa2aef9260a1e52ef92e68cdc7c7ad028">write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">readPage()</a>, <a class="el" href="classPage.html#ae25d8906b21c70621fb04375bf3074d5">setModified()</a>, <a class="el" href="classPage.html#addba1c2fd5f27a2c4a6855e6b88908f9">setState()</a>, and <a class="el" href="classPage.html#a137739c8e55b1cf17cdd3b1737a80478">writePage()</a>.</p>
+
+</div>
+</div>
+<a id="aa812f5226f32f9d32fb6ce181e499cbd" name="aa812f5226f32f9d32fb6ce181e499cbd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa812f5226f32f9d32fb6ce181e499cbd">&#9670;&nbsp;</a></span>normal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;float&gt; Page::normal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Point normals. </p>
+<p >The data are stored as [nx0, ny0, nz0, nx1, ny1, ...]. This value is stored in Point Data Record extra bytes. </p>
+
+<p class="reference">Referenced by <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">clear()</a>, <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">readPage()</a>, <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>, <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">runColorModifier()</a>, and <a class="el" href="classPage.html#ace3013575d5240fe86db693a07b0b1d0">toPoint()</a>.</p>
 
 </div>
 </div>
@@ -1134,7 +1277,7 @@ Protected Attributes</h2></td></tr>
 <p>Number of returns. </p>
 <p >Contains values from 0 to 15. </p>
 
-<p class="reference">Referenced by <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">clear()</a>, <a class="el" href="classPage.html#a794b61a639d75b1b37731cf3809f0ae3">read()</a>, <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>, and <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">runColorModifier()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">clear()</a>, <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">readPage()</a>, <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>, and <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">runColorModifier()</a>.</p>
 
 </div>
 </div>
@@ -1152,7 +1295,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Octree. </p>
 
-<p class="reference">Referenced by <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">clear()</a>, <a class="el" href="classPage.html#a794b61a639d75b1b37731cf3809f0ae3">read()</a>, <a class="el" href="classPage.html#aec69a97b2fdb74efeaa2cbd2c6a09983">selectBox()</a>, <a class="el" href="classPage.html#a50d31cd0b46f2b13c084c8df483a48de">selectCone()</a>, and <a class="el" href="classPage.html#a84eab8485b1de860775db586c4d726ef">selectSphere()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">clear()</a>, <a class="el" href="classPage.html#a98eadfb3694278076f60bc826795ab87">queryWhereBox()</a>, <a class="el" href="classPage.html#a19f5afb4ce3ea45b5f0362788d3c719b">queryWhereCone()</a>, <a class="el" href="classPage.html#a24d8463a69d22828e4626738bacb1c3b">queryWhereSphere()</a>, and <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">readPage()</a>.</p>
 
 </div>
 </div>
@@ -1176,7 +1319,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classPage.html#a794b61a639d75b1b37731cf3809f0ae3">read()</a>, and <a class="el" href="classPage.html#aa2aef9260a1e52ef92e68cdc7c7ad028">write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPage.html#ad546f6b2e656ff4efb94622e4bd6794e">nextState()</a>, <a class="el" href="classPage.html#af7d3166cec901c06cc9852e0f587a15e">queryWhere()</a>, <a class="el" href="classPage.html#a98eadfb3694278076f60bc826795ab87">queryWhereBox()</a>, <a class="el" href="classPage.html#a9ca223ce3835a777e28af00ec88e9b65">queryWhereClassification()</a>, <a class="el" href="classPage.html#a19f5afb4ce3ea45b5f0362788d3c719b">queryWhereCone()</a>, <a class="el" href="classPage.html#a9f4b6b1954f0869199e8b324b2c9f0e0">queryWhereDensity()</a>, <a class="el" href="classPage.html#a2b1d549b21693aa31c3caf8599b051a4">queryWhereDescriptor()</a>, <a class="el" href="classPage.html#aea0d0e5b9e6edbdd9ac0fe1048ddb9fe">queryWhereElevation()</a>, <a class="el" href="classPage.html#a43160dd6b5d659dba29b850143899154">queryWhereLayer()</a>, <a class="el" href="classPage.html#a24d8463a69d22828e4626738bacb1c3b">queryWhereSphere()</a>, <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">readPage()</a>, <a class="el" href="classPage.html#a30a38467528b5e5fa71a62dcc7a8ea4d">runModifiers()</a>, <a class="el" href="classPage.html#addba1c2fd5f27a2c4a6855e6b88908f9">setState()</a>, and <a class="el" href="classPage.html#a137739c8e55b1cf17cdd3b1737a80478">writePage()</a>.</p>
 
 </div>
 </div>
@@ -1195,7 +1338,7 @@ Protected Attributes</h2></td></tr>
 <p>Point coordinates. </p>
 <p >The data are stored as [x0, y0, z0, x1, y1, ...]. These are actual X, Y, or Z coordinates after scaling and offset. </p>
 
-<p class="reference">Referenced by <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">clear()</a>, <a class="el" href="classPage.html#a794b61a639d75b1b37731cf3809f0ae3">read()</a>, <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>, <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">runColorModifier()</a>, <a class="el" href="classPage.html#ae18eec0f67cca42f7a8835dad39b7d39">select()</a>, <a class="el" href="classPage.html#aec69a97b2fdb74efeaa2cbd2c6a09983">selectBox()</a>, <a class="el" href="classPage.html#a50d31cd0b46f2b13c084c8df483a48de">selectCone()</a>, <a class="el" href="classPage.html#a84eab8485b1de860775db586c4d726ef">selectSphere()</a>, and <a class="el" href="classPage.html#a601eba8e292281c077c822485978989f">transform()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classHeightMapModifier.html#a507c4d11e92f68fc70be400b61ffdd1d">HeightMapModifier::applyModifier()</a>, <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">clear()</a>, <a class="el" href="classPage.html#af7d3166cec901c06cc9852e0f587a15e">queryWhere()</a>, <a class="el" href="classPage.html#a98eadfb3694278076f60bc826795ab87">queryWhereBox()</a>, <a class="el" href="classPage.html#a19f5afb4ce3ea45b5f0362788d3c719b">queryWhereCone()</a>, <a class="el" href="classPage.html#a24d8463a69d22828e4626738bacb1c3b">queryWhereSphere()</a>, <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">readPage()</a>, <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>, <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">runColorModifier()</a>, and <a class="el" href="classPage.html#a601eba8e292281c077c822485978989f">transform()</a>.</p>
 
 </div>
 </div>
@@ -1219,7 +1362,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classPage.html#a794b61a639d75b1b37731cf3809f0ae3">read()</a>, <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>, and <a class="el" href="classPage.html#a601eba8e292281c077c822485978989f">transform()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">readPage()</a>, <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>, and <a class="el" href="classPage.html#a601eba8e292281c077c822485978989f">transform()</a>.</p>
 
 </div>
 </div>
@@ -1243,7 +1386,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classPage.html#ae18eec0f67cca42f7a8835dad39b7d39">select()</a>, <a class="el" href="classPage.html#aec69a97b2fdb74efeaa2cbd2c6a09983">selectBox()</a>, <a class="el" href="classPage.html#a1ec1a660f39a2c4b89305a229f16367f">selectClassification()</a>, <a class="el" href="classPage.html#a50d31cd0b46f2b13c084c8df483a48de">selectCone()</a>, <a class="el" href="classPage.html#a5321ded7ba0f41989c22bd5faf8f296c">selectElevation()</a>, <a class="el" href="classPage.html#add6d18281c95f61d8b5957f41785876c">selectLayer()</a>, and <a class="el" href="classPage.html#a84eab8485b1de860775db586c4d726ef">selectSphere()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPage.html#af7d3166cec901c06cc9852e0f587a15e">queryWhere()</a>, <a class="el" href="classPage.html#a98eadfb3694278076f60bc826795ab87">queryWhereBox()</a>, <a class="el" href="classPage.html#a9ca223ce3835a777e28af00ec88e9b65">queryWhereClassification()</a>, <a class="el" href="classPage.html#a19f5afb4ce3ea45b5f0362788d3c719b">queryWhereCone()</a>, <a class="el" href="classPage.html#a9f4b6b1954f0869199e8b324b2c9f0e0">queryWhereDensity()</a>, <a class="el" href="classPage.html#a2b1d549b21693aa31c3caf8599b051a4">queryWhereDescriptor()</a>, <a class="el" href="classPage.html#aea0d0e5b9e6edbdd9ac0fe1048ddb9fe">queryWhereElevation()</a>, <a class="el" href="classPage.html#a43160dd6b5d659dba29b850143899154">queryWhereLayer()</a>, and <a class="el" href="classPage.html#a24d8463a69d22828e4626738bacb1c3b">queryWhereSphere()</a>.</p>
 
 </div>
 </div>
@@ -1262,7 +1405,7 @@ Protected Attributes</h2></td></tr>
 <p>Rendering Point Colors. </p>
 <p >The data are stored as [r0, g0, b0, r1, g1, ...]. </p>
 
-<p class="reference">Referenced by <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">clear()</a>, <a class="el" href="classViewerOpenGLViewport.html#aec1af5c48baebb85b27a63b3a857342a">ViewerOpenGLViewport::renderScene()</a>, <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>, <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">runColorModifier()</a>, <a class="el" href="classPage.html#afe83f236e23c6b303a6b116407bc6d9f">setColor()</a>, and <a class="el" href="classPage.html#ace3013575d5240fe86db693a07b0b1d0">toPoint()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classHeightMapModifier.html#a507c4d11e92f68fc70be400b61ffdd1d">HeightMapModifier::applyModifier()</a>, <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">clear()</a>, <a class="el" href="classViewerOpenGLViewport.html#aec1af5c48baebb85b27a63b3a857342a">ViewerOpenGLViewport::renderScene()</a>, <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>, <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">runColorModifier()</a>, and <a class="el" href="classPage.html#a6a66d895999c267b3bdc7b54bd52b7ac">setColor()</a>.</p>
 
 </div>
 </div>
@@ -1300,7 +1443,7 @@ Protected Attributes</h2></td></tr>
 <p>Return number. </p>
 <p >Contains values from 0 to 15. </p>
 
-<p class="reference">Referenced by <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">clear()</a>, <a class="el" href="classPage.html#a794b61a639d75b1b37731cf3809f0ae3">read()</a>, <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>, and <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">runColorModifier()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">clear()</a>, <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">readPage()</a>, <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>, and <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">runColorModifier()</a>.</p>
 
 </div>
 </div>
@@ -1324,7 +1467,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>, <a class="el" href="classPage.html#aec69a97b2fdb74efeaa2cbd2c6a09983">selectBox()</a>, <a class="el" href="classPage.html#a50d31cd0b46f2b13c084c8df483a48de">selectCone()</a>, and <a class="el" href="classPage.html#a84eab8485b1de860775db586c4d726ef">selectSphere()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPage.html#a98eadfb3694278076f60bc826795ab87">queryWhereBox()</a>, <a class="el" href="classPage.html#a19f5afb4ce3ea45b5f0362788d3c719b">queryWhereCone()</a>, <a class="el" href="classPage.html#a24d8463a69d22828e4626738bacb1c3b">queryWhereSphere()</a>, and <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>.</p>
 
 </div>
 </div>
@@ -1342,7 +1485,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Index array contains indices to selected points. </p>
 
-<p class="reference">Referenced by <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">clear()</a>, <a class="el" href="classPage.html#a794b61a639d75b1b37731cf3809f0ae3">read()</a>, <a class="el" href="classViewerOpenGLViewport.html#aec1af5c48baebb85b27a63b3a857342a">ViewerOpenGLViewport::renderScene()</a>, <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>, <a class="el" href="classPage.html#ae18eec0f67cca42f7a8835dad39b7d39">select()</a>, <a class="el" href="classPage.html#aec69a97b2fdb74efeaa2cbd2c6a09983">selectBox()</a>, <a class="el" href="classPage.html#a1ec1a660f39a2c4b89305a229f16367f">selectClassification()</a>, <a class="el" href="classPage.html#a50d31cd0b46f2b13c084c8df483a48de">selectCone()</a>, <a class="el" href="classPage.html#a5321ded7ba0f41989c22bd5faf8f296c">selectElevation()</a>, <a class="el" href="classPage.html#add6d18281c95f61d8b5957f41785876c">selectLayer()</a>, and <a class="el" href="classPage.html#a84eab8485b1de860775db586c4d726ef">selectSphere()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classHeightMapModifier.html#a507c4d11e92f68fc70be400b61ffdd1d">HeightMapModifier::applyModifier()</a>, <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">clear()</a>, <a class="el" href="classPage.html#af7d3166cec901c06cc9852e0f587a15e">queryWhere()</a>, <a class="el" href="classPage.html#a98eadfb3694278076f60bc826795ab87">queryWhereBox()</a>, <a class="el" href="classPage.html#a9ca223ce3835a777e28af00ec88e9b65">queryWhereClassification()</a>, <a class="el" href="classPage.html#a19f5afb4ce3ea45b5f0362788d3c719b">queryWhereCone()</a>, <a class="el" href="classPage.html#a9f4b6b1954f0869199e8b324b2c9f0e0">queryWhereDensity()</a>, <a class="el" href="classPage.html#a2b1d549b21693aa31c3caf8599b051a4">queryWhereDescriptor()</a>, <a class="el" href="classPage.html#aea0d0e5b9e6edbdd9ac0fe1048ddb9fe">queryWhereElevation()</a>, <a class="el" href="classPage.html#a43160dd6b5d659dba29b850143899154">queryWhereLayer()</a>, <a class="el" href="classPage.html#a24d8463a69d22828e4626738bacb1c3b">queryWhereSphere()</a>, <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">readPage()</a>, <a class="el" href="classViewerOpenGLViewport.html#aec1af5c48baebb85b27a63b3a857342a">ViewerOpenGLViewport::renderScene()</a>, and <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>.</p>
 
 </div>
 </div>
@@ -1358,7 +1501,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">clear()</a>, <a class="el" href="classViewerOpenGLViewport.html#aec1af5c48baebb85b27a63b3a857342a">ViewerOpenGLViewport::renderScene()</a>, <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>, <a class="el" href="classPage.html#ae18eec0f67cca42f7a8835dad39b7d39">select()</a>, <a class="el" href="classPage.html#aec69a97b2fdb74efeaa2cbd2c6a09983">selectBox()</a>, <a class="el" href="classPage.html#a1ec1a660f39a2c4b89305a229f16367f">selectClassification()</a>, <a class="el" href="classPage.html#a50d31cd0b46f2b13c084c8df483a48de">selectCone()</a>, <a class="el" href="classPage.html#a5321ded7ba0f41989c22bd5faf8f296c">selectElevation()</a>, <a class="el" href="classPage.html#add6d18281c95f61d8b5957f41785876c">selectLayer()</a>, and <a class="el" href="classPage.html#a84eab8485b1de860775db586c4d726ef">selectSphere()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classHeightMapModifier.html#a507c4d11e92f68fc70be400b61ffdd1d">HeightMapModifier::applyModifier()</a>, <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">clear()</a>, <a class="el" href="classPage.html#af7d3166cec901c06cc9852e0f587a15e">queryWhere()</a>, <a class="el" href="classPage.html#a98eadfb3694278076f60bc826795ab87">queryWhereBox()</a>, <a class="el" href="classPage.html#a9ca223ce3835a777e28af00ec88e9b65">queryWhereClassification()</a>, <a class="el" href="classPage.html#a19f5afb4ce3ea45b5f0362788d3c719b">queryWhereCone()</a>, <a class="el" href="classPage.html#a9f4b6b1954f0869199e8b324b2c9f0e0">queryWhereDensity()</a>, <a class="el" href="classPage.html#a2b1d549b21693aa31c3caf8599b051a4">queryWhereDescriptor()</a>, <a class="el" href="classPage.html#aea0d0e5b9e6edbdd9ac0fe1048ddb9fe">queryWhereElevation()</a>, <a class="el" href="classPage.html#a43160dd6b5d659dba29b850143899154">queryWhereLayer()</a>, <a class="el" href="classPage.html#a24d8463a69d22828e4626738bacb1c3b">queryWhereSphere()</a>, <a class="el" href="classViewerOpenGLViewport.html#aec1af5c48baebb85b27a63b3a857342a">ViewerOpenGLViewport::renderScene()</a>, and <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>.</p>
 
 </div>
 </div>
@@ -1382,26 +1525,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classPage.html#ad546f6b2e656ff4efb94622e4bd6794e">nextState()</a>, <a class="el" href="classPage.html#a794b61a639d75b1b37731cf3809f0ae3">read()</a>, <a class="el" href="classPage.html#a30a38467528b5e5fa71a62dcc7a8ea4d">runModifiers()</a>, <a class="el" href="classPage.html#ae18eec0f67cca42f7a8835dad39b7d39">select()</a>, <a class="el" href="classPage.html#addba1c2fd5f27a2c4a6855e6b88908f9">setState()</a>, and <a class="el" href="classPage.html#a601eba8e292281c077c822485978989f">transform()</a>.</p>
-
-</div>
-</div>
-<a id="aea15d5aa558c2365b9436abdc383067e" name="aea15d5aa558c2365b9436abdc383067e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea15d5aa558c2365b9436abdc383067e">&#9670;&nbsp;</a></span>userColor</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;float&gt; Page::userColor</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Red, Green, and Blue output colors. </p>
-<p >The data are stored as [r0, g0, b0, r1, g1, ...]. Color values are in range from 0 (zero intensity) to 1 (full intensity). This value is stored in Point Data Record extra bytes. </p>
-
-<p class="reference">Referenced by <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">clear()</a>, <a class="el" href="classPage.html#a794b61a639d75b1b37731cf3809f0ae3">read()</a>, <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>, and <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">runColorModifier()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPage.html#ad546f6b2e656ff4efb94622e4bd6794e">nextState()</a>, <a class="el" href="classPage.html#af7d3166cec901c06cc9852e0f587a15e">queryWhere()</a>, <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">readPage()</a>, <a class="el" href="classPage.html#a30a38467528b5e5fa71a62dcc7a8ea4d">runModifiers()</a>, <a class="el" href="classPage.html#addba1c2fd5f27a2c4a6855e6b88908f9">setState()</a>, and <a class="el" href="classPage.html#a601eba8e292281c077c822485978989f">transform()</a>.</p>
 
 </div>
 </div>
@@ -1419,7 +1543,26 @@ Protected Attributes</h2></td></tr>
 
 <p>User data. </p>
 
-<p class="reference">Referenced by <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">clear()</a>, <a class="el" href="classPage.html#a794b61a639d75b1b37731cf3809f0ae3">read()</a>, and <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">clear()</a>, <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">readPage()</a>, and <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>.</p>
+
+</div>
+</div>
+<a id="a716403531d6337cb3a960d2c49978e3a" name="a716403531d6337cb3a960d2c49978e3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a716403531d6337cb3a960d2c49978e3a">&#9670;&nbsp;</a></span>value</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;size_t&gt; Page::value</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>User values. </p>
+<p >This value is stored in Point Data Record extra bytes. </p>
+
+<p class="reference">Referenced by <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">clear()</a>, <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">readPage()</a>, <a class="el" href="classPage.html#ab9fbfdbc5e96e812d0ef9e216a221742">resize()</a>, and <a class="el" href="classPage.html#ace3013575d5240fe86db693a07b0b1d0">toPoint()</a>.</p>
 
 </div>
 </div>

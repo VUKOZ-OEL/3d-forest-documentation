@@ -16,6 +16,8 @@ var classVector3 =
     [ "read", "classVector3.html#ac2038eab222c7acfa5ac5dbe675d071b", null ],
     [ "rotated", "classVector3.html#a20c4d5b90d487e364b4a663f728512a1", null ],
     [ "set", "classVector3.html#a0bbbb921398a7290338ebf7982ffd707", null ],
+    [ "updateGreater", "classVector3.html#ab30d9c2c39f94f910260fe0822a02ba5", null ],
+    [ "updateLess", "classVector3.html#a3cd1fd7f301ab84f16ab26196ae7bf3a", null ],
     [ "write", "classVector3.html#a667066c90f575fb9c29b67fc0fbfafd1", null ],
     [ "operator*", "classVector3.html#a8f33e2690b03aef0c3e20816bcbeffee", null ],
     [ "operator*", "classVector3.html#a772dee55be13c0a38c8f92c6f5b9f017", null ],

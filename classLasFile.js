@@ -1,5 +1,6 @@
 var classLasFile =
 [
+    [ "Format", "classLasFile_1_1Format.html", "classLasFile_1_1Format" ],
     [ "Header", "structLasFile_1_1Header.html", "structLasFile_1_1Header" ],
     [ "Point", "structLasFile_1_1Point.html", "structLasFile_1_1Point" ],
     [ "Classification", "classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127c", [
@@ -36,5 +37,11 @@ var classLasFile =
     [ "writePoint", "classLasFile.html#aa39ee02843aad7c29901acc50d06504e", null ],
     [ "writePoint", "classLasFile.html#a9d40511b751de184e364b5460f9614de", null ],
     [ "file_", "classLasFile.html#a49e34f00c3f3551e21a631ab8f9f9cc6", null ],
+    [ "FORMAT_CLASSIFICATION", "classLasFile.html#a64f581537893278e15d8a2b2c82a9e7e", null ],
+    [ "FORMAT_INTENSITY", "classLasFile.html#a3296abf50f68765f283d0d77ec264ac8", null ],
+    [ "FORMAT_INVALID", "classLasFile.html#ab3eeb35f41e650324ed9ddf4027608e6", null ],
+    [ "FORMAT_LAYER", "classLasFile.html#a3ff44d6eecb4e7ad269889dcd3564d7a", null ],
+    [ "FORMAT_RGB", "classLasFile.html#a101a676e0219ded35aad4ae5549198dd", null ],
+    [ "FORMAT_XYZ", "classLasFile.html#a9efed87c8e8217d2b9964ccb8a3b2c2f", null ],
     [ "header", "classLasFile.html#ada0b5ebba5a082ae7aa9e9b77b439b74", null ]
 ];
