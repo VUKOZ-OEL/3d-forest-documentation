@@ -3,8 +3,6 @@ var hierarchy =
     [ "ArgumentParser", "classArgumentParser.html", null ],
     [ "std::array", null, [
       [ "Range< double >", "classRange.html", null ],
-      [ "Range< float >", "classRange.html", null ],
-      [ "Vector3< float >", "classVector3.html", null ],
       [ "Vector3< double >", "classVector3.html", null ],
       [ "Vector3< size_t >", "classVector3.html", null ],
       [ "Range< T >", "classRange.html", null ],
@@ -22,12 +20,14 @@ var hierarchy =
     [ "ColorPalette", "classColorPalette.html", null ],
     [ "Cone< T >", "classCone.html", null ],
     [ "Cone< double >", "classCone.html", null ],
+    [ "Cylinder< T >", "classCylinder.html", null ],
+    [ "Cylinder< double >", "classCylinder.html", null ],
     [ "Json::Data", "classJson_1_1Data.html", null ],
     [ "Dataset", "classDataset.html", null ],
     [ "Datasets", "classDatasets.html", null ],
     [ "DescriptorPca", "classDescriptorPca.html", null ],
     [ "Editor", "classEditor.html", null ],
-    [ "ExportFileFormat", "classExportFileFormat.html", [
+    [ "ExportFileFormatInterface", "classExportFileFormatInterface.html", [
       [ "ExportFileFormatCsv", "classExportFileFormatCsv.html", null ],
       [ "ExportFileFormatLas", "classExportFileFormatLas.html", null ]
     ] ],
@@ -38,9 +38,12 @@ var hierarchy =
     [ "HeightMapModifier", "classHeightMapModifier.html", null ],
     [ "IndexFile", "classIndexFile.html", null ],
     [ "IndexFileBuilder", "classIndexFileBuilder.html", null ],
+    [ "MyTestStruct::IO", "classMyTestStruct_1_1IO.html", null ],
+    [ "Point::IO", "classPoint_1_1IO.html", null ],
+    [ "IOUint32", "classIOUint32.html", null ],
     [ "Json", "classJson.html", null ],
+    [ "PageManager::Key", "structPageManager_1_1Key.html", null ],
     [ "Query::Key", "structQuery_1_1Key.html", null ],
-    [ "SegmentationElement::Key", "structSegmentationElement_1_1Key.html", null ],
     [ "LasFile", "classLasFile.html", null ],
     [ "LasFile", "classLasFile_1_1cpp_1_1LasFile.html", null ],
     [ "Layer", "classLayer.html", null ],
@@ -49,43 +52,55 @@ var hierarchy =
     [ "LogMessage", "classLogMessage.html", null ],
     [ "LogThread", "classLogThread.html", null ],
     [ "LogThreadCallbackInterface", "classLogThreadCallbackInterface.html", [
-      [ "LoggerWindow", "classLoggerWindow.html", null ]
+      [ "LoggerFile", "classLoggerFile.html", null ],
+      [ "LoggerStdout", "classLoggerStdout.html", null ],
+      [ "MessageLogWindow", "classMessageLogWindow.html", null ]
     ] ],
     [ "Matrix4< T >", "classMatrix4.html", null ],
+    [ "Mesh", "classMesh.html", null ],
     [ "ModifierInterface", "classModifierInterface.html", [
       [ "HeightMapPlugin", "classHeightMapPlugin.html", null ]
     ] ],
+    [ "MyTestStruct", "classMyTestStruct.html", null ],
     [ "IndexFile::Node", "structIndexFile_1_1Node.html", null ],
+    [ "Null", "classNull.html", null ],
+    [ "Numeric", "classNumeric.html", null ],
     [ "Page", "classPage.html", null ],
+    [ "VectorFile< T, F >::Page", "classVectorFile_1_1Page.html", null ],
+    [ "PageData", "classPageData.html", null ],
+    [ "PageManager", "classPageManager.html", null ],
     [ "PluginInterface", "classPluginInterface.html", [
       [ "ClassificationPlugin", "classClassificationPlugin.html", null ],
-      [ "DensityPlugin", "classDensityPlugin.html", null ],
       [ "DescriptorPlugin", "classDescriptorPlugin.html", null ],
       [ "ElevationPlugin", "classElevationPlugin.html", null ],
       [ "HeightMapPlugin", "classHeightMapPlugin.html", null ],
       [ "SegmentationPlugin", "classSegmentationPlugin.html", null ]
     ] ],
     [ "LasFile::Point", "structLasFile_1_1Point.html", null ],
+    [ "Point", "classPoint.html", null ],
+    [ "Points", "classPoints.html", null ],
     [ "ProgressActionInterface", "classProgressActionInterface.html", [
       [ "ClassificationAction", "classClassificationAction.html", null ],
-      [ "DensityAction", "classDensityAction.html", null ],
       [ "DescriptorAction", "classDescriptorAction.html", null ],
       [ "ElevationAction", "classElevationAction.html", null ],
-      [ "ExportFileAction", "classExportFileAction.html", null ]
+      [ "ExportFileAction", "classExportFileAction.html", null ],
+      [ "SegmentationAction", "classSegmentationAction.html", null ]
     ] ],
+    [ "ProgressCounter", "classProgressCounter.html", null ],
     [ "QDialog", null, [
       [ "ClassificationWindow", "classClassificationWindow.html", null ],
-      [ "DensityWindow", "classDensityWindow.html", null ],
       [ "DescriptorWindow", "classDescriptorWindow.html", null ],
       [ "ElevationWindow", "classElevationWindow.html", null ],
       [ "ExportFileDialog", "classExportFileDialog.html", null ],
+      [ "HeightMapWindow", "classHeightMapWindow.html", null ],
       [ "ImportFileDialog", "classImportFileDialog.html", null ],
+      [ "InfoDialog", "classInfoDialog.html", null ],
+      [ "ProgressDialog", "classProgressDialog.html", null ],
       [ "SegmentationWindow", "classSegmentationWindow.html", null ]
     ] ],
     [ "QDockWidget", null, [
-      [ "HeightMapWindow", "classHeightMapWindow.html", null ],
-      [ "LoggerWindow", "classLoggerWindow.html", null ],
-      [ "ProjectNavigatorWindow", "classProjectNavigatorWindow.html", null ],
+      [ "ExplorerWindow", "classExplorerWindow.html", null ],
+      [ "MessageLogWindow", "classMessageLogWindow.html", null ],
       [ "SettingsWindow", "classSettingsWindow.html", null ]
     ] ],
     [ "QIcon", null, [
@@ -96,16 +111,15 @@ var hierarchy =
     ] ],
     [ "QObject", null, [
       [ "ClassificationPlugin", "classClassificationPlugin.html", null ],
-      [ "DensityPlugin", "classDensityPlugin.html", null ],
       [ "DescriptorPlugin", "classDescriptorPlugin.html", null ],
       [ "ElevationPlugin", "classElevationPlugin.html", null ],
+      [ "ExplorerPlugin", "classExplorerPlugin.html", null ],
       [ "ExportFilePlugin", "classExportFilePlugin.html", null ],
       [ "HeightMapPlugin", "classHeightMapPlugin.html", null ],
       [ "HelpPlugin", "classHelpPlugin.html", null ],
       [ "ImportFilePlugin", "classImportFilePlugin.html", null ],
-      [ "LoggerPlugin", "classLoggerPlugin.html", null ],
+      [ "MessageLogPlugin", "classMessageLogPlugin.html", null ],
       [ "ProjectFilePlugin", "classProjectFilePlugin.html", null ],
-      [ "ProjectNavigatorPlugin", "classProjectNavigatorPlugin.html", null ],
       [ "SegmentationPlugin", "classSegmentationPlugin.html", null ],
       [ "SettingsPlugin", "classSettingsPlugin.html", null ],
       [ "ViewerPlugin", "classViewerPlugin.html", null ]
@@ -116,36 +130,36 @@ var hierarchy =
     [ "QOpenGLWidget", null, [
       [ "ViewerOpenGLViewport", "classViewerOpenGLViewport.html", null ]
     ] ],
-    [ "QProgressDialog", null, [
-      [ "ProgressDialog", "classProgressDialog.html", null ]
-    ] ],
     [ "Query", "classQuery.html", null ],
     [ "QueryFilterSet", "classQueryFilterSet.html", null ],
     [ "QueryWhere", "classQueryWhere.html", null ],
     [ "QWidget", null, [
-      [ "ProjectNavigatorItem", "classProjectNavigatorItem.html", [
-        [ "ProjectNavigatorItemClassifications", "classProjectNavigatorItemClassifications.html", null ],
-        [ "ProjectNavigatorItemClipping", "classProjectNavigatorItemClipping.html", null ],
-        [ "ProjectNavigatorItemColor", "classProjectNavigatorItemColor.html", null ],
-        [ "ProjectNavigatorItemDensity", "classProjectNavigatorItemDensity.html", null ],
-        [ "ProjectNavigatorItemDescriptor", "classProjectNavigatorItemDescriptor.html", null ],
-        [ "ProjectNavigatorItemElevation", "classProjectNavigatorItemElevation.html", null ],
-        [ "ProjectNavigatorItemFiles", "classProjectNavigatorItemFiles.html", null ],
-        [ "ProjectNavigatorItemIntensity", "classProjectNavigatorItemIntensity.html", null ],
-        [ "ProjectNavigatorItemLayers", "classProjectNavigatorItemLayers.html", null ],
-        [ "ProjectNavigatorItemReturnNumber", "classProjectNavigatorItemReturnNumber.html", null ]
+      [ "ClassificationWidget", "classClassificationWidget.html", null ],
+      [ "ColorSwitchWidget", "classColorSwitchWidget.html", null ],
+      [ "DescriptorWidget", "classDescriptorWidget.html", null ],
+      [ "DoubleRangeSliderWidget", "classDoubleRangeSliderWidget.html", null ],
+      [ "DoubleSliderWidget", "classDoubleSliderWidget.html", null ],
+      [ "ElevationWidget", "classElevationWidget.html", null ],
+      [ "ExplorerClippingBoxWidget", "classExplorerClippingBoxWidget.html", null ],
+      [ "ExplorerClippingCylinderWidget", "classExplorerClippingCylinderWidget.html", null ],
+      [ "ExplorerWidgetInterface", "classExplorerWidgetInterface.html", [
+        [ "ExplorerClassificationsWidget", "classExplorerClassificationsWidget.html", null ],
+        [ "ExplorerClippingWidget", "classExplorerClippingWidget.html", null ],
+        [ "ExplorerDescriptorWidget", "classExplorerDescriptorWidget.html", null ],
+        [ "ExplorerElevationWidget", "classExplorerElevationWidget.html", null ],
+        [ "ExplorerFilesWidget", "classExplorerFilesWidget.html", null ],
+        [ "ExplorerLayersWidget", "classExplorerLayersWidget.html", null ]
       ] ],
-      [ "ProjectNavigatorTree", "classProjectNavigatorTree.html", null ],
+      [ "HeightMapWidget", "classHeightMapWidget.html", null ],
       [ "RangeSliderWidget", "classRangeSliderWidget.html", null ],
+      [ "SegmentationWidget", "classSegmentationWidget.html", null ],
       [ "SettingsColorWidget", "classSettingsColorWidget.html", null ],
+      [ "ShowDetailsWidget", "classShowDetailsWidget.html", null ],
       [ "SliderWidget", "classSliderWidget.html", null ],
       [ "ToolTabWidget", "classToolTabWidget.html", null ],
       [ "ViewerViewports", "classViewerViewports.html", null ]
     ] ],
     [ "Region", "classRegion.html", null ],
-    [ "SegmentationElement", "classSegmentationElement.html", null ],
-    [ "SegmentationElements", "classSegmentationElements.html", null ],
-    [ "SegmentationMap", "classSegmentationMap.html", null ],
     [ "IndexFile::Selection", "structIndexFile_1_1Selection.html", null ],
     [ "IndexFile::SelectionTile", "structIndexFile_1_1SelectionTile.html", null ],
     [ "IndexFileBuilder::Settings", "classIndexFileBuilder_1_1Settings.html", null ],
@@ -154,20 +168,22 @@ var hierarchy =
     [ "SettingsView", "classSettingsView.html", null ],
     [ "Sphere< T >", "classSphere.html", null ],
     [ "Sphere< double >", "classSphere.html", null ],
-    [ "Thread", "classThread.html", [
-      [ "RenderThread", "classRenderThread.html", null ],
-      [ "SegmentationThread", "classSegmentationThread.html", null ]
-    ] ],
+    [ "Test", "classTest.html", null ],
+    [ "Test::TestCase", "classTest_1_1TestCase.html", null ],
+    [ "TestPoint3d", "classTestPoint3d.html", null ],
+    [ "TestPoint3f", "classTestPoint3f.html", null ],
     [ "ThreadCallbackInterface", "classThreadCallbackInterface.html", [
-      [ "MainWindow", "classMainWindow.html", null ],
-      [ "SegmentationWindow", "classSegmentationWindow.html", null ]
+      [ "MainWindow", "classMainWindow.html", null ]
+    ] ],
+    [ "ThreadLoop", "classThreadLoop.html", [
+      [ "RenderThread", "classRenderThread.html", null ]
     ] ],
     [ "Time", "classTime.html", null ],
     [ "ArgumentParser::Value", "classArgumentParser_1_1Value.html", null ],
+    [ "VectorFile< T, F >", "classVectorFile.html", null ],
+    [ "VectorFile< Point, Point::IO >", "classVectorFile.html", null ],
     [ "ViewerAabb", "classViewerAabb.html", null ],
     [ "ViewerCamera", "classViewerCamera.html", null ],
     [ "ViewerOpenGL", "classViewerOpenGL.html", null ],
-    [ "Viewports", "classViewports.html", null ],
-    [ "Voxel", "classVoxel.html", null ],
-    [ "Voxels", "classVoxels.html", null ]
+    [ "Viewports", "classViewports.html", null ]
 ];

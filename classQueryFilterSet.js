@@ -1,9 +1,10 @@
 var classQueryFilterSet =
 [
     [ "QueryFilterSet", "classQueryFilterSet.html#a9fee5cf10b55955842c0d22b7f7bece9", null ],
-    [ "QueryFilterSet", "classQueryFilterSet.html#aefc3a4e5e6ba5f0b670eb971de21bd86", null ],
+    [ "QueryFilterSet", "classQueryFilterSet.html#a3b5061106df2752b8bc09d938fe59751", null ],
     [ "~QueryFilterSet", "classQueryFilterSet.html#a3dd0f475dd34001f45ce9d92ab321e52", null ],
     [ "all", "classQueryFilterSet.html#a38071d44a5e2e6d2a0e9200b52f32065", null ],
+    [ "clear", "classQueryFilterSet.html#afe8b8bdb56611167e060b3919a31601c", null ],
     [ "contains", "classQueryFilterSet.html#a186ec5d6ab7092554e5f4013efe286af", null ],
     [ "erase", "classQueryFilterSet.html#ab2887d84f42f52925c5e151813c72dab", null ],
     [ "filter", "classQueryFilterSet.html#a72e3498677c27556483e05068f2f44d0", null ],

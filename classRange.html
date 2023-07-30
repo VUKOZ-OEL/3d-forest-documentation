@@ -68,12 +68,20 @@ $(document).ready(function(){initNavTree('classRange.html',''); initResizable();
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a6f65c35914aeb4d5238b6acddaf40680"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRange.html#a6f65c35914aeb4d5238b6acddaf40680">Range</a> ()</td></tr>
 <tr class="separator:a6f65c35914aeb4d5238b6acddaf40680"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0bf1bcc67159d3b97632c24db8737af"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRange.html#ad0bf1bcc67159d3b97632c24db8737af">Range</a> (T min, T max)</td></tr>
+<tr class="separator:ad0bf1bcc67159d3b97632c24db8737af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4add0d0ff97470c745d578dc328794cd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRange.html#a4add0d0ff97470c745d578dc328794cd">Range</a> (T min, T minValue, T maxValue, T max)</td></tr>
+<tr class="separator:a4add0d0ff97470c745d578dc328794cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e6f4eb88b15c2aa15c4678789e4f7b0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRange.html#a9e6f4eb88b15c2aa15c4678789e4f7b0">~Range</a> ()</td></tr>
 <tr class="separator:a9e6f4eb88b15c2aa15c4678789e4f7b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05a5b908926e64956b0db27d19b0bd5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRange.html#a05a5b908926e64956b0db27d19b0bd5e">clear</a> ()</td></tr>
-<tr class="separator:a05a5b908926e64956b0db27d19b0bd5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa567a9fda141a3da23c1f029755fe60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRange.html#aaa567a9fda141a3da23c1f029755fe60">set</a> (T min, T max, T minValue, T maxValue)</td></tr>
-<tr class="separator:aaa567a9fda141a3da23c1f029755fe60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adebc1e2afc790bbc98ee354f80690efb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRange.html#adebc1e2afc790bbc98ee354f80690efb">setEnabled</a> (bool enabled)</td></tr>
+<tr class="separator:adebc1e2afc790bbc98ee354f80690efb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c5f47b4b007ae3702929275ea13bb80"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRange.html#a5c5f47b4b007ae3702929275ea13bb80">isEnabled</a> () const</td></tr>
+<tr class="separator:a5c5f47b4b007ae3702929275ea13bb80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a465aed8393a396cb2fa663823e13d5b1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRange.html#a465aed8393a396cb2fa663823e13d5b1">empty</a> () const</td></tr>
+<tr class="separator:a465aed8393a396cb2fa663823e13d5b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a826cf96f81493df597c35bfbbbccd2c4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRange.html#a826cf96f81493df597c35bfbbbccd2c4">full</a> () const</td></tr>
+<tr class="separator:a826cf96f81493df597c35bfbbbccd2c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1e69c4a39f73d39b9222f0b0d66dc98"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRange.html#ae1e69c4a39f73d39b9222f0b0d66dc98">setMinimum</a> (T v)</td></tr>
 <tr class="separator:ae1e69c4a39f73d39b9222f0b0d66dc98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebfda5b7118363391cc46c4b1a142519"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRange.html#aebfda5b7118363391cc46c4b1a142519">setMaximum</a> (T v)</td></tr>
@@ -90,12 +98,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa92022cbcfad7d9bc6076239445458cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41473be79613837ced0f8e2c0dd7f938"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRange.html#a41473be79613837ced0f8e2c0dd7f938">maximumValue</a> () const</td></tr>
 <tr class="separator:a41473be79613837ced0f8e2c0dd7f938"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52f961d394646b6feba45820087e88a2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRange.html#a52f961d394646b6feba45820087e88a2">hasBoundaryValues</a> () const</td></tr>
-<tr class="separator:a52f961d394646b6feba45820087e88a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adebc1e2afc790bbc98ee354f80690efb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRange.html#adebc1e2afc790bbc98ee354f80690efb">setEnabled</a> (bool enabled)</td></tr>
-<tr class="separator:adebc1e2afc790bbc98ee354f80690efb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c5f47b4b007ae3702929275ea13bb80"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRange.html#a5c5f47b4b007ae3702929275ea13bb80">isEnabled</a> () const</td></tr>
-<tr class="separator:a5c5f47b4b007ae3702929275ea13bb80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05a5b908926e64956b0db27d19b0bd5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRange.html#a05a5b908926e64956b0db27d19b0bd5e">clear</a> ()</td></tr>
+<tr class="separator:a05a5b908926e64956b0db27d19b0bd5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a894a32542b0deca37aea3d0086686459"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRange.html#a894a32542b0deca37aea3d0086686459">set</a> (T min, T max)</td></tr>
+<tr class="separator:a894a32542b0deca37aea3d0086686459"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62242f5a0ace89f0587a9ed2df834e70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRange.html#a62242f5a0ace89f0587a9ed2df834e70">set</a> (T min, T minValue, T maxValue, T max)</td></tr>
+<tr class="separator:a62242f5a0ace89f0587a9ed2df834e70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf68195460c5dff20b8338b9add67b6d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRange.html#acf68195460c5dff20b8338b9add67b6d">contains</a> (T v) const</td></tr>
+<tr class="separator:acf68195460c5dff20b8338b9add67b6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7fefd20784c492612d7319ee414be499"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRange.html#a7fefd20784c492612d7319ee414be499">read</a> (const <a class="el" href="classJson.html">Json</a> &amp;in)</td></tr>
 <tr class="separator:a7fefd20784c492612d7319ee414be499"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87bf0098a9bb07bf6bf24c35325b6c98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classJson.html">Json</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRange.html#a87bf0098a9bb07bf6bf24c35325b6c98">write</a> (<a class="el" href="classJson.html">Json</a> &amp;out) const</td></tr>
@@ -108,7 +118,7 @@ Private Attributes</h2></td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6f65c35914aeb4d5238b6acddaf40680" name="a6f65c35914aeb4d5238b6acddaf40680"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f65c35914aeb4d5238b6acddaf40680">&#9670;&nbsp;</a></span>Range()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f65c35914aeb4d5238b6acddaf40680">&#9670;&nbsp;</a></span>Range() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -120,6 +130,94 @@ template&lt;class T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classRange.html">Range</a>&lt; T &gt;<a class="el" href="classRange.html">::Range</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad0bf1bcc67159d3b97632c24db8737af" name="ad0bf1bcc67159d3b97632c24db8737af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0bf1bcc67159d3b97632c24db8737af">&#9670;&nbsp;</a></span>Range() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classRange.html">Range</a>&lt; T &gt;<a class="el" href="classRange.html">::Range</a> </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>min</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>max</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4add0d0ff97470c745d578dc328794cd" name="a4add0d0ff97470c745d578dc328794cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4add0d0ff97470c745d578dc328794cd">&#9670;&nbsp;</a></span>Range() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classRange.html">Range</a>&lt; T &gt;<a class="el" href="classRange.html">::Range</a> </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>min</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>minValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>maxValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>max</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -182,8 +280,8 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="a52f961d394646b6feba45820087e88a2" name="a52f961d394646b6feba45820087e88a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52f961d394646b6feba45820087e88a2">&#9670;&nbsp;</a></span>hasBoundaryValues()</h2>
+<a id="acf68195460c5dff20b8338b9add67b6d" name="acf68195460c5dff20b8338b9add67b6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf68195460c5dff20b8338b9add67b6d">&#9670;&nbsp;</a></span>contains()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -194,7 +292,11 @@ template&lt;class T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="classRange.html">Range</a>&lt; T &gt;::hasBoundaryValues</td>
+          <td class="memname">bool <a class="el" href="classRange.html">Range</a>&lt; T &gt;::contains </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -204,7 +306,57 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classPage.html#a9f4b6b1954f0869199e8b324b2c9f0e0">Page::queryWhereDensity()</a>, <a class="el" href="classPage.html#a2b1d549b21693aa31c3caf8599b051a4">Page::queryWhereDescriptor()</a>, and <a class="el" href="classPage.html#aea0d0e5b9e6edbdd9ac0fe1048ddb9fe">Page::queryWhereElevation()</a>.</p>
+</div>
+</div>
+<a id="a465aed8393a396cb2fa663823e13d5b1" name="a465aed8393a396cb2fa663823e13d5b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a465aed8393a396cb2fa663823e13d5b1">&#9670;&nbsp;</a></span>empty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classRange.html">Range</a>&lt; T &gt;::empty</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classExplorerElevationWidget.html#a71b1e7fb05b34152984acc43ace263b4">ExplorerElevationWidget::setElevation()</a>.</p>
+
+</div>
+</div>
+<a id="a826cf96f81493df597c35bfbbbccd2c4" name="a826cf96f81493df597c35bfbbbccd2c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a826cf96f81493df597c35bfbbbccd2c4">&#9670;&nbsp;</a></span>full()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classRange.html">Range</a>&lt; T &gt;::full</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classPage.html#a2b1d549b21693aa31c3caf8599b051a4">Page::queryWhereDescriptor()</a>, and <a class="el" href="classPage.html#aea0d0e5b9e6edbdd9ac0fe1048ddb9fe">Page::queryWhereElevation()</a>.</p>
 
 </div>
 </div>
@@ -233,7 +385,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorItemDensity.html#a490566d3deeb28438aa5d2f42aefc7dc">ProjectNavigatorItemDensity::isFilterEnabled()</a>, <a class="el" href="classProjectNavigatorItemDescriptor.html#acf32c66a196bde151705eddb22ad18fd">ProjectNavigatorItemDescriptor::isFilterEnabled()</a>, <a class="el" href="classProjectNavigatorItemElevation.html#acc2d3b178e9daddfbf624d233c965250">ProjectNavigatorItemElevation::isFilterEnabled()</a>, <a class="el" href="classPage.html#a9f4b6b1954f0869199e8b324b2c9f0e0">Page::queryWhereDensity()</a>, <a class="el" href="classPage.html#a2b1d549b21693aa31c3caf8599b051a4">Page::queryWhereDescriptor()</a>, and <a class="el" href="classPage.html#aea0d0e5b9e6edbdd9ac0fe1048ddb9fe">Page::queryWhereElevation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classExplorerDescriptorWidget.html#a6901a3b2d0f5e92845d06830e91288bc">ExplorerDescriptorWidget::isFilterEnabled()</a>, <a class="el" href="classExplorerElevationWidget.html#a5f9f8f951dc063c2f1d6ef9ee4525396">ExplorerElevationWidget::isFilterEnabled()</a>, <a class="el" href="classPage.html#a2b1d549b21693aa31c3caf8599b051a4">Page::queryWhereDescriptor()</a>, and <a class="el" href="classPage.html#aea0d0e5b9e6edbdd9ac0fe1048ddb9fe">Page::queryWhereElevation()</a>.</p>
 
 </div>
 </div>
@@ -262,7 +414,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classHeightMapModifier.html#a507c4d11e92f68fc70be400b61ffdd1d">HeightMapModifier::applyModifier()</a>, <a class="el" href="classProjectNavigatorItemDensity.html#ae5e878c77cb9d64dea2ec205c8a6878b">ProjectNavigatorItemDensity::slotUpdate()</a>, <a class="el" href="classProjectNavigatorItemDescriptor.html#a91af5a4f93fcf6122d3559d88dfbf203">ProjectNavigatorItemDescriptor::slotUpdate()</a>, and <a class="el" href="classProjectNavigatorItemElevation.html#a134c5b5ea7218ec79bd761372558f3e1">ProjectNavigatorItemElevation::slotUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classHeightMapModifier.html#a507c4d11e92f68fc70be400b61ffdd1d">HeightMapModifier::applyModifier()</a>, <a class="el" href="classExplorerDescriptorWidget.html#ae58e9aac973b3205a465d479b4199918">ExplorerDescriptorWidget::setDescriptor()</a>, and <a class="el" href="classExplorerElevationWidget.html#a71b1e7fb05b34152984acc43ace263b4">ExplorerElevationWidget::setElevation()</a>.</p>
 
 </div>
 </div>
@@ -291,7 +443,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorItemClipping.html#a0ad8a99cb08c4d7e2ca23128d7d319fd">ProjectNavigatorItemClipping::filterChanged()</a>, <a class="el" href="classPage.html#a9f4b6b1954f0869199e8b324b2c9f0e0">Page::queryWhereDensity()</a>, <a class="el" href="classPage.html#a2b1d549b21693aa31c3caf8599b051a4">Page::queryWhereDescriptor()</a>, <a class="el" href="classPage.html#aea0d0e5b9e6edbdd9ac0fe1048ddb9fe">Page::queryWhereElevation()</a>, <a class="el" href="classProjectNavigatorItemDensity.html#ae5e878c77cb9d64dea2ec205c8a6878b">ProjectNavigatorItemDensity::slotUpdate()</a>, <a class="el" href="classProjectNavigatorItemDescriptor.html#a91af5a4f93fcf6122d3559d88dfbf203">ProjectNavigatorItemDescriptor::slotUpdate()</a>, and <a class="el" href="classProjectNavigatorItemElevation.html#a134c5b5ea7218ec79bd761372558f3e1">ProjectNavigatorItemElevation::slotUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPage.html#a2b1d549b21693aa31c3caf8599b051a4">Page::queryWhereDescriptor()</a>, <a class="el" href="classPage.html#aea0d0e5b9e6edbdd9ac0fe1048ddb9fe">Page::queryWhereElevation()</a>, <a class="el" href="classExplorerElevationWidget.html#a71b1e7fb05b34152984acc43ace263b4">ExplorerElevationWidget::setElevation()</a>, <a class="el" href="classSegmentationAction.html#a310de1d04ca982b78bc4a6b350fe8625">SegmentationAction::start()</a>, and <a class="el" href="classExplorerClippingBoxWidget.html#a476c2b9007318029491a37bced0c17f5">ExplorerClippingBoxWidget::updateRegion()</a>.</p>
 
 </div>
 </div>
@@ -320,7 +472,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classHeightMapModifier.html#a507c4d11e92f68fc70be400b61ffdd1d">HeightMapModifier::applyModifier()</a>, <a class="el" href="classProjectNavigatorItemDensity.html#ae5e878c77cb9d64dea2ec205c8a6878b">ProjectNavigatorItemDensity::slotUpdate()</a>, <a class="el" href="classProjectNavigatorItemDescriptor.html#a91af5a4f93fcf6122d3559d88dfbf203">ProjectNavigatorItemDescriptor::slotUpdate()</a>, and <a class="el" href="classProjectNavigatorItemElevation.html#a134c5b5ea7218ec79bd761372558f3e1">ProjectNavigatorItemElevation::slotUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classHeightMapModifier.html#a507c4d11e92f68fc70be400b61ffdd1d">HeightMapModifier::applyModifier()</a>, <a class="el" href="classExplorerDescriptorWidget.html#ae58e9aac973b3205a465d479b4199918">ExplorerDescriptorWidget::setDescriptor()</a>, and <a class="el" href="classExplorerElevationWidget.html#a71b1e7fb05b34152984acc43ace263b4">ExplorerElevationWidget::setElevation()</a>.</p>
 
 </div>
 </div>
@@ -349,7 +501,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorItemClipping.html#a0ad8a99cb08c4d7e2ca23128d7d319fd">ProjectNavigatorItemClipping::filterChanged()</a>, <a class="el" href="classPage.html#a9f4b6b1954f0869199e8b324b2c9f0e0">Page::queryWhereDensity()</a>, <a class="el" href="classPage.html#a2b1d549b21693aa31c3caf8599b051a4">Page::queryWhereDescriptor()</a>, <a class="el" href="classPage.html#aea0d0e5b9e6edbdd9ac0fe1048ddb9fe">Page::queryWhereElevation()</a>, <a class="el" href="classProjectNavigatorItemDensity.html#ae5e878c77cb9d64dea2ec205c8a6878b">ProjectNavigatorItemDensity::slotUpdate()</a>, <a class="el" href="classProjectNavigatorItemDescriptor.html#a91af5a4f93fcf6122d3559d88dfbf203">ProjectNavigatorItemDescriptor::slotUpdate()</a>, and <a class="el" href="classProjectNavigatorItemElevation.html#a134c5b5ea7218ec79bd761372558f3e1">ProjectNavigatorItemElevation::slotUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPage.html#a2b1d549b21693aa31c3caf8599b051a4">Page::queryWhereDescriptor()</a>, <a class="el" href="classPage.html#aea0d0e5b9e6edbdd9ac0fe1048ddb9fe">Page::queryWhereElevation()</a>, <a class="el" href="classExplorerElevationWidget.html#a71b1e7fb05b34152984acc43ace263b4">ExplorerElevationWidget::setElevation()</a>, <a class="el" href="classSegmentationAction.html#a310de1d04ca982b78bc4a6b350fe8625">SegmentationAction::start()</a>, and <a class="el" href="classExplorerClippingBoxWidget.html#a476c2b9007318029491a37bced0c17f5">ExplorerClippingBoxWidget::updateRegion()</a>.</p>
 
 </div>
 </div>
@@ -383,8 +535,8 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="aaa567a9fda141a3da23c1f029755fe60" name="aaa567a9fda141a3da23c1f029755fe60"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa567a9fda141a3da23c1f029755fe60">&#9670;&nbsp;</a></span>set()</h2>
+<a id="a894a32542b0deca37aea3d0086686459" name="a894a32542b0deca37aea3d0086686459"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a894a32542b0deca37aea3d0086686459">&#9670;&nbsp;</a></span>set() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -404,19 +556,7 @@ template&lt;class T &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>max</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>minValue</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>maxValue</em>&#160;</td>
+          <td class="paramname"><em>max</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -431,7 +571,57 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classEditor.html#aa7dc8544e104c680c9d2515f442a136b">Editor::close()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classEditor.html#aa7dc8544e104c680c9d2515f442a136b">Editor::close()</a>, and <a class="el" href="classElevationAction.html#adc1b01519ea952912bddff96eee78112">ElevationAction::stepComputeElevation()</a>.</p>
+
+</div>
+</div>
+<a id="a62242f5a0ace89f0587a9ed2df834e70" name="a62242f5a0ace89f0587a9ed2df834e70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62242f5a0ace89f0587a9ed2df834e70">&#9670;&nbsp;</a></span>set() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classRange.html">Range</a>&lt; T &gt;::set </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>min</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>minValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>maxValue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>max</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -461,7 +651,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorItemDensity.html#a9ce0a5232b37815070a532dff85b0c13">ProjectNavigatorItemDensity::setFilterEnabled()</a>, <a class="el" href="classProjectNavigatorItemDescriptor.html#a7090953f9a7fb3f8dabed3ac19d59638">ProjectNavigatorItemDescriptor::setFilterEnabled()</a>, and <a class="el" href="classProjectNavigatorItemElevation.html#a5c57439d2c140e8e576d7b685bd57324">ProjectNavigatorItemElevation::setFilterEnabled()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classExplorerDescriptorWidget.html#a5fbe58423afa7ee044cb3d63e398d293">ExplorerDescriptorWidget::setFilterEnabled()</a>, and <a class="el" href="classExplorerElevationWidget.html#ad121944ddf48f1e056fad78adc9d0422">ExplorerElevationWidget::setFilterEnabled()</a>.</p>
 
 </div>
 </div>
@@ -491,7 +681,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorItemClipping.html#ac052512d2a2d6b1b5cf0ef49d6503602">ProjectNavigatorItemClipping::slotUpdate()</a>, and <a class="el" href="classElevationAction.html#a3cbae6baf2a54134cb35590d274b3b6a">ElevationAction::step()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classExplorerClippingBoxWidget.html#a8a601966c23cbfdabd54b2e0f05dffd6">ExplorerClippingBoxWidget::setRegion()</a>.</p>
 
 </div>
 </div>
@@ -521,7 +711,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorItemClipping.html#a656e8218e822d63da24fb1e0c0a1b7f3">ProjectNavigatorItemClipping::reset()</a>, <a class="el" href="classProjectNavigatorItemClipping.html#ab2b7cfc8e2756231ebf652621d1c5f5e">ProjectNavigatorItemClipping::slotRangeIntermediateMaximumValue()</a>, <a class="el" href="classProjectNavigatorItemDensity.html#aabe039d93758514930d8678eb78f984c">ProjectNavigatorItemDensity::slotRangeIntermediateMaximumValue()</a>, <a class="el" href="classProjectNavigatorItemDescriptor.html#a05d34644a63f0fd4d41bc1240ff2691f">ProjectNavigatorItemDescriptor::slotRangeIntermediateMaximumValue()</a>, <a class="el" href="classProjectNavigatorItemElevation.html#a44e0358282576c5e64a97eca53d27a77">ProjectNavigatorItemElevation::slotRangeIntermediateMaximumValue()</a>, <a class="el" href="classProjectNavigatorItemClipping.html#ac052512d2a2d6b1b5cf0ef49d6503602">ProjectNavigatorItemClipping::slotUpdate()</a>, and <a class="el" href="classElevationAction.html#a3cbae6baf2a54134cb35590d274b3b6a">ElevationAction::step()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classExplorerClippingBoxWidget.html#a8a601966c23cbfdabd54b2e0f05dffd6">ExplorerClippingBoxWidget::setRegion()</a>, <a class="el" href="classExplorerClippingBoxWidget.html#aa009ded6c72e73d3e70327dd196d3134">ExplorerClippingBoxWidget::slotRangeIntermediateMaximumValue()</a>, <a class="el" href="classExplorerDescriptorWidget.html#a2e44dbed3ffbb794806bc273c5a04096">ExplorerDescriptorWidget::slotRangeIntermediateMaximumValue()</a>, and <a class="el" href="classExplorerElevationWidget.html#a050081a62753d5f18d14405810856208">ExplorerElevationWidget::slotRangeIntermediateMaximumValue()</a>.</p>
 
 </div>
 </div>
@@ -551,7 +741,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorItemClipping.html#ac052512d2a2d6b1b5cf0ef49d6503602">ProjectNavigatorItemClipping::slotUpdate()</a>, and <a class="el" href="classElevationAction.html#a3cbae6baf2a54134cb35590d274b3b6a">ElevationAction::step()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classExplorerClippingBoxWidget.html#a8a601966c23cbfdabd54b2e0f05dffd6">ExplorerClippingBoxWidget::setRegion()</a>.</p>
 
 </div>
 </div>
@@ -581,7 +771,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorItemClipping.html#a656e8218e822d63da24fb1e0c0a1b7f3">ProjectNavigatorItemClipping::reset()</a>, <a class="el" href="classProjectNavigatorItemClipping.html#a86aa25ace89ff8c437cc9aab949e6dce">ProjectNavigatorItemClipping::slotRangeIntermediateMinimumValue()</a>, <a class="el" href="classProjectNavigatorItemDensity.html#a103a8e79d7aeba04f6552a007374c541">ProjectNavigatorItemDensity::slotRangeIntermediateMinimumValue()</a>, <a class="el" href="classProjectNavigatorItemDescriptor.html#a34a398b4098847c5cd507cd6d2f01c5e">ProjectNavigatorItemDescriptor::slotRangeIntermediateMinimumValue()</a>, <a class="el" href="classProjectNavigatorItemElevation.html#ab654996032ce0e88c7d20c544b4607eb">ProjectNavigatorItemElevation::slotRangeIntermediateMinimumValue()</a>, <a class="el" href="classProjectNavigatorItemClipping.html#ac052512d2a2d6b1b5cf0ef49d6503602">ProjectNavigatorItemClipping::slotUpdate()</a>, and <a class="el" href="classElevationAction.html#a3cbae6baf2a54134cb35590d274b3b6a">ElevationAction::step()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classExplorerClippingBoxWidget.html#a8a601966c23cbfdabd54b2e0f05dffd6">ExplorerClippingBoxWidget::setRegion()</a>, <a class="el" href="classExplorerClippingBoxWidget.html#a46c6f4e2e4fa08adf5273fdb387f8a67">ExplorerClippingBoxWidget::slotRangeIntermediateMinimumValue()</a>, <a class="el" href="classExplorerDescriptorWidget.html#a374ef77c29dfca79f19f52bbc4700d79">ExplorerDescriptorWidget::slotRangeIntermediateMinimumValue()</a>, and <a class="el" href="classExplorerElevationWidget.html#ac096b995e2efee322639dc5368760f27">ExplorerElevationWidget::slotRangeIntermediateMinimumValue()</a>.</p>
 
 </div>
 </div>
@@ -611,7 +801,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classEditor.html#a4f8c0b6fd9b845cc713b5e36ca2ad384">Editor::save()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classEditor.html#a6a8e9ee94e9f5aa81d572569cff2dce7">Editor::saveProject()</a>.</p>
 
 </div>
 </div>
@@ -638,7 +828,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classRange.html#a5c5f47b4b007ae3702929275ea13bb80">Range&lt; T &gt;::isEnabled()</a>, and <a class="el" href="classRange.html#adebc1e2afc790bbc98ee354f80690efb">Range&lt; T &gt;::setEnabled()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classRange.html#a5c5f47b4b007ae3702929275ea13bb80">Range&lt; T &gt;::isEnabled()</a>, <a class="el" href="classRange.html#ad0bf1bcc67159d3b97632c24db8737af">Range&lt; T &gt;::Range()</a>, and <a class="el" href="classRange.html#adebc1e2afc790bbc98ee354f80690efb">Range&lt; T &gt;::setEnabled()</a>.</p>
 
 </div>
 </div>

@@ -2,7 +2,7 @@ var classFile =
 [
     [ "File", "classFile.html#ae039af5807fc385f41b60644725d15d0", null ],
     [ "~File", "classFile.html#ac704ebdf5f57d7a1c5ddf409d797fb69", null ],
-    [ "File", "classFile.html#a042f525d4beac394675727bcd5cce274", null ],
+    [ "File", "classFile.html#ad1fbab59d996b3b3840986307eceb3ee", null ],
     [ "close", "classFile.html#a83cbce54d6c3b8c2f417b51f6b3f488c", null ],
     [ "create", "classFile.html#a5361b7bcd42092e482fbe075ae2e5a4a", null ],
     [ "create", "classFile.html#a3bfc09fe24a7a8090329a32f22e71061", null ],
@@ -18,7 +18,7 @@ var classFile =
     [ "offset", "classFile.html#a7934aacbbc68c9c38bc84f37dc49b069", null ],
     [ "open", "classFile.html#a0c6173ce64df564924b19eb0283222fe", null ],
     [ "open", "classFile.html#a299598dc319633dff088e0c5691bb452", null ],
-    [ "operator=", "classFile.html#a878dae94a3b260807de318337ecfc515", null ],
+    [ "operator=", "classFile.html#ab501dbdff6b9a5d57c9f7ccefc801193", null ],
     [ "path", "classFile.html#a1f7cec0c3d88eec109f5b8ec6715dce4", null ],
     [ "read", "classFile.html#af23eac0208c0ba4f2d2d2d7695e2f709", null ],
     [ "read", "classFile.html#a87de5e6051f146a178075b529b30e66d", null ],

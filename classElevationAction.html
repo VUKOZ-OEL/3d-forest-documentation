@@ -71,12 +71,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a36bb95bd3278d7cabab30a245680f515"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c2bd19ebafb6a6ba94fbe3e31bdb148"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classElevationAction.html#a1c2bd19ebafb6a6ba94fbe3e31bdb148">~ElevationAction</a> ()</td></tr>
 <tr class="separator:a1c2bd19ebafb6a6ba94fbe3e31bdb148"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8b2c991854ecd0947bef53d3023a941"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classElevationAction.html#aa8b2c991854ecd0947bef53d3023a941">initialize</a> (size_t pointsPerCell=10000, double cellLengthMinPercent=1.)</td></tr>
-<tr class="separator:aa8b2c991854ecd0947bef53d3023a941"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3cbae6baf2a54134cb35590d274b3b6a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classElevationAction.html#a3cbae6baf2a54134cb35590d274b3b6a">step</a> ()</td></tr>
-<tr class="separator:a3cbae6baf2a54134cb35590d274b3b6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3edb68a4ee27b256e4e917a7a4a2d14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classElevationAction.html#ac3edb68a4ee27b256e4e917a7a4a2d14">exportGroundMesh</a> (const std::string &amp;path)</td></tr>
-<tr class="separator:ac3edb68a4ee27b256e4e917a7a4a2d14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37c8e69b046a2cddbac8ce232bb31bea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classElevationAction.html#a37c8e69b046a2cddbac8ce232bb31bea">start</a> (double voxelSize)</td></tr>
+<tr class="separator:a37c8e69b046a2cddbac8ce232bb31bea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9d487a9f89d2d4fd9e9481412afb8f0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classElevationAction.html#ad9d487a9f89d2d4fd9e9481412afb8f0">next</a> ()</td></tr>
+<tr class="separator:ad9d487a9f89d2d4fd9e9481412afb8f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7fdb93734624c2b1e7be4913117e8b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classElevationAction.html#ae7fdb93734624c2b1e7be4913117e8b7">clear</a> ()</td></tr>
 <tr class="separator:ae7fdb93734624c2b1e7be4913117e8b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0bf0a3c190f4e889081f5cbd615c5cc"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classElevationAction.html#aa0bf0a3c190f4e889081f5cbd615c5cc">minimum</a> () const</td></tr>
@@ -88,33 +86,35 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af4c4f750d73f68838109164e18d0b9f0 inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedcbf9eea4d156efdb09078b76700e8f inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#aedcbf9eea4d156efdb09078b76700e8f">~ProgressActionInterface</a> ()=default</td></tr>
 <tr class="separator:aedcbf9eea4d156efdb09078b76700e8f inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10fa275e6c213d48fe3f2776ebfbc2ad inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a10fa275e6c213d48fe3f2776ebfbc2ad">step</a> ()=0</td></tr>
-<tr class="separator:a10fa275e6c213d48fe3f2776ebfbc2ad inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ca5e030c5050cd9ff6b15d3df10b836 inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a3ca5e030c5050cd9ff6b15d3df10b836">initialize</a> (uint64_t nElements=<a class="el" href="classProgressActionInterface.html#a5620bb28cc23825adfbc5888b8a9df81">npos</a>, uint64_t interleave=1, double secondsPerStep=0.25)</td></tr>
-<tr class="separator:a3ca5e030c5050cd9ff6b15d3df10b836 inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41b6bceceac9a2990a04cf78fdb8dab9 inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a41b6bceceac9a2990a04cf78fdb8dab9">startTimer</a> ()</td></tr>
-<tr class="separator:a41b6bceceac9a2990a04cf78fdb8dab9 inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf059132fed7a05d5d7d530c23ceb814 inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#aaf059132fed7a05d5d7d530c23ceb814">timedOut</a> ()</td></tr>
-<tr class="separator:aaf059132fed7a05d5d7d530c23ceb814 inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ba3e0e8ee768c4cd3ee6274a44313ab inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a9ba3e0e8ee768c4cd3ee6274a44313ab">next</a> ()=0</td></tr>
+<tr class="separator:a9ba3e0e8ee768c4cd3ee6274a44313ab inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88d1eb06f7f809af1d559e2b0e7c9388 inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a88d1eb06f7f809af1d559e2b0e7c9388">end</a> () const</td></tr>
 <tr class="separator:a88d1eb06f7f809af1d559e2b0e7c9388 inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d13a4af410a2a42c91d3e79a7436702 inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a2d13a4af410a2a42c91d3e79a7436702">percent</a> () const</td></tr>
-<tr class="separator:a2d13a4af410a2a42c91d3e79a7436702 inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab98e5b794526113a0e5ee5d48e3e6478 inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#ab98e5b794526113a0e5ee5d48e3e6478">processed</a> () const</td></tr>
-<tr class="separator:ab98e5b794526113a0e5ee5d48e3e6478 inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3520fa57373c3ab925698b62cfd1cd18 inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a3520fa57373c3ab925698b62cfd1cd18">process</a> () const</td></tr>
-<tr class="separator:a3520fa57373c3ab925698b62cfd1cd18 inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe2d2c814acac9b914990bd6f54f1f77 inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#abe2d2c814acac9b914990bd6f54f1f77">maximum</a> () const</td></tr>
-<tr class="separator:abe2d2c814acac9b914990bd6f54f1f77 inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a083b99f861a2fb7792bbfd069bb0183b inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a083b99f861a2fb7792bbfd069bb0183b">initializing</a> () const</td></tr>
-<tr class="separator:a083b99f861a2fb7792bbfd069bb0183b inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d1b2a93fc5efc5e697ff15823608afe inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a6d1b2a93fc5efc5e697ff15823608afe">increment</a> (uint64_t nElementsProcessed)</td></tr>
-<tr class="separator:a6d1b2a93fc5efc5e697ff15823608afe inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5562492e21eb6b8317ae76cc921960aa inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a5562492e21eb6b8317ae76cc921960aa">progressMaximumSteps</a> () const</td></tr>
+<tr class="separator:a5562492e21eb6b8317ae76cc921960aa inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa73ac370035a6df6380f9defe4f763fc inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#aa73ac370035a6df6380f9defe4f763fc">progressValueSteps</a> () const</td></tr>
+<tr class="separator:aa73ac370035a6df6380f9defe4f763fc inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a265c20d5051641e3461125c2c2dfe4cb inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a265c20d5051641e3461125c2c2dfe4cb">progressMaximumStep</a> () const</td></tr>
+<tr class="separator:a265c20d5051641e3461125c2c2dfe4cb inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58e71bca17856fecd8e96af44549aa13 inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a58e71bca17856fecd8e96af44549aa13">progressValueStep</a> () const</td></tr>
+<tr class="separator:a58e71bca17856fecd8e96af44549aa13 inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a526d7444e8132c0fd137bc8624b7997b inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a526d7444e8132c0fd137bc8624b7997b">progressPercent</a> () const</td></tr>
+<tr class="separator:a526d7444e8132c0fd137bc8624b7997b inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a42b8622c8ffda961fb0873bfa5c4f2c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classElevationAction.html#a42b8622c8ffda961fb0873bfa5c4f2c2">stepGrid</a> ()</td></tr>
-<tr class="separator:a42b8622c8ffda961fb0873bfa5c4f2c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac038b56d6c7a7fd71a4f633848e2521f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classElevationAction.html#ac038b56d6c7a7fd71a4f633848e2521f">stepResetPoints</a> ()</td></tr>
+<tr class="separator:ac038b56d6c7a7fd71a4f633848e2521f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade6f0d2e6f414e261246ccdc4d5bc2aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classElevationAction.html#ade6f0d2e6f414e261246ccdc4d5bc2aa">stepCountPoints</a> ()</td></tr>
+<tr class="separator:ade6f0d2e6f414e261246ccdc4d5bc2aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a445f63904dce0bdd58cced7e4fed1554"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classElevationAction.html#a445f63904dce0bdd58cced7e4fed1554">stepCreateGround</a> ()</td></tr>
+<tr class="separator:a445f63904dce0bdd58cced7e4fed1554"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6206cb8b589c03d32340f42409490bfa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classElevationAction.html#a6206cb8b589c03d32340f42409490bfa">stepCreateIndex</a> ()</td></tr>
+<tr class="separator:a6206cb8b589c03d32340f42409490bfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc1b01519ea952912bddff96eee78112"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classElevationAction.html#adc1b01519ea952912bddff96eee78112">stepComputeElevation</a> ()</td></tr>
+<tr class="separator:adc1b01519ea952912bddff96eee78112"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71aa05d669475fcdd12a5febea703bdc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classElevationAction.html#a71aa05d669475fcdd12a5febea703bdc">createGroundPoint</a> ()</td></tr>
+<tr class="separator:a71aa05d669475fcdd12a5febea703bdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -122,32 +122,27 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:aec49d0b2abdc2272d2344b89a017f211"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9bd28f40bb5f8b6a03adad0872fb5e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classQuery.html">Query</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classElevationAction.html#ab9bd28f40bb5f8b6a03adad0872fb5e6">query_</a></td></tr>
 <tr class="separator:ab9bd28f40bb5f8b6a03adad0872fb5e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a92f7be056999b909d634ae3de911a7"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classElevationAction.html#a2a92f7be056999b909d634ae3de911a7">elevationPointsCount_</a></td></tr>
-<tr class="separator:a2a92f7be056999b909d634ae3de911a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabb4affe10df5f34f2df15cd722a9f27"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classQuery.html">Query</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classElevationAction.html#aabb4affe10df5f34f2df15cd722a9f27">queryPoint_</a></td></tr>
+<tr class="separator:aabb4affe10df5f34f2df15cd722a9f27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba38efe92cbe17ada0ce03589737eede"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classElevationAction.html#aba38efe92cbe17ada0ce03589737eede">voxelSize_</a></td></tr>
+<tr class="separator:aba38efe92cbe17ada0ce03589737eede"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09d407e2413035276e12a1b7ff8f25cd"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classElevationAction.html#a09d407e2413035276e12a1b7ff8f25cd">numberOfPoints_</a></td></tr>
+<tr class="separator:a09d407e2413035276e12a1b7ff8f25cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada67d63e7729ca93fbdf2badf0f23070"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classElevationAction.html#ada67d63e7729ca93fbdf2badf0f23070">numberOfGroundPoints_</a></td></tr>
+<tr class="separator:ada67d63e7729ca93fbdf2badf0f23070"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b43a87d9bc90c9f8bd129749a5da368"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classElevationAction.html#a6b43a87d9bc90c9f8bd129749a5da368">numberOfNonGroundPoints_</a></td></tr>
+<tr class="separator:a6b43a87d9bc90c9f8bd129749a5da368"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a492203a790eb54b2b52a086ac5dee34e"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classElevationAction.html#a492203a790eb54b2b52a086ac5dee34e">pointIndex_</a></td></tr>
+<tr class="separator:a492203a790eb54b2b52a086ac5dee34e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae70fa1c2f165e36229ec5950d0f6f5d2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classElevationAction.html#ae70fa1c2f165e36229ec5950d0f6f5d2">elevationMinimum_</a></td></tr>
 <tr class="separator:ae70fa1c2f165e36229ec5950d0f6f5d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6d18d1eff9bc3544c5f8773227b0371"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classElevationAction.html#ab6d18d1eff9bc3544c5f8773227b0371">elevationMaximum_</a></td></tr>
 <tr class="separator:ab6d18d1eff9bc3544c5f8773227b0371"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a6861f0a1fc1f4a238ec7a312e1f999"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classElevationAction.html#a6a6861f0a1fc1f4a238ec7a312e1f999">P</a></td></tr>
-<tr class="separator:a6a6861f0a1fc1f4a238ec7a312e1f999"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d8890e935f76dbbdd391d998e94e1a5"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classElevationAction.html#a4d8890e935f76dbbdd391d998e94e1a5">V</a></td></tr>
-<tr class="separator:a4d8890e935f76dbbdd391d998e94e1a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b5fb90b674dd80c248f1c1962022c56"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classElevationAction.html#a7b5fb90b674dd80c248f1c1962022c56">XY</a></td></tr>
-<tr class="separator:a7b5fb90b674dd80c248f1c1962022c56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10fce90bb4795b3a565b5c00a6363f3c"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXi&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classElevationAction.html#a10fce90bb4795b3a565b5c00a6363f3c">F</a></td></tr>
-<tr class="separator:a10fce90bb4795b3a565b5c00a6363f3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa981d8fd263c5bb4a18b0db62fdb6cc4"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classElevationAction.html#aa981d8fd263c5bb4a18b0db62fdb6cc4">D</a></td></tr>
-<tr class="separator:aa981d8fd263c5bb4a18b0db62fdb6cc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13d13edc9938605cd72ef6c1a01872fc"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXi&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classElevationAction.html#a13d13edc9938605cd72ef6c1a01872fc">I</a></td></tr>
-<tr class="separator:a13d13edc9938605cd72ef6c1a01872fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7cdd1c509f657ce222293f1984d09e1"><td class="memItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classElevationAction.html#ad7cdd1c509f657ce222293f1984d09e1">C</a></td></tr>
-<tr class="separator:ad7cdd1c509f657ce222293f1984d09e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_static_attribs_classProgressActionInterface"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_classProgressActionInterface')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="classProgressActionInterface.html">ProgressActionInterface</a></td></tr>
-<tr class="memitem:a5620bb28cc23825adfbc5888b8a9df81 inherit pub_static_attribs_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">static const uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a5620bb28cc23825adfbc5888b8a9df81">npos</a> = UINT64_MAX</td></tr>
-<tr class="separator:a5620bb28cc23825adfbc5888b8a9df81 inherit pub_static_attribs_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8f55541303386970f70451048ffa333"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPoints.html">Points</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classElevationAction.html#ac8f55541303386970f70451048ffa333">points_</a></td></tr>
+<tr class="separator:ac8f55541303386970f70451048ffa333"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classProgressActionInterface"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classProgressActionInterface')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classProgressActionInterface.html">ProgressActionInterface</a></td></tr>
+<tr class="memitem:a733ac04bc46614d2c925740006c13c6f inherit pro_attribs_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classProgressCounter.html">ProgressCounter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a733ac04bc46614d2c925740006c13c6f">progress_</a></td></tr>
+<tr class="separator:a733ac04bc46614d2c925740006c13c6f inherit pro_attribs_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a36bb95bd3278d7cabab30a245680f515" name="a36bb95bd3278d7cabab30a245680f515"></a>
@@ -209,53 +204,34 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="reference">Referenced by <a class="el" href="classElevationWidget.html#aee6e134e36d7778d47aec036c2985c05">ElevationWidget::hideEvent()</a>.</p>
+
 </div>
 </div>
-<a id="ac3edb68a4ee27b256e4e917a7a4a2d14" name="ac3edb68a4ee27b256e4e917a7a4a2d14"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3edb68a4ee27b256e4e917a7a4a2d14">&#9670;&nbsp;</a></span>exportGroundMesh()</h2>
+<a id="a71aa05d669475fcdd12a5febea703bdc" name="a71aa05d669475fcdd12a5febea703bdc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71aa05d669475fcdd12a5febea703bdc">&#9670;&nbsp;</a></span>createGroundPoint()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ElevationAction::exportGroundMesh </td>
+          <td class="memname">void ElevationAction::createGroundPoint </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>path</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="aa8b2c991854ecd0947bef53d3023a941" name="aa8b2c991854ecd0947bef53d3023a941"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8b2c991854ecd0947bef53d3023a941">&#9670;&nbsp;</a></span>initialize()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ElevationAction::initialize </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>pointsPerCell</em> = <code>10000</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>cellLengthMinPercent</em> = <code>1.</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classElevationWindow.html#a0993f2ac216e1c34008a0c71781ab753">ElevationWindow::slotApply()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classElevationAction.html#a445f63904dce0bdd58cced7e4fed1554">stepCreateGround()</a>.</p>
 
 </div>
 </div>
@@ -309,8 +285,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a3cbae6baf2a54134cb35590d274b3b6a" name="a3cbae6baf2a54134cb35590d274b3b6a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3cbae6baf2a54134cb35590d274b3b6a">&#9670;&nbsp;</a></span>step()</h2>
+<a id="ad9d487a9f89d2d4fd9e9481412afb8f0" name="ad9d487a9f89d2d4fd9e9481412afb8f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9d487a9f89d2d4fd9e9481412afb8f0">&#9670;&nbsp;</a></span>next()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -319,7 +295,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ElevationAction::step </td>
+          <td class="memname">void ElevationAction::next </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -332,12 +308,32 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classProgressActionInterface.html#a10fa275e6c213d48fe3f2776ebfbc2ad">ProgressActionInterface</a>.</p>
+<p>Implements <a class="el" href="classProgressActionInterface.html#a9ba3e0e8ee768c4cd3ee6274a44313ab">ProgressActionInterface</a>.</p>
 
 </div>
 </div>
-<a id="a42b8622c8ffda961fb0873bfa5c4f2c2" name="a42b8622c8ffda961fb0873bfa5c4f2c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42b8622c8ffda961fb0873bfa5c4f2c2">&#9670;&nbsp;</a></span>stepGrid()</h2>
+<a id="a37c8e69b046a2cddbac8ce232bb31bea" name="a37c8e69b046a2cddbac8ce232bb31bea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37c8e69b046a2cddbac8ce232bb31bea">&#9670;&nbsp;</a></span>start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ElevationAction::start </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>voxelSize</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classElevationWidget.html#adafd758b60ba2497767bd4c8bf3b8e89">ElevationWidget::slotApply()</a>.</p>
+
+</div>
+</div>
+<a id="adc1b01519ea952912bddff96eee78112" name="adc1b01519ea952912bddff96eee78112"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc1b01519ea952912bddff96eee78112">&#9670;&nbsp;</a></span>stepComputeElevation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -346,7 +342,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ElevationAction::stepGrid </td>
+          <td class="memname">void ElevationAction::stepComputeElevation </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -359,59 +355,119 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classElevationAction.html#a3cbae6baf2a54134cb35590d274b3b6a">step()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classElevationAction.html#ad9d487a9f89d2d4fd9e9481412afb8f0">next()</a>.</p>
+
+</div>
+</div>
+<a id="ade6f0d2e6f414e261246ccdc4d5bc2aa" name="ade6f0d2e6f414e261246ccdc4d5bc2aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade6f0d2e6f414e261246ccdc4d5bc2aa">&#9670;&nbsp;</a></span>stepCountPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ElevationAction::stepCountPoints </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classElevationAction.html#ad9d487a9f89d2d4fd9e9481412afb8f0">next()</a>.</p>
+
+</div>
+</div>
+<a id="a445f63904dce0bdd58cced7e4fed1554" name="a445f63904dce0bdd58cced7e4fed1554"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a445f63904dce0bdd58cced7e4fed1554">&#9670;&nbsp;</a></span>stepCreateGround()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ElevationAction::stepCreateGround </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classElevationAction.html#ad9d487a9f89d2d4fd9e9481412afb8f0">next()</a>.</p>
+
+</div>
+</div>
+<a id="a6206cb8b589c03d32340f42409490bfa" name="a6206cb8b589c03d32340f42409490bfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6206cb8b589c03d32340f42409490bfa">&#9670;&nbsp;</a></span>stepCreateIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ElevationAction::stepCreateIndex </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classElevationAction.html#ad9d487a9f89d2d4fd9e9481412afb8f0">next()</a>.</p>
+
+</div>
+</div>
+<a id="ac038b56d6c7a7fd71a4f633848e2521f" name="ac038b56d6c7a7fd71a4f633848e2521f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac038b56d6c7a7fd71a4f633848e2521f">&#9670;&nbsp;</a></span>stepResetPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ElevationAction::stepResetPoints </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classElevationAction.html#ad9d487a9f89d2d4fd9e9481412afb8f0">next()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ad7cdd1c509f657ce222293f1984d09e1" name="ad7cdd1c509f657ce222293f1984d09e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7cdd1c509f657ce222293f1984d09e1">&#9670;&nbsp;</a></span>C</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Eigen::MatrixXd ElevationAction::C</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classElevationAction.html#ae7fdb93734624c2b1e7be4913117e8b7">clear()</a>, and <a class="el" href="classElevationAction.html#a42b8622c8ffda961fb0873bfa5c4f2c2">stepGrid()</a>.</p>
-
-</div>
-</div>
-<a id="aa981d8fd263c5bb4a18b0db62fdb6cc4" name="aa981d8fd263c5bb4a18b0db62fdb6cc4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa981d8fd263c5bb4a18b0db62fdb6cc4">&#9670;&nbsp;</a></span>D</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Eigen::MatrixXd ElevationAction::D</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classElevationAction.html#ae7fdb93734624c2b1e7be4913117e8b7">clear()</a>, and <a class="el" href="classElevationAction.html#a42b8622c8ffda961fb0873bfa5c4f2c2">stepGrid()</a>.</p>
-
-</div>
-</div>
 <a id="aec49d0b2abdc2272d2344b89a017f211" name="aec49d0b2abdc2272d2344b89a017f211"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aec49d0b2abdc2272d2344b89a017f211">&#9670;&nbsp;</a></span>editor_</h2>
 
@@ -432,7 +488,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classElevationAction.html#a3cbae6baf2a54134cb35590d274b3b6a">step()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classElevationAction.html#a37c8e69b046a2cddbac8ce232bb31bea">start()</a>, <a class="el" href="classElevationAction.html#adc1b01519ea952912bddff96eee78112">stepComputeElevation()</a>, <a class="el" href="classElevationAction.html#ade6f0d2e6f414e261246ccdc4d5bc2aa">stepCountPoints()</a>, and <a class="el" href="classElevationAction.html#ac038b56d6c7a7fd71a4f633848e2521f">stepResetPoints()</a>.</p>
 
 </div>
 </div>
@@ -456,7 +512,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classElevationAction.html#ae7fdb93734624c2b1e7be4913117e8b7">clear()</a>, <a class="el" href="classElevationAction.html#aa8b2c991854ecd0947bef53d3023a941">initialize()</a>, <a class="el" href="classElevationAction.html#a6b4f6c4a6826d8900a7b9c21ac98794c">maximum()</a>, <a class="el" href="classElevationAction.html#a3cbae6baf2a54134cb35590d274b3b6a">step()</a>, and <a class="el" href="classElevationAction.html#a42b8622c8ffda961fb0873bfa5c4f2c2">stepGrid()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classElevationAction.html#ae7fdb93734624c2b1e7be4913117e8b7">clear()</a>, <a class="el" href="classElevationAction.html#a6b4f6c4a6826d8900a7b9c21ac98794c">maximum()</a>, <a class="el" href="classElevationAction.html#a37c8e69b046a2cddbac8ce232bb31bea">start()</a>, and <a class="el" href="classElevationAction.html#adc1b01519ea952912bddff96eee78112">stepComputeElevation()</a>.</p>
 
 </div>
 </div>
@@ -480,12 +536,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classElevationAction.html#ae7fdb93734624c2b1e7be4913117e8b7">clear()</a>, <a class="el" href="classElevationAction.html#aa8b2c991854ecd0947bef53d3023a941">initialize()</a>, <a class="el" href="classElevationAction.html#aa0bf0a3c190f4e889081f5cbd615c5cc">minimum()</a>, <a class="el" href="classElevationAction.html#a3cbae6baf2a54134cb35590d274b3b6a">step()</a>, and <a class="el" href="classElevationAction.html#a42b8622c8ffda961fb0873bfa5c4f2c2">stepGrid()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classElevationAction.html#ae7fdb93734624c2b1e7be4913117e8b7">clear()</a>, <a class="el" href="classElevationAction.html#aa0bf0a3c190f4e889081f5cbd615c5cc">minimum()</a>, <a class="el" href="classElevationAction.html#a37c8e69b046a2cddbac8ce232bb31bea">start()</a>, and <a class="el" href="classElevationAction.html#adc1b01519ea952912bddff96eee78112">stepComputeElevation()</a>.</p>
 
 </div>
 </div>
-<a id="a2a92f7be056999b909d634ae3de911a7" name="a2a92f7be056999b909d634ae3de911a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a92f7be056999b909d634ae3de911a7">&#9670;&nbsp;</a></span>elevationPointsCount_</h2>
+<a id="ada67d63e7729ca93fbdf2badf0f23070" name="ada67d63e7729ca93fbdf2badf0f23070"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada67d63e7729ca93fbdf2badf0f23070">&#9670;&nbsp;</a></span>numberOfGroundPoints_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -494,7 +550,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint64_t ElevationAction::elevationPointsCount_</td>
+          <td class="memname">uint64_t ElevationAction::numberOfGroundPoints_</td>
         </tr>
       </table>
   </td>
@@ -504,12 +560,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classElevationAction.html#ae7fdb93734624c2b1e7be4913117e8b7">clear()</a>, <a class="el" href="classElevationAction.html#aa8b2c991854ecd0947bef53d3023a941">initialize()</a>, <a class="el" href="classElevationAction.html#a3cbae6baf2a54134cb35590d274b3b6a">step()</a>, and <a class="el" href="classElevationAction.html#a42b8622c8ffda961fb0873bfa5c4f2c2">stepGrid()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classElevationAction.html#ae7fdb93734624c2b1e7be4913117e8b7">clear()</a>, <a class="el" href="classElevationAction.html#a37c8e69b046a2cddbac8ce232bb31bea">start()</a>, and <a class="el" href="classElevationAction.html#ade6f0d2e6f414e261246ccdc4d5bc2aa">stepCountPoints()</a>.</p>
 
 </div>
 </div>
-<a id="a10fce90bb4795b3a565b5c00a6363f3c" name="a10fce90bb4795b3a565b5c00a6363f3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10fce90bb4795b3a565b5c00a6363f3c">&#9670;&nbsp;</a></span>F</h2>
+<a id="a6b43a87d9bc90c9f8bd129749a5da368" name="a6b43a87d9bc90c9f8bd129749a5da368"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b43a87d9bc90c9f8bd129749a5da368">&#9670;&nbsp;</a></span>numberOfNonGroundPoints_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -518,7 +574,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Eigen::MatrixXi ElevationAction::F</td>
+          <td class="memname">uint64_t ElevationAction::numberOfNonGroundPoints_</td>
         </tr>
       </table>
   </td>
@@ -528,12 +584,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classElevationAction.html#ae7fdb93734624c2b1e7be4913117e8b7">clear()</a>, <a class="el" href="classElevationAction.html#ac3edb68a4ee27b256e4e917a7a4a2d14">exportGroundMesh()</a>, and <a class="el" href="classElevationAction.html#a42b8622c8ffda961fb0873bfa5c4f2c2">stepGrid()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classElevationAction.html#ae7fdb93734624c2b1e7be4913117e8b7">clear()</a>, <a class="el" href="classElevationAction.html#a37c8e69b046a2cddbac8ce232bb31bea">start()</a>, <a class="el" href="classElevationAction.html#ade6f0d2e6f414e261246ccdc4d5bc2aa">stepCountPoints()</a>, and <a class="el" href="classElevationAction.html#a6206cb8b589c03d32340f42409490bfa">stepCreateIndex()</a>.</p>
 
 </div>
 </div>
-<a id="a13d13edc9938605cd72ef6c1a01872fc" name="a13d13edc9938605cd72ef6c1a01872fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13d13edc9938605cd72ef6c1a01872fc">&#9670;&nbsp;</a></span>I</h2>
+<a id="a09d407e2413035276e12a1b7ff8f25cd" name="a09d407e2413035276e12a1b7ff8f25cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09d407e2413035276e12a1b7ff8f25cd">&#9670;&nbsp;</a></span>numberOfPoints_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -542,7 +598,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Eigen::MatrixXi ElevationAction::I</td>
+          <td class="memname">uint64_t ElevationAction::numberOfPoints_</td>
         </tr>
       </table>
   </td>
@@ -552,12 +608,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classElevationAction.html#ae7fdb93734624c2b1e7be4913117e8b7">clear()</a>, and <a class="el" href="classElevationAction.html#a42b8622c8ffda961fb0873bfa5c4f2c2">stepGrid()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classElevationAction.html#ae7fdb93734624c2b1e7be4913117e8b7">clear()</a>, <a class="el" href="classElevationAction.html#a37c8e69b046a2cddbac8ce232bb31bea">start()</a>, and <a class="el" href="classElevationAction.html#ac038b56d6c7a7fd71a4f633848e2521f">stepResetPoints()</a>.</p>
 
 </div>
 </div>
-<a id="a6a6861f0a1fc1f4a238ec7a312e1f999" name="a6a6861f0a1fc1f4a238ec7a312e1f999"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a6861f0a1fc1f4a238ec7a312e1f999">&#9670;&nbsp;</a></span>P</h2>
+<a id="a492203a790eb54b2b52a086ac5dee34e" name="a492203a790eb54b2b52a086ac5dee34e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a492203a790eb54b2b52a086ac5dee34e">&#9670;&nbsp;</a></span>pointIndex_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -566,7 +622,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Eigen::MatrixXd ElevationAction::P</td>
+          <td class="memname">size_t ElevationAction::pointIndex_</td>
         </tr>
       </table>
   </td>
@@ -576,7 +632,31 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classElevationAction.html#ae7fdb93734624c2b1e7be4913117e8b7">clear()</a>, and <a class="el" href="classElevationAction.html#a42b8622c8ffda961fb0873bfa5c4f2c2">stepGrid()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classElevationAction.html#ae7fdb93734624c2b1e7be4913117e8b7">clear()</a>, <a class="el" href="classElevationAction.html#a37c8e69b046a2cddbac8ce232bb31bea">start()</a>, and <a class="el" href="classElevationAction.html#adc1b01519ea952912bddff96eee78112">stepComputeElevation()</a>.</p>
+
+</div>
+</div>
+<a id="ac8f55541303386970f70451048ffa333" name="ac8f55541303386970f70451048ffa333"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8f55541303386970f70451048ffa333">&#9670;&nbsp;</a></span>points_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPoints.html">Points</a> ElevationAction::points_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classElevationAction.html#ae7fdb93734624c2b1e7be4913117e8b7">clear()</a>, <a class="el" href="classElevationAction.html#a71aa05d669475fcdd12a5febea703bdc">createGroundPoint()</a>, <a class="el" href="classElevationAction.html#a37c8e69b046a2cddbac8ce232bb31bea">start()</a>, <a class="el" href="classElevationAction.html#adc1b01519ea952912bddff96eee78112">stepComputeElevation()</a>, and <a class="el" href="classElevationAction.html#a6206cb8b589c03d32340f42409490bfa">stepCreateIndex()</a>.</p>
 
 </div>
 </div>
@@ -600,12 +680,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classElevationAction.html#ae7fdb93734624c2b1e7be4913117e8b7">clear()</a>, <a class="el" href="classElevationAction.html#aa8b2c991854ecd0947bef53d3023a941">initialize()</a>, <a class="el" href="classElevationAction.html#a3cbae6baf2a54134cb35590d274b3b6a">step()</a>, and <a class="el" href="classElevationAction.html#a42b8622c8ffda961fb0873bfa5c4f2c2">stepGrid()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classElevationAction.html#ae7fdb93734624c2b1e7be4913117e8b7">clear()</a>, <a class="el" href="classElevationAction.html#a71aa05d669475fcdd12a5febea703bdc">createGroundPoint()</a>, <a class="el" href="classElevationAction.html#adc1b01519ea952912bddff96eee78112">stepComputeElevation()</a>, <a class="el" href="classElevationAction.html#ade6f0d2e6f414e261246ccdc4d5bc2aa">stepCountPoints()</a>, <a class="el" href="classElevationAction.html#a445f63904dce0bdd58cced7e4fed1554">stepCreateGround()</a>, <a class="el" href="classElevationAction.html#a6206cb8b589c03d32340f42409490bfa">stepCreateIndex()</a>, and <a class="el" href="classElevationAction.html#ac038b56d6c7a7fd71a4f633848e2521f">stepResetPoints()</a>.</p>
 
 </div>
 </div>
-<a id="a4d8890e935f76dbbdd391d998e94e1a5" name="a4d8890e935f76dbbdd391d998e94e1a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d8890e935f76dbbdd391d998e94e1a5">&#9670;&nbsp;</a></span>V</h2>
+<a id="aabb4affe10df5f34f2df15cd722a9f27" name="aabb4affe10df5f34f2df15cd722a9f27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabb4affe10df5f34f2df15cd722a9f27">&#9670;&nbsp;</a></span>queryPoint_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -614,7 +694,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Eigen::MatrixXd ElevationAction::V</td>
+          <td class="memname"><a class="el" href="classQuery.html">Query</a> ElevationAction::queryPoint_</td>
         </tr>
       </table>
   </td>
@@ -624,12 +704,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classElevationAction.html#ae7fdb93734624c2b1e7be4913117e8b7">clear()</a>, <a class="el" href="classElevationAction.html#ac3edb68a4ee27b256e4e917a7a4a2d14">exportGroundMesh()</a>, and <a class="el" href="classElevationAction.html#a42b8622c8ffda961fb0873bfa5c4f2c2">stepGrid()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classElevationAction.html#ae7fdb93734624c2b1e7be4913117e8b7">clear()</a>, and <a class="el" href="classElevationAction.html#a71aa05d669475fcdd12a5febea703bdc">createGroundPoint()</a>.</p>
 
 </div>
 </div>
-<a id="a7b5fb90b674dd80c248f1c1962022c56" name="a7b5fb90b674dd80c248f1c1962022c56"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b5fb90b674dd80c248f1c1962022c56">&#9670;&nbsp;</a></span>XY</h2>
+<a id="aba38efe92cbe17ada0ce03589737eede" name="aba38efe92cbe17ada0ce03589737eede"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba38efe92cbe17ada0ce03589737eede">&#9670;&nbsp;</a></span>voxelSize_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -638,7 +718,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;double&gt; ElevationAction::XY</td>
+          <td class="memname">double ElevationAction::voxelSize_</td>
         </tr>
       </table>
   </td>
@@ -648,7 +728,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classElevationAction.html#ae7fdb93734624c2b1e7be4913117e8b7">clear()</a>, and <a class="el" href="classElevationAction.html#a42b8622c8ffda961fb0873bfa5c4f2c2">stepGrid()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classElevationAction.html#ae7fdb93734624c2b1e7be4913117e8b7">clear()</a>, <a class="el" href="classElevationAction.html#a71aa05d669475fcdd12a5febea703bdc">createGroundPoint()</a>, and <a class="el" href="classElevationAction.html#a37c8e69b046a2cddbac8ce232bb31bea">start()</a>.</p>
 
 </div>
 </div>

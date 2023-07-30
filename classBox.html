@@ -54,8 +54,8 @@ $(document).ready(function(){initNavTree('classBox.html',''); initResizable(); }
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classBox-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Box&lt; T &gt; Class Template Reference</div></div>
 </div><!--header-->
@@ -97,6 +97,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0092dd0bfe2995076ba32f5469a618e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a680f99a69c722e52c2a164c386663a9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBox.html#a680f99a69c722e52c2a164c386663a9d">extend</a> (const <a class="el" href="classBox.html">Box</a>&lt; T &gt; &amp;box)</td></tr>
 <tr class="separator:a680f99a69c722e52c2a164c386663a9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28d382fc1b828051bb3a5594b6ca635e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBox.html#a28d382fc1b828051bb3a5594b6ca635e">extend</a> (T x, T y, T z)</td></tr>
+<tr class="separator:a28d382fc1b828051bb3a5594b6ca635e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4683fb5768bc496fc28617ba550946b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBox.html#a4683fb5768bc496fc28617ba550946b8">clear</a> ()</td></tr>
 <tr class="separator:a4683fb5768bc496fc28617ba550946b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4e37635274d9b1cd02f6123f8f5ea48"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBox.html#ac4e37635274d9b1cd02f6123f8f5ea48">empty</a> () const</td></tr>
@@ -128,13 +130,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a03c20503e9a343a19becad41878e853e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classJson.html">Json</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBox.html#a03c20503e9a343a19becad41878e853e">write</a> (<a class="el" href="classJson.html">Json</a> &amp;out) const</td></tr>
 <tr class="separator:a03c20503e9a343a19becad41878e853e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
 <tr class="memitem:ae6d792cb0c22ffd4bc2572e320227b87"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBox.html#ae6d792cb0c22ffd4bc2572e320227b87">validate</a> ()</td></tr>
 <tr class="separator:ae6d792cb0c22ffd4bc2572e320227b87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
 <tr class="memitem:a09e4d4cd1b4cbd17557f36fdf7c6f86a"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBox.html#a09e4d4cd1b4cbd17557f36fdf7c6f86a">min_</a> [3]</td></tr>
 <tr class="separator:a09e4d4cd1b4cbd17557f36fdf7c6f86a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a722f5d255cce69b2eba9b8756e90fe93"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classBox.html#a722f5d255cce69b2eba9b8756e90fe93">max_</a> [3]</td></tr>
@@ -400,7 +402,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classDatasets.html#aed4854371743ebf5b1bae029a59666df">Datasets::boundary()</a>, <a class="el" href="classRegion.html#a02f3d61eb9f9ca7980d2f915893a281b">Region::clear()</a>, <a class="el" href="classDatasets.html#a9f92f242b2ff660c37487c30eb99eb1d">Datasets::clear()</a>, <a class="el" href="classIndexFile.html#a5663a8e545ff6585d4198a89bb8901b6">IndexFile::clear()</a>, <a class="el" href="classPage.html#a454e84ebdfda18606e15d3a732d90802">Page::clear()</a>, <a class="el" href="classVoxels.html#af0d991f4e4247ca866cb4a04ceb51d31">Voxels::clear()</a>, <a class="el" href="classExportFileProperties.html#a8c826ad24f92bc052a276f11d5a5b245">ExportFileProperties::clear()</a>, <a class="el" href="classQuery.html#a313ef7ff209b623e53ec4919f4253d9d">Query::setGrid()</a>, <a class="el" href="classIndexFileBuilder.html#a3280a636f3d5ba198828cf7051c62135">IndexFileBuilder::start()</a>, and <a class="el" href="classDatasets.html#a0e232b4f0037ffc05da3909109020908">Datasets::updateBoundary()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classDatasets.html#aed4854371743ebf5b1bae029a59666df">Datasets::boundary()</a>, <a class="el" href="classRegion.html#a02f3d61eb9f9ca7980d2f915893a281b">Region::clear()</a>, <a class="el" href="classDatasets.html#a9f92f242b2ff660c37487c30eb99eb1d">Datasets::clear()</a>, <a class="el" href="classIndexFile.html#a5663a8e545ff6585d4198a89bb8901b6">IndexFile::clear()</a>, <a class="el" href="classExportFileProperties.html#a8c826ad24f92bc052a276f11d5a5b245">ExportFileProperties::clear()</a>, <a class="el" href="classQuery.html#a313ef7ff209b623e53ec4919f4253d9d">Query::setGrid()</a>, <a class="el" href="classIndexFileBuilder.html#a3280a636f3d5ba198828cf7051c62135">IndexFileBuilder::start()</a>, and <a class="el" href="classDatasets.html#a0e232b4f0037ffc05da3909109020908">Datasets::updateBoundary()</a>.</p>
 
 </div>
 </div>
@@ -475,12 +477,12 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classBox.html#a680f99a69c722e52c2a164c386663a9d">Box&lt; T &gt;::extend()</a>, <a class="el" href="classPage.html#af7d3166cec901c06cc9852e0f587a15e">Page::queryWhere()</a>, and <a class="el" href="classPage.html#a98eadfb3694278076f60bc826795ab87">Page::queryWhereBox()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classBox.html#a680f99a69c722e52c2a164c386663a9d">Box&lt; T &gt;::extend()</a>, and <a class="el" href="classPage.html#a98eadfb3694278076f60bc826795ab87">Page::queryWhereBox()</a>.</p>
 
 </div>
 </div>
 <a id="a680f99a69c722e52c2a164c386663a9d" name="a680f99a69c722e52c2a164c386663a9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a680f99a69c722e52c2a164c386663a9d">&#9670;&nbsp;</a></span>extend()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a680f99a69c722e52c2a164c386663a9d">&#9670;&nbsp;</a></span>extend() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -506,6 +508,50 @@ template&lt;class T &gt; </div>
 </div><div class="memdoc">
 
 <p class="reference">Referenced by <a class="el" href="classDatasets.html#aed4854371743ebf5b1bae029a59666df">Datasets::boundary()</a>, <a class="el" href="classIndexFileBuilder.html#ae8ba81be2fa095faae8f8fd63af19bdc">IndexFileBuilder::stateCopyPoints()</a>, and <a class="el" href="classDatasets.html#a0e232b4f0037ffc05da3909109020908">Datasets::updateBoundary()</a>.</p>
+
+</div>
+</div>
+<a id="a28d382fc1b828051bb3a5594b6ca635e" name="a28d382fc1b828051bb3a5594b6ca635e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28d382fc1b828051bb3a5594b6ca635e">&#9670;&nbsp;</a></span>extend() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classBox.html">Box</a>&lt; T &gt;::extend </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>z</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -575,7 +621,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classIndexFile.html#a11bd1beb96fdf52ccfe55459bb665fca">IndexFile::boundary()</a>, <a class="el" href="classDescriptorPca.html#aaf7d7d6a5062444cb825d6aeccc417fd">DescriptorPca::computeDescriptor()</a>, <a class="el" href="classIndexFile.html#a57f30bee5e85a9c05a8873ee66932d70">IndexFile::insert()</a>, <a class="el" href="classDataset.html#abba74f440c6e84e78538a551481b3c4c">Dataset::read()</a>, <a class="el" href="classIndexFile.html#a7fcc2db854f3c5dfad3548a5661a7ef7">IndexFile::selectLeaf()</a>, <a class="el" href="classIndexFile.html#a5ddbff2a13dc5d14058a453bb4ade852">IndexFile::selectLeaves()</a>, <a class="el" href="classIndexFile.html#ae35994448fec24e3c0f76e174ff90988">IndexFile::selectNode()</a>, and <a class="el" href="classIndexFile.html#aedf067863dde3fabdc6e87150e0cf78d">IndexFile::selectNodes()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classIndexFile.html#a11bd1beb96fdf52ccfe55459bb665fca">IndexFile::boundary()</a>, <a class="el" href="classDescriptorPca.html#a27fd4bf74ff5bc57c7083b5ff4ce3a7a">DescriptorPca::computeDescriptor()</a>, <a class="el" href="classIndexFile.html#a57f30bee5e85a9c05a8873ee66932d70">IndexFile::insert()</a>, <a class="el" href="classDataset.html#abba74f440c6e84e78538a551481b3c4c">Dataset::read()</a>, <a class="el" href="classIndexFile.html#a7fcc2db854f3c5dfad3548a5661a7ef7">IndexFile::selectLeaf()</a>, <a class="el" href="classIndexFile.html#a5ddbff2a13dc5d14058a453bb4ade852">IndexFile::selectLeaves()</a>, <a class="el" href="classIndexFile.html#ae35994448fec24e3c0f76e174ff90988">IndexFile::selectNode()</a>, <a class="el" href="classIndexFile.html#aedf067863dde3fabdc6e87150e0cf78d">IndexFile::selectNodes()</a>, and <a class="el" href="classClassificationAction.html#ae72a58147a996ee7d02b826a49f56a3b">ClassificationAction::stepClassifyGround()</a>.</p>
 
 </div>
 </div>
@@ -709,7 +755,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classVoxels.html#a12f61412517408f6747837ef088c7ea7">Voxels::create()</a>, <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">Page::runColorModifier()</a>, <a class="el" href="classQuery.html#a313ef7ff209b623e53ec4919f4253d9d">Query::setGrid()</a>, <a class="el" href="classQuery.html#a69094c213e0dcb05e219f9f288213bd7">Query::setVoxels()</a>, and <a class="el" href="classSegmentationThread.html#aa5468f0653c0b889be90618e97130d61">SegmentationThread::start()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">Page::runColorModifier()</a>, <a class="el" href="classQuery.html#a313ef7ff209b623e53ec4919f4253d9d">Query::setGrid()</a>, <a class="el" href="classExplorerClippingCylinderWidget.html#a1900a8b1065a4faf39d9a5f37763f672">ExplorerClippingCylinderWidget::setRegion()</a>, and <a class="el" href="classQuery.html#a69094c213e0dcb05e219f9f288213bd7">Query::setVoxels()</a>.</p>
 
 </div>
 </div>
@@ -739,7 +785,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classHeightMapModifier.html#a507c4d11e92f68fc70be400b61ffdd1d">HeightMapModifier::applyModifier()</a>, <a class="el" href="classBox.html#aa2f47f763c87c6529e7ac978af7dc04a">Box&lt; T &gt;::Box()</a>, <a class="el" href="classIndexFile.html#a91296efaf069cd015a5682d8916fbff0">IndexFile::divide()</a>, <a class="el" href="classIndexFile.html#a57f30bee5e85a9c05a8873ee66932d70">IndexFile::insert()</a>, <a class="el" href="classVoxels.html#a445ca78892024b9e4eb2e82961597772">Voxels::next()</a>, <a class="el" href="classQuery.html#a941ddb696a5a2f31f029535ebfcf8ef4">Query::nextGrid()</a>, <a class="el" href="classQuery.html#a1a1ccc7772c4c845a8a30b15e91e453e">Query::nextVoxel()</a>, <a class="el" href="classViewerAabb.html#a1acaa04ae8d2f6bdce5264ab2f5fe9a9">ViewerAabb::set()</a>, <a class="el" href="structLasFile_1_1Header.html#afdd60d10aeff31922cd598e16cb2bd27">LasFile::Header::set()</a>, <a class="el" href="classProjectNavigatorItemClipping.html#ac052512d2a2d6b1b5cf0ef49d6503602">ProjectNavigatorItemClipping::slotUpdate()</a>, <a class="el" href="classIndexFileBuilder.html#ab3167f1bf6d5c8f839e1e01b7ab34c4b">IndexFileBuilder::stateMainBegin()</a>, <a class="el" href="classClassificationAction.html#a697269c20897e8382d7122ae807b1b31">ClassificationAction::stepGrid()</a>, and <a class="el" href="classIndexFile.html#a9a30bc9213e44653b481986d8c8810f5">IndexFile::write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classHeightMapModifier.html#a507c4d11e92f68fc70be400b61ffdd1d">HeightMapModifier::applyModifier()</a>, <a class="el" href="classBox.html#aa2f47f763c87c6529e7ac978af7dc04a">Box&lt; T &gt;::Box()</a>, <a class="el" href="classIndexFile.html#a91296efaf069cd015a5682d8916fbff0">IndexFile::divide()</a>, <a class="el" href="classIndexFile.html#a57f30bee5e85a9c05a8873ee66932d70">IndexFile::insert()</a>, <a class="el" href="classQuery.html#a941ddb696a5a2f31f029535ebfcf8ef4">Query::nextGrid()</a>, <a class="el" href="classQuery.html#a1a1ccc7772c4c845a8a30b15e91e453e">Query::nextVoxel()</a>, <a class="el" href="classViewerAabb.html#a1acaa04ae8d2f6bdce5264ab2f5fe9a9">ViewerAabb::set()</a>, <a class="el" href="structLasFile_1_1Header.html#afdd60d10aeff31922cd598e16cb2bd27">LasFile::Header::set()</a>, <a class="el" href="classExplorerClippingBoxWidget.html#a8a601966c23cbfdabd54b2e0f05dffd6">ExplorerClippingBoxWidget::setRegion()</a>, <a class="el" href="classExplorerClippingCylinderWidget.html#a1900a8b1065a4faf39d9a5f37763f672">ExplorerClippingCylinderWidget::setRegion()</a>, <a class="el" href="classSegmentationAction.html#a310de1d04ca982b78bc4a6b350fe8625">SegmentationAction::start()</a>, <a class="el" href="classIndexFileBuilder.html#ab3167f1bf6d5c8f839e1e01b7ab34c4b">IndexFileBuilder::stateMainBegin()</a>, and <a class="el" href="classIndexFile.html#a9a30bc9213e44653b481986d8c8810f5">IndexFile::write()</a>.</p>
 
 </div>
 </div>
@@ -765,7 +811,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classDescriptorPca.html#aaf7d7d6a5062444cb825d6aeccc417fd">DescriptorPca::computeDescriptor()</a>, and <a class="el" href="classSegmentationWindow.html#a30a2dc38bda35a517080a6f1eb7648f7">SegmentationWindow::updateRange()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classDescriptorPca.html#a27fd4bf74ff5bc57c7083b5ff4ce3a7a">DescriptorPca::computeDescriptor()</a>.</p>
 
 </div>
 </div>
@@ -795,7 +841,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classHeightMapModifier.html#a507c4d11e92f68fc70be400b61ffdd1d">HeightMapModifier::applyModifier()</a>, <a class="el" href="classBox.html#aa2f47f763c87c6529e7ac978af7dc04a">Box&lt; T &gt;::Box()</a>, <a class="el" href="classVoxels.html#a2bde9bd1a9eaa3c6815a21f0c51352a8">Voxels::box()</a>, <a class="el" href="classIndexFile.html#a91296efaf069cd015a5682d8916fbff0">IndexFile::divide()</a>, <a class="el" href="classIndexFile.html#a57f30bee5e85a9c05a8873ee66932d70">IndexFile::insert()</a>, <a class="el" href="classVoxels.html#a445ca78892024b9e4eb2e82961597772">Voxels::next()</a>, <a class="el" href="classQuery.html#a941ddb696a5a2f31f029535ebfcf8ef4">Query::nextGrid()</a>, <a class="el" href="classQuery.html#a1a1ccc7772c4c845a8a30b15e91e453e">Query::nextVoxel()</a>, <a class="el" href="classDataset.html#abba74f440c6e84e78538a551481b3c4c">Dataset::read()</a>, <a class="el" href="classViewerAabb.html#a1acaa04ae8d2f6bdce5264ab2f5fe9a9">ViewerAabb::set()</a>, <a class="el" href="structLasFile_1_1Header.html#afdd60d10aeff31922cd598e16cb2bd27">LasFile::Header::set()</a>, <a class="el" href="classProjectNavigatorItemClipping.html#ac052512d2a2d6b1b5cf0ef49d6503602">ProjectNavigatorItemClipping::slotUpdate()</a>, <a class="el" href="classIndexFileBuilder.html#ab3167f1bf6d5c8f839e1e01b7ab34c4b">IndexFileBuilder::stateMainBegin()</a>, <a class="el" href="classClassificationAction.html#a697269c20897e8382d7122ae807b1b31">ClassificationAction::stepGrid()</a>, and <a class="el" href="classIndexFile.html#a9a30bc9213e44653b481986d8c8810f5">IndexFile::write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classHeightMapModifier.html#a507c4d11e92f68fc70be400b61ffdd1d">HeightMapModifier::applyModifier()</a>, <a class="el" href="classBox.html#aa2f47f763c87c6529e7ac978af7dc04a">Box&lt; T &gt;::Box()</a>, <a class="el" href="classIndexFile.html#a91296efaf069cd015a5682d8916fbff0">IndexFile::divide()</a>, <a class="el" href="classIndexFile.html#a57f30bee5e85a9c05a8873ee66932d70">IndexFile::insert()</a>, <a class="el" href="classQuery.html#a941ddb696a5a2f31f029535ebfcf8ef4">Query::nextGrid()</a>, <a class="el" href="classQuery.html#a1a1ccc7772c4c845a8a30b15e91e453e">Query::nextVoxel()</a>, <a class="el" href="classDataset.html#abba74f440c6e84e78538a551481b3c4c">Dataset::read()</a>, <a class="el" href="classViewerAabb.html#a1acaa04ae8d2f6bdce5264ab2f5fe9a9">ViewerAabb::set()</a>, <a class="el" href="structLasFile_1_1Header.html#afdd60d10aeff31922cd598e16cb2bd27">LasFile::Header::set()</a>, <a class="el" href="classExplorerClippingBoxWidget.html#a8a601966c23cbfdabd54b2e0f05dffd6">ExplorerClippingBoxWidget::setRegion()</a>, <a class="el" href="classExplorerClippingCylinderWidget.html#a1900a8b1065a4faf39d9a5f37763f672">ExplorerClippingCylinderWidget::setRegion()</a>, <a class="el" href="classSegmentationAction.html#a310de1d04ca982b78bc4a6b350fe8625">SegmentationAction::start()</a>, <a class="el" href="classIndexFileBuilder.html#ab3167f1bf6d5c8f839e1e01b7ab34c4b">IndexFileBuilder::stateMainBegin()</a>, and <a class="el" href="classIndexFile.html#a9a30bc9213e44653b481986d8c8810f5">IndexFile::write()</a>.</p>
 
 </div>
 </div>
@@ -821,7 +867,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classQuery.html#a7ebc1e5cde5d235b789ca4028f72993d">Query::applyCamera()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classQuery.html#a7ebc1e5cde5d235b789ca4028f72993d">Query::applyCamera()</a>, and <a class="el" href="classClassificationAction.html#ae72a58147a996ee7d02b826a49f56a3b">ClassificationAction::stepClassifyGround()</a>.</p>
 
 </div>
 </div>
@@ -1059,7 +1105,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classLasFile.html#ae5cfeb2ea48444aaeba75e3c3e27b9e0">LasFile::create()</a>, <a class="el" href="classIndexFile.html#a91296efaf069cd015a5682d8916fbff0">IndexFile::divide()</a>, <a class="el" href="classProjectNavigatorItemClipping.html#a0ad8a99cb08c4d7e2ca23128d7d319fd">ProjectNavigatorItemClipping::filterChanged()</a>, <a class="el" href="classIndexFile.html#a57f30bee5e85a9c05a8873ee66932d70">IndexFile::insert()</a>, <a class="el" href="classVoxels.html#a445ca78892024b9e4eb2e82961597772">Voxels::next()</a>, <a class="el" href="classQuery.html#a941ddb696a5a2f31f029535ebfcf8ef4">Query::nextGrid()</a>, <a class="el" href="classQuery.html#a1a1ccc7772c4c845a8a30b15e91e453e">Query::nextVoxel()</a>, <a class="el" href="classIndexFile.html#a3f7f3e5d216848e937034f98627dbfa9">IndexFile::readPayload()</a>, <a class="el" href="classQuery.html#a313ef7ff209b623e53ec4919f4253d9d">Query::setGrid()</a>, <a class="el" href="classIndexFileBuilder.html#ae8ba81be2fa095faae8f8fd63af19bdc">IndexFileBuilder::stateCopyPoints()</a>, <a class="el" href="classIndexFileBuilder.html#ab3167f1bf6d5c8f839e1e01b7ab34c4b">IndexFileBuilder::stateMainBegin()</a>, <a class="el" href="classIndexFileBuilder.html#aa2f10cf0750d736387b1287fa44b83e2">IndexFileBuilder::stateNodeInsert()</a>, and <a class="el" href="classPage.html#a601eba8e292281c077c822485978989f">Page::transform()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classLasFile.html#ae5cfeb2ea48444aaeba75e3c3e27b9e0">LasFile::create()</a>, <a class="el" href="classIndexFile.html#a91296efaf069cd015a5682d8916fbff0">IndexFile::divide()</a>, <a class="el" href="classIndexFile.html#a57f30bee5e85a9c05a8873ee66932d70">IndexFile::insert()</a>, <a class="el" href="classQuery.html#a941ddb696a5a2f31f029535ebfcf8ef4">Query::nextGrid()</a>, <a class="el" href="classQuery.html#a1a1ccc7772c4c845a8a30b15e91e453e">Query::nextVoxel()</a>, <a class="el" href="classIndexFile.html#a3f7f3e5d216848e937034f98627dbfa9">IndexFile::readPayload()</a>, <a class="el" href="classQuery.html#a313ef7ff209b623e53ec4919f4253d9d">Query::setGrid()</a>, <a class="el" href="classIndexFileBuilder.html#ae8ba81be2fa095faae8f8fd63af19bdc">IndexFileBuilder::stateCopyPoints()</a>, <a class="el" href="classIndexFileBuilder.html#ab3167f1bf6d5c8f839e1e01b7ab34c4b">IndexFileBuilder::stateMainBegin()</a>, <a class="el" href="classIndexFileBuilder.html#aa2f10cf0750d736387b1287fa44b83e2">IndexFileBuilder::stateNodeInsert()</a>, <a class="el" href="classPageData.html#a39410da8bab8896a2de15f819963cda5">PageData::transform()</a>, and <a class="el" href="classExplorerClippingBoxWidget.html#a476c2b9007318029491a37bced0c17f5">ExplorerClippingBoxWidget::updateRegion()</a>.</p>
 
 </div>
 </div>
@@ -1104,8 +1150,6 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classEditor.html#a4fdff42c4c102fba2dac842f5abbf7aa">Editor::setClipFilter()</a>.</p>
 
 </div>
 </div>
@@ -1156,7 +1200,7 @@ template&lt;class T &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1211,7 +1255,7 @@ template&lt;class T &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1237,7 +1281,7 @@ template&lt;class T &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1263,7 +1307,7 @@ template&lt;class T &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

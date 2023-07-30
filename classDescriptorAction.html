@@ -55,7 +55,6 @@ $(document).ready(function(){initNavTree('classDescriptorAction.html',''); initR
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-types">Protected Types</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classDescriptorAction-members.html">List of all members</a>  </div>
@@ -69,8 +68,8 @@ $(document).ready(function(){initNavTree('classDescriptorAction.html',''); initR
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:af11b4654b3722b558e404531b4376ed5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#af11b4654b3722b558e404531b4376ed5">Method</a> { <a class="el" href="classDescriptorAction.html#af11b4654b3722b558e404531b4376ed5a7137f2ea88d4cca8afeb89717ce06039">METHOD_PCA</a> = 0
-, <a class="el" href="classDescriptorAction.html#af11b4654b3722b558e404531b4376ed5af47e6988037ed0c2c5bff4d7ef63f10e">METHOD_DISTRIBUTION</a> = 1
+<tr class="memitem:af11b4654b3722b558e404531b4376ed5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#af11b4654b3722b558e404531b4376ed5">Method</a> { <a class="el" href="classDescriptorAction.html#af11b4654b3722b558e404531b4376ed5a86e1b5932cf7488443a327b1fa442f1d">METHOD_DENSITY</a> = 0
+, <a class="el" href="classDescriptorAction.html#af11b4654b3722b558e404531b4376ed5a60971af94522b65f33294dcd5c56f702">METHOD_PCA_INTENSITY</a>
  }</td></tr>
 <tr class="separator:af11b4654b3722b558e404531b4376ed5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -80,98 +79,80 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a974912bd47912a9c2c1c041ac520b0de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6649f2ff38dc1e33ac71f3a8ead946e3"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#a6649f2ff38dc1e33ac71f3a8ead946e3">~DescriptorAction</a> ()</td></tr>
 <tr class="separator:a6649f2ff38dc1e33ac71f3a8ead946e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8010a3e18ffd7f7af50c1fa134f044d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#a8010a3e18ffd7f7af50c1fa134f044d3">initialize</a> (double radius, double voxelSize, <a class="el" href="classDescriptorAction.html#af11b4654b3722b558e404531b4376ed5">Method</a> method)</td></tr>
-<tr class="separator:a8010a3e18ffd7f7af50c1fa134f044d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15eb99e4d57cc393be69664d00739e62"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#a15eb99e4d57cc393be69664d00739e62">step</a> ()</td></tr>
-<tr class="separator:a15eb99e4d57cc393be69664d00739e62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad372070832238151b8e7c2de01859cf7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#ad372070832238151b8e7c2de01859cf7">start</a> (double radius, double voxelSize, <a class="el" href="classDescriptorAction.html#af11b4654b3722b558e404531b4376ed5">Method</a> method, bool includeGround)</td></tr>
+<tr class="separator:ad372070832238151b8e7c2de01859cf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ac4e5cb6efc77747a6fd0dfaf61b67f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#a7ac4e5cb6efc77747a6fd0dfaf61b67f">next</a> ()</td></tr>
+<tr class="separator:a7ac4e5cb6efc77747a6fd0dfaf61b67f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a718084654664d957ef4402ee15625481"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#a718084654664d957ef4402ee15625481">clear</a> ()</td></tr>
 <tr class="separator:a718084654664d957ef4402ee15625481"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7f6bbdf6b51a91f52e3af503f5d1876"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#ac7f6bbdf6b51a91f52e3af503f5d1876">minimum</a> () const</td></tr>
-<tr class="separator:ac7f6bbdf6b51a91f52e3af503f5d1876"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fd7b61935b1eeabf6e05f2172308b23"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#a4fd7b61935b1eeabf6e05f2172308b23">maximum</a> () const</td></tr>
-<tr class="separator:a4fd7b61935b1eeabf6e05f2172308b23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fa6148257284bd510e545ac91785ad3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#a7fa6148257284bd510e545ac91785ad3">minimum</a> () const</td></tr>
+<tr class="separator:a7fa6148257284bd510e545ac91785ad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19124dbab51ab1fa54bb24d4ee4378c0"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#a19124dbab51ab1fa54bb24d4ee4378c0">maximum</a> () const</td></tr>
+<tr class="separator:a19124dbab51ab1fa54bb24d4ee4378c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classProgressActionInterface"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classProgressActionInterface')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classProgressActionInterface.html">ProgressActionInterface</a></td></tr>
 <tr class="memitem:af4c4f750d73f68838109164e18d0b9f0 inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#af4c4f750d73f68838109164e18d0b9f0">ProgressActionInterface</a> ()</td></tr>
 <tr class="separator:af4c4f750d73f68838109164e18d0b9f0 inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedcbf9eea4d156efdb09078b76700e8f inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#aedcbf9eea4d156efdb09078b76700e8f">~ProgressActionInterface</a> ()=default</td></tr>
 <tr class="separator:aedcbf9eea4d156efdb09078b76700e8f inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10fa275e6c213d48fe3f2776ebfbc2ad inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a10fa275e6c213d48fe3f2776ebfbc2ad">step</a> ()=0</td></tr>
-<tr class="separator:a10fa275e6c213d48fe3f2776ebfbc2ad inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ca5e030c5050cd9ff6b15d3df10b836 inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a3ca5e030c5050cd9ff6b15d3df10b836">initialize</a> (uint64_t nElements=<a class="el" href="classProgressActionInterface.html#a5620bb28cc23825adfbc5888b8a9df81">npos</a>, uint64_t interleave=1, double secondsPerStep=0.25)</td></tr>
-<tr class="separator:a3ca5e030c5050cd9ff6b15d3df10b836 inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41b6bceceac9a2990a04cf78fdb8dab9 inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a41b6bceceac9a2990a04cf78fdb8dab9">startTimer</a> ()</td></tr>
-<tr class="separator:a41b6bceceac9a2990a04cf78fdb8dab9 inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf059132fed7a05d5d7d530c23ceb814 inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#aaf059132fed7a05d5d7d530c23ceb814">timedOut</a> ()</td></tr>
-<tr class="separator:aaf059132fed7a05d5d7d530c23ceb814 inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ba3e0e8ee768c4cd3ee6274a44313ab inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a9ba3e0e8ee768c4cd3ee6274a44313ab">next</a> ()=0</td></tr>
+<tr class="separator:a9ba3e0e8ee768c4cd3ee6274a44313ab inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88d1eb06f7f809af1d559e2b0e7c9388 inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a88d1eb06f7f809af1d559e2b0e7c9388">end</a> () const</td></tr>
 <tr class="separator:a88d1eb06f7f809af1d559e2b0e7c9388 inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d13a4af410a2a42c91d3e79a7436702 inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a2d13a4af410a2a42c91d3e79a7436702">percent</a> () const</td></tr>
-<tr class="separator:a2d13a4af410a2a42c91d3e79a7436702 inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab98e5b794526113a0e5ee5d48e3e6478 inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#ab98e5b794526113a0e5ee5d48e3e6478">processed</a> () const</td></tr>
-<tr class="separator:ab98e5b794526113a0e5ee5d48e3e6478 inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3520fa57373c3ab925698b62cfd1cd18 inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a3520fa57373c3ab925698b62cfd1cd18">process</a> () const</td></tr>
-<tr class="separator:a3520fa57373c3ab925698b62cfd1cd18 inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe2d2c814acac9b914990bd6f54f1f77 inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#abe2d2c814acac9b914990bd6f54f1f77">maximum</a> () const</td></tr>
-<tr class="separator:abe2d2c814acac9b914990bd6f54f1f77 inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a083b99f861a2fb7792bbfd069bb0183b inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a083b99f861a2fb7792bbfd069bb0183b">initializing</a> () const</td></tr>
-<tr class="separator:a083b99f861a2fb7792bbfd069bb0183b inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d1b2a93fc5efc5e697ff15823608afe inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a6d1b2a93fc5efc5e697ff15823608afe">increment</a> (uint64_t nElementsProcessed)</td></tr>
-<tr class="separator:a6d1b2a93fc5efc5e697ff15823608afe inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-types" name="pro-types"></a>
-Protected Types</h2></td></tr>
-<tr class="memitem:a9ec2bb598978d03f7d1a1ea729a43b72"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#a9ec2bb598978d03f7d1a1ea729a43b72">Status</a> { <a class="el" href="classDescriptorAction.html#a9ec2bb598978d03f7d1a1ea729a43b72ae9825bb96a898e96bcf2b4864a4828c7">STATUS_NEW</a>
-, <a class="el" href="classDescriptorAction.html#a9ec2bb598978d03f7d1a1ea729a43b72a4c79819e95edcd99b9ab419215150c3c">STATUS_COMPUTE_DESCRIPTOR</a>
-, <a class="el" href="classDescriptorAction.html#a9ec2bb598978d03f7d1a1ea729a43b72aa36501570591feefa808f2fd023a3b1d">STATUS_NORMALIZE_DESCRIPTOR</a>
-, <a class="el" href="classDescriptorAction.html#a9ec2bb598978d03f7d1a1ea729a43b72a6140c8336639a1e11b488c1dcf1d7716">STATUS_FINISHED</a>
- }</td></tr>
-<tr class="separator:a9ec2bb598978d03f7d1a1ea729a43b72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5562492e21eb6b8317ae76cc921960aa inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a5562492e21eb6b8317ae76cc921960aa">progressMaximumSteps</a> () const</td></tr>
+<tr class="separator:a5562492e21eb6b8317ae76cc921960aa inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa73ac370035a6df6380f9defe4f763fc inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#aa73ac370035a6df6380f9defe4f763fc">progressValueSteps</a> () const</td></tr>
+<tr class="separator:aa73ac370035a6df6380f9defe4f763fc inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a265c20d5051641e3461125c2c2dfe4cb inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a265c20d5051641e3461125c2c2dfe4cb">progressMaximumStep</a> () const</td></tr>
+<tr class="separator:a265c20d5051641e3461125c2c2dfe4cb inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58e71bca17856fecd8e96af44549aa13 inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a58e71bca17856fecd8e96af44549aa13">progressValueStep</a> () const</td></tr>
+<tr class="separator:a58e71bca17856fecd8e96af44549aa13 inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a526d7444e8132c0fd137bc8624b7997b inherit pub_methods_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a526d7444e8132c0fd137bc8624b7997b">progressPercent</a> () const</td></tr>
+<tr class="separator:a526d7444e8132c0fd137bc8624b7997b inherit pub_methods_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a62bb4a636dc0930c11d3f1f7205232d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#a62bb4a636dc0930c11d3f1f7205232d3">stepComputeDescriptor</a> ()</td></tr>
-<tr class="separator:a62bb4a636dc0930c11d3f1f7205232d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40fb079a4378975fd546a7f8f918d965"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#a40fb079a4378975fd546a7f8f918d965">stepNormalizeDescriptor</a> ()</td></tr>
-<tr class="separator:a40fb079a4378975fd546a7f8f918d965"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac02cb5b99cef0a72a0ef2dd7e5df93e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#ac02cb5b99cef0a72a0ef2dd7e5df93e5">determineMaximum</a> ()</td></tr>
-<tr class="separator:ac02cb5b99cef0a72a0ef2dd7e5df93e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06ce06afe3c6084cdb2bc4d06e1a0aca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#a06ce06afe3c6084cdb2bc4d06e1a0aca">stepResetPoints</a> ()</td></tr>
+<tr class="separator:a06ce06afe3c6084cdb2bc4d06e1a0aca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa201ca9465ce5490cae6ef38b61fb454"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#aa201ca9465ce5490cae6ef38b61fb454">stepCountPoints</a> ()</td></tr>
+<tr class="separator:aa201ca9465ce5490cae6ef38b61fb454"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa768f307b186b6699978e762a8f0194"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#aaa768f307b186b6699978e762a8f0194">stepCompute</a> ()</td></tr>
+<tr class="separator:aaa768f307b186b6699978e762a8f0194"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ba91d465df942d22562e2004a351019"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#a3ba91d465df942d22562e2004a351019">stepNormalize</a> ()</td></tr>
+<tr class="separator:a3ba91d465df942d22562e2004a351019"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68dc05f4af80ace1c03dd43170a01ee6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#a68dc05f4af80ace1c03dd43170a01ee6">computePoint</a> ()</td></tr>
+<tr class="separator:a68dc05f4af80ace1c03dd43170a01ee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a065382b38383f86fb3f97ed569c6b1f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classEditor.html">Editor</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#a065382b38383f86fb3f97ed569c6b1f1">editor_</a></td></tr>
 <tr class="separator:a065382b38383f86fb3f97ed569c6b1f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ca658b83ed0d579bc4ed062d4e20e49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classQuery.html">Query</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#a3ca658b83ed0d579bc4ed062d4e20e49">queryPoints_</a></td></tr>
-<tr class="separator:a3ca658b83ed0d579bc4ed062d4e20e49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3f57ad3a3e3f0185e39ac3cc57f4821"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classQuery.html">Query</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#ab3f57ad3a3e3f0185e39ac3cc57f4821">query_</a></td></tr>
+<tr class="separator:ab3f57ad3a3e3f0185e39ac3cc57f4821"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abcb693316662e6ea873814637ae242e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classQuery.html">Query</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#abcb693316662e6ea873814637ae242e2">queryPoint_</a></td></tr>
 <tr class="separator:abcb693316662e6ea873814637ae242e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa144f342a635917facbcb10908ad160b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classDescriptorPca.html">DescriptorPca</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#aa144f342a635917facbcb10908ad160b">pca_</a></td></tr>
 <tr class="separator:aa144f342a635917facbcb10908ad160b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a400bf37ac02c670d03dd5e41a5731eaf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classDescriptorAction.html#a9ec2bb598978d03f7d1a1ea729a43b72">Status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#a400bf37ac02c670d03dd5e41a5731eaf">status_</a></td></tr>
-<tr class="separator:a400bf37ac02c670d03dd5e41a5731eaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdb5acd072b555595089cac42f41b5a9"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#afdb5acd072b555595089cac42f41b5a9">radius_</a></td></tr>
 <tr class="separator:afdb5acd072b555595089cac42f41b5a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24554c2267ad9055c78807a2f2ba4a8d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#a24554c2267ad9055c78807a2f2ba4a8d">voxelSize_</a></td></tr>
 <tr class="separator:a24554c2267ad9055c78807a2f2ba4a8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51872d3e9d48bfb085414e4cfe676152"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classDescriptorAction.html#af11b4654b3722b558e404531b4376ed5">Method</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#a51872d3e9d48bfb085414e4cfe676152">method_</a></td></tr>
 <tr class="separator:a51872d3e9d48bfb085414e4cfe676152"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b51548f0232157b7139ffac5d7f4584"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#a6b51548f0232157b7139ffac5d7f4584">nPointsTotal_</a></td></tr>
-<tr class="separator:a6b51548f0232157b7139ffac5d7f4584"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab22d2ae219feb58a0a70929d945808e6"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#ab22d2ae219feb58a0a70929d945808e6">nPointsOneHalf_</a></td></tr>
-<tr class="separator:ab22d2ae219feb58a0a70929d945808e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86ea05a23dcedfa1dd5965d46d26ec11"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#a86ea05a23dcedfa1dd5965d46d26ec11">nPointsDone_</a></td></tr>
-<tr class="separator:a86ea05a23dcedfa1dd5965d46d26ec11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afacec848d7f517242bcf8cd03935ace5"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#afacec848d7f517242bcf8cd03935ace5">nPointsWithDescriptor_</a></td></tr>
-<tr class="separator:afacec848d7f517242bcf8cd03935ace5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6758d9c97f5015bf676fc014ce9ec6c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#ab6758d9c97f5015bf676fc014ce9ec6c">descriptorMinimum_</a></td></tr>
-<tr class="separator:ab6758d9c97f5015bf676fc014ce9ec6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd9e3537f3909fc797b0a8e1000758d4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#afd9e3537f3909fc797b0a8e1000758d4">descriptorMaximum_</a></td></tr>
-<tr class="separator:afd9e3537f3909fc797b0a8e1000758d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_static_attribs_classProgressActionInterface"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_classProgressActionInterface')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="classProgressActionInterface.html">ProgressActionInterface</a></td></tr>
-<tr class="memitem:a5620bb28cc23825adfbc5888b8a9df81 inherit pub_static_attribs_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top">static const uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a5620bb28cc23825adfbc5888b8a9df81">npos</a> = UINT64_MAX</td></tr>
-<tr class="separator:a5620bb28cc23825adfbc5888b8a9df81 inherit pub_static_attribs_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae492953501ba89144b608acfa0d89e9f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#ae492953501ba89144b608acfa0d89e9f">includeGround_</a></td></tr>
+<tr class="separator:ae492953501ba89144b608acfa0d89e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0883bcbd81723c3821133b0057aa1c03"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#a0883bcbd81723c3821133b0057aa1c03">numberOfPoints_</a></td></tr>
+<tr class="separator:a0883bcbd81723c3821133b0057aa1c03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a230e5ed97e70086973afcb9b647092"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#a1a230e5ed97e70086973afcb9b647092">numberOfPointsInFilter_</a></td></tr>
+<tr class="separator:a1a230e5ed97e70086973afcb9b647092"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00837c761f35befa4b1ac78d53bc94b6"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#a00837c761f35befa4b1ac78d53bc94b6">numberOfPointsWithDescriptor_</a></td></tr>
+<tr class="separator:a00837c761f35befa4b1ac78d53bc94b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a019a054ce0481f992106a625cd7fc0d1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#a019a054ce0481f992106a625cd7fc0d1">descriptorMinimum_</a></td></tr>
+<tr class="separator:a019a054ce0481f992106a625cd7fc0d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad71653cb0bc799c25a4048969851b530"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDescriptorAction.html#ad71653cb0bc799c25a4048969851b530">descriptorMaximum_</a></td></tr>
+<tr class="separator:ad71653cb0bc799c25a4048969851b530"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classProgressActionInterface"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classProgressActionInterface')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classProgressActionInterface.html">ProgressActionInterface</a></td></tr>
+<tr class="memitem:a733ac04bc46614d2c925740006c13c6f inherit pro_attribs_classProgressActionInterface"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classProgressCounter.html">ProgressCounter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a733ac04bc46614d2c925740006c13c6f">progress_</a></td></tr>
+<tr class="separator:a733ac04bc46614d2c925740006c13c6f inherit pro_attribs_classProgressActionInterface"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="af11b4654b3722b558e404531b4376ed5" name="af11b4654b3722b558e404531b4376ed5"></a>
@@ -186,36 +167,8 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af11b4654b3722b558e404531b4376ed5a7137f2ea88d4cca8afeb89717ce06039" name="af11b4654b3722b558e404531b4376ed5a7137f2ea88d4cca8afeb89717ce06039"></a>METHOD_PCA&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af11b4654b3722b558e404531b4376ed5af47e6988037ed0c2c5bff4d7ef63f10e" name="af11b4654b3722b558e404531b4376ed5af47e6988037ed0c2c5bff4d7ef63f10e"></a>METHOD_DISTRIBUTION&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a id="a9ec2bb598978d03f7d1a1ea729a43b72" name="a9ec2bb598978d03f7d1a1ea729a43b72"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ec2bb598978d03f7d1a1ea729a43b72">&#9670;&nbsp;</a></span>Status</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="classDescriptorAction.html#a9ec2bb598978d03f7d1a1ea729a43b72">DescriptorAction::Status</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9ec2bb598978d03f7d1a1ea729a43b72ae9825bb96a898e96bcf2b4864a4828c7" name="a9ec2bb598978d03f7d1a1ea729a43b72ae9825bb96a898e96bcf2b4864a4828c7"></a>STATUS_NEW&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9ec2bb598978d03f7d1a1ea729a43b72a4c79819e95edcd99b9ab419215150c3c" name="a9ec2bb598978d03f7d1a1ea729a43b72a4c79819e95edcd99b9ab419215150c3c"></a>STATUS_COMPUTE_DESCRIPTOR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9ec2bb598978d03f7d1a1ea729a43b72aa36501570591feefa808f2fd023a3b1d" name="a9ec2bb598978d03f7d1a1ea729a43b72aa36501570591feefa808f2fd023a3b1d"></a>STATUS_NORMALIZE_DESCRIPTOR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a9ec2bb598978d03f7d1a1ea729a43b72a6140c8336639a1e11b488c1dcf1d7716" name="a9ec2bb598978d03f7d1a1ea729a43b72a6140c8336639a1e11b488c1dcf1d7716"></a>STATUS_FINISHED&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af11b4654b3722b558e404531b4376ed5a86e1b5932cf7488443a327b1fa442f1d" name="af11b4654b3722b558e404531b4376ed5a86e1b5932cf7488443a327b1fa442f1d"></a>METHOD_DENSITY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af11b4654b3722b558e404531b4376ed5a60971af94522b65f33294dcd5c56f702" name="af11b4654b3722b558e404531b4376ed5a60971af94522b65f33294dcd5c56f702"></a>METHOD_PCA_INTENSITY&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -280,12 +233,12 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classDescriptorWindow.html#a3917ba6efcf195c53a86f2e0b39bd172">DescriptorWindow::slotApply()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classDescriptorWidget.html#a171c27ee17ca9af93754606dc93aa137">DescriptorWidget::hideEvent()</a>, and <a class="el" href="classDescriptorWidget.html#ae0370314a7509e147c1e2e4e1d3eab78">DescriptorWidget::slotApply()</a>.</p>
 
 </div>
 </div>
-<a id="ac02cb5b99cef0a72a0ef2dd7e5df93e5" name="ac02cb5b99cef0a72a0ef2dd7e5df93e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac02cb5b99cef0a72a0ef2dd7e5df93e5">&#9670;&nbsp;</a></span>determineMaximum()</h2>
+<a id="a68dc05f4af80ace1c03dd43170a01ee6" name="a68dc05f4af80ace1c03dd43170a01ee6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68dc05f4af80ace1c03dd43170a01ee6">&#9670;&nbsp;</a></span>computePoint()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -294,7 +247,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void DescriptorAction::determineMaximum </td>
+          <td class="memname">void DescriptorAction::computePoint </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -307,18 +260,95 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#a15eb99e4d57cc393be69664d00739e62">step()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#aaa768f307b186b6699978e762a8f0194">stepCompute()</a>.</p>
 
 </div>
 </div>
-<a id="a8010a3e18ffd7f7af50c1fa134f044d3" name="a8010a3e18ffd7f7af50c1fa134f044d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8010a3e18ffd7f7af50c1fa134f044d3">&#9670;&nbsp;</a></span>initialize()</h2>
+<a id="a19124dbab51ab1fa54bb24d4ee4378c0" name="a19124dbab51ab1fa54bb24d4ee4378c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19124dbab51ab1fa54bb24d4ee4378c0">&#9670;&nbsp;</a></span>maximum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double DescriptorAction::maximum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7fa6148257284bd510e545ac91785ad3" name="a7fa6148257284bd510e545ac91785ad3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fa6148257284bd510e545ac91785ad3">&#9670;&nbsp;</a></span>minimum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double DescriptorAction::minimum </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7ac4e5cb6efc77747a6fd0dfaf61b67f" name="a7ac4e5cb6efc77747a6fd0dfaf61b67f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ac4e5cb6efc77747a6fd0dfaf61b67f">&#9670;&nbsp;</a></span>next()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DescriptorAction::next </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="classProgressActionInterface.html#a9ba3e0e8ee768c4cd3ee6274a44313ab">ProgressActionInterface</a>.</p>
+
+</div>
+</div>
+<a id="ad372070832238151b8e7c2de01859cf7" name="ad372070832238151b8e7c2de01859cf7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad372070832238151b8e7c2de01859cf7">&#9670;&nbsp;</a></span>start()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void DescriptorAction::initialize </td>
+          <td class="memname">void DescriptorAction::start </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>radius</em>, </td>
@@ -333,7 +363,13 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classDescriptorAction.html#af11b4654b3722b558e404531b4376ed5">Method</a>&#160;</td>
-          <td class="paramname"><em>method</em>&#160;</td>
+          <td class="paramname"><em>method</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>includeGround</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -343,12 +379,12 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classDescriptorWindow.html#a3917ba6efcf195c53a86f2e0b39bd172">DescriptorWindow::slotApply()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classDescriptorWidget.html#ae0370314a7509e147c1e2e4e1d3eab78">DescriptorWidget::slotApply()</a>.</p>
 
 </div>
 </div>
-<a id="a4fd7b61935b1eeabf6e05f2172308b23" name="a4fd7b61935b1eeabf6e05f2172308b23"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4fd7b61935b1eeabf6e05f2172308b23">&#9670;&nbsp;</a></span>maximum()</h2>
+<a id="aaa768f307b186b6699978e762a8f0194" name="aaa768f307b186b6699978e762a8f0194"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa768f307b186b6699978e762a8f0194">&#9670;&nbsp;</a></span>stepCompute()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -357,84 +393,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float DescriptorAction::maximum </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac7f6bbdf6b51a91f52e3af503f5d1876" name="ac7f6bbdf6b51a91f52e3af503f5d1876"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7f6bbdf6b51a91f52e3af503f5d1876">&#9670;&nbsp;</a></span>minimum()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float DescriptorAction::minimum </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a15eb99e4d57cc393be69664d00739e62" name="a15eb99e4d57cc393be69664d00739e62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15eb99e4d57cc393be69664d00739e62">&#9670;&nbsp;</a></span>step()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DescriptorAction::step </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implements <a class="el" href="classProgressActionInterface.html#a10fa275e6c213d48fe3f2776ebfbc2ad">ProgressActionInterface</a>.</p>
-
-</div>
-</div>
-<a id="a62bb4a636dc0930c11d3f1f7205232d3" name="a62bb4a636dc0930c11d3f1f7205232d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a62bb4a636dc0930c11d3f1f7205232d3">&#9670;&nbsp;</a></span>stepComputeDescriptor()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DescriptorAction::stepComputeDescriptor </td>
+          <td class="memname">void DescriptorAction::stepCompute </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -447,12 +406,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#a15eb99e4d57cc393be69664d00739e62">step()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#a7ac4e5cb6efc77747a6fd0dfaf61b67f">next()</a>.</p>
 
 </div>
 </div>
-<a id="a40fb079a4378975fd546a7f8f918d965" name="a40fb079a4378975fd546a7f8f918d965"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40fb079a4378975fd546a7f8f918d965">&#9670;&nbsp;</a></span>stepNormalizeDescriptor()</h2>
+<a id="aa201ca9465ce5490cae6ef38b61fb454" name="aa201ca9465ce5490cae6ef38b61fb454"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa201ca9465ce5490cae6ef38b61fb454">&#9670;&nbsp;</a></span>stepCountPoints()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -461,7 +420,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void DescriptorAction::stepNormalizeDescriptor </td>
+          <td class="memname">void DescriptorAction::stepCountPoints </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -474,13 +433,67 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#a15eb99e4d57cc393be69664d00739e62">step()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#a7ac4e5cb6efc77747a6fd0dfaf61b67f">next()</a>.</p>
+
+</div>
+</div>
+<a id="a3ba91d465df942d22562e2004a351019" name="a3ba91d465df942d22562e2004a351019"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ba91d465df942d22562e2004a351019">&#9670;&nbsp;</a></span>stepNormalize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DescriptorAction::stepNormalize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#a7ac4e5cb6efc77747a6fd0dfaf61b67f">next()</a>.</p>
+
+</div>
+</div>
+<a id="a06ce06afe3c6084cdb2bc4d06e1a0aca" name="a06ce06afe3c6084cdb2bc4d06e1a0aca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06ce06afe3c6084cdb2bc4d06e1a0aca">&#9670;&nbsp;</a></span>stepResetPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DescriptorAction::stepResetPoints </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#a7ac4e5cb6efc77747a6fd0dfaf61b67f">next()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="afd9e3537f3909fc797b0a8e1000758d4" name="afd9e3537f3909fc797b0a8e1000758d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd9e3537f3909fc797b0a8e1000758d4">&#9670;&nbsp;</a></span>descriptorMaximum_</h2>
+<a id="ad71653cb0bc799c25a4048969851b530" name="ad71653cb0bc799c25a4048969851b530"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad71653cb0bc799c25a4048969851b530">&#9670;&nbsp;</a></span>descriptorMaximum_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -489,7 +502,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float DescriptorAction::descriptorMaximum_</td>
+          <td class="memname">double DescriptorAction::descriptorMaximum_</td>
         </tr>
       </table>
   </td>
@@ -499,12 +512,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#a718084654664d957ef4402ee15625481">clear()</a>, <a class="el" href="classDescriptorAction.html#a8010a3e18ffd7f7af50c1fa134f044d3">initialize()</a>, <a class="el" href="classDescriptorAction.html#a4fd7b61935b1eeabf6e05f2172308b23">maximum()</a>, <a class="el" href="classDescriptorAction.html#a62bb4a636dc0930c11d3f1f7205232d3">stepComputeDescriptor()</a>, and <a class="el" href="classDescriptorAction.html#a40fb079a4378975fd546a7f8f918d965">stepNormalizeDescriptor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#a718084654664d957ef4402ee15625481">clear()</a>, <a class="el" href="classDescriptorAction.html#a68dc05f4af80ace1c03dd43170a01ee6">computePoint()</a>, <a class="el" href="classDescriptorAction.html#a19124dbab51ab1fa54bb24d4ee4378c0">maximum()</a>, <a class="el" href="classDescriptorAction.html#ad372070832238151b8e7c2de01859cf7">start()</a>, and <a class="el" href="classDescriptorAction.html#a3ba91d465df942d22562e2004a351019">stepNormalize()</a>.</p>
 
 </div>
 </div>
-<a id="ab6758d9c97f5015bf676fc014ce9ec6c" name="ab6758d9c97f5015bf676fc014ce9ec6c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6758d9c97f5015bf676fc014ce9ec6c">&#9670;&nbsp;</a></span>descriptorMinimum_</h2>
+<a id="a019a054ce0481f992106a625cd7fc0d1" name="a019a054ce0481f992106a625cd7fc0d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a019a054ce0481f992106a625cd7fc0d1">&#9670;&nbsp;</a></span>descriptorMinimum_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -513,7 +526,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float DescriptorAction::descriptorMinimum_</td>
+          <td class="memname">double DescriptorAction::descriptorMinimum_</td>
         </tr>
       </table>
   </td>
@@ -523,7 +536,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#a718084654664d957ef4402ee15625481">clear()</a>, <a class="el" href="classDescriptorAction.html#a8010a3e18ffd7f7af50c1fa134f044d3">initialize()</a>, <a class="el" href="classDescriptorAction.html#ac7f6bbdf6b51a91f52e3af503f5d1876">minimum()</a>, <a class="el" href="classDescriptorAction.html#a62bb4a636dc0930c11d3f1f7205232d3">stepComputeDescriptor()</a>, and <a class="el" href="classDescriptorAction.html#a40fb079a4378975fd546a7f8f918d965">stepNormalizeDescriptor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#a718084654664d957ef4402ee15625481">clear()</a>, <a class="el" href="classDescriptorAction.html#a68dc05f4af80ace1c03dd43170a01ee6">computePoint()</a>, <a class="el" href="classDescriptorAction.html#a7fa6148257284bd510e545ac91785ad3">minimum()</a>, <a class="el" href="classDescriptorAction.html#ad372070832238151b8e7c2de01859cf7">start()</a>, and <a class="el" href="classDescriptorAction.html#a3ba91d465df942d22562e2004a351019">stepNormalize()</a>.</p>
 
 </div>
 </div>
@@ -547,7 +560,31 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#a8010a3e18ffd7f7af50c1fa134f044d3">initialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#ad372070832238151b8e7c2de01859cf7">start()</a>, and <a class="el" href="classDescriptorAction.html#aa201ca9465ce5490cae6ef38b61fb454">stepCountPoints()</a>.</p>
+
+</div>
+</div>
+<a id="ae492953501ba89144b608acfa0d89e9f" name="ae492953501ba89144b608acfa0d89e9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae492953501ba89144b608acfa0d89e9f">&#9670;&nbsp;</a></span>includeGround_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DescriptorAction::includeGround_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#a718084654664d957ef4402ee15625481">clear()</a>, <a class="el" href="classDescriptorAction.html#ad372070832238151b8e7c2de01859cf7">start()</a>, and <a class="el" href="classDescriptorAction.html#a06ce06afe3c6084cdb2bc4d06e1a0aca">stepResetPoints()</a>.</p>
 
 </div>
 </div>
@@ -571,12 +608,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#a8010a3e18ffd7f7af50c1fa134f044d3">initialize()</a>, and <a class="el" href="classDescriptorAction.html#a62bb4a636dc0930c11d3f1f7205232d3">stepComputeDescriptor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#a718084654664d957ef4402ee15625481">clear()</a>, <a class="el" href="classDescriptorAction.html#a68dc05f4af80ace1c03dd43170a01ee6">computePoint()</a>, and <a class="el" href="classDescriptorAction.html#ad372070832238151b8e7c2de01859cf7">start()</a>.</p>
 
 </div>
 </div>
-<a id="a86ea05a23dcedfa1dd5965d46d26ec11" name="a86ea05a23dcedfa1dd5965d46d26ec11"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86ea05a23dcedfa1dd5965d46d26ec11">&#9670;&nbsp;</a></span>nPointsDone_</h2>
+<a id="a0883bcbd81723c3821133b0057aa1c03" name="a0883bcbd81723c3821133b0057aa1c03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0883bcbd81723c3821133b0057aa1c03">&#9670;&nbsp;</a></span>numberOfPoints_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -585,7 +622,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint64_t DescriptorAction::nPointsDone_</td>
+          <td class="memname">uint64_t DescriptorAction::numberOfPoints_</td>
         </tr>
       </table>
   </td>
@@ -595,12 +632,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#a718084654664d957ef4402ee15625481">clear()</a>, <a class="el" href="classDescriptorAction.html#a8010a3e18ffd7f7af50c1fa134f044d3">initialize()</a>, <a class="el" href="classDescriptorAction.html#a62bb4a636dc0930c11d3f1f7205232d3">stepComputeDescriptor()</a>, and <a class="el" href="classDescriptorAction.html#a40fb079a4378975fd546a7f8f918d965">stepNormalizeDescriptor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#a718084654664d957ef4402ee15625481">clear()</a>, <a class="el" href="classDescriptorAction.html#ad372070832238151b8e7c2de01859cf7">start()</a>, and <a class="el" href="classDescriptorAction.html#a06ce06afe3c6084cdb2bc4d06e1a0aca">stepResetPoints()</a>.</p>
 
 </div>
 </div>
-<a id="ab22d2ae219feb58a0a70929d945808e6" name="ab22d2ae219feb58a0a70929d945808e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab22d2ae219feb58a0a70929d945808e6">&#9670;&nbsp;</a></span>nPointsOneHalf_</h2>
+<a id="a1a230e5ed97e70086973afcb9b647092" name="a1a230e5ed97e70086973afcb9b647092"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a230e5ed97e70086973afcb9b647092">&#9670;&nbsp;</a></span>numberOfPointsInFilter_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -609,7 +646,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint64_t DescriptorAction::nPointsOneHalf_</td>
+          <td class="memname">uint64_t DescriptorAction::numberOfPointsInFilter_</td>
         </tr>
       </table>
   </td>
@@ -619,12 +656,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#a718084654664d957ef4402ee15625481">clear()</a>, <a class="el" href="classDescriptorAction.html#ac02cb5b99cef0a72a0ef2dd7e5df93e5">determineMaximum()</a>, <a class="el" href="classDescriptorAction.html#a8010a3e18ffd7f7af50c1fa134f044d3">initialize()</a>, and <a class="el" href="classDescriptorAction.html#a62bb4a636dc0930c11d3f1f7205232d3">stepComputeDescriptor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#a718084654664d957ef4402ee15625481">clear()</a>, <a class="el" href="classDescriptorAction.html#ad372070832238151b8e7c2de01859cf7">start()</a>, <a class="el" href="classDescriptorAction.html#aaa768f307b186b6699978e762a8f0194">stepCompute()</a>, and <a class="el" href="classDescriptorAction.html#aa201ca9465ce5490cae6ef38b61fb454">stepCountPoints()</a>.</p>
 
 </div>
 </div>
-<a id="a6b51548f0232157b7139ffac5d7f4584" name="a6b51548f0232157b7139ffac5d7f4584"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b51548f0232157b7139ffac5d7f4584">&#9670;&nbsp;</a></span>nPointsTotal_</h2>
+<a id="a00837c761f35befa4b1ac78d53bc94b6" name="a00837c761f35befa4b1ac78d53bc94b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00837c761f35befa4b1ac78d53bc94b6">&#9670;&nbsp;</a></span>numberOfPointsWithDescriptor_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -633,7 +670,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint64_t DescriptorAction::nPointsTotal_</td>
+          <td class="memname">uint64_t DescriptorAction::numberOfPointsWithDescriptor_</td>
         </tr>
       </table>
   </td>
@@ -643,31 +680,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#a718084654664d957ef4402ee15625481">clear()</a>, <a class="el" href="classDescriptorAction.html#ac02cb5b99cef0a72a0ef2dd7e5df93e5">determineMaximum()</a>, <a class="el" href="classDescriptorAction.html#a8010a3e18ffd7f7af50c1fa134f044d3">initialize()</a>, and <a class="el" href="classDescriptorAction.html#a40fb079a4378975fd546a7f8f918d965">stepNormalizeDescriptor()</a>.</p>
-
-</div>
-</div>
-<a id="afacec848d7f517242bcf8cd03935ace5" name="afacec848d7f517242bcf8cd03935ace5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afacec848d7f517242bcf8cd03935ace5">&#9670;&nbsp;</a></span>nPointsWithDescriptor_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint64_t DescriptorAction::nPointsWithDescriptor_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#a718084654664d957ef4402ee15625481">clear()</a>, <a class="el" href="classDescriptorAction.html#a8010a3e18ffd7f7af50c1fa134f044d3">initialize()</a>, and <a class="el" href="classDescriptorAction.html#a62bb4a636dc0930c11d3f1f7205232d3">stepComputeDescriptor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#a718084654664d957ef4402ee15625481">clear()</a>, <a class="el" href="classDescriptorAction.html#a68dc05f4af80ace1c03dd43170a01ee6">computePoint()</a>, and <a class="el" href="classDescriptorAction.html#ad372070832238151b8e7c2de01859cf7">start()</a>.</p>
 
 </div>
 </div>
@@ -691,7 +704,31 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#a718084654664d957ef4402ee15625481">clear()</a>, and <a class="el" href="classDescriptorAction.html#a62bb4a636dc0930c11d3f1f7205232d3">stepComputeDescriptor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#a718084654664d957ef4402ee15625481">clear()</a>, and <a class="el" href="classDescriptorAction.html#a68dc05f4af80ace1c03dd43170a01ee6">computePoint()</a>.</p>
+
+</div>
+</div>
+<a id="ab3f57ad3a3e3f0185e39ac3cc57f4821" name="ab3f57ad3a3e3f0185e39ac3cc57f4821"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3f57ad3a3e3f0185e39ac3cc57f4821">&#9670;&nbsp;</a></span>query_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classQuery.html">Query</a> DescriptorAction::query_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#a718084654664d957ef4402ee15625481">clear()</a>, <a class="el" href="classDescriptorAction.html#a68dc05f4af80ace1c03dd43170a01ee6">computePoint()</a>, <a class="el" href="classDescriptorAction.html#aaa768f307b186b6699978e762a8f0194">stepCompute()</a>, <a class="el" href="classDescriptorAction.html#aa201ca9465ce5490cae6ef38b61fb454">stepCountPoints()</a>, <a class="el" href="classDescriptorAction.html#a3ba91d465df942d22562e2004a351019">stepNormalize()</a>, and <a class="el" href="classDescriptorAction.html#a06ce06afe3c6084cdb2bc4d06e1a0aca">stepResetPoints()</a>.</p>
 
 </div>
 </div>
@@ -715,31 +752,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#a718084654664d957ef4402ee15625481">clear()</a>, and <a class="el" href="classDescriptorAction.html#a62bb4a636dc0930c11d3f1f7205232d3">stepComputeDescriptor()</a>.</p>
-
-</div>
-</div>
-<a id="a3ca658b83ed0d579bc4ed062d4e20e49" name="a3ca658b83ed0d579bc4ed062d4e20e49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ca658b83ed0d579bc4ed062d4e20e49">&#9670;&nbsp;</a></span>queryPoints_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classQuery.html">Query</a> DescriptorAction::queryPoints_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#a718084654664d957ef4402ee15625481">clear()</a>, <a class="el" href="classDescriptorAction.html#ac02cb5b99cef0a72a0ef2dd7e5df93e5">determineMaximum()</a>, <a class="el" href="classDescriptorAction.html#a8010a3e18ffd7f7af50c1fa134f044d3">initialize()</a>, <a class="el" href="classDescriptorAction.html#a62bb4a636dc0930c11d3f1f7205232d3">stepComputeDescriptor()</a>, and <a class="el" href="classDescriptorAction.html#a40fb079a4378975fd546a7f8f918d965">stepNormalizeDescriptor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#a718084654664d957ef4402ee15625481">clear()</a>, and <a class="el" href="classDescriptorAction.html#a68dc05f4af80ace1c03dd43170a01ee6">computePoint()</a>.</p>
 
 </div>
 </div>
@@ -763,31 +776,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#a718084654664d957ef4402ee15625481">clear()</a>, <a class="el" href="classDescriptorAction.html#a8010a3e18ffd7f7af50c1fa134f044d3">initialize()</a>, and <a class="el" href="classDescriptorAction.html#a62bb4a636dc0930c11d3f1f7205232d3">stepComputeDescriptor()</a>.</p>
-
-</div>
-</div>
-<a id="a400bf37ac02c670d03dd5e41a5731eaf" name="a400bf37ac02c670d03dd5e41a5731eaf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a400bf37ac02c670d03dd5e41a5731eaf">&#9670;&nbsp;</a></span>status_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classDescriptorAction.html#a9ec2bb598978d03f7d1a1ea729a43b72">Status</a> DescriptorAction::status_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#a718084654664d957ef4402ee15625481">clear()</a>, <a class="el" href="classDescriptorAction.html#a8010a3e18ffd7f7af50c1fa134f044d3">initialize()</a>, <a class="el" href="classDescriptorAction.html#a15eb99e4d57cc393be69664d00739e62">step()</a>, <a class="el" href="classDescriptorAction.html#a62bb4a636dc0930c11d3f1f7205232d3">stepComputeDescriptor()</a>, and <a class="el" href="classDescriptorAction.html#a40fb079a4378975fd546a7f8f918d965">stepNormalizeDescriptor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#a718084654664d957ef4402ee15625481">clear()</a>, <a class="el" href="classDescriptorAction.html#a68dc05f4af80ace1c03dd43170a01ee6">computePoint()</a>, and <a class="el" href="classDescriptorAction.html#ad372070832238151b8e7c2de01859cf7">start()</a>.</p>
 
 </div>
 </div>
@@ -811,7 +800,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#a8010a3e18ffd7f7af50c1fa134f044d3">initialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classDescriptorAction.html#a718084654664d957ef4402ee15625481">clear()</a>, <a class="el" href="classDescriptorAction.html#a68dc05f4af80ace1c03dd43170a01ee6">computePoint()</a>, and <a class="el" href="classDescriptorAction.html#ad372070832238151b8e7c2de01859cf7">start()</a>.</p>
 
 </div>
 </div>

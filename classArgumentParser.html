@@ -80,8 +80,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9e69fb2d04a487cf4382534521a43e54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0627cff137bb0275ea2f8e149fed605e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArgumentParser.html#a0627cff137bb0275ea2f8e149fed605e">contains</a> (const std::string &amp;name) const</td></tr>
 <tr class="separator:a0627cff137bb0275ea2f8e149fed605e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47768c788414b6959b639c2994a12eb1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArgumentParser.html#a47768c788414b6959b639c2994a12eb1">read</a> (const std::string &amp;name, int &amp;value) const</td></tr>
+<tr class="separator:a47768c788414b6959b639c2994a12eb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f15ac7280793c81eade361e559900ce"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArgumentParser.html#a7f15ac7280793c81eade361e559900ce">toString</a> (const std::string &amp;name) const</td></tr>
 <tr class="separator:a7f15ac7280793c81eade361e559900ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdb6f610ad31e9d04a3fff9848f82ecb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArgumentParser.html#afdb6f610ad31e9d04a3fff9848f82ecb">toBool</a> (const std::string &amp;name) const</td></tr>
+<tr class="separator:afdb6f610ad31e9d04a3fff9848f82ecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac834ff9f73444baec6ba1358233803a7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArgumentParser.html#ac834ff9f73444baec6ba1358233803a7">toFloat</a> (const std::string &amp;name) const</td></tr>
 <tr class="separator:ac834ff9f73444baec6ba1358233803a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5207ed4259fcf85cecad0eb487410272"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArgumentParser.html#a5207ed4259fcf85cecad0eb487410272">toDouble</a> (const std::string &amp;name) const</td></tr>
@@ -196,6 +200,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p class="reference">Referenced by <a class="el" href="classArgumentParser.html#a47768c788414b6959b639c2994a12eb1">read()</a>.</p>
+
 </div>
 </div>
 <a id="a9e69fb2d04a487cf4382534521a43e54" name="a9e69fb2d04a487cf4382534521a43e54"></a>
@@ -220,6 +226,52 @@ Private Attributes</h2></td></tr>
           <td></td>
           <td>)</td>
           <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a47768c788414b6959b639c2994a12eb1" name="a47768c788414b6959b639c2994a12eb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47768c788414b6959b639c2994a12eb1">&#9670;&nbsp;</a></span>read()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ArgumentParser::read </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afdb6f610ad31e9d04a3fff9848f82ecb" name="afdb6f610ad31e9d04a3fff9848f82ecb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdb6f610ad31e9d04a3fff9848f82ecb">&#9670;&nbsp;</a></span>toBool()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ArgumentParser::toBool </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -278,6 +330,8 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="reference">Referenced by <a class="el" href="classArgumentParser.html#a47768c788414b6959b639c2994a12eb1">read()</a>.</p>
+
 </div>
 </div>
 <a id="a7fd79452b5951a20417568d123145fce" name="a7fd79452b5951a20417568d123145fce"></a>
@@ -322,7 +376,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classArgumentParser.html#a5207ed4259fcf85cecad0eb487410272">toDouble()</a>, <a class="el" href="classArgumentParser.html#ac834ff9f73444baec6ba1358233803a7">toFloat()</a>, <a class="el" href="classArgumentParser.html#a646ba53d127631c16c16d2dc2d842a44">toInt()</a>, <a class="el" href="classArgumentParser.html#a7fd79452b5951a20417568d123145fce">toSize()</a>, <a class="el" href="classArgumentParser.html#a2671555564f04ce0aeab45e79efc39c3">toUint32()</a>, and <a class="el" href="classArgumentParser.html#a27c869b90abfb950fbc4a6e9fb147e0c">toUint64()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classArgumentParser.html#afdb6f610ad31e9d04a3fff9848f82ecb">toBool()</a>, <a class="el" href="classArgumentParser.html#a5207ed4259fcf85cecad0eb487410272">toDouble()</a>, <a class="el" href="classArgumentParser.html#ac834ff9f73444baec6ba1358233803a7">toFloat()</a>, <a class="el" href="classArgumentParser.html#a646ba53d127631c16c16d2dc2d842a44">toInt()</a>, <a class="el" href="classArgumentParser.html#a7fd79452b5951a20417568d123145fce">toSize()</a>, <a class="el" href="classArgumentParser.html#a2671555564f04ce0aeab45e79efc39c3">toUint32()</a>, and <a class="el" href="classArgumentParser.html#a27c869b90abfb950fbc4a6e9fb147e0c">toUint64()</a>.</p>
 
 </div>
 </div>

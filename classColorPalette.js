@@ -1,17 +1,17 @@
 var classColorPalette =
 [
-    [ "blueCyanGreenYellowRed", "classColorPalette.html#a0a9b79ecc9d0bfcd4d7ce1a3f5addc18", null ],
-    [ "blueCyanYellowRed", "classColorPalette.html#a76b266ce18cabbe43d04698e70543d06", null ],
-    [ "gray", "classColorPalette.html#a94f2d3ff6b59657d43a1ad9cd81c85f7", null ],
-    [ "BlackGreen16", "classColorPalette.html#adfe3672a1f8c991b61c0c572fefdbec2", null ],
-    [ "BlackRed16", "classColorPalette.html#a8722332bf7d5f46af8d6c9ecce313e98", null ],
-    [ "BlueCyanGreenYellowRed16", "classColorPalette.html#aabb6b71f9b7e692a0d2e4b870ce59c5f", null ],
-    [ "BlueCyanYellowRed16", "classColorPalette.html#a8ceb85c5b3db9f3ecd947d35dc3f04fc", null ],
-    [ "BlueCyanYellowRed256", "classColorPalette.html#acc5f025838a40ce269e834e222669677", null ],
-    [ "BlueYellow16", "classColorPalette.html#a5ae355dda5ed15146322cee4d533b4eb", null ],
-    [ "Classification", "classColorPalette.html#a84eea7fc6cf059a4dcac0f38892372ed", null ],
-    [ "RedBlack16", "classColorPalette.html#aa7d9ccbf1c004f5a9eab72a549278d10", null ],
-    [ "RedGreen16", "classColorPalette.html#a6a96b0e032662058c4c962206f304f6d", null ],
-    [ "RedYellow16", "classColorPalette.html#a1db20213b489eb026b56ee6eb1608716", null ],
-    [ "WindowsXp32", "classColorPalette.html#aad9c6c41b53e1280ec8d25425b82e00a", null ]
+    [ "blueCyanGreenYellowRed", "classColorPalette.html#a73bf1d93eb580ca83f9c03613630e2fb", null ],
+    [ "blueCyanYellowRed", "classColorPalette.html#af742cf7efb1a0ece64bd654c4fdf6cb1", null ],
+    [ "gray", "classColorPalette.html#af539b740b4be2f40ed213c7f4bfd0024", null ],
+    [ "BlackGreen16", "classColorPalette.html#a771f6e92ecf685d37903286d8b073714", null ],
+    [ "BlackRed16", "classColorPalette.html#a260d3fd781b042a412d7edf100c974cb", null ],
+    [ "BlueCyanGreenYellowRed16", "classColorPalette.html#a840a25c936251b87791e7e6e4ebdc97e", null ],
+    [ "BlueCyanYellowRed16", "classColorPalette.html#a0bb0072940918c233db1bfcb4c89a51b", null ],
+    [ "BlueCyanYellowRed256", "classColorPalette.html#a5f9f0b42846c5c295bb454396e2017d6", null ],
+    [ "BlueYellow16", "classColorPalette.html#a44cefc848cd1da490a4ec101f0effb61", null ],
+    [ "Classification", "classColorPalette.html#adff4d9024d371ad844d01524eec4cfb0", null ],
+    [ "RedBlack16", "classColorPalette.html#a3dc641194d1772c791c0d7c073c08515", null ],
+    [ "RedGreen16", "classColorPalette.html#ac1784c54fdd5bac94eaa7503f44a640c", null ],
+    [ "RedYellow16", "classColorPalette.html#a37c11254b3ce4581421afb53a4c7cf8f", null ],
+    [ "WindowsXp32", "classColorPalette.html#a3804f1f776e72bc20003bf77f5a33893", null ]
 ];

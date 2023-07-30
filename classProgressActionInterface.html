@@ -54,8 +54,7 @@ $(document).ready(function(){initNavTree('classProgressActionInterface.html','')
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classProgressActionInterface-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">ProgressActionInterface Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
@@ -63,7 +62,7 @@ $(document).ready(function(){initNavTree('classProgressActionInterface.html','')
 
 <p><code>#include &lt;ProgressActionInterface.hpp&gt;</code></p>
 
-<p>Inherited by <a class="el" href="classClassificationAction.html">ClassificationAction</a>, <a class="el" href="classDensityAction.html">DensityAction</a>, <a class="el" href="classDescriptorAction.html">DescriptorAction</a>, <a class="el" href="classElevationAction.html">ElevationAction</a>, and <a class="el" href="classExportFileAction.html">ExportFileAction</a>.</p>
+<p>Inherited by <a class="el" href="classClassificationAction.html">ClassificationAction</a>, <a class="el" href="classDescriptorAction.html">DescriptorAction</a>, <a class="el" href="classElevationAction.html">ElevationAction</a>, <a class="el" href="classExportFileAction.html">ExportFileAction</a>, and <a class="el" href="classSegmentationAction.html">SegmentationAction</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -71,50 +70,25 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af4c4f750d73f68838109164e18d0b9f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedcbf9eea4d156efdb09078b76700e8f"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#aedcbf9eea4d156efdb09078b76700e8f">~ProgressActionInterface</a> ()=default</td></tr>
 <tr class="separator:aedcbf9eea4d156efdb09078b76700e8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10fa275e6c213d48fe3f2776ebfbc2ad"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a10fa275e6c213d48fe3f2776ebfbc2ad">step</a> ()=0</td></tr>
-<tr class="separator:a10fa275e6c213d48fe3f2776ebfbc2ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ca5e030c5050cd9ff6b15d3df10b836"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a3ca5e030c5050cd9ff6b15d3df10b836">initialize</a> (uint64_t nElements=<a class="el" href="classProgressActionInterface.html#a5620bb28cc23825adfbc5888b8a9df81">npos</a>, uint64_t interleave=1, double secondsPerStep=0.25)</td></tr>
-<tr class="separator:a3ca5e030c5050cd9ff6b15d3df10b836"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41b6bceceac9a2990a04cf78fdb8dab9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a41b6bceceac9a2990a04cf78fdb8dab9">startTimer</a> ()</td></tr>
-<tr class="separator:a41b6bceceac9a2990a04cf78fdb8dab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf059132fed7a05d5d7d530c23ceb814"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#aaf059132fed7a05d5d7d530c23ceb814">timedOut</a> ()</td></tr>
-<tr class="separator:aaf059132fed7a05d5d7d530c23ceb814"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ba3e0e8ee768c4cd3ee6274a44313ab"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a9ba3e0e8ee768c4cd3ee6274a44313ab">next</a> ()=0</td></tr>
+<tr class="separator:a9ba3e0e8ee768c4cd3ee6274a44313ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88d1eb06f7f809af1d559e2b0e7c9388"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a88d1eb06f7f809af1d559e2b0e7c9388">end</a> () const</td></tr>
 <tr class="separator:a88d1eb06f7f809af1d559e2b0e7c9388"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d13a4af410a2a42c91d3e79a7436702"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a2d13a4af410a2a42c91d3e79a7436702">percent</a> () const</td></tr>
-<tr class="separator:a2d13a4af410a2a42c91d3e79a7436702"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab98e5b794526113a0e5ee5d48e3e6478"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#ab98e5b794526113a0e5ee5d48e3e6478">processed</a> () const</td></tr>
-<tr class="separator:ab98e5b794526113a0e5ee5d48e3e6478"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3520fa57373c3ab925698b62cfd1cd18"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a3520fa57373c3ab925698b62cfd1cd18">process</a> () const</td></tr>
-<tr class="separator:a3520fa57373c3ab925698b62cfd1cd18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe2d2c814acac9b914990bd6f54f1f77"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#abe2d2c814acac9b914990bd6f54f1f77">maximum</a> () const</td></tr>
-<tr class="separator:abe2d2c814acac9b914990bd6f54f1f77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a083b99f861a2fb7792bbfd069bb0183b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a083b99f861a2fb7792bbfd069bb0183b">initializing</a> () const</td></tr>
-<tr class="separator:a083b99f861a2fb7792bbfd069bb0183b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d1b2a93fc5efc5e697ff15823608afe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a6d1b2a93fc5efc5e697ff15823608afe">increment</a> (uint64_t nElementsProcessed)</td></tr>
-<tr class="separator:a6d1b2a93fc5efc5e697ff15823608afe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5562492e21eb6b8317ae76cc921960aa"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a5562492e21eb6b8317ae76cc921960aa">progressMaximumSteps</a> () const</td></tr>
+<tr class="separator:a5562492e21eb6b8317ae76cc921960aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa73ac370035a6df6380f9defe4f763fc"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#aa73ac370035a6df6380f9defe4f763fc">progressValueSteps</a> () const</td></tr>
+<tr class="separator:aa73ac370035a6df6380f9defe4f763fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a265c20d5051641e3461125c2c2dfe4cb"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a265c20d5051641e3461125c2c2dfe4cb">progressMaximumStep</a> () const</td></tr>
+<tr class="separator:a265c20d5051641e3461125c2c2dfe4cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58e71bca17856fecd8e96af44549aa13"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a58e71bca17856fecd8e96af44549aa13">progressValueStep</a> () const</td></tr>
+<tr class="separator:a58e71bca17856fecd8e96af44549aa13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a526d7444e8132c0fd137bc8624b7997b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a526d7444e8132c0fd137bc8624b7997b">progressPercent</a> () const</td></tr>
+<tr class="separator:a526d7444e8132c0fd137bc8624b7997b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:a5620bb28cc23825adfbc5888b8a9df81"><td class="memItemLeft" align="right" valign="top">static const uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a5620bb28cc23825adfbc5888b8a9df81">npos</a> = UINT64_MAX</td></tr>
-<tr class="separator:a5620bb28cc23825adfbc5888b8a9df81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a1cb0093145a8342bd2a2e3448626e74e"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a1cb0093145a8342bd2a2e3448626e74e">nElements_</a></td></tr>
-<tr class="separator:a1cb0093145a8342bd2a2e3448626e74e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4d1cabcec849a95669623cf52549800"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#ae4d1cabcec849a95669623cf52549800">nElementsProcessed_</a></td></tr>
-<tr class="separator:ae4d1cabcec849a95669623cf52549800"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af75c3291d2231247c7974b9702615fc5"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#af75c3291d2231247c7974b9702615fc5">interleave_</a></td></tr>
-<tr class="separator:af75c3291d2231247c7974b9702615fc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3fdef5e1bef6496fc93c9f43208aa4b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#ac3fdef5e1bef6496fc93c9f43208aa4b">secondsPerStep_</a></td></tr>
-<tr class="separator:ac3fdef5e1bef6496fc93c9f43208aa4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43bed53440c58d0cdbfa4d2d08ca9d3f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a43bed53440c58d0cdbfa4d2d08ca9d3f">timeBegin_</a></td></tr>
-<tr class="separator:a43bed53440c58d0cdbfa4d2d08ca9d3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba9d0e143abec82b92283ca2f31a40e9"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#aba9d0e143abec82b92283ca2f31a40e9">timeNow_</a></td></tr>
-<tr class="separator:aba9d0e143abec82b92283ca2f31a40e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adde826ed676a10cec3bf1483a28ceae0"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#adde826ed676a10cec3bf1483a28ceae0">interleaveCounter_</a></td></tr>
-<tr class="separator:adde826ed676a10cec3bf1483a28ceae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a733ac04bc46614d2c925740006c13c6f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classProgressCounter.html">ProgressCounter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProgressActionInterface.html#a733ac04bc46614d2c925740006c13c6f">progress_</a></td></tr>
+<tr class="separator:a733ac04bc46614d2c925740006c13c6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af4c4f750d73f68838109164e18d0b9f0" name="af4c4f750d73f68838109164e18d0b9f0"></a>
@@ -183,139 +157,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProgressDialog.html#a45dda22cc62a2f29ad42a08e662181d0">ProgressDialog::run()</a>, <a class="el" href="classClassificationAction.html#a1f535103f236f737bba685db0cb5c1d6">ClassificationAction::step()</a>, <a class="el" href="classElevationAction.html#a3cbae6baf2a54134cb35590d274b3b6a">ElevationAction::step()</a>, and <a class="el" href="classExportFileAction.html#aeb173d6cd34b3ef4219c06b5990aea9c">ExportFileAction::step()</a>.</p>
-
-</div>
-</div>
-<a id="a6d1b2a93fc5efc5e697ff15823608afe" name="a6d1b2a93fc5efc5e697ff15823608afe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d1b2a93fc5efc5e697ff15823608afe">&#9670;&nbsp;</a></span>increment()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ProgressActionInterface::increment </td>
-          <td>(</td>
-          <td class="paramtype">uint64_t&#160;</td>
-          <td class="paramname"><em>nElementsProcessed</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classClassificationAction.html#a1f535103f236f737bba685db0cb5c1d6">ClassificationAction::step()</a>, <a class="el" href="classElevationAction.html#a3cbae6baf2a54134cb35590d274b3b6a">ElevationAction::step()</a>, <a class="el" href="classExportFileAction.html#aeb173d6cd34b3ef4219c06b5990aea9c">ExportFileAction::step()</a>, <a class="el" href="classDensityAction.html#afa6cede9f697ec6212b1c8ec1a03f6d0">DensityAction::stepComputeDensity()</a>, <a class="el" href="classDescriptorAction.html#a62bb4a636dc0930c11d3f1f7205232d3">DescriptorAction::stepComputeDescriptor()</a>, <a class="el" href="classDensityAction.html#a65224554e17d565ed0aea5614e81508d">DensityAction::stepNormalizeDensity()</a>, and <a class="el" href="classDescriptorAction.html#a40fb079a4378975fd546a7f8f918d965">DescriptorAction::stepNormalizeDescriptor()</a>.</p>
-
-</div>
-</div>
-<a id="a3ca5e030c5050cd9ff6b15d3df10b836" name="a3ca5e030c5050cd9ff6b15d3df10b836"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ca5e030c5050cd9ff6b15d3df10b836">&#9670;&nbsp;</a></span>initialize()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ProgressActionInterface::initialize </td>
-          <td>(</td>
-          <td class="paramtype">uint64_t&#160;</td>
-          <td class="paramname"><em>nElements</em> = <code><a class="el" href="classProgressActionInterface.html#a5620bb28cc23825adfbc5888b8a9df81">npos</a></code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint64_t&#160;</td>
-          <td class="paramname"><em>interleave</em> = <code>1</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>secondsPerStep</em> = <code>0.25</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classDensityAction.html#aa87aaacba516ab321bc764b414db4637">DensityAction::determineMaximum()</a>, <a class="el" href="classDescriptorAction.html#ac02cb5b99cef0a72a0ef2dd7e5df93e5">DescriptorAction::determineMaximum()</a>, <a class="el" href="classExportFileAction.html#a0bc7ea96952696d41ed8026a7e7cfb1f">ExportFileAction::determineMaximum()</a>, <a class="el" href="classDensityAction.html#a063d38716ce250a470019953ff775b2f">DensityAction::initialize()</a>, <a class="el" href="classDescriptorAction.html#a8010a3e18ffd7f7af50c1fa134f044d3">DescriptorAction::initialize()</a>, <a class="el" href="classElevationAction.html#aa8b2c991854ecd0947bef53d3023a941">ElevationAction::initialize()</a>, <a class="el" href="classClassificationAction.html#a60629610e28208c7db0afc815fd2a264">ClassificationAction::initialize()</a>, and <a class="el" href="classExportFileAction.html#a2844382b4d9c17c2e50d16e005504ec1">ExportFileAction::initialize()</a>.</p>
-
-</div>
-</div>
-<a id="a083b99f861a2fb7792bbfd069bb0183b" name="a083b99f861a2fb7792bbfd069bb0183b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a083b99f861a2fb7792bbfd069bb0183b">&#9670;&nbsp;</a></span>initializing()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ProgressActionInterface::initializing </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classDensityAction.html#acb5b03f8b4058798060b564bdef7a8c2">DensityAction::step()</a>, <a class="el" href="classDescriptorAction.html#a15eb99e4d57cc393be69664d00739e62">DescriptorAction::step()</a>, and <a class="el" href="classExportFileAction.html#aeb173d6cd34b3ef4219c06b5990aea9c">ExportFileAction::step()</a>.</p>
-
-</div>
-</div>
-<a id="abe2d2c814acac9b914990bd6f54f1f77" name="abe2d2c814acac9b914990bd6f54f1f77"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe2d2c814acac9b914990bd6f54f1f77">&#9670;&nbsp;</a></span>maximum()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint64_t ProgressActionInterface::maximum </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2d13a4af410a2a42c91d3e79a7436702" name="a2d13a4af410a2a42c91d3e79a7436702"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d13a4af410a2a42c91d3e79a7436702">&#9670;&nbsp;</a></span>percent()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ProgressActionInterface::percent </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
 <p class="reference">Referenced by <a class="el" href="classProgressDialog.html#a45dda22cc62a2f29ad42a08e662181d0">ProgressDialog::run()</a>.</p>
 
 </div>
 </div>
-<a id="a3520fa57373c3ab925698b62cfd1cd18" name="a3520fa57373c3ab925698b62cfd1cd18"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3520fa57373c3ab925698b62cfd1cd18">&#9670;&nbsp;</a></span>process()</h2>
+<a id="a9ba3e0e8ee768c4cd3ee6274a44313ab" name="a9ba3e0e8ee768c4cd3ee6274a44313ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ba3e0e8ee768c4cd3ee6274a44313ab">&#9670;&nbsp;</a></span>next()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -324,80 +171,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint64_t ProgressActionInterface::process </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classExportFileAction.html#aeb173d6cd34b3ef4219c06b5990aea9c">ExportFileAction::step()</a>.</p>
-
-</div>
-</div>
-<a id="ab98e5b794526113a0e5ee5d48e3e6478" name="ab98e5b794526113a0e5ee5d48e3e6478"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab98e5b794526113a0e5ee5d48e3e6478">&#9670;&nbsp;</a></span>processed()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint64_t ProgressActionInterface::processed </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classElevationAction.html#ac3edb68a4ee27b256e4e917a7a4a2d14">ElevationAction::exportGroundMesh()</a>, and <a class="el" href="classDensityAction.html#afa6cede9f697ec6212b1c8ec1a03f6d0">DensityAction::stepComputeDensity()</a>.</p>
-
-</div>
-</div>
-<a id="a41b6bceceac9a2990a04cf78fdb8dab9" name="a41b6bceceac9a2990a04cf78fdb8dab9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41b6bceceac9a2990a04cf78fdb8dab9">&#9670;&nbsp;</a></span>startTimer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ProgressActionInterface::startTimer </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classDensityAction.html#aa87aaacba516ab321bc764b414db4637">DensityAction::determineMaximum()</a>, <a class="el" href="classDescriptorAction.html#ac02cb5b99cef0a72a0ef2dd7e5df93e5">DescriptorAction::determineMaximum()</a>, <a class="el" href="classExportFileAction.html#a0bc7ea96952696d41ed8026a7e7cfb1f">ExportFileAction::determineMaximum()</a>, <a class="el" href="classExportFileAction.html#aeb173d6cd34b3ef4219c06b5990aea9c">ExportFileAction::step()</a>, <a class="el" href="classDensityAction.html#afa6cede9f697ec6212b1c8ec1a03f6d0">DensityAction::stepComputeDensity()</a>, <a class="el" href="classDescriptorAction.html#a62bb4a636dc0930c11d3f1f7205232d3">DescriptorAction::stepComputeDescriptor()</a>, <a class="el" href="classDensityAction.html#a65224554e17d565ed0aea5614e81508d">DensityAction::stepNormalizeDensity()</a>, and <a class="el" href="classDescriptorAction.html#a40fb079a4378975fd546a7f8f918d965">DescriptorAction::stepNormalizeDescriptor()</a>.</p>
-
-</div>
-</div>
-<a id="a10fa275e6c213d48fe3f2776ebfbc2ad" name="a10fa275e6c213d48fe3f2776ebfbc2ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10fa275e6c213d48fe3f2776ebfbc2ad">&#9670;&nbsp;</a></span>step()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void ProgressActionInterface::step </td>
+          <td class="memname">virtual void ProgressActionInterface::next </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -410,34 +184,150 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classClassificationAction.html#a1f535103f236f737bba685db0cb5c1d6">ClassificationAction</a>, <a class="el" href="classDensityAction.html#acb5b03f8b4058798060b564bdef7a8c2">DensityAction</a>, <a class="el" href="classDescriptorAction.html#a15eb99e4d57cc393be69664d00739e62">DescriptorAction</a>, <a class="el" href="classElevationAction.html#a3cbae6baf2a54134cb35590d274b3b6a">ElevationAction</a>, and <a class="el" href="classExportFileAction.html#aeb173d6cd34b3ef4219c06b5990aea9c">ExportFileAction</a>.</p>
+<p>Implemented in <a class="el" href="classClassificationAction.html#a8adfeaa5290982d5ef6d045b07329504">ClassificationAction</a>, <a class="el" href="classDescriptorAction.html#a7ac4e5cb6efc77747a6fd0dfaf61b67f">DescriptorAction</a>, <a class="el" href="classElevationAction.html#ad9d487a9f89d2d4fd9e9481412afb8f0">ElevationAction</a>, <a class="el" href="classExportFileAction.html#a27c48dc2b36564f0219731dd20ad9e66">ExportFileAction</a>, and <a class="el" href="classSegmentationAction.html#aa229e0c971057f3134c3b0f991a9e36d">SegmentationAction</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="classProgressDialog.html#a45dda22cc62a2f29ad42a08e662181d0">ProgressDialog::run()</a>.</p>
 
 </div>
 </div>
-<a id="aaf059132fed7a05d5d7d530c23ceb814" name="aaf059132fed7a05d5d7d530c23ceb814"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf059132fed7a05d5d7d530c23ceb814">&#9670;&nbsp;</a></span>timedOut()</h2>
+<a id="a265c20d5051641e3461125c2c2dfe4cb" name="a265c20d5051641e3461125c2c2dfe4cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a265c20d5051641e3461125c2c2dfe4cb">&#9670;&nbsp;</a></span>progressMaximumStep()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool ProgressActionInterface::timedOut </td>
+          <td class="memname">uint64_t ProgressActionInterface::progressMaximumStep </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classDensityAction.html#aa87aaacba516ab321bc764b414db4637">DensityAction::determineMaximum()</a>, <a class="el" href="classDescriptorAction.html#ac02cb5b99cef0a72a0ef2dd7e5df93e5">DescriptorAction::determineMaximum()</a>, <a class="el" href="classExportFileAction.html#a0bc7ea96952696d41ed8026a7e7cfb1f">ExportFileAction::determineMaximum()</a>, <a class="el" href="classExportFileAction.html#aeb173d6cd34b3ef4219c06b5990aea9c">ExportFileAction::step()</a>, <a class="el" href="classDensityAction.html#afa6cede9f697ec6212b1c8ec1a03f6d0">DensityAction::stepComputeDensity()</a>, <a class="el" href="classDescriptorAction.html#a62bb4a636dc0930c11d3f1f7205232d3">DescriptorAction::stepComputeDescriptor()</a>, <a class="el" href="classDensityAction.html#a65224554e17d565ed0aea5614e81508d">DensityAction::stepNormalizeDensity()</a>, and <a class="el" href="classDescriptorAction.html#a40fb079a4378975fd546a7f8f918d965">DescriptorAction::stepNormalizeDescriptor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classProgressDialog.html#a1df4618d6f6eda709d07d17d9252b585">ProgressDialog::updateLabels()</a>.</p>
+
+</div>
+</div>
+<a id="a5562492e21eb6b8317ae76cc921960aa" name="a5562492e21eb6b8317ae76cc921960aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5562492e21eb6b8317ae76cc921960aa">&#9670;&nbsp;</a></span>progressMaximumSteps()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t ProgressActionInterface::progressMaximumSteps </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classProgressDialog.html#ae2a287923fe19a531e95e243a7047b27">ProgressDialog::initializeLabels()</a>, and <a class="el" href="classProgressDialog.html#a1df4618d6f6eda709d07d17d9252b585">ProgressDialog::updateLabels()</a>.</p>
+
+</div>
+</div>
+<a id="a526d7444e8132c0fd137bc8624b7997b" name="a526d7444e8132c0fd137bc8624b7997b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a526d7444e8132c0fd137bc8624b7997b">&#9670;&nbsp;</a></span>progressPercent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double ProgressActionInterface::progressPercent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classProgressDialog.html#a1df4618d6f6eda709d07d17d9252b585">ProgressDialog::updateLabels()</a>.</p>
+
+</div>
+</div>
+<a id="a58e71bca17856fecd8e96af44549aa13" name="a58e71bca17856fecd8e96af44549aa13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58e71bca17856fecd8e96af44549aa13">&#9670;&nbsp;</a></span>progressValueStep()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t ProgressActionInterface::progressValueStep </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classProgressDialog.html#a1df4618d6f6eda709d07d17d9252b585">ProgressDialog::updateLabels()</a>.</p>
+
+</div>
+</div>
+<a id="aa73ac370035a6df6380f9defe4f763fc" name="aa73ac370035a6df6380f9defe4f763fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa73ac370035a6df6380f9defe4f763fc">&#9670;&nbsp;</a></span>progressValueSteps()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t ProgressActionInterface::progressValueSteps </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classProgressDialog.html#a1df4618d6f6eda709d07d17d9252b585">ProgressDialog::updateLabels()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="af75c3291d2231247c7974b9702615fc5" name="af75c3291d2231247c7974b9702615fc5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af75c3291d2231247c7974b9702615fc5">&#9670;&nbsp;</a></span>interleave_</h2>
+<a id="a733ac04bc46614d2c925740006c13c6f" name="a733ac04bc46614d2c925740006c13c6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a733ac04bc46614d2c925740006c13c6f">&#9670;&nbsp;</a></span>progress_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -446,185 +336,17 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint64_t ProgressActionInterface::interleave_</td>
+          <td class="memname"><a class="el" href="classProgressCounter.html">ProgressCounter</a> ProgressActionInterface::progress_</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProgressActionInterface.html#a3ca5e030c5050cd9ff6b15d3df10b836">initialize()</a>, and <a class="el" href="classProgressActionInterface.html#aaf059132fed7a05d5d7d530c23ceb814">timedOut()</a>.</p>
-
-</div>
-</div>
-<a id="adde826ed676a10cec3bf1483a28ceae0" name="adde826ed676a10cec3bf1483a28ceae0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adde826ed676a10cec3bf1483a28ceae0">&#9670;&nbsp;</a></span>interleaveCounter_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint64_t ProgressActionInterface::interleaveCounter_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classProgressActionInterface.html#a3ca5e030c5050cd9ff6b15d3df10b836">initialize()</a>, and <a class="el" href="classProgressActionInterface.html#aaf059132fed7a05d5d7d530c23ceb814">timedOut()</a>.</p>
-
-</div>
-</div>
-<a id="a1cb0093145a8342bd2a2e3448626e74e" name="a1cb0093145a8342bd2a2e3448626e74e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1cb0093145a8342bd2a2e3448626e74e">&#9670;&nbsp;</a></span>nElements_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint64_t ProgressActionInterface::nElements_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classProgressActionInterface.html#a6d1b2a93fc5efc5e697ff15823608afe">increment()</a>, <a class="el" href="classProgressActionInterface.html#a3ca5e030c5050cd9ff6b15d3df10b836">initialize()</a>, and <a class="el" href="classProgressActionInterface.html#a2d13a4af410a2a42c91d3e79a7436702">percent()</a>.</p>
-
-</div>
-</div>
-<a id="ae4d1cabcec849a95669623cf52549800" name="ae4d1cabcec849a95669623cf52549800"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4d1cabcec849a95669623cf52549800">&#9670;&nbsp;</a></span>nElementsProcessed_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint64_t ProgressActionInterface::nElementsProcessed_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classProgressActionInterface.html#a6d1b2a93fc5efc5e697ff15823608afe">increment()</a>, <a class="el" href="classProgressActionInterface.html#a3ca5e030c5050cd9ff6b15d3df10b836">initialize()</a>, and <a class="el" href="classProgressActionInterface.html#a2d13a4af410a2a42c91d3e79a7436702">percent()</a>.</p>
-
-</div>
-</div>
-<a id="a5620bb28cc23825adfbc5888b8a9df81" name="a5620bb28cc23825adfbc5888b8a9df81"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5620bb28cc23825adfbc5888b8a9df81">&#9670;&nbsp;</a></span>npos</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const uint64_t ProgressActionInterface::npos = UINT64_MAX</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classDensityAction.html#a063d38716ce250a470019953ff775b2f">DensityAction::initialize()</a>, <a class="el" href="classDescriptorAction.html#a8010a3e18ffd7f7af50c1fa134f044d3">DescriptorAction::initialize()</a>, <a class="el" href="classExportFileAction.html#a2844382b4d9c17c2e50d16e005504ec1">ExportFileAction::initialize()</a>, and <a class="el" href="classProgressActionInterface.html#a2d13a4af410a2a42c91d3e79a7436702">percent()</a>.</p>
-
-</div>
-</div>
-<a id="ac3fdef5e1bef6496fc93c9f43208aa4b" name="ac3fdef5e1bef6496fc93c9f43208aa4b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3fdef5e1bef6496fc93c9f43208aa4b">&#9670;&nbsp;</a></span>secondsPerStep_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ProgressActionInterface::secondsPerStep_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classProgressActionInterface.html#a3ca5e030c5050cd9ff6b15d3df10b836">initialize()</a>, and <a class="el" href="classProgressActionInterface.html#aaf059132fed7a05d5d7d530c23ceb814">timedOut()</a>.</p>
-
-</div>
-</div>
-<a id="a43bed53440c58d0cdbfa4d2d08ca9d3f" name="a43bed53440c58d0cdbfa4d2d08ca9d3f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43bed53440c58d0cdbfa4d2d08ca9d3f">&#9670;&nbsp;</a></span>timeBegin_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ProgressActionInterface::timeBegin_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classProgressActionInterface.html#a3ca5e030c5050cd9ff6b15d3df10b836">initialize()</a>, <a class="el" href="classProgressActionInterface.html#a41b6bceceac9a2990a04cf78fdb8dab9">startTimer()</a>, and <a class="el" href="classProgressActionInterface.html#aaf059132fed7a05d5d7d530c23ceb814">timedOut()</a>.</p>
-
-</div>
-</div>
-<a id="aba9d0e143abec82b92283ca2f31a40e9" name="aba9d0e143abec82b92283ca2f31a40e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba9d0e143abec82b92283ca2f31a40e9">&#9670;&nbsp;</a></span>timeNow_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ProgressActionInterface::timeNow_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classProgressActionInterface.html#a3ca5e030c5050cd9ff6b15d3df10b836">initialize()</a>, and <a class="el" href="classProgressActionInterface.html#aaf059132fed7a05d5d7d530c23ceb814">timedOut()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classExportFileAction.html#a0bc7ea96952696d41ed8026a7e7cfb1f">ExportFileAction::determineMaximum()</a>, <a class="el" href="classExportFileAction.html#aec720abf9c3178a43378fe06afbd0bb3">ExportFileAction::initialize()</a>, <a class="el" href="classClassificationAction.html#a8adfeaa5290982d5ef6d045b07329504">ClassificationAction::next()</a>, <a class="el" href="classDescriptorAction.html#a7ac4e5cb6efc77747a6fd0dfaf61b67f">DescriptorAction::next()</a>, <a class="el" href="classElevationAction.html#ad9d487a9f89d2d4fd9e9481412afb8f0">ElevationAction::next()</a>, <a class="el" href="classExportFileAction.html#a27c48dc2b36564f0219731dd20ad9e66">ExportFileAction::next()</a>, <a class="el" href="classSegmentationAction.html#aa229e0c971057f3134c3b0f991a9e36d">SegmentationAction::next()</a>, <a class="el" href="classDescriptorAction.html#ad372070832238151b8e7c2de01859cf7">DescriptorAction::start()</a>, <a class="el" href="classClassificationAction.html#a55734dfa98fd6ec4c59a90c162f7e977">ClassificationAction::start()</a>, <a class="el" href="classElevationAction.html#a37c8e69b046a2cddbac8ce232bb31bea">ElevationAction::start()</a>, <a class="el" href="classSegmentationAction.html#a310de1d04ca982b78bc4a6b350fe8625">SegmentationAction::start()</a>, <a class="el" href="classClassificationAction.html#ae72a58147a996ee7d02b826a49f56a3b">ClassificationAction::stepClassifyGround()</a>, <a class="el" href="classDescriptorAction.html#aaa768f307b186b6699978e762a8f0194">DescriptorAction::stepCompute()</a>, <a class="el" href="classElevationAction.html#adc1b01519ea952912bddff96eee78112">ElevationAction::stepComputeElevation()</a>, <a class="el" href="classSegmentationAction.html#aed4ed646d125127b091e60b7f39013ea">SegmentationAction::stepConnectVoxels()</a>, <a class="el" href="classClassificationAction.html#a4ae6dd0d66c0c3cad0d717f9b2dbf3f4">ClassificationAction::stepCountPoints()</a>, <a class="el" href="classDescriptorAction.html#aa201ca9465ce5490cae6ef38b61fb454">DescriptorAction::stepCountPoints()</a>, <a class="el" href="classElevationAction.html#ade6f0d2e6f414e261246ccdc4d5bc2aa">ElevationAction::stepCountPoints()</a>, <a class="el" href="classSegmentationAction.html#ad19b55181bba26e4d9f210853ce1f58a">SegmentationAction::stepCountPoints()</a>, <a class="el" href="classElevationAction.html#a445f63904dce0bdd58cced7e4fed1554">ElevationAction::stepCreateGround()</a>, <a class="el" href="classElevationAction.html#a6206cb8b589c03d32340f42409490bfa">ElevationAction::stepCreateIndex()</a>, <a class="el" href="classSegmentationAction.html#a0abc61fbeeaaf90bf869eb886c3c8072">SegmentationAction::stepCreateLayers()</a>, <a class="el" href="classSegmentationAction.html#a10a1c0bf94e79434242b66f1f76e2b56">SegmentationAction::stepCreateTrees()</a>, <a class="el" href="classClassificationAction.html#a7d848d6db547955da878cd81810dbc38">ClassificationAction::stepCreateVoxelIndex()</a>, <a class="el" href="classSegmentationAction.html#ab626051f2a7c068232b5b472412e7a31">SegmentationAction::stepCreateVoxelIndex()</a>, <a class="el" href="classDescriptorAction.html#a3ba91d465df942d22562e2004a351019">DescriptorAction::stepNormalize()</a>, <a class="el" href="classClassificationAction.html#a8960aea38988774c0e91dc6431eb2458">ClassificationAction::stepPointsToVoxels()</a>, <a class="el" href="classSegmentationAction.html#adb0af588ff073f8978c4f4971e8b06da">SegmentationAction::stepPointsToVoxels()</a>, <a class="el" href="classClassificationAction.html#aad2dd3d802961673743c11906225032a">ClassificationAction::stepResetPoints()</a>, <a class="el" href="classDescriptorAction.html#a06ce06afe3c6084cdb2bc4d06e1a0aca">DescriptorAction::stepResetPoints()</a>, <a class="el" href="classElevationAction.html#ac038b56d6c7a7fd71a4f633848e2521f">ElevationAction::stepResetPoints()</a>, <a class="el" href="classSegmentationAction.html#aad16a48d1eb4486af004c102472c3296">SegmentationAction::stepResetPoints()</a>, <a class="el" href="classClassificationAction.html#ae6a260e465fa91a3a4a907d2cd135540">ClassificationAction::stepVoxelsToPoints()</a>, and <a class="el" href="classSegmentationAction.html#a7ea3e051af8c09c9846f25c0ccd1cca8">SegmentationAction::stepVoxelsToPoints()</a>.</p>
 
 </div>
 </div>

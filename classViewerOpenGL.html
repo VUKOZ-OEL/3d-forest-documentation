@@ -80,14 +80,16 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ae4904079bdd2f426651917afceb421fd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewerOpenGL.html#ae4904079bdd2f426651917afceb421fd">render</a> (<a class="el" href="classViewerOpenGL.html#a26c789d6cfce5d040bb1a7c91e3cfc11">Mode</a> mode, const std::vector&lt; float &gt; &amp;xyz, const std::vector&lt; float &gt; &amp;rgb)</td></tr>
-<tr class="separator:ae4904079bdd2f426651917afceb421fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a716931492905ab22379c31c2aebc6274"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewerOpenGL.html#a716931492905ab22379c31c2aebc6274">render</a> (<a class="el" href="classViewerOpenGL.html#a26c789d6cfce5d040bb1a7c91e3cfc11">Mode</a> mode, const std::vector&lt; float &gt; &amp;xyz, const std::vector&lt; float &gt; &amp;rgb, const std::vector&lt; unsigned int &gt; &amp;indices, size_t count)</td></tr>
-<tr class="separator:a716931492905ab22379c31c2aebc6274"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a603a59debe30f5aca657d6ea37035700"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewerOpenGL.html#a603a59debe30f5aca657d6ea37035700">render</a> (<a class="el" href="classViewerOpenGL.html#a26c789d6cfce5d040bb1a7c91e3cfc11">Mode</a> mode, const float *xyz, size_t xyzSize, const float *rgb, size_t rgbSize)</td></tr>
+<tr class="separator:a603a59debe30f5aca657d6ea37035700"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35f776bb63d1c68ea28861297cfe7ac3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewerOpenGL.html#a35f776bb63d1c68ea28861297cfe7ac3">render</a> (<a class="el" href="classViewerOpenGL.html#a26c789d6cfce5d040bb1a7c91e3cfc11">Mode</a> mode, const float *xyz, size_t xyzSize, const float *rgb, size_t rgbSize, const unsigned int *indices, size_t indicesSize)</td></tr>
+<tr class="separator:a35f776bb63d1c68ea28861297cfe7ac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a829b53343028954b0c12516734b37a10"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewerOpenGL.html#a829b53343028954b0c12516734b37a10">renderClipFilter</a> (const <a class="el" href="classRegion.html">Region</a> &amp;clipFilter)</td></tr>
 <tr class="separator:a829b53343028954b0c12516734b37a10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abeffb96c002b72eeb537c71e80ed18ad"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewerOpenGL.html#abeffb96c002b72eeb537c71e80ed18ad">renderAabb</a> (const <a class="el" href="classViewerAabb.html">ViewerAabb</a> &amp;box)</td></tr>
 <tr class="separator:abeffb96c002b72eeb537c71e80ed18ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeba57d53bdc1efd909dfd98b4dea5946"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewerOpenGL.html#aeba57d53bdc1efd909dfd98b4dea5946">renderCylinder</a> (const <a class="el" href="classVector3.html">Vector3</a>&lt; float &gt; &amp;a, const <a class="el" href="classVector3.html">Vector3</a>&lt; float &gt; &amp;b, float radius, size_t slices=16)</td></tr>
+<tr class="separator:aeba57d53bdc1efd909dfd98b4dea5946"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51ab68257bbb7d6b5741934d3ff558c2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classViewerOpenGL.html#a51ab68257bbb7d6b5741934d3ff558c2">renderAxis</a> ()</td></tr>
 <tr class="separator:a51ab68257bbb7d6b5741934d3ff558c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -147,8 +149,8 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ae4904079bdd2f426651917afceb421fd" name="ae4904079bdd2f426651917afceb421fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4904079bdd2f426651917afceb421fd">&#9670;&nbsp;</a></span>render() <span class="overload">[1/2]</span></h2>
+<a id="a603a59debe30f5aca657d6ea37035700" name="a603a59debe30f5aca657d6ea37035700"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a603a59debe30f5aca657d6ea37035700">&#9670;&nbsp;</a></span>render() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -165,14 +167,26 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; float &gt; &amp;&#160;</td>
+          <td class="paramtype">const float *&#160;</td>
           <td class="paramname"><em>xyz</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; float &gt; &amp;&#160;</td>
-          <td class="paramname"><em>rgb</em>&#160;</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>xyzSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *&#160;</td>
+          <td class="paramname"><em>rgb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>rgbSize</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -187,12 +201,12 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classViewerOpenGLViewport.html#aec1af5c48baebb85b27a63b3a857342a">ViewerOpenGLViewport::renderScene()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classViewerOpenGLViewport.html#a2ccb7af0c85d6da49a3e8a028a457c22">ViewerOpenGLViewport::renderLayers()</a>, and <a class="el" href="classViewerOpenGLViewport.html#aec1af5c48baebb85b27a63b3a857342a">ViewerOpenGLViewport::renderScene()</a>.</p>
 
 </div>
 </div>
-<a id="a716931492905ab22379c31c2aebc6274" name="a716931492905ab22379c31c2aebc6274"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a716931492905ab22379c31c2aebc6274">&#9670;&nbsp;</a></span>render() <span class="overload">[2/2]</span></h2>
+<a id="a35f776bb63d1c68ea28861297cfe7ac3" name="a35f776bb63d1c68ea28861297cfe7ac3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35f776bb63d1c68ea28861297cfe7ac3">&#9670;&nbsp;</a></span>render() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -209,26 +223,38 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; float &gt; &amp;&#160;</td>
+          <td class="paramtype">const float *&#160;</td>
           <td class="paramname"><em>xyz</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; float &gt; &amp;&#160;</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>xyzSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *&#160;</td>
           <td class="paramname"><em>rgb</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; unsigned int &gt; &amp;&#160;</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>rgbSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const unsigned int *&#160;</td>
           <td class="paramname"><em>indices</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>count</em>&#160;</td>
+          <td class="paramname"><em>indicesSize</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -325,6 +351,56 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">Referenced by <a class="el" href="classViewerOpenGLViewport.html#ab2739814d22d354baee24497cf8ab509">ViewerOpenGLViewport::renderFirstFrame()</a>.</p>
+
+</div>
+</div>
+<a id="aeba57d53bdc1efd909dfd98b4dea5946" name="aeba57d53bdc1efd909dfd98b4dea5946"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeba57d53bdc1efd909dfd98b4dea5946">&#9670;&nbsp;</a></span>renderCylinder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ViewerOpenGL::renderCylinder </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classVector3.html">Vector3</a>&lt; float &gt; &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classVector3.html">Vector3</a>&lt; float &gt; &amp;&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>radius</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>slices</em> = <code>16</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classViewerOpenGL.html#a829b53343028954b0c12516734b37a10">renderClipFilter()</a>.</p>
 
 </div>
 </div>

@@ -7,9 +7,10 @@ var classViewerOpenGL =
     ] ],
     [ "ViewerOpenGL", "classViewerOpenGL.html#a61c78f40aa6ff5c9aa3c616a6aa15d69", null ],
     [ "~ViewerOpenGL", "classViewerOpenGL.html#a74529b329db5c06ecdf77dda6987b793", null ],
-    [ "render", "classViewerOpenGL.html#ae4904079bdd2f426651917afceb421fd", null ],
-    [ "render", "classViewerOpenGL.html#a716931492905ab22379c31c2aebc6274", null ],
+    [ "render", "classViewerOpenGL.html#a603a59debe30f5aca657d6ea37035700", null ],
+    [ "render", "classViewerOpenGL.html#a35f776bb63d1c68ea28861297cfe7ac3", null ],
     [ "renderAabb", "classViewerOpenGL.html#abeffb96c002b72eeb537c71e80ed18ad", null ],
     [ "renderAxis", "classViewerOpenGL.html#a51ab68257bbb7d6b5741934d3ff558c2", null ],
-    [ "renderClipFilter", "classViewerOpenGL.html#a829b53343028954b0c12516734b37a10", null ]
+    [ "renderClipFilter", "classViewerOpenGL.html#a829b53343028954b0c12516734b37a10", null ],
+    [ "renderCylinder", "classViewerOpenGL.html#aeba57d53bdc1efd909dfd98b4dea5946", null ]
 ];

@@ -66,10 +66,12 @@ $(document).ready(function(){initNavTree('classQueryFilterSet.html',''); initRes
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a9fee5cf10b55955842c0d22b7f7bece9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQueryFilterSet.html#a9fee5cf10b55955842c0d22b7f7bece9">QueryFilterSet</a> ()</td></tr>
 <tr class="separator:a9fee5cf10b55955842c0d22b7f7bece9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefc3a4e5e6ba5f0b670eb971de21bd86"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQueryFilterSet.html#aefc3a4e5e6ba5f0b670eb971de21bd86">QueryFilterSet</a> (const std::unordered_set&lt; size_t &gt; &amp;list)</td></tr>
-<tr class="separator:aefc3a4e5e6ba5f0b670eb971de21bd86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b5061106df2752b8bc09d938fe59751"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQueryFilterSet.html#a3b5061106df2752b8bc09d938fe59751">QueryFilterSet</a> (const std::unordered_set&lt; size_t &gt; &amp;list, bool enabled=true)</td></tr>
+<tr class="separator:a3b5061106df2752b8bc09d938fe59751"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3dd0f475dd34001f45ce9d92ab321e52"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQueryFilterSet.html#a3dd0f475dd34001f45ce9d92ab321e52">~QueryFilterSet</a> ()</td></tr>
 <tr class="separator:a3dd0f475dd34001f45ce9d92ab321e52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe8b8bdb56611167e060b3919a31601c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQueryFilterSet.html#afe8b8bdb56611167e060b3919a31601c">clear</a> ()</td></tr>
+<tr class="separator:afe8b8bdb56611167e060b3919a31601c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3b97a8993053b7678e7680360b11b3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQueryFilterSet.html#af3b97a8993053b7678e7680360b11b3e">setFilterEnabled</a> (bool enabled)</td></tr>
 <tr class="separator:af3b97a8993053b7678e7680360b11b3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add498de7d377a33b9306b5a95bf1d96a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classQueryFilterSet.html#add498de7d377a33b9306b5a95bf1d96a">isFilterEnabled</a> () const</td></tr>
@@ -122,8 +124,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aefc3a4e5e6ba5f0b670eb971de21bd86" name="aefc3a4e5e6ba5f0b670eb971de21bd86"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aefc3a4e5e6ba5f0b670eb971de21bd86">&#9670;&nbsp;</a></span>QueryFilterSet() <span class="overload">[2/2]</span></h2>
+<a id="a3b5061106df2752b8bc09d938fe59751" name="a3b5061106df2752b8bc09d938fe59751"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b5061106df2752b8bc09d938fe59751">&#9670;&nbsp;</a></span>QueryFilterSet() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -132,8 +134,18 @@ Private Attributes</h2></td></tr>
           <td class="memname">QueryFilterSet::QueryFilterSet </td>
           <td>(</td>
           <td class="paramtype">const std::unordered_set&lt; size_t &gt; &amp;&#160;</td>
-          <td class="paramname"><em>list</em></td><td>)</td>
+          <td class="paramname"><em>list</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enabled</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -172,6 +184,25 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="afe8b8bdb56611167e060b3919a31601c" name="afe8b8bdb56611167e060b3919a31601c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe8b8bdb56611167e060b3919a31601c">&#9670;&nbsp;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void QueryFilterSet::clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classEditor.html#aa7dc8544e104c680c9d2515f442a136b">Editor::close()</a>, and <a class="el" href="classSegmentationAction.html#aad16a48d1eb4486af004c102472c3296">SegmentationAction::stepResetPoints()</a>.</p>
 
 </div>
 </div>
@@ -219,7 +250,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorItemFiles.html#a1061b39822de2afdb9ac59e2119a2276">ProjectNavigatorItemFiles::slotDelete()</a>, and <a class="el" href="classProjectNavigatorItemLayers.html#aab48e095e342672a86d443e78a9e2d65">ProjectNavigatorItemLayers::slotDelete()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classExplorerFilesWidget.html#a6a2a7643dfe3f0bebef362a02226b894">ExplorerFilesWidget::slotDelete()</a>, and <a class="el" href="classExplorerLayersWidget.html#a52c28807a8dfedb5596ded7424bfdd75">ExplorerLayersWidget::slotDelete()</a>.</p>
 
 </div>
 </div>
@@ -274,7 +305,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorItemClassifications.html#af983cda231278b03e009ad2a25667a0d">ProjectNavigatorItemClassifications::addTreeItem()</a>, <a class="el" href="classProjectNavigatorItemFiles.html#a36bfad11f6815b534d0d589d5378ff76">ProjectNavigatorItemFiles::addTreeItem()</a>, <a class="el" href="classProjectNavigatorItemLayers.html#a7e2a98e7672e2741b5084fc6258b6429">ProjectNavigatorItemLayers::addTreeItem()</a>, <a class="el" href="classProjectNavigatorItemClassifications.html#a780f311ec10b6d250cf7c3ca3bcd5cbd">ProjectNavigatorItemClassifications::updateTree()</a>, <a class="el" href="classProjectNavigatorItemFiles.html#a5a378b1442c8caf5fd1e55684292790a">ProjectNavigatorItemFiles::updateTree()</a>, and <a class="el" href="classProjectNavigatorItemLayers.html#a51389fc676460337aaa3b0d0c418a152">ProjectNavigatorItemLayers::updateTree()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classExplorerClassificationsWidget.html#a7fe76f8f7e8652cb15e11156d9581fcd">ExplorerClassificationsWidget::addTreeItem()</a>, <a class="el" href="classExplorerFilesWidget.html#ab331321838a5b3d7b5ad972342623c02">ExplorerFilesWidget::addTreeItem()</a>, <a class="el" href="classExplorerLayersWidget.html#a680404ed1ca571beee2e23bebd1e3f81">ExplorerLayersWidget::addTreeItem()</a>, <a class="el" href="classExplorerClassificationsWidget.html#ab49f4f3777c84fe3a7c1da48b4e53340">ExplorerClassificationsWidget::updateTree()</a>, <a class="el" href="classExplorerFilesWidget.html#a5d23d1c74aa90946bf3615de6866a3d0">ExplorerFilesWidget::updateTree()</a>, and <a class="el" href="classExplorerLayersWidget.html#abdf443dbf9cf0edae07713b81104671f">ExplorerLayersWidget::updateTree()</a>.</p>
 
 </div>
 </div>
@@ -318,7 +349,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorItemClassifications.html#aba3d8b5d3b3c4dd188928c5d5db6a98b">ProjectNavigatorItemClassifications::isFilterEnabled()</a>, <a class="el" href="classProjectNavigatorItemFiles.html#a44d93f0d3030a5511c9fefea069b0551">ProjectNavigatorItemFiles::isFilterEnabled()</a>, <a class="el" href="classProjectNavigatorItemLayers.html#a65c6e03038baa5e2fb710065c9eea378">ProjectNavigatorItemLayers::isFilterEnabled()</a>, <a class="el" href="classPage.html#a9ca223ce3835a777e28af00ec88e9b65">Page::queryWhereClassification()</a>, and <a class="el" href="classPage.html#a43160dd6b5d659dba29b850143899154">Page::queryWhereLayer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classExplorerClassificationsWidget.html#afd9edb7ffd32fca494411465156da871">ExplorerClassificationsWidget::dataChanged()</a>, <a class="el" href="classExplorerFilesWidget.html#a086858d1012fcb51c3389433dbbec575">ExplorerFilesWidget::dataChanged()</a>, <a class="el" href="classExplorerLayersWidget.html#a13e7afe9fe977425cb8725ca3f2d353d">ExplorerLayersWidget::dataChanged()</a>, <a class="el" href="classExplorerClassificationsWidget.html#ac4184be9c2e3c1d788a6d19bac600bc7">ExplorerClassificationsWidget::filterChanged()</a>, <a class="el" href="classExplorerFilesWidget.html#aee87ea3811e2e08df1c16c1f07ae4c86">ExplorerFilesWidget::filterChanged()</a>, <a class="el" href="classExplorerLayersWidget.html#ab3911e8ee0c701a792ea67271a8a3535">ExplorerLayersWidget::filterChanged()</a>, <a class="el" href="classExplorerClassificationsWidget.html#a30303131ee2d690e08c892b26e9247c2">ExplorerClassificationsWidget::isFilterEnabled()</a>, <a class="el" href="classExplorerFilesWidget.html#a74f9fe7de178b5565f264f1fcbefef25">ExplorerFilesWidget::isFilterEnabled()</a>, <a class="el" href="classExplorerLayersWidget.html#a7a8a1a3aedfa63da9feb993756f01af8">ExplorerLayersWidget::isFilterEnabled()</a>, <a class="el" href="classPage.html#a9ca223ce3835a777e28af00ec88e9b65">Page::queryWhereClassification()</a>, and <a class="el" href="classPage.html#a43160dd6b5d659dba29b850143899154">Page::queryWhereLayer()</a>.</p>
 
 </div>
 </div>
@@ -355,7 +386,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classQueryWhere.html#aa1d4c6d1979d839fa9476f17faabad75">QueryWhere::setClassification()</a>, <a class="el" href="classQueryWhere.html#a5af492cf0ce2a46ccaa063239d9f4ac0">QueryWhere::setDataset()</a>, <a class="el" href="classQueryWhere.html#a60509f75c7601dff0133a49ec075d1cc">QueryWhere::setLayer()</a>, <a class="el" href="classProjectNavigatorItemClassifications.html#aee346807ab3587ee0ead3b70a3093cf5">ProjectNavigatorItemClassifications::slotItemChanged()</a>, <a class="el" href="classProjectNavigatorItemFiles.html#a6e46b19fdf3c8863bb99618926132034">ProjectNavigatorItemFiles::slotItemChanged()</a>, and <a class="el" href="classProjectNavigatorItemLayers.html#a5b261c1a9db279773adc92be225b4bff">ProjectNavigatorItemLayers::slotItemChanged()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classEditor.html#aa7dc8544e104c680c9d2515f442a136b">Editor::close()</a>, <a class="el" href="classDatasets.html#a6e32fd500cf9e6708f305c54fae1bbdc">Datasets::read()</a>, <a class="el" href="classQueryWhere.html#aa1d4c6d1979d839fa9476f17faabad75">QueryWhere::setClassification()</a>, <a class="el" href="classQueryWhere.html#a5af492cf0ce2a46ccaa063239d9f4ac0">QueryWhere::setDataset()</a>, <a class="el" href="classQueryWhere.html#a60509f75c7601dff0133a49ec075d1cc">QueryWhere::setLayer()</a>, <a class="el" href="classExplorerClassificationsWidget.html#a8096de5666ef489b09f8eaff6f3bb5a6">ExplorerClassificationsWidget::slotItemChanged()</a>, <a class="el" href="classExplorerFilesWidget.html#a552fe905dab8dd8c669c5732a38e1aad">ExplorerFilesWidget::slotItemChanged()</a>, <a class="el" href="classExplorerLayersWidget.html#a1c174c84459c1a49f2959792f4236ac2">ExplorerLayersWidget::slotItemChanged()</a>, <a class="el" href="classSegmentationAction.html#a0abc61fbeeaaf90bf869eb886c3c8072">SegmentationAction::stepCreateLayers()</a>, and <a class="el" href="classSegmentationAction.html#aad16a48d1eb4486af004c102472c3296">SegmentationAction::stepResetPoints()</a>.</p>
 
 </div>
 </div>
@@ -411,7 +442,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorItemClassifications.html#acf073c5f3e593ef9e6871401eff7ce8b">ProjectNavigatorItemClassifications::setFilterEnabled()</a>, <a class="el" href="classProjectNavigatorItemFiles.html#a6db8576a4d6200d2bc2c87461a347171">ProjectNavigatorItemFiles::setFilterEnabled()</a>, and <a class="el" href="classProjectNavigatorItemLayers.html#ae87ab6b10365cb2cb07a31968ed3ca8f">ProjectNavigatorItemLayers::setFilterEnabled()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classEditor.html#aa7dc8544e104c680c9d2515f442a136b">Editor::close()</a>, <a class="el" href="classExplorerClassificationsWidget.html#a3faf43bd5a95b848318df8ec3c87ae7e">ExplorerClassificationsWidget::setFilterEnabled()</a>, <a class="el" href="classExplorerFilesWidget.html#a8004bd045634d9c268539245ed20c45e">ExplorerFilesWidget::setFilterEnabled()</a>, <a class="el" href="classExplorerLayersWidget.html#a97a15a97badea18f1a989ec2548cda40">ExplorerLayersWidget::setFilterEnabled()</a>, <a class="el" href="classSegmentationAction.html#a0abc61fbeeaaf90bf869eb886c3c8072">SegmentationAction::stepCreateLayers()</a>, and <a class="el" href="classSegmentationAction.html#aad16a48d1eb4486af004c102472c3296">SegmentationAction::stepResetPoints()</a>.</p>
 
 </div>
 </div>
@@ -454,6 +485,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p class="reference">Referenced by <a class="el" href="classQueryFilterSet.html#afe8b8bdb56611167e060b3919a31601c">clear()</a>.</p>
+
 </div>
 </div>
 <a id="ad8b7804ca560a2a606d6714b23b34e5f" name="ad8b7804ca560a2a606d6714b23b34e5f"></a>
@@ -476,7 +509,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classQueryFilterSet.html#a38071d44a5e2e6d2a0e9200b52f32065">all()</a>, <a class="el" href="classQueryFilterSet.html#ab2887d84f42f52925c5e151813c72dab">erase()</a>, <a class="el" href="classQueryFilterSet.html#a0ba1fe26fa1b324a092ec78692f7e04a">invert()</a>, <a class="el" href="classQueryFilterSet.html#a92e99695da3c6e8ecb232d0472bd6ce5">none()</a>, <a class="el" href="classQueryFilterSet.html#aff580718ed4da2c84895d9c13d7b567c">setFilter()</a>, and <a class="el" href="classQueryFilterSet.html#a3ab0183b33985e574cc61698838b2109">setValues()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classQueryFilterSet.html#a38071d44a5e2e6d2a0e9200b52f32065">all()</a>, <a class="el" href="classQueryFilterSet.html#afe8b8bdb56611167e060b3919a31601c">clear()</a>, <a class="el" href="classQueryFilterSet.html#ab2887d84f42f52925c5e151813c72dab">erase()</a>, <a class="el" href="classQueryFilterSet.html#a0ba1fe26fa1b324a092ec78692f7e04a">invert()</a>, <a class="el" href="classQueryFilterSet.html#a92e99695da3c6e8ecb232d0472bd6ce5">none()</a>, <a class="el" href="classQueryFilterSet.html#aff580718ed4da2c84895d9c13d7b567c">setFilter()</a>, and <a class="el" href="classQueryFilterSet.html#a3ab0183b33985e574cc61698838b2109">setValues()</a>.</p>
 
 </div>
 </div>
@@ -500,7 +533,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classQueryFilterSet.html#a38071d44a5e2e6d2a0e9200b52f32065">all()</a>, <a class="el" href="classQueryFilterSet.html#ab2887d84f42f52925c5e151813c72dab">erase()</a>, <a class="el" href="classQueryFilterSet.html#a0ba1fe26fa1b324a092ec78692f7e04a">invert()</a>, <a class="el" href="classQueryFilterSet.html#a0fd33218c86a8e0e5508d81a376b08bb">setFilter()</a>, and <a class="el" href="classQueryFilterSet.html#a3ab0183b33985e574cc61698838b2109">setValues()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classQueryFilterSet.html#a38071d44a5e2e6d2a0e9200b52f32065">all()</a>, <a class="el" href="classQueryFilterSet.html#afe8b8bdb56611167e060b3919a31601c">clear()</a>, <a class="el" href="classQueryFilterSet.html#ab2887d84f42f52925c5e151813c72dab">erase()</a>, <a class="el" href="classQueryFilterSet.html#a0ba1fe26fa1b324a092ec78692f7e04a">invert()</a>, <a class="el" href="classQueryFilterSet.html#a0fd33218c86a8e0e5508d81a376b08bb">setFilter()</a>, and <a class="el" href="classQueryFilterSet.html#a3ab0183b33985e574cc61698838b2109">setValues()</a>.</p>
 
 </div>
 </div>

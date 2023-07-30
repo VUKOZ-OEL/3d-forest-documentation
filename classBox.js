@@ -10,6 +10,7 @@ var classBox =
     [ "distance", "classBox.html#acc15a91b404afab65d303c2edf06fcbf", null ],
     [ "empty", "classBox.html#ac4e37635274d9b1cd02f6123f8f5ea48", null ],
     [ "extend", "classBox.html#a680f99a69c722e52c2a164c386663a9d", null ],
+    [ "extend", "classBox.html#a28d382fc1b828051bb3a5594b6ca635e", null ],
     [ "getCenter", "classBox.html#adcb98c9e925ce4994fa5d7cd2f3d1029", null ],
     [ "getCenter", "classBox.html#a83b04d8425401f4babfc4b52c976fa2a", null ],
     [ "intersects", "classBox.html#a1343d6d8e0ffe6d9f2b6238a930f9b78", null ],

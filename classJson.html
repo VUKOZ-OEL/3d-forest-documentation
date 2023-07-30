@@ -56,9 +56,9 @@ $(document).ready(function(){initNavTree('classJson.html',''); initResizable(); 
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="#pro-types">Protected Types</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-types">Private Types</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classJson-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Json Class Reference</div></div>
 </div><!--header-->
@@ -165,8 +165,8 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a48ac862031042e92051859730ab4592b"><td class="memItemLeft" align="right" valign="top">static const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJson.html#a48ac862031042e92051859730ab4592b">DEFAULT_INDENT</a> = 2</td></tr>
 <tr class="separator:a48ac862031042e92051859730ab4592b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-types" name="pro-types"></a>
-Protected Types</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-types" name="pri-types"></a>
+Private Types</h2></td></tr>
 <tr class="memitem:a3665a31dbcc7a05d65f9f6b4c191c4a7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJson.html#a3665a31dbcc7a05d65f9f6b4c191c4a7">Type</a> { <br />
 &#160;&#160;<a class="el" href="classJson.html#a3665a31dbcc7a05d65f9f6b4c191c4a7aa7c683ca371a44025a96a8450d458cbe">TYPE_OBJECT</a>
 , <a class="el" href="classJson.html#a3665a31dbcc7a05d65f9f6b4c191c4a7a93ea194970fbe829b31e78a89e3271b8">TYPE_ARRAY</a>
@@ -180,8 +180,8 @@ Protected Types</h2></td></tr>
  }</td></tr>
 <tr class="separator:a3665a31dbcc7a05d65f9f6b4c191c4a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
 <tr class="memitem:a639c088152edf4d655c8cd93caae818c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJson.html#a639c088152edf4d655c8cd93caae818c">createObject</a> ()</td></tr>
 <tr class="separator:a639c088152edf4d655c8cd93caae818c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e94f2604aacda68aefc26436bf6d4d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJson.html#a6e94f2604aacda68aefc26436bf6d4d8">createArray</a> ()</td></tr>
@@ -201,8 +201,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:ada4b1d862a5bf9415a8cc3c247d1d08a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJson.html#ada4b1d862a5bf9415a8cc3c247d1d08a">deserialize</a> (<a class="el" href="classJson.html">Json</a> &amp;obj, const char *in, size_t n, size_t &amp;i)</td></tr>
 <tr class="separator:ada4b1d862a5bf9415a8cc3c247d1d08a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
 <tr class="memitem:a4ead692502b26f4e74df18aabe2f6ca8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classJson.html#a3665a31dbcc7a05d65f9f6b4c191c4a7">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJson.html#a4ead692502b26f4e74df18aabe2f6ca8">type_</a></td></tr>
 <tr class="separator:a4ead692502b26f4e74df18aabe2f6ca8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb83b9da8f24af3c913ea2bf63f0a69e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classJson_1_1Data.html">Data</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJson.html#aeb83b9da8f24af3c913ea2bf63f0a69e">data_</a></td></tr>
@@ -213,16 +213,16 @@ Protected Attributes</h2></td></tr>
 <div class="line">obj.<a class="code hl_function" href="classJson.html#af57f6c5aa6394be02c74cca4b5274427">deserialize</a>(<span class="stringliteral">&quot;{\&quot;a\&quot;:5}&quot;</span>);</div>
 <div class="line">std::cout &lt;&lt; obj[<span class="stringliteral">&quot;a&quot;</span>].<a class="code hl_function" href="classJson.html#a9fcbb22214d9d0ad7faac54735f0ca24">isNumber</a>() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>; <span class="comment">// 1</span></div>
 <div class="line">std::cout &lt;&lt; obj[<span class="stringliteral">&quot;a&quot;</span>].<a class="code hl_function" href="classJson.html#acfda5fc1a094751c95064c5782c62f04">number</a>() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>; <span class="comment">// 5</span></div>
-<div class="ttc" id="aclassJson_html"><div class="ttname"><a href="classJson.html">Json</a></div><div class="ttdoc">JSON.</div><div class="ttdef"><b>Definition:</b> Json.hpp:88</div></div>
-<div class="ttc" id="aclassJson_html_a9fcbb22214d9d0ad7faac54735f0ca24"><div class="ttname"><a href="classJson.html#a9fcbb22214d9d0ad7faac54735f0ca24">Json::isNumber</a></div><div class="ttdeci">bool isNumber() const</div><div class="ttdef"><b>Definition:</b> Json.hpp:139</div></div>
-<div class="ttc" id="aclassJson_html_acfda5fc1a094751c95064c5782c62f04"><div class="ttname"><a href="classJson.html#acfda5fc1a094751c95064c5782c62f04">Json::number</a></div><div class="ttdeci">double number() const</div><div class="ttdef"><b>Definition:</b> Json.hpp:462</div></div>
-<div class="ttc" id="aclassJson_html_af57f6c5aa6394be02c74cca4b5274427"><div class="ttname"><a href="classJson.html#af57f6c5aa6394be02c74cca4b5274427">Json::deserialize</a></div><div class="ttdeci">void deserialize(const std::string &amp;in)</div><div class="ttdef"><b>Definition:</b> Json.cpp:71</div></div>
+<div class="ttc" id="aclassJson_html"><div class="ttname"><a href="classJson.html">Json</a></div><div class="ttdoc">JSON.</div><div class="ttdef"><b>Definition:</b> Json.hpp:90</div></div>
+<div class="ttc" id="aclassJson_html_a9fcbb22214d9d0ad7faac54735f0ca24"><div class="ttname"><a href="classJson.html#a9fcbb22214d9d0ad7faac54735f0ca24">Json::isNumber</a></div><div class="ttdeci">bool isNumber() const</div><div class="ttdef"><b>Definition:</b> Json.hpp:141</div></div>
+<div class="ttc" id="aclassJson_html_acfda5fc1a094751c95064c5782c62f04"><div class="ttname"><a href="classJson.html#acfda5fc1a094751c95064c5782c62f04">Json::number</a></div><div class="ttdeci">double number() const</div><div class="ttdef"><b>Definition:</b> Json.hpp:465</div></div>
+<div class="ttc" id="aclassJson_html_af57f6c5aa6394be02c74cca4b5274427"><div class="ttname"><a href="classJson.html#af57f6c5aa6394be02c74cca4b5274427">Json::deserialize</a></div><div class="ttdeci">void deserialize(const std::string &amp;in)</div><div class="ttdef"><b>Definition:</b> Json.cpp:74</div></div>
 </div><!-- fragment --> <pre class="fragment">example number:
 </pre> <div class="fragment"><div class="line"><a class="code hl_class" href="classJson.html">Json</a> obj;</div>
 <div class="line">obj[<span class="stringliteral">&quot;a&quot;</span>] = 5;</div>
 <div class="line">obj[<span class="stringliteral">&quot;b&quot;</span>] = 3.14;</div>
 <div class="line">std::cout &lt;&lt; obj.<a class="code hl_function" href="classJson.html#a00979f5dd22f93f1e92d4480e24e51f3">serialize</a>(0) &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>; <span class="comment">// {&quot;a&quot;:5,&quot;b&quot;:3.14}</span></div>
-<div class="ttc" id="aclassJson_html_a00979f5dd22f93f1e92d4480e24e51f3"><div class="ttname"><a href="classJson.html#a00979f5dd22f93f1e92d4480e24e51f3">Json::serialize</a></div><div class="ttdeci">std::string serialize(size_t indent=DEFAULT_INDENT) const</div><div class="ttdef"><b>Definition:</b> Json.cpp:49</div></div>
+<div class="ttc" id="aclassJson_html_a00979f5dd22f93f1e92d4480e24e51f3"><div class="ttname"><a href="classJson.html#a00979f5dd22f93f1e92d4480e24e51f3">Json::serialize</a></div><div class="ttdeci">std::string serialize(size_t indent=DEFAULT_INDENT) const</div><div class="ttdef"><b>Definition:</b> Json.cpp:52</div></div>
 </div><!-- fragment --> <pre class="fragment">example string:
 </pre> <div class="fragment"><div class="line"><a class="code hl_class" href="classJson.html">Json</a> obj;</div>
 <div class="line">obj[<span class="stringliteral">&quot;name&quot;</span>] = <span class="stringliteral">&quot;John&quot;</span>;</div>
@@ -230,8 +230,8 @@ Protected Attributes</h2></td></tr>
 <div class="line">std::cout &lt;&lt; obj[<span class="stringliteral">&quot;name&quot;</span>].<a class="code hl_function" href="classJson.html#ad40c52e2ddcd30956b2bdd6fd803dfa6">isString</a>() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>; <span class="comment">// 1</span></div>
 <div class="line">std::cout &lt;&lt; obj[<span class="stringliteral">&quot;name&quot;</span>].<a class="code hl_function" href="classJson.html#abd63c9b5f878692260849ec8bc7f42ef">string</a>() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>; <span class="comment">// John</span></div>
 <div class="line">std::cout &lt;&lt; obj.<a class="code hl_function" href="classJson.html#a00979f5dd22f93f1e92d4480e24e51f3">serialize</a>(0) &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>; <span class="comment">// {&quot;name&quot;:&quot;John&quot;}</span></div>
-<div class="ttc" id="aclassJson_html_abd63c9b5f878692260849ec8bc7f42ef"><div class="ttname"><a href="classJson.html#abd63c9b5f878692260849ec8bc7f42ef">Json::string</a></div><div class="ttdeci">const std::string &amp; string() const</div><div class="ttdef"><b>Definition:</b> Json.hpp:452</div></div>
-<div class="ttc" id="aclassJson_html_ad40c52e2ddcd30956b2bdd6fd803dfa6"><div class="ttname"><a href="classJson.html#ad40c52e2ddcd30956b2bdd6fd803dfa6">Json::isString</a></div><div class="ttdeci">bool isString() const</div><div class="ttdef"><b>Definition:</b> Json.hpp:138</div></div>
+<div class="ttc" id="aclassJson_html_abd63c9b5f878692260849ec8bc7f42ef"><div class="ttname"><a href="classJson.html#abd63c9b5f878692260849ec8bc7f42ef">Json::string</a></div><div class="ttdeci">const std::string &amp; string() const</div><div class="ttdef"><b>Definition:</b> Json.hpp:455</div></div>
+<div class="ttc" id="aclassJson_html_ad40c52e2ddcd30956b2bdd6fd803dfa6"><div class="ttname"><a href="classJson.html#ad40c52e2ddcd30956b2bdd6fd803dfa6">Json::isString</a></div><div class="ttdeci">bool isString() const</div><div class="ttdef"><b>Definition:</b> Json.hpp:140</div></div>
 </div><!-- fragment --> <pre class="fragment">example array:
 </pre> <div class="fragment"><div class="line"><a class="code hl_class" href="classJson.html">Json</a> obj;</div>
 <div class="line">obj[<span class="stringliteral">&quot;dim&quot;</span>][0] = 10;</div>
@@ -252,10 +252,10 @@ Protected Attributes</h2></td></tr>
 <div class="line">std::cout &lt;&lt; area &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>; <span class="comment">// 200</span></div>
 <div class="line"> </div>
 <div class="line">std::cout &lt;&lt; obj.<a class="code hl_function" href="classJson.html#a00979f5dd22f93f1e92d4480e24e51f3">serialize</a>(0) &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>; <span class="comment">// {&quot;dim&quot;:[10,20],&quot;scale&quot;:[1,2,3]}</span></div>
-<div class="ttc" id="aclassJson_html_a2294b996718e1291220c72325e4a63c2"><div class="ttname"><a href="classJson.html#a2294b996718e1291220c72325e4a63c2">Json::array</a></div><div class="ttdeci">const std::vector&lt; Json &gt; &amp; array() const</div><div class="ttdef"><b>Definition:</b> Json.hpp:442</div></div>
-<div class="ttc" id="aclassJson_html_a4dec6df6f507190d2ca99187b8337722"><div class="ttname"><a href="classJson.html#a4dec6df6f507190d2ca99187b8337722">Json::isObject</a></div><div class="ttdeci">bool isObject() const</div><div class="ttdef"><b>Definition:</b> Json.hpp:136</div></div>
-<div class="ttc" id="aclassJson_html_ae6eba8b3f5db17b0f67d3b04fbcef25e"><div class="ttname"><a href="classJson.html#ae6eba8b3f5db17b0f67d3b04fbcef25e">Json::size</a></div><div class="ttdeci">size_t size() const</div><div class="ttdef"><b>Definition:</b> Json.hpp:392</div></div>
-<div class="ttc" id="aclassJson_html_af8111b572eb56928cc5b075834dfa4fa"><div class="ttname"><a href="classJson.html#af8111b572eb56928cc5b075834dfa4fa">Json::isArray</a></div><div class="ttdeci">bool isArray() const</div><div class="ttdef"><b>Definition:</b> Json.hpp:137</div></div>
+<div class="ttc" id="aclassJson_html_a2294b996718e1291220c72325e4a63c2"><div class="ttname"><a href="classJson.html#a2294b996718e1291220c72325e4a63c2">Json::array</a></div><div class="ttdeci">const std::vector&lt; Json &gt; &amp; array() const</div><div class="ttdef"><b>Definition:</b> Json.hpp:445</div></div>
+<div class="ttc" id="aclassJson_html_a4dec6df6f507190d2ca99187b8337722"><div class="ttname"><a href="classJson.html#a4dec6df6f507190d2ca99187b8337722">Json::isObject</a></div><div class="ttdeci">bool isObject() const</div><div class="ttdef"><b>Definition:</b> Json.hpp:138</div></div>
+<div class="ttc" id="aclassJson_html_ae6eba8b3f5db17b0f67d3b04fbcef25e"><div class="ttname"><a href="classJson.html#ae6eba8b3f5db17b0f67d3b04fbcef25e">Json::size</a></div><div class="ttdeci">size_t size() const</div><div class="ttdef"><b>Definition:</b> Json.hpp:395</div></div>
+<div class="ttc" id="aclassJson_html_af8111b572eb56928cc5b075834dfa4fa"><div class="ttname"><a href="classJson.html#af8111b572eb56928cc5b075834dfa4fa">Json::isArray</a></div><div class="ttdeci">bool isArray() const</div><div class="ttdef"><b>Definition:</b> Json.hpp:139</div></div>
 </div><!-- fragment --> </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a3665a31dbcc7a05d65f9f6b4c191c4a7" name="a3665a31dbcc7a05d65f9f6b4c191c4a7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3665a31dbcc7a05d65f9f6b4c191c4a7">&#9670;&nbsp;</a></span>Type</h2>
@@ -272,7 +272,7 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -653,7 +653,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classClassifications.html#ae23f053637c829d2aaca68aa93d310ca">Classifications::read()</a>, <a class="el" href="classLayers.html#a50d78ecf2fa57b0713a71b3d15844ea6">Layers::read()</a>, and <a class="el" href="classDatasets.html#a666d39780e5dcb5e7aa6ce8af01438e2">Datasets::read()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classClassifications.html#ae23f053637c829d2aaca68aa93d310ca">Classifications::read()</a>, <a class="el" href="classLayers.html#a50d78ecf2fa57b0713a71b3d15844ea6">Layers::read()</a>, and <a class="el" href="classDatasets.html#ab5c612acc35f705a816521836b5184d7">Datasets::read()</a>.</p>
 
 </div>
 </div>
@@ -852,7 +852,7 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -880,7 +880,7 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -906,7 +906,7 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -933,7 +933,7 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -961,7 +961,7 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -989,7 +989,7 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1087,7 +1087,7 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1494,7 +1494,7 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1536,7 +1536,7 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1673,7 +1673,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classEditor.html#a4f8c0b6fd9b845cc713b5e36ca2ad384">Editor::save()</a>, <a class="el" href="classDatasets.html#a3520b415eb73da371a29cff0229f1fca">Datasets::write()</a>, and <a class="el" href="classLayers.html#a38fdb144489376a4d31d3db6e382737a">Layers::write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classEditor.html#a6a8e9ee94e9f5aa81d572569cff2dce7">Editor::saveProject()</a>, <a class="el" href="classDatasets.html#a3520b415eb73da371a29cff0229f1fca">Datasets::write()</a>, and <a class="el" href="classLayers.html#a38fdb144489376a4d31d3db6e382737a">Layers::write()</a>.</p>
 
 </div>
 </div>
@@ -1693,7 +1693,7 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1739,7 +1739,7 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

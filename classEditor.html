@@ -70,14 +70,12 @@ Public Types</h2></td></tr>
 &#160;&#160;<a class="el" href="classEditor.html#a2f1ef3e46b110e654f971dabaa0e109da5c6f2dac457deb004eeaccf36b2592c5">TYPE_CLASSIFICATION</a>
 , <a class="el" href="classEditor.html#a2f1ef3e46b110e654f971dabaa0e109da4fc22a70e3f2e02e124bea9177b8fe8a">TYPE_CLIP_FILTER</a>
 , <a class="el" href="classEditor.html#a2f1ef3e46b110e654f971dabaa0e109daa48645e19b8519fac5b782c495a7e59a">TYPE_DATA_SET</a>
-, <a class="el" href="classEditor.html#a2f1ef3e46b110e654f971dabaa0e109da614fd48b32e3e9bf5885a084f1c3e222">TYPE_DENSITY</a>
+, <a class="el" href="classEditor.html#a2f1ef3e46b110e654f971dabaa0e109da7fed0b5dc90630a3176b11fc1e6ad42a">TYPE_DESCRIPTOR</a>
 , <br />
-&#160;&#160;<a class="el" href="classEditor.html#a2f1ef3e46b110e654f971dabaa0e109da7fed0b5dc90630a3176b11fc1e6ad42a">TYPE_DESCRIPTOR</a>
-, <a class="el" href="classEditor.html#a2f1ef3e46b110e654f971dabaa0e109da5fb998faf72c6984a06019735fd036c1">TYPE_ELEVATION</a>
+&#160;&#160;<a class="el" href="classEditor.html#a2f1ef3e46b110e654f971dabaa0e109da5fb998faf72c6984a06019735fd036c1">TYPE_ELEVATION</a>
 , <a class="el" href="classEditor.html#a2f1ef3e46b110e654f971dabaa0e109dab866dd6e294632085de5351791e8970e">TYPE_LAYER</a>
 , <a class="el" href="classEditor.html#a2f1ef3e46b110e654f971dabaa0e109da72dbb854b8b14304033c78cdf7627b84">TYPE_PROJECT_NAME</a>
-, <br />
-&#160;&#160;<a class="el" href="classEditor.html#a2f1ef3e46b110e654f971dabaa0e109dadf07416f07636834cdceacba907b650d">TYPE_SETTINGS</a>
+, <a class="el" href="classEditor.html#a2f1ef3e46b110e654f971dabaa0e109dadf07416f07636834cdceacba907b650d">TYPE_SETTINGS</a>
 <br />
  }</td></tr>
 <tr class="separator:a2f1ef3e46b110e654f971dabaa0e109d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -90,8 +88,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad465abc9575af92b4fa61525085172d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d184614bda00967905941e3f16d6c50"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#a5d184614bda00967905941e3f16d6c50">open</a> (const std::string &amp;path, const <a class="el" href="classSettingsImport.html">SettingsImport</a> &amp;<a class="el" href="classEditor.html#aa1fa3644ca2b631ecba682207077cec1">settings</a>=<a class="el" href="classSettingsImport.html">SettingsImport</a>())</td></tr>
 <tr class="separator:a5d184614bda00967905941e3f16d6c50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f8c0b6fd9b845cc713b5e36ca2ad384"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#a4f8c0b6fd9b845cc713b5e36ca2ad384">save</a> (const std::string &amp;path)</td></tr>
-<tr class="separator:a4f8c0b6fd9b845cc713b5e36ca2ad384"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a8e9ee94e9f5aa81d572569cff2dce7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#a6a8e9ee94e9f5aa81d572569cff2dce7">saveProject</a> (const std::string &amp;path)</td></tr>
+<tr class="separator:a6a8e9ee94e9f5aa81d572569cff2dce7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8da46d9e9258a8d8220543fcec0e6f28"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#a8da46d9e9258a8d8220543fcec0e6f28">projectPath</a> () const</td></tr>
 <tr class="separator:a8da46d9e9258a8d8220543fcec0e6f28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14c64a0812c8ab8acfff4d84be45e8dc"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#a14c64a0812c8ab8acfff4d84be45e8dc">projectName</a> () const</td></tr>
@@ -104,6 +102,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1e80724a9fe61e693142cb521c841703"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1649227496aec5969ef8a7e5132429c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#ab1649227496aec5969ef8a7e5132429c">setClassifications</a> (const <a class="el" href="classClassifications.html">Classifications</a> &amp;<a class="el" href="classEditor.html#a1e80724a9fe61e693142cb521c841703">classifications</a>)</td></tr>
 <tr class="separator:ab1649227496aec5969ef8a7e5132429c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba1d94f9ea888e7750eb9ffbbb9f489c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classQueryFilterSet.html">QueryFilterSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#aba1d94f9ea888e7750eb9ffbbb9f489c">classificationsFilter</a> () const</td></tr>
+<tr class="separator:aba1d94f9ea888e7750eb9ffbbb9f489c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa98a250743a55b67204bb5aceb1099c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#aa98a250743a55b67204bb5aceb1099c9">setClassificationsFilter</a> (const <a class="el" href="classQueryFilterSet.html">QueryFilterSet</a> &amp;filter)</td></tr>
 <tr class="separator:aa98a250743a55b67204bb5aceb1099c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0018b3445d4c688201590c112aa1532"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classRegion.html">Region</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#ae0018b3445d4c688201590c112aa1532">clipFilter</a> () const</td></tr>
@@ -116,34 +116,30 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a96fb7187c64c892167c1be7ad8ebe188"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a574d160b748f54fc2190363e4f17a7c1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classBox.html">Box</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#a574d160b748f54fc2190363e4f17a7c1">boundary</a> () const</td></tr>
 <tr class="separator:a574d160b748f54fc2190363e4f17a7c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9582a2ada16031d94dbb79642c2c775e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classRange.html">Range</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#a9582a2ada16031d94dbb79642c2c775e">elevationRange</a> () const</td></tr>
-<tr class="separator:a9582a2ada16031d94dbb79642c2c775e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69bd7fe0c97aac96361257ddd2fea180"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#a69bd7fe0c97aac96361257ddd2fea180">setElevationRange</a> (const <a class="el" href="classRange.html">Range</a>&lt; double &gt; &amp;<a class="el" href="classEditor.html#a9582a2ada16031d94dbb79642c2c775e">elevationRange</a>)</td></tr>
-<tr class="separator:a69bd7fe0c97aac96361257ddd2fea180"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4ba919400b080c58c589a2a367fe663"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classRange.html">Range</a>&lt; float &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#af4ba919400b080c58c589a2a367fe663">densityRange</a> () const</td></tr>
-<tr class="separator:af4ba919400b080c58c589a2a367fe663"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2822a5b71aca1092cd2555b1b1ccafb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#ad2822a5b71aca1092cd2555b1b1ccafb">setDensityRange</a> (const <a class="el" href="classRange.html">Range</a>&lt; float &gt; &amp;<a class="el" href="classEditor.html#af4ba919400b080c58c589a2a367fe663">densityRange</a>)</td></tr>
-<tr class="separator:ad2822a5b71aca1092cd2555b1b1ccafb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2da3105ca674d4390ae64208b3142ae7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classRange.html">Range</a>&lt; float &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#a2da3105ca674d4390ae64208b3142ae7">descriptorRange</a> () const</td></tr>
-<tr class="separator:a2da3105ca674d4390ae64208b3142ae7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3cdb4ed7458abba28cac29f306894ce1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#a3cdb4ed7458abba28cac29f306894ce1">setDescriptorRange</a> (const <a class="el" href="classRange.html">Range</a>&lt; float &gt; &amp;<a class="el" href="classEditor.html#a2da3105ca674d4390ae64208b3142ae7">descriptorRange</a>)</td></tr>
-<tr class="separator:a3cdb4ed7458abba28cac29f306894ce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2a6cbd3c5b52d9ff05660873a63127c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classRange.html">Range</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#ae2a6cbd3c5b52d9ff05660873a63127c">elevationFilter</a> () const</td></tr>
+<tr class="separator:ae2a6cbd3c5b52d9ff05660873a63127c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af272829e5c842cf2375d3bdc410485b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#af272829e5c842cf2375d3bdc410485b6">setElevationFilter</a> (const <a class="el" href="classRange.html">Range</a>&lt; double &gt; &amp;<a class="el" href="classEditor.html#ae2a6cbd3c5b52d9ff05660873a63127c">elevationFilter</a>)</td></tr>
+<tr class="separator:af272829e5c842cf2375d3bdc410485b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4de3f24e75ce213ca4f10ad753bdb5df"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classRange.html">Range</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#a4de3f24e75ce213ca4f10ad753bdb5df">descriptorFilter</a> () const</td></tr>
+<tr class="separator:a4de3f24e75ce213ca4f10ad753bdb5df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6f2246c802e6c75d7af28a78faaeb26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#ad6f2246c802e6c75d7af28a78faaeb26">setDescriptorFilter</a> (const <a class="el" href="classRange.html">Range</a>&lt; double &gt; &amp;<a class="el" href="classEditor.html#a4de3f24e75ce213ca4f10ad753bdb5df">descriptorFilter</a>)</td></tr>
+<tr class="separator:ad6f2246c802e6c75d7af28a78faaeb26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ecda11933059d31ea06105810011dee"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classDatasets.html">Datasets</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#a9ecda11933059d31ea06105810011dee">datasets</a> () const</td></tr>
 <tr class="separator:a9ecda11933059d31ea06105810011dee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad04484d56d18d9da2218a36038f87e69"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#ad04484d56d18d9da2218a36038f87e69">setDatasets</a> (const <a class="el" href="classDatasets.html">Datasets</a> &amp;<a class="el" href="classEditor.html#a9ecda11933059d31ea06105810011dee">datasets</a>)</td></tr>
 <tr class="separator:ad04484d56d18d9da2218a36038f87e69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad20ec55cee34a317008e3383aa67278e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classQueryFilterSet.html">QueryFilterSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#ad20ec55cee34a317008e3383aa67278e">datasetsFilter</a> () const</td></tr>
+<tr class="separator:ad20ec55cee34a317008e3383aa67278e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1673e23e6ed9aff37334bbf2e418c106"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#a1673e23e6ed9aff37334bbf2e418c106">setDatasetsFilter</a> (const <a class="el" href="classQueryFilterSet.html">QueryFilterSet</a> &amp;filter)</td></tr>
 <tr class="separator:a1673e23e6ed9aff37334bbf2e418c106"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5b24880347df3424ea0243b687c4bfa"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classLayers.html">Layers</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#ad5b24880347df3424ea0243b687c4bfa">layers</a> () const</td></tr>
 <tr class="separator:ad5b24880347df3424ea0243b687c4bfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0be692fcb710fb01f42195f212b12567"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#a0be692fcb710fb01f42195f212b12567">setLayers</a> (const <a class="el" href="classLayers.html">Layers</a> &amp;<a class="el" href="classEditor.html#ad5b24880347df3424ea0243b687c4bfa">layers</a>)</td></tr>
 <tr class="separator:a0be692fcb710fb01f42195f212b12567"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa58a2b6b0b4568092ede1f1e4f1edf9c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classQueryFilterSet.html">QueryFilterSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#aa58a2b6b0b4568092ede1f1e4f1edf9c">layersFilter</a> () const</td></tr>
+<tr class="separator:aa58a2b6b0b4568092ede1f1e4f1edf9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f0011d0e79cd07fe15f98d42dd51ceb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#a6f0011d0e79cd07fe15f98d42dd51ceb">setLayersFilter</a> (const <a class="el" href="classQueryFilterSet.html">QueryFilterSet</a> &amp;filter)</td></tr>
 <tr class="separator:a6f0011d0e79cd07fe15f98d42dd51ceb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc93f79454969ed4fed0675da2873be9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classVoxels.html">Voxels</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#afc93f79454969ed4fed0675da2873be9">voxels</a> () const</td></tr>
-<tr class="separator:afc93f79454969ed4fed0675da2873be9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80c8620584cd919be40b2017bcf2e34d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#a80c8620584cd919be40b2017bcf2e34d">setVoxels</a> (const <a class="el" href="classVoxels.html">Voxels</a> &amp;<a class="el" href="classEditor.html#afc93f79454969ed4fed0675da2873be9">voxels</a>)</td></tr>
-<tr class="separator:a80c8620584cd919be40b2017bcf2e34d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1fa3644ca2b631ecba682207077cec1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classSettings.html">Settings</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#aa1fa3644ca2b631ecba682207077cec1">settings</a> () const</td></tr>
 <tr class="separator:aa1fa3644ca2b631ecba682207077cec1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44d6145f2efe3944e316421d47b79d12"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#a44d6145f2efe3944e316421d47b79d12">setSettingsView</a> (const <a class="el" href="classSettingsView.html">SettingsView</a> &amp;<a class="el" href="classEditor.html#aa1fa3644ca2b631ecba682207077cec1">settings</a>)</td></tr>
@@ -158,6 +154,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab92648c48738b6b969a542b16a9cdad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17ba09a4210d2ddf4af1ba72cd4c3fe7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classViewports.html">Viewports</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#a17ba09a4210d2ddf4af1ba72cd4c3fe7">viewports</a> () const</td></tr>
 <tr class="separator:a17ba09a4210d2ddf4af1ba72cd4c3fe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa680f795e6e46fe63a2ed6798e138d78"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classPageData.html">PageData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#aa680f795e6e46fe63a2ed6798e138d78">readPage</a> (size_t dataset, size_t index)</td></tr>
+<tr class="separator:aa680f795e6e46fe63a2ed6798e138d78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3dd45fa9edd1a3745d55b94410a3a2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#af3dd45fa9edd1a3745d55b94410a3a2f">erasePage</a> (size_t dataset, size_t index)</td></tr>
+<tr class="separator:af3dd45fa9edd1a3745d55b94410a3a2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4d63d7e37383e9bc541a21925989e23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#aa4d63d7e37383e9bc541a21925989e23">lock</a> ()</td></tr>
 <tr class="separator:aa4d63d7e37383e9bc541a21925989e23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab86b61dc6b177e79fab2d1926ee1323c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#ab86b61dc6b177e79fab2d1926ee1323c">unlock</a> ()</td></tr>
@@ -190,20 +190,24 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:af8dd8a2d40527bd02ed22da7ae20f649"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef0b17344d0d7debff0fe64739952162"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classClassifications.html">Classifications</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#aef0b17344d0d7debff0fe64739952162">classifications_</a></td></tr>
 <tr class="separator:aef0b17344d0d7debff0fe64739952162"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14c69f859e95fa20f2c40ea6b9a9138b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classVoxels.html">Voxels</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#a14c69f859e95fa20f2c40ea6b9a9138b">voxels_</a></td></tr>
-<tr class="separator:a14c69f859e95fa20f2c40ea6b9a9138b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7199627b13b8eec9ce1c7ec2b7f5dcec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRegion.html">Region</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#a7199627b13b8eec9ce1c7ec2b7f5dcec">clipFilter_</a></td></tr>
 <tr class="separator:a7199627b13b8eec9ce1c7ec2b7f5dcec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd8c1c063a08258fa4e8ad9d674e2d94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRange.html">Range</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#afd8c1c063a08258fa4e8ad9d674e2d94">elevationRange_</a></td></tr>
-<tr class="separator:afd8c1c063a08258fa4e8ad9d674e2d94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad52aa63346ab00e600392df555a0a381"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRange.html">Range</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#ad52aa63346ab00e600392df555a0a381">densityRange_</a></td></tr>
-<tr class="separator:ad52aa63346ab00e600392df555a0a381"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa12545f42d4fec3ceee36577b1fa1cd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRange.html">Range</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#aa12545f42d4fec3ceee36577b1fa1cd9">descriptorRange_</a></td></tr>
-<tr class="separator:aa12545f42d4fec3ceee36577b1fa1cd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7df587ccc87fcfa8e866bcdb5062b745"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRange.html">Range</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#a7df587ccc87fcfa8e866bcdb5062b745">elevationFilter_</a></td></tr>
+<tr class="separator:a7df587ccc87fcfa8e866bcdb5062b745"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ee0d2f9453585ad9f5d6fbf001c088b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classRange.html">Range</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#a4ee0d2f9453585ad9f5d6fbf001c088b">descriptorFilter_</a></td></tr>
+<tr class="separator:a4ee0d2f9453585ad9f5d6fbf001c088b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39f31aa26e7c6ea03ab1f368cd038dff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classQueryFilterSet.html">QueryFilterSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#a39f31aa26e7c6ea03ab1f368cd038dff">classificationsFilter_</a></td></tr>
+<tr class="separator:a39f31aa26e7c6ea03ab1f368cd038dff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12ff189be650f09b4539005c773b07ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classQueryFilterSet.html">QueryFilterSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#a12ff189be650f09b4539005c773b07ab">datasetsFilter_</a></td></tr>
+<tr class="separator:a12ff189be650f09b4539005c773b07ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a582d0cab59ee1d5f6d30bb7519caa24a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classQueryFilterSet.html">QueryFilterSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#a582d0cab59ee1d5f6d30bb7519caa24a">layersFilter_</a></td></tr>
+<tr class="separator:a582d0cab59ee1d5f6d30bb7519caa24a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9fe765fcb0f461bf1380290ca2df8dda"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classModifierInterface.html">ModifierInterface</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#a9fe765fcb0f461bf1380290ca2df8dda">modifiers_</a></td></tr>
 <tr class="separator:a9fe765fcb0f461bf1380290ca2df8dda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc3de124c1b770afe56114111fee9a9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classViewports.html">Viewports</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#abc3de124c1b770afe56114111fee9a9e">viewports_</a></td></tr>
 <tr class="separator:abc3de124c1b770afe56114111fee9a9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaedd69837f2e8847c0d730ef2a1caa45"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPageManager.html">PageManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classEditor.html#aaedd69837f2e8847c0d730ef2a1caa45">pageManager_</a></td></tr>
+<tr class="separator:aaedd69837f2e8847c0d730ef2a1caa45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a2f1ef3e46b110e654f971dabaa0e109d" name="a2f1ef3e46b110e654f971dabaa0e109d"></a>
@@ -223,7 +227,6 @@ Protected Attributes</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a2f1ef3e46b110e654f971dabaa0e109da5c6f2dac457deb004eeaccf36b2592c5" name="a2f1ef3e46b110e654f971dabaa0e109da5c6f2dac457deb004eeaccf36b2592c5"></a>TYPE_CLASSIFICATION&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a2f1ef3e46b110e654f971dabaa0e109da4fc22a70e3f2e02e124bea9177b8fe8a" name="a2f1ef3e46b110e654f971dabaa0e109da4fc22a70e3f2e02e124bea9177b8fe8a"></a>TYPE_CLIP_FILTER&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a2f1ef3e46b110e654f971dabaa0e109daa48645e19b8519fac5b782c495a7e59a" name="a2f1ef3e46b110e654f971dabaa0e109daa48645e19b8519fac5b782c495a7e59a"></a>TYPE_DATA_SET&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a2f1ef3e46b110e654f971dabaa0e109da614fd48b32e3e9bf5885a084f1c3e222" name="a2f1ef3e46b110e654f971dabaa0e109da614fd48b32e3e9bf5885a084f1c3e222"></a>TYPE_DENSITY&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a2f1ef3e46b110e654f971dabaa0e109da7fed0b5dc90630a3176b11fc1e6ad42a" name="a2f1ef3e46b110e654f971dabaa0e109da7fed0b5dc90630a3176b11fc1e6ad42a"></a>TYPE_DESCRIPTOR&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a2f1ef3e46b110e654f971dabaa0e109da5fb998faf72c6984a06019735fd036c1" name="a2f1ef3e46b110e654f971dabaa0e109da5fb998faf72c6984a06019735fd036c1"></a>TYPE_ELEVATION&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a2f1ef3e46b110e654f971dabaa0e109dab866dd6e294632085de5351791e8970e" name="a2f1ef3e46b110e654f971dabaa0e109dab866dd6e294632085de5351791e8970e"></a>TYPE_LAYER&#160;</td><td class="fielddoc"></td></tr>
@@ -312,7 +315,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classQuery.html#a313ef7ff209b623e53ec4919f4253d9d">Query::setGrid()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classQuery.html#a313ef7ff209b623e53ec4919f4253d9d">Query::setGrid()</a>, and <a class="el" href="classSegmentationAction.html#a310de1d04ca982b78bc4a6b350fe8625">SegmentationAction::start()</a>.</p>
 
 </div>
 </div>
@@ -339,7 +342,34 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classEditor.html#ab1649227496aec5969ef8a7e5132429c">setClassifications()</a>, and <a class="el" href="classProjectNavigatorItemClassifications.html#ac491458c93a19c3840189cfaa26625aa">ProjectNavigatorItemClassifications::slotUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classEditor.html#ab1649227496aec5969ef8a7e5132429c">setClassifications()</a>, and <a class="el" href="classExplorerClassificationsWidget.html#a2d6cdf5fe7dd991fc14b7e594e2826d7">ExplorerClassificationsWidget::slotUpdate()</a>.</p>
+
+</div>
+</div>
+<a id="aba1d94f9ea888e7750eb9ffbbb9f489c" name="aba1d94f9ea888e7750eb9ffbbb9f489c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba1d94f9ea888e7750eb9ffbbb9f489c">&#9670;&nbsp;</a></span>classificationsFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classQueryFilterSet.html">QueryFilterSet</a> &amp; Editor::classificationsFilter </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classExplorerClassificationsWidget.html#a2d6cdf5fe7dd991fc14b7e594e2826d7">ExplorerClassificationsWidget::slotUpdate()</a>.</p>
 
 </div>
 </div>
@@ -358,7 +388,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classHeightMapModifier.html#afa259574f27a25cec180da487dad0d86">HeightMapModifier::apply()</a>, <a class="el" href="classQuery.html#a7ebc1e5cde5d235b789ca4028f72993d">Query::applyCamera()</a>, <a class="el" href="classHeightMapModifier.html#a507c4d11e92f68fc70be400b61ffdd1d">HeightMapModifier::applyModifier()</a>, <a class="el" href="classSegmentationThread.html#a250d7fd222f9b7dba39f51735e6b6acd">SegmentationThread::computeCreateLayers()</a>, <a class="el" href="classSegmentationThread.html#a304bc205211bb00063eb2f554d3e79d2">SegmentationThread::computeCreateVoxels()</a>, <a class="el" href="classSegmentationThread.html#a1265175b60cf91540d8807f12d970c1d">SegmentationThread::computeInitializeVoxels()</a>, <a class="el" href="classQuery.html#ad3e930aabe2db38eec7abf489803f5b6">Query::exec()</a>, <a class="el" href="classEditor.html#a4fdff42c4c102fba2dac842f5abbf7aa">setClipFilter()</a>, <a class="el" href="classQuery.html#a313ef7ff209b623e53ec4919f4253d9d">Query::setGrid()</a>, <a class="el" href="classSegmentationThread.html#aa5468f0653c0b889be90618e97130d61">SegmentationThread::start()</a>, <a class="el" href="classClassificationAction.html#a697269c20897e8382d7122ae807b1b31">ClassificationAction::stepGrid()</a>, <a class="el" href="classEditor.html#ad207e51af81163ce768b57e4001fb896">updateAfterRead()</a>, and <a class="el" href="classSegmentationWindow.html#a30a2dc38bda35a517080a6f1eb7648f7">SegmentationWindow::updateRange()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classHeightMapModifier.html#afa259574f27a25cec180da487dad0d86">HeightMapModifier::apply()</a>, <a class="el" href="classQuery.html#a7ebc1e5cde5d235b789ca4028f72993d">Query::applyCamera()</a>, <a class="el" href="classHeightMapModifier.html#a507c4d11e92f68fc70be400b61ffdd1d">HeightMapModifier::applyModifier()</a>, <a class="el" href="classQuery.html#ad3e930aabe2db38eec7abf489803f5b6">Query::exec()</a>, and <a class="el" href="classQuery.html#a313ef7ff209b623e53ec4919f4253d9d">Query::setGrid()</a>.</p>
 
 </div>
 </div>
@@ -385,7 +415,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classQuery.html#a7ebc1e5cde5d235b789ca4028f72993d">Query::applyCamera()</a>, <a class="el" href="classViewerOpenGLViewport.html#ab2739814d22d354baee24497cf8ab509">ViewerOpenGLViewport::renderFirstFrame()</a>, <a class="el" href="classEditor.html#a4fdff42c4c102fba2dac842f5abbf7aa">setClipFilter()</a>, and <a class="el" href="classProjectNavigatorItemClipping.html#ac052512d2a2d6b1b5cf0ef49d6503602">ProjectNavigatorItemClipping::slotUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classQuery.html#a7ebc1e5cde5d235b789ca4028f72993d">Query::applyCamera()</a>, <a class="el" href="classViewerOpenGLViewport.html#ab2739814d22d354baee24497cf8ab509">ViewerOpenGLViewport::renderFirstFrame()</a>, <a class="el" href="classEditor.html#a4fdff42c4c102fba2dac842f5abbf7aa">setClipFilter()</a>, and <a class="el" href="classExplorerClippingWidget.html#a3b87afcab656517ff9989552e30ceec9">ExplorerClippingWidget::slotUpdate()</a>.</p>
 
 </div>
 </div>
@@ -431,12 +461,12 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classQuery.html#a7ebc1e5cde5d235b789ca4028f72993d">Query::applyCamera()</a>, <a class="el" href="classSegmentationThread.html#a1265175b60cf91540d8807f12d970c1d">SegmentationThread::computeInitializeVoxels()</a>, <a class="el" href="classQuery.html#ad3e930aabe2db38eec7abf489803f5b6">Query::exec()</a>, <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">Page::readPage()</a>, <a class="el" href="classViewerOpenGLViewport.html#a6ecce28bebeb1dc55809a05eab22d672">ViewerOpenGLViewport::resetScene()</a>, <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">Page::runColorModifier()</a>, <a class="el" href="classEditor.html#ad04484d56d18d9da2218a36038f87e69">setDatasets()</a>, <a class="el" href="classQuery.html#a313ef7ff209b623e53ec4919f4253d9d">Query::setGrid()</a>, <a class="el" href="classProjectNavigatorItemClipping.html#ac052512d2a2d6b1b5cf0ef49d6503602">ProjectNavigatorItemClipping::slotUpdate()</a>, <a class="el" href="classProjectNavigatorItemFiles.html#acceb7682a831c8a4bd3457f765d2582b">ProjectNavigatorItemFiles::slotUpdate()</a>, <a class="el" href="classPage.html#a601eba8e292281c077c822485978989f">Page::transform()</a>, and <a class="el" href="classPage.html#a137739c8e55b1cf17cdd3b1737a80478">Page::writePage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classQuery.html#a7ebc1e5cde5d235b789ca4028f72993d">Query::applyCamera()</a>, <a class="el" href="classQuery.html#ad3e930aabe2db38eec7abf489803f5b6">Query::exec()</a>, <a class="el" href="classPageData.html#a1241d46b75f074d0b87478e640341d80">PageData::read()</a>, <a class="el" href="classViewerOpenGLViewport.html#a6ecce28bebeb1dc55809a05eab22d672">ViewerOpenGLViewport::resetScene()</a>, <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">Page::runColorModifier()</a>, <a class="el" href="classEditor.html#ad04484d56d18d9da2218a36038f87e69">setDatasets()</a>, <a class="el" href="classQuery.html#a313ef7ff209b623e53ec4919f4253d9d">Query::setGrid()</a>, <a class="el" href="classExplorerFilesWidget.html#a82e898024be797251017bb7e477a6f18">ExplorerFilesWidget::slotUpdate()</a>, <a class="el" href="classDescriptorAction.html#ad372070832238151b8e7c2de01859cf7">DescriptorAction::start()</a>, <a class="el" href="classClassificationAction.html#a55734dfa98fd6ec4c59a90c162f7e977">ClassificationAction::start()</a>, <a class="el" href="classElevationAction.html#a37c8e69b046a2cddbac8ce232bb31bea">ElevationAction::start()</a>, <a class="el" href="classSegmentationAction.html#a310de1d04ca982b78bc4a6b350fe8625">SegmentationAction::start()</a>, <a class="el" href="classPageData.html#a39410da8bab8896a2de15f819963cda5">PageData::transform()</a>, and <a class="el" href="classPageData.html#af3fe30822c79dfcccd71084f13589faa">PageData::write()</a>.</p>
 
 </div>
 </div>
-<a id="af4ba919400b080c58c589a2a367fe663" name="af4ba919400b080c58c589a2a367fe663"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af4ba919400b080c58c589a2a367fe663">&#9670;&nbsp;</a></span>densityRange()</h2>
+<a id="ad20ec55cee34a317008e3383aa67278e" name="ad20ec55cee34a317008e3383aa67278e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad20ec55cee34a317008e3383aa67278e">&#9670;&nbsp;</a></span>datasetsFilter()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -445,7 +475,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classRange.html">Range</a>&lt; float &gt; &amp; Editor::densityRange </td>
+          <td class="memname">const <a class="el" href="classQueryFilterSet.html">QueryFilterSet</a> &amp; Editor::datasetsFilter </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -458,12 +488,12 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classEditor.html#ad2822a5b71aca1092cd2555b1b1ccafb">setDensityRange()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classExplorerFilesWidget.html#a82e898024be797251017bb7e477a6f18">ExplorerFilesWidget::slotUpdate()</a>.</p>
 
 </div>
 </div>
-<a id="a2da3105ca674d4390ae64208b3142ae7" name="a2da3105ca674d4390ae64208b3142ae7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2da3105ca674d4390ae64208b3142ae7">&#9670;&nbsp;</a></span>descriptorRange()</h2>
+<a id="a4de3f24e75ce213ca4f10ad753bdb5df" name="a4de3f24e75ce213ca4f10ad753bdb5df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4de3f24e75ce213ca4f10ad753bdb5df">&#9670;&nbsp;</a></span>descriptorFilter()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -472,7 +502,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classRange.html">Range</a>&lt; float &gt; &amp; Editor::descriptorRange </td>
+          <td class="memname">const <a class="el" href="classRange.html">Range</a>&lt; double &gt; &amp; Editor::descriptorFilter </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -485,12 +515,12 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classEditor.html#a3cdb4ed7458abba28cac29f306894ce1">setDescriptorRange()</a>, <a class="el" href="classProjectNavigatorItemDensity.html#ae5e878c77cb9d64dea2ec205c8a6878b">ProjectNavigatorItemDensity::slotUpdate()</a>, and <a class="el" href="classProjectNavigatorItemDescriptor.html#a91af5a4f93fcf6122d3559d88dfbf203">ProjectNavigatorItemDescriptor::slotUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classEditor.html#ad6f2246c802e6c75d7af28a78faaeb26">setDescriptorFilter()</a>, and <a class="el" href="classExplorerDescriptorWidget.html#ac25c9c7ca9f235b0d81453f36a9384b4">ExplorerDescriptorWidget::slotUpdate()</a>.</p>
 
 </div>
 </div>
-<a id="a9582a2ada16031d94dbb79642c2c775e" name="a9582a2ada16031d94dbb79642c2c775e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9582a2ada16031d94dbb79642c2c775e">&#9670;&nbsp;</a></span>elevationRange()</h2>
+<a id="ae2a6cbd3c5b52d9ff05660873a63127c" name="ae2a6cbd3c5b52d9ff05660873a63127c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2a6cbd3c5b52d9ff05660873a63127c">&#9670;&nbsp;</a></span>elevationFilter()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -499,7 +529,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classRange.html">Range</a>&lt; double &gt; &amp; Editor::elevationRange </td>
+          <td class="memname">const <a class="el" href="classRange.html">Range</a>&lt; double &gt; &amp; Editor::elevationFilter </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -512,7 +542,37 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classHeightMapModifier.html#a507c4d11e92f68fc70be400b61ffdd1d">HeightMapModifier::applyModifier()</a>, <a class="el" href="classEditor.html#a69bd7fe0c97aac96361257ddd2fea180">setElevationRange()</a>, and <a class="el" href="classProjectNavigatorItemElevation.html#a134c5b5ea7218ec79bd761372558f3e1">ProjectNavigatorItemElevation::slotUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classHeightMapModifier.html#a507c4d11e92f68fc70be400b61ffdd1d">HeightMapModifier::applyModifier()</a>, <a class="el" href="classEditor.html#af272829e5c842cf2375d3bdc410485b6">setElevationFilter()</a>, <a class="el" href="classExplorerElevationWidget.html#a682dc71ddf777b994e5aaa11609fbfc5">ExplorerElevationWidget::slotUpdate()</a>, and <a class="el" href="classSegmentationAction.html#a310de1d04ca982b78bc4a6b350fe8625">SegmentationAction::start()</a>.</p>
+
+</div>
+</div>
+<a id="af3dd45fa9edd1a3745d55b94410a3a2f" name="af3dd45fa9edd1a3745d55b94410a3a2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3dd45fa9edd1a3745d55b94410a3a2f">&#9670;&nbsp;</a></span>erasePage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Editor::erasePage </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>dataset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classPage.html#a2341fff1cc032ab6528874175e7dd841">Page::~Page()</a>.</p>
 
 </div>
 </div>
@@ -566,7 +626,34 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classViewerOpenGLViewport.html#a2ccb7af0c85d6da49a3e8a028a457c22">ViewerOpenGLViewport::renderLayers()</a>, <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">Page::runColorModifier()</a>, <a class="el" href="classEditor.html#a0be692fcb710fb01f42195f212b12567">setLayers()</a>, and <a class="el" href="classProjectNavigatorItemLayers.html#a25d593b3cc883381300d3d700b1c76c2">ProjectNavigatorItemLayers::slotUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classPage.html#a43160dd6b5d659dba29b850143899154">Page::queryWhereLayer()</a>, <a class="el" href="classViewerOpenGLViewport.html#a2ccb7af0c85d6da49a3e8a028a457c22">ViewerOpenGLViewport::renderLayers()</a>, <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">Page::runColorModifier()</a>, <a class="el" href="classEditor.html#a0be692fcb710fb01f42195f212b12567">setLayers()</a>, and <a class="el" href="classExplorerLayersWidget.html#a62865e6926a1581f24c52bac0595a551">ExplorerLayersWidget::slotUpdate()</a>.</p>
+
+</div>
+</div>
+<a id="aa58a2b6b0b4568092ede1f1e4f1edf9c" name="aa58a2b6b0b4568092ede1f1e4f1edf9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa58a2b6b0b4568092ede1f1e4f1edf9c">&#9670;&nbsp;</a></span>layersFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classQueryFilterSet.html">QueryFilterSet</a> &amp; Editor::layersFilter </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classExplorerLayersWidget.html#a62865e6926a1581f24c52bac0595a551">ExplorerLayersWidget::slotUpdate()</a>.</p>
 
 </div>
 </div>
@@ -585,7 +672,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classHeightMapModifier.html#afa259574f27a25cec180da487dad0d86">HeightMapModifier::apply()</a>, <a class="el" href="classRenderThread.html#ab16f97a2e5af978e0cd5a21290c52512">RenderThread::compute()</a>, <a class="el" href="classViewerOpenGLViewport.html#aec1af5c48baebb85b27a63b3a857342a">ViewerOpenGLViewport::renderScene()</a>, <a class="el" href="classHeightMapModifier.html#a244f6506a764ae2978540133b39d7add">HeightMapModifier::setPreviewEnabled()</a>, <a class="el" href="classMainWindow.html#ab399feaee95b2330bd6ad0bbeaebcbe6">MainWindow::slotRender()</a>, and <a class="el" href="classMainWindow.html#a8cea92bdea9733772b65fc8d434ea762">MainWindow::updateEverything()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classHeightMapModifier.html#afa259574f27a25cec180da487dad0d86">HeightMapModifier::apply()</a>, <a class="el" href="classRenderThread.html#a02bc25c08a3906a6a975a637b2a9ef21">RenderThread::next()</a>, <a class="el" href="classViewerOpenGLViewport.html#aec1af5c48baebb85b27a63b3a857342a">ViewerOpenGLViewport::renderScene()</a>, <a class="el" href="classHeightMapModifier.html#a244f6506a764ae2978540133b39d7add">HeightMapModifier::setPreviewEnabled()</a>, <a class="el" href="classMainWindow.html#ab399feaee95b2330bd6ad0bbeaebcbe6">MainWindow::slotRender()</a>, and <a class="el" href="classMainWindow.html#a8cea92bdea9733772b65fc8d434ea762">MainWindow::updateEverything()</a>.</p>
 
 </div>
 </div>
@@ -737,6 +824,36 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aa680f795e6e46fe63a2ed6798e138d78" name="aa680f795e6e46fe63a2ed6798e138d78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa680f795e6e46fe63a2ed6798e138d78">&#9670;&nbsp;</a></span>readPage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classPageData.html">PageData</a> &gt; Editor::readPage </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>dataset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classPage.html#af81ad261b4c644e6980f2776a72a8830">Page::readPage()</a>.</p>
+
+</div>
+</div>
 <a id="aec933e937af394640534bc5b8ba285ee" name="aec933e937af394640534bc5b8ba285ee"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aec933e937af394640534bc5b8ba285ee">&#9670;&nbsp;</a></span>resetClipFilter()</h2>
 
@@ -774,14 +891,14 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4f8c0b6fd9b845cc713b5e36ca2ad384" name="a4f8c0b6fd9b845cc713b5e36ca2ad384"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f8c0b6fd9b845cc713b5e36ca2ad384">&#9670;&nbsp;</a></span>save()</h2>
+<a id="a6a8e9ee94e9f5aa81d572569cff2dce7" name="a6a8e9ee94e9f5aa81d572569cff2dce7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a8e9ee94e9f5aa81d572569cff2dce7">&#9670;&nbsp;</a></span>saveProject()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Editor::save </td>
+          <td class="memname">void Editor::saveProject </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>path</em></td><td>)</td>
@@ -810,7 +927,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorItemClassifications.html#a39231eceae65dea5e88a127f6c2dbfdb">ProjectNavigatorItemClassifications::dataChanged()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classExplorerClassificationsWidget.html#afd9edb7ffd32fca494411465156da871">ExplorerClassificationsWidget::dataChanged()</a>.</p>
 
 </div>
 </div>
@@ -830,7 +947,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorItemClassifications.html#a39231eceae65dea5e88a127f6c2dbfdb">ProjectNavigatorItemClassifications::dataChanged()</a>, and <a class="el" href="classProjectNavigatorItemClassifications.html#aae8869ec39408176c3220a4acda9e531">ProjectNavigatorItemClassifications::filterChanged()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classExplorerClassificationsWidget.html#afd9edb7ffd32fca494411465156da871">ExplorerClassificationsWidget::dataChanged()</a>, and <a class="el" href="classExplorerClassificationsWidget.html#ac4184be9c2e3c1d788a6d19bac600bc7">ExplorerClassificationsWidget::filterChanged()</a>.</p>
 
 </div>
 </div>
@@ -850,7 +967,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorItemClipping.html#a0ad8a99cb08c4d7e2ca23128d7d319fd">ProjectNavigatorItemClipping::filterChanged()</a>, and <a class="el" href="classEditor.html#aec933e937af394640534bc5b8ba285ee">resetClipFilter()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classExplorerClippingWidget.html#ac8f1054f579e13692001cb6226f4160e">ExplorerClippingWidget::filterChanged()</a>, and <a class="el" href="classEditor.html#aec933e937af394640534bc5b8ba285ee">resetClipFilter()</a>.</p>
 
 </div>
 </div>
@@ -870,7 +987,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorItemFiles.html#a04e9a23c702292bb37edad78ecc26ac6">ProjectNavigatorItemFiles::dataChanged()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classExplorerFilesWidget.html#a086858d1012fcb51c3389433dbbec575">ExplorerFilesWidget::dataChanged()</a>.</p>
 
 </div>
 </div>
@@ -890,67 +1007,47 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorItemFiles.html#a04e9a23c702292bb37edad78ecc26ac6">ProjectNavigatorItemFiles::dataChanged()</a>, and <a class="el" href="classProjectNavigatorItemFiles.html#a8040171e2fcd39a42c6e4a2dc2719503">ProjectNavigatorItemFiles::filterChanged()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classExplorerFilesWidget.html#a086858d1012fcb51c3389433dbbec575">ExplorerFilesWidget::dataChanged()</a>, and <a class="el" href="classExplorerFilesWidget.html#aee87ea3811e2e08df1c16c1f07ae4c86">ExplorerFilesWidget::filterChanged()</a>.</p>
 
 </div>
 </div>
-<a id="ad2822a5b71aca1092cd2555b1b1ccafb" name="ad2822a5b71aca1092cd2555b1b1ccafb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2822a5b71aca1092cd2555b1b1ccafb">&#9670;&nbsp;</a></span>setDensityRange()</h2>
+<a id="ad6f2246c802e6c75d7af28a78faaeb26" name="ad6f2246c802e6c75d7af28a78faaeb26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6f2246c802e6c75d7af28a78faaeb26">&#9670;&nbsp;</a></span>setDescriptorFilter()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Editor::setDensityRange </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classRange.html">Range</a>&lt; float &gt; &amp;&#160;</td>
-          <td class="paramname"><em>densityRange</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorItemDensity.html#a4fadac2e84780abab8ff64ad0e1cdb0f">ProjectNavigatorItemDensity::densityInputChanged()</a>.</p>
-
-</div>
-</div>
-<a id="a3cdb4ed7458abba28cac29f306894ce1" name="a3cdb4ed7458abba28cac29f306894ce1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3cdb4ed7458abba28cac29f306894ce1">&#9670;&nbsp;</a></span>setDescriptorRange()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Editor::setDescriptorRange </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classRange.html">Range</a>&lt; float &gt; &amp;&#160;</td>
-          <td class="paramname"><em>descriptorRange</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorItemDescriptor.html#ac36464193ac048e801a58eff1b72c6e5">ProjectNavigatorItemDescriptor::descriptorInputChanged()</a>.</p>
-
-</div>
-</div>
-<a id="a69bd7fe0c97aac96361257ddd2fea180" name="a69bd7fe0c97aac96361257ddd2fea180"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69bd7fe0c97aac96361257ddd2fea180">&#9670;&nbsp;</a></span>setElevationRange()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Editor::setElevationRange </td>
+          <td class="memname">void Editor::setDescriptorFilter </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classRange.html">Range</a>&lt; double &gt; &amp;&#160;</td>
-          <td class="paramname"><em>elevationRange</em></td><td>)</td>
+          <td class="paramname"><em>descriptorFilter</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorItemElevation.html#a991222e8d1830dd64efc3231fef4d54f">ProjectNavigatorItemElevation::elevationInputChanged()</a>, and <a class="el" href="classElevationAction.html#a3cbae6baf2a54134cb35590d274b3b6a">ElevationAction::step()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classExplorerDescriptorWidget.html#a99f2fa5f617060af7c5d28b95539c304">ExplorerDescriptorWidget::filterChanged()</a>.</p>
+
+</div>
+</div>
+<a id="af272829e5c842cf2375d3bdc410485b6" name="af272829e5c842cf2375d3bdc410485b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af272829e5c842cf2375d3bdc410485b6">&#9670;&nbsp;</a></span>setElevationFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Editor::setElevationFilter </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classRange.html">Range</a>&lt; double &gt; &amp;&#160;</td>
+          <td class="paramname"><em>elevationFilter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classExplorerElevationWidget.html#a9339b49e6ac45af3aa12a51830eed293">ExplorerElevationWidget::filterChanged()</a>, <a class="el" href="classElevationAction.html#adc1b01519ea952912bddff96eee78112">ElevationAction::stepComputeElevation()</a>, <a class="el" href="classClassificationAction.html#aad2dd3d802961673743c11906225032a">ClassificationAction::stepResetPoints()</a>, and <a class="el" href="classElevationAction.html#ac038b56d6c7a7fd71a4f633848e2521f">ElevationAction::stepResetPoints()</a>.</p>
 
 </div>
 </div>
@@ -970,7 +1067,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#a250d7fd222f9b7dba39f51735e6b6acd">SegmentationThread::computeCreateLayers()</a>, <a class="el" href="classProjectNavigatorItemLayers.html#acbeb67dabd036d35fc2549df9931a6b2">ProjectNavigatorItemLayers::dataChanged()</a>, and <a class="el" href="classSegmentationThread.html#a669d693bf54f3e58534055508e2dc094">SegmentationThread::resetLayers()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classExplorerLayersWidget.html#a13e7afe9fe977425cb8725ca3f2d353d">ExplorerLayersWidget::dataChanged()</a>, <a class="el" href="classSegmentationAction.html#a0abc61fbeeaaf90bf869eb886c3c8072">SegmentationAction::stepCreateLayers()</a>, and <a class="el" href="classSegmentationAction.html#aad16a48d1eb4486af004c102472c3296">SegmentationAction::stepResetPoints()</a>.</p>
 
 </div>
 </div>
@@ -990,7 +1087,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorItemLayers.html#acbeb67dabd036d35fc2549df9931a6b2">ProjectNavigatorItemLayers::dataChanged()</a>, and <a class="el" href="classProjectNavigatorItemLayers.html#a6d7bff3f38551b809a7f52fd3457d8d3">ProjectNavigatorItemLayers::filterChanged()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classExplorerLayersWidget.html#a13e7afe9fe977425cb8725ca3f2d353d">ExplorerLayersWidget::dataChanged()</a>, <a class="el" href="classExplorerLayersWidget.html#ab3911e8ee0c701a792ea67271a8a3535">ExplorerLayersWidget::filterChanged()</a>, <a class="el" href="classSegmentationAction.html#a0abc61fbeeaaf90bf869eb886c3c8072">SegmentationAction::stepCreateLayers()</a>, and <a class="el" href="classSegmentationAction.html#aad16a48d1eb4486af004c102472c3296">SegmentationAction::stepResetPoints()</a>.</p>
 
 </div>
 </div>
@@ -1010,7 +1107,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classProjectNavigatorTree.html#a1721750b39699bac987ab28e018bc84f">ProjectNavigatorTree::applySettingsOut()</a>, <a class="el" href="classSettingsColorWidget.html#a9c23cd8ed157116e92bdef9606e8a9b5">SettingsColorWidget::settingsChanged()</a>, and <a class="el" href="classSettingsColorWidget.html#a00769a83d59b448a8ce6c76ee3706c7c">SettingsColorWidget::settingsChangedApply()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classSettingsColorWidget.html#a226bc946d9a81686d7dd8ae471b450a3">SettingsColorWidget::setSettingsOut()</a>.</p>
 
 </div>
 </div>
@@ -1037,27 +1134,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classEditor.html#a5d184614bda00967905941e3f16d6c50">open()</a>, <a class="el" href="classEditor.html#a38163856229855b52efe3756c0597d09">openDataset()</a>, <a class="el" href="classViewerOpenGLViewport.html#a1ace00b255068a47763c69f83c3a522e">ViewerOpenGLViewport::renderSceneSettingsDisable()</a>, <a class="el" href="classViewerOpenGLViewport.html#a149439177d68144528e23d60b1fd2738">ViewerOpenGLViewport::renderSceneSettingsEnable()</a>, <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">Page::runColorModifier()</a>, <a class="el" href="classEditor.html#a44d6145f2efe3944e316421d47b79d12">setSettingsView()</a>, <a class="el" href="classProjectNavigatorTree.html#a5186b73fdb805548e3275449ad236a69">ProjectNavigatorTree::slotUpdate()</a>, and <a class="el" href="classSettingsColorWidget.html#a4fcc9bd18be827315338530aa83b1d75">SettingsColorWidget::slotUpdate()</a>.</p>
-
-</div>
-</div>
-<a id="a80c8620584cd919be40b2017bcf2e34d" name="a80c8620584cd919be40b2017bcf2e34d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80c8620584cd919be40b2017bcf2e34d">&#9670;&nbsp;</a></span>setVoxels()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Editor::setVoxels </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classVoxels.html">Voxels</a> &amp;&#160;</td>
-          <td class="paramname"><em>voxels</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classSegmentationThread.html#a250d7fd222f9b7dba39f51735e6b6acd">SegmentationThread::computeCreateLayers()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classEditor.html#a5d184614bda00967905941e3f16d6c50">open()</a>, <a class="el" href="classEditor.html#a38163856229855b52efe3756c0597d09">openDataset()</a>, <a class="el" href="classViewerOpenGLViewport.html#a1ace00b255068a47763c69f83c3a522e">ViewerOpenGLViewport::renderSceneSettingsDisable()</a>, <a class="el" href="classViewerOpenGLViewport.html#a149439177d68144528e23d60b1fd2738">ViewerOpenGLViewport::renderSceneSettingsEnable()</a>, <a class="el" href="classPage.html#adb0cbf6a76d3b810094c5b35fa3fc8a8">Page::runColorModifier()</a>, <a class="el" href="classEditor.html#a44d6145f2efe3944e316421d47b79d12">setSettingsView()</a>, and <a class="el" href="classSettingsColorWidget.html#a4fcc9bd18be827315338530aa83b1d75">SettingsColorWidget::slotUpdate()</a>.</p>
 
 </div>
 </div>
@@ -1076,7 +1153,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classHeightMapModifier.html#afa259574f27a25cec180da487dad0d86">HeightMapModifier::apply()</a>, <a class="el" href="classRenderThread.html#ab16f97a2e5af978e0cd5a21290c52512">RenderThread::compute()</a>, <a class="el" href="classViewerOpenGLViewport.html#aec1af5c48baebb85b27a63b3a857342a">ViewerOpenGLViewport::renderScene()</a>, <a class="el" href="classHeightMapModifier.html#a244f6506a764ae2978540133b39d7add">HeightMapModifier::setPreviewEnabled()</a>, <a class="el" href="classMainWindow.html#ab399feaee95b2330bd6ad0bbeaebcbe6">MainWindow::slotRender()</a>, and <a class="el" href="classMainWindow.html#a8cea92bdea9733772b65fc8d434ea762">MainWindow::updateEverything()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classHeightMapModifier.html#afa259574f27a25cec180da487dad0d86">HeightMapModifier::apply()</a>, <a class="el" href="classRenderThread.html#a02bc25c08a3906a6a975a637b2a9ef21">RenderThread::next()</a>, <a class="el" href="classViewerOpenGLViewport.html#aec1af5c48baebb85b27a63b3a857342a">ViewerOpenGLViewport::renderScene()</a>, <a class="el" href="classHeightMapModifier.html#a244f6506a764ae2978540133b39d7add">HeightMapModifier::setPreviewEnabled()</a>, <a class="el" href="classMainWindow.html#ab399feaee95b2330bd6ad0bbeaebcbe6">MainWindow::slotRender()</a>, and <a class="el" href="classMainWindow.html#a8cea92bdea9733772b65fc8d434ea762">MainWindow::updateEverything()</a>.</p>
 
 </div>
 </div>
@@ -1130,7 +1207,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classRenderThread.html#ab16f97a2e5af978e0cd5a21290c52512">RenderThread::compute()</a>, <a class="el" href="classDensityAction.html#a063d38716ce250a470019953ff775b2f">DensityAction::initialize()</a>, <a class="el" href="classDescriptorAction.html#a8010a3e18ffd7f7af50c1fa134f044d3">DescriptorAction::initialize()</a>, <a class="el" href="classExportFileAction.html#a2844382b4d9c17c2e50d16e005504ec1">ExportFileAction::initialize()</a>, <a class="el" href="classViewerOpenGLViewport.html#aec1af5c48baebb85b27a63b3a857342a">ViewerOpenGLViewport::renderScene()</a>, <a class="el" href="classHeightMapModifier.html#a244f6506a764ae2978540133b39d7add">HeightMapModifier::setPreviewEnabled()</a>, <a class="el" href="classClassificationWindow.html#a9e1022b452fdc2ade14fd0fdd72360f5">ClassificationWindow::slotApply()</a>, <a class="el" href="classMainWindow.html#a1485f4fb987094c07f08a974903f7740">MainWindow::update()</a>, <a class="el" href="classMainWindow.html#af0386597f60b60f599b306d9dfaa32fc">MainWindow::updateData()</a>, <a class="el" href="classMainWindow.html#a8802f2eb453d7f80369c1bdb5c4b67ef">MainWindow::updateFilter()</a>, <a class="el" href="classMainWindow.html#ad38737cf15e5efc031a03010660c6c44">MainWindow::updateModifiers()</a>, and <a class="el" href="classMainWindow.html#aa2a5945f9c4bf90022f0a7ad3db34c49">MainWindow::updateRender()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classExportFileAction.html#aec720abf9c3178a43378fe06afbd0bb3">ExportFileAction::initialize()</a>, <a class="el" href="classRenderThread.html#a02bc25c08a3906a6a975a637b2a9ef21">RenderThread::next()</a>, <a class="el" href="classViewerOpenGLViewport.html#aec1af5c48baebb85b27a63b3a857342a">ViewerOpenGLViewport::renderScene()</a>, <a class="el" href="classHeightMapModifier.html#a244f6506a764ae2978540133b39d7add">HeightMapModifier::setPreviewEnabled()</a>, <a class="el" href="classClassificationAction.html#a4ae6dd0d66c0c3cad0d717f9b2dbf3f4">ClassificationAction::stepCountPoints()</a>, <a class="el" href="classDescriptorAction.html#aa201ca9465ce5490cae6ef38b61fb454">DescriptorAction::stepCountPoints()</a>, <a class="el" href="classElevationAction.html#ade6f0d2e6f414e261246ccdc4d5bc2aa">ElevationAction::stepCountPoints()</a>, <a class="el" href="classSegmentationAction.html#ad19b55181bba26e4d9f210853ce1f58a">SegmentationAction::stepCountPoints()</a>, <a class="el" href="classMainWindow.html#a1485f4fb987094c07f08a974903f7740">MainWindow::update()</a>, <a class="el" href="classMainWindow.html#af0386597f60b60f599b306d9dfaa32fc">MainWindow::updateData()</a>, <a class="el" href="classMainWindow.html#a8802f2eb453d7f80369c1bdb5c4b67ef">MainWindow::updateFilter()</a>, <a class="el" href="classMainWindow.html#ad38737cf15e5efc031a03010660c6c44">MainWindow::updateModifiers()</a>, and <a class="el" href="classMainWindow.html#aa2a5945f9c4bf90022f0a7ad3db34c49">MainWindow::updateRender()</a>.</p>
 
 </div>
 </div>
@@ -1179,33 +1256,6 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="afc93f79454969ed4fed0675da2873be9" name="afc93f79454969ed4fed0675da2873be9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc93f79454969ed4fed0675da2873be9">&#9670;&nbsp;</a></span>voxels()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="classVoxels.html">Voxels</a> &amp; Editor::voxels </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classEditor.html#a80c8620584cd919be40b2017bcf2e34d">setVoxels()</a>.</p>
-
-</div>
-</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="aef0b17344d0d7debff0fe64739952162" name="aef0b17344d0d7debff0fe64739952162"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aef0b17344d0d7debff0fe64739952162">&#9670;&nbsp;</a></span>classifications_</h2>
@@ -1227,7 +1277,31 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classEditor.html#aa7dc8544e104c680c9d2515f442a136b">close()</a>, <a class="el" href="classEditor.html#a67c3771f1f11f2eecc66b920c4a61651">openProject()</a>, <a class="el" href="classEditor.html#a4f8c0b6fd9b845cc713b5e36ca2ad384">save()</a>, and <a class="el" href="classEditor.html#ab1649227496aec5969ef8a7e5132429c">setClassifications()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classEditor.html#aa7dc8544e104c680c9d2515f442a136b">close()</a>, <a class="el" href="classEditor.html#a67c3771f1f11f2eecc66b920c4a61651">openProject()</a>, <a class="el" href="classEditor.html#a6a8e9ee94e9f5aa81d572569cff2dce7">saveProject()</a>, and <a class="el" href="classEditor.html#ab1649227496aec5969ef8a7e5132429c">setClassifications()</a>.</p>
+
+</div>
+</div>
+<a id="a39f31aa26e7c6ea03ab1f368cd038dff" name="a39f31aa26e7c6ea03ab1f368cd038dff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39f31aa26e7c6ea03ab1f368cd038dff">&#9670;&nbsp;</a></span>classificationsFilter_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classQueryFilterSet.html">QueryFilterSet</a> Editor::classificationsFilter_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classEditor.html#aa7dc8544e104c680c9d2515f442a136b">close()</a>, <a class="el" href="classEditor.html#aa98a250743a55b67204bb5aceb1099c9">setClassificationsFilter()</a>, and <a class="el" href="classEditor.html#ad207e51af81163ce768b57e4001fb896">updateAfterRead()</a>.</p>
 
 </div>
 </div>
@@ -1275,12 +1349,12 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classEditor.html#a96fb7187c64c892167c1be7ad8ebe188">clipBoundary()</a>, <a class="el" href="classEditor.html#aa7dc8544e104c680c9d2515f442a136b">close()</a>, <a class="el" href="classEditor.html#a38163856229855b52efe3756c0597d09">openDataset()</a>, <a class="el" href="classEditor.html#a67c3771f1f11f2eecc66b920c4a61651">openProject()</a>, <a class="el" href="classEditor.html#aec933e937af394640534bc5b8ba285ee">resetClipFilter()</a>, <a class="el" href="classEditor.html#a4f8c0b6fd9b845cc713b5e36ca2ad384">save()</a>, <a class="el" href="classEditor.html#a4fdff42c4c102fba2dac842f5abbf7aa">setClipFilter()</a>, <a class="el" href="classEditor.html#ad04484d56d18d9da2218a36038f87e69">setDatasets()</a>, and <a class="el" href="classEditor.html#ad207e51af81163ce768b57e4001fb896">updateAfterRead()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classEditor.html#aa7dc8544e104c680c9d2515f442a136b">close()</a>, <a class="el" href="classEditor.html#a38163856229855b52efe3756c0597d09">openDataset()</a>, <a class="el" href="classEditor.html#a67c3771f1f11f2eecc66b920c4a61651">openProject()</a>, <a class="el" href="classEditor.html#a6a8e9ee94e9f5aa81d572569cff2dce7">saveProject()</a>, <a class="el" href="classEditor.html#ad04484d56d18d9da2218a36038f87e69">setDatasets()</a>, and <a class="el" href="classEditor.html#ad207e51af81163ce768b57e4001fb896">updateAfterRead()</a>.</p>
 
 </div>
 </div>
-<a id="ad52aa63346ab00e600392df555a0a381" name="ad52aa63346ab00e600392df555a0a381"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad52aa63346ab00e600392df555a0a381">&#9670;&nbsp;</a></span>densityRange_</h2>
+<a id="a12ff189be650f09b4539005c773b07ab" name="a12ff189be650f09b4539005c773b07ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12ff189be650f09b4539005c773b07ab">&#9670;&nbsp;</a></span>datasetsFilter_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1289,7 +1363,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classRange.html">Range</a>&lt;float&gt; Editor::densityRange_</td>
+          <td class="memname"><a class="el" href="classQueryFilterSet.html">QueryFilterSet</a> Editor::datasetsFilter_</td>
         </tr>
       </table>
   </td>
@@ -1299,12 +1373,12 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classEditor.html#aa7dc8544e104c680c9d2515f442a136b">close()</a>, <a class="el" href="classEditor.html#ad2822a5b71aca1092cd2555b1b1ccafb">setDensityRange()</a>, and <a class="el" href="classEditor.html#ad207e51af81163ce768b57e4001fb896">updateAfterRead()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classEditor.html#aa7dc8544e104c680c9d2515f442a136b">close()</a>, <a class="el" href="classEditor.html#a38163856229855b52efe3756c0597d09">openDataset()</a>, <a class="el" href="classEditor.html#a67c3771f1f11f2eecc66b920c4a61651">openProject()</a>, <a class="el" href="classEditor.html#a1673e23e6ed9aff37334bbf2e418c106">setDatasetsFilter()</a>, and <a class="el" href="classEditor.html#ad207e51af81163ce768b57e4001fb896">updateAfterRead()</a>.</p>
 
 </div>
 </div>
-<a id="aa12545f42d4fec3ceee36577b1fa1cd9" name="aa12545f42d4fec3ceee36577b1fa1cd9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa12545f42d4fec3ceee36577b1fa1cd9">&#9670;&nbsp;</a></span>descriptorRange_</h2>
+<a id="a4ee0d2f9453585ad9f5d6fbf001c088b" name="a4ee0d2f9453585ad9f5d6fbf001c088b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ee0d2f9453585ad9f5d6fbf001c088b">&#9670;&nbsp;</a></span>descriptorFilter_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1313,7 +1387,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classRange.html">Range</a>&lt;float&gt; Editor::descriptorRange_</td>
+          <td class="memname"><a class="el" href="classRange.html">Range</a>&lt;double&gt; Editor::descriptorFilter_</td>
         </tr>
       </table>
   </td>
@@ -1323,12 +1397,12 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classEditor.html#aa7dc8544e104c680c9d2515f442a136b">close()</a>, <a class="el" href="classEditor.html#a3cdb4ed7458abba28cac29f306894ce1">setDescriptorRange()</a>, and <a class="el" href="classEditor.html#ad207e51af81163ce768b57e4001fb896">updateAfterRead()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classEditor.html#aa7dc8544e104c680c9d2515f442a136b">close()</a>, <a class="el" href="classEditor.html#ad6f2246c802e6c75d7af28a78faaeb26">setDescriptorFilter()</a>, and <a class="el" href="classEditor.html#ad207e51af81163ce768b57e4001fb896">updateAfterRead()</a>.</p>
 
 </div>
 </div>
-<a id="afd8c1c063a08258fa4e8ad9d674e2d94" name="afd8c1c063a08258fa4e8ad9d674e2d94"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd8c1c063a08258fa4e8ad9d674e2d94">&#9670;&nbsp;</a></span>elevationRange_</h2>
+<a id="a7df587ccc87fcfa8e866bcdb5062b745" name="a7df587ccc87fcfa8e866bcdb5062b745"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7df587ccc87fcfa8e866bcdb5062b745">&#9670;&nbsp;</a></span>elevationFilter_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1337,7 +1411,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classRange.html">Range</a>&lt;double&gt; Editor::elevationRange_</td>
+          <td class="memname"><a class="el" href="classRange.html">Range</a>&lt;double&gt; Editor::elevationFilter_</td>
         </tr>
       </table>
   </td>
@@ -1347,7 +1421,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classEditor.html#aa7dc8544e104c680c9d2515f442a136b">close()</a>, <a class="el" href="classEditor.html#a67c3771f1f11f2eecc66b920c4a61651">openProject()</a>, <a class="el" href="classEditor.html#a4f8c0b6fd9b845cc713b5e36ca2ad384">save()</a>, <a class="el" href="classEditor.html#a69bd7fe0c97aac96361257ddd2fea180">setElevationRange()</a>, and <a class="el" href="classEditor.html#ad207e51af81163ce768b57e4001fb896">updateAfterRead()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classEditor.html#aa7dc8544e104c680c9d2515f442a136b">close()</a>, <a class="el" href="classEditor.html#a67c3771f1f11f2eecc66b920c4a61651">openProject()</a>, <a class="el" href="classEditor.html#a6a8e9ee94e9f5aa81d572569cff2dce7">saveProject()</a>, <a class="el" href="classEditor.html#af272829e5c842cf2375d3bdc410485b6">setElevationFilter()</a>, and <a class="el" href="classEditor.html#ad207e51af81163ce768b57e4001fb896">updateAfterRead()</a>.</p>
 
 </div>
 </div>
@@ -1371,7 +1445,31 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classEditor.html#aa7dc8544e104c680c9d2515f442a136b">close()</a>, <a class="el" href="classEditor.html#a67c3771f1f11f2eecc66b920c4a61651">openProject()</a>, <a class="el" href="classEditor.html#a4f8c0b6fd9b845cc713b5e36ca2ad384">save()</a>, and <a class="el" href="classEditor.html#a0be692fcb710fb01f42195f212b12567">setLayers()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classEditor.html#aa7dc8544e104c680c9d2515f442a136b">close()</a>, <a class="el" href="classEditor.html#a67c3771f1f11f2eecc66b920c4a61651">openProject()</a>, <a class="el" href="classEditor.html#a6a8e9ee94e9f5aa81d572569cff2dce7">saveProject()</a>, and <a class="el" href="classEditor.html#a0be692fcb710fb01f42195f212b12567">setLayers()</a>.</p>
+
+</div>
+</div>
+<a id="a582d0cab59ee1d5f6d30bb7519caa24a" name="a582d0cab59ee1d5f6d30bb7519caa24a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a582d0cab59ee1d5f6d30bb7519caa24a">&#9670;&nbsp;</a></span>layersFilter_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classQueryFilterSet.html">QueryFilterSet</a> Editor::layersFilter_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classEditor.html#aa7dc8544e104c680c9d2515f442a136b">close()</a>, <a class="el" href="classEditor.html#a6f0011d0e79cd07fe15f98d42dd51ceb">setLayersFilter()</a>, and <a class="el" href="classEditor.html#ad207e51af81163ce768b57e4001fb896">updateAfterRead()</a>.</p>
 
 </div>
 </div>
@@ -1423,6 +1521,30 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aaedd69837f2e8847c0d730ef2a1caa45" name="aaedd69837f2e8847c0d730ef2a1caa45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaedd69837f2e8847c0d730ef2a1caa45">&#9670;&nbsp;</a></span>pageManager_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPageManager.html">PageManager</a> Editor::pageManager_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="classEditor.html#af3dd45fa9edd1a3745d55b94410a3a2f">erasePage()</a>, and <a class="el" href="classEditor.html#aa680f795e6e46fe63a2ed6798e138d78">readPage()</a>.</p>
+
+</div>
+</div>
 <a id="af9e294c617b2db0a74cbba0c8e7f75f1" name="af9e294c617b2db0a74cbba0c8e7f75f1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af9e294c617b2db0a74cbba0c8e7f75f1">&#9670;&nbsp;</a></span>path_</h2>
 
@@ -1467,7 +1589,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classEditor.html#aa7dc8544e104c680c9d2515f442a136b">close()</a>, <a class="el" href="classEditor.html#a67c3771f1f11f2eecc66b920c4a61651">openProject()</a>, and <a class="el" href="classEditor.html#a4f8c0b6fd9b845cc713b5e36ca2ad384">save()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classEditor.html#aa7dc8544e104c680c9d2515f442a136b">close()</a>, <a class="el" href="classEditor.html#a67c3771f1f11f2eecc66b920c4a61651">openProject()</a>, and <a class="el" href="classEditor.html#a6a8e9ee94e9f5aa81d572569cff2dce7">saveProject()</a>.</p>
 
 </div>
 </div>
@@ -1491,7 +1613,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classEditor.html#a67c3771f1f11f2eecc66b920c4a61651">openProject()</a>, <a class="el" href="classEditor.html#a4f8c0b6fd9b845cc713b5e36ca2ad384">save()</a>, and <a class="el" href="classEditor.html#a44d6145f2efe3944e316421d47b79d12">setSettingsView()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classEditor.html#a67c3771f1f11f2eecc66b920c4a61651">openProject()</a>, <a class="el" href="classEditor.html#a6a8e9ee94e9f5aa81d572569cff2dce7">saveProject()</a>, and <a class="el" href="classEditor.html#a44d6145f2efe3944e316421d47b79d12">setSettingsView()</a>.</p>
 
 </div>
 </div>
@@ -1515,7 +1637,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classEditor.html#aa7dc8544e104c680c9d2515f442a136b">close()</a>, <a class="el" href="classEditor.html#a38163856229855b52efe3756c0597d09">openDataset()</a>, <a class="el" href="classEditor.html#a4f8c0b6fd9b845cc713b5e36ca2ad384">save()</a>, <a class="el" href="classEditor.html#ab1649227496aec5969ef8a7e5132429c">setClassifications()</a>, <a class="el" href="classEditor.html#ad04484d56d18d9da2218a36038f87e69">setDatasets()</a>, <a class="el" href="classEditor.html#a0be692fcb710fb01f42195f212b12567">setLayers()</a>, and <a class="el" href="classEditor.html#a44d6145f2efe3944e316421d47b79d12">setSettingsView()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classEditor.html#aa7dc8544e104c680c9d2515f442a136b">close()</a>, <a class="el" href="classEditor.html#a38163856229855b52efe3756c0597d09">openDataset()</a>, <a class="el" href="classEditor.html#a6a8e9ee94e9f5aa81d572569cff2dce7">saveProject()</a>, <a class="el" href="classEditor.html#ab1649227496aec5969ef8a7e5132429c">setClassifications()</a>, <a class="el" href="classEditor.html#ad04484d56d18d9da2218a36038f87e69">setDatasets()</a>, <a class="el" href="classEditor.html#a0be692fcb710fb01f42195f212b12567">setLayers()</a>, and <a class="el" href="classEditor.html#a44d6145f2efe3944e316421d47b79d12">setSettingsView()</a>.</p>
 
 </div>
 </div>
@@ -1539,31 +1661,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="classEditor.html#aa7dc8544e104c680c9d2515f442a136b">close()</a>, <a class="el" href="classEditor.html#aa98a250743a55b67204bb5aceb1099c9">setClassificationsFilter()</a>, <a class="el" href="classEditor.html#a4fdff42c4c102fba2dac842f5abbf7aa">setClipFilter()</a>, <a class="el" href="classEditor.html#a1673e23e6ed9aff37334bbf2e418c106">setDatasetsFilter()</a>, <a class="el" href="classEditor.html#ad2822a5b71aca1092cd2555b1b1ccafb">setDensityRange()</a>, <a class="el" href="classEditor.html#a3cdb4ed7458abba28cac29f306894ce1">setDescriptorRange()</a>, <a class="el" href="classEditor.html#a69bd7fe0c97aac96361257ddd2fea180">setElevationRange()</a>, <a class="el" href="classEditor.html#a6f0011d0e79cd07fe15f98d42dd51ceb">setLayersFilter()</a>, <a class="el" href="classEditor.html#ad207e51af81163ce768b57e4001fb896">updateAfterRead()</a>, and <a class="el" href="classEditor.html#aeaff6e79fd0bf322635814ca1ce259da">viewportsResize()</a>.</p>
-
-</div>
-</div>
-<a id="a14c69f859e95fa20f2c40ea6b9a9138b" name="a14c69f859e95fa20f2c40ea6b9a9138b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14c69f859e95fa20f2c40ea6b9a9138b">&#9670;&nbsp;</a></span>voxels_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classVoxels.html">Voxels</a> Editor::voxels_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="classEditor.html#aa7dc8544e104c680c9d2515f442a136b">close()</a>, and <a class="el" href="classEditor.html#a80c8620584cd919be40b2017bcf2e34d">setVoxels()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="classEditor.html#aa7dc8544e104c680c9d2515f442a136b">close()</a>, <a class="el" href="classEditor.html#aa98a250743a55b67204bb5aceb1099c9">setClassificationsFilter()</a>, <a class="el" href="classEditor.html#a4fdff42c4c102fba2dac842f5abbf7aa">setClipFilter()</a>, <a class="el" href="classEditor.html#a1673e23e6ed9aff37334bbf2e418c106">setDatasetsFilter()</a>, <a class="el" href="classEditor.html#ad6f2246c802e6c75d7af28a78faaeb26">setDescriptorFilter()</a>, <a class="el" href="classEditor.html#af272829e5c842cf2375d3bdc410485b6">setElevationFilter()</a>, <a class="el" href="classEditor.html#a6f0011d0e79cd07fe15f98d42dd51ceb">setLayersFilter()</a>, <a class="el" href="classEditor.html#ad207e51af81163ce768b57e4001fb896">updateAfterRead()</a>, and <a class="el" href="classEditor.html#aeaff6e79fd0bf322635814ca1ce259da">viewportsResize()</a>.</p>
 
 </div>
 </div>

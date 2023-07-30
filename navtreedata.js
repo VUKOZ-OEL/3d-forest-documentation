@@ -25,7 +25,16 @@
 var NAVTREE =
 [
   [ "3D Forest", "index.html", [
-    [ "User Manual", "3d-forest-user-manual.html", null ],
+    [ "User Manual", "3d-forest-user-manual.html", [
+      [ "Tools", "3d-forest-user-manual.html#tools", [
+        [ "Automatic Segmentation Tool", "3d-forest-user-manual.html#tools-segmentation", [
+          [ "Segmentation Overview", "3d-forest-user-manual.html#tools-segmentation-overview", null ],
+          [ "Segmentation Steps", "3d-forest-user-manual.html#tools-segmentation-steps", null ],
+          [ "Segmentation GUI", "3d-forest-user-manual.html#tools-segmentation-gui", null ],
+          [ "Segmentation Algorithm", "3d-forest-user-manual.html#tools-segmentation-algorithm", null ]
+        ] ]
+      ] ]
+    ] ],
     [ "Developer Guide", "3d-forest-developer-guide.html", [
       [ "Git", "3d-forest-developer-guide.html#git", [
         [ "Get the Source Code", "3d-forest-developer-guide.html#git-get-code", null ],
@@ -88,6 +97,7 @@ var NAVTREE =
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", "functions_vars" ],
+        [ "Typedefs", "functions_type.html", null ],
         [ "Enumerations", "functions_enum.html", null ],
         [ "Enumerator", "functions_eval.html", null ],
         [ "Related Functions", "functions_rela.html", null ]
@@ -99,15 +109,16 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "3d-forest-developer-guide.html",
-"classDatasets.html#a9a0dda7a56827b732a8c3298749c4c04",
-"classExportFileDialog.html#acd72fcb7d8937643bfb783e8d5ecba30",
-"classIndexFileBuilder.html#a4e47dd0050965ab6df680b7f3a9de815",
-"classLogThread.html#affed7e1b2bfed266f380159a803da5c8",
-"classProjectNavigatorItemClassifications.html#acf073c5f3e593ef9e6871401eff7ce8b",
-"classQuery.html#a7e11ffea099daae843ed4244ba14b14b",
-"classSegmentationThread.html#a9c37df75e73dbf7118a6540694b0e856",
-"classVector3.html#ae78c22f637866f014d0d7112aabf6d0d",
-"classVoxels.html#a445ca78892024b9e4eb2e82961597772"
+"classCylinder.html",
+"classEditor.html#abc3de124c1b770afe56114111fee9a9e",
+"classExplorerPlugin.html#a96fda336f8229d24b637e927b4991510",
+"classIndexFile.html#a57f30bee5e85a9c05a8873ee66932d70",
+"classLayer.html#a177968fd428fe390f34ab1b4138289f0",
+"classPage.html#a8e08c8b9f66f766915c1d86adf994763",
+"classQuery.html#abf624b3cc4cea5b32e3f5a1cc838b043",
+"classSettingsPlugin.html#a64752dc58af2aa31f86d2c6dc179a802",
+"classVectorFile_1_1Page.html#ad674308dd174ca6b678b37c1aa308e98",
+"functions_func_t.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

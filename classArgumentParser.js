@@ -6,6 +6,8 @@ var classArgumentParser =
     [ "add", "classArgumentParser.html#a818b6ca6344a7107be453db0ec586329", null ],
     [ "contains", "classArgumentParser.html#a0627cff137bb0275ea2f8e149fed605e", null ],
     [ "parse", "classArgumentParser.html#a9e69fb2d04a487cf4382534521a43e54", null ],
+    [ "read", "classArgumentParser.html#a47768c788414b6959b639c2994a12eb1", null ],
+    [ "toBool", "classArgumentParser.html#afdb6f610ad31e9d04a3fff9848f82ecb", null ],
     [ "toDouble", "classArgumentParser.html#a5207ed4259fcf85cecad0eb487410272", null ],
     [ "toFloat", "classArgumentParser.html#ac834ff9f73444baec6ba1358233803a7", null ],
     [ "toInt", "classArgumentParser.html#a646ba53d127631c16c16d2dc2d842a44", null ],
