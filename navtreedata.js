@@ -27,6 +27,11 @@ var NAVTREE =
   [ "3D Forest", "index.html", [
     [ "User Manual", "3d-forest-user-manual.html", [
       [ "Tools", "3d-forest-user-manual.html#tools", [
+        [ "Classification Tool", "3d-forest-user-manual.html#tools-classification", [
+          [ "Classification Overview", "3d-forest-user-manual.html#tools-classification-overview", null ],
+          [ "Classification GUI", "3d-forest-user-manual.html#tools-classification-gui", null ],
+          [ "Classification Algorithm", "3d-forest-user-manual.html#tools-classification-algorithm", null ]
+        ] ],
         [ "Automatic Segmentation Tool", "3d-forest-user-manual.html#tools-segmentation", [
           [ "Segmentation Overview", "3d-forest-user-manual.html#tools-segmentation-overview", null ],
           [ "Segmentation Steps", "3d-forest-user-manual.html#tools-segmentation-steps", null ],
@@ -109,16 +114,16 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "3d-forest-developer-guide.html",
-"classCylinder.html",
-"classEditor.html#abc3de124c1b770afe56114111fee9a9e",
-"classExplorerPlugin.html#a96fda336f8229d24b637e927b4991510",
-"classIndexFile.html#a57f30bee5e85a9c05a8873ee66932d70",
-"classLayer.html#a177968fd428fe390f34ab1b4138289f0",
-"classPage.html#a8e08c8b9f66f766915c1d86adf994763",
-"classQuery.html#abf624b3cc4cea5b32e3f5a1cc838b043",
-"classSettingsPlugin.html#a64752dc58af2aa31f86d2c6dc179a802",
-"classVectorFile_1_1Page.html#ad674308dd174ca6b678b37c1aa308e98",
-"functions_func_t.html"
+"classCone.html#ae23be68b96cda9c18b0807826f23e800",
+"classEditor.html#ab1649227496aec5969ef8a7e5132429c",
+"classExplorerPlugin.html#a4356469ae9ec77816d31c4057b4568d4",
+"classIndexFile.html#a46fffba9f1ee3503dbc1c28100afb5c2",
+"classLasFile_1_1Format.html#af913e3a4ef4c208f2b5550b4141534d3",
+"classPage.html#a6c82cf58b772419f405257fc02db42a0",
+"classQuery.html#ab3b2d9bba622a9b778286012450f6b77",
+"classSettingsImport.html#ae6cf694787cf1ef7cd8bec950fafd09a",
+"classVectorFile.html#ae439371adb90bfdd95c50eba1efa29b0",
+"functions_func_p.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

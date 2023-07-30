@@ -62,6 +62,42 @@ $(document).ready(function(){initNavTree('3d-forest-user-manual.html',''); initR
 3D Forest application</div></div>
 <h1><a class="anchor" id="tools"></a>
 Tools</h1>
+<h2><a class="anchor" id="tools-classification"></a>
+Classification Tool</h2>
+<h3><a class="anchor" id="tools-classification-overview"></a>
+Classification Overview</h3>
+<p >This tool calculates classification of ground points. It uses new algorithm which is specialized to classify LiDAR point clouds of complex natural forest environments. The algorithm is based on global minimum to deal with missing data in non scanned or obstructed parts. <br  />
+</p>
+<div class="image">
+<img src="3d-forest-classification.png" alt=""/>
+<div class="caption">
+3D Forest Classification: Example dataset with classified ground.</div></div>
+<h3><a class="anchor" id="tools-classification-gui"></a>
+Classification GUI</h3>
+<div class="image">
+<img src="3d-forest-classification-gui.png" alt=""/>
+<div class="caption">
+3D Forest Classification GUI</div></div>
+<h3><a class="anchor" id="tools-classification-algorithm"></a>
+Classification Algorithm</h3>
+<ol>
+<li>
+Voxelize the dataset. </li>
+<li>
+Find voxel with minimal z coordinate and append this voxel to working set W. </li>
+<li>
+While W is not processed, append other voxels in search radius from each new voxel in W, if selection cone given by maximal ground angle and their position does not contain any voxels, eg. there is nothing below. Voxel is marked as processed when it searched for its neighbors. </li>
+<li>
+All voxels in W are classified as ground points. </li>
+<li>
+Voxel values are applied back to the dataset. </li>
+</ol>
+<p><br  />
+</p>
+<div class="image">
+<img src="3d-forest-classification-algorithm.png" alt=""/>
+<div class="caption">
+3D Forest Classification Algorithm</div></div>
 <h2><a class="anchor" id="tools-segmentation"></a>
 Automatic Segmentation Tool</h2>
 <h3><a class="anchor" id="tools-segmentation-overview"></a>
@@ -110,7 +146,7 @@ Set layer value of all voxels in this voxel group to layer value from terminatin
 <p><br  />
 </p>
 <div class="image">
-<img src="3d-forest-segmentation-alg.png" alt=""/>
+<img src="3d-forest-segmentation-algorithm.png" alt=""/>
 <div class="caption">
 3D Forest: Top: The first step is segmentation of trunks. 'Descriptor threshold' is set to 0.5 (50 %). Bottom: The second step is segmentation of leaves and small branches which are connected to some trunk.</div></div>
  </div></div><!-- contents -->

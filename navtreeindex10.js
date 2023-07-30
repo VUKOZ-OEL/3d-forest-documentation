@@ -1,5 +1,9 @@
 var NAVTREEINDEX10 =
 {
+"functions_func_p.html":[2,2,1,15],
+"functions_func_q.html":[2,2,1,16],
+"functions_func_r.html":[2,2,1,17],
+"functions_func_s.html":[2,2,1,18],
 "functions_func_t.html":[2,2,1,19],
 "functions_func_u.html":[2,2,1,20],
 "functions_func_v.html":[2,2,1,21],

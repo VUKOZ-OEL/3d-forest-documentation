@@ -1,5 +1,9 @@
 var NAVTREEINDEX8 =
 {
+"classSettingsImport.html#ae6cf694787cf1ef7cd8bec950fafd09a":[2,0,101,4],
+"classSettingsPlugin.html":[2,0,102],
+"classSettingsPlugin.html#a0598ca18d8c18b97d050609a14e4ca26":[2,0,102,1],
+"classSettingsPlugin.html#a20a3e6704691f69ac03b8f13f64b7a8f":[2,0,102,5],
 "classSettingsPlugin.html#a64752dc58af2aa31f86d2c6dc179a802":[2,0,102,3],
 "classSettingsPlugin.html#abf0ea1f0ed0e9203fb2c8dc74da6f62d":[2,0,102,2],
 "classSettingsPlugin.html#aced82b5833ebbfd24d09a88bef46c3e1":[2,0,102,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX8 =
 "classVectorFile.html#ad1e5fe8588d5a244a948d5e9ae1f7ee1":[2,0,118,8],
 "classVectorFile.html#ad5c46b857b92ffe044bccd2b020e7ed9":[2,0,118,14],
 "classVectorFile.html#ad61aad2d222bd4c9aefd509717010c10":[2,0,118,27],
-"classVectorFile.html#ae281fa0c265d9c24f3b8a9f128999698":[2,0,118,21],
-"classVectorFile.html#ae439371adb90bfdd95c50eba1efa29b0":[2,0,118,7],
-"classVectorFile_1_1Page.html":[2,0,118,0],
-"classVectorFile_1_1Page.html#a96335e68e03072332f3b828e8e7794e9":[2,0,118,0,3],
-"classVectorFile_1_1Page.html#acc0282e7cf27efac32f39f78a9505953":[2,0,118,0,1]
+"classVectorFile.html#ae281fa0c265d9c24f3b8a9f128999698":[2,0,118,21]
 };

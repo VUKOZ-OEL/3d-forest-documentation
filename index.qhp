@@ -8,6 +8,11 @@
 <section title="3D Forest" ref="index.html">
 <section title="User Manual" ref="3d-forest-user-manual.html">
 <section title="Tools" ref="3d-forest-user-manual.html#tools">
+<section title="Classification Tool" ref="3d-forest-user-manual.html#tools-classification">
+<section title="Classification Overview" ref="3d-forest-user-manual.html#tools-classification-overview"/>
+<section title="Classification GUI" ref="3d-forest-user-manual.html#tools-classification-gui"/>
+<section title="Classification Algorithm" ref="3d-forest-user-manual.html#tools-classification-algorithm"/>
+</section>
 <section title="Automatic Segmentation Tool" ref="3d-forest-user-manual.html#tools-segmentation">
 <section title="Segmentation Overview" ref="3d-forest-user-manual.html#tools-segmentation-overview"/>
 <section title="Segmentation Steps" ref="3d-forest-user-manual.html#tools-segmentation-steps"/>
@@ -5904,9 +5909,12 @@
 <keyword name="~Viewports()" id="Viewports::~Viewports_ac1fa3d3adc3ba0931b43958ed3b9a17e" ref="classViewports.html#ac1fa3d3adc3ba0931b43958ed3b9a17e"/>
 </keywords>
 <files>
+<file>3d-forest-classification-algorithm.png</file>
+<file>3d-forest-classification-gui.png</file>
+<file>3d-forest-classification.png</file>
 <file>3d-forest-developer-guide.html</file>
 <file>3d-forest-macos.png</file>
-<file>3d-forest-segmentation-alg.png</file>
+<file>3d-forest-segmentation-algorithm.png</file>
 <file>3d-forest-segmentation-gui.png</file>
 <file>3d-forest-segmentation-steps.png</file>
 <file>3d-forest-segmentation.png</file>
