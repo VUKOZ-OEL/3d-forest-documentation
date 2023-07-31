@@ -11,13 +11,24 @@
 <section title="Classification Tool" ref="3d-forest-user-manual.html#tools-classification">
 <section title="Classification Overview" ref="3d-forest-user-manual.html#tools-classification-overview"/>
 <section title="Classification GUI" ref="3d-forest-user-manual.html#tools-classification-gui"/>
-<section title="Classification Algorithm" ref="3d-forest-user-manual.html#tools-classification-algorithm"/>
+<section title="Ground Classification Algorithm" ref="3d-forest-user-manual.html#tools-classification-algorithm"/>
+</section>
+<section title="Descriptor Tool" ref="3d-forest-user-manual.html#tools-descriptor">
+<section title="Descriptor Tool Overview" ref="3d-forest-user-manual.html#tools-descriptor-overview"/>
+<section title="Descriptor Tool GUI" ref="3d-forest-user-manual.html#tools-descriptor-gui"/>
+<section title="Density Descriptor Algorithm" ref="3d-forest-user-manual.html#tools-descriptor-algorithm-density"/>
+<section title="PCA Intensity Descriptor Algorithm" ref="3d-forest-user-manual.html#tools-descriptor-algorithm-pca-intensity"/>
+</section>
+<section title="Elevation Tool" ref="3d-forest-user-manual.html#tools-elevation">
+<section title="Elevation Overview" ref="3d-forest-user-manual.html#tools-elevation-overview"/>
+<section title="Elevation Tool GUI" ref="3d-forest-user-manual.html#tools-elevation-gui"/>
+<section title="3D Point Elevation Algorithm Above Ground" ref="3d-forest-user-manual.html#tools-elevation-algorithm"/>
 </section>
 <section title="Automatic Segmentation Tool" ref="3d-forest-user-manual.html#tools-segmentation">
 <section title="Segmentation Overview" ref="3d-forest-user-manual.html#tools-segmentation-overview"/>
 <section title="Segmentation Steps" ref="3d-forest-user-manual.html#tools-segmentation-steps"/>
 <section title="Segmentation GUI" ref="3d-forest-user-manual.html#tools-segmentation-gui"/>
-<section title="Segmentation Algorithm" ref="3d-forest-user-manual.html#tools-segmentation-algorithm"/>
+<section title="Tree Segmentation Algorithm" ref="3d-forest-user-manual.html#tools-segmentation-algorithm"/>
 </section>
 </section>
 </section>
@@ -5912,7 +5923,11 @@
 <file>3d-forest-classification-algorithm.png</file>
 <file>3d-forest-classification-gui.png</file>
 <file>3d-forest-classification.png</file>
+<file>3d-forest-descriptor-density.png</file>
+<file>3d-forest-descriptor-gui.png</file>
 <file>3d-forest-developer-guide.html</file>
+<file>3d-forest-elevation-gui.png</file>
+<file>3d-forest-elevation.png</file>
 <file>3d-forest-macos.png</file>
 <file>3d-forest-segmentation-algorithm.png</file>
 <file>3d-forest-segmentation-gui.png</file>

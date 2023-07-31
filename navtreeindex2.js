@@ -1,5 +1,14 @@
 var NAVTREEINDEX2 =
 {
+"classEditor.html#a9ecda11933059d31ea06105810011dee":[2,0,23,10],
+"classEditor.html#a9fe765fcb0f461bf1380290ca2df8dda":[2,0,23,53],
+"classEditor.html#aa1fa3644ca2b631ecba682207077cec1":[2,0,23,38],
+"classEditor.html#aa4d63d7e37383e9bc541a21925989e23":[2,0,23,18],
+"classEditor.html#aa58a2b6b0b4568092ede1f1e4f1edf9c":[2,0,23,17],
+"classEditor.html#aa680f795e6e46fe63a2ed6798e138d78":[2,0,23,24],
+"classEditor.html#aa7dc8544e104c680c9d2515f442a136b":[2,0,23,9],
+"classEditor.html#aa98a250743a55b67204bb5aceb1099c9":[2,0,23,29],
+"classEditor.html#aaedd69837f2e8847c0d730ef2a1caa45":[2,0,23,55],
 "classEditor.html#ab1649227496aec5969ef8a7e5132429c":[2,0,23,28],
 "classEditor.html#ab86b61dc6b177e79fab2d1926ee1323c":[2,0,23,39],
 "classEditor.html#ab92648c48738b6b969a542b16a9cdad4":[2,0,23,41],
@@ -240,14 +249,5 @@ var NAVTREEINDEX2 =
 "classExplorerLayersWidget.html#a9c4da4f8a1eac14c4044347694269461":[2,0,35,29],
 "classExplorerLayersWidget.html#aa667e2d35d71ce1b925e468c8b0b6190":[2,0,35,14],
 "classExplorerLayersWidget.html#aa725bcf49e4529735c0deb153404b704":[2,0,35,27],
-"classExplorerLayersWidget.html#aafb52e069a75b6f2a16b49068a7e7316":[2,0,35,26],
-"classExplorerLayersWidget.html#ab3911e8ee0c701a792ea67271a8a3535":[2,0,35,6],
-"classExplorerLayersWidget.html#abdf443dbf9cf0edae07713b81104671f":[2,0,35,25],
-"classExplorerLayersWidget.html#ad8faa6f271e8083439b7c973f6f0f876":[2,0,35,36],
-"classExplorerLayersWidget.html#ada7617f75948da18126f06f99ae892bb":[2,0,35,0],
-"classExplorerLayersWidget.html#ada7617f75948da18126f06f99ae892bba05c0d8ade3c7a11b0bcaeff24df8ac61":[2,0,35,0,2],
-"classExplorerLayersWidget.html#ada7617f75948da18126f06f99ae892bba0f1970597a68db8836e5d2e51a855a78":[2,0,35,0,0],
-"classExplorerLayersWidget.html#ada7617f75948da18126f06f99ae892bba68d9502670003c975ddab42c2c5cdc67":[2,0,35,0,3],
-"classExplorerLayersWidget.html#ada7617f75948da18126f06f99ae892bbaddb47fdf4077ab8fc19cdbc9bf24d34d":[2,0,35,0,1],
-"classExplorerPlugin.html":[2,0,36]
+"classExplorerLayersWidget.html#aafb52e069a75b6f2a16b49068a7e7316":[2,0,35,26]
 };

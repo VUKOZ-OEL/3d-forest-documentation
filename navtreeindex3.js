@@ -1,5 +1,14 @@
 var NAVTREEINDEX3 =
 {
+"classExplorerLayersWidget.html#ab3911e8ee0c701a792ea67271a8a3535":[2,0,35,6],
+"classExplorerLayersWidget.html#abdf443dbf9cf0edae07713b81104671f":[2,0,35,25],
+"classExplorerLayersWidget.html#ad8faa6f271e8083439b7c973f6f0f876":[2,0,35,36],
+"classExplorerLayersWidget.html#ada7617f75948da18126f06f99ae892bb":[2,0,35,0],
+"classExplorerLayersWidget.html#ada7617f75948da18126f06f99ae892bba05c0d8ade3c7a11b0bcaeff24df8ac61":[2,0,35,0,2],
+"classExplorerLayersWidget.html#ada7617f75948da18126f06f99ae892bba0f1970597a68db8836e5d2e51a855a78":[2,0,35,0,0],
+"classExplorerLayersWidget.html#ada7617f75948da18126f06f99ae892bba68d9502670003c975ddab42c2c5cdc67":[2,0,35,0,3],
+"classExplorerLayersWidget.html#ada7617f75948da18126f06f99ae892bbaddb47fdf4077ab8fc19cdbc9bf24d34d":[2,0,35,0,1],
+"classExplorerPlugin.html":[2,0,36],
 "classExplorerPlugin.html#a4356469ae9ec77816d31c4057b4568d4":[2,0,36,5],
 "classExplorerPlugin.html#a5cda9b168abd5402285efe3596fa48bd":[2,0,36,3],
 "classExplorerPlugin.html#a89cfd5fd26c95c0764605bad4e1c3f50":[2,0,36,1],
@@ -240,14 +249,5 @@ var NAVTREEINDEX3 =
 "classIndexFile.html#a0dbebe7843959f92bcd5cef5708e3759":[2,0,54,27],
 "classIndexFile.html#a109f5dc1c0f6589efa72a7db24c55dfe":[2,0,54,44],
 "classIndexFile.html#a11bd1beb96fdf52ccfe55459bb665fca":[2,0,54,9],
-"classIndexFile.html#a11f5d47fbe8704b47452a89eb0721763":[2,0,54,47],
-"classIndexFile.html#a1adaef1617cbfd2d24b0b489661362d7":[2,0,54,36],
-"classIndexFile.html#a1e6a82cbcac3e7dfdb33419ca39c8c14":[2,0,54,42],
-"classIndexFile.html#a262b429ff3e52d0100631a64661ff524":[2,0,54,37],
-"classIndexFile.html#a2b8df0c7a66004831e58a739d62311fb":[2,0,54,7],
-"classIndexFile.html#a3036fdfae74c3a0223c98f82061c2e09":[2,0,54,18],
-"classIndexFile.html#a3e6179daa1d2604e3f20541baf07c83e":[2,0,54,22],
-"classIndexFile.html#a3f7cd0151608a7989a862f7b36ec0c68":[2,0,54,38],
-"classIndexFile.html#a3f7f3e5d216848e937034f98627dbfa9":[2,0,54,25],
-"classIndexFile.html#a4430ff0a614e44df38a78fa4e0ed02c8":[2,0,54,50]
+"classIndexFile.html#a11f5d47fbe8704b47452a89eb0721763":[2,0,54,47]
 };

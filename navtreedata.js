@@ -30,13 +30,24 @@ var NAVTREE =
         [ "Classification Tool", "3d-forest-user-manual.html#tools-classification", [
           [ "Classification Overview", "3d-forest-user-manual.html#tools-classification-overview", null ],
           [ "Classification GUI", "3d-forest-user-manual.html#tools-classification-gui", null ],
-          [ "Classification Algorithm", "3d-forest-user-manual.html#tools-classification-algorithm", null ]
+          [ "Ground Classification Algorithm", "3d-forest-user-manual.html#tools-classification-algorithm", null ]
+        ] ],
+        [ "Descriptor Tool", "3d-forest-user-manual.html#tools-descriptor", [
+          [ "Descriptor Tool Overview", "3d-forest-user-manual.html#tools-descriptor-overview", null ],
+          [ "Descriptor Tool GUI", "3d-forest-user-manual.html#tools-descriptor-gui", null ],
+          [ "Density Descriptor Algorithm", "3d-forest-user-manual.html#tools-descriptor-algorithm-density", null ],
+          [ "PCA Intensity Descriptor Algorithm", "3d-forest-user-manual.html#tools-descriptor-algorithm-pca-intensity", null ]
+        ] ],
+        [ "Elevation Tool", "3d-forest-user-manual.html#tools-elevation", [
+          [ "Elevation Overview", "3d-forest-user-manual.html#tools-elevation-overview", null ],
+          [ "Elevation Tool GUI", "3d-forest-user-manual.html#tools-elevation-gui", null ],
+          [ "3D Point Elevation Algorithm Above Ground", "3d-forest-user-manual.html#tools-elevation-algorithm", null ]
         ] ],
         [ "Automatic Segmentation Tool", "3d-forest-user-manual.html#tools-segmentation", [
           [ "Segmentation Overview", "3d-forest-user-manual.html#tools-segmentation-overview", null ],
           [ "Segmentation Steps", "3d-forest-user-manual.html#tools-segmentation-steps", null ],
           [ "Segmentation GUI", "3d-forest-user-manual.html#tools-segmentation-gui", null ],
-          [ "Segmentation Algorithm", "3d-forest-user-manual.html#tools-segmentation-algorithm", null ]
+          [ "Tree Segmentation Algorithm", "3d-forest-user-manual.html#tools-segmentation-algorithm", null ]
         ] ]
       ] ]
     ] ],
@@ -114,16 +125,16 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "3d-forest-developer-guide.html",
-"classCone.html#ae23be68b96cda9c18b0807826f23e800",
-"classEditor.html#ab1649227496aec5969ef8a7e5132429c",
-"classExplorerPlugin.html#a4356469ae9ec77816d31c4057b4568d4",
-"classIndexFile.html#a46fffba9f1ee3503dbc1c28100afb5c2",
-"classLasFile_1_1Format.html#af913e3a4ef4c208f2b5550b4141534d3",
-"classPage.html#a6c82cf58b772419f405257fc02db42a0",
-"classQuery.html#ab3b2d9bba622a9b778286012450f6b77",
-"classSettingsImport.html#ae6cf694787cf1ef7cd8bec950fafd09a",
-"classVectorFile.html#ae439371adb90bfdd95c50eba1efa29b0",
-"functions_func_p.html"
+"classCone.html#a1302e82074a4da1d63ee5dbd0350a2b2",
+"classEditor.html#a9ecda11933059d31ea06105810011dee",
+"classExplorerLayersWidget.html#ab3911e8ee0c701a792ea67271a8a3535",
+"classIndexFile.html#a1adaef1617cbfd2d24b0b489661362d7",
+"classLasFile.html#ae02cfc5614e4620601a51f01439e0905",
+"classPage.html#a40bbacd4e58818a225f0eca420691ec2",
+"classQuery.html#aa0db33f35f4bb68ada5c356a57204424",
+"classSettingsColorWidget.html#aeeb03a843ad2137291c2d6ca6879246b",
+"classVectorFile.html#abb0c95b1666de4dc36ce1cd122a37f10",
+"functions_func_g.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
