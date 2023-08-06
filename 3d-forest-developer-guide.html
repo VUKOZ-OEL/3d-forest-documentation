@@ -121,6 +121,10 @@ Commands</h2>
 <h1><a class="anchor" id="build-linux-make"></a>
 Build from Source Code in Linux with "Unix Makefiles"</h1>
 <p >The code uses C++17, CMake, Qt5/Qt6 and OpenGL which will be installed in the following steps. Qt and OpenGL are required only for GUI desktop application.</p>
+<div class="image">
+<img src="3d-forest-linux.png" alt=""/>
+<div class="caption">
+3D Forest application on Debian 12 (with LXQt desktop)</div></div>
 <h2><a class="anchor" id="build-linux-make-qt"></a>
 Install Qt</h2>
 <ul>
@@ -128,12 +132,12 @@ Install Qt</h2>
 <li>Clicked "Downloads for open source users" button in "Go open source"</li>
 <li>Clicked "Download the Qt Online Installer" button in bottom section of the page "Looking for Qt binaries"</li>
 <li>Recommended download was "Qt Online Installer for Linux (64-bit)"</li>
-<li>"Download" button saved file "qt-unified-linux-x64-4.1.1-online.run"</li>
+<li>"Download" button saved file "qt-unified-linux-x64-4.6.0-online.run"</li>
 </ul>
 </li>
 <li>Run the installer<ul>
 <li>Checked "make file executable" in file properties of downloaded file</li>
-<li>Open "qt-unified-linux-x64-4.1.1-online.run", shows "Qt Setup" window</li>
+<li>Open "qt-unified-linux-x64-4.6.0-online.run", shows "Qt Setup" window</li>
 <li>Entered Qt Account Email and Password, "Next"</li>
 <li>Checked "I have read" and "I am an individual person", "Next", "Next"</li>
 <li>"/home/user/Qt" is directory where Qt will be installed, default</li>
@@ -141,6 +145,7 @@ Install Qt</h2>
 <li>Additionally checked: Qt - Qt 5.15.2 - Desktop gcc 64-bit</li>
 <li>Additionally checked: Qt - Qt 5.15.2 - Sources</li>
 <li>"Next", "Install", the installation took 13 minutes</li>
+<li>Qt installation will use 5.74 GB of disk space</li>
 </ul>
 </li>
 </ul>
@@ -148,9 +153,10 @@ Install Qt</h2>
 Installation of other tools: OpenGL and CMake from a terminal</h2>
 <pre class="fragment">    $ sudo apt-get update
     $ sudo apt install mesa-common-dev libglu1-mesa-dev
-    $ sudo apt install cmake</pre><h2><a class="anchor" id="build-linux-make-gcc"></a>
+    $ sudo apt install cmake
+    $ sudo apt install git</pre><h2><a class="anchor" id="build-linux-make-gcc"></a>
 Installation of other tools: gcc, g++, make, libc6-dev, etc.</h2>
-<pre class="fragment">    $ sudo apt-get install build-essential</pre><h2><a class="anchor" id="build-linux-make-3dforest"></a>
+<pre class="fragment">    $ sudo apt install build-essential</pre><h2><a class="anchor" id="build-linux-make-3dforest"></a>
 Build 3D Forest</h2>
 <ol type="1">
 <li>Get 3D Forest source code <pre class="fragment">    $ cd /home/user/
@@ -163,7 +169,7 @@ Build 3D Forest</h2>
     $ make
     $ make install</pre></li>
 <li>Start 3D Forest application <pre class="fragment">    $ cd /home/user/3d-forest/bin
-    $ LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/user/3d-forest/bin:/home/user/Qt/5.15.2/gcc_64/lib ./3dforest</pre></li>
+    $ LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/user/3d-forest/bin:/home/user/Qt/5.15.2/gcc_64/lib ./3DForest</pre></li>
 <li>We can open example project "project.json" from directory "/home/user/3d-forest/data"</li>
 <li>We can see that we did not store modified PATH and LD_LIBRARY_PATH to user or system variables. One could modify "/home/&lt;user&gt;/.bashrc" or "/home/&lt;user&gt;/.profile" to make the change persistent.</li>
 </ol>
