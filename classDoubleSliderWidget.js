@@ -13,10 +13,13 @@ var classDoubleSliderWidget =
     [ "setMinimum", "classDoubleSliderWidget.html#ae36cb31ff88f8bcef70db6e6f50d0957", null ],
     [ "setValue", "classDoubleSliderWidget.html#aa8eb49d74dce1fa2fa8f9d98d38c5723", null ],
     [ "signalFinalValue", "classDoubleSliderWidget.html#a3486925c0fd8bc59f95643af670b7738", null ],
-    [ "signalIntermediateValue", "classDoubleSliderWidget.html#ab51511989c72b4c5c4fe6f5e5b219698", null ],
+    [ "signalIntermediateValue", "classDoubleSliderWidget.html#af2593400e4bc6568c609130e6ef305a5", null ],
     [ "slotFinalValue", "classDoubleSliderWidget.html#ae3b5347216d2be21602c867ede5d30c0", null ],
+    [ "slotIntermediateValue", "classDoubleSliderWidget.html#a647b1cc2c986f0236187c4754344cee4", null ],
     [ "slotIntermediateValue", "classDoubleSliderWidget.html#afcf251064caa82d16d80db732067a209", null ],
     [ "value", "classDoubleSliderWidget.html#ae7e9e55af7543a1c4752cddfcf56d506", null ],
+    [ "maximumValue_", "classDoubleSliderWidget.html#ad566da86212ba2d47f4e5eea6b988cef", null ],
+    [ "minimumValue_", "classDoubleSliderWidget.html#a506449b0624495ee2779fb54b213be93", null ],
     [ "slider_", "classDoubleSliderWidget.html#af967d34cee92502425b7e65ed6471fc8", null ],
-    [ "spinBox_", "classDoubleSliderWidget.html#a2735c3c17f0db0ce27d0678edef56232", null ]
+    [ "spinBox_", "classDoubleSliderWidget.html#aae9fa631a2ac8a72bb42947983e86979", null ]
 ];

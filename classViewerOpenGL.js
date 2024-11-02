@@ -11,6 +11,9 @@ var classViewerOpenGL =
     [ "render", "classViewerOpenGL.html#a35f776bb63d1c68ea28861297cfe7ac3", null ],
     [ "renderAabb", "classViewerOpenGL.html#abeffb96c002b72eeb537c71e80ed18ad", null ],
     [ "renderAxis", "classViewerOpenGL.html#a51ab68257bbb7d6b5741934d3ff558c2", null ],
+    [ "renderCircle", "classViewerOpenGL.html#ab1088e1a0c305979972d29a780262175", null ],
     [ "renderClipFilter", "classViewerOpenGL.html#a829b53343028954b0c12516734b37a10", null ],
-    [ "renderCylinder", "classViewerOpenGL.html#aeba57d53bdc1efd909dfd98b4dea5946", null ]
+    [ "renderCross", "classViewerOpenGL.html#aa365823818ceb68a5a4a8c114d9bb43d", null ],
+    [ "renderCylinder", "classViewerOpenGL.html#aeba57d53bdc1efd909dfd98b4dea5946", null ],
+    [ "renderLine", "classViewerOpenGL.html#a049f31ae4dfefb17a7ec2eff527473cd", null ]
 ];

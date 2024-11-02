@@ -59,9 +59,8 @@ var NAVTREE =
         [ "Commands", "3d-forest-developer-guide.html#git-commands", null ]
       ] ],
       [ "Build from Source Code in Linux with \"Unix Makefiles\"", "3d-forest-developer-guide.html#build-linux-make", [
+        [ "Install Packages", "3d-forest-developer-guide.html#build-linux-make-apt", null ],
         [ "Install Qt", "3d-forest-developer-guide.html#build-linux-make-qt", null ],
-        [ "Installation of other tools: OpenGL and CMake from a terminal", "3d-forest-developer-guide.html#build-linux-make-opengl", null ],
-        [ "Installation of other tools: gcc, g++, make, libc6-dev, etc.", "3d-forest-developer-guide.html#build-linux-make-gcc", null ],
         [ "Build 3D Forest", "3d-forest-developer-guide.html#build-linux-make-3dforest", null ]
       ] ],
       [ "Build from Source Code in Mac OS with \"Unix Makefiles\"", "3d-forest-developer-guide.html#build-macos-make", [
@@ -74,7 +73,8 @@ var NAVTREE =
         [ "Install git", "3d-forest-developer-guide.html#build-windows-make-git", null ],
         [ "Install msys2 and mingw-w64", "3d-forest-developer-guide.html#build-windows-make-mingw", null ],
         [ "Install Qt", "3d-forest-developer-guide.html#build-windows-make-qt", null ],
-        [ "Build 3D Forest", "3d-forest-developer-guide.html#build-windows-make-3dforest", null ]
+        [ "Build 3D Forest", "3d-forest-developer-guide.html#build-windows-make-3dforest", null ],
+        [ "Development with Visual Studio Code", "3d-forest-developer-guide.html#build-windows-make-vscode-devel", null ]
       ] ],
       [ "Build from Source Code in Windows with Visual Studio", "3d-forest-developer-guide.html#build-windows-visual-studio", [
         [ "Install git", "3d-forest-developer-guide.html#build-windows-visual-studio-git", null ],
@@ -116,7 +116,7 @@ var NAVTREE =
         [ "Typedefs", "functions_type.html", null ],
         [ "Enumerations", "functions_enum.html", null ],
         [ "Enumerator", "functions_eval.html", null ],
-        [ "Related Functions", "functions_rela.html", null ]
+        [ "Related Symbols", "functions_rela.html", null ]
       ] ]
     ] ]
   ] ]
@@ -125,16 +125,18 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "3d-forest-developer-guide.html",
-"classCone.html#a1302e82074a4da1d63ee5dbd0350a2b2",
-"classEditor.html#a9ecda11933059d31ea06105810011dee",
-"classExplorerLayersWidget.html#ab3911e8ee0c701a792ea67271a8a3535",
-"classIndexFile.html#a1adaef1617cbfd2d24b0b489661362d7",
-"classLasFile.html#ae02cfc5614e4620601a51f01439e0905",
-"classPage.html#a40bbacd4e58818a225f0eca420691ec2",
-"classQuery.html#aa0db33f35f4bb68ada5c356a57204424",
-"classSettingsColorWidget.html#aeeb03a843ad2137291c2d6ca6879246b",
-"classVectorFile.html#abb0c95b1666de4dc36ce1cd122a37f10",
-"functions_func_g.html"
+"classComputeClassificationWidget.html#a7b13398f4a10b6fe5902b9884ccb5a77",
+"classComputeSegmentationNNWidget.html#a5d1799c7b8a610c2dbcb99dfe566cf75",
+"classDoubleSliderWidget.html#ac1a0f8317c366d9e4629aa6abeef3a6b",
+"classFilterAreaWindow.html#a34795a427b9a8682109950c2fdb1cc69",
+"classImportFileDialog.html",
+"classJson_1_1Data.html",
+"classNumeric.html#ad8824055ab20b89dee7c1c439fd1010e",
+"classQuery.html#a71eba23c5408a2238c2079b01f05a3e9",
+"classSettings.html",
+"classTreeTableExportCsv.html#a82c4bbf55cb64f5313ea8e6d621fe4c7",
+"classViewerCamera.html#ade6c4f92df50886e9e809aef9f0279b2",
+"functions_z.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

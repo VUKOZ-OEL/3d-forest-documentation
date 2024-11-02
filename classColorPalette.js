@@ -10,6 +10,7 @@ var classColorPalette =
     [ "BlueCyanYellowRed256", "classColorPalette.html#a5f9f0b42846c5c295bb454396e2017d6", null ],
     [ "BlueYellow16", "classColorPalette.html#a44cefc848cd1da490a4ec101f0effb61", null ],
     [ "Classification", "classColorPalette.html#adff4d9024d371ad844d01524eec4cfb0", null ],
+    [ "MPN65", "classColorPalette.html#a6a05b4b46935daa07340195dc462b88a", null ],
     [ "RedBlack16", "classColorPalette.html#a3dc641194d1772c791c0d7c073c08515", null ],
     [ "RedGreen16", "classColorPalette.html#ac1784c54fdd5bac94eaa7503f44a640c", null ],
     [ "RedYellow16", "classColorPalette.html#a37c11254b3ce4581421afb53a4c7cf8f", null ],
