@@ -40,6 +40,7 @@ var classMainWindow =
     [ "APPLICATION_VERSION", "classMainWindow.html#aae2f8e2f07f5248e11b3364fd2f6ef9a", null ],
     [ "editor_", "classMainWindow.html#ac06299c080a47670c5512d2d6df67c7b", null ],
     [ "exitAction_", "classMainWindow.html#a8240196ec94f63b76488d0500433ba18", null ],
+    [ "helpPlugin_", "classMainWindow.html#ae9c8c57b833643fecf2064b349c4370d", null ],
     [ "ICON_SIZE", "classMainWindow.html#a150bdf9d9accf9a02234e8ee4e7ca05f", null ],
     [ "ICON_SIZE_TEXT", "classMainWindow.html#a926be8cd46703d94ac3ba8b2c248de61", null ],
     [ "importFilePlugin_", "classMainWindow.html#ab6263fb57ad4b9856d70cba72aa17f17", null ],

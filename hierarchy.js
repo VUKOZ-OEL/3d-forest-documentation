@@ -99,7 +99,6 @@ var hierarchy =
       [ "FilterFilesPlugin", "classFilterFilesPlugin.html", null ],
       [ "FilterIntensityPlugin", "classFilterIntensityPlugin.html", null ],
       [ "FilterTreesPlugin", "classFilterTreesPlugin.html", null ],
-      [ "HelpPlugin", "classHelpPlugin.html", null ],
       [ "ImportFilePlugin", "classImportFilePlugin.html", null ],
       [ "MessageLogPlugin", "classMessageLogPlugin.html", null ],
       [ "ProjectFilePlugin", "classProjectFilePlugin.html", null ],

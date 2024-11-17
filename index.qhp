@@ -1915,6 +1915,7 @@
 <section title="APPLICATION_VERSION" ref="classMainWindow.html#aae2f8e2f07f5248e11b3364fd2f6ef9a"/>
 <section title="editor_" ref="classMainWindow.html#ac06299c080a47670c5512d2d6df67c7b"/>
 <section title="exitAction_" ref="classMainWindow.html#a8240196ec94f63b76488d0500433ba18"/>
+<section title="helpPlugin_" ref="classMainWindow.html#ae9c8c57b833643fecf2064b349c4370d"/>
 <section title="ICON_SIZE" ref="classMainWindow.html#a150bdf9d9accf9a02234e8ee4e7ca05f"/>
 <section title="ICON_SIZE_TEXT" ref="classMainWindow.html#a926be8cd46703d94ac3ba8b2c248de61"/>
 <section title="importFilePlugin_" ref="classMainWindow.html#ab6263fb57ad4b9856d70cba72aa17f17"/>
@@ -3384,7 +3385,6 @@
 <section title="FilterFilesPlugin" ref="classFilterFilesPlugin.html"/>
 <section title="FilterIntensityPlugin" ref="classFilterIntensityPlugin.html"/>
 <section title="FilterTreesPlugin" ref="classFilterTreesPlugin.html"/>
-<section title="HelpPlugin" ref="classHelpPlugin.html"/>
 <section title="ImportFilePlugin" ref="classImportFilePlugin.html"/>
 <section title="MessageLogPlugin" ref="classMessageLogPlugin.html"/>
 <section title="ProjectFilePlugin" ref="classProjectFilePlugin.html"/>
@@ -4040,12 +4040,6 @@
 <keyword name="CLASS_NEVER_CLASSIFIED" id="LasFile::CLASS_NEVER_CLASSIFIED_a23ca2c79a141774dc33b80f1b8c7127cafe6a5504256abd4980819a85a5467508" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127cafe6a5504256abd4980819a85a5467508"/>
 <keyword name="CLASS_UNASSIGNED" id="LasFile::CLASS_UNASSIGNED_a23ca2c79a141774dc33b80f1b8c7127cac9e261db850bde2a104cabd4f70cd29e" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127cac9e261db850bde2a104cabd4f70cd29e"/>
 <keyword name="classes_" id="Classifications::classes__aa39e2d9bb989c41b01ae3914e5524e07" ref="classClassifications.html#aa39e2d9bb989c41b01ae3914e5524e07"/>
-<keyword name="classification" id="LasFile::Point::classification_aecb05abcc58648b14bca776e90ed9189" ref="structLasFile_1_1Point.html#aecb05abcc58648b14bca776e90ed9189"/>
-<keyword name="classification" id="Page::classification_ac4a1dcbbc4042a8770f81d4142822c1c" ref="classPage.html#ac4a1dcbbc4042a8770f81d4142822c1c"/>
-<keyword name="classification" id="PageData::classification_a35bdf8c8f9ee6fd83c25770c15c1b161" ref="classPageData.html#a35bdf8c8f9ee6fd83c25770c15c1b161"/>
-<keyword name="classification()" id="Query::classification_a019601f80fc296ef862d2f32f6b69f68" ref="classQuery.html#a019601f80fc296ef862d2f32f6b69f68"/>
-<keyword name="classification() const" id="QueryWhere::classification_a94ef54b686147c981041c62490e6c544" ref="classQueryWhere.html#a94ef54b686147c981041c62490e6c544"/>
-<keyword name="CLASSIFICATION" id="SettingsView::CLASSIFICATION_a8f2a95a05dd67185f1e7d29b5cc70708a7a249cdff24e60e2ee42699a02026a89" ref="classSettingsView.html#a8f2a95a05dd67185f1e7d29b5cc70708a7a249cdff24e60e2ee42699a02026a89"/>
 <keyword name="Classification" id="LasFile::Classification_a23ca2c79a141774dc33b80f1b8c7127c" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127c"/>
 <keyword name="CLASS_NEVER_CLASSIFIED" id="LasFile::CLASS_NEVER_CLASSIFIED_a23ca2c79a141774dc33b80f1b8c7127cafe6a5504256abd4980819a85a5467508" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127cafe6a5504256abd4980819a85a5467508"/>
 <keyword name="CLASS_UNASSIGNED" id="LasFile::CLASS_UNASSIGNED_a23ca2c79a141774dc33b80f1b8c7127cac9e261db850bde2a104cabd4f70cd29e" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127cac9e261db850bde2a104cabd4f70cd29e"/>
@@ -4055,6 +4049,12 @@
 <keyword name="CLASS_HIGH_VEGETATION" id="LasFile::CLASS_HIGH_VEGETATION_a23ca2c79a141774dc33b80f1b8c7127ca4881a2d84e79bc87cef09d2e24e08f97" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127ca4881a2d84e79bc87cef09d2e24e08f97"/>
 <keyword name="CLASS_BUILDING" id="LasFile::CLASS_BUILDING_a23ca2c79a141774dc33b80f1b8c7127ca482330a47c151351db995bb6b8d5b7b1" ref="classLasFile.html#a23ca2c79a141774dc33b80f1b8c7127ca482330a47c151351db995bb6b8d5b7b1"/>
 <keyword name="Classification" id="ColorPalette::Classification_adff4d9024d371ad844d01524eec4cfb0" ref="classColorPalette.html#adff4d9024d371ad844d01524eec4cfb0"/>
+<keyword name="CLASSIFICATION" id="SettingsView::CLASSIFICATION_a8f2a95a05dd67185f1e7d29b5cc70708a7a249cdff24e60e2ee42699a02026a89" ref="classSettingsView.html#a8f2a95a05dd67185f1e7d29b5cc70708a7a249cdff24e60e2ee42699a02026a89"/>
+<keyword name="classification" id="LasFile::Point::classification_aecb05abcc58648b14bca776e90ed9189" ref="structLasFile_1_1Point.html#aecb05abcc58648b14bca776e90ed9189"/>
+<keyword name="classification" id="Page::classification_ac4a1dcbbc4042a8770f81d4142822c1c" ref="classPage.html#ac4a1dcbbc4042a8770f81d4142822c1c"/>
+<keyword name="classification" id="PageData::classification_a35bdf8c8f9ee6fd83c25770c15c1b161" ref="classPageData.html#a35bdf8c8f9ee6fd83c25770c15c1b161"/>
+<keyword name="classification()" id="Query::classification_a019601f80fc296ef862d2f32f6b69f68" ref="classQuery.html#a019601f80fc296ef862d2f32f6b69f68"/>
+<keyword name="classification() const" id="QueryWhere::classification_a94ef54b686147c981041c62490e6c544" ref="classQueryWhere.html#a94ef54b686147c981041c62490e6c544"/>
 <keyword name="classification_" id="Query::classification__a876ab134e57df7cae49579c08e06c0a1" ref="classQuery.html#a876ab134e57df7cae49579c08e06c0a1"/>
 <keyword name="classification_" id="QueryWhere::classification__ab161d123d231e76baab79aa509793a9c" ref="classQueryWhere.html#ab161d123d231e76baab79aa509793a9c"/>
 <keyword name="classification_" id="ComputeClassificationWidget::classification__a8a9c72c2b40ed29bc101adfef62de8d1" ref="classComputeClassificationWidget.html#a8a9c72c2b40ed29bc101adfef62de8d1"/>
@@ -4142,12 +4142,12 @@
 <keyword name="closeProject()=0" id="ProjectFileInterface::closeProject_a779378bb204c509d7a52c507361d95ab" ref="classProjectFileInterface.html#a779378bb204c509d7a52c507361d95ab"/>
 <keyword name="closeProject()" id="ProjectFilePlugin::closeProject_a95c0ebca65f90470b320df3ae71c3e3e" ref="classProjectFilePlugin.html#a95c0ebca65f90470b320df3ae71c3e3e"/>
 <keyword name="code" id="IndexFile::BuildNode::code_a55a634fdea966b5620459df940a9e104" ref="structIndexFile_1_1BuildNode.html#a55a634fdea966b5620459df940a9e104"/>
+<keyword name="COLOR" id="SettingsView::COLOR_a8f2a95a05dd67185f1e7d29b5cc70708a04bd834032febb3fda8c6936ee140949" ref="classSettingsView.html#a8f2a95a05dd67185f1e7d29b5cc70708a04bd834032febb3fda8c6936ee140949"/>
 <keyword name="color" id="Page::color_a60370392d688ec46f7b82c492c18cac5" ref="classPage.html#a60370392d688ec46f7b82c492c18cac5"/>
 <keyword name="color" id="PageData::color_ab2cfa5274c69cb1654150191cdf27e0a" ref="classPageData.html#ab2cfa5274c69cb1654150191cdf27e0a"/>
 <keyword name="color" id="Segment::color_a81da4142382155455d266e39b2f0aadf" ref="classSegment.html#a81da4142382155455d266e39b2f0aadf"/>
 <keyword name="color() const" id="Dataset::color_acb3c882c9e5a494831f330cf69bce924" ref="classDataset.html#acb3c882c9e5a494831f330cf69bce924"/>
 <keyword name="color(size_t i) const" id="Datasets::color_a5b1e6bfe937bdcc86233b78b12aaf5e7" ref="classDatasets.html#a5b1e6bfe937bdcc86233b78b12aaf5e7"/>
-<keyword name="COLOR" id="SettingsView::COLOR_a8f2a95a05dd67185f1e7d29b5cc70708a04bd834032febb3fda8c6936ee140949" ref="classSettingsView.html#a8f2a95a05dd67185f1e7d29b5cc70708a04bd834032febb3fda8c6936ee140949"/>
 <keyword name="color_" id="Dataset::color__a9059057342547932296a1e0928456c16" ref="classDataset.html#a9059057342547932296a1e0928456c16"/>
 <keyword name="color_" id="Query::color__a8694233b9023d4aa012c3e7727cf2798" ref="classQuery.html#a8694233b9023d4aa012c3e7727cf2798"/>
 <keyword name="colorChanged()" id="ColorSwitchWidget::colorChanged_a670c7454a6b4dd467b1fe68a2081419a" ref="classColorSwitchWidget.html#a670c7454a6b4dd467b1fe68a2081419a"/>
@@ -4157,6 +4157,7 @@
 <keyword name="colormap_" id="ComputeHeightMapModifier::colormap__a965b4e82f80d3eb3a2e015468575eaf6" ref="classComputeHeightMapModifier.html#a965b4e82f80d3eb3a2e015468575eaf6"/>
 <keyword name="colormapChanged(int index)" id="ComputeHeightMapWidget::colormapChanged_ae97d8f34c7edc9aae6415624fbac5ef0" ref="classComputeHeightMapWidget.html#ae97d8f34c7edc9aae6415624fbac5ef0"/>
 <keyword name="colormapComboBox_" id="ComputeHeightMapWidget::colormapComboBox__a4528ef5b58cf0698879098de347da244" ref="classComputeHeightMapWidget.html#a4528ef5b58cf0698879098de347da244"/>
+<keyword name="colorSource() const" id="SettingsView::colorSource_aaf3a77705eab90d3f487990c5c0d7cc0" ref="classSettingsView.html#aaf3a77705eab90d3f487990c5c0d7cc0"/>
 <keyword name="ColorSource" id="SettingsView::ColorSource_a8f2a95a05dd67185f1e7d29b5cc70708" ref="classSettingsView.html#a8f2a95a05dd67185f1e7d29b5cc70708"/>
 <keyword name="COLOR" id="SettingsView::COLOR_a8f2a95a05dd67185f1e7d29b5cc70708a04bd834032febb3fda8c6936ee140949" ref="classSettingsView.html#a8f2a95a05dd67185f1e7d29b5cc70708a04bd834032febb3fda8c6936ee140949"/>
 <keyword name="INTENSITY" id="SettingsView::INTENSITY_a8f2a95a05dd67185f1e7d29b5cc70708a3da9993984f423cfc441a286105a9226" ref="classSettingsView.html#a8f2a95a05dd67185f1e7d29b5cc70708a3da9993984f423cfc441a286105a9226"/>
@@ -4167,7 +4168,6 @@
 <keyword name="ELEVATION" id="SettingsView::ELEVATION_a8f2a95a05dd67185f1e7d29b5cc70708a20fa5bce085128fc98728125aecd642f" ref="classSettingsView.html#a8f2a95a05dd67185f1e7d29b5cc70708a20fa5bce085128fc98728125aecd642f"/>
 <keyword name="DESCRIPTOR" id="SettingsView::DESCRIPTOR_a8f2a95a05dd67185f1e7d29b5cc70708a9d3d09ed3b419739eda9918a987332a6" ref="classSettingsView.html#a8f2a95a05dd67185f1e7d29b5cc70708a9d3d09ed3b419739eda9918a987332a6"/>
 <keyword name="UNKNOWN" id="SettingsView::UNKNOWN_a8f2a95a05dd67185f1e7d29b5cc70708a696b031073e74bf2cb98e5ef201d4aa3" ref="classSettingsView.html#a8f2a95a05dd67185f1e7d29b5cc70708a696b031073e74bf2cb98e5ef201d4aa3"/>
-<keyword name="colorSource() const" id="SettingsView::colorSource_aaf3a77705eab90d3f487990c5c0d7cc0" ref="classSettingsView.html#aaf3a77705eab90d3f487990c5c0d7cc0"/>
 <keyword name="colorSource_" id="SettingsView::colorSource__ae47c791ee978e6ddee682ad236285c04" ref="classSettingsView.html#ae47c791ee978e6ddee682ad236285c04"/>
 <keyword name="colorSourceComboBox_" id="SettingsViewWidget::colorSourceComboBox__a554a058a401583d44ad6788bcfbdf223" ref="classSettingsViewWidget.html#a554a058a401583d44ad6788bcfbdf223"/>
 <keyword name="colorSourceSize() const" id="SettingsView::colorSourceSize_a1523ed88aa6bf3ded901240f997b6987" ref="classSettingsView.html#a1523ed88aa6bf3ded901240f997b6987"/>
@@ -4257,11 +4257,11 @@
 <keyword name="condition_" id="ThreadLoop::condition__a194a705bb3d7b95de886cb0bcee83c7b" ref="classThreadLoop.html#a194a705bb3d7b95de886cb0bcee83c7b"/>
 <keyword name="conditionCaller_" id="LogThread::conditionCaller__a4bda8fd31ea0724438c7beb1f997e88c" ref="classLogThread.html#a4bda8fd31ea0724438c7beb1f997e88c"/>
 <keyword name="conditionCaller_" id="ThreadLoop::conditionCaller__a3c42a730f49cd062f74a46270b53eeb1" ref="classThreadLoop.html#a3c42a730f49cd062f74a46270b53eeb1"/>
+<keyword name="cone" id="Region::cone_a5a1479c3ea120fd3f6d8147787a87416" ref="classRegion.html#a5a1479c3ea120fd3f6d8147787a87416"/>
+<keyword name="cone() const" id="QueryWhere::cone_aa4594c51dca9759ac20ef4ff48e07771" ref="classQueryWhere.html#aa4594c51dca9759ac20ef4ff48e07771"/>
 <keyword name="CONE" id="Region::CONE_ad96211439bf48afa3c85f1f40bcfa4e6ac55b85dc15b00950104cb1ac870876a5" ref="classRegion.html#ad96211439bf48afa3c85f1f40bcfa4e6ac55b85dc15b00950104cb1ac870876a5"/>
 <keyword name="Cone()" id="Cone::Cone_a8f72f6bef3b0f1ded6ec1254754d1d7d" ref="classCone.html#a8f72f6bef3b0f1ded6ec1254754d1d7d"/>
 <keyword name="Cone()" id="Cone&lt; double &gt;::Cone_a8f72f6bef3b0f1ded6ec1254754d1d7d" ref="classCone.html#a8f72f6bef3b0f1ded6ec1254754d1d7d"/>
-<keyword name="cone" id="Region::cone_a5a1479c3ea120fd3f6d8147787a87416" ref="classRegion.html#a5a1479c3ea120fd3f6d8147787a87416"/>
-<keyword name="cone() const" id="QueryWhere::cone_aa4594c51dca9759ac20ef4ff48e07771" ref="classQueryWhere.html#aa4594c51dca9759ac20ef4ff48e07771"/>
 <keyword name="contains(const std::string &amp;longOption) const" id="ArgumentParser::contains_a9594b5cc7aefb4f4711318223787d5d0" ref="classArgumentParser.html#a9594b5cc7aefb4f4711318223787d5d0"/>
 <keyword name="contains(const Box&lt; T &gt; &amp;box) const" id="Box::contains_aee046831be5e793374b5a82925224ec1" ref="classBox.html#aee046831be5e793374b5a82925224ec1"/>
 <keyword name="contains(T x, T y, T z) const" id="Box::contains_a90be0728c01f410d60a3106ba392f23b" ref="classBox.html#a90be0728c01f410d60a3106ba392f23b"/>
@@ -4343,9 +4343,9 @@
 <keyword name="crossProduct(const Vector3&lt; size_t &gt; &amp;a, const Vector3&lt; size_t &gt; &amp;b)" id="Vector3&lt; size_t &gt;::crossProduct_adc438ea6eb94c2b80582c0ed0d1d7831" ref="classVector3.html#adc438ea6eb94c2b80582c0ed0d1d7831"/>
 <keyword name="currentPath()" id="File::currentPath_a1bf433d5664c6eb749f4d5ed30088e56" ref="classFile.html#a1bf433d5664c6eb749f4d5ed30088e56"/>
 <keyword name="currentTreeIndex_" id="ComputeTreeAttributesAction::currentTreeIndex__a0cc50b8d1989627173013e2ea27c2e7f" ref="classComputeTreeAttributesAction.html#a0cc50b8d1989627173013e2ea27c2e7f"/>
+<keyword name="CYLINDER" id="Region::CYLINDER_ad96211439bf48afa3c85f1f40bcfa4e6addec32fe897072b48368b1abe03de2aa" ref="classRegion.html#ad96211439bf48afa3c85f1f40bcfa4e6addec32fe897072b48368b1abe03de2aa"/>
 <keyword name="cylinder" id="Region::cylinder_a0287870e5997ae319683315469c69771" ref="classRegion.html#a0287870e5997ae319683315469c69771"/>
 <keyword name="cylinder() const" id="QueryWhere::cylinder_a16a73db7d8fe4c591f57b783855b78ff" ref="classQueryWhere.html#a16a73db7d8fe4c591f57b783855b78ff"/>
-<keyword name="CYLINDER" id="Region::CYLINDER_ad96211439bf48afa3c85f1f40bcfa4e6addec32fe897072b48368b1abe03de2aa" ref="classRegion.html#ad96211439bf48afa3c85f1f40bcfa4e6addec32fe897072b48368b1abe03de2aa"/>
 <keyword name="Cylinder()" id="Cylinder::Cylinder_a765d6c2b0b86d88449b0c1936a759c1d" ref="classCylinder.html#a765d6c2b0b86d88449b0c1936a759c1d"/>
 <keyword name="Cylinder(B x, B y, B z, B nx, B ny, B nz, B radius, B length)" id="Cylinder::Cylinder_a669025a1dc2d347a4c5d653b8cd933a5" ref="classCylinder.html#a669025a1dc2d347a4c5d653b8cd933a5"/>
 <keyword name="Cylinder()" id="Cylinder&lt; double &gt;::Cylinder_a765d6c2b0b86d88449b0c1936a759c1d" ref="classCylinder.html#a765d6c2b0b86d88449b0c1936a759c1d"/>
@@ -4371,9 +4371,9 @@
 <keyword name="datasetId() const" id="PageData::datasetId_a0e19381dd419aed545975ec1af79cfae" ref="classPageData.html#a0e19381dd419aed545975ec1af79cfae"/>
 <keyword name="datasetId_" id="Page::datasetId__ae3c73c5fecb6b842af87bc6fcec4f5a5" ref="classPage.html#ae3c73c5fecb6b842af87bc6fcec4f5a5"/>
 <keyword name="datasetId_" id="PageData::datasetId__a43ab4e4ade29fc9ebc5f4b35a3801940" ref="classPageData.html#a43ab4e4ade29fc9ebc5f4b35a3801940"/>
-<keyword name="Datasets()" id="Datasets::Datasets_aa45649f89c17953ae780aaa288a4b6b5" ref="classDatasets.html#aa45649f89c17953ae780aaa288a4b6b5"/>
 <keyword name="datasets() const" id="Editor::datasets_a9ecda11933059d31ea06105810011dee" ref="classEditor.html#a9ecda11933059d31ea06105810011dee"/>
 <keyword name="datasets()" id="Editor::datasets_a4c86154046ae9f0197606b24aa26251f" ref="classEditor.html#a4c86154046ae9f0197606b24aa26251f"/>
+<keyword name="Datasets()" id="Datasets::Datasets_aa45649f89c17953ae780aaa288a4b6b5" ref="classDatasets.html#aa45649f89c17953ae780aaa288a4b6b5"/>
 <keyword name="datasets_" id="Datasets::datasets__af3f1626de45607702dec4dd310d2f177" ref="classDatasets.html#af3f1626de45607702dec4dd310d2f177"/>
 <keyword name="datasets_" id="Editor::datasets__a679212059d7693ad3d44c7227dd2a97c" ref="classEditor.html#a679212059d7693ad3d44c7227dd2a97c"/>
 <keyword name="datasets_" id="FilterFilesWidget::datasets__a5eebb7661716b4862a83bed4e42ba59b" ref="classFilterFilesWidget.html#a5eebb7661716b4862a83bed4e42ba59b"/>
@@ -4720,6 +4720,7 @@
 <keyword name="helpButton_" id="ImportFileDialog::helpButton__afeb42fd421316a818de58675bd1cbbaf" ref="classImportFileDialog.html#afeb42fd421316a818de58675bd1cbbaf"/>
 <keyword name="helpDialog_" id="ImportFileDialog::helpDialog__a3ec648ac899dbce44970e8ba77dc1b82" ref="classImportFileDialog.html#a3ec648ac899dbce44970e8ba77dc1b82"/>
 <keyword name="HelpPlugin()" id="HelpPlugin::HelpPlugin_a9efc4f67f9dfe52fd5a106ee93f0906a" ref="classHelpPlugin.html#a9efc4f67f9dfe52fd5a106ee93f0906a"/>
+<keyword name="helpPlugin_" id="MainWindow::helpPlugin__ae9c8c57b833643fecf2064b349c4370d" ref="classMainWindow.html#ae9c8c57b833643fecf2064b349c4370d"/>
 <keyword name="hideButton_" id="FilterClassificationWidget::hideButton__ab872e99ded4080736063146f3fe50716" ref="classFilterClassificationWidget.html#ab872e99ded4080736063146f3fe50716"/>
 <keyword name="hideButton_" id="FilterFilesWidget::hideButton__abf9fe9604fc3312daf892ae8d8fe6bc8" ref="classFilterFilesWidget.html#abf9fe9604fc3312daf892ae8d8fe6bc8"/>
 <keyword name="hideButton_" id="FilterTreesWidget::hideButton__af178c5cfe46098f1e2a58d02856e9374" ref="classFilterTreesWidget.html#af178c5cfe46098f1e2a58d02856e9374"/>
@@ -5046,10 +5047,10 @@
 <keyword name="messageQueue_" id="LogThread::messageQueue__af63c451542123dc6fdaaa92005e3e8a4" ref="classLogThread.html#af63c451542123dc6fdaaa92005e3e8a4"/>
 <keyword name="messageQueueHead_" id="LogThread::messageQueueHead__aaad666d3e5e40dbd98368531b5212344" ref="classLogThread.html#aaad666d3e5e40dbd98368531b5212344"/>
 <keyword name="messageQueueTail_" id="LogThread::messageQueueTail__ac2ad23dcd8a26a18315b1058e735f07c" ref="classLogThread.html#ac2ad23dcd8a26a18315b1058e735f07c"/>
+<keyword name="method" id="ComputeDescriptorParameters::method_a75c1d39c3827473b305b44e687805cde" ref="classComputeDescriptorParameters.html#a75c1d39c3827473b305b44e687805cde"/>
 <keyword name="Method" id="ComputeDescriptorParameters::Method_abd110d9b7c300fd54a16396ca99b55d8" ref="classComputeDescriptorParameters.html#abd110d9b7c300fd54a16396ca99b55d8"/>
 <keyword name="METHOD_DENSITY" id="ComputeDescriptorParameters::METHOD_DENSITY_abd110d9b7c300fd54a16396ca99b55d8a1b860c914bf927481fc081ad5a325b32" ref="classComputeDescriptorParameters.html#abd110d9b7c300fd54a16396ca99b55d8a1b860c914bf927481fc081ad5a325b32"/>
 <keyword name="METHOD_PCA_INTENSITY" id="ComputeDescriptorParameters::METHOD_PCA_INTENSITY_abd110d9b7c300fd54a16396ca99b55d8a293f312c5b62832e097d95f6169f53c1" ref="classComputeDescriptorParameters.html#abd110d9b7c300fd54a16396ca99b55d8a293f312c5b62832e097d95f6169f53c1"/>
-<keyword name="method" id="ComputeDescriptorParameters::method_a75c1d39c3827473b305b44e687805cde" ref="classComputeDescriptorParameters.html#a75c1d39c3827473b305b44e687805cde"/>
 <keyword name="METHOD_DENSITY" id="ComputeDescriptorParameters::METHOD_DENSITY_abd110d9b7c300fd54a16396ca99b55d8a1b860c914bf927481fc081ad5a325b32" ref="classComputeDescriptorParameters.html#abd110d9b7c300fd54a16396ca99b55d8a1b860c914bf927481fc081ad5a325b32"/>
 <keyword name="METHOD_PCA_INTENSITY" id="ComputeDescriptorParameters::METHOD_PCA_INTENSITY_abd110d9b7c300fd54a16396ca99b55d8a293f312c5b62832e097d95f6169f53c1" ref="classComputeDescriptorParameters.html#abd110d9b7c300fd54a16396ca99b55d8a293f312c5b62832e097d95f6169f53c1"/>
 <keyword name="methodRadioButton_" id="ComputeDescriptorWidget::methodRadioButton__afb866846ba3230f5fffbfbe383084399" ref="classComputeDescriptorWidget.html#afb866846ba3230f5fffbfbe383084399"/>
@@ -5173,8 +5174,8 @@
 <keyword name="nextVoxel(Query *query)" id="Query::nextVoxel_a1a1ccc7772c4c845a8a30b15e91e453e" ref="classQuery.html#a1a1ccc7772c4c845a8a30b15e91e453e"/>
 <keyword name="nir" id="LasFile::Point::nir_a3c139f418e82884d5ac9a959749efac7" ref="structLasFile_1_1Point.html#a3c139f418e82884d5ac9a959749efac7"/>
 <keyword name="nodes_" id="IndexFile::nodes__ad6637787d17dedb3c18e1a40a91477e3" ref="classIndexFile.html#ad6637787d17dedb3c18e1a40a91477e3"/>
-<keyword name="NONE" id="Region::NONE_ad96211439bf48afa3c85f1f40bcfa4e6ab50339a10e1de285ac99d4c3990b8693" ref="classRegion.html#ad96211439bf48afa3c85f1f40bcfa4e6ab50339a10e1de285ac99d4c3990b8693"/>
 <keyword name="none()" id="QueryFilterSet::none_a92e99695da3c6e8ecb232d0472bd6ce5" ref="classQueryFilterSet.html#a92e99695da3c6e8ecb232d0472bd6ce5"/>
+<keyword name="NONE" id="Region::NONE_ad96211439bf48afa3c85f1f40bcfa4e6ab50339a10e1de285ac99d4c3990b8693" ref="classRegion.html#ad96211439bf48afa3c85f1f40bcfa4e6ab50339a10e1de285ac99d4c3990b8693"/>
 <keyword name="normalize()" id="Vector2::normalize_ace2a626eaa79412e2946216e9c3e63c6" ref="classVector2.html#ace2a626eaa79412e2946216e9c3e63c6"/>
 <keyword name="normalize()" id="Vector3::normalize_a9b147a862a1b86ed2e5b735d19da3da1" ref="classVector3.html#a9b147a862a1b86ed2e5b735d19da3da1"/>
 <keyword name="normalize()" id="Vector3&lt; double &gt;::normalize_a9b147a862a1b86ed2e5b735d19da3da1" ref="classVector3.html#a9b147a862a1b86ed2e5b735d19da3da1"/>
@@ -5203,8 +5204,8 @@
 <keyword name="number_of_evlr" id="LasFile::Header::number_of_evlr_aa2893bccdb977c61028f94d0bcd2d58a" ref="structLasFile_1_1Header.html#aa2893bccdb977c61028f94d0bcd2d58a"/>
 <keyword name="number_of_point_records" id="LasFile::Header::number_of_point_records_a1edc8c8b4a5fe5f873d8ceea3251a1d9" ref="structLasFile_1_1Header.html#a1edc8c8b4a5fe5f873d8ceea3251a1d9"/>
 <keyword name="number_of_points_by_return[15]" id="LasFile::Header::number_of_points_by_return_a5bd94cff648a32e9763c244fc91cda63" ref="structLasFile_1_1Header.html#a5bd94cff648a32e9763c244fc91cda63"/>
-<keyword name="NUMBER_OF_RETURNS" id="SettingsView::NUMBER_OF_RETURNS_a8f2a95a05dd67185f1e7d29b5cc70708a1d73fbb118e4fa77ccbc585d2f17da1c" ref="classSettingsView.html#a8f2a95a05dd67185f1e7d29b5cc70708a1d73fbb118e4fa77ccbc585d2f17da1c"/>
 <keyword name="number_of_returns" id="LasFile::Point::number_of_returns_a0de2fdca7ee6a924e4a937e04ff4be96" ref="structLasFile_1_1Point.html#a0de2fdca7ee6a924e4a937e04ff4be96"/>
+<keyword name="NUMBER_OF_RETURNS" id="SettingsView::NUMBER_OF_RETURNS_a8f2a95a05dd67185f1e7d29b5cc70708a1d73fbb118e4fa77ccbc585d2f17da1c" ref="classSettingsView.html#a8f2a95a05dd67185f1e7d29b5cc70708a1d73fbb118e4fa77ccbc585d2f17da1c"/>
 <keyword name="number_of_vlr" id="LasFile::Header::number_of_vlr_aecd75399cd96582bf53a6f2390c7e933" ref="structLasFile_1_1Header.html#aecd75399cd96582bf53a6f2390c7e933"/>
 <keyword name="numberOfGroundPoints_" id="ComputeElevationAction::numberOfGroundPoints__a477b504e267e20aea1fcf566b642cfbf" ref="classComputeElevationAction.html#a477b504e267e20aea1fcf566b642cfbf"/>
 <keyword name="numberOfNonGroundPoints_" id="ComputeElevationAction::numberOfNonGroundPoints__a4e97f6e6694954f91350d04673944a0b" ref="classComputeElevationAction.html#a4e97f6e6694954f91350d04673944a0b"/>
@@ -5513,8 +5514,8 @@
 <keyword name="queryPoint_" id="ComputeDescriptorAction::queryPoint__ab235ca7fea1ff82ba896e5ebd112c484" ref="classComputeDescriptorAction.html#ab235ca7fea1ff82ba896e5ebd112c484"/>
 <keyword name="queryPoint_" id="ComputeElevationAction::queryPoint__abb348a7ac8987b8fb2f1e2bbc4d5a671" ref="classComputeElevationAction.html#abb348a7ac8987b8fb2f1e2bbc4d5a671"/>
 <keyword name="queryPoint_" id="ComputeSegmentationNNAction::queryPoint__a5c182b307cc91a80c8f5e7e47ed3094a" ref="classComputeSegmentationNNAction.html#a5c182b307cc91a80c8f5e7e47ed3094a"/>
-<keyword name="QueryWhere()" id="QueryWhere::QueryWhere_a19dfa6375f21d04865572db80685033c" ref="classQueryWhere.html#a19dfa6375f21d04865572db80685033c"/>
 <keyword name="queryWhere()" id="Page::queryWhere_af7d3166cec901c06cc9852e0f587a15e" ref="classPage.html#af7d3166cec901c06cc9852e0f587a15e"/>
+<keyword name="QueryWhere()" id="QueryWhere::QueryWhere_a19dfa6375f21d04865572db80685033c" ref="classQueryWhere.html#a19dfa6375f21d04865572db80685033c"/>
 <keyword name="queryWhereBox()" id="Page::queryWhereBox_a98eadfb3694278076f60bc826795ab87" ref="classPage.html#a98eadfb3694278076f60bc826795ab87"/>
 <keyword name="queryWhereClassification()" id="Page::queryWhereClassification_a9ca223ce3835a777e28af00ec88e9b65" ref="classPage.html#a9ca223ce3835a777e28af00ec88e9b65"/>
 <keyword name="queryWhereCone()" id="Page::queryWhereCone_a19f5afb4ce3ea45b5f0362788d3c719b" ref="classPage.html#a19f5afb4ce3ea45b5f0362788d3c719b"/>
@@ -5617,9 +5618,9 @@
 <keyword name="RedBlack16" id="ColorPalette::RedBlack16_a3dc641194d1772c791c0d7c073c08515" ref="classColorPalette.html#a3dc641194d1772c791c0d7c073c08515"/>
 <keyword name="RedGreen16" id="ColorPalette::RedGreen16_ac1784c54fdd5bac94eaa7503f44a640c" ref="classColorPalette.html#ac1784c54fdd5bac94eaa7503f44a640c"/>
 <keyword name="RedYellow16" id="ColorPalette::RedYellow16_a37c11254b3ce4581421afb53a4c7cf8f" ref="classColorPalette.html#a37c11254b3ce4581421afb53a4c7cf8f"/>
+<keyword name="Region()" id="Region::Region_aa8796c9b4ac95da7f7ca4f374673800c" ref="classRegion.html#aa8796c9b4ac95da7f7ca4f374673800c"/>
 <keyword name="region() const" id="QueryWhere::region_a33aa31fad7afd03a61c77da5fce75f79" ref="classQueryWhere.html#a33aa31fad7afd03a61c77da5fce75f79"/>
 <keyword name="region() const" id="ExportFileProperties::region_ae05593b58e9bb2381fd8c69346a0e48e" ref="classExportFileProperties.html#ae05593b58e9bb2381fd8c69346a0e48e"/>
-<keyword name="Region()" id="Region::Region_aa8796c9b4ac95da7f7ca4f374673800c" ref="classRegion.html#aa8796c9b4ac95da7f7ca4f374673800c"/>
 <keyword name="region_" id="QueryWhere::region__a394cefe507e7d9dd0ece6899b40a900b" ref="classQueryWhere.html#a394cefe507e7d9dd0ece6899b40a900b"/>
 <keyword name="region_" id="ExportFileProperties::region__a0227980e0b55e16f73bf9286d91533e8" ref="classExportFileProperties.html#a0227980e0b55e16f73bf9286d91533e8"/>
 <keyword name="region_" id="FilterAreaBoxWidget::region__a62ae71980efe84f7bfd80cfeda54ee0d" ref="classFilterAreaBoxWidget.html#a62ae71980efe84f7bfd80cfeda54ee0d"/>
@@ -5673,13 +5674,13 @@
 <keyword name="resizeEvent(QResizeEvent *event) override" id="ViewerViewports::resizeEvent_af0795cf5b5094dd228169ad63e1e18f7" ref="classViewerViewports.html#af0795cf5b5094dd228169ad63e1e18f7"/>
 <keyword name="resizeGL(int w, int h) override" id="ViewerOpenGLViewport::resizeGL_a9e27b6b6034c10cdc6080888962345a1" ref="classViewerOpenGLViewport.html#a9e27b6b6034c10cdc6080888962345a1"/>
 <keyword name="resolvePath(const std::string &amp;path, const std::string &amp;basePath)" id="File::resolvePath_a8b2f7f3315c9de83f72c50ec1cd22c8f" ref="classFile.html#a8b2f7f3315c9de83f72c50ec1cd22c8f"/>
-<keyword name="result" id="ComputeTreeAttributesLeastSquaredRegression::FittingCircle::result_a2bbd4fd78f7ffe3fa70ae58554d2a72f" ref="classComputeTreeAttributesLeastSquaredRegression_1_1FittingCircle.html#a2bbd4fd78f7ffe3fa70ae58554d2a72f"/>
 <keyword name="Result" id="ComputeTreeAttributesLeastSquaredRegression::FittingCircle::Result_ae24a820fe6db0ea09f176fa1c99295a5" ref="classComputeTreeAttributesLeastSquaredRegression_1_1FittingCircle.html#ae24a820fe6db0ea09f176fa1c99295a5"/>
 <keyword name="RESULT_INVALID" id="ComputeTreeAttributesLeastSquaredRegression::FittingCircle::RESULT_INVALID_ae24a820fe6db0ea09f176fa1c99295a5a5e333be18f3c4714f43d0dee038a2753" ref="classComputeTreeAttributesLeastSquaredRegression_1_1FittingCircle.html#ae24a820fe6db0ea09f176fa1c99295a5a5e333be18f3c4714f43d0dee038a2753"/>
 <keyword name="RESULT_OK" id="ComputeTreeAttributesLeastSquaredRegression::FittingCircle::RESULT_OK_ae24a820fe6db0ea09f176fa1c99295a5a7b76ddadde660697a9b4f4d5470e7f44" ref="classComputeTreeAttributesLeastSquaredRegression_1_1FittingCircle.html#ae24a820fe6db0ea09f176fa1c99295a5a7b76ddadde660697a9b4f4d5470e7f44"/>
 <keyword name="RESULT_MAX_ITERATIONS_REACHED" id="ComputeTreeAttributesLeastSquaredRegression::FittingCircle::RESULT_MAX_ITERATIONS_REACHED_ae24a820fe6db0ea09f176fa1c99295a5a8ef6abcd8d856ae3b21f599c78242ab2" ref="classComputeTreeAttributesLeastSquaredRegression_1_1FittingCircle.html#ae24a820fe6db0ea09f176fa1c99295a5a8ef6abcd8d856ae3b21f599c78242ab2"/>
 <keyword name="RESULT_MAX_INNER_ITERATIONS_REACHED" id="ComputeTreeAttributesLeastSquaredRegression::FittingCircle::RESULT_MAX_INNER_ITERATIONS_REACHED_ae24a820fe6db0ea09f176fa1c99295a5a979b36b7dfef794c02b7dd1e86a57a72" ref="classComputeTreeAttributesLeastSquaredRegression_1_1FittingCircle.html#ae24a820fe6db0ea09f176fa1c99295a5a979b36b7dfef794c02b7dd1e86a57a72"/>
 <keyword name="RESULT_PARAMETER_LIMIT_REACHED" id="ComputeTreeAttributesLeastSquaredRegression::FittingCircle::RESULT_PARAMETER_LIMIT_REACHED_ae24a820fe6db0ea09f176fa1c99295a5a6075fb8eafbc0810a9ecf9daf485968b" ref="classComputeTreeAttributesLeastSquaredRegression_1_1FittingCircle.html#ae24a820fe6db0ea09f176fa1c99295a5a6075fb8eafbc0810a9ecf9daf485968b"/>
+<keyword name="result" id="ComputeTreeAttributesLeastSquaredRegression::FittingCircle::result_a2bbd4fd78f7ffe3fa70ae58554d2a72f" ref="classComputeTreeAttributesLeastSquaredRegression_1_1FittingCircle.html#a2bbd4fd78f7ffe3fa70ae58554d2a72f"/>
 <keyword name="RESULT_INVALID" id="ComputeTreeAttributesLeastSquaredRegression::FittingCircle::RESULT_INVALID_ae24a820fe6db0ea09f176fa1c99295a5a5e333be18f3c4714f43d0dee038a2753" ref="classComputeTreeAttributesLeastSquaredRegression_1_1FittingCircle.html#ae24a820fe6db0ea09f176fa1c99295a5a5e333be18f3c4714f43d0dee038a2753"/>
 <keyword name="RESULT_MAX_INNER_ITERATIONS_REACHED" id="ComputeTreeAttributesLeastSquaredRegression::FittingCircle::RESULT_MAX_INNER_ITERATIONS_REACHED_ae24a820fe6db0ea09f176fa1c99295a5a979b36b7dfef794c02b7dd1e86a57a72" ref="classComputeTreeAttributesLeastSquaredRegression_1_1FittingCircle.html#ae24a820fe6db0ea09f176fa1c99295a5a979b36b7dfef794c02b7dd1e86a57a72"/>
 <keyword name="RESULT_MAX_ITERATIONS_REACHED" id="ComputeTreeAttributesLeastSquaredRegression::FittingCircle::RESULT_MAX_ITERATIONS_REACHED_ae24a820fe6db0ea09f176fa1c99295a5a8ef6abcd8d856ae3b21f599c78242ab2" ref="classComputeTreeAttributesLeastSquaredRegression_1_1FittingCircle.html#ae24a820fe6db0ea09f176fa1c99295a5a8ef6abcd8d856ae3b21f599c78242ab2"/>
@@ -5757,12 +5758,12 @@
 <keyword name="seekPointData()" id="LasFile::seekPointData_a26d4c64f95ef348b09c1e14f8079919e" ref="classLasFile.html#a26d4c64f95ef348b09c1e14f8079919e"/>
 <keyword name="seekVlr()" id="LasFile::seekVlr_a49be33bc84f61594ba728279abfdea7d" ref="classLasFile.html#a49be33bc84f61594ba728279abfdea7d"/>
 <keyword name="SEGMENT" id="SettingsView::SEGMENT_a8f2a95a05dd67185f1e7d29b5cc70708a49f1f9beb48e7b006a35b2377403bea8" ref="classSettingsView.html#a8f2a95a05dd67185f1e7d29b5cc70708a49f1f9beb48e7b006a35b2377403bea8"/>
-<keyword name="Segment()" id="Segment::Segment_adfe9fc7ffcc7269f961d4b1f6720d1e8" ref="classSegment.html#adfe9fc7ffcc7269f961d4b1f6720d1e8"/>
 <keyword name="segment" id="LasFile::Point::segment_a9c394f1d85beffd54c880d6058783c19" ref="structLasFile_1_1Point.html#a9c394f1d85beffd54c880d6058783c19"/>
 <keyword name="segment" id="Page::segment_a042a7acc34148e1571d3848b849825b7" ref="classPage.html#a042a7acc34148e1571d3848b849825b7"/>
 <keyword name="segment" id="PageData::segment_a1a565baea3808f5323b6f00c2a1b3096" ref="classPageData.html#a1a565baea3808f5323b6f00c2a1b3096"/>
 <keyword name="segment()" id="Query::segment_a91a089c4a3777d058686bc36881d1388" ref="classQuery.html#a91a089c4a3777d058686bc36881d1388"/>
 <keyword name="segment() const" id="QueryWhere::segment_ac9b12448b97210e85e027e8b0da78247" ref="classQueryWhere.html#ac9b12448b97210e85e027e8b0da78247"/>
+<keyword name="Segment()" id="Segment::Segment_adfe9fc7ffcc7269f961d4b1f6720d1e8" ref="classSegment.html#adfe9fc7ffcc7269f961d4b1f6720d1e8"/>
 <keyword name="segment_" id="Query::segment__a751ca208bdd6320137cfd6957f58efc0" ref="classQuery.html#a751ca208bdd6320137cfd6957f58efc0"/>
 <keyword name="segment_" id="QueryWhere::segment__a431e33c1bff564e0ed6b320f451516ed" ref="classQueryWhere.html#a431e33c1bff564e0ed6b320f451516ed"/>
 <keyword name="segment_" id="FilterTreesTreeWidget::segment__ade44a1a7439907fc54fd8d4fc68ff7d5" ref="classFilterTreesTreeWidget.html#ade44a1a7439907fc54fd8d4fc68ff7d5"/>
@@ -5770,8 +5771,8 @@
 <keyword name="segmentId" id="ComputeSegmentationNNAction::Group::segmentId_a715169a4963d942eb82e6bc7b5de9627" ref="classComputeSegmentationNNAction_1_1Group.html#a715169a4963d942eb82e6bc7b5de9627"/>
 <keyword name="segmentOnlyTrunks" id="ComputeSegmentationNNParameters::segmentOnlyTrunks_ab80e8caf01597384f7354dc0eff07fb3" ref="classComputeSegmentationNNParameters.html#ab80e8caf01597384f7354dc0eff07fb3"/>
 <keyword name="segmentOnlyTrunksCheckBox_" id="ComputeSegmentationNNWidget::segmentOnlyTrunksCheckBox__afd54a2c1324f60f7cd79dae3b414264e" ref="classComputeSegmentationNNWidget.html#afd54a2c1324f60f7cd79dae3b414264e"/>
-<keyword name="segments() const" id="Editor::segments_ac192488c640f3b94273f09f4bc6d318b" ref="classEditor.html#ac192488c640f3b94273f09f4bc6d318b"/>
 <keyword name="Segments()" id="Segments::Segments_aecb42d21b91e8cc863172dfa6ff2d906" ref="classSegments.html#aecb42d21b91e8cc863172dfa6ff2d906"/>
+<keyword name="segments() const" id="Editor::segments_ac192488c640f3b94273f09f4bc6d318b" ref="classEditor.html#ac192488c640f3b94273f09f4bc6d318b"/>
 <keyword name="segments_" id="Editor::segments__afb0043ff5bd86b019ba0522e28bd1106" ref="classEditor.html#afb0043ff5bd86b019ba0522e28bd1106"/>
 <keyword name="segments_" id="Segments::segments__a23e65641f659d93b184475750c7b2996" ref="classSegments.html#a23e65641f659d93b184475750c7b2996"/>
 <keyword name="segments_" id="FilterTreesWidget::segments__a5ca1897c1af94dd842772b334760c585" ref="classFilterTreesWidget.html#a5ca1897c1af94dd842772b334760c585"/>
@@ -6045,13 +6046,13 @@
 <keyword name="setVoxels(double voxelSize, const Box&lt; double &gt; &amp;region)" id="Query::setVoxels_a69094c213e0dcb05e219f9f288213bd7" ref="classQuery.html#a69094c213e0dcb05e219f9f288213bd7"/>
 <keyword name="setWhere(const QueryWhere &amp;queryWhere)" id="Query::setWhere_a3f786fc5867588f34717fee88ac8e1dd" ref="classQuery.html#a3f786fc5867588f34717fee88ac8e1dd"/>
 <keyword name="setWindowTitle(const QString &amp;path)" id="MainWindow::setWindowTitle_a603859ec307e1f4cffc99f94f1424c3f" ref="classMainWindow.html#a603859ec307e1f4cffc99f94f1424c3f"/>
-<keyword name="shape" id="Region::shape_a2789ee32aa07f848b999cb7e319426ea" ref="classRegion.html#a2789ee32aa07f848b999cb7e319426ea"/>
 <keyword name="Shape" id="Region::Shape_ad96211439bf48afa3c85f1f40bcfa4e6" ref="classRegion.html#ad96211439bf48afa3c85f1f40bcfa4e6"/>
 <keyword name="NONE" id="Region::NONE_ad96211439bf48afa3c85f1f40bcfa4e6ab50339a10e1de285ac99d4c3990b8693" ref="classRegion.html#ad96211439bf48afa3c85f1f40bcfa4e6ab50339a10e1de285ac99d4c3990b8693"/>
 <keyword name="BOX" id="Region::BOX_ad96211439bf48afa3c85f1f40bcfa4e6ae657cce1913c857166b0475f18668ef5" ref="classRegion.html#ad96211439bf48afa3c85f1f40bcfa4e6ae657cce1913c857166b0475f18668ef5"/>
 <keyword name="CONE" id="Region::CONE_ad96211439bf48afa3c85f1f40bcfa4e6ac55b85dc15b00950104cb1ac870876a5" ref="classRegion.html#ad96211439bf48afa3c85f1f40bcfa4e6ac55b85dc15b00950104cb1ac870876a5"/>
 <keyword name="CYLINDER" id="Region::CYLINDER_ad96211439bf48afa3c85f1f40bcfa4e6addec32fe897072b48368b1abe03de2aa" ref="classRegion.html#ad96211439bf48afa3c85f1f40bcfa4e6addec32fe897072b48368b1abe03de2aa"/>
 <keyword name="SPHERE" id="Region::SPHERE_ad96211439bf48afa3c85f1f40bcfa4e6a6f7cea7381e843e2ee0338b4a92b0d43" ref="classRegion.html#ad96211439bf48afa3c85f1f40bcfa4e6a6f7cea7381e843e2ee0338b4a92b0d43"/>
+<keyword name="shape" id="Region::shape_a2789ee32aa07f848b999cb7e319426ea" ref="classRegion.html#a2789ee32aa07f848b999cb7e319426ea"/>
 <keyword name="shortOption" id="ArgumentParser::Option::shortOption_a915007c04e3b17a403a5ef3f389a1079" ref="classArgumentParser_1_1Option.html#a915007c04e3b17a403a5ef3f389a1079"/>
 <keyword name="showButton_" id="FilterClassificationWidget::showButton__a05e37dfdcf92514a618f949534b6dab8" ref="classFilterClassificationWidget.html#a05e37dfdcf92514a618f949534b6dab8"/>
 <keyword name="showButton_" id="FilterFilesWidget::showButton__ab8f1a49b20b69a76515db7beedbb12c0" ref="classFilterFilesWidget.html#ab8f1a49b20b69a76515db7beedbb12c0"/>
@@ -6270,13 +6271,13 @@
 <keyword name="SOURCE_Z_POSITION" id="ComputeHeightMapModifier::SOURCE_Z_POSITION_abb896089cb0f4aef0eb9713cee8bc85ca78ee76ad52e6ea1784f5e0d2a461d909" ref="classComputeHeightMapModifier.html#abb896089cb0f4aef0eb9713cee8bc85ca78ee76ad52e6ea1784f5e0d2a461d909"/>
 <keyword name="sourceChanged(int index)" id="ComputeHeightMapWidget::sourceChanged_a39b42582c4210f205cb1c4e6adcc33b4" ref="classComputeHeightMapWidget.html#a39b42582c4210f205cb1c4e6adcc33b4"/>
 <keyword name="sourceComboBox_" id="ComputeHeightMapWidget::sourceComboBox__a991f90e38936d9cfa0beb1bd80cba7ea" ref="classComputeHeightMapWidget.html#a991f90e38936d9cfa0beb1bd80cba7ea"/>
-<keyword name="sphere" id="Region::sphere_ace0af202f146a458098fbce87f6d6571" ref="classRegion.html#ace0af202f146a458098fbce87f6d6571"/>
-<keyword name="sphere() const" id="QueryWhere::sphere_a7210f0d846613fb1cc02556ee2f0eef7" ref="classQueryWhere.html#a7210f0d846613fb1cc02556ee2f0eef7"/>
+<keyword name="SPHERE" id="Region::SPHERE_ad96211439bf48afa3c85f1f40bcfa4e6a6f7cea7381e843e2ee0338b4a92b0d43" ref="classRegion.html#ad96211439bf48afa3c85f1f40bcfa4e6a6f7cea7381e843e2ee0338b4a92b0d43"/>
 <keyword name="Sphere()" id="Sphere::Sphere_acacfd6de079ea50acdaf57b823166651" ref="classSphere.html#acacfd6de079ea50acdaf57b823166651"/>
 <keyword name="Sphere(B x, B y, B z, B radius)" id="Sphere::Sphere_ad239e8ffe3e908bc84db5e084806ca3f" ref="classSphere.html#ad239e8ffe3e908bc84db5e084806ca3f"/>
 <keyword name="Sphere()" id="Sphere&lt; double &gt;::Sphere_acacfd6de079ea50acdaf57b823166651" ref="classSphere.html#acacfd6de079ea50acdaf57b823166651"/>
 <keyword name="Sphere(B x, B y, B z, B radius)" id="Sphere&lt; double &gt;::Sphere_ad239e8ffe3e908bc84db5e084806ca3f" ref="classSphere.html#ad239e8ffe3e908bc84db5e084806ca3f"/>
-<keyword name="SPHERE" id="Region::SPHERE_ad96211439bf48afa3c85f1f40bcfa4e6a6f7cea7381e843e2ee0338b4a92b0d43" ref="classRegion.html#ad96211439bf48afa3c85f1f40bcfa4e6a6f7cea7381e843e2ee0338b4a92b0d43"/>
+<keyword name="sphere" id="Region::sphere_ace0af202f146a458098fbce87f6d6571" ref="classRegion.html#ace0af202f146a458098fbce87f6d6571"/>
+<keyword name="sphere() const" id="QueryWhere::sphere_a7210f0d846613fb1cc02556ee2f0eef7" ref="classQueryWhere.html#a7210f0d846613fb1cc02556ee2f0eef7"/>
 <keyword name="spinBox_" id="DoubleSliderWidget::spinBox__aae9fa631a2ac8a72bb42947983e86979" ref="classDoubleSliderWidget.html#aae9fa631a2ac8a72bb42947983e86979"/>
 <keyword name="spinBox_" id="SliderWidget::spinBox__a99c4924701e9e37778db465e2a038246" ref="classSliderWidget.html#a99c4924701e9e37778db465e2a038246"/>
 <keyword name="splitter_" id="FilterTreesWidget::splitter__ad22236005409ae945a46c2a87341c374" ref="classFilterTreesWidget.html#ad22236005409ae945a46c2a87341c374"/>
@@ -6289,7 +6290,6 @@
 <keyword name="start(const ComputeTreeAttributesParameters &amp;parameters)" id="ComputeTreeAttributesAction::start_a7011c3251fe88e2d95d49d2753cb3fb7" ref="classComputeTreeAttributesAction.html#a7011c3251fe88e2d95d49d2753cb3fb7"/>
 <keyword name="startGroup(const Point &amp;a, bool trunk=false)" id="ComputeSegmentationNNAction::startGroup_af56f54c19055daf164d92992e977b612" ref="classComputeSegmentationNNAction.html#af56f54c19055daf164d92992e977b612"/>
 <keyword name="startTimer()" id="ProgressCounter::startTimer_a13468d82a509247d251a1e7ca240b5ce" ref="classProgressCounter.html#a13468d82a509247d251a1e7ca240b5ce"/>
-<keyword name="state() const" id="Page::state_a924a92d92d7d9c1eb650cf8983169826" ref="classPage.html#a924a92d92d7d9c1eb650cf8983169826"/>
 <keyword name="State" id="ThreadLoop::State_aaa33edeeb0a79a9b8031b5eee23337d7" ref="classThreadLoop.html#aaa33edeeb0a79a9b8031b5eee23337d7"/>
 <keyword name="STATE_RUN" id="ThreadLoop::STATE_RUN_aaa33edeeb0a79a9b8031b5eee23337d7a7ce580a3212074d4314f96ae3bfa3e0d" ref="classThreadLoop.html#aaa33edeeb0a79a9b8031b5eee23337d7a7ce580a3212074d4314f96ae3bfa3e0d"/>
 <keyword name="STATE_CANCEL" id="ThreadLoop::STATE_CANCEL_aaa33edeeb0a79a9b8031b5eee23337d7a5ba22cf4a1721a477c9bf716bf8400f9" ref="classThreadLoop.html#aaa33edeeb0a79a9b8031b5eee23337d7a5ba22cf4a1721a477c9bf716bf8400f9"/>
@@ -6318,6 +6318,7 @@
 <keyword name="STATE_RUN_MODIFIERS" id="Page::STATE_RUN_MODIFIERS_a0bdf6886be75ddfd1b4626a5ced85c7aa3f06635f317b04378d7fb621cd22c789" ref="classPage.html#a0bdf6886be75ddfd1b4626a5ced85c7aa3f06635f317b04378d7fb621cd22c789"/>
 <keyword name="STATE_RENDER" id="Page::STATE_RENDER_a0bdf6886be75ddfd1b4626a5ced85c7aa64b7c31814837db21f4ed398c5207e6a" ref="classPage.html#a0bdf6886be75ddfd1b4626a5ced85c7aa64b7c31814837db21f4ed398c5207e6a"/>
 <keyword name="STATE_RENDERED" id="Page::STATE_RENDERED_a0bdf6886be75ddfd1b4626a5ced85c7aa4d73db2c4cad114129f72e09a1960226" ref="classPage.html#a0bdf6886be75ddfd1b4626a5ced85c7aa4d73db2c4cad114129f72e09a1960226"/>
+<keyword name="state() const" id="Page::state_a924a92d92d7d9c1eb650cf8983169826" ref="classPage.html#a924a92d92d7d9c1eb650cf8983169826"/>
 <keyword name="state_" id="ThreadLoop::state__a7f07f1303e88aec2e9eb02f64887694a" ref="classThreadLoop.html#a7f07f1303e88aec2e9eb02f64887694a"/>
 <keyword name="state_" id="IndexFileBuilder::state__af059ebfc9d78f1511e3c90008e3556d7" ref="classIndexFileBuilder.html#af059ebfc9d78f1511e3c90008e3556d7"/>
 <keyword name="state_" id="Page::state__a24e637d52c3d3d95ed172647a66f2896" ref="classPage.html#a24e637d52c3d3d95ed172647a66f2896"/>
@@ -6646,8 +6647,8 @@
 <keyword name="userData_" id="Query::userData__a821e87e067c7cc1370658f55f21e0227" ref="classQuery.html#a821e87e067c7cc1370658f55f21e0227"/>
 <keyword name="userDefined" id="SettingsUnits::userDefined_ac73a2e23d313ef8107a1416bf4ec697b" ref="classSettingsUnits.html#ac73a2e23d313ef8107a1416bf4ec697b"/>
 <keyword name="userDefinedCheckBox_" id="SettingsUnitsWidget::userDefinedCheckBox__ab44227d6285efa9b3be4f27bc19949bb" ref="classSettingsUnitsWidget.html#ab44227d6285efa9b3be4f27bc19949bb"/>
-<keyword name="valid() const" id="ViewerAabb::valid_a34ac71fd211cbfdd6878e1516868b2f2" ref="classViewerAabb.html#a34ac71fd211cbfdd6878e1516868b2f2"/>
 <keyword name="VALID" id="TreeAttributes::VALID_a71d528dbdbebf3eefb65fdfa998757c0ac9f1a6384b1c466d4612f513bd8e13ea" ref="classTreeAttributes.html#a71d528dbdbebf3eefb65fdfa998757c0ac9f1a6384b1c466d4612f513bd8e13ea"/>
+<keyword name="valid() const" id="ViewerAabb::valid_a34ac71fd211cbfdd6878e1516868b2f2" ref="classViewerAabb.html#a34ac71fd211cbfdd6878e1516868b2f2"/>
 <keyword name="valid_" id="ViewerAabb::valid__a9e545b8e0f69a6334c3c2c134bae58a2" ref="classViewerAabb.html#a9e545b8e0f69a6334c3c2c134bae58a2"/>
 <keyword name="validate()" id="Box::validate_ae6d792cb0c22ffd4bc2572e320227b87" ref="classBox.html#ae6d792cb0c22ffd4bc2572e320227b87"/>
 <keyword name="validate(const Chunk &amp;chunk, uint32_t type, uint8_t majorVersion, uint8_t minorVersion) const" id="ChunkFile::validate_a9f1b4b91acd806bfb1a5ef1f208e3035" ref="classChunkFile.html#a9f1b4b91acd806bfb1a5ef1f208e3035"/>
@@ -6725,9 +6726,9 @@
 <keyword name="viewportId() const" id="ViewerOpenGLViewport::viewportId_a7afb9e787cdaab558648ae9ec7f4faf7" ref="classViewerOpenGLViewport.html#a7afb9e787cdaab558648ae9ec7f4faf7"/>
 <keyword name="viewportId_" id="ViewerCamera::viewportId__a89036e7a01f8765e320b099a482ddbd2" ref="classViewerCamera.html#a89036e7a01f8765e320b099a482ddbd2"/>
 <keyword name="viewportId_" id="ViewerOpenGLViewport::viewportId__aebc393ce3e433f2aab54d4432cc2e1a6" ref="classViewerOpenGLViewport.html#aebc393ce3e433f2aab54d4432cc2e1a6"/>
-<keyword name="Viewports()" id="Viewports::Viewports_a6ad2ff587fccc7fd92f926098dd35e88" ref="classViewports.html#a6ad2ff587fccc7fd92f926098dd35e88"/>
 <keyword name="viewports()" id="Editor::viewports_ab92648c48738b6b969a542b16a9cdad4" ref="classEditor.html#ab92648c48738b6b969a542b16a9cdad4"/>
 <keyword name="viewports() const" id="Editor::viewports_a17ba09a4210d2ddf4af1ba72cd4c3fe7" ref="classEditor.html#a17ba09a4210d2ddf4af1ba72cd4c3fe7"/>
+<keyword name="Viewports()" id="Viewports::Viewports_a6ad2ff587fccc7fd92f926098dd35e88" ref="classViewports.html#a6ad2ff587fccc7fd92f926098dd35e88"/>
 <keyword name="viewports_" id="Editor::viewports__abc3de124c1b770afe56114111fee9a9e" ref="classEditor.html#abc3de124c1b770afe56114111fee9a9e"/>
 <keyword name="viewports_" id="Viewports::viewports__a3574e0d328a1ba3a525b6e641e333f55" ref="classViewports.html#a3574e0d328a1ba3a525b6e641e333f55"/>
 <keyword name="viewports_" id="ViewerPlugin::viewports__a9b94cd8ce2f4a2c5cc6ff0e2ca1e6ccf" ref="classViewerPlugin.html#a9b94cd8ce2f4a2c5cc6ff0e2ca1e6ccf"/>

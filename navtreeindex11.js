@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"classViewerCamera.html#adad638206b292869b591798e5039129c":[2,0,156,12],
 "classViewerCamera.html#ade6c4f92df50886e9e809aef9f0279b2":[2,0,156,23],
 "classViewerCamera.html#adfaa8081859d356592e6dee73bbe1305":[2,0,156,0],
 "classViewerCamera.html#ae36774b7eeac9fb7b70507fba84d5fc4":[2,0,156,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "functions_vars_y.html":[2,2,2,23],
 "functions_vars_z.html":[2,2,2,24],
 "functions_w.html":[2,2,0,22],
-"functions_x.html":[2,2,0,23],
-"functions_y.html":[2,2,0,24]
+"functions_x.html":[2,2,0,23]
 };
